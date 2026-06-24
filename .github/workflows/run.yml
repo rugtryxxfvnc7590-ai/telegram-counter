@@ -2,10 +2,9 @@ name: Telegram Counter Bot
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/30 * * * *'    # 每30秒运行一次
   workflow_dispatch:
 
-# 关键：声明权限
 permissions:
   contents: write
 
@@ -41,8 +40,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state.json
           if git diff --quiet --exit-code state.json; then
-            echo "No changes to commit"
+            echo "No changes"
           else
-            git commit -m "Update state.json - auto count"
+            git commit -m "Update state.json"
             git push
           fi

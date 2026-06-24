@@ -1,5 +1,4 @@
 import os
-import json
 import requests
 import re
 from datetime import datetime, timedelta, timezone
@@ -26,11 +25,9 @@ def get_beijing_time():
     return datetime.now(timezone.utc) + timedelta(hours=8)
 
 def reply_to_message(chat_id, message_id, text):
-    """直接回复某条消息，并打印详细错误"""
-    if not BOT_TOKEN or not CHAT_ID:
-        print("❌ Token 或 Chat ID 为空，无法发送")
-        return
+    """优先回复消息，失败则普通发送"""
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    # 先尝试回复
     payload = {
         "chat_id": chat_id,
         "text": text,
@@ -38,11 +35,20 @@ def reply_to_message(chat_id, message_id, text):
     }
     try:
         r = requests.post(url, json=payload, timeout=10)
-        print(f"发送回复状态: {r.status_code} | 内容: {r.text[:200]}")
-        if r.status_code != 200:
-            print(f"❌ 发送失败，详细错误: {r.text}")
+        if r.status_code == 200:
+            print(f"✅ 成功回复消息 {message_id}")
+            return
+        else:
+            print(f"回复失败 ({r.status_code})，尝试普通发送")
+    except:
+        print("回复异常，尝试普通发送")
+
+    # 失败则普通发送
+    try:
+        r = requests.post(url, json={"chat_id": chat_id, "text": text}, timeout=10)
+        print(f"普通发送状态: {r.status_code}")
     except Exception as e:
-        print(f"❌ 发送异常: {e}")
+        print(f"发送失败: {e}")
 
 def main():
     print(f"Token 长度: {len(BOT_TOKEN) if BOT_TOKEN else 0}")
@@ -79,6 +85,8 @@ def main():
             actual_chat_id = str(msg["chat"]["id"])
             message_id = msg["message_id"]
 
+            print(f"收到消息 | 实际chat_id={actual_chat_id} | 含链接: {bool(TWITTER_REGEX.search(text))}")
+
             if actual_chat_id != CHAT_ID:
                 continue
 
@@ -88,21 +96,17 @@ def main():
                 print(f"🔗 检测到链接！当前计数: {current} | 消息ID: {message_id}")
 
                 if current == MAX_LIMIT:
-                    reply_to_message(actual_chat_id, message_id, 
-                        "截止此处！今日互推链接已满40条，超出部分不予转推！互推规则请看群置顶！")
+                    reply_to_message(actual_chat_id, message_id, "截止此处！今日互推链接已满40条，超出部分不予转推！互推规则请看群置顶！")
 
                 elif current > MAX_LIMIT:
                     excess = current - MAX_LIMIT
                     if excess % 3 == 1:
                         if excess <= 3:
-                            reply_to_message(actual_chat_id, message_id, 
-                                f"{current}已经超过40条了，再发我主人要来打你脑壳啦～")
+                            reply_to_message(actual_chat_id, message_id, f"{current}已经超过40条了，再发我主人要来打你脑壳啦～")
                         elif excess <= 6:
-                            reply_to_message(actual_chat_id, message_id, 
-                                f"要命了！！都已经{current}条了，早已经超过40条，再发我要咬人啦～")
+                            reply_to_message(actual_chat_id, message_id, f"要命了！！都已经{current}条了，早已经超过40条，再发我要咬人啦～")
                         else:
-                            reply_to_message(actual_chat_id, message_id, 
-                                f"最高40条，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
+                            reply_to_message(actual_chat_id, message_id, f"最高40条，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
 
         save_state(state)
         print(f"✅ 处理完成，最终计数: {state['count']}")

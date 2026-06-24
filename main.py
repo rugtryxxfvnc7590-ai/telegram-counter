@@ -6,9 +6,9 @@ from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
 CHAT_ID = "-5525900243"   # 新群硬编码
-
 MAX_LIMIT = 40
 STATE_FILE = "state.json"
+BACKLOG_THRESHOLD = 300   # 积压超过这个数量就自动跳到最新，避免被旧消息卡死
 
 TWITTER_REGEX = re.compile(r'https?://(?:www\.)?(?:twitter\.com|x\.com|t\.co)/', re.IGNORECASE)
 
@@ -38,9 +38,23 @@ def reply_to_message(chat_id, message_id, text):
     except Exception as e:
         print(f"回复异常: {e}")
 
+def check_and_skip_backlog(url, state):
+    """检测积压量，如果异常巨大就自动跳到最新，防止被旧消息卡死"""
+    try:
+        peek = requests.get(url, params={"offset": -1, "timeout": 0}, timeout=15).json()
+        results = peek.get("result", [])
+        if results:
+            latest_id = results[-1]["update_id"]
+            backlog = latest_id - state.get("offset", 0)
+            print(f"📊 当前积压量: {backlog}")
+            if backlog > BACKLOG_THRESHOLD:
+                print(f"⚠️ 积压超过阈值({BACKLOG_THRESHOLD})，自动跳到最新，丢弃旧积压")
+                state["offset"] = latest_id
+    except Exception as e:
+        print(f"积压检测异常: {e}")
+
 def main():
     print(f"当前硬编码 CHAT_ID: {CHAT_ID}")
-
     state = load_state()
     today = get_beijing_time().strftime("%Y-%m-%d")
     if state.get("date") != today:
@@ -49,31 +63,28 @@ def main():
         print("✅ 今日计数已重置")
 
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
-    params = {"offset": state.get("offset", 0) + 1, "timeout": 10, "allowed_updates": ["message"]}
 
+    check_and_skip_backlog(url, state)
+
+    params = {"offset": state.get("offset", 0) + 1, "timeout": 10, "allowed_updates": ["message"]}
     try:
         resp = requests.get(url, params=params, timeout=15)
         data = resp.json()
         updates = data.get("result", [])
         print(f"本次获取到 {len(updates)} 条消息")
-
         for update in updates:
             state["offset"] = update["update_id"]
             msg = update.get("message")
             if not msg or "text" not in msg:
                 continue
-
             text = msg["text"]
             actual_chat_id = str(msg["chat"]["id"])
             message_id = msg["message_id"]
-
             print(f"收到消息 | 实际chat_id={actual_chat_id} | 含链接: {bool(TWITTER_REGEX.search(text))}")
-
             if actual_chat_id == CHAT_ID and TWITTER_REGEX.search(text):
                 state["count"] += 1
                 current = state["count"]
                 print(f"🔗 【新群】检测到链接！当前计数: {current} | 消息ID: {message_id}")
-
                 if current == MAX_LIMIT:
                     reply_to_message(actual_chat_id, message_id, "截止此处！今日互推链接已满40条，超出部分不予转推！互推规则请看群置顶！")
                 elif current > MAX_LIMIT:
@@ -85,10 +96,8 @@ def main():
                             reply_to_message(actual_chat_id, message_id, f"要命了！！都已经{current}条了，早已经超过40条，再发我要咬人啦～")
                         else:
                             reply_to_message(actual_chat_id, message_id, f"最高40条，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
-
         save_state(state)
         print(f"✅ 处理完成，最终计数: {state['count']}")
-
     except Exception as e:
         print(f"运行异常: {e}")
 

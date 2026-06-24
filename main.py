@@ -4,16 +4,14 @@ import requests
 import re
 from datetime import datetime, timedelta, timezone
 
-# 配置
 BOT_TOKEN = os.getenv("8755020155:AAHy6IkSGF-9Tp4h8nsf4Uw2mIe0D9frtPs")
 CHAT_ID = os.getenv("-3599537338")
 MAX_LIMIT = 40
 
-# 文件路径
 STATE_FILE = "state.json"
 
-# Twitter/X 链接正则（一条消息只要有一个就算1条）
-TWITTER_REGEX = re.compile(r'https?://(?:www\.)?(?:twitter\.com|x\.com|t\.co)/[^\s]+')
+# 加强版正则
+TWITTER_REGEX = re.compile(r'https?://(?:www\.)?(?:twitter\.com|x\.com|t\.co)/', re.IGNORECASE)
 
 def load_state():
     if os.path.exists(STATE_FILE):
@@ -26,93 +24,91 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 def get_beijing_time():
-    """获取北京时间"""
     utc_now = datetime.now(timezone.utc)
     beijing = utc_now + timedelta(hours=8)
     return beijing
 
-def should_reset(state):
-    """判断是否需要重置计数（北京时间00:00）"""
-    today = get_beijing_time().strftime("%Y-%m-%d")
-    if state["date"] != today:
-        return True
-    return False
-
 def send_message(text):
-    """发送消息到群里"""
+    if not BOT_TOKEN or not CHAT_ID:
+        print("❌ Token 或 Chat ID 未设置，无法发送消息")
+        return
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    payload = {
-        "chat_id": CHAT_ID,
-        "text": text,
-        "parse_mode": "HTML"
-    }
+    payload = {"chat_id": CHAT_ID, "text": text}
     try:
-        requests.post(url, json=payload, timeout=10)
-    except:
-        pass  # 静默失败
+        r = requests.post(url, json=payload, timeout=10)
+        print(f"发送消息状态: {r.status_code} - {r.text[:200]}")
+    except Exception as e:
+        print(f"发送失败: {e}")
 
 def main():
+    if not BOT_TOKEN or not CHAT_ID:
+        print("❌ 错误：TELEGRAM_BOT_TOKEN 或 TELEGRAM_CHAT_ID 未在 Secrets 中设置！")
+        return
+
     state = load_state()
+    print(f"当前状态: count={state.get('count',0)}, date={state.get('date','')}, offset={state.get('offset',0)}")
     
-    # 检查是否需要每日重置
-    if should_reset(state):
+    # 每日重置
+    today = get_beijing_time().strftime("%Y-%m-%d")
+    if state.get("date") != today:
         state["count"] = 0
-        state["date"] = get_beijing_time().strftime("%Y-%m-%d")
+        state["date"] = today
         print("✅ 已重置今日计数")
     
-    # 获取新消息
+    # 获取消息
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
     params = {
-        "offset": state["offset"] + 1,
+        "offset": state.get("offset", 0) + 1,
         "timeout": 10,
         "allowed_updates": ["message"]
     }
     
     try:
         response = requests.get(url, params=params, timeout=15)
-        data = response.json()
+        print(f"getUpdates 状态码: {response.status_code}")
         
+        data = response.json()
         if not data.get("ok"):
-            print("API错误:", data)
+            print("API 错误:", data)
+            if data.get('description') == 'Not Found':
+                print("❌ BOT_TOKEN 可能错误，请重新检查 Token！")
             return
             
         updates = data.get("result", [])
+        print(f"本次获取到 {len(updates)} 条新消息")
         
         for update in updates:
+            state["offset"] = update["update_id"]
             message = update.get("message")
             if not message or "text" not in message:
-                state["offset"] = update["update_id"]
                 continue
                 
-            text = message["text"]
-            chat_id = str(message["chat"]["id"])
+            text = message.get("text", "")
+            msg_chat_id = str(message["chat"]["id"])
             
-            # 只处理目标群的消息
-            if chat_id != str(CHAT_ID):
-                state["offset"] = update["update_id"]
+            print(f"收到消息 chat_id={msg_chat_id}, 文本: {text[:100]}...")
+            
+            if msg_chat_id != str(CHAT_ID):
                 continue
             
-            # 检查是否包含 Twitter/X 链接
-            if TWITTER_REGEX.search(text):
+            has_link = bool(TWITTER_REGEX.search(text))
+            print(f"是否包含X/Twitter链接: {has_link}")
+            
+            if has_link:
                 state["count"] += 1
-                current_count = state["count"]
+                current = state["count"]
+                print(f"🔗 检测到链接！当前计数变为: {current}")
                 
-                print(f"🔗 检测到链接，当前计数: {current_count}")
-                
-                # 达到或超过限制时发消息
-                if current_count == MAX_LIMIT:
+                if current == MAX_LIMIT:
                     send_message("互推链接已到达40条，今日互推名单已截止，后面新链接将不被转推！")
-                elif current_count > MAX_LIMIT:
-                    send_message(f"当前互推链接（{current_count}）条已超出40条，今日互推仅转前40条，超出部分不予转推/不参与今日互推！")
-            
-            # 更新offset
-            state["offset"] = update["update_id"]
+                elif current > MAX_LIMIT:
+                    send_message(f"当前互推链接（{current}）条已超出40条，今日互推仅转前40条，超出部分不予转推！")
         
         save_state(state)
-        print(f"✅ 处理完成，当前计数: {state['count']}")
+        print(f"✅ 处理完成，最终计数: {state['count']}")
         
     except Exception as e:
-        print(f"错误: {e}")
+        print(f"运行出错: {e}")
 
 if __name__ == "__main__":
     main()

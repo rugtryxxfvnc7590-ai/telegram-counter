@@ -5,11 +5,12 @@ import re
 from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID").strip() if os.getenv("TELEGRAM_CHAT_ID") else None  # 直接读 Secret
-MY_CHAT_ID = "8614747348"    # 私信推送给你（你的私人 chat_id）
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID").strip() if os.getenv("TELEGRAM_CHAT_ID") else None
+MY_CHAT_ID = "8614747348"
 MAX_LIMIT = 40
 STATE_FILE = "state.json"
 
+BEIJING = timezone(timedelta(hours=8))
 TWITTER_REGEX = re.compile(r'https?://(?:www\.)?(?:twitter\.com|x\.com|t\.co)/', re.IGNORECASE)
 
 def load_state():
@@ -22,11 +23,15 @@ def save_state(state):
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
 
-def get_beijing_time():
-    return datetime.now(timezone.utc) + timedelta(hours=8)
+def beijing_day_of(unix_ts):
+    """根据消息unix时间戳，算出它属于北京时间的哪一天（YYYY-MM-DD）"""
+    return datetime.fromtimestamp(unix_ts, BEIJING).strftime("%Y-%m-%d")
+
+def beijing_full_time(unix_ts):
+    """把unix时间戳格式化成北京时间的完整时刻（精确到秒）"""
+    return datetime.fromtimestamp(unix_ts, BEIJING).strftime("%Y-%m-%d %H:%M:%S")
 
 def format_sender(msg):
-    """整理出发送人的显示名字 + @用户名"""
     user = msg.get("from", {})
     name = user.get("first_name", "")
     if user.get("last_name"):
@@ -37,7 +42,6 @@ def format_sender(msg):
     return name or "未知用户"
 
 def send_dm(text):
-    """私信推送给你本人"""
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {"chat_id": MY_CHAT_ID, "text": text, "disable_web_page_preview": True}
     try:
@@ -60,16 +64,11 @@ def reply_to_message(chat_id, message_id, text):
 
 def main():
     if not CHAT_ID:
-        print("❌ 没读到 TELEGRAM_CHAT_ID，请检查 Secret 是否存在")
+        print("❌ 没读到 TELEGRAM_CHAT_ID，请检查 Secret")
         return
 
     print(f"监听群已加载（私信对象: {MY_CHAT_ID}）")
     state = load_state()
-    today = get_beijing_time().strftime("%Y-%m-%d")
-    if state.get("date") != today:
-        state["count"] = 0
-        state["date"] = today
-        print("✅ 今日计数已重置（北京时间新的一天）")
 
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
     params = {"offset": state.get("offset", 0) + 1, "timeout": 10, "allowed_updates": ["message"]}
@@ -93,32 +92,49 @@ def main():
             actual_chat_id = str(msg["chat"]["id"])
             message_id = msg["message_id"]
 
-            if actual_chat_id == CHAT_ID and TWITTER_REGEX.search(text):
-                matched += 1
-                state["count"] += 1
-                current = state["count"]
-                sender = format_sender(msg)
-                print(f"🔗 检测到链接！当前计数: {current} | 发送人: {sender}")
+            if actual_chat_id != CHAT_ID or not TWITTER_REGEX.search(text):
+                continue
 
-                # 前40条（含第40条）：私信推送给你，并注明发送人
-                if current <= MAX_LIMIT:
-                    send_dm(f"📌 第 {current}/{MAX_LIMIT} 条互推链接\n发送人：{sender}\n链接：{text}")
+            # 用消息自带时间戳判断属于北京时间哪一天
+            msg_day = beijing_day_of(msg["date"])
+            msg_time = beijing_full_time(msg["date"])   # 完整发送时刻
 
-                # 群内提醒逻辑
-                if current == MAX_LIMIT:
-                    reply_to_message(actual_chat_id, message_id, "截止此处！今日互推链接已满40条，超出部分不予转推！互推规则请看群置顶！")
-                elif current > MAX_LIMIT:
-                    excess = current - MAX_LIMIT
-                    if excess % 3 == 1:
-                        if excess <= 3:
-                            reply_to_message(actual_chat_id, message_id, f"{current}已经超过40条了，再发我主人要来打你脑壳啦～")
-                        elif excess <= 6:
-                            reply_to_message(actual_chat_id, message_id, f"要命了！！都已经{current}条了，早已经超过40条，再发我要咬人啦～")
-                        else:
-                            reply_to_message(actual_chat_id, message_id, f"最高40条，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
+            # 跨天则先重置
+            if state.get("date") != msg_day:
+                state["count"] = 0
+                state["date"] = msg_day
+                print(f"✅ 计数已重置，进入新的一天: {msg_day}")
+
+            matched += 1
+            state["count"] += 1
+            current = state["count"]
+            sender = format_sender(msg)
+            print(f"🔗 [{msg_time}] 检测到链接！当前计数: {current} | 发送人: {sender}")
+
+            # 前40条（含第40条）：私信推送给你，带精准发送时间
+            if current <= MAX_LIMIT:
+                send_dm(
+                    f"📌 第 {current}/{MAX_LIMIT} 条互推链接\n"
+                    f"发送人：{sender}\n"
+                    f"发送时间：{msg_time}\n"
+                    f"链接：{text}"
+                )
+
+            # 群内提醒
+            if current == MAX_LIMIT:
+                reply_to_message(actual_chat_id, message_id, "截止此处！今日互推链接已满40条，超出部分不予转推！互推规则请看群置顶！")
+            elif current > MAX_LIMIT:
+                excess = current - MAX_LIMIT
+                if excess % 3 == 1:
+                    if excess <= 3:
+                        reply_to_message(actual_chat_id, message_id, f"你这是{current}条了，已经超过40条了，不列入互推名单了！")
+                    elif excess <= 6:
+                        reply_to_message(actual_chat_id, message_id, f"要命了！！都已经{current}条了，早已经截止了，再发我要咬人啦～")
+                    else:
+                        reply_to_message(actual_chat_id, message_id, f"40条就截止了，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
 
         save_state(state)
-        print(f"✅ 处理完成 | 本次匹配新群链接: {matched} 条 | 今日累计: {state['count']}")
+        print(f"✅ 处理完成 | 本次匹配: {matched} 条 | 当前日期: {state.get('date')} | 今日累计: {state['count']}")
     except Exception as e:
         print(f"运行异常: {e}")
 

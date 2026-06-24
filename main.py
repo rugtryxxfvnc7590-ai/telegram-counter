@@ -26,19 +26,23 @@ def get_beijing_time():
     return datetime.now(timezone.utc) + timedelta(hours=8)
 
 def reply_to_message(chat_id, message_id, text):
-    """直接回复某条具体消息"""
+    """直接回复某条消息，并打印详细错误"""
     if not BOT_TOKEN or not CHAT_ID:
+        print("❌ Token 或 Chat ID 为空，无法发送")
         return
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": chat_id,
+        "text": text,
+        "reply_to_message_id": message_id
+    }
     try:
-        requests.post(url, json={
-            "chat_id": chat_id,
-            "text": text,
-            "reply_to_message_id": message_id
-        }, timeout=10)
-        print(f"已回复消息ID {message_id}")
-    except:
-        pass
+        r = requests.post(url, json=payload, timeout=10)
+        print(f"发送回复状态: {r.status_code} | 内容: {r.text[:200]}")
+        if r.status_code != 200:
+            print(f"❌ 发送失败，详细错误: {r.text}")
+    except Exception as e:
+        print(f"❌ 发送异常: {e}")
 
 def main():
     print(f"Token 长度: {len(BOT_TOKEN) if BOT_TOKEN else 0}")
@@ -73,7 +77,7 @@ def main():
 
             text = msg["text"]
             actual_chat_id = str(msg["chat"]["id"])
-            message_id = msg["message_id"]   # 获取这条消息的ID
+            message_id = msg["message_id"]
 
             if actual_chat_id != CHAT_ID:
                 continue
@@ -83,14 +87,13 @@ def main():
                 current = state["count"]
                 print(f"🔗 检测到链接！当前计数: {current} | 消息ID: {message_id}")
 
-                # === 回复逻辑（直接回复用户的那条消息）===
                 if current == MAX_LIMIT:
                     reply_to_message(actual_chat_id, message_id, 
                         "截止此处！今日互推链接已满40条，超出部分不予转推！互推规则请看群置顶！")
 
                 elif current > MAX_LIMIT:
                     excess = current - MAX_LIMIT
-                    if excess % 3 == 1:   # 每超过3条提醒一次
+                    if excess % 3 == 1:
                         if excess <= 3:
                             reply_to_message(actual_chat_id, message_id, 
                                 f"{current}已经超过40条了，再发我主人要来打你脑壳啦～")
@@ -105,7 +108,7 @@ def main():
         print(f"✅ 处理完成，最终计数: {state['count']}")
 
     except Exception as e:
-        print(f"异常: {e}")
+        print(f"运行异常: {e}")
 
 if __name__ == "__main__":
     main()

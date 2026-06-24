@@ -26,10 +26,12 @@ def get_beijing_time():
     return datetime.now(timezone.utc) + timedelta(hours=8)
 
 def send_message(text):
+    if not BOT_TOKEN or not CHAT_ID:
+        return
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     try:
         requests.post(url, json={"chat_id": CHAT_ID, "text": text}, timeout=10)
-        print(f"已发送提醒: {text[:50]}...")
+        print(f"已发送提醒")
     except:
         pass
 
@@ -38,7 +40,7 @@ def main():
     print(f"配置的 CHAT_ID: {CHAT_ID}")
 
     if not BOT_TOKEN or not CHAT_ID:
-        print("Secrets 加载失败")
+        print("❌ Secrets 加载失败")
         return
 
     print("🎉 Secrets 加载成功！")
@@ -69,15 +71,28 @@ def main():
 
             text = msg["text"]
             actual_chat_id = str(msg["chat"]["id"])
-            print(f"收到消息 | 实际chat_id={actual_chat_id} | 文本长度={len(text)} | 含链接: {bool(TWITTER_REGEX.search(text))}")
+            has_link = bool(TWITTER_REGEX.search(text))
+            
+            print(f"收到消息 | 实际chat_id={actual_chat_id} | 文本长度={len(text)} | 含链接: {has_link}")
 
             if actual_chat_id != CHAT_ID:
                 continue
 
-            if TWITTER_REGEX.search(text):
+            if has_link:
                 state["count"] += 1
                 current = state["count"]
                 print(f"🔗 成功计数！当前: {current}")
 
                 if current == MAX_LIMIT:
-                    send_message("互推链接已到达40条，今日互推名单已截止，后面新链接
+                    send_message("互推链接已到达40条，今日互推名单已截止，后面新链接将不被转推！")
+                elif current > MAX_LIMIT:
+                    send_message(f"当前互推链接（{current}）条已超出40条，今日互推仅转前40条，超出部分不予转推！")
+
+        save_state(state)
+        print(f"✅ 处理完成，最终计数: {state['count']}")
+
+    except Exception as e:
+        print(f"异常: {e}")
+
+if __name__ == "__main__":
+    main()

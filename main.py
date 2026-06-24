@@ -5,7 +5,7 @@ import re
 from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
-CHAT_ID = "-3218974409"      # 要监听的新群（等下根据日志改成正确ID）
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID").strip() if os.getenv("TELEGRAM_CHAT_ID") else None  # 直接读 Secret
 MY_CHAT_ID = "8614747348"    # 私信推送给你（你的私人 chat_id）
 MAX_LIMIT = 40
 STATE_FILE = "state.json"
@@ -59,7 +59,11 @@ def reply_to_message(chat_id, message_id, text):
         print(f"回复异常: {e}")
 
 def main():
-    print(f"监听群: {CHAT_ID} | 私信对象: {MY_CHAT_ID}")
+    if not CHAT_ID:
+        print("❌ 没读到 TELEGRAM_CHAT_ID，请检查 Secret 是否存在")
+        return
+
+    print(f"监听群已加载（私信对象: {MY_CHAT_ID}）")
     state = load_state()
     today = get_beijing_time().strftime("%Y-%m-%d")
     if state.get("date") != today:
@@ -79,6 +83,7 @@ def main():
 
         updates = data.get("result", [])
         print(f"本次获取到 {len(updates)} 条更新")
+        matched = 0
         for update in updates:
             state["offset"] = update["update_id"]
             msg = update.get("message")
@@ -88,9 +93,8 @@ def main():
             actual_chat_id = str(msg["chat"]["id"])
             message_id = msg["message_id"]
 
-            print(f"👀 收到消息 | 实际chat_id={actual_chat_id} | 含链接: {bool(TWITTER_REGEX.search(text))}")
-
             if actual_chat_id == CHAT_ID and TWITTER_REGEX.search(text):
+                matched += 1
                 state["count"] += 1
                 current = state["count"]
                 sender = format_sender(msg)
@@ -114,7 +118,7 @@ def main():
                             reply_to_message(actual_chat_id, message_id, f"最高40条，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
 
         save_state(state)
-        print(f"✅ 处理完成，最终计数: {state['count']}")
+        print(f"✅ 处理完成 | 本次匹配新群链接: {matched} 条 | 今日累计: {state['count']}")
     except Exception as e:
         print(f"运行异常: {e}")
 

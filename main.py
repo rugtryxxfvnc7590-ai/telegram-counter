@@ -5,7 +5,7 @@ import re
 from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
-CHAT_ID = "-5525900243"      # 要监听的新群
+CHAT_ID = "-3218974409"      # 要监听的新群
 MY_CHAT_ID = "8614747348"    # 私信推送给你（你的私人 chat_id）
 MAX_LIMIT = 40
 STATE_FILE = "state.json"

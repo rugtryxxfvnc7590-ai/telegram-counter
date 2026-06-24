@@ -1,4 +1,5 @@
 import os
+import json
 import requests
 import re
 from datetime import datetime, timedelta, timezone
@@ -40,8 +41,8 @@ def reply_to_message(chat_id, message_id, text):
             return
         else:
             print(f"回复失败 ({r.status_code})，尝试普通发送")
-    except:
-        print("回复异常，尝试普通发送")
+    except Exception as e:
+        print(f"回复异常: {e}")
 
     # 失败则普通发送
     try:

@@ -5,7 +5,7 @@ import re
 from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
-CHAT_ID = "-1003218974409"      # 要监听的新群
+CHAT_ID = "-3218974409"      # 要监听的新群（等下根据日志改成正确ID）
 MY_CHAT_ID = "8614747348"    # 私信推送给你（你的私人 chat_id）
 MAX_LIMIT = 40
 STATE_FILE = "state.json"
@@ -87,6 +87,8 @@ def main():
             text = msg["text"]
             actual_chat_id = str(msg["chat"]["id"])
             message_id = msg["message_id"]
+
+            print(f"👀 收到消息 | 实际chat_id={actual_chat_id} | 含链接: {bool(TWITTER_REGEX.search(text))}")
 
             if actual_chat_id == CHAT_ID and TWITTER_REGEX.search(text):
                 state["count"] += 1

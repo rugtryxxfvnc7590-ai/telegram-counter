@@ -31,7 +31,7 @@ def send_message(text):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     try:
         requests.post(url, json={"chat_id": CHAT_ID, "text": text}, timeout=10)
-        print(f"已发送提醒")
+        print(f"已发送: {text[:60]}...")
     except:
         pass
 
@@ -57,11 +57,8 @@ def main():
 
     try:
         resp = requests.get(url, params=params, timeout=15)
-        print(f"getUpdates 状态码: {resp.status_code}")
-
         data = resp.json()
         updates = data.get("result", [])
-        print(f"本次获取到 {len(updates)} 条消息")
 
         for update in updates:
             state["offset"] = update["update_id"]
@@ -71,22 +68,28 @@ def main():
 
             text = msg["text"]
             actual_chat_id = str(msg["chat"]["id"])
-            has_link = bool(TWITTER_REGEX.search(text))
-            
-            print(f"收到消息 | 实际chat_id={actual_chat_id} | 文本长度={len(text)} | 含链接: {has_link}")
 
             if actual_chat_id != CHAT_ID:
                 continue
 
-            if has_link:
+            if TWITTER_REGEX.search(text):
                 state["count"] += 1
                 current = state["count"]
-                print(f"🔗 成功计数！当前: {current}")
+                print(f"🔗 检测到链接！当前计数: {current}")
 
+                # === 新的回复逻辑 ===
                 if current == MAX_LIMIT:
-                    send_message("互推链接已到达40条，今日互推名单已截止，后面新链接将不被转推！")
+                    send_message("截止此处！今日互推链接已满40条，超出部分不予转推！互推规则请看群置顶！")
+
                 elif current > MAX_LIMIT:
-                    send_message(f"当前互推链接（{current}）条已超出40条，今日互推仅转前40条，超出部分不予转推！")
+                    excess = current - MAX_LIMIT
+                    if excess % 3 == 1:   # 每超过3条提醒一次（43,46,49...）
+                        if excess <= 3:
+                            send_message(f"{current}已经超过40条了，再发我主人要来打你脑壳啦～")
+                        elif excess <= 6:
+                            send_message(f"要命了！！都已经{current}条了，早已经超过40条，再发我要咬人啦～")
+                        else:
+                            send_message(f"最高40条，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
 
         save_state(state)
         print(f"✅ 处理完成，最终计数: {state['count']}")

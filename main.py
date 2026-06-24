@@ -8,7 +8,7 @@ BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_T
 CHAT_ID = "-5525900243"   # 新群硬编码
 MAX_LIMIT = 40
 STATE_FILE = "state.json"
-BACKLOG_THRESHOLD = 300   # 积压超过这个数量就自动跳到最新，避免被旧消息卡死
+BACKLOG_THRESHOLD = 300
 
 TWITTER_REGEX = re.compile(r'https?://(?:www\.)?(?:twitter\.com|x\.com|t\.co)/', re.IGNORECASE)
 
@@ -27,29 +27,30 @@ def get_beijing_time():
 
 def reply_to_message(chat_id, message_id, text):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    payload = {
-        "chat_id": chat_id,
-        "text": text,
-        "reply_to_message_id": message_id
-    }
+    payload = {"chat_id": chat_id, "text": text, "reply_to_message_id": message_id}
     try:
         r = requests.post(url, json=payload, timeout=10)
-        print(f"回复状态: {r.status_code} | 消息ID: {message_id}")
+        print(f"回复状态: {r.status_code} | 消息ID: {message_id} | 响应: {r.text}")
     except Exception as e:
         print(f"回复异常: {e}")
 
 def check_and_skip_backlog(url, state):
-    """检测积压量，如果异常巨大就自动跳到最新，防止被旧消息卡死"""
     try:
-        peek = requests.get(url, params={"offset": -1, "timeout": 0}, timeout=15).json()
+        resp = requests.get(url, params={"offset": -1, "timeout": 0}, timeout=15)
+        peek = resp.json()
+        if not peek.get("ok"):
+            print(f"⚠️ 积压检测时 Telegram 返回异常: {peek}")
+            return
         results = peek.get("result", [])
         if results:
             latest_id = results[-1]["update_id"]
             backlog = latest_id - state.get("offset", 0)
             print(f"📊 当前积压量: {backlog}")
             if backlog > BACKLOG_THRESHOLD:
-                print(f"⚠️ 积压超过阈值({BACKLOG_THRESHOLD})，自动跳到最新，丢弃旧积压")
+                print(f"⚠️ 积压超过阈值({BACKLOG_THRESHOLD})，自动跳到最新")
                 state["offset"] = latest_id
+        else:
+            print("📊 当前没有任何待处理消息（队列为空）")
     except Exception as e:
         print(f"积压检测异常: {e}")
 
@@ -63,13 +64,17 @@ def main():
         print("✅ 今日计数已重置")
 
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
-
     check_and_skip_backlog(url, state)
 
     params = {"offset": state.get("offset", 0) + 1, "timeout": 10, "allowed_updates": ["message"]}
     try:
         resp = requests.get(url, params=params, timeout=15)
         data = resp.json()
+
+        if not data.get("ok"):
+            print(f"❌ Telegram API 返回错误(getUpdates): {data}")
+            return
+
         updates = data.get("result", [])
         print(f"本次获取到 {len(updates)} 条消息")
         for update in updates:

@@ -5,7 +5,8 @@ import re
 from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID").strip() if os.getenv("TELEGRAM_CHAT_ID") else None
+# 临时硬编码新群 ID（测试成功后再改回 Secrets）
+CHAT_ID = "-5525900243"
 
 MAX_LIMIT = 40
 STATE_FILE = "state.json"
@@ -26,9 +27,7 @@ def get_beijing_time():
     return datetime.now(timezone.utc) + timedelta(hours=8)
 
 def reply_to_message(chat_id, message_id, text):
-    """优先回复消息，失败则普通发送"""
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    # 先尝试回复
     payload = {
         "chat_id": chat_id,
         "text": text,
@@ -36,30 +35,21 @@ def reply_to_message(chat_id, message_id, text):
     }
     try:
         r = requests.post(url, json=payload, timeout=10)
-        if r.status_code == 200:
-            print(f"✅ 成功回复消息 {message_id}")
-            return
-        else:
-            print(f"回复失败 ({r.status_code})，尝试普通发送")
+        print(f"回复状态: {r.status_code} | 消息ID: {message_id}")
+        if r.status_code != 200:
+            print(f"错误详情: {r.text}")
     except Exception as e:
         print(f"回复异常: {e}")
 
-    # 失败则普通发送
-    try:
-        r = requests.post(url, json={"chat_id": chat_id, "text": text}, timeout=10)
-        print(f"普通发送状态: {r.status_code}")
-    except Exception as e:
-        print(f"发送失败: {e}")
-
 def main():
     print(f"Token 长度: {len(BOT_TOKEN) if BOT_TOKEN else 0}")
-    print(f"配置的 CHAT_ID: {CHAT_ID}")
+    print(f"当前使用的 CHAT_ID: {CHAT_ID} （硬编码）")
 
-    if not BOT_TOKEN or not CHAT_ID:
-        print("❌ Secrets 加载失败")
+    if not BOT_TOKEN:
+        print("❌ Token 加载失败")
         return
 
-    print("🎉 Secrets 加载成功！")
+    print("🎉 开始运行！")
 
     state = load_state()
     today = get_beijing_time().strftime("%Y-%m-%d")
@@ -107,13 +97,4 @@ def main():
                         elif excess <= 6:
                             reply_to_message(actual_chat_id, message_id, f"要命了！！都已经{current}条了，早已经超过40条，再发我要咬人啦～")
                         else:
-                            reply_to_message(actual_chat_id, message_id, f"最高40条，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
-
-        save_state(state)
-        print(f"✅ 处理完成，最终计数: {state['count']}")
-
-    except Exception as e:
-        print(f"运行异常: {e}")
-
-if __name__ == "__main__":
-    main()
+                            reply_to_message(actual_chat_id, message_id, f"最高40条，都已经{current}条了！你还发啊？！你完

@@ -4,13 +4,14 @@ import requests
 import re
 from datetime import datetime, timedelta, timezone
 
-# 使用你当前 Secrets 的名称
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+# 使用你修改后的 Secrets 名称
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 MAX_LIMIT = 40
 
 STATE_FILE = "state.json"
 
+# Twitter/X 链接正则（一条消息只要有至少一个就算1条）
 TWITTER_REGEX = re.compile(r'https?://(?:www\.)?(?:twitter\.com|x\.com|t\.co)/', re.IGNORECASE)
 
 def load_state():
@@ -40,26 +41,32 @@ def send_message(text):
         print(f"发送失败: {e}")
 
 def main():
-    print(f"BOT_TOKEN 是否加载: {'✅ 是' if BOT_TOKEN else '❌ 否'}")
-    print(f"CHAT_ID 是否加载: {'✅ 是' if CHAT_ID else '❌ 否'}")
+    print(f"BOT_TOKEN 加载: {'✅ 成功' if BOT_TOKEN else '❌ 失败'}")
+    print(f"CHAT_ID 加载: {'✅ 成功' if CHAT_ID else '❌ 失败'}")
     
     if not BOT_TOKEN or not CHAT_ID:
-        print("❌ Secrets 未正确读取！当前 Secrets 名称必须是 BOT_TOKEN 和 CHAT_ID")
+        print("❌ Secrets 读取失败！请确认名称是 TELEGRAM_BOT_TOKEN 和 TELEGRAM_CHAT_ID")
         return
 
-    print("🎉 Token 和 Chat ID 加载成功！")
-    
+    print("🎉 Token 和 Chat ID 加载成功！开始运行...")
+
     state = load_state()
     print(f"当前状态: count={state.get('count',0)}, date={state.get('date','')}")
     
+    # 每日重置（北京时间00:00）
     today = get_beijing_time().strftime("%Y-%m-%d")
     if state.get("date") != today:
         state["count"] = 0
         state["date"] = today
         print("✅ 已重置今日计数")
     
+    # 获取新消息
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
-    params = {"offset": state.get("offset", 0) + 1, "timeout": 10, "allowed_updates": ["message"]}
+    params = {
+        "offset": state.get("offset", 0) + 1,
+        "timeout": 10,
+        "allowed_updates": ["message"]
+    }
     
     try:
         response = requests.get(url, params=params, timeout=15)
@@ -82,13 +89,13 @@ def main():
             text = message["text"]
             msg_chat_id = str(message["chat"]["id"])
             
-            print(f"收到消息 chat_id={msg_chat_id}")
+            print(f"收到消息 | chat_id={msg_chat_id} | 文本: {text[:100]}...")
             
             if msg_chat_id != str(CHAT_ID):
                 continue
             
             has_link = bool(TWITTER_REGEX.search(text))
-            print(f"是否包含X链接: {has_link}")
+            print(f"是否包含 Twitter/X 链接: {has_link}")
             
             if has_link:
                 state["count"] += 1

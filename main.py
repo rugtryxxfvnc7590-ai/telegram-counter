@@ -35,20 +35,11 @@ def reply_to_message(chat_id, message_id, text):
     try:
         r = requests.post(url, json=payload, timeout=10)
         print(f"回复状态: {r.status_code} | 消息ID: {message_id}")
-        if r.status_code != 200:
-            print(f"错误详情: {r.text}")
     except Exception as e:
         print(f"回复异常: {e}")
 
 def main():
-    print(f"Token 长度: {len(BOT_TOKEN) if BOT_TOKEN else 0}")
-    print(f"当前使用的 CHAT_ID: {CHAT_ID} (硬编码新群)")
-
-    if not BOT_TOKEN:
-        print("❌ Token 加载失败")
-        return
-
-    print("🎉 开始运行！")
+    print(f"当前硬编码 CHAT_ID: {CHAT_ID}")
 
     state = load_state()
     today = get_beijing_time().strftime("%Y-%m-%d")
@@ -64,6 +55,7 @@ def main():
         resp = requests.get(url, params=params, timeout=15)
         data = resp.json()
         updates = data.get("result", [])
+        print(f"本次获取到 {len(updates)} 条消息")
 
         for update in updates:
             state["offset"] = update["update_id"]
@@ -77,17 +69,13 @@ def main():
 
             print(f"收到消息 | 实际chat_id={actual_chat_id} | 含链接: {bool(TWITTER_REGEX.search(text))}")
 
-            if actual_chat_id != CHAT_ID:
-                continue
-
-            if TWITTER_REGEX.search(text):
+            if actual_chat_id == CHAT_ID and TWITTER_REGEX.search(text):
                 state["count"] += 1
                 current = state["count"]
-                print(f"🔗 检测到链接！当前计数: {current} | 消息ID: {message_id}")
+                print(f"🔗 【新群】检测到链接！当前计数: {current} | 消息ID: {message_id}")
 
                 if current == MAX_LIMIT:
                     reply_to_message(actual_chat_id, message_id, "截止此处！今日互推链接已满40条，超出部分不予转推！互推规则请看群置顶！")
-
                 elif current > MAX_LIMIT:
                     excess = current - MAX_LIMIT
                     if excess % 3 == 1:

@@ -4,13 +4,13 @@ import requests
 import re
 from datetime import datetime, timedelta, timezone
 
-BOT_TOKEN = os.getenv("8755020155:AAHy6IkSGF-9Tp4h8nsf4Uw2mIe0D9frtPs")
-CHAT_ID = os.getenv("-3599537338")
+# 正确写法：使用 Secrets 的名称
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 MAX_LIMIT = 40
 
 STATE_FILE = "state.json"
 
-# 加强版正则
 TWITTER_REGEX = re.compile(r'https?://(?:www\.)?(?:twitter\.com|x\.com|t\.co)/', re.IGNORECASE)
 
 def load_state():
@@ -30,74 +30,66 @@ def get_beijing_time():
 
 def send_message(text):
     if not BOT_TOKEN or not CHAT_ID:
-        print("❌ Token 或 Chat ID 未设置，无法发送消息")
+        print("❌ Token 或 Chat ID 未正确加载")
         return
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    payload = {"chat_id": CHAT_ID, "text": text}
     try:
-        r = requests.post(url, json=payload, timeout=10)
-        print(f"发送消息状态: {r.status_code} - {r.text[:200]}")
+        r = requests.post(url, json={"chat_id": CHAT_ID, "text": text}, timeout=10)
+        print(f"发送消息状态: {r.status_code}")
     except Exception as e:
         print(f"发送失败: {e}")
 
 def main():
-    if not BOT_TOKEN or not CHAT_ID:
-        print("❌ 错误：TELEGRAM_BOT_TOKEN 或 TELEGRAM_CHAT_ID 未在 Secrets 中设置！")
+    if not BOT_TOKEN or BOT_TOKEN == "None" or not CHAT_ID:
+        print("❌ 严重错误：TELEGRAM_BOT_TOKEN 或 TELEGRAM_CHAT_ID 未在 Secrets 中正确设置！")
+        print(f"当前 BOT_TOKEN: {BOT_TOKEN}")
+        print(f"当前 CHAT_ID: {CHAT_ID}")
         return
 
     state = load_state()
-    print(f"当前状态: count={state.get('count',0)}, date={state.get('date','')}, offset={state.get('offset',0)}")
+    print(f"启动状态 → count={state.get('count',0)}, date={state.get('date','')}")
     
-    # 每日重置
     today = get_beijing_time().strftime("%Y-%m-%d")
     if state.get("date") != today:
         state["count"] = 0
         state["date"] = today
         print("✅ 已重置今日计数")
     
-    # 获取消息
+    # 获取新消息
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
-    params = {
-        "offset": state.get("offset", 0) + 1,
-        "timeout": 10,
-        "allowed_updates": ["message"]
-    }
+    params = {"offset": state.get("offset", 0) + 1, "timeout": 10}
     
     try:
         response = requests.get(url, params=params, timeout=15)
-        print(f"getUpdates 状态码: {response.status_code}")
+        print(f"API 状态码: {response.status_code}")
         
         data = response.json()
         if not data.get("ok"):
-            print("API 错误:", data)
-            if data.get('description') == 'Not Found':
-                print("❌ BOT_TOKEN 可能错误，请重新检查 Token！")
+            print("Telegram API 错误:", data)
             return
-            
+        
         updates = data.get("result", [])
-        print(f"本次获取到 {len(updates)} 条新消息")
+        print(f"获取到 {len(updates)} 条新消息")
         
         for update in updates:
             state["offset"] = update["update_id"]
             message = update.get("message")
             if not message or "text" not in message:
                 continue
-                
-            text = message.get("text", "")
-            msg_chat_id = str(message["chat"]["id"])
             
-            print(f"收到消息 chat_id={msg_chat_id}, 文本: {text[:100]}...")
+            text = message["text"]
+            chat_id = str(message["chat"]["id"])
             
-            if msg_chat_id != str(CHAT_ID):
+            if chat_id != str(CHAT_ID):
                 continue
             
             has_link = bool(TWITTER_REGEX.search(text))
-            print(f"是否包含X/Twitter链接: {has_link}")
+            print(f"检测到消息，包含X链接: {has_link}")
             
             if has_link:
                 state["count"] += 1
                 current = state["count"]
-                print(f"🔗 检测到链接！当前计数变为: {current}")
+                print(f"🔗 计数增加 → 当前 {current} 条")
                 
                 if current == MAX_LIMIT:
                     send_message("互推链接已到达40条，今日互推名单已截止，后面新链接将不被转推！")
@@ -105,10 +97,10 @@ def main():
                     send_message(f"当前互推链接（{current}）条已超出40条，今日互推仅转前40条，超出部分不予转推！")
         
         save_state(state)
-        print(f"✅ 处理完成，最终计数: {state['count']}")
+        print(f"✅ 本次运行完成，最终计数: {state['count']}")
         
     except Exception as e:
-        print(f"运行出错: {e}")
+        print(f"运行异常: {e}")
 
 if __name__ == "__main__":
     main()

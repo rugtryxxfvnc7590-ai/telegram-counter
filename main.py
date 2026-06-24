@@ -25,13 +25,18 @@ def save_state(state):
 def get_beijing_time():
     return datetime.now(timezone.utc) + timedelta(hours=8)
 
-def send_message(text):
+def reply_to_message(chat_id, message_id, text):
+    """直接回复某条具体消息"""
     if not BOT_TOKEN or not CHAT_ID:
         return
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     try:
-        requests.post(url, json={"chat_id": CHAT_ID, "text": text}, timeout=10)
-        print(f"已发送: {text[:60]}...")
+        requests.post(url, json={
+            "chat_id": chat_id,
+            "text": text,
+            "reply_to_message_id": message_id
+        }, timeout=10)
+        print(f"已回复消息ID {message_id}")
     except:
         pass
 
@@ -68,6 +73,7 @@ def main():
 
             text = msg["text"]
             actual_chat_id = str(msg["chat"]["id"])
+            message_id = msg["message_id"]   # 获取这条消息的ID
 
             if actual_chat_id != CHAT_ID:
                 continue
@@ -75,21 +81,25 @@ def main():
             if TWITTER_REGEX.search(text):
                 state["count"] += 1
                 current = state["count"]
-                print(f"🔗 检测到链接！当前计数: {current}")
+                print(f"🔗 检测到链接！当前计数: {current} | 消息ID: {message_id}")
 
-                # === 新的回复逻辑 ===
+                # === 回复逻辑（直接回复用户的那条消息）===
                 if current == MAX_LIMIT:
-                    send_message("截止此处！今日互推链接已满40条，超出部分不予转推！互推规则请看群置顶！")
+                    reply_to_message(actual_chat_id, message_id, 
+                        "截止此处！今日互推链接已满40条，超出部分不予转推！互推规则请看群置顶！")
 
                 elif current > MAX_LIMIT:
                     excess = current - MAX_LIMIT
-                    if excess % 3 == 1:   # 每超过3条提醒一次（43,46,49...）
+                    if excess % 3 == 1:   # 每超过3条提醒一次
                         if excess <= 3:
-                            send_message(f"{current}已经超过40条了，再发我主人要来打你脑壳啦～")
+                            reply_to_message(actual_chat_id, message_id, 
+                                f"{current}已经超过40条了，再发我主人要来打你脑壳啦～")
                         elif excess <= 6:
-                            send_message(f"要命了！！都已经{current}条了，早已经超过40条，再发我要咬人啦～")
+                            reply_to_message(actual_chat_id, message_id, 
+                                f"要命了！！都已经{current}条了，早已经超过40条，再发我要咬人啦～")
                         else:
-                            send_message(f"最高40条，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
+                            reply_to_message(actual_chat_id, message_id, 
+                                f"最高40条，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
 
         save_state(state)
         print(f"✅ 处理完成，最终计数: {state['count']}")

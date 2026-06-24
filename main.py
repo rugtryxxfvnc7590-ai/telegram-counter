@@ -5,8 +5,7 @@ import re
 from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
-# 临时硬编码新群 ID（测试成功后再改回 Secrets）
-CHAT_ID = "-5525900243"
+CHAT_ID = "-5525900243"   # 新群硬编码
 
 MAX_LIMIT = 40
 STATE_FILE = "state.json"
@@ -43,7 +42,7 @@ def reply_to_message(chat_id, message_id, text):
 
 def main():
     print(f"Token 长度: {len(BOT_TOKEN) if BOT_TOKEN else 0}")
-    print(f"当前使用的 CHAT_ID: {CHAT_ID} （硬编码）")
+    print(f"当前使用的 CHAT_ID: {CHAT_ID} (硬编码新群)")
 
     if not BOT_TOKEN:
         print("❌ Token 加载失败")
@@ -97,4 +96,13 @@ def main():
                         elif excess <= 6:
                             reply_to_message(actual_chat_id, message_id, f"要命了！！都已经{current}条了，早已经超过40条，再发我要咬人啦～")
                         else:
-                            reply_to_message(actual_chat_id, message_id, f"最高40条，都已经{current}条了！你还发啊？！你完
+                            reply_to_message(actual_chat_id, message_id, f"最高40条，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
+
+        save_state(state)
+        print(f"✅ 处理完成，最终计数: {state['count']}")
+
+    except Exception as e:
+        print(f"运行异常: {e}")
+
+if __name__ == "__main__":
+    main()

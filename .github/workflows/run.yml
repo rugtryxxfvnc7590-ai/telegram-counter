@@ -2,7 +2,7 @@ name: Telegram Counter Bot
 
 on:
   schedule:
-    - cron: '*/30 * * * *'    # 每30秒运行一次
+    - cron: '*/3 * * * *'     # 每 3 分钟运行一次
   workflow_dispatch:
 
 permissions:

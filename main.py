@@ -24,11 +24,9 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 def beijing_day_of(unix_ts):
-    """根据消息unix时间戳，算出它属于北京时间的哪一天（YYYY-MM-DD）"""
     return datetime.fromtimestamp(unix_ts, BEIJING).strftime("%Y-%m-%d")
 
 def beijing_full_time(unix_ts):
-    """把unix时间戳格式化成北京时间的完整时刻（精确到秒）"""
     return datetime.fromtimestamp(unix_ts, BEIJING).strftime("%Y-%m-%d %H:%M:%S")
 
 def format_sender(msg):
@@ -95,11 +93,9 @@ def main():
             if actual_chat_id != CHAT_ID or not TWITTER_REGEX.search(text):
                 continue
 
-            # 用消息自带时间戳判断属于北京时间哪一天
             msg_day = beijing_day_of(msg["date"])
-            msg_time = beijing_full_time(msg["date"])   # 完整发送时刻
+            msg_time = beijing_full_time(msg["date"])
 
-            # 跨天则先重置
             if state.get("date") != msg_day:
                 state["count"] = 0
                 state["date"] = msg_day
@@ -111,7 +107,6 @@ def main():
             sender = format_sender(msg)
             print(f"🔗 [{msg_time}] 检测到链接！当前计数: {current} | 发送人: {sender}")
 
-            # 前40条（含第40条）：私信推送给你，带精准发送时间
             if current <= MAX_LIMIT:
                 send_dm(
                     f"📌 第 {current}/{MAX_LIMIT} 条互推链接\n"
@@ -120,18 +115,22 @@ def main():
                     f"链接：{text}"
                 )
 
-            # 群内提醒
+            # 群内回复（机器猫人设·高情商·候选备用）
             if current == MAX_LIMIT:
-                reply_to_message(actual_chat_id, message_id, "截止此处！今日互推链接已满40条，超出部分不予转推！互推规则请看群置顶！")
+                reply_to_message(actual_chat_id, message_id,
+                    "🐾 叮当~ 今日互推已满40条，前40名已锁定上车！后面发的会被机器猫记进候选名单，如有空位会优先安排哦，辛苦各位啦~记得看群置顶规则呀！")
             elif current > MAX_LIMIT:
                 excess = current - MAX_LIMIT
                 if excess % 3 == 1:
                     if excess <= 3:
-                        reply_to_message(actual_chat_id, message_id, f"你这是{current}条了，已经超过40条了，不列入互推名单了！")
+                        reply_to_message(actual_chat_id, message_id,
+                            "🐾 机器猫收到啦~ 不过今日40个名额已满，你这条先帮你放进候选名单排队啦，有机会就给你顶上去！")
                     elif excess <= 6:
-                        reply_to_message(actual_chat_id, message_id, f"要命了！！都已经{current}条了，早已经截止了，再发我要咬人啦～")
+                        reply_to_message(actual_chat_id, message_id,
+                            "🐾 又有新链接~ 机器猫已经悄悄记下，放进候选备用区啦。今日正选已满，这些会作为优先候选，辛苦再等等~")
                     else:
-                        reply_to_message(actual_chat_id, message_id, f"40条就截止了，都已经{current}条了！你还发啊？！你完蛋了，放学别走！")
+                        reply_to_message(actual_chat_id, message_id,
+                            "🐾 机器猫的小本本快记满啦！今日40条正选早已满员，后面这些都帮你存进候选池，有空位时优先考虑，感谢理解和支持呀~")
 
         save_state(state)
         print(f"✅ 处理完成 | 本次匹配: {matched} 条 | 当前日期: {state.get('date')} | 今日累计: {state['count']}")

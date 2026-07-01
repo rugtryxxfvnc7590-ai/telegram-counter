@@ -9,9 +9,9 @@ MAX_LIMIT = 40
 STATE_FILE = "state.json"
 REGISTRY_FILE = "link_registry.json"
 
-# 群一（10万以上大佬群）电报群 ID
-GROUP_1_CHAT_ID = "-1003891628675"
-# 群二（5万以下新手营）由 GitHub Secret TELEGRAM_CHAT_ID 配置
+# 群一（10万以上大佬群）→ GitHub Secret TELEGRAM_CHAT_ID_GROUP1
+# 群二（5万以下新手营）→ GitHub Secret TELEGRAM_CHAT_ID
+GROUP_1_CHAT_ID_FALLBACK = "-1003891628675"
 
 BEIJING = timezone(timedelta(hours=8))
 TWITTER_REGEX = re.compile(r'https?://(?:www\.)?(?:twitter\.com|x\.com|t\.co)/', re.IGNORECASE)
@@ -35,13 +35,15 @@ def expand_chat_id(cid):
 
 def load_chat_ids():
     ids = set()
-    env = os.getenv("TELEGRAM_CHAT_ID", "").strip()
-    if env:
-        for part in env.split(","):
-            part = part.strip()
-            if part:
-                ids.update(expand_chat_id(part))
-    ids.update(expand_chat_id(GROUP_1_CHAT_ID))
+    for env_key in ("TELEGRAM_CHAT_ID", "TELEGRAM_CHAT_ID_GROUP1"):
+        env = os.getenv(env_key, "").strip()
+        if env:
+            for part in env.split(","):
+                part = part.strip()
+                if part:
+                    ids.update(expand_chat_id(part))
+    if not os.getenv("TELEGRAM_CHAT_ID_GROUP1", "").strip():
+        ids.update(expand_chat_id(GROUP_1_CHAT_ID_FALLBACK))
     return sorted(ids)
 
 
@@ -138,7 +140,7 @@ def main():
         print("❌ 没读到任何群 ID，请检查 TELEGRAM_CHAT_ID Secret")
         return
 
-    print(f"监听群: {chat_ids}（群二=Secret，群一={GROUP_1_CHAT_ID}；仅收录，不私信）")
+    print(f"监听群: {chat_ids}（群一=TELEGRAM_CHAT_ID_GROUP1，群二=TELEGRAM_CHAT_ID；仅收录，不私信）")
     state = load_state()
     registry = load_registry()
 

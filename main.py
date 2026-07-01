@@ -9,8 +9,9 @@ MAX_LIMIT = 40
 STATE_FILE = "state.json"
 REGISTRY_FILE = "link_registry.json"
 
-# 额外监听的群（在 Secret TELEGRAM_CHAT_ID 之外）
-EXTRA_CHAT_IDS = ["-1003891628675"]
+# 群一（10万以上大佬群）电报群 ID
+GROUP_1_CHAT_ID = "-1003891628675"
+# 群二（5万以下新手营）由 GitHub Secret TELEGRAM_CHAT_ID 配置
 
 BEIJING = timezone(timedelta(hours=8))
 TWITTER_REGEX = re.compile(r'https?://(?:www\.)?(?:twitter\.com|x\.com|t\.co)/', re.IGNORECASE)
@@ -29,7 +30,7 @@ def load_chat_ids():
             part = part.strip()
             if part:
                 ids.append(part)
-    for cid in EXTRA_CHAT_IDS:
+    for cid in (GROUP_1_CHAT_ID,):
         if cid not in ids:
             ids.append(cid)
     return ids
@@ -65,8 +66,11 @@ def load_registry():
         with open(REGISTRY_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
     else:
-        data = {"date": "", "by_x_handle": {}}
-    data.setdefault("by_x_handle", {})
+        data = {"date": "", "entries": {}}
+    if "entries" not in data and data.get("by_x_handle"):
+        legacy_cid = os.getenv("TELEGRAM_CHAT_ID", "").strip().split(",")[0].strip()
+        data = {"date": data.get("date", ""), "entries": {legacy_cid: data["by_x_handle"]}}
+    data.setdefault("entries", {})
     return data
 
 
@@ -97,7 +101,8 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time):
     name = user.get("first_name", "")
     if user.get("last_name"):
         name += " " + user["last_name"]
-    registry["by_x_handle"][x_handle] = {
+    bucket = registry.setdefault("entries", {}).setdefault(chat_id, {})
+    bucket[x_handle] = {
         "x_handle": x_handle,
         "tg_username": user.get("username") or "",
         "tg_user_id": user.get("id"),
@@ -124,7 +129,7 @@ def main():
         print("❌ 没读到任何群 ID，请检查 TELEGRAM_CHAT_ID Secret")
         return
 
-    print(f"监听群: {chat_ids}（仅收录，不再私信推送每条链接）")
+    print(f"监听群: {chat_ids}（群二=Secret，群一={GROUP_1_CHAT_ID}；仅收录，不私信）")
     state = load_state()
     registry = load_registry()
 
@@ -163,7 +168,7 @@ def main():
                 print(f"✅ 计数已重置，进入新的一天: {msg_day}")
 
             if registry.get("date") != msg_day:
-                registry = {"date": msg_day, "by_x_handle": {}}
+                registry = {"date": msg_day, "entries": {}}
                 print(f"✅ 链接收录已重置: {msg_day}")
 
             grp = state["groups"].setdefault(actual_chat_id, {"count": 0})
@@ -210,7 +215,7 @@ def main():
         save_state(state)
         save_registry(registry)
         total = sum(g.get("count", 0) for g in state.get("groups", {}).values())
-        reg_n = len(registry.get("by_x_handle", {}))
+        reg_n = sum(len(v) for v in registry.get("entries", {}).values())
         print(
             f"✅ 处理完成 | 本次匹配: {matched} 条 | 日期: {state.get('date')} "
             f"| 各群计数: {state.get('groups')} | 今日收录 X 账号: {reg_n} 个"

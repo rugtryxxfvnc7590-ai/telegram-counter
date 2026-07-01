@@ -22,18 +22,27 @@ X_HANDLE_RE = re.compile(
 SKIP_HANDLES = frozenset({"i", "intent", "search", "home", "share", "hashtag"})
 
 
+def expand_chat_id(cid):
+    """兼容 Telegram 群 ID 短格式（-3599…）与完整格式（-1003599…）。"""
+    cid = str(cid).strip()
+    out = {cid}
+    if cid.startswith("-100") and len(cid) > 4:
+        out.add("-" + cid[4:])
+    elif cid.startswith("-") and not cid.startswith("-100"):
+        out.add("-100" + cid[1:])
+    return out
+
+
 def load_chat_ids():
-    ids = []
+    ids = set()
     env = os.getenv("TELEGRAM_CHAT_ID", "").strip()
     if env:
         for part in env.split(","):
             part = part.strip()
             if part:
-                ids.append(part)
-    for cid in (GROUP_1_CHAT_ID,):
-        if cid not in ids:
-            ids.append(cid)
-    return ids
+                ids.update(expand_chat_id(part))
+    ids.update(expand_chat_id(GROUP_1_CHAT_ID))
+    return sorted(ids)
 
 
 def load_state():

@@ -34,12 +34,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state.json
+          git add state.json link_registry.json
           git status
           if git diff --staged --quiet; then
-            echo "state.json 无变化，跳过提交"
+            echo "state.json / link_registry.json 无变化，跳过提交"
           else
-            git commit -m "Update state.json [skip ci]"
+            git commit -m "Update bot state and link registry [skip ci]"
             git push origin HEAD:main
             echo "✅ state.json 已提交"
           fi

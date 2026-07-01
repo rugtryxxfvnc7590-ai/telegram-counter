@@ -5,51 +5,108 @@ import re
 from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID").strip() if os.getenv("TELEGRAM_CHAT_ID") else None
-MY_CHAT_ID = "8614747348"
 MAX_LIMIT = 40
 STATE_FILE = "state.json"
+REGISTRY_FILE = "link_registry.json"
+
+# 额外监听的群（在 Secret TELEGRAM_CHAT_ID 之外）
+EXTRA_CHAT_IDS = ["-1003891628675"]
 
 BEIJING = timezone(timedelta(hours=8))
 TWITTER_REGEX = re.compile(r'https?://(?:www\.)?(?:twitter\.com|x\.com|t\.co)/', re.IGNORECASE)
+X_HANDLE_RE = re.compile(
+    r'https?://(?:www\.)?(?:twitter\.com|x\.com)/(@?)([A-Za-z0-9_]{1,15})(?:/|$|\?)',
+    re.IGNORECASE,
+)
+SKIP_HANDLES = frozenset({"i", "intent", "search", "home", "share", "hashtag"})
+
+
+def load_chat_ids():
+    ids = []
+    env = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+    if env:
+        for part in env.split(","):
+            part = part.strip()
+            if part:
+                ids.append(part)
+    for cid in EXTRA_CHAT_IDS:
+        if cid not in ids:
+            ids.append(cid)
+    return ids
+
 
 def load_state():
     if os.path.exists(STATE_FILE):
-        with open(STATE_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    return {"count": 0, "date": "", "offset": 0}
+        with open(STATE_FILE, "r", encoding="utf-8") as f:
+            state = json.load(f)
+    else:
+        state = {}
+    if "groups" not in state:
+        legacy = state.get("count", 0)
+        legacy_cid = os.getenv("TELEGRAM_CHAT_ID", "").strip().split(",")[0].strip()
+        state = {
+            "date": state.get("date", ""),
+            "offset": state.get("offset", 0),
+            "groups": {legacy_cid: {"count": legacy}} if legacy_cid else {},
+        }
+    state.setdefault("groups", {})
+    state.setdefault("offset", 0)
+    state.setdefault("date", "")
+    return state
+
 
 def save_state(state):
-    with open(STATE_FILE, 'w', encoding='utf-8') as f:
+    with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
+
+
+def load_registry():
+    if os.path.exists(REGISTRY_FILE):
+        with open(REGISTRY_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    else:
+        data = {"date": "", "by_x_handle": {}}
+    data.setdefault("by_x_handle", {})
+    return data
+
+
+def save_registry(registry):
+    with open(REGISTRY_FILE, "w", encoding="utf-8") as f:
+        json.dump(registry, f, ensure_ascii=False, indent=2)
+
 
 def beijing_day_of(unix_ts):
     return datetime.fromtimestamp(unix_ts, BEIJING).strftime("%Y-%m-%d")
 
+
 def beijing_full_time(unix_ts):
     return datetime.fromtimestamp(unix_ts, BEIJING).strftime("%Y-%m-%d %H:%M:%S")
 
-def format_sender(msg):
+
+def extract_x_handles(text):
+    handles = set()
+    for m in X_HANDLE_RE.finditer(text or ""):
+        handle = m.group(2).lower()
+        if handle not in SKIP_HANDLES:
+            handles.add(handle)
+    return handles
+
+
+def record_link(registry, x_handle, msg, text, chat_id, msg_time):
     user = msg.get("from", {})
     name = user.get("first_name", "")
     if user.get("last_name"):
         name += " " + user["last_name"]
-    username = user.get("username")
-    if username:
-        return f"{name}（@{username}）"
-    return name or "未知用户"
+    registry["by_x_handle"][x_handle] = {
+        "x_handle": x_handle,
+        "tg_username": user.get("username") or "",
+        "tg_user_id": user.get("id"),
+        "tg_name": name.strip() or "未知用户",
+        "link": text,
+        "chat_id": chat_id,
+        "time": msg_time,
+    }
 
-def send_dm(text):
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    payload = {"chat_id": MY_CHAT_ID, "text": text, "disable_web_page_preview": True}
-    try:
-        r = requests.post(url, json=payload, timeout=10)
-        if r.json().get("ok"):
-            print("📩 已私信推送")
-        else:
-            print(f"❌ 私信失败（你可能还没私聊过机器人）: {r.text}")
-    except Exception as e:
-        print(f"私信异常: {e}")
 
 def reply_to_message(chat_id, message_id, text):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
@@ -60,13 +117,16 @@ def reply_to_message(chat_id, message_id, text):
     except Exception as e:
         print(f"回复异常: {e}")
 
+
 def main():
-    if not CHAT_ID:
-        print("❌ 没读到 TELEGRAM_CHAT_ID，请检查 Secret")
+    chat_ids = load_chat_ids()
+    if not chat_ids:
+        print("❌ 没读到任何群 ID，请检查 TELEGRAM_CHAT_ID Secret")
         return
 
-    print(f"监听群已加载（私信对象: {MY_CHAT_ID}）")
+    print(f"监听群: {chat_ids}（仅收录，不再私信推送每条链接）")
     state = load_state()
+    registry = load_registry()
 
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
     params = {"offset": state.get("offset", 0) + 1, "timeout": 10, "allowed_updates": ["message"]}
@@ -86,56 +146,78 @@ def main():
             msg = update.get("message")
             if not msg or "text" not in msg:
                 continue
+
             text = msg["text"]
             actual_chat_id = str(msg["chat"]["id"])
             message_id = msg["message_id"]
 
-            if actual_chat_id != CHAT_ID or not TWITTER_REGEX.search(text):
+            if actual_chat_id not in chat_ids or not TWITTER_REGEX.search(text):
                 continue
 
             msg_day = beijing_day_of(msg["date"])
             msg_time = beijing_full_time(msg["date"])
 
             if state.get("date") != msg_day:
-                state["count"] = 0
                 state["date"] = msg_day
+                state["groups"] = {}
                 print(f"✅ 计数已重置，进入新的一天: {msg_day}")
 
+            if registry.get("date") != msg_day:
+                registry = {"date": msg_day, "by_x_handle": {}}
+                print(f"✅ 链接收录已重置: {msg_day}")
+
+            grp = state["groups"].setdefault(actual_chat_id, {"count": 0})
+            grp["count"] += 1
+            current = grp["count"]
             matched += 1
-            state["count"] += 1
-            current = state["count"]
-            sender = format_sender(msg)
-            print(f"🔗 [{msg_time}] 检测到链接！当前计数: {current} | 发送人: {sender}")
 
-            if current <= MAX_LIMIT:
-                send_dm(
-                    f"📌 第 {current}/{MAX_LIMIT} 条互推链接\n"
-                    f"发送人：{sender}\n"
-                    f"发送时间：{msg_time}\n"
-                    f"链接：{text}"
-                )
+            user = msg.get("from", {})
+            tg_tag = f"@{user['username']}" if user.get("username") else user.get("first_name", "?")
+            print(f"🔗 [{msg_time}] 群 {actual_chat_id} 第 {current} 条 | 发送人: {tg_tag}")
 
-            # 群内回复（机器猫人设·高情商·候选备用）
+            for handle in extract_x_handles(text):
+                record_link(registry, handle, msg, text, actual_chat_id, msg_time)
+                print(f"   📝 收录 @{handle} ← {tg_tag}")
+
             if current == MAX_LIMIT:
-                reply_to_message(actual_chat_id, message_id,
-                    "🐾 叮当~ 今日互推已满40条，前40名已锁定上车！后面发的会被机器猫记进候选名单，如有空位会优先安排哦，辛苦各位啦~记得看群置顶规则呀！")
+                reply_to_message(
+                    actual_chat_id,
+                    message_id,
+                    "🐾 叮当~ 今日互推已满40条，前40名已锁定上车！后面发的会被机器猫记进候选名单，如有空位会优先安排哦，辛苦各位啦~记得看群置顶规则呀！",
+                )
             elif current > MAX_LIMIT:
                 excess = current - MAX_LIMIT
                 if excess % 3 == 1:
                     if excess <= 3:
-                        reply_to_message(actual_chat_id, message_id,
-                            "🐾 机器猫收到啦~ 不过今日40个名额已满，你这条先帮你放进候选名单排队啦，有机会就给你顶上去！")
+                        reply_to_message(
+                            actual_chat_id,
+                            message_id,
+                            "🐾 机器猫收到啦~ 不过今日40个名额已满，你这条先帮你放进候选名单排队啦，有机会就给你顶上去！",
+                        )
                     elif excess <= 6:
-                        reply_to_message(actual_chat_id, message_id,
-                            "🐾 又有新链接~ 机器猫已经悄悄记下，放进候选备用区啦。今日正选已满，这些会作为优先候选，辛苦再等等~")
+                        reply_to_message(
+                            actual_chat_id,
+                            message_id,
+                            "🐾 又有新链接~ 机器猫已经悄悄记下，放进候选备用区啦。今日正选已满，这些会作为优先候选，辛苦再等等~",
+                        )
                     else:
-                        reply_to_message(actual_chat_id, message_id,
-                            "🐾 机器猫的小本本快记满啦！今日40条正选早已满员，后面这些都帮你存进候选池，有空位时优先考虑，感谢理解和支持呀~")
+                        reply_to_message(
+                            actual_chat_id,
+                            message_id,
+                            "🐾 机器猫的小本本快记满啦！今日40条正选早已满员，后面这些都帮你存进候选池，有空位时优先考虑，感谢理解和支持呀~",
+                        )
 
         save_state(state)
-        print(f"✅ 处理完成 | 本次匹配: {matched} 条 | 当前日期: {state.get('date')} | 今日累计: {state['count']}")
+        save_registry(registry)
+        total = sum(g.get("count", 0) for g in state.get("groups", {}).values())
+        reg_n = len(registry.get("by_x_handle", {}))
+        print(
+            f"✅ 处理完成 | 本次匹配: {matched} 条 | 日期: {state.get('date')} "
+            f"| 各群计数: {state.get('groups')} | 今日收录 X 账号: {reg_n} 个"
+        )
     except Exception as e:
         print(f"运行异常: {e}")
+
 
 if __name__ == "__main__":
     main()

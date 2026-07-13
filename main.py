@@ -107,7 +107,30 @@ def extract_x_handles(text):
     return handles
 
 
-def record_link(registry, x_handle, msg, text, chat_id, msg_time):
+def extract_x_handles_ordered(text):
+    """按消息里出现顺序提取 X 账号（去重保留首次）。"""
+    seen, ordered = set(), []
+    for m in X_HANDLE_RE.finditer(text or ""):
+        handle = m.group(2).lower()
+        if handle in SKIP_HANDLES or handle in seen:
+            continue
+        seen.add(handle)
+        ordered.append(handle)
+    return ordered
+
+
+def parse_check_handle(text):
+    """双链接 → 最后一条为回推号；单链接 → 该号本身。"""
+    ordered = extract_x_handles_ordered(text)
+    if not ordered:
+        return None, False, None
+    if len(ordered) >= 2:
+        return ordered[-1], True, ordered[0]
+    return ordered[0], False, ordered[0]
+
+
+def record_link(registry, x_handle, msg, text, chat_id, msg_time,
+                check_handle=None, dual_link=False, promo_handle=None):
     user = msg.get("from", {})
     name = user.get("first_name", "")
     if user.get("last_name"):
@@ -115,6 +138,9 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time):
     bucket = registry.setdefault("entries", {}).setdefault(chat_id, {})
     bucket[x_handle] = {
         "x_handle": x_handle,
+        "check_handle": check_handle or x_handle,
+        "dual_link": bool(dual_link),
+        "promo_handle": promo_handle or x_handle,
         "tg_username": user.get("username") or "",
         "tg_user_id": user.get("id"),
         "tg_name": name.strip() or "未知用户",
@@ -191,9 +217,14 @@ def main():
             tg_tag = f"@{user['username']}" if user.get("username") else user.get("first_name", "?")
             print(f"🔗 [{msg_time}] 群 {actual_chat_id} 第 {current} 条 | 发送人: {tg_tag}")
 
+            check_handle, dual_link, promo_handle = parse_check_handle(text)
             for handle in extract_x_handles(text):
-                record_link(registry, handle, msg, text, actual_chat_id, msg_time)
-                print(f"   📝 收录 @{handle} ← {tg_tag}")
+                record_link(
+                    registry, handle, msg, text, actual_chat_id, msg_time,
+                    check_handle=check_handle, dual_link=dual_link, promo_handle=promo_handle,
+                )
+                extra = f" → 查 @{check_handle}" if dual_link and handle != check_handle else ""
+                print(f"   📝 收录 @{handle} ← {tg_tag}{extra}")
 
             if current == MAX_LIMIT:
                 reply_to_message(

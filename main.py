@@ -20,6 +20,9 @@ X_HANDLE_RE = re.compile(
     re.IGNORECASE,
 )
 SKIP_HANDLES = frozenset({"i", "intent", "search", "home", "share", "hashtag"})
+X_URL_RE = re.compile(r"https?://(?:www\.)?(?:twitter\.com|x\.com)/[^\s\n]+", re.IGNORECASE)
+I_STATUS_RE = re.compile(r"/i/status/(\d+)", re.IGNORECASE)
+_tweet_author_cache = {}
 
 
 def expand_chat_id(cid):
@@ -98,25 +101,59 @@ def beijing_full_time(unix_ts):
     return datetime.fromtimestamp(unix_ts, BEIJING).strftime("%Y-%m-%d %H:%M:%S")
 
 
-def extract_x_handles(text):
-    handles = set()
-    for m in X_HANDLE_RE.finditer(text or ""):
-        handle = m.group(2).lower()
-        if handle not in SKIP_HANDLES:
-            handles.add(handle)
-    return handles
+def resolve_tweet_author(tweet_id):
+    """x.com/i/status/推文ID → 反查作者 @（无官方 API）。"""
+    tid = str(tweet_id).strip()
+    if not tid:
+        return None
+    if tid in _tweet_author_cache:
+        return _tweet_author_cache[tid]
+    handle = None
+    try:
+        r = requests.get(f"https://api.fxtwitter.com/i/status/{tid}", timeout=12)
+        if r.status_code == 200:
+            data = r.json()
+            sn = (data.get("tweet") or {}).get("author", {}).get("screen_name")
+            if sn:
+                handle = sn.lower()
+    except Exception as e:
+        print(f"   ⚠️ 推文 {tid} 反查作者失败: {e}")
+    _tweet_author_cache[tid] = handle
+    return handle
 
 
-def extract_x_handles_ordered(text):
-    """按消息里出现顺序提取 X 账号（去重保留首次）。"""
+def _handle_from_x_url(url):
+    """从单条 X 链接解析用户名；/i/status/ 走推文反查。"""
+    i_m = I_STATUS_RE.search(url or "")
+    if i_m:
+        return resolve_tweet_author(i_m.group(1))
+    h_m = X_HANDLE_RE.search(url)
+    if not h_m:
+        return None
+    handle = h_m.group(2).lower()
+    if handle in SKIP_HANDLES:
+        return None
+    return handle
+
+
+def extract_handles_ordered(text):
+    """按消息里链接出现顺序提取 X 账号（含 /i/status/ 反查）。"""
     seen, ordered = set(), []
-    for m in X_HANDLE_RE.finditer(text or ""):
-        handle = m.group(2).lower()
-        if handle in SKIP_HANDLES or handle in seen:
+    for m in X_URL_RE.finditer(text or ""):
+        handle = _handle_from_x_url(m.group(0))
+        if not handle or handle in seen:
             continue
         seen.add(handle)
         ordered.append(handle)
     return ordered
+
+
+def extract_x_handles(text):
+    return set(extract_handles_ordered(text))
+
+
+def extract_x_handles_ordered(text):
+    return extract_handles_ordered(text)
 
 
 def parse_check_handle(text):
@@ -218,12 +255,20 @@ def main():
             print(f"🔗 [{msg_time}] 群 {actual_chat_id} 第 {current} 条 | 发送人: {tg_tag}")
 
             check_handle, dual_link, promo_handle = parse_check_handle(text)
-            for handle in extract_x_handles(text):
+            handles = extract_handles_ordered(text)
+            if not handles:
+                print(f"   ⚠️ 未能从链接解析 X 账号 ← {tg_tag}")
+            for handle in handles:
                 record_link(
                     registry, handle, msg, text, actual_chat_id, msg_time,
-                    check_handle=check_handle, dual_link=dual_link, promo_handle=promo_handle,
+                    check_handle=check_handle or handle, dual_link=dual_link,
+                    promo_handle=promo_handle or handle,
                 )
-                extra = f" → 查 @{check_handle}" if dual_link and handle != check_handle else ""
+                extra = ""
+                if dual_link and check_handle and handle != check_handle:
+                    extra = f" → 查 @{check_handle}"
+                elif I_STATUS_RE.search(text):
+                    extra = " (i/status反查)"
                 print(f"   📝 收录 @{handle} ← {tg_tag}{extra}")
 
             if current == MAX_LIMIT:

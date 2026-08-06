@@ -1,8 +1,15 @@
 name: Telegram Counter Bot
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    # GitHub Actions 的 cron 使用 UTC；每 15 分钟的间隔不受时区影响。
+    - cron: '*/15 * * * *'
   workflow_dispatch:
+
+# 状态会提交回仓库，禁止两次运行同时读写同一个 offset/count。
+concurrency:
+  group: telegram-counter-bot
+  cancel-in-progress: false
+
 permissions:
   contents: write
 jobs:
@@ -23,6 +30,9 @@ jobs:
 
       - name: 安装依赖
         run: pip install -r requirements.txt
+
+      - name: 验证北京时间跨日边界
+        run: python -m unittest -v
 
       - name: 运行机器人
         env:

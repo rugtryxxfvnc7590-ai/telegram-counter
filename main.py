@@ -2,7 +2,8 @@ import os
 import json
 import requests
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
 MAX_LIMIT = 40
@@ -13,7 +14,8 @@ REGISTRY_FILE = "link_registry.json"
 # 群二（5万以下新手营）→ GitHub Secret TELEGRAM_CHAT_ID
 GROUP_1_CHAT_ID_FALLBACK = "-1003891628675"
 
-BEIJING = timezone(timedelta(hours=8))
+# Telegram 消息的 date 是 Unix 时间戳，统一换算到中国标准时间。
+BEIJING = ZoneInfo("Asia/Shanghai")
 TWITTER_REGEX = re.compile(r'https?://(?:www\.)?(?:twitter\.com|x\.com|t\.co)/', re.IGNORECASE)
 X_HANDLE_RE = re.compile(
     r'https?://(?:www\.)?(?:twitter\.com|x\.com)/(@?)([A-Za-z0-9_]{1,15})(?:/|$|\?)',

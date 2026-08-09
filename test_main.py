@@ -5,7 +5,14 @@ import sys
 
 # 时区单元测试不会访问 Telegram/X，无需安装网络依赖。
 sys.modules.setdefault("requests", ModuleType("requests"))
-from main import beijing_day_of, beijing_full_time
+from main import (
+    beijing_day_of,
+    beijing_full_time,
+    extract_x_handles_ordered,
+    extract_x_links_ordered,
+    parse_check_handle,
+    record_link,
+)
 
 
 class BeijingTimeTest(unittest.TestCase):
@@ -20,6 +27,43 @@ class BeijingTimeTest(unittest.TestCase):
 
         self.assertEqual(beijing_day_of(timestamp), "2026-08-06")
         self.assertEqual(beijing_full_time(timestamp), "2026-08-06 00:00:00")
+
+
+class LinkParsingTest(unittest.TestCase):
+    def test_three_x_link_formats_are_parsed(self):
+        text = "\n".join([
+            "[https://x.com/tianqipaidui/status/2034586318882414816?s=46&t=X8zwROumk3_na_EtR83SQw](https://x.com/tianqipaidui/status/2034586318882414816?s=46&t=X8zwROumk3_na_EtR83SQw)",
+            "[https://x.com/yzlzp77/status/2085158793932071149?s=46](https://x.com/yzlzp77/status/2085158793932071149?s=46)",
+            "[https://x.com/i/status/2085928788068831535](https://x.com/i/status/2085928788068831535)",
+        ])
+        links = extract_x_links_ordered(text)
+        self.assertEqual([item["post_id"] for item in links], [
+            "2034586318882414816",
+            "2085158793932071149",
+            "2085928788068831535",
+        ])
+        self.assertEqual([item["handle"] for item in links[:2]], ["tianqipaidui", "yzlzp77"])
+
+    def test_second_link_is_check_handle(self):
+        text = "https://x.com/promoA/status/111?s=46\nhttps://x.com/checkB/status/222?s=46"
+        self.assertEqual(extract_x_handles_ordered(text), ["promoa", "checkb"])
+        self.assertEqual(parse_check_handle(text), ("checkb", True, "promoa"))
+
+    def test_record_link_keeps_message_text_and_post_ids(self):
+        text = "https://x.com/promoA/status/111?s=46\nhttps://x.com/checkB/status/222?s=46"
+        links = extract_x_links_ordered(text)
+        msg = {"from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+        record_link(
+            registry, "promoa", msg, text, "-1001", "2026-08-09 00:01:02",
+            check_handle="checkb", dual_link=True, promo_handle="promoa", links=links,
+        )
+        entry = registry["entries"]["-1001"]["promoa"]
+        self.assertEqual(entry["tg_username"], "tg_user")
+        self.assertEqual(entry["message_text"], text)
+        self.assertEqual(entry["promo_post_id"], "111")
+        self.assertEqual(entry["check_post_id"], "222")
+        self.assertIn("111", registry["post_entries"]["-1001"])
 
 
 if __name__ == "__main__":

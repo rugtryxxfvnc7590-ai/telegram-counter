@@ -3,12 +3,14 @@ import json
 import requests
 import re
 from datetime import datetime
+from pathlib import Path
 from zoneinfo import ZoneInfo
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
 MAX_LIMIT = 40
 STATE_FILE = "state.json"
 REGISTRY_FILE = "link_registry.json"
+REGISTRY_HISTORY_DIR = "registry_history"
 
 # 群一（10万以上大佬群）→ GitHub Secret TELEGRAM_CHAT_ID_GROUP1
 # 群二（5万以下新手营）→ GitHub Secret TELEGRAM_CHAT_ID
@@ -22,7 +24,8 @@ X_HANDLE_RE = re.compile(
     re.IGNORECASE,
 )
 SKIP_HANDLES = frozenset({"i", "intent", "search", "home", "share", "hashtag"})
-X_URL_RE = re.compile(r"https?://(?:www\.)?(?:twitter\.com|x\.com)/[^\s\n]+", re.IGNORECASE)
+X_URL_RE = re.compile(r"https?://(?:www\.)?(?:twitter\.com|x\.com)/[^\s\]\)<>\"]+", re.IGNORECASE)
+STATUS_RE = re.compile(r"/(?:i/)?status/(\d+)", re.IGNORECASE)
 I_STATUS_RE = re.compile(r"/i/status/(\d+)", re.IGNORECASE)
 _tweet_author_cache = {}
 
@@ -87,11 +90,24 @@ def load_registry():
         legacy_cid = os.getenv("TELEGRAM_CHAT_ID", "").strip().split(",")[0].strip()
         data = {"date": data.get("date", ""), "entries": {legacy_cid: data["by_x_handle"]}}
     data.setdefault("entries", {})
+    data.setdefault("post_entries", {})
     return data
 
 
 def save_registry(registry):
     with open(REGISTRY_FILE, "w", encoding="utf-8") as f:
+        json.dump(registry, f, ensure_ascii=False, indent=2)
+    save_registry_archive(registry)
+
+
+def save_registry_archive(registry):
+    day = (registry or {}).get("date")
+    if not day:
+        return
+    archive_dir = Path(REGISTRY_HISTORY_DIR)
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    path = archive_dir / f"{day}.json"
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(registry, f, ensure_ascii=False, indent=2)
 
 
@@ -138,11 +154,41 @@ def _handle_from_x_url(url):
     return handle
 
 
+def _status_id_from_x_url(url):
+    m = STATUS_RE.search(url or "")
+    return m.group(1) if m else ""
+
+
+def extract_x_links_ordered(text):
+    links = []
+    seen_urls = set()
+    for idx, m in enumerate(X_URL_RE.finditer(text or ""), start=1):
+        url = m.group(0).rstrip(".,，。；;：:")
+        if url in seen_urls:
+            continue
+        seen_urls.add(url)
+        handle = _handle_from_x_url(url)
+        links.append({
+            "order": len(links) + 1,
+            "url": url,
+            "handle": handle or "",
+            "post_id": _status_id_from_x_url(url),
+            "role": "",
+        })
+    if links:
+        links[0]["role"] = "promo"
+    if len(links) >= 2:
+        links[1]["role"] = "check"
+    for item in links[2:]:
+        item["role"] = "extra"
+    return links
+
+
 def extract_handles_ordered(text):
     """按消息里链接出现顺序提取 X 账号（含 /i/status/ 反查）。"""
     seen, ordered = set(), []
-    for m in X_URL_RE.finditer(text or ""):
-        handle = _handle_from_x_url(m.group(0))
+    for item in extract_x_links_ordered(text):
+        handle = item.get("handle")
         if not handle or handle in seen:
             continue
         seen.add(handle)
@@ -159,23 +205,32 @@ def extract_x_handles_ordered(text):
 
 
 def parse_check_handle(text):
-    """双链接 → 最后一条为回推号；单链接 → 该号本身。"""
+    """第一条链接为互推原帖号；第二条链接为回推检查号；单链接用该号本身。"""
     ordered = extract_x_handles_ordered(text)
     if not ordered:
         return None, False, None
     if len(ordered) >= 2:
-        return ordered[-1], True, ordered[0]
+        return ordered[1], True, ordered[0]
     return ordered[0], False, ordered[0]
 
 
+def _link_by_role(links, role):
+    for item in links or []:
+        if item.get("role") == role:
+            return item
+    return {}
+
+
 def record_link(registry, x_handle, msg, text, chat_id, msg_time,
-                check_handle=None, dual_link=False, promo_handle=None):
+                check_handle=None, dual_link=False, promo_handle=None, links=None):
     user = msg.get("from", {})
     name = user.get("first_name", "")
     if user.get("last_name"):
         name += " " + user["last_name"]
+    promo_link = _link_by_role(links, "promo")
+    check_link = _link_by_role(links, "check") or promo_link
     bucket = registry.setdefault("entries", {}).setdefault(chat_id, {})
-    bucket[x_handle] = {
+    entry = {
         "x_handle": x_handle,
         "check_handle": check_handle or x_handle,
         "dual_link": bool(dual_link),
@@ -184,9 +239,53 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "tg_user_id": user.get("id"),
         "tg_name": name.strip() or "未知用户",
         "link": text,
+        "message_text": text,
+        "links": links or [],
+        "promo_url": promo_link.get("url", ""),
+        "check_url": check_link.get("url", ""),
+        "promo_post_id": promo_link.get("post_id", ""),
+        "check_post_id": check_link.get("post_id", ""),
         "chat_id": chat_id,
         "time": msg_time,
     }
+    bucket[x_handle] = entry
+    post_bucket = registry.setdefault("post_entries", {}).setdefault(chat_id, {})
+    for item in links or []:
+        post_id = item.get("post_id")
+        if post_id:
+            post_bucket[post_id] = dict(entry, x_handle=item.get("handle") or x_handle)
+
+
+def record_post_only(registry, msg, text, chat_id, msg_time, links):
+    user = msg.get("from", {})
+    name = user.get("first_name", "")
+    if user.get("last_name"):
+        name += " " + user["last_name"]
+    post_bucket = registry.setdefault("post_entries", {}).setdefault(chat_id, {})
+    promo_link = _link_by_role(links, "promo")
+    check_link = _link_by_role(links, "check") or promo_link
+    for item in links or []:
+        post_id = item.get("post_id")
+        if not post_id:
+            continue
+        post_bucket[post_id] = {
+            "x_handle": item.get("handle") or "",
+            "check_handle": check_link.get("handle") or "",
+            "dual_link": len(links) >= 2,
+            "promo_handle": promo_link.get("handle") or "",
+            "tg_username": user.get("username") or "",
+            "tg_user_id": user.get("id"),
+            "tg_name": name.strip() or "未知用户",
+            "link": text,
+            "message_text": text,
+            "links": links or [],
+            "promo_url": promo_link.get("url", ""),
+            "check_url": check_link.get("url", ""),
+            "promo_post_id": promo_link.get("post_id", ""),
+            "check_post_id": check_link.get("post_id", ""),
+            "chat_id": chat_id,
+            "time": msg_time,
+        }
 
 
 def reply_to_message(chat_id, message_id, text):
@@ -244,6 +343,7 @@ def main():
                 print(f"✅ 计数已重置，进入新的一天: {msg_day}")
 
             if registry.get("date") != msg_day:
+                save_registry_archive(registry)
                 registry = {"date": msg_day, "entries": {}}
                 print(f"✅ 链接收录已重置: {msg_day}")
 
@@ -257,14 +357,16 @@ def main():
             print(f"🔗 [{msg_time}] 群 {actual_chat_id} 第 {current} 条 | 发送人: {tg_tag}")
 
             check_handle, dual_link, promo_handle = parse_check_handle(text)
+            links = extract_x_links_ordered(text)
             handles = extract_handles_ordered(text)
             if not handles:
                 print(f"   ⚠️ 未能从链接解析 X 账号 ← {tg_tag}")
+                record_post_only(registry, msg, text, actual_chat_id, msg_time, links)
             for handle in handles:
                 record_link(
                     registry, handle, msg, text, actual_chat_id, msg_time,
                     check_handle=check_handle or handle, dual_link=dual_link,
-                    promo_handle=promo_handle or handle,
+                    promo_handle=promo_handle or handle, links=links,
                 )
                 extra = ""
                 if dual_link and check_handle and handle != check_handle:

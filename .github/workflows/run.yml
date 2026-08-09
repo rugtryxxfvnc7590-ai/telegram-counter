@@ -39,6 +39,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_CHAT_ID_GROUP1: ${{ secrets.TELEGRAM_CHAT_ID_GROUP1 }}
+          TELEGRAM_CHAT_ID_GROUP3: ${{ secrets.TELEGRAM_CHAT_ID_GROUP3 }}
         run: python main.py
 
       - name: 提交状态更新

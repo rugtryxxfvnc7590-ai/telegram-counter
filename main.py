@@ -14,7 +14,9 @@ REGISTRY_HISTORY_DIR = "registry_history"
 
 # 群一（10万以上大佬群）→ GitHub Secret TELEGRAM_CHAT_ID_GROUP1
 # 群二（5万以下新手营）→ GitHub Secret TELEGRAM_CHAT_ID
+# 群三 → GitHub Secret TELEGRAM_CHAT_ID_GROUP3，未配置时使用固定群 ID
 GROUP_1_CHAT_ID_FALLBACK = "-1003891628675"
+GROUP_3_CHAT_ID_FALLBACK = "-1003739822194"
 
 # Telegram 消息的 date 是 Unix 时间戳，统一换算到中国标准时间。
 BEIJING = ZoneInfo("Asia/Shanghai")
@@ -43,7 +45,7 @@ def expand_chat_id(cid):
 
 def load_chat_ids():
     ids = set()
-    for env_key in ("TELEGRAM_CHAT_ID", "TELEGRAM_CHAT_ID_GROUP1"):
+    for env_key in ("TELEGRAM_CHAT_ID", "TELEGRAM_CHAT_ID_GROUP1", "TELEGRAM_CHAT_ID_GROUP3"):
         env = os.getenv(env_key, "").strip()
         if env:
             for part in env.split(","):
@@ -52,6 +54,8 @@ def load_chat_ids():
                     ids.update(expand_chat_id(part))
     if not os.getenv("TELEGRAM_CHAT_ID_GROUP1", "").strip():
         ids.update(expand_chat_id(GROUP_1_CHAT_ID_FALLBACK))
+    if not os.getenv("TELEGRAM_CHAT_ID_GROUP3", "").strip():
+        ids.update(expand_chat_id(GROUP_3_CHAT_ID_FALLBACK))
     return sorted(ids)
 
 
@@ -304,7 +308,10 @@ def main():
         print("❌ 没读到任何群 ID，请检查 TELEGRAM_CHAT_ID Secret")
         return
 
-    print(f"监听群: {chat_ids}（群一=TELEGRAM_CHAT_ID_GROUP1，群二=TELEGRAM_CHAT_ID；仅收录，不私信）")
+    print(
+        f"监听群: {chat_ids}（群一=TELEGRAM_CHAT_ID_GROUP1，"
+        "群二=TELEGRAM_CHAT_ID，群三=TELEGRAM_CHAT_ID_GROUP3；仅收录，不私信）"
+    )
     state = load_state()
     registry = load_registry()
 

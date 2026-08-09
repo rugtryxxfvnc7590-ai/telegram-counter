@@ -337,6 +337,32 @@
         "link": "https://x.com/koio95/status/2086258770179670149?s=46",
         "chat_id": "-1003218974409",
         "time": "2026-08-09 09:11:09"
+      },
+      "cicimo_o": {
+        "x_handle": "cicimo_o",
+        "check_handle": "cicimo_o",
+        "dual_link": false,
+        "promo_handle": "cicimo_o",
+        "tg_username": "Cicimo_oO",
+        "tg_user_id": 7348226714,
+        "tg_name": "诗 诗💗",
+        "link": "诗诗\n\nhttps://x.com/cicimo_o/status/2086298223078183030?s=46",
+        "message_text": "诗诗\n\nhttps://x.com/cicimo_o/status/2086298223078183030?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cicimo_o/status/2086298223078183030?s=46",
+            "handle": "cicimo_o",
+            "post_id": "2086298223078183030",
+            "role": "promo"
+          }
+        ],
+        "promo_url": "https://x.com/cicimo_o/status/2086298223078183030?s=46",
+        "check_url": "https://x.com/cicimo_o/status/2086298223078183030?s=46",
+        "promo_post_id": "2086298223078183030",
+        "check_post_id": "2086298223078183030",
+        "chat_id": "-1003218974409",
+        "time": "2026-08-09 11:47:59"
       }
     },
     "-1003891628675": {
@@ -594,5 +620,34 @@
       }
     }
   },
-  "post_entries": {}
+  "post_entries": {
+    "-1003218974409": {
+      "2086298223078183030": {
+        "x_handle": "cicimo_o",
+        "check_handle": "cicimo_o",
+        "dual_link": false,
+        "promo_handle": "cicimo_o",
+        "tg_username": "Cicimo_oO",
+        "tg_user_id": 7348226714,
+        "tg_name": "诗 诗💗",
+        "link": "诗诗\n\nhttps://x.com/cicimo_o/status/2086298223078183030?s=46",
+        "message_text": "诗诗\n\nhttps://x.com/cicimo_o/status/2086298223078183030?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cicimo_o/status/2086298223078183030?s=46",
+            "handle": "cicimo_o",
+            "post_id": "2086298223078183030",
+            "role": "promo"
+          }
+        ],
+        "promo_url": "https://x.com/cicimo_o/status/2086298223078183030?s=46",
+        "check_url": "https://x.com/cicimo_o/status/2086298223078183030?s=46",
+        "promo_post_id": "2086298223078183030",
+        "check_post_id": "2086298223078183030",
+        "chat_id": "-1003218974409",
+        "time": "2026-08-09 11:47:59"
+      }
+    }
+  }
 }

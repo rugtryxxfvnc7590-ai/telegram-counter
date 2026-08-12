@@ -52,11 +52,15 @@ def load_chat_ids():
                 part = part.strip()
                 if part:
                     ids.update(expand_chat_id(part))
-    if not os.getenv("TELEGRAM_CHAT_ID_GROUP1", "").strip():
-        ids.update(expand_chat_id(GROUP_1_CHAT_ID_FALLBACK))
+    ids.update(expand_chat_id(GROUP_1_CHAT_ID_FALLBACK))
     if not os.getenv("TELEGRAM_CHAT_ID_GROUP3", "").strip():
         ids.update(expand_chat_id(GROUP_3_CHAT_ID_FALLBACK))
     return sorted(ids)
+
+
+def limit_reply_enabled(chat_id):
+    """群一只收录链接，不发满 40 条/候选名单提示。"""
+    return str(chat_id).strip() not in expand_chat_id(GROUP_1_CHAT_ID_FALLBACK)
 
 
 def load_state():
@@ -382,13 +386,13 @@ def main():
                     extra = " (i/status反查)"
                 print(f"   📝 收录 @{handle} ← {tg_tag}{extra}")
 
-            if current == MAX_LIMIT:
+            if limit_reply_enabled(actual_chat_id) and current == MAX_LIMIT:
                 reply_to_message(
                     actual_chat_id,
                     message_id,
                     "🐾 叮当~ 今日互推已满40条，前40名已锁定上车！后面发的会被机器猫记进候选名单，如有空位会优先安排哦，辛苦各位啦~记得看群置顶规则呀！",
                 )
-            elif current > MAX_LIMIT:
+            elif limit_reply_enabled(actual_chat_id) and current > MAX_LIMIT:
                 excess = current - MAX_LIMIT
                 if excess % 3 == 1:
                     if excess <= 3:

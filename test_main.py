@@ -11,6 +11,7 @@ from main import (
     beijing_full_time,
     extract_x_handles_ordered,
     extract_x_links_ordered,
+    limit_reply_enabled,
     load_chat_ids,
     parse_check_handle,
     record_link,
@@ -47,6 +48,26 @@ class LinkParsingTest(unittest.TestCase):
         self.assertIn("-3739822194", ids)
         self.assertIn("-1003891628675", ids)
         self.assertIn("-1003218974409", ids)
+
+    def test_group1_chat_id_is_always_listened_even_when_env_is_set(self):
+        with patch.dict(
+            "os.environ",
+            {
+                "TELEGRAM_CHAT_ID": "-1003218974409",
+                "TELEGRAM_CHAT_ID_GROUP1": "-1001111111111",
+                "TELEGRAM_CHAT_ID_GROUP3": "",
+            },
+            clear=True,
+        ):
+            ids = set(load_chat_ids())
+        self.assertIn("-1003891628675", ids)
+        self.assertIn("-3891628675", ids)
+        self.assertIn("-1001111111111", ids)
+
+    def test_group1_limit_reply_is_disabled(self):
+        self.assertFalse(limit_reply_enabled("-1003891628675"))
+        self.assertFalse(limit_reply_enabled("-3891628675"))
+        self.assertTrue(limit_reply_enabled("-1003218974409"))
 
     def test_three_x_link_formats_are_parsed(self):
         text = "\n".join([

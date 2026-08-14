@@ -11,6 +11,7 @@ MAX_LIMIT = 40
 STATE_FILE = "state.json"
 REGISTRY_FILE = "link_registry.json"
 REGISTRY_HISTORY_DIR = "registry_history"
+GROUP_REGISTRY_DIR = "registry_groups"
 
 # 群一（10万以上大佬群）→ GitHub Secret TELEGRAM_CHAT_ID_GROUP1
 # 群二（5万以下新手营）→ GitHub Secret TELEGRAM_CHAT_ID
@@ -66,6 +67,17 @@ def load_chat_ids():
 def limit_reply_enabled(chat_id):
     """群一只收录链接，不发满 40 条/候选名单提示。"""
     return str(chat_id).strip() not in expand_chat_id(GROUP_1_CHAT_ID_FALLBACK)
+
+
+def group_label_for_chat(chat_id):
+    cid = str(chat_id).strip()
+    if cid in expand_chat_id(GROUP_1_CHAT_ID_FALLBACK):
+        return "群一"
+    if cid in expand_chat_id(GROUP_2_CHAT_ID_FALLBACK):
+        return "群二"
+    if cid in expand_chat_id(GROUP_3_CHAT_ID_FALLBACK):
+        return "群三"
+    return "chat_" + cid.replace("-", "m")
 
 
 def min_followers_for_chat(chat_id):
@@ -126,6 +138,7 @@ def save_registry(registry):
     with open(REGISTRY_FILE, "w", encoding="utf-8") as f:
         json.dump(registry, f, ensure_ascii=False, indent=2)
     save_registry_archive(registry)
+    save_group_registry_exports(registry)
 
 
 def save_registry_archive(registry):
@@ -137,6 +150,39 @@ def save_registry_archive(registry):
     path = archive_dir / f"{day}.json"
     with open(path, "w", encoding="utf-8") as f:
         json.dump(registry, f, ensure_ascii=False, indent=2)
+
+
+def _registry_bucket_for_chat(registry, bucket_name, chat_id):
+    bucket = {}
+    for cid in expand_chat_id(chat_id):
+        items = ((registry or {}).get(bucket_name) or {}).get(cid)
+        if items:
+            bucket[cid] = items
+    return bucket
+
+
+def _single_group_registry(registry, chat_id):
+    return {
+        "date": (registry or {}).get("date", ""),
+        "entries": _registry_bucket_for_chat(registry, "entries", chat_id),
+        "post_entries": _registry_bucket_for_chat(registry, "post_entries", chat_id),
+    }
+
+
+def save_group_registry_exports(registry, base_dir=GROUP_REGISTRY_DIR):
+    day = (registry or {}).get("date")
+    base = Path(base_dir)
+    for chat_id in (GROUP_1_CHAT_ID_FALLBACK, GROUP_2_CHAT_ID_FALLBACK, GROUP_3_CHAT_ID_FALLBACK):
+        group_data = _single_group_registry(registry, chat_id)
+        group_dir = base / group_label_for_chat(chat_id)
+        group_dir.mkdir(parents=True, exist_ok=True)
+        with open(group_dir / "link_registry.json", "w", encoding="utf-8") as f:
+            json.dump(group_data, f, ensure_ascii=False, indent=2)
+        if day:
+            history_dir = group_dir / "history"
+            history_dir.mkdir(parents=True, exist_ok=True)
+            with open(history_dir / f"{day}.json", "w", encoding="utf-8") as f:
+                json.dump(group_data, f, ensure_ascii=False, indent=2)
 
 
 def _bounded_list_append(values, value, limit=800):

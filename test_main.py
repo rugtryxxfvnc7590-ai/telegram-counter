@@ -1,4 +1,6 @@
 import unittest
+import json
+import tempfile
 from datetime import datetime, timezone
 from types import ModuleType
 import sys
@@ -26,6 +28,7 @@ from main import (
     promo_link_missing_required_mentions,
     record_link,
     remove_registry_rows_for_message,
+    save_group_registry_exports,
 )
 
 
@@ -86,6 +89,54 @@ class LinkParsingTest(unittest.TestCase):
         self.assertEqual(min_followers_for_chat("-1003891628675"), 100000)
         self.assertEqual(min_followers_for_chat("-1003218974409"), 20000)
         self.assertEqual(min_followers_for_chat("-1003739822194"), 0)
+
+    def test_group_registry_exports_are_separated_and_keep_multiple_posts(self):
+        registry = {
+            "date": "2026-08-14",
+            "entries": {
+                "-1003891628675": {"same": {"promo_handle": "same", "chat_id": "-1003891628675"}},
+                "-1003218974409": {"same": {"promo_handle": "same", "chat_id": "-1003218974409"}},
+            },
+            "post_entries": {
+                "-1003891628675": {
+                    "111": {
+                        "promo_handle": "same",
+                        "promo_post_id": "111",
+                        "chat_id": "-1003891628675",
+                        "tg_username": "tg_same",
+                    },
+                    "222": {
+                        "promo_handle": "same",
+                        "promo_post_id": "222",
+                        "chat_id": "-1003891628675",
+                        "tg_username": "tg_same",
+                    },
+                },
+                "-1003218974409": {
+                    "333": {
+                        "promo_handle": "same",
+                        "promo_post_id": "333",
+                        "chat_id": "-1003218974409",
+                        "tg_username": "tg_same",
+                    },
+                },
+            },
+        }
+        with tempfile.TemporaryDirectory() as td:
+            save_group_registry_exports(registry, base_dir=td)
+            with open(f"{td}/群一/link_registry.json", encoding="utf-8") as f:
+                group1 = json.load(f)
+            with open(f"{td}/群二/link_registry.json", encoding="utf-8") as f:
+                group2 = json.load(f)
+            with open(f"{td}/群三/link_registry.json", encoding="utf-8") as f:
+                group3 = json.load(f)
+
+        self.assertEqual(set(group1["post_entries"]["-1003891628675"]), {"111", "222"})
+        self.assertNotIn("-1003218974409", group1["post_entries"])
+        self.assertEqual(set(group2["post_entries"]["-1003218974409"]), {"333"})
+        self.assertNotIn("-1003891628675", group2["post_entries"])
+        self.assertEqual(group3["entries"], {})
+        self.assertEqual(group3["post_entries"], {})
 
     def test_three_x_link_formats_are_parsed(self):
         text = "\n".join([

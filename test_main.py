@@ -25,6 +25,7 @@ from main import (
     promo_link_below_minimum,
     promo_link_missing_required_mentions,
     record_link,
+    remove_registry_rows_for_message,
 )
 
 
@@ -237,6 +238,27 @@ class LinkParsingTest(unittest.TestCase):
         self.assertTrue(promo_link_missing_required_mentions(links))
         self.assertFalse(entry["mutual_eligible"])
         self.assertEqual(entry["eligibility_text"], "❌缺少指定@")
+
+    def test_edited_message_replaces_old_registry_rows(self):
+        registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+        msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        old_text = "https://x.com/old/status/111?s=46"
+        old_links = extract_x_links_ordered(old_text)
+        record_link(registry, "old", msg, old_text, "-1003218974409", "2026-08-09 00:00:00", links=old_links)
+
+        msg["edit_date"] = 1786204801
+        removed = remove_registry_rows_for_message(registry, "-1003218974409", 456)
+        new_text = "https://x.com/new/status/222?s=46"
+        new_links = extract_x_links_ordered(new_text)
+        record_link(registry, "new", msg, new_text, "-1003218974409", "2026-08-09 00:00:00", links=new_links)
+
+        self.assertEqual(removed, 2)
+        self.assertNotIn("old", registry["entries"]["-1003218974409"])
+        self.assertNotIn("111", registry["post_entries"]["-1003218974409"])
+        self.assertIn("new", registry["entries"]["-1003218974409"])
+        self.assertIn("222", registry["post_entries"]["-1003218974409"])
+        self.assertTrue(registry["entries"]["-1003218974409"]["new"]["edited"])
+        self.assertEqual(registry["entries"]["-1003218974409"]["new"]["message_id"], 456)
 
 
 if __name__ == "__main__":

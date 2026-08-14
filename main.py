@@ -139,6 +139,15 @@ def save_registry_archive(registry):
         json.dump(registry, f, ensure_ascii=False, indent=2)
 
 
+def _bounded_list_append(values, value, limit=800):
+    values = list(values or [])
+    if value not in values:
+        values.append(value)
+    if len(values) > limit:
+        values = values[-limit:]
+    return values
+
+
 def beijing_day_of(unix_ts):
     return datetime.fromtimestamp(unix_ts, BEIJING).strftime("%Y-%m-%d")
 
@@ -418,6 +427,19 @@ def promo_link_content_eligible(links):
     return not promo_link_missing_required_mentions(links)
 
 
+def remove_registry_rows_for_message(registry, chat_id, message_id):
+    if not message_id:
+        return 0
+    removed = 0
+    for bucket_name in ("entries", "post_entries"):
+        bucket = registry.setdefault(bucket_name, {}).setdefault(chat_id, {})
+        for key, entry in list(bucket.items()):
+            if str((entry or {}).get("message_id") or "") == str(message_id):
+                bucket.pop(key, None)
+                removed += 1
+    return removed
+
+
 def record_link(registry, x_handle, msg, text, chat_id, msg_time,
                 check_handle=None, dual_link=False, promo_handle=None, links=None):
     user = msg.get("from", {})
@@ -452,6 +474,8 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "chat_id": chat_id,
         "message_id": msg.get("message_id", ""),
         "time": msg_time,
+        "edited": bool(msg.get("edit_date")),
+        "edit_time": beijing_full_time(msg["edit_date"]) if msg.get("edit_date") else "",
     }
     update_eligibility_fields(entry, chat_id)
     bucket[x_handle] = entry
@@ -499,6 +523,8 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links):
             "chat_id": chat_id,
             "message_id": msg.get("message_id", ""),
             "time": msg_time,
+            "edited": bool(msg.get("edit_date")),
+            "edit_time": beijing_full_time(msg["edit_date"]) if msg.get("edit_date") else "",
         }
         update_eligibility_fields(post_bucket[post_id], chat_id)
 
@@ -560,6 +586,15 @@ def reply_to_message(chat_id, message_id, text):
         print(f"回复异常: {e}")
 
 
+def reply_to_message_once(group_state, chat_id, message_id, reason, text):
+    key = f"{message_id}:{reason}"
+    sent = set(group_state.get("reply_keys") or [])
+    if key in sent:
+        return
+    reply_to_message(chat_id, message_id, text)
+    group_state["reply_keys"] = _bounded_list_append(group_state.get("reply_keys"), key, limit=800)
+
+
 def main():
     chat_ids = load_chat_ids()
     if not chat_ids:
@@ -574,7 +609,7 @@ def main():
     registry = load_registry()
 
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
-    params = {"offset": state.get("offset", 0) + 1, "timeout": 10, "allowed_updates": ["message"]}
+    params = {"offset": state.get("offset", 0) + 1, "timeout": 10, "allowed_updates": ["message", "edited_message"]}
 
     try:
         resp = requests.get(url, params=params, timeout=15)
@@ -588,7 +623,8 @@ def main():
         matched = 0
         for update in updates:
             state["offset"] = update["update_id"]
-            msg = update.get("message")
+            msg = update.get("message") or update.get("edited_message")
+            is_edited_message = "edited_message" in update
             if not msg or "text" not in msg:
                 continue
 
@@ -613,17 +649,26 @@ def main():
                 print(f"✅ 链接收录已重置: {msg_day}")
 
             grp = state["groups"].setdefault(actual_chat_id, {"count": 0})
-            grp["count"] += 1
+            message_key = str(message_id)
+            seen_message_ids = set(str(x) for x in (grp.get("message_ids") or []))
+            is_new_message = message_key not in seen_message_ids
+            if is_new_message:
+                grp["count"] += 1
+                grp["message_ids"] = _bounded_list_append(grp.get("message_ids"), message_key, limit=1200)
             current = grp["count"]
             matched += 1
 
             user = msg.get("from", {})
             tg_tag = f"@{user['username']}" if user.get("username") else user.get("first_name", "?")
-            print(f"🔗 [{msg_time}] 群 {actual_chat_id} 第 {current} 条 | 发送人: {tg_tag}")
+            edit_note = " | 编辑消息" if is_edited_message else ""
+            print(f"🔗 [{msg_time}] 群 {actual_chat_id} 第 {current} 条 | 发送人: {tg_tag}{edit_note}")
 
             links = extract_x_links_ordered(text)
             handles = handles_from_links(links)
             check_handle, dual_link, promo_handle = parse_check_handle_from_handles(handles)
+            removed = remove_registry_rows_for_message(registry, actual_chat_id, message_id)
+            if removed:
+                print(f"   ♻️ 同一 Telegram 消息已更新，移除旧登记 {removed} 条")
             if not handles:
                 print(f"   ⚠️ 未能从链接解析 X 账号 ← {tg_tag}")
                 record_post_only(registry, msg, text, actual_chat_id, msg_time, links)
@@ -641,34 +686,42 @@ def main():
                 print(f"   📝 收录 @{handle} ← {tg_tag}{extra}")
 
             if promo_link_below_minimum(links, actual_chat_id):
-                reply_to_message(actual_chat_id, message_id, LOW_FOLLOWER_REPLY_TEXT)
+                reply_to_message_once(grp, actual_chat_id, message_id, "low_followers", LOW_FOLLOWER_REPLY_TEXT)
             elif promo_link_missing_required_mentions(links):
-                reply_to_message(actual_chat_id, message_id, INVALID_MENTIONS_REPLY_TEXT)
-            elif limit_reply_enabled(actual_chat_id) and current == MAX_LIMIT:
-                reply_to_message(
+                reply_to_message_once(grp, actual_chat_id, message_id, "missing_mentions", INVALID_MENTIONS_REPLY_TEXT)
+            elif limit_reply_enabled(actual_chat_id) and is_new_message and current == MAX_LIMIT:
+                reply_to_message_once(
+                    grp,
                     actual_chat_id,
                     message_id,
+                    "limit_full",
                     "🐾 叮当~ 今日互推已满40条，前40名已锁定上车！后面发的会被机器猫记进候选名单，如有空位会优先安排哦，辛苦各位啦~记得看群置顶规则呀！",
                 )
-            elif limit_reply_enabled(actual_chat_id) and current > MAX_LIMIT:
+            elif limit_reply_enabled(actual_chat_id) and is_new_message and current > MAX_LIMIT:
                 excess = current - MAX_LIMIT
                 if excess % 3 == 1:
                     if excess <= 3:
-                        reply_to_message(
+                        reply_to_message_once(
+                            grp,
                             actual_chat_id,
                             message_id,
+                            "limit_excess_1",
                             "🐾 机器猫收到啦~ 不过今日40个名额已满，你这条先帮你放进候选名单排队啦，有机会就给你顶上去！",
                         )
                     elif excess <= 6:
-                        reply_to_message(
+                        reply_to_message_once(
+                            grp,
                             actual_chat_id,
                             message_id,
+                            "limit_excess_2",
                             "🐾 又有新链接~ 机器猫已经悄悄记下，放进候选备用区啦。今日正选已满，这些会作为优先候选，辛苦再等等~",
                         )
                     else:
-                        reply_to_message(
+                        reply_to_message_once(
+                            grp,
                             actual_chat_id,
                             message_id,
+                            "limit_excess_3",
                             "🐾 机器猫的小本本快记满啦！今日40条正选早已满员，后面这些都帮你存进候选池，有空位时优先考虑，感谢理解和支持呀~",
                         )
 

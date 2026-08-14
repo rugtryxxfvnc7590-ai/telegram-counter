@@ -28,6 +28,7 @@ from main import (
     promo_link_missing_required_mentions,
     record_link,
     remove_registry_rows_for_message,
+    remove_registry_rows_if_edited_message_lost_links,
     save_group_registry_exports,
 )
 
@@ -325,6 +326,42 @@ class LinkParsingTest(unittest.TestCase):
             "https://x.com/new/status/222?s=46",
             "https://x.com/old/status/111?s=46",
         ])
+
+    def test_edited_message_without_x_link_removes_old_registry_rows(self):
+        registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+        msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        old_text = "https://x.com/old/status/111?s=46"
+        old_links = extract_x_links_ordered(old_text)
+        record_link(registry, "old", msg, old_text, "-1003218974409", "2026-08-09 00:00:00", links=old_links)
+
+        kept = remove_registry_rows_if_edited_message_lost_links(
+            registry, "-1003218974409", 456, "https://x.com/new/status/222?s=46", True
+        )
+        self.assertEqual(kept, [])
+        self.assertIn("old", registry["entries"]["-1003218974409"])
+
+        removed = remove_registry_rows_if_edited_message_lost_links(
+            registry, "-1003218974409", 456, "这条消息已经删掉链接", True
+        )
+
+        self.assertEqual(len(removed), 2)
+        self.assertNotIn("old", registry["entries"]["-1003218974409"])
+        self.assertNotIn("111", registry["post_entries"]["-1003218974409"])
+
+    def test_non_edited_message_without_x_link_does_not_remove_registry_rows(self):
+        registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+        msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        old_text = "https://x.com/old/status/111?s=46"
+        old_links = extract_x_links_ordered(old_text)
+        record_link(registry, "old", msg, old_text, "-1003218974409", "2026-08-09 00:00:00", links=old_links)
+
+        removed = remove_registry_rows_if_edited_message_lost_links(
+            registry, "-1003218974409", 456, "普通无链接消息", False
+        )
+
+        self.assertEqual(removed, [])
+        self.assertIn("old", registry["entries"]["-1003218974409"])
+        self.assertIn("111", registry["post_entries"]["-1003218974409"])
 
 
 if __name__ == "__main__":

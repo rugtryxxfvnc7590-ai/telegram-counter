@@ -486,6 +486,14 @@ def remove_registry_rows_for_message(registry, chat_id, message_id):
     return removed
 
 
+def remove_registry_rows_if_edited_message_lost_links(registry, chat_id, message_id, text, is_edited_message):
+    if not is_edited_message:
+        return []
+    if TWITTER_REGEX.search(text or ""):
+        return []
+    return remove_registry_rows_for_message(registry, chat_id, message_id)
+
+
 def _link_option(label, url="", post_id="", handle="", source_time="", edit_time=""):
     url = str(url or "").strip()
     if not url:
@@ -726,7 +734,23 @@ def main():
             actual_chat_id = str(msg["chat"]["id"])
             message_id = msg["message_id"]
 
-            if actual_chat_id not in chat_ids or not TWITTER_REGEX.search(text):
+            if actual_chat_id not in chat_ids:
+                continue
+
+            removed_no_link = remove_registry_rows_if_edited_message_lost_links(
+                registry,
+                actual_chat_id,
+                message_id,
+                text,
+                is_edited_message,
+            )
+            if not TWITTER_REGEX.search(text):
+                if removed_no_link:
+                    matched += 1
+                    print(
+                        f"   ♻️ 编辑消息已删除 X 链接，同步移除后台登记 {len(removed_no_link)} 条 "
+                        f"| 群 {actual_chat_id} | 消息ID {message_id}"
+                    )
                 continue
 
             msg_day = beijing_day_of(msg["date"])

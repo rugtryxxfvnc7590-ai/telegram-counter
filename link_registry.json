@@ -1204,23 +1204,24 @@
         "tg_username": "xiatian9859",
         "tg_user_id": 8281002968,
         "tg_name": "逐光",
-        "link": "https://x.com/zhuguang9859/status/2087922483357986961?s=52",
-        "message_text": "https://x.com/zhuguang9859/status/2087922483357986961?s=52",
+        "link": "https://x.com/zhuguang9859/status/2081292409166819641?s=52",
+        "message_text": "https://x.com/zhuguang9859/status/2081292409166819641?s=52",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/zhuguang9859/status/2087922483357986961?s=52",
+            "url": "https://x.com/zhuguang9859/status/2081292409166819641?s=52",
             "handle": "zhuguang9859",
-            "post_id": "2087922483357986961",
+            "post_id": "2081292409166819641",
             "role": "promo"
           }
         ],
-        "promo_url": "https://x.com/zhuguang9859/status/2087922483357986961?s=52",
-        "check_url": "https://x.com/zhuguang9859/status/2087922483357986961?s=52",
-        "promo_post_id": "2087922483357986961",
-        "check_post_id": "2087922483357986961",
+        "promo_url": "https://x.com/zhuguang9859/status/2081292409166819641?s=52",
+        "check_url": "https://x.com/zhuguang9859/status/2081292409166819641?s=52",
+        "promo_post_id": "2081292409166819641",
+        "check_post_id": "2081292409166819641",
         "chat_id": "-1003218974409",
-        "time": "2026-08-14 03:38:59"
+        "message_id": 73347,
+        "time": "2026-08-14 17:15:14"
       },
       "coldmirrorjj": {
         "x_handle": "coldmirrorjj",
@@ -2490,6 +2491,33 @@
         "check_post_id": "2087572591922000088",
         "chat_id": "-1003218974409",
         "time": "2026-08-14 12:17:15"
+      },
+      "2081292409166819641": {
+        "x_handle": "zhuguang9859",
+        "check_handle": "zhuguang9859",
+        "dual_link": false,
+        "promo_handle": "zhuguang9859",
+        "tg_username": "xiatian9859",
+        "tg_user_id": 8281002968,
+        "tg_name": "逐光",
+        "link": "https://x.com/zhuguang9859/status/2081292409166819641?s=52",
+        "message_text": "https://x.com/zhuguang9859/status/2081292409166819641?s=52",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/zhuguang9859/status/2081292409166819641?s=52",
+            "handle": "zhuguang9859",
+            "post_id": "2081292409166819641",
+            "role": "promo"
+          }
+        ],
+        "promo_url": "https://x.com/zhuguang9859/status/2081292409166819641?s=52",
+        "check_url": "https://x.com/zhuguang9859/status/2081292409166819641?s=52",
+        "promo_post_id": "2081292409166819641",
+        "check_post_id": "2081292409166819641",
+        "chat_id": "-1003218974409",
+        "message_id": 73347,
+        "time": "2026-08-14 17:15:14"
       }
     }
   }

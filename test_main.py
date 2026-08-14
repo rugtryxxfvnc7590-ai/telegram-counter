@@ -6,11 +6,15 @@ from unittest.mock import patch
 
 # 时区单元测试不会访问 Telegram/X，无需安装网络依赖。
 sys.modules.setdefault("requests", ModuleType("requests"))
+import main
 from main import (
     beijing_day_of,
     beijing_full_time,
+    backfill_registry_metadata,
     extract_x_handles_ordered,
     extract_x_links_ordered,
+    fetch_x_author_meta,
+    format_followers,
     limit_reply_enabled,
     load_chat_ids,
     parse_check_handle,
@@ -33,6 +37,10 @@ class BeijingTimeTest(unittest.TestCase):
 
 
 class LinkParsingTest(unittest.TestCase):
+    def setUp(self):
+        main._x_author_meta_cache.clear()
+        main._tweet_author_cache.clear()
+
     def test_group3_chat_id_is_listened_by_default(self):
         with patch.dict(
             "os.environ",
@@ -104,6 +112,73 @@ class LinkParsingTest(unittest.TestCase):
         self.assertEqual(entry["promo_post_id"], "111")
         self.assertEqual(entry["check_post_id"], "222")
         self.assertIn("111", registry["post_entries"]["-1001"])
+
+    def test_author_name_and_followers_are_recorded_from_x_link(self):
+        class FakeResp:
+            status_code = 200
+
+            def json(self):
+                return {
+                    "tweet": {
+                        "author": {
+                            "screen_name": "promoA",
+                            "name": "小王",
+                            "followers": 40125,
+                        }
+                    }
+                }
+
+        with patch.object(main.requests, "get", return_value=FakeResp(), create=True):
+            text = "https://x.com/promoA/status/111?s=46"
+            links = extract_x_links_ordered(text)
+            msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+            registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+            record_link(registry, "promoa", msg, text, "-1001", "2026-08-09 00:01:02", links=links)
+
+        entry = registry["entries"]["-1001"]["promoa"]
+        self.assertEqual(entry["x_name"], "小王")
+        self.assertEqual(entry["followers_count"], 40125)
+        self.assertEqual(entry["followers_text"], "4万")
+        self.assertEqual(format_followers(9999), "9999")
+        self.assertEqual(format_followers(12000), "1.2万")
+        self.assertEqual(fetch_x_author_meta("https://x.com/promoA/status/111", "promoa", "111")["name"], "小王")
+
+    def test_backfill_registry_metadata_updates_old_entries(self):
+        class FakeResp:
+            status_code = 200
+
+            def json(self):
+                return {
+                    "tweet": {
+                        "author": {
+                            "screen_name": "oldA",
+                            "name": "老王",
+                            "followers": 12000,
+                        }
+                    }
+                }
+
+        registry = {
+            "date": "2026-08-09",
+            "entries": {
+                "-1001": {
+                    "olda": {
+                        "x_handle": "olda",
+                        "promo_handle": "olda",
+                        "promo_url": "https://x.com/oldA/status/111?s=46",
+                        "promo_post_id": "111",
+                    }
+                }
+            },
+            "post_entries": {},
+        }
+        with patch.object(main.requests, "get", return_value=FakeResp(), create=True):
+            changed = backfill_registry_metadata(registry)
+
+        entry = registry["entries"]["-1001"]["olda"]
+        self.assertEqual(changed, 1)
+        self.assertEqual(entry["x_name"], "老王")
+        self.assertEqual(entry["followers_text"], "1.2万")
 
 
 if __name__ == "__main__":

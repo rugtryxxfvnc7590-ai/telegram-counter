@@ -30,6 +30,7 @@ X_URL_RE = re.compile(r"https?://(?:www\.)?(?:twitter\.com|x\.com)/[^\s\]\)<>\"]
 STATUS_RE = re.compile(r"/(?:i/)?status/(\d+)", re.IGNORECASE)
 I_STATUS_RE = re.compile(r"/i/status/(\d+)", re.IGNORECASE)
 _tweet_author_cache = {}
+_x_author_meta_cache = {}
 
 
 def expand_chat_id(cid):
@@ -148,6 +149,58 @@ def resolve_tweet_author(tweet_id):
     return handle
 
 
+def format_followers(count):
+    try:
+        n = int(count)
+    except Exception:
+        return ""
+    if n >= 10000:
+        value = n / 10000
+        text = f"{value:.1f}".rstrip("0").rstrip(".")
+        return f"{text}万"
+    return str(n)
+
+
+def _author_meta_from_payload(data):
+    author = (data.get("tweet") or {}).get("author") or data.get("user") or {}
+    if not author:
+        return {}
+    followers = author.get("followers")
+    meta = {
+        "screen_name": str(author.get("screen_name") or "").lstrip("@"),
+        "name": str(author.get("name") or "").strip(),
+        "followers_count": followers,
+        "followers_text": format_followers(followers),
+    }
+    return {k: v for k, v in meta.items() if v not in ("", None)}
+
+
+def fetch_x_author_meta(url="", handle="", post_id=""):
+    key = str(post_id or handle or url or "").lower()
+    if not key:
+        return {}
+    if key in _x_author_meta_cache:
+        return _x_author_meta_cache[key]
+    endpoints = []
+    if post_id:
+        endpoints.append(f"https://api.fxtwitter.com/i/status/{post_id}")
+    if handle:
+        endpoints.append(f"https://api.fxtwitter.com/{handle.lstrip('@')}")
+    meta = {}
+    for endpoint in endpoints:
+        try:
+            r = requests.get(endpoint, timeout=8)
+            if r.status_code != 200:
+                continue
+            meta = _author_meta_from_payload(r.json())
+            if meta:
+                break
+        except Exception as e:
+            print(f"   ⚠️ X 作者信息读取失败: {endpoint} | {e}")
+    _x_author_meta_cache[key] = meta
+    return meta
+
+
 def _handle_from_x_url(url):
     """从单条 X 链接解析用户名；/i/status/ 走推文反查。"""
     i_m = I_STATUS_RE.search(url or "")
@@ -183,6 +236,13 @@ def extract_x_links_ordered(text):
             "post_id": _status_id_from_x_url(url),
             "role": "",
         })
+        meta = fetch_x_author_meta(url, handle=links[-1]["handle"], post_id=links[-1]["post_id"])
+        if meta:
+            links[-1]["author_name"] = meta.get("name", "")
+            links[-1]["followers_count"] = meta.get("followers_count", "")
+            links[-1]["followers_text"] = meta.get("followers_text", "")
+            if meta.get("screen_name"):
+                links[-1]["handle"] = meta["screen_name"].lower()
     if links:
         links[0]["role"] = "promo"
     if len(links) >= 2:
@@ -249,6 +309,10 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "link": text,
         "message_text": text,
         "links": links or [],
+        "x_name": promo_link.get("author_name", ""),
+        "promo_name": promo_link.get("author_name", ""),
+        "followers_count": promo_link.get("followers_count", ""),
+        "followers_text": promo_link.get("followers_text", ""),
         "promo_url": promo_link.get("url", ""),
         "check_url": check_link.get("url", ""),
         "promo_post_id": promo_link.get("post_id", ""),
@@ -288,6 +352,10 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links):
             "link": text,
             "message_text": text,
             "links": links or [],
+            "x_name": promo_link.get("author_name", ""),
+            "promo_name": promo_link.get("author_name", ""),
+            "followers_count": promo_link.get("followers_count", ""),
+            "followers_text": promo_link.get("followers_text", ""),
             "promo_url": promo_link.get("url", ""),
             "check_url": check_link.get("url", ""),
             "promo_post_id": promo_link.get("post_id", ""),
@@ -296,6 +364,41 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links):
             "message_id": msg.get("message_id", ""),
             "time": msg_time,
         }
+
+
+def enrich_entry_metadata(entry):
+    if not isinstance(entry, dict):
+        return False
+    if entry.get("x_name") and entry.get("followers_text"):
+        return False
+    url = entry.get("promo_url") or entry.get("link") or ""
+    handle = entry.get("promo_handle") or entry.get("x_handle") or ""
+    post_id = entry.get("promo_post_id") or _status_id_from_x_url(url)
+    meta = fetch_x_author_meta(url, handle=handle, post_id=post_id)
+    if not meta:
+        return False
+    changed = False
+    if meta.get("name") and not entry.get("x_name"):
+        entry["x_name"] = meta["name"]
+        entry["promo_name"] = meta["name"]
+        changed = True
+    if meta.get("followers_count") not in ("", None) and not entry.get("followers_count"):
+        entry["followers_count"] = meta["followers_count"]
+        changed = True
+    if meta.get("followers_text") and not entry.get("followers_text"):
+        entry["followers_text"] = meta["followers_text"]
+        changed = True
+    return changed
+
+
+def backfill_registry_metadata(registry):
+    changed = 0
+    for bucket_group in ("entries", "post_entries"):
+        for bucket in (registry.get(bucket_group) or {}).values():
+            for entry in (bucket or {}).values():
+                if enrich_entry_metadata(entry):
+                    changed += 1
+    return changed
 
 
 def reply_to_message(chat_id, message_id, text):
@@ -416,6 +519,9 @@ def main():
                             "🐾 机器猫的小本本快记满啦！今日40条正选早已满员，后面这些都帮你存进候选池，有空位时优先考虑，感谢理解和支持呀~",
                         )
 
+        enriched = backfill_registry_metadata(registry)
+        if enriched:
+            print(f"✅ 已补齐 X 昵称/粉丝字段: {enriched} 条")
         save_state(state)
         save_registry(registry)
         total = sum(g.get("count", 0) for g in state.get("groups", {}).values())

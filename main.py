@@ -429,19 +429,65 @@ def promo_link_content_eligible(links):
 
 def remove_registry_rows_for_message(registry, chat_id, message_id):
     if not message_id:
-        return 0
-    removed = 0
+        return []
+    removed = []
     for bucket_name in ("entries", "post_entries"):
         bucket = registry.setdefault(bucket_name, {}).setdefault(chat_id, {})
         for key, entry in list(bucket.items()):
             if str((entry or {}).get("message_id") or "") == str(message_id):
+                removed.append(dict(entry or {}))
                 bucket.pop(key, None)
-                removed += 1
     return removed
 
 
+def _link_option(label, url="", post_id="", handle="", source_time="", edit_time=""):
+    url = str(url or "").strip()
+    if not url:
+        return None
+    return {
+        "label": label,
+        "url": url,
+        "post_id": str(post_id or _status_id_from_x_url(url)),
+        "handle": str(handle or _handle_from_x_url(url) or "").lstrip("@").lower(),
+        "source_time": source_time,
+        "edit_time": edit_time,
+    }
+
+
+def build_link_options(links, previous_entries=None, msg_time=""):
+    options = []
+    seen = set()
+
+    promo_link = _link_by_role(links, "promo")
+    current = _link_option(
+        "编辑后" if previous_entries else "当前",
+        promo_link.get("url", ""),
+        promo_link.get("post_id", ""),
+        promo_link.get("handle", ""),
+        msg_time,
+    )
+    if current:
+        options.append(current)
+        seen.add(current["url"])
+
+    for entry in previous_entries or []:
+        option = _link_option(
+            "编辑前",
+            entry.get("promo_url", ""),
+            entry.get("promo_post_id", ""),
+            entry.get("promo_handle", ""),
+            entry.get("time", ""),
+            entry.get("edit_time", ""),
+        )
+        if option and option["url"] not in seen:
+            options.append(option)
+            seen.add(option["url"])
+    return options
+
+
 def record_link(registry, x_handle, msg, text, chat_id, msg_time,
-                check_handle=None, dual_link=False, promo_handle=None, links=None):
+                check_handle=None, dual_link=False, promo_handle=None, links=None,
+                previous_entries=None):
     user = msg.get("from", {})
     name = user.get("first_name", "")
     if user.get("last_name"):
@@ -460,6 +506,7 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "link": text,
         "message_text": text,
         "links": links or [],
+        "link_options": build_link_options(links or [], previous_entries, msg_time),
         "x_name": promo_link.get("author_name", ""),
         "promo_name": promo_link.get("author_name", ""),
         "followers_count": promo_link.get("followers_count", ""),
@@ -509,6 +556,7 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links):
             "link": text,
             "message_text": text,
             "links": links or [],
+            "link_options": build_link_options(links or [], [], msg_time),
             "x_name": promo_link.get("author_name", ""),
             "promo_name": promo_link.get("author_name", ""),
             "followers_count": promo_link.get("followers_count", ""),
@@ -666,7 +714,8 @@ def main():
             links = extract_x_links_ordered(text)
             handles = handles_from_links(links)
             check_handle, dual_link, promo_handle = parse_check_handle_from_handles(handles)
-            removed = remove_registry_rows_for_message(registry, actual_chat_id, message_id)
+            previous_entries = remove_registry_rows_for_message(registry, actual_chat_id, message_id)
+            removed = len(previous_entries)
             if removed:
                 print(f"   ♻️ 同一 Telegram 消息已更新，移除旧登记 {removed} 条")
             if not handles:
@@ -677,6 +726,7 @@ def main():
                     registry, handle, msg, text, actual_chat_id, msg_time,
                     check_handle=check_handle or handle, dual_link=dual_link,
                     promo_handle=promo_handle or handle, links=links,
+                    previous_entries=previous_entries,
                 )
                 extra = ""
                 if dual_link and check_handle and handle != check_handle:

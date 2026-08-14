@@ -250,15 +250,30 @@ class LinkParsingTest(unittest.TestCase):
         removed = remove_registry_rows_for_message(registry, "-1003218974409", 456)
         new_text = "https://x.com/new/status/222?s=46"
         new_links = extract_x_links_ordered(new_text)
-        record_link(registry, "new", msg, new_text, "-1003218974409", "2026-08-09 00:00:00", links=new_links)
+        record_link(
+            registry,
+            "new",
+            msg,
+            new_text,
+            "-1003218974409",
+            "2026-08-09 00:00:00",
+            links=new_links,
+            previous_entries=removed,
+        )
 
-        self.assertEqual(removed, 2)
+        self.assertEqual(len(removed), 2)
         self.assertNotIn("old", registry["entries"]["-1003218974409"])
         self.assertNotIn("111", registry["post_entries"]["-1003218974409"])
         self.assertIn("new", registry["entries"]["-1003218974409"])
         self.assertIn("222", registry["post_entries"]["-1003218974409"])
-        self.assertTrue(registry["entries"]["-1003218974409"]["new"]["edited"])
-        self.assertEqual(registry["entries"]["-1003218974409"]["new"]["message_id"], 456)
+        entry = registry["entries"]["-1003218974409"]["new"]
+        self.assertTrue(entry["edited"])
+        self.assertEqual(entry["message_id"], 456)
+        self.assertEqual([item["label"] for item in entry["link_options"]], ["编辑后", "编辑前"])
+        self.assertEqual([item["url"] for item in entry["link_options"]], [
+            "https://x.com/new/status/222?s=46",
+            "https://x.com/old/status/111?s=46",
+        ])
 
 
 if __name__ == "__main__":

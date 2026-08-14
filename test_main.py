@@ -8,16 +8,22 @@ from unittest.mock import patch
 sys.modules.setdefault("requests", ModuleType("requests"))
 import main
 from main import (
+    INVALID_MENTIONS_REPLY_TEXT,
+    LOW_FOLLOWER_REPLY_TEXT,
     beijing_day_of,
     beijing_full_time,
     backfill_registry_metadata,
+    count_required_mentions,
     extract_x_handles_ordered,
     extract_x_links_ordered,
     fetch_x_author_meta,
     format_followers,
     limit_reply_enabled,
     load_chat_ids,
+    min_followers_for_chat,
     parse_check_handle,
+    promo_link_below_minimum,
+    promo_link_missing_required_mentions,
     record_link,
 )
 
@@ -76,6 +82,9 @@ class LinkParsingTest(unittest.TestCase):
         self.assertFalse(limit_reply_enabled("-1003891628675"))
         self.assertFalse(limit_reply_enabled("-3891628675"))
         self.assertTrue(limit_reply_enabled("-1003218974409"))
+        self.assertEqual(min_followers_for_chat("-1003891628675"), 100000)
+        self.assertEqual(min_followers_for_chat("-1003218974409"), 20000)
+        self.assertEqual(min_followers_for_chat("-1003739822194"), 0)
 
     def test_three_x_link_formats_are_parsed(self):
         text = "\n".join([
@@ -125,7 +134,8 @@ class LinkParsingTest(unittest.TestCase):
                             "name": "小王",
                             "followers": 40125,
                         }
-                    }
+                    },
+                    "text": "hello @ToBulaer @ToBuerma",
                 }
 
         with patch.object(main.requests, "get", return_value=FakeResp(), create=True):
@@ -138,9 +148,15 @@ class LinkParsingTest(unittest.TestCase):
         entry = registry["entries"]["-1001"]["promoa"]
         self.assertEqual(entry["x_name"], "小王")
         self.assertEqual(entry["followers_count"], 40125)
-        self.assertEqual(entry["followers_text"], "4万")
-        self.assertEqual(format_followers(9999), "9999")
-        self.assertEqual(format_followers(12000), "1.2万")
+        self.assertEqual(entry["followers_text"], "4W")
+        self.assertEqual(entry["eligibility_text"], "✅合格")
+        self.assertEqual(entry["required_mentions_count"], 2)
+        self.assertEqual(format_followers(9999), "9.9K")
+        self.assertEqual(format_followers(3299), "3.2K")
+        self.assertEqual(format_followers(12000), "1.2W")
+        self.assertEqual(format_followers(40125), "4W")
+        self.assertEqual(format_followers(45999), "4.5W")
+        self.assertEqual(format_followers(100999), "10W")
         self.assertEqual(fetch_x_author_meta("https://x.com/promoA/status/111", "promoa", "111")["name"], "小王")
 
     def test_backfill_registry_metadata_updates_old_entries(self):
@@ -155,7 +171,8 @@ class LinkParsingTest(unittest.TestCase):
                             "name": "老王",
                             "followers": 12000,
                         }
-                    }
+                    },
+                    "text": "hello @ToBulaer @ToBuerma",
                 }
 
         registry = {
@@ -178,7 +195,48 @@ class LinkParsingTest(unittest.TestCase):
         entry = registry["entries"]["-1001"]["olda"]
         self.assertEqual(changed, 1)
         self.assertEqual(entry["x_name"], "老王")
-        self.assertEqual(entry["followers_text"], "1.2万")
+        self.assertEqual(entry["followers_text"], "1.2W")
+        self.assertEqual(entry["eligibility_text"], "❌粉丝不足")
+
+    def test_low_followers_are_marked_ineligible_by_group_minimum(self):
+        text = "https://x.com/low/status/111?s=46"
+        links = [{"role": "promo", "url": text, "handle": "low", "post_id": "111", "followers_count": 19999, "followers_text": "1.9W"}]
+        msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+
+        record_link(registry, "low", msg, text, "-1003218974409", "2026-08-09 00:01:02", links=links)
+
+        entry = registry["entries"]["-1003218974409"]["low"]
+        self.assertEqual(LOW_FOLLOWER_REPLY_TEXT, "粉丝数量低于最低互推标准，该链接不予互推！")
+        self.assertFalse(entry["mutual_eligible"])
+        self.assertEqual(entry["followers_min"], 20000)
+        self.assertEqual(entry["eligibility_text"], "❌粉丝不足")
+        self.assertTrue(promo_link_below_minimum(links, "-1003218974409"))
+        self.assertFalse(promo_link_below_minimum(links, "-1003739822194"))
+
+    def test_missing_required_mentions_are_marked_ineligible(self):
+        text = "https://x.com/bad/status/111?s=46"
+        links = [{
+            "role": "promo",
+            "url": text,
+            "handle": "bad",
+            "post_id": "111",
+            "followers_count": 30000,
+            "followers_text": "3W",
+            "tweet_text": "hello @ToBulaer",
+            "required_mentions_count": 1,
+        }]
+        msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+
+        record_link(registry, "bad", msg, text, "-1003218974409", "2026-08-09 00:01:02", links=links)
+
+        entry = registry["entries"]["-1003218974409"]["bad"]
+        self.assertEqual(INVALID_MENTIONS_REPLY_TEXT, "推文内容未包含至少2个指定互推账号，该链接不予互推！")
+        self.assertEqual(count_required_mentions("x @ToBulaer @BulmaList"), 2)
+        self.assertTrue(promo_link_missing_required_mentions(links))
+        self.assertFalse(entry["mutual_eligible"])
+        self.assertEqual(entry["eligibility_text"], "❌缺少指定@")
 
 
 if __name__ == "__main__":

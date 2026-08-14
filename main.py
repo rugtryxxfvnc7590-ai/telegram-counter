@@ -16,7 +16,11 @@ REGISTRY_HISTORY_DIR = "registry_history"
 # 群二（5万以下新手营）→ GitHub Secret TELEGRAM_CHAT_ID
 # 群三 → GitHub Secret TELEGRAM_CHAT_ID_GROUP3，未配置时使用固定群 ID
 GROUP_1_CHAT_ID_FALLBACK = "-1003891628675"
+GROUP_2_CHAT_ID_FALLBACK = "-1003218974409"
 GROUP_3_CHAT_ID_FALLBACK = "-1003739822194"
+LOW_FOLLOWER_REPLY_TEXT = "粉丝数量低于最低互推标准，该链接不予互推！"
+TARGET_MENTIONS = ("ToBulaer", "ToBuerma", "KawasawaSen", "BulmaList")
+INVALID_MENTIONS_REPLY_TEXT = "推文内容未包含至少2个指定互推账号，该链接不予互推！"
 
 # Telegram 消息的 date 是 Unix 时间戳，统一换算到中国标准时间。
 BEIJING = ZoneInfo("Asia/Shanghai")
@@ -62,6 +66,21 @@ def load_chat_ids():
 def limit_reply_enabled(chat_id):
     """群一只收录链接，不发满 40 条/候选名单提示。"""
     return str(chat_id).strip() not in expand_chat_id(GROUP_1_CHAT_ID_FALLBACK)
+
+
+def min_followers_for_chat(chat_id):
+    cid = str(chat_id).strip()
+    if cid in expand_chat_id(GROUP_1_CHAT_ID_FALLBACK):
+        return 100000
+    if cid in expand_chat_id(GROUP_3_CHAT_ID_FALLBACK):
+        return 0
+    return 20000
+
+
+def compact_number_floor(n, unit):
+    value = (int(n) * 10) // int(unit)
+    whole, decimal = divmod(value, 10)
+    return str(whole) if decimal == 0 else f"{whole}.{decimal}"
 
 
 def load_state():
@@ -155,13 +174,29 @@ def format_followers(count):
     except Exception:
         return ""
     if n >= 10000:
-        value = n / 10000
-        text = f"{value:.1f}".rstrip("0").rstrip(".")
-        return f"{text}万"
+        return f"{compact_number_floor(n, 10000)}W"
+    if n >= 1000:
+        return f"{compact_number_floor(n, 1000)}K"
     return str(n)
 
 
+def count_required_mentions(text):
+    lower = str(text or "").lower()
+    return sum(1 for handle in TARGET_MENTIONS if f"@{handle.lower()}" in lower)
+
+
+def _payload_text(*values):
+    for value in values:
+        if isinstance(value, dict):
+            value = value.get("text") or value.get("full_text")
+        value = str(value or "").strip()
+        if value:
+            return value
+    return ""
+
+
 def _author_meta_from_payload(data):
+    tweet = data.get("tweet") or {}
     author = (data.get("tweet") or {}).get("author") or data.get("user") or {}
     if not author:
         return {}
@@ -171,6 +206,14 @@ def _author_meta_from_payload(data):
         "name": str(author.get("name") or "").strip(),
         "followers_count": followers,
         "followers_text": format_followers(followers),
+        "tweet_text": _payload_text(
+            tweet.get("text"),
+            tweet.get("full_text"),
+            tweet.get("raw_text"),
+            data.get("text"),
+            data.get("full_text"),
+            data.get("raw_text"),
+        ),
     }
     return {k: v for k, v in meta.items() if v not in ("", None)}
 
@@ -187,6 +230,9 @@ def fetch_x_author_meta(url="", handle="", post_id=""):
     if handle:
         endpoints.append(f"https://api.fxtwitter.com/{handle.lstrip('@')}")
     meta = {}
+    if not hasattr(requests, "get"):
+        _x_author_meta_cache[key] = meta
+        return meta
     for endpoint in endpoints:
         try:
             r = requests.get(endpoint, timeout=8)
@@ -241,6 +287,8 @@ def extract_x_links_ordered(text):
             links[-1]["author_name"] = meta.get("name", "")
             links[-1]["followers_count"] = meta.get("followers_count", "")
             links[-1]["followers_text"] = meta.get("followers_text", "")
+            links[-1]["tweet_text"] = meta.get("tweet_text", "")
+            links[-1]["required_mentions_count"] = count_required_mentions(meta.get("tweet_text", ""))
             if meta.get("screen_name"):
                 links[-1]["handle"] = meta["screen_name"].lower()
     if links:
@@ -275,6 +323,10 @@ def extract_x_handles_ordered(text):
 def parse_check_handle(text):
     """第一条链接为互推原帖号；第二条链接为回推检查号；单链接用该号本身。"""
     ordered = extract_x_handles_ordered(text)
+    return parse_check_handle_from_handles(ordered)
+
+
+def parse_check_handle_from_handles(ordered):
     if not ordered:
         return None, False, None
     if len(ordered) >= 2:
@@ -282,11 +334,88 @@ def parse_check_handle(text):
     return ordered[0], False, ordered[0]
 
 
+def handles_from_links(links):
+    seen, ordered = set(), []
+    for item in links or []:
+        handle = item.get("handle")
+        if not handle or handle in seen:
+            continue
+        seen.add(handle)
+        ordered.append(handle)
+    return ordered
+
+
 def _link_by_role(links, role):
     for item in links or []:
         if item.get("role") == role:
             return item
     return {}
+
+
+def follower_count_from_link(link):
+    try:
+        return int((link or {}).get("followers_count"))
+    except Exception:
+        return None
+
+
+def update_eligibility_fields(entry, chat_id):
+    if not isinstance(entry, dict):
+        return False
+    before = json.dumps(entry, ensure_ascii=False, sort_keys=True)
+    minimum = min_followers_for_chat(chat_id)
+    entry["followers_min"] = minimum
+    try:
+        followers = int(entry.get("followers_count"))
+    except Exception:
+        followers = None
+    if entry.get("content_eligible") is False:
+        entry["mutual_eligible"] = False
+        entry["eligibility_text"] = "❌缺少指定@"
+        entry["ineligible_reason"] = "missing_required_mentions"
+    elif followers is not None and followers < minimum:
+        entry["mutual_eligible"] = False
+        entry["eligibility_text"] = "❌粉丝不足"
+        entry["ineligible_reason"] = "followers_below_minimum"
+    elif entry.get("content_eligible") is None:
+        entry["mutual_eligible"] = True
+        entry["eligibility_text"] = "待确认"
+        entry.pop("ineligible_reason", None)
+    elif followers is None and minimum > 0:
+        entry["mutual_eligible"] = True
+        entry["eligibility_text"] = "待确认"
+        entry.pop("ineligible_reason", None)
+    else:
+        entry["mutual_eligible"] = True
+        entry["eligibility_text"] = "✅合格"
+        entry.pop("ineligible_reason", None)
+    after = json.dumps(entry, ensure_ascii=False, sort_keys=True)
+    return after != before
+
+
+def promo_link_below_minimum(links, chat_id):
+    promo_link = _link_by_role(links, "promo")
+    followers = follower_count_from_link(promo_link)
+    minimum = min_followers_for_chat(chat_id)
+    return followers is not None and followers < minimum
+
+
+def promo_link_missing_required_mentions(links):
+    promo_link = _link_by_role(links, "promo")
+    if not promo_link.get("tweet_text"):
+        return False
+    try:
+        count = int(promo_link.get("required_mentions_count"))
+    except Exception:
+        count = count_required_mentions(promo_link.get("tweet_text", ""))
+    return count < 2
+
+
+def promo_link_content_eligible(links):
+    promo_link = _link_by_role(links, "promo")
+    if not promo_link.get("tweet_text"):
+        return None
+    return not promo_link_missing_required_mentions(links)
 
 
 def record_link(registry, x_handle, msg, text, chat_id, msg_time,
@@ -313,6 +442,9 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "promo_name": promo_link.get("author_name", ""),
         "followers_count": promo_link.get("followers_count", ""),
         "followers_text": promo_link.get("followers_text", ""),
+        "tweet_text": promo_link.get("tweet_text", ""),
+        "required_mentions_count": promo_link.get("required_mentions_count", ""),
+        "content_eligible": promo_link_content_eligible(links),
         "promo_url": promo_link.get("url", ""),
         "check_url": check_link.get("url", ""),
         "promo_post_id": promo_link.get("post_id", ""),
@@ -321,6 +453,7 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "message_id": msg.get("message_id", ""),
         "time": msg_time,
     }
+    update_eligibility_fields(entry, chat_id)
     bucket[x_handle] = entry
     post_bucket = registry.setdefault("post_entries", {}).setdefault(chat_id, {})
     for item in links or []:
@@ -356,6 +489,9 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links):
             "promo_name": promo_link.get("author_name", ""),
             "followers_count": promo_link.get("followers_count", ""),
             "followers_text": promo_link.get("followers_text", ""),
+            "tweet_text": promo_link.get("tweet_text", ""),
+            "required_mentions_count": promo_link.get("required_mentions_count", ""),
+            "content_eligible": promo_link_content_eligible(links),
             "promo_url": promo_link.get("url", ""),
             "check_url": check_link.get("url", ""),
             "promo_post_id": promo_link.get("post_id", ""),
@@ -364,29 +500,42 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links):
             "message_id": msg.get("message_id", ""),
             "time": msg_time,
         }
+        update_eligibility_fields(post_bucket[post_id], chat_id)
 
 
 def enrich_entry_metadata(entry):
     if not isinstance(entry, dict):
         return False
-    if entry.get("x_name") and entry.get("followers_text"):
-        return False
+    changed = False
     url = entry.get("promo_url") or entry.get("link") or ""
     handle = entry.get("promo_handle") or entry.get("x_handle") or ""
     post_id = entry.get("promo_post_id") or _status_id_from_x_url(url)
-    meta = fetch_x_author_meta(url, handle=handle, post_id=post_id)
-    if not meta:
-        return False
-    changed = False
-    if meta.get("name") and not entry.get("x_name"):
-        entry["x_name"] = meta["name"]
-        entry["promo_name"] = meta["name"]
+    if not (entry.get("x_name") and entry.get("followers_count") and entry.get("tweet_text")):
+        meta = fetch_x_author_meta(url, handle=handle, post_id=post_id)
+        if meta.get("name") and not entry.get("x_name"):
+            entry["x_name"] = meta["name"]
+            entry["promo_name"] = meta["name"]
+            changed = True
+        if meta.get("followers_count") not in ("", None) and not entry.get("followers_count"):
+            entry["followers_count"] = meta["followers_count"]
+            changed = True
+        if meta.get("tweet_text") and not entry.get("tweet_text"):
+            entry["tweet_text"] = meta["tweet_text"]
+            changed = True
+    if entry.get("tweet_text"):
+        mention_count = count_required_mentions(entry.get("tweet_text", ""))
+        if entry.get("required_mentions_count") != mention_count:
+            entry["required_mentions_count"] = mention_count
+            changed = True
+        content_eligible = mention_count >= 2
+        if entry.get("content_eligible") is not content_eligible:
+            entry["content_eligible"] = content_eligible
+            changed = True
+    formatted = format_followers(entry.get("followers_count"))
+    if formatted and entry.get("followers_text") != formatted:
+        entry["followers_text"] = formatted
         changed = True
-    if meta.get("followers_count") not in ("", None) and not entry.get("followers_count"):
-        entry["followers_count"] = meta["followers_count"]
-        changed = True
-    if meta.get("followers_text") and not entry.get("followers_text"):
-        entry["followers_text"] = meta["followers_text"]
+    if update_eligibility_fields(entry, entry.get("chat_id", "")):
         changed = True
     return changed
 
@@ -472,9 +621,9 @@ def main():
             tg_tag = f"@{user['username']}" if user.get("username") else user.get("first_name", "?")
             print(f"🔗 [{msg_time}] 群 {actual_chat_id} 第 {current} 条 | 发送人: {tg_tag}")
 
-            check_handle, dual_link, promo_handle = parse_check_handle(text)
             links = extract_x_links_ordered(text)
-            handles = extract_handles_ordered(text)
+            handles = handles_from_links(links)
+            check_handle, dual_link, promo_handle = parse_check_handle_from_handles(handles)
             if not handles:
                 print(f"   ⚠️ 未能从链接解析 X 账号 ← {tg_tag}")
                 record_post_only(registry, msg, text, actual_chat_id, msg_time, links)
@@ -491,7 +640,11 @@ def main():
                     extra = " (i/status反查)"
                 print(f"   📝 收录 @{handle} ← {tg_tag}{extra}")
 
-            if limit_reply_enabled(actual_chat_id) and current == MAX_LIMIT:
+            if promo_link_below_minimum(links, actual_chat_id):
+                reply_to_message(actual_chat_id, message_id, LOW_FOLLOWER_REPLY_TEXT)
+            elif promo_link_missing_required_mentions(links):
+                reply_to_message(actual_chat_id, message_id, INVALID_MENTIONS_REPLY_TEXT)
+            elif limit_reply_enabled(actual_chat_id) and current == MAX_LIMIT:
                 reply_to_message(
                     actual_chat_id,
                     message_id,

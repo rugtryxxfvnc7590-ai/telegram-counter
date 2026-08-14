@@ -254,6 +254,7 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "promo_post_id": promo_link.get("post_id", ""),
         "check_post_id": check_link.get("post_id", ""),
         "chat_id": chat_id,
+        "message_id": msg.get("message_id", ""),
         "time": msg_time,
     }
     bucket[x_handle] = entry
@@ -292,6 +293,7 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links):
             "promo_post_id": promo_link.get("post_id", ""),
             "check_post_id": check_link.get("post_id", ""),
             "chat_id": chat_id,
+            "message_id": msg.get("message_id", ""),
             "time": msg_time,
         }
 
@@ -355,7 +357,7 @@ def main():
 
             if registry.get("date") != msg_day:
                 save_registry_archive(registry)
-                registry = {"date": msg_day, "entries": {}}
+                registry = {"date": msg_day, "entries": {}, "post_entries": {}}
                 print(f"✅ 链接收录已重置: {msg_day}")
 
             grp = state["groups"].setdefault(actual_chat_id, {"count": 0})

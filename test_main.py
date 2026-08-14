@@ -91,7 +91,7 @@ class LinkParsingTest(unittest.TestCase):
     def test_record_link_keeps_message_text_and_post_ids(self):
         text = "https://x.com/promoA/status/111?s=46\nhttps://x.com/checkB/status/222?s=46"
         links = extract_x_links_ordered(text)
-        msg = {"from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
         registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
         record_link(
             registry, "promoa", msg, text, "-1001", "2026-08-09 00:01:02",
@@ -99,6 +99,7 @@ class LinkParsingTest(unittest.TestCase):
         )
         entry = registry["entries"]["-1001"]["promoa"]
         self.assertEqual(entry["tg_username"], "tg_user")
+        self.assertEqual(entry["message_id"], 456)
         self.assertEqual(entry["message_text"], text)
         self.assertEqual(entry["promo_post_id"], "111")
         self.assertEqual(entry["check_post_id"], "222")

@@ -31,6 +31,7 @@ from main import (
     remove_registry_rows_if_edited_message_lost_links,
     save_group_registry_exports,
 )
+from sync_deleted_messages import collect_registry_message_refs, deletion_sync_enabled, prune_deleted_message_ids
 
 
 class BeijingTimeTest(unittest.TestCase):
@@ -362,6 +363,38 @@ class LinkParsingTest(unittest.TestCase):
         self.assertEqual(removed, [])
         self.assertIn("old", registry["entries"]["-1003218974409"])
         self.assertIn("111", registry["post_entries"]["-1003218974409"])
+
+    def test_deleted_message_sync_collects_and_prunes_by_chat_message_id(self):
+        registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+        msg1 = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        msg2 = {"message_id": 789, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        links1 = extract_x_links_ordered("https://x.com/old/status/111?s=46")
+        links2 = extract_x_links_ordered("https://x.com/old/status/222?s=46")
+        record_link(registry, "old", msg1, links1[0]["url"], "-1003218974409", "2026-08-09 00:00:00", links=links1)
+        record_link(registry, "old", msg2, links2[0]["url"], "-1003891628675", "2026-08-09 00:01:00", links=links2)
+
+        refs = collect_registry_message_refs(registry)
+        self.assertEqual(refs["-1003218974409"], [456])
+        self.assertEqual(refs["-1003891628675"], [789])
+
+        removed = prune_deleted_message_ids(registry, {"-1003218974409": [456]})
+
+        self.assertEqual(len(removed), 2)
+        self.assertNotIn("old", registry["entries"]["-1003218974409"])
+        self.assertNotIn("111", registry["post_entries"]["-1003218974409"])
+        self.assertIn("old", registry["entries"]["-1003891628675"])
+        self.assertIn("222", registry["post_entries"]["-1003891628675"])
+
+    def test_deleted_message_sync_requires_user_session_secrets(self):
+        self.assertFalse(deletion_sync_enabled({
+            "TELEGRAM_API_ID": "1",
+            "TELEGRAM_API_HASH": "hash",
+        }))
+        self.assertTrue(deletion_sync_enabled({
+            "TELEGRAM_API_ID": "1",
+            "TELEGRAM_API_HASH": "hash",
+            "TELEGRAM_STRING_SESSION": "session",
+        }))
 
 
 if __name__ == "__main__":

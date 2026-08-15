@@ -496,7 +496,14 @@ def promo_link_missing_required_mentions(links):
 
 def promo_link_content_eligible(links):
     promo_link = _link_by_role(links, "promo")
-    if not promo_link.get("tweet_text"):
+    tweet_text = promo_link.get("tweet_text") or ""
+    if not tweet_text:
+        return None
+    try:
+        count = int(promo_link.get("required_mentions_count"))
+    except Exception:
+        count = count_required_mentions(tweet_text)
+    if count < 2 and tweet_text_may_be_truncated(tweet_text):
         return None
     return not promo_link_missing_required_mentions(links)
 
@@ -679,11 +686,12 @@ def enrich_entry_metadata(entry):
             entry["tweet_text"] = meta["tweet_text"]
             changed = True
     if entry.get("tweet_text"):
-        mention_count = count_required_mentions(entry.get("tweet_text", ""))
+        tweet_text = entry.get("tweet_text", "")
+        mention_count = count_required_mentions(tweet_text)
         if entry.get("required_mentions_count") != mention_count:
             entry["required_mentions_count"] = mention_count
             changed = True
-        content_eligible = mention_count >= 2
+        content_eligible = None if mention_count < 2 and tweet_text_may_be_truncated(tweet_text) else mention_count >= 2
         if entry.get("content_eligible") is not content_eligible:
             entry["content_eligible"] = content_eligible
             changed = True

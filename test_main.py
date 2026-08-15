@@ -305,6 +305,7 @@ class LinkParsingTest(unittest.TestCase):
         }]
         self.assertTrue(tweet_text_may_be_truncated(links[0]["tweet_text"]))
         self.assertFalse(promo_link_missing_required_mentions(links))
+        self.assertIsNone(main.promo_link_content_eligible(links))
 
     def test_reply_to_message_once_marks_before_send_and_saves(self):
         group_state = {}

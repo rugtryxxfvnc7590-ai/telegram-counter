@@ -21,7 +21,7 @@ GROUP_2_CHAT_ID_FALLBACK = "-1003218974409"
 GROUP_3_CHAT_ID_FALLBACK = "-1003739822194"
 LOW_FOLLOWER_REPLY_TEXT = "粉丝数量低于最低互推标准，该链接不予互推！"
 TARGET_MENTIONS = ("ToBulaer", "ToBuerma", "KawasawaSen", "BulmaList")
-INVALID_MENTIONS_REPLY_TEXT = "推文内容未包含至少2个指定互推账号，该链接不予互推！"
+INVALID_MENTIONS_REPLY_TEXT = "该链接违规，未@社区账号，不予互推"
 
 # Telegram 消息的 date 是 Unix 时间戳，统一换算到中国标准时间。
 BEIJING = ZoneInfo("Asia/Shanghai")

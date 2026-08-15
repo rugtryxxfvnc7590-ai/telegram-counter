@@ -286,7 +286,7 @@ class LinkParsingTest(unittest.TestCase):
         record_link(registry, "bad", msg, text, "-1003218974409", "2026-08-09 00:01:02", links=links)
 
         entry = registry["entries"]["-1003218974409"]["bad"]
-        self.assertEqual(INVALID_MENTIONS_REPLY_TEXT, "推文内容未包含至少2个指定互推账号，该链接不予互推！")
+        self.assertEqual(INVALID_MENTIONS_REPLY_TEXT, "该链接违规，未@社区账号，不予互推")
         self.assertEqual(count_required_mentions("x @ToBulaer @BulmaList"), 2)
         self.assertTrue(promo_link_missing_required_mentions(links))
         self.assertFalse(entry["mutual_eligible"])

@@ -27,9 +27,11 @@ from main import (
     promo_link_below_minimum,
     promo_link_missing_required_mentions,
     record_link,
+    reply_to_message_once,
     remove_registry_rows_for_message,
     remove_registry_rows_if_edited_message_lost_links,
     save_group_registry_exports,
+    tweet_text_may_be_truncated,
 )
 from sync_deleted_messages import collect_registry_message_refs, deletion_sync_enabled, prune_deleted_message_ids
 
@@ -291,6 +293,29 @@ class LinkParsingTest(unittest.TestCase):
         self.assertTrue(promo_link_missing_required_mentions(links))
         self.assertFalse(entry["mutual_eligible"])
         self.assertEqual(entry["eligibility_text"], "❌缺少指定@")
+
+    def test_required_mentions_support_fullwidth_at_and_zero_width(self):
+        self.assertEqual(count_required_mentions("＠ToBulaer @To\u200bBuerma"), 2)
+
+    def test_truncated_tweet_text_does_not_trigger_missing_mentions_reply(self):
+        links = [{
+            "role": "promo",
+            "tweet_text": "正文很长但是接口只返回前半段…",
+            "required_mentions_count": 0,
+        }]
+        self.assertTrue(tweet_text_may_be_truncated(links[0]["tweet_text"]))
+        self.assertFalse(promo_link_missing_required_mentions(links))
+
+    def test_reply_to_message_once_marks_before_send_and_saves(self):
+        group_state = {}
+        calls = []
+        saves = []
+        with patch("main.reply_to_message", lambda *args: calls.append(args)):
+            self.assertTrue(reply_to_message_once(group_state, "-1001", 456, "missing_mentions", "bad", save_callback=lambda: saves.append(True)))
+            self.assertFalse(reply_to_message_once(group_state, "-1001", 456, "missing_mentions", "bad", save_callback=lambda: saves.append(True)))
+        self.assertEqual(len(calls), 1)
+        self.assertIn("456:missing_mentions", group_state.get("reply_keys"))
+        self.assertGreaterEqual(len(saves), 1)
 
     def test_edited_message_replaces_old_registry_rows(self):
         registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}

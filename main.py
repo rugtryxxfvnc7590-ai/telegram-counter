@@ -235,9 +235,32 @@ def format_followers(count):
     return str(n)
 
 
+def _normalize_mention_text(text):
+    return (
+        str(text or "")
+        .replace("＠", "@")
+        .replace("\u200b", "")
+        .replace("\u200c", "")
+        .replace("\u200d", "")
+        .replace("\ufeff", "")
+    )
+
+
 def count_required_mentions(text):
-    lower = str(text or "").lower()
-    return sum(1 for handle in TARGET_MENTIONS if f"@{handle.lower()}" in lower)
+    raw = _normalize_mention_text(text)
+    count = 0
+    for handle in TARGET_MENTIONS:
+        pattern = r"(?<![A-Za-z0-9_])@" + re.escape(handle) + r"(?![A-Za-z0-9_])"
+        if re.search(pattern, raw, re.IGNORECASE):
+            count += 1
+    return count
+
+
+def tweet_text_may_be_truncated(text):
+    raw = _normalize_mention_text(text).strip()
+    if not raw:
+        return True
+    return "…" in raw or raw.endswith("...") or raw.endswith("…")
 
 
 def _payload_text(*values):
@@ -457,12 +480,17 @@ def promo_link_below_minimum(links, chat_id):
 
 def promo_link_missing_required_mentions(links):
     promo_link = _link_by_role(links, "promo")
-    if not promo_link.get("tweet_text"):
+    tweet_text = promo_link.get("tweet_text") or ""
+    if not tweet_text:
         return False
     try:
         count = int(promo_link.get("required_mentions_count"))
     except Exception:
-        count = count_required_mentions(promo_link.get("tweet_text", ""))
+        count = count_required_mentions(tweet_text)
+    if count >= 2:
+        return False
+    if tweet_text_may_be_truncated(tweet_text):
+        return False
     return count < 2
 
 
@@ -688,13 +716,18 @@ def reply_to_message(chat_id, message_id, text):
         print(f"回复异常: {e}")
 
 
-def reply_to_message_once(group_state, chat_id, message_id, reason, text):
+def reply_to_message_once(group_state, chat_id, message_id, reason, text, save_callback=None):
     key = f"{message_id}:{reason}"
     sent = set(group_state.get("reply_keys") or [])
     if key in sent:
-        return
-    reply_to_message(chat_id, message_id, text)
+        return False
     group_state["reply_keys"] = _bounded_list_append(group_state.get("reply_keys"), key, limit=800)
+    if save_callback:
+        save_callback()
+    reply_to_message(chat_id, message_id, text)
+    if save_callback:
+        save_callback()
+    return True
 
 
 def main():
@@ -806,9 +839,9 @@ def main():
                 print(f"   📝 收录 @{handle} ← {tg_tag}{extra}")
 
             if promo_link_below_minimum(links, actual_chat_id):
-                reply_to_message_once(grp, actual_chat_id, message_id, "low_followers", LOW_FOLLOWER_REPLY_TEXT)
+                reply_to_message_once(grp, actual_chat_id, message_id, "low_followers", LOW_FOLLOWER_REPLY_TEXT, save_callback=lambda: save_state(state))
             elif promo_link_missing_required_mentions(links):
-                reply_to_message_once(grp, actual_chat_id, message_id, "missing_mentions", INVALID_MENTIONS_REPLY_TEXT)
+                reply_to_message_once(grp, actual_chat_id, message_id, "missing_mentions", INVALID_MENTIONS_REPLY_TEXT, save_callback=lambda: save_state(state))
             elif limit_reply_enabled(actual_chat_id) and is_new_message and current == MAX_LIMIT:
                 reply_to_message_once(
                     grp,

@@ -270,6 +270,44 @@ class LinkParsingTest(unittest.TestCase):
         self.assertTrue(promo_link_below_minimum(links, "-1003218974409"))
         self.assertFalse(promo_link_below_minimum(links, "-1003739822194"))
 
+    def test_reply_account_followers_can_satisfy_group_minimum(self):
+        text = "https://x.com/low/status/111?s=46\nhttps://x.com/back/status/222?s=46"
+        links = [
+            {
+                "role": "promo",
+                "url": "https://x.com/low/status/111?s=46",
+                "handle": "low",
+                "post_id": "111",
+                "followers_count": 19999,
+                "followers_text": "1.9W",
+                "tweet_text": "正文 @ToBulaer @ToBuerma",
+                "required_mentions_count": 2,
+            },
+            {"role": "check", "url": "https://x.com/back/status/222?s=46", "handle": "back", "post_id": "222", "followers_count": 30000, "followers_text": "3W"},
+        ]
+        msg = {"message_id": 457, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+
+        record_link(
+            registry,
+            "low",
+            msg,
+            text,
+            "-1003218974409",
+            "2026-08-09 00:01:02",
+            check_handle="back",
+            dual_link=True,
+            promo_handle="low",
+            links=links,
+        )
+
+        entry = registry["entries"]["-1003218974409"]["low"]
+        self.assertFalse(promo_link_below_minimum(links, "-1003218974409"))
+        self.assertTrue(entry["mutual_eligible"])
+        self.assertEqual(entry["eligibility_text"], "✅合格")
+        self.assertEqual(entry["check_followers_text"], "3W")
+        self.assertEqual(entry["qualified_followers_count"], 30000)
+
     def test_missing_required_mentions_are_marked_ineligible(self):
         text = "https://x.com/bad/status/111?s=46"
         links = [{

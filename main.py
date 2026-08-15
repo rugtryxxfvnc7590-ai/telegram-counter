@@ -437,16 +437,54 @@ def follower_count_from_link(link):
         return None
 
 
+def _repost_rule_links(links):
+    promo_link = _link_by_role(links, "promo")
+    check_link = _link_by_role(links, "check")
+    out = []
+    seen = set()
+    for item in (promo_link, check_link):
+        url = str((item or {}).get("url") or "")
+        handle = str((item or {}).get("handle") or "")
+        key = (url, handle)
+        if item and key not in seen:
+            out.append(item)
+            seen.add(key)
+    return out
+
+
+def qualified_followers_count_from_links(links):
+    counts = [follower_count_from_link(item) for item in _repost_rule_links(links)]
+    counts = [count for count in counts if count is not None]
+    return max(counts) if counts else None
+
+
+def _int_or_none(value):
+    try:
+        return int(value)
+    except Exception:
+        return None
+
+
+def qualified_followers_count_from_entry(entry):
+    values = [
+        _int_or_none((entry or {}).get("qualified_followers_count")),
+        _int_or_none((entry or {}).get("followers_count")),
+        _int_or_none((entry or {}).get("check_followers_count")),
+    ]
+    values = [value for value in values if value is not None]
+    return max(values) if values else None
+
+
 def update_eligibility_fields(entry, chat_id):
     if not isinstance(entry, dict):
         return False
     before = json.dumps(entry, ensure_ascii=False, sort_keys=True)
     minimum = min_followers_for_chat(chat_id)
     entry["followers_min"] = minimum
-    try:
-        followers = int(entry.get("followers_count"))
-    except Exception:
-        followers = None
+    followers = qualified_followers_count_from_entry(entry)
+    if followers is not None:
+        entry["qualified_followers_count"] = followers
+        entry["qualified_followers_text"] = format_followers(followers)
     if entry.get("content_eligible") is False:
         entry["mutual_eligible"] = False
         entry["eligibility_text"] = "❌缺少指定@"
@@ -472,8 +510,7 @@ def update_eligibility_fields(entry, chat_id):
 
 
 def promo_link_below_minimum(links, chat_id):
-    promo_link = _link_by_role(links, "promo")
-    followers = follower_count_from_link(promo_link)
+    followers = qualified_followers_count_from_links(links)
     minimum = min_followers_for_chat(chat_id)
     return followers is not None and followers < minimum
 
@@ -600,6 +637,8 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "promo_name": promo_link.get("author_name", ""),
         "followers_count": promo_link.get("followers_count", ""),
         "followers_text": promo_link.get("followers_text", ""),
+        "check_followers_count": check_link.get("followers_count", ""),
+        "check_followers_text": check_link.get("followers_text", ""),
         "tweet_text": promo_link.get("tweet_text", ""),
         "required_mentions_count": promo_link.get("required_mentions_count", ""),
         "content_eligible": promo_link_content_eligible(links),
@@ -650,6 +689,8 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links):
             "promo_name": promo_link.get("author_name", ""),
             "followers_count": promo_link.get("followers_count", ""),
             "followers_text": promo_link.get("followers_text", ""),
+            "check_followers_count": check_link.get("followers_count", ""),
+            "check_followers_text": check_link.get("followers_text", ""),
             "tweet_text": promo_link.get("tweet_text", ""),
             "required_mentions_count": promo_link.get("required_mentions_count", ""),
             "content_eligible": promo_link_content_eligible(links),
@@ -684,6 +725,15 @@ def enrich_entry_metadata(entry):
             changed = True
         if meta.get("tweet_text") and not entry.get("tweet_text"):
             entry["tweet_text"] = meta["tweet_text"]
+            changed = True
+    check_url = entry.get("check_url") or ""
+    check_handle = entry.get("check_handle") or ""
+    check_post_id = entry.get("check_post_id") or _status_id_from_x_url(check_url)
+    if check_handle and check_handle != handle and not entry.get("check_followers_count"):
+        check_meta = fetch_x_author_meta(check_url, handle=check_handle, post_id=check_post_id)
+        if check_meta.get("followers_count") not in ("", None):
+            entry["check_followers_count"] = check_meta["followers_count"]
+            entry["check_followers_text"] = check_meta.get("followers_text", "")
             changed = True
     if entry.get("tweet_text"):
         tweet_text = entry.get("tweet_text", "")

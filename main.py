@@ -273,27 +273,99 @@ def _payload_text(*values):
     return ""
 
 
-def _author_meta_from_payload(data):
-    tweet = data.get("tweet") or {}
-    author = (data.get("tweet") or {}).get("author") or data.get("user") or {}
+def _int_or_none(value):
+    try:
+        return int(value)
+    except Exception:
+        return None
+
+
+def _author_followers(author):
+    for key in ("followers", "followers_count", "followersCount"):
+        value = _int_or_none((author or {}).get(key))
+        if value is not None:
+            return value
+    return None
+
+
+def _author_screen_name(author):
+    for key in ("screen_name", "username", "handle"):
+        value = str((author or {}).get(key) or "").strip().lstrip("@")
+        if value:
+            return value
+    return ""
+
+
+def _author_display_name(author):
+    for key in ("name", "display_name", "displayName"):
+        value = str((author or {}).get(key) or "").strip()
+        if value:
+            return value
+    return ""
+
+
+def _author_meta_from_payload(data, source=""):
+    data = data or {}
+    tweet = data.get("tweet") or data.get("status") or {}
+    author = (
+        (tweet or {}).get("author")
+        or data.get("author")
+        or data.get("user")
+        or data.get("profile")
+        or {}
+    )
     if not author:
         return {}
-    followers = author.get("followers")
+    followers = _author_followers(author)
     meta = {
-        "screen_name": str(author.get("screen_name") or "").lstrip("@"),
-        "name": str(author.get("name") or "").strip(),
+        "screen_name": _author_screen_name(author),
+        "name": _author_display_name(author),
         "followers_count": followers,
         "followers_text": format_followers(followers),
         "tweet_text": _payload_text(
-            tweet.get("text"),
-            tweet.get("full_text"),
-            tweet.get("raw_text"),
+            (tweet or {}).get("text"),
+            (tweet or {}).get("full_text"),
+            (tweet or {}).get("raw_text"),
             data.get("text"),
             data.get("full_text"),
             data.get("raw_text"),
         ),
     }
+    if followers is not None and source:
+        meta["followers_sources"] = [source]
+        meta["followers_observations"] = [{"source": source, "count": followers}]
     return {k: v for k, v in meta.items() if v not in ("", None)}
+
+
+def _merge_author_meta(base, incoming):
+    base = dict(base or {})
+    incoming = dict(incoming or {})
+    if not incoming:
+        return base
+    for key in ("screen_name", "name", "tweet_text"):
+        if incoming.get(key) and not base.get(key):
+            base[key] = incoming[key]
+    current = _int_or_none(base.get("followers_count"))
+    new = _int_or_none(incoming.get("followers_count"))
+    if new is not None and (current is None or new > current):
+        base["followers_count"] = new
+        base["followers_text"] = format_followers(new)
+    sources = list(base.get("followers_sources") or [])
+    for source in incoming.get("followers_sources") or []:
+        if source not in sources:
+            sources.append(source)
+    if sources:
+        base["followers_sources"] = sources
+    observations = list(base.get("followers_observations") or [])
+    seen = {(str(x.get("source")), _int_or_none(x.get("count"))) for x in observations if isinstance(x, dict)}
+    for obs in incoming.get("followers_observations") or []:
+        key = (str(obs.get("source")), _int_or_none(obs.get("count")))
+        if key not in seen:
+            observations.append(obs)
+            seen.add(key)
+    if observations:
+        base["followers_observations"] = observations
+    return base
 
 
 def fetch_x_author_meta(url="", handle="", post_id=""):
@@ -304,21 +376,34 @@ def fetch_x_author_meta(url="", handle="", post_id=""):
         return _x_author_meta_cache[key]
     endpoints = []
     if post_id:
-        endpoints.append(f"https://api.fxtwitter.com/i/status/{post_id}")
+        endpoints.append(("status_v2", f"https://api.fxtwitter.com/2/status/{post_id}"))
+        endpoints.append(("status_legacy_i", f"https://api.fxtwitter.com/i/status/{post_id}"))
     if handle:
-        endpoints.append(f"https://api.fxtwitter.com/{handle.lstrip('@')}")
+        clean = handle.lstrip("@")
+        endpoints.append(("status_legacy", f"https://api.fxtwitter.com/{clean}/status/{post_id}")) if post_id else None
+        endpoints.append(("profile_v2", f"https://api.fxtwitter.com/2/profile/{clean}?about_account=1"))
     meta = {}
     if not hasattr(requests, "get"):
         _x_author_meta_cache[key] = meta
         return meta
-    for endpoint in endpoints:
+    seen_endpoints = set()
+    idx = 0
+    while idx < len(endpoints):
+        source, endpoint = endpoints[idx]
+        idx += 1
+        if endpoint in seen_endpoints:
+            continue
+        seen_endpoints.add(endpoint)
         try:
             r = requests.get(endpoint, timeout=8)
             if r.status_code != 200:
                 continue
-            meta = _author_meta_from_payload(r.json())
-            if meta:
-                break
+            part = _author_meta_from_payload(r.json(), source=source)
+            if part:
+                meta = _merge_author_meta(meta, part)
+                screen_name = part.get("screen_name")
+                if screen_name and not any(e[0] == "profile_v2" for e in endpoints):
+                    endpoints.append(("profile_v2", f"https://api.fxtwitter.com/2/profile/{screen_name}?about_account=1"))
         except Exception as e:
             print(f"   ⚠️ X 作者信息读取失败: {endpoint} | {e}")
     _x_author_meta_cache[key] = meta
@@ -365,6 +450,8 @@ def extract_x_links_ordered(text):
             links[-1]["author_name"] = meta.get("name", "")
             links[-1]["followers_count"] = meta.get("followers_count", "")
             links[-1]["followers_text"] = meta.get("followers_text", "")
+            links[-1]["followers_sources"] = meta.get("followers_sources", [])
+            links[-1]["followers_observations"] = meta.get("followers_observations", [])
             links[-1]["tweet_text"] = meta.get("tweet_text", "")
             links[-1]["required_mentions_count"] = count_required_mentions(meta.get("tweet_text", ""))
             if meta.get("screen_name"):
@@ -458,13 +545,6 @@ def qualified_followers_count_from_links(links):
     return max(counts) if counts else None
 
 
-def _int_or_none(value):
-    try:
-        return int(value)
-    except Exception:
-        return None
-
-
 def qualified_followers_count_from_entry(entry):
     values = [
         _int_or_none((entry or {}).get("qualified_followers_count")),
@@ -473,6 +553,62 @@ def qualified_followers_count_from_entry(entry):
     ]
     values = [value for value in values if value is not None]
     return max(values) if values else None
+
+
+def _followers_sources(values):
+    sources = []
+    for value in values:
+        if isinstance(value, dict):
+            value = (
+                list(value.get("qualified_followers_sources") or [])
+                + list(value.get("followers_sources") or [])
+                + list(value.get("check_followers_sources") or [])
+            )
+        if isinstance(value, str):
+            value = [value]
+        for source in value or []:
+            source = str(source or "")
+            if source and source not in sources:
+                sources.append(source)
+    return sources
+
+
+def followers_low_is_confirmed(entry_or_link):
+    """低粉丝必须有主页来源确认，避免单个旧接口/缓存低值误伤。"""
+    if isinstance(entry_or_link, dict) and "chat_id" in entry_or_link:
+        minimum = min_followers_for_chat(entry_or_link.get("chat_id", ""))
+        checks = [
+            (
+                _int_or_none(entry_or_link.get("followers_count")),
+                entry_or_link.get("followers_sources") or [],
+            )
+        ]
+        if entry_or_link.get("dual_link") and entry_or_link.get("check_handle") != entry_or_link.get("promo_handle"):
+            checks.append((
+                _int_or_none(entry_or_link.get("check_followers_count")),
+                entry_or_link.get("check_followers_sources") or [],
+            ))
+        for count, sources in checks:
+            if count is None or count >= minimum or "profile_v2" not in sources:
+                return False
+        return bool(checks)
+    sources = _followers_sources([entry_or_link])
+    return "profile_v2" in sources
+
+
+def _qualified_followers_source_payloads_from_links(links):
+    return _repost_rule_links(links)
+
+
+def qualified_followers_low_is_confirmed_from_links(links, minimum):
+    rule_links = _qualified_followers_source_payloads_from_links(links)
+    if not rule_links:
+        return False
+    for item in rule_links:
+        count = follower_count_from_link(item)
+        if count is None or count >= minimum or not followers_low_is_confirmed(item):
+            return False
+    return True
 
 
 def update_eligibility_fields(entry, chat_id):
@@ -485,14 +621,21 @@ def update_eligibility_fields(entry, chat_id):
     if followers is not None:
         entry["qualified_followers_count"] = followers
         entry["qualified_followers_text"] = format_followers(followers)
+    sources = _followers_sources([entry])
+    if sources:
+        entry["qualified_followers_sources"] = sources
     if entry.get("content_eligible") is False:
         entry["mutual_eligible"] = False
         entry["eligibility_text"] = "❌缺少指定@"
         entry["ineligible_reason"] = "missing_required_mentions"
-    elif followers is not None and followers < minimum:
+    elif followers is not None and followers < minimum and followers_low_is_confirmed(entry):
         entry["mutual_eligible"] = False
         entry["eligibility_text"] = "❌粉丝不足"
         entry["ineligible_reason"] = "followers_below_minimum"
+    elif followers is not None and followers < minimum:
+        entry["mutual_eligible"] = True
+        entry["eligibility_text"] = "待确认"
+        entry["ineligible_reason"] = "followers_low_unconfirmed"
     elif entry.get("content_eligible") is None:
         entry["mutual_eligible"] = True
         entry["eligibility_text"] = "待确认"
@@ -512,7 +655,11 @@ def update_eligibility_fields(entry, chat_id):
 def promo_link_below_minimum(links, chat_id):
     followers = qualified_followers_count_from_links(links)
     minimum = min_followers_for_chat(chat_id)
-    return followers is not None and followers < minimum
+    return (
+        followers is not None
+        and followers < minimum
+        and qualified_followers_low_is_confirmed_from_links(links, minimum)
+    )
 
 
 def promo_link_missing_required_mentions(links):
@@ -637,8 +784,12 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "promo_name": promo_link.get("author_name", ""),
         "followers_count": promo_link.get("followers_count", ""),
         "followers_text": promo_link.get("followers_text", ""),
+        "followers_sources": promo_link.get("followers_sources", []),
+        "followers_observations": promo_link.get("followers_observations", []),
         "check_followers_count": check_link.get("followers_count", ""),
         "check_followers_text": check_link.get("followers_text", ""),
+        "check_followers_sources": check_link.get("followers_sources", []),
+        "check_followers_observations": check_link.get("followers_observations", []),
         "tweet_text": promo_link.get("tweet_text", ""),
         "required_mentions_count": promo_link.get("required_mentions_count", ""),
         "content_eligible": promo_link_content_eligible(links),
@@ -689,8 +840,12 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links):
             "promo_name": promo_link.get("author_name", ""),
             "followers_count": promo_link.get("followers_count", ""),
             "followers_text": promo_link.get("followers_text", ""),
+            "followers_sources": promo_link.get("followers_sources", []),
+            "followers_observations": promo_link.get("followers_observations", []),
             "check_followers_count": check_link.get("followers_count", ""),
             "check_followers_text": check_link.get("followers_text", ""),
+            "check_followers_sources": check_link.get("followers_sources", []),
+            "check_followers_observations": check_link.get("followers_observations", []),
             "tweet_text": promo_link.get("tweet_text", ""),
             "required_mentions_count": promo_link.get("required_mentions_count", ""),
             "content_eligible": promo_link_content_eligible(links),
@@ -707,6 +862,51 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links):
         update_eligibility_fields(post_bucket[post_id], chat_id)
 
 
+def _merge_entry_followers(entry, meta, count_key, text_key, sources_key, observations_key):
+    if not isinstance(entry, dict) or not isinstance(meta, dict):
+        return False
+    changed = False
+    new_count = _int_or_none(meta.get("followers_count"))
+    old_count = _int_or_none(entry.get(count_key))
+    if new_count is not None and (old_count is None or new_count > old_count):
+        entry[count_key] = new_count
+        entry[text_key] = format_followers(new_count)
+        changed = True
+    elif new_count is not None and entry.get(text_key) != format_followers(entry.get(count_key)):
+        entry[text_key] = format_followers(entry.get(count_key))
+        changed = True
+
+    current_sources = list(entry.get(sources_key) or [])
+    for source in meta.get("followers_sources") or []:
+        if source not in current_sources:
+            current_sources.append(source)
+            changed = True
+    if current_sources:
+        entry[sources_key] = current_sources
+
+    current_obs = list(entry.get(observations_key) or [])
+    seen = {(str(x.get("source")), _int_or_none(x.get("count"))) for x in current_obs if isinstance(x, dict)}
+    for obs in meta.get("followers_observations") or []:
+        key = (str(obs.get("source")), _int_or_none(obs.get("count")))
+        if key not in seen:
+            current_obs.append(obs)
+            seen.add(key)
+            changed = True
+    if current_obs:
+        entry[observations_key] = current_obs
+    return changed
+
+
+def _entry_needs_followers_verify(entry, count_key, sources_key):
+    minimum = min_followers_for_chat((entry or {}).get("chat_id", ""))
+    if minimum <= 0:
+        return False
+    count = _int_or_none((entry or {}).get(count_key))
+    if count is None or count < minimum:
+        return True
+    return "profile_v2" not in ((entry or {}).get(sources_key) or [])
+
+
 def enrich_entry_metadata(entry):
     if not isinstance(entry, dict):
         return False
@@ -714,14 +914,23 @@ def enrich_entry_metadata(entry):
     url = entry.get("promo_url") or entry.get("link") or ""
     handle = entry.get("promo_handle") or entry.get("x_handle") or ""
     post_id = entry.get("promo_post_id") or _status_id_from_x_url(url)
-    if not (entry.get("x_name") and entry.get("followers_count") and entry.get("tweet_text")):
+    if (
+        not (entry.get("x_name") and entry.get("followers_count") and entry.get("tweet_text"))
+        or _entry_needs_followers_verify(entry, "followers_count", "followers_sources")
+    ):
         meta = fetch_x_author_meta(url, handle=handle, post_id=post_id)
         if meta.get("name") and not entry.get("x_name"):
             entry["x_name"] = meta["name"]
             entry["promo_name"] = meta["name"]
             changed = True
-        if meta.get("followers_count") not in ("", None) and not entry.get("followers_count"):
-            entry["followers_count"] = meta["followers_count"]
+        if _merge_entry_followers(
+            entry,
+            meta,
+            "followers_count",
+            "followers_text",
+            "followers_sources",
+            "followers_observations",
+        ):
             changed = True
         if meta.get("tweet_text") and not entry.get("tweet_text"):
             entry["tweet_text"] = meta["tweet_text"]
@@ -729,11 +938,19 @@ def enrich_entry_metadata(entry):
     check_url = entry.get("check_url") or ""
     check_handle = entry.get("check_handle") or ""
     check_post_id = entry.get("check_post_id") or _status_id_from_x_url(check_url)
-    if check_handle and check_handle != handle and not entry.get("check_followers_count"):
+    if check_handle and check_handle != handle and (
+        not entry.get("check_followers_count")
+        or _entry_needs_followers_verify(entry, "check_followers_count", "check_followers_sources")
+    ):
         check_meta = fetch_x_author_meta(check_url, handle=check_handle, post_id=check_post_id)
-        if check_meta.get("followers_count") not in ("", None):
-            entry["check_followers_count"] = check_meta["followers_count"]
-            entry["check_followers_text"] = check_meta.get("followers_text", "")
+        if _merge_entry_followers(
+            entry,
+            check_meta,
+            "check_followers_count",
+            "check_followers_text",
+            "check_followers_sources",
+            "check_followers_observations",
+        ):
             changed = True
     if entry.get("tweet_text"):
         tweet_text = entry.get("tweet_text", "")

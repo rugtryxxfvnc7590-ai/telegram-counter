@@ -256,7 +256,15 @@ class LinkParsingTest(unittest.TestCase):
 
     def test_low_followers_are_marked_ineligible_by_group_minimum(self):
         text = "https://x.com/low/status/111?s=46"
-        links = [{"role": "promo", "url": text, "handle": "low", "post_id": "111", "followers_count": 19999, "followers_text": "1.9W"}]
+        links = [{
+            "role": "promo",
+            "url": text,
+            "handle": "low",
+            "post_id": "111",
+            "followers_count": 19999,
+            "followers_text": "1.9W",
+            "followers_sources": ["profile_v2"],
+        }]
         msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
         registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
 
@@ -269,6 +277,28 @@ class LinkParsingTest(unittest.TestCase):
         self.assertEqual(entry["eligibility_text"], "❌粉丝不足")
         self.assertTrue(promo_link_below_minimum(links, "-1003218974409"))
         self.assertFalse(promo_link_below_minimum(links, "-1003739822194"))
+
+    def test_single_low_status_source_does_not_trigger_low_followers_reply(self):
+        text = "https://x.com/low/status/111?s=46"
+        links = [{
+            "role": "promo",
+            "url": text,
+            "handle": "low",
+            "post_id": "111",
+            "followers_count": 1135,
+            "followers_text": "1.1K",
+            "followers_sources": ["status_legacy_i"],
+        }]
+        msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+
+        record_link(registry, "low", msg, text, "-1003218974409", "2026-08-09 00:01:02", links=links)
+
+        entry = registry["entries"]["-1003218974409"]["low"]
+        self.assertFalse(promo_link_below_minimum(links, "-1003218974409"))
+        self.assertTrue(entry["mutual_eligible"])
+        self.assertEqual(entry["eligibility_text"], "待确认")
+        self.assertEqual(entry["ineligible_reason"], "followers_low_unconfirmed")
 
     def test_reply_account_followers_can_satisfy_group_minimum(self):
         text = "https://x.com/low/status/111?s=46\nhttps://x.com/back/status/222?s=46"
@@ -307,6 +337,69 @@ class LinkParsingTest(unittest.TestCase):
         self.assertEqual(entry["eligibility_text"], "✅合格")
         self.assertEqual(entry["check_followers_text"], "3W")
         self.assertEqual(entry["qualified_followers_count"], 30000)
+
+    def test_backfill_higher_profile_followers_overrides_old_low_status_count(self):
+        class FakeResp:
+            status_code = 200
+
+            def __init__(self, payload):
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        def fake_get(url, timeout=8):
+            if "/2/profile/low" in url:
+                return FakeResp({
+                    "user": {
+                        "screen_name": "low",
+                        "name": "小王",
+                        "followers": 25000,
+                    }
+                })
+            return FakeResp({
+                "tweet": {
+                    "author": {
+                        "screen_name": "low",
+                        "name": "小王",
+                        "followers": 1135,
+                    },
+                    "text": "hello @ToBulaer @ToBuerma",
+                }
+            })
+
+        registry = {
+            "date": "2026-08-09",
+            "entries": {
+                "-1003218974409": {
+                    "low": {
+                        "x_handle": "low",
+                        "promo_handle": "low",
+                        "check_handle": "low",
+                        "promo_url": "https://x.com/low/status/111?s=46",
+                        "promo_post_id": "111",
+                        "followers_count": 1135,
+                        "followers_text": "1.1K",
+                        "followers_sources": ["status_legacy_i"],
+                        "tweet_text": "hello @ToBulaer @ToBuerma",
+                        "content_eligible": True,
+                        "chat_id": "-1003218974409",
+                    }
+                }
+            },
+            "post_entries": {},
+        }
+
+        main._x_author_meta_cache.clear()
+        with patch.object(main.requests, "get", side_effect=fake_get, create=True):
+            changed = backfill_registry_metadata(registry)
+
+        entry = registry["entries"]["-1003218974409"]["low"]
+        self.assertEqual(changed, 1)
+        self.assertEqual(entry["followers_count"], 25000)
+        self.assertEqual(entry["followers_text"], "2.5W")
+        self.assertEqual(entry["eligibility_text"], "✅合格")
+        self.assertEqual(entry["qualified_followers_count"], 25000)
 
     def test_missing_required_mentions_are_marked_ineligible(self):
         text = "https://x.com/bad/status/111?s=46"

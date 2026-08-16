@@ -22,6 +22,8 @@ GROUP_3_CHAT_ID_FALLBACK = "-1003739822194"
 LOW_FOLLOWER_REPLY_TEXT = "粉丝数量低于最低互推标准，该链接不予互推！"
 TARGET_MENTIONS = ("ToBulaer", "ToBuerma", "KawasawaSen", "BulmaList")
 INVALID_MENTIONS_REPLY_TEXT = "该链接违规，未@社区账号，不予互推"
+CUTOFF_HOUR = 19
+CUTOFF_ELIGIBILITY_TEXT = "❌超时链接"
 
 # Telegram 消息的 date 是 Unix 时间戳，统一换算到中国标准时间。
 BEIJING = ZoneInfo("Asia/Shanghai")
@@ -200,6 +202,11 @@ def beijing_day_of(unix_ts):
 
 def beijing_full_time(unix_ts):
     return datetime.fromtimestamp(unix_ts, BEIJING).strftime("%Y-%m-%d %H:%M:%S")
+
+
+def message_after_cutoff(unix_ts):
+    """北京时间 19:00 及以后发出的链接照常收录，但不算合格互推。"""
+    return datetime.fromtimestamp(unix_ts, BEIJING).hour >= CUTOFF_HOUR
 
 
 def resolve_tweet_author(tweet_id):
@@ -624,14 +631,23 @@ def update_eligibility_fields(entry, chat_id):
     sources = _followers_sources([entry])
     if sources:
         entry["qualified_followers_sources"] = sources
+    labels = []
+    reasons = []
+    if entry.get("after_cutoff"):
+        labels.append(CUTOFF_ELIGIBILITY_TEXT)
+        reasons.append("after_cutoff")
+
     if entry.get("content_eligible") is False:
+        labels.append("❌缺少指定@")
+        reasons.append("missing_required_mentions")
+    if followers is not None and followers < minimum and followers_low_is_confirmed(entry):
+        labels.append("❌粉丝不足")
+        reasons.append("followers_below_minimum")
+
+    if labels:
         entry["mutual_eligible"] = False
-        entry["eligibility_text"] = "❌缺少指定@"
-        entry["ineligible_reason"] = "missing_required_mentions"
-    elif followers is not None and followers < minimum and followers_low_is_confirmed(entry):
-        entry["mutual_eligible"] = False
-        entry["eligibility_text"] = "❌粉丝不足"
-        entry["ineligible_reason"] = "followers_below_minimum"
+        entry["eligibility_text"] = " / ".join(labels)
+        entry["ineligible_reason"] = ",".join(reasons)
     elif followers is not None and followers < minimum:
         entry["mutual_eligible"] = True
         entry["eligibility_text"] = "待确认"
@@ -760,7 +776,7 @@ def build_link_options(links, previous_entries=None, msg_time=""):
 
 def record_link(registry, x_handle, msg, text, chat_id, msg_time,
                 check_handle=None, dual_link=False, promo_handle=None, links=None,
-                previous_entries=None):
+                previous_entries=None, after_cutoff=False):
     user = msg.get("from", {})
     name = user.get("first_name", "")
     if user.get("last_name"):
@@ -800,6 +816,8 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "chat_id": chat_id,
         "message_id": msg.get("message_id", ""),
         "time": msg_time,
+        "after_cutoff": bool(after_cutoff),
+        "cutoff_time": "19:00" if after_cutoff else "",
         "edited": bool(msg.get("edit_date")),
         "edit_time": beijing_full_time(msg["edit_date"]) if msg.get("edit_date") else "",
     }
@@ -812,7 +830,7 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
             post_bucket[post_id] = dict(entry, x_handle=item.get("handle") or x_handle)
 
 
-def record_post_only(registry, msg, text, chat_id, msg_time, links):
+def record_post_only(registry, msg, text, chat_id, msg_time, links, after_cutoff=False):
     user = msg.get("from", {})
     name = user.get("first_name", "")
     if user.get("last_name"):
@@ -856,6 +874,8 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links):
             "chat_id": chat_id,
             "message_id": msg.get("message_id", ""),
             "time": msg_time,
+            "after_cutoff": bool(after_cutoff),
+            "cutoff_time": "19:00" if after_cutoff else "",
             "edited": bool(msg.get("edit_date")),
             "edit_time": beijing_full_time(msg["edit_date"]) if msg.get("edit_date") else "",
         }
@@ -1063,6 +1083,7 @@ def main():
 
             msg_day = beijing_day_of(msg["date"])
             msg_time = beijing_full_time(msg["date"])
+            after_cutoff = message_after_cutoff(msg["date"])
 
             if state.get("date") != msg_day:
                 state["date"] = msg_day
@@ -1098,19 +1119,21 @@ def main():
                 print(f"   ♻️ 同一 Telegram 消息已更新，移除旧登记 {removed} 条")
             if not handles:
                 print(f"   ⚠️ 未能从链接解析 X 账号 ← {tg_tag}")
-                record_post_only(registry, msg, text, actual_chat_id, msg_time, links)
+                record_post_only(registry, msg, text, actual_chat_id, msg_time, links, after_cutoff=after_cutoff)
             for handle in handles:
                 record_link(
                     registry, handle, msg, text, actual_chat_id, msg_time,
                     check_handle=check_handle or handle, dual_link=dual_link,
                     promo_handle=promo_handle or handle, links=links,
-                    previous_entries=previous_entries,
+                    previous_entries=previous_entries, after_cutoff=after_cutoff,
                 )
                 extra = ""
                 if dual_link and check_handle and handle != check_handle:
                     extra = f" → 查 @{check_handle}"
                 elif I_STATUS_RE.search(text):
                     extra = " (i/status反查)"
+                if after_cutoff:
+                    extra += " | 19:00后超时链接"
                 print(f"   📝 收录 @{handle} ← {tg_tag}{extra}")
 
             if promo_link_below_minimum(links, actual_chat_id):

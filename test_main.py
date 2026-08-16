@@ -12,6 +12,8 @@ import main
 from main import (
     INVALID_MENTIONS_REPLY_TEXT,
     LOW_FOLLOWER_REPLY_TEXT,
+    CUTOFF_ELIGIBILITY_TEXT,
+    BEIJING,
     beijing_day_of,
     beijing_full_time,
     backfill_registry_metadata,
@@ -22,6 +24,7 @@ from main import (
     format_followers,
     limit_reply_enabled,
     load_chat_ids,
+    message_after_cutoff,
     min_followers_for_chat,
     parse_check_handle,
     promo_link_below_minimum,
@@ -48,6 +51,13 @@ class BeijingTimeTest(unittest.TestCase):
 
         self.assertEqual(beijing_day_of(timestamp), "2026-08-06")
         self.assertEqual(beijing_full_time(timestamp), "2026-08-06 00:00:00")
+
+    def test_after_cutoff_uses_beijing_1900(self):
+        before = datetime(2026, 8, 16, 18, 59, 59, tzinfo=BEIJING).timestamp()
+        at_cutoff = datetime(2026, 8, 16, 19, 0, 0, tzinfo=BEIJING).timestamp()
+
+        self.assertFalse(message_after_cutoff(before))
+        self.assertTrue(message_after_cutoff(at_cutoff))
 
 
 class LinkParsingTest(unittest.TestCase):
@@ -424,6 +434,77 @@ class LinkParsingTest(unittest.TestCase):
         self.assertTrue(promo_link_missing_required_mentions(links))
         self.assertFalse(entry["mutual_eligible"])
         self.assertEqual(entry["eligibility_text"], "❌缺少指定@")
+
+    def test_after_cutoff_link_is_recorded_but_marked_timeout(self):
+        text = "https://x.com/late/status/111?s=46"
+        links = [{
+            "role": "promo",
+            "url": text,
+            "handle": "late",
+            "post_id": "111",
+            "followers_count": 30000,
+            "followers_text": "3W",
+            "tweet_text": "hello @ToBulaer @ToBuerma",
+            "required_mentions_count": 2,
+        }]
+        msg = {"message_id": 789, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        registry = {"date": "2026-08-16", "entries": {}, "post_entries": {}}
+
+        record_link(
+            registry,
+            "late",
+            msg,
+            text,
+            "-1003218974409",
+            "2026-08-16 19:01:00",
+            links=links,
+            after_cutoff=True,
+        )
+
+        entry = registry["entries"]["-1003218974409"]["late"]
+        self.assertIn("late", registry["entries"]["-1003218974409"])
+        self.assertIn("111", registry["post_entries"]["-1003218974409"])
+        self.assertEqual(CUTOFF_ELIGIBILITY_TEXT, "❌超时链接")
+        self.assertFalse(entry["mutual_eligible"])
+        self.assertTrue(entry["after_cutoff"])
+        self.assertEqual(entry["cutoff_time"], "19:00")
+        self.assertEqual(entry["eligibility_text"], "❌超时链接")
+        self.assertEqual(entry["ineligible_reason"], "after_cutoff")
+
+    def test_after_cutoff_does_not_hide_other_ineligible_reasons(self):
+        text = "https://x.com/latebad/status/111?s=46"
+        links = [{
+            "role": "promo",
+            "url": text,
+            "handle": "latebad",
+            "post_id": "111",
+            "followers_count": 19999,
+            "followers_text": "1.9W",
+            "followers_sources": ["profile_v2"],
+            "tweet_text": "hello @ToBulaer",
+            "required_mentions_count": 1,
+        }]
+        msg = {"message_id": 790, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        registry = {"date": "2026-08-16", "entries": {}, "post_entries": {}}
+
+        record_link(
+            registry,
+            "latebad",
+            msg,
+            text,
+            "-1003218974409",
+            "2026-08-16 19:01:00",
+            links=links,
+            after_cutoff=True,
+        )
+
+        entry = registry["entries"]["-1003218974409"]["latebad"]
+        self.assertFalse(entry["mutual_eligible"])
+        self.assertEqual(entry["eligibility_text"], "❌超时链接 / ❌缺少指定@ / ❌粉丝不足")
+        self.assertEqual(
+            entry["ineligible_reason"],
+            "after_cutoff,missing_required_mentions,followers_below_minimum",
+        )
 
     def test_required_mentions_support_fullwidth_at_and_zero_width(self):
         self.assertEqual(count_required_mentions("＠ToBulaer @To\u200bBuerma"), 2)

@@ -226,6 +226,47 @@ class LinkParsingTest(unittest.TestCase):
         self.assertEqual(format_followers(100999), "10W")
         self.assertEqual(fetch_x_author_meta("https://x.com/promoA/status/111", "promoa", "111")["name"], "小王")
 
+    def test_long_vxtwitter_text_overrides_short_cached_status_text(self):
+        class FakeResp:
+            status_code = 200
+
+            def __init__(self, payload):
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        def fake_get(url, timeout=8):
+            if "api.vxtwitter.com" in url:
+                return FakeResp({
+                    "user_screen_name": "promoA",
+                    "user_name": "小王",
+                    "text": "短正文后面的完整内容 @KawasawaSen @BulmaList @ToBulaer @ToBuerma",
+                })
+            return FakeResp({
+                "tweet": {
+                    "author": {
+                        "screen_name": "promoA",
+                        "name": "小王",
+                        "followers": 40125,
+                    },
+                    "text": "短正文",
+                }
+            })
+
+        with patch.object(main.requests, "get", side_effect=fake_get, create=True):
+            text = "https://x.com/promoA/status/111?s=46"
+            links = extract_x_links_ordered(text)
+            msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+            registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+            record_link(registry, "promoa", msg, text, "-1003218974409", "2026-08-09 00:01:02", links=links)
+
+        entry = registry["entries"]["-1003218974409"]["promoa"]
+        self.assertIn("@ToBulaer", entry["tweet_text"])
+        self.assertEqual(entry["required_mentions_count"], 4)
+        self.assertEqual(entry["followers_text"], "4W")
+        self.assertEqual(entry["eligibility_text"], "✅合格")
+
     def test_backfill_registry_metadata_updates_old_entries(self):
         class FakeResp:
             status_code = 200

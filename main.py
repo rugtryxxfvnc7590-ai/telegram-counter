@@ -327,7 +327,21 @@ def _author_meta_from_payload(data, source=""):
         or data.get("profile")
         or {}
     )
-    if not author:
+    if not author and (data.get("user_screen_name") or data.get("user_name")):
+        author = {
+            "screen_name": data.get("user_screen_name"),
+            "name": data.get("user_name"),
+            "followers": data.get("followers") or data.get("followers_count"),
+        }
+    tweet_text = _payload_text(
+        (tweet or {}).get("text"),
+        (tweet or {}).get("full_text"),
+        (tweet or {}).get("raw_text"),
+        data.get("text"),
+        data.get("full_text"),
+        data.get("raw_text"),
+    )
+    if not author and not tweet_text:
         return {}
     followers = _author_followers(author)
     meta = {
@@ -335,14 +349,7 @@ def _author_meta_from_payload(data, source=""):
         "name": _author_display_name(author),
         "followers_count": followers,
         "followers_text": format_followers(followers),
-        "tweet_text": _payload_text(
-            (tweet or {}).get("text"),
-            (tweet or {}).get("full_text"),
-            (tweet or {}).get("raw_text"),
-            data.get("text"),
-            data.get("full_text"),
-            data.get("raw_text"),
-        ),
+        "tweet_text": tweet_text,
     }
     if followers is not None and source:
         meta["followers_sources"] = [source]
@@ -355,9 +362,20 @@ def _merge_author_meta(base, incoming):
     incoming = dict(incoming or {})
     if not incoming:
         return base
-    for key in ("screen_name", "name", "tweet_text"):
+    for key in ("screen_name", "name"):
         if incoming.get(key) and not base.get(key):
             base[key] = incoming[key]
+    incoming_text = incoming.get("tweet_text") or ""
+    current_text = base.get("tweet_text") or ""
+    if incoming_text:
+        incoming_mentions = count_required_mentions(incoming_text)
+        current_mentions = count_required_mentions(current_text)
+        if (
+            not current_text
+            or incoming_mentions > current_mentions
+            or (incoming_mentions == current_mentions and len(incoming_text) > len(current_text))
+        ):
+            base["tweet_text"] = incoming_text
     current = _int_or_none(base.get("followers_count"))
     new = _int_or_none(incoming.get("followers_count"))
     if new is not None and (current is None or new > current):
@@ -391,6 +409,8 @@ def fetch_x_author_meta(url="", handle="", post_id=""):
     if post_id:
         endpoints.append(("status_v2", f"https://api.fxtwitter.com/2/status/{post_id}"))
         endpoints.append(("status_legacy_i", f"https://api.fxtwitter.com/i/status/{post_id}"))
+        endpoints.append(("vx_status_v2", f"https://api.vxtwitter.com/2/status/{post_id}"))
+        endpoints.append(("vx_status_i", f"https://api.vxtwitter.com/i/status/{post_id}"))
     if handle:
         clean = handle.lstrip("@")
         endpoints.append(("status_legacy", f"https://api.fxtwitter.com/{clean}/status/{post_id}")) if post_id else None

@@ -209,6 +209,12 @@ def message_after_cutoff(unix_ts):
     return datetime.fromtimestamp(unix_ts, BEIJING).hour >= CUTOFF_HOUR
 
 
+def violation_reply_allowed(unix_ts):
+    """19:00-23:59 是闲聊时段，违规仍记录到后台，但不在群里回复打扰。"""
+    hour = datetime.fromtimestamp(unix_ts, BEIJING).hour
+    return not (CUTOFF_HOUR <= hour <= 23)
+
+
 def resolve_tweet_author(tweet_id):
     """x.com/i/status/推文ID → 反查作者 @（无官方 API）。"""
     tid = str(tweet_id).strip()
@@ -1136,9 +1142,9 @@ def main():
                     extra += " | 19:00后超时链接"
                 print(f"   📝 收录 @{handle} ← {tg_tag}{extra}")
 
-            if promo_link_below_minimum(links, actual_chat_id):
+            if violation_reply_allowed(msg["date"]) and promo_link_below_minimum(links, actual_chat_id):
                 reply_to_message_once(grp, actual_chat_id, message_id, "low_followers", LOW_FOLLOWER_REPLY_TEXT, save_callback=lambda: save_state(state))
-            elif promo_link_missing_required_mentions(links):
+            elif violation_reply_allowed(msg["date"]) and promo_link_missing_required_mentions(links):
                 reply_to_message_once(grp, actual_chat_id, message_id, "missing_mentions", INVALID_MENTIONS_REPLY_TEXT, save_callback=lambda: save_state(state))
             elif limit_reply_enabled(actual_chat_id) and is_new_message and current == MAX_LIMIT:
                 reply_to_message_once(

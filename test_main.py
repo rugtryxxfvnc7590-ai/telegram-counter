@@ -35,6 +35,7 @@ from main import (
     remove_registry_rows_if_edited_message_lost_links,
     save_group_registry_exports,
     tweet_text_may_be_truncated,
+    violation_reply_allowed,
 )
 from sync_deleted_messages import collect_registry_message_refs, deletion_sync_enabled, prune_deleted_message_ids
 
@@ -348,6 +349,52 @@ class LinkParsingTest(unittest.TestCase):
         self.assertEqual(entry["check_followers_text"], "3W")
         self.assertEqual(entry["qualified_followers_count"], 30000)
 
+    def test_second_check_link_does_not_need_required_mentions(self):
+        text = "https://x.com/promo/status/111?s=46\nhttps://x.com/check/status/222?s=46"
+        links = [
+            {
+                "role": "promo",
+                "url": "https://x.com/promo/status/111?s=46",
+                "handle": "promo",
+                "post_id": "111",
+                "followers_count": 30000,
+                "followers_text": "3W",
+                "tweet_text": "正文 @ToBulaer @ToBuerma",
+                "required_mentions_count": 2,
+            },
+            {
+                "role": "check",
+                "url": "https://x.com/check/status/222?s=46",
+                "handle": "check",
+                "post_id": "222",
+                "followers_count": 30000,
+                "followers_text": "3W",
+                "tweet_text": "回推号正文没有社区账号",
+                "required_mentions_count": 0,
+            },
+        ]
+        msg = {"message_id": 458, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+
+        record_link(
+            registry,
+            "promo",
+            msg,
+            text,
+            "-1003218974409",
+            "2026-08-09 00:01:02",
+            check_handle="check",
+            dual_link=True,
+            promo_handle="promo",
+            links=links,
+        )
+
+        entry = registry["entries"]["-1003218974409"]["promo"]
+        self.assertFalse(promo_link_missing_required_mentions(links))
+        self.assertTrue(main.promo_link_content_eligible(links))
+        self.assertTrue(entry["mutual_eligible"])
+        self.assertEqual(entry["eligibility_text"], "✅合格")
+
     def test_backfill_higher_profile_followers_overrides_old_low_status_count(self):
         class FakeResp:
             status_code = 200
@@ -505,6 +552,17 @@ class LinkParsingTest(unittest.TestCase):
             entry["ineligible_reason"],
             "after_cutoff,missing_required_mentions,followers_below_minimum",
         )
+
+    def test_violation_replies_are_suppressed_from_19_to_midnight(self):
+        before_cutoff = datetime(2026, 8, 16, 18, 59, 59, tzinfo=BEIJING).timestamp()
+        at_cutoff = datetime(2026, 8, 16, 19, 0, 0, tzinfo=BEIJING).timestamp()
+        before_midnight = datetime(2026, 8, 16, 23, 59, 59, tzinfo=BEIJING).timestamp()
+        midnight = datetime(2026, 8, 17, 0, 0, 0, tzinfo=BEIJING).timestamp()
+
+        self.assertTrue(violation_reply_allowed(before_cutoff))
+        self.assertFalse(violation_reply_allowed(at_cutoff))
+        self.assertFalse(violation_reply_allowed(before_midnight))
+        self.assertTrue(violation_reply_allowed(midnight))
 
     def test_required_mentions_support_fullwidth_at_and_zero_width(self):
         self.assertEqual(count_required_mentions("＠ToBulaer @To\u200bBuerma"), 2)

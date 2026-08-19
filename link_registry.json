@@ -7426,8 +7426,8 @@
         ],
         "x_name": "Sara",
         "promo_name": "Sara",
-        "followers_count": 4,
-        "followers_text": "4",
+        "followers_count": 5,
+        "followers_text": "5",
         "followers_sources": [
           "profile_v2"
         ],
@@ -7451,6 +7451,10 @@
           {
             "source": "profile_v2",
             "count": 4
+          },
+          {
+            "source": "profile_v2",
+            "count": 5
           }
         ],
         "check_followers_count": 0,
@@ -7477,8 +7481,8 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 4,
-        "qualified_followers_text": "4",
+        "qualified_followers_count": 5,
+        "qualified_followers_text": "5",
         "qualified_followers_sources": [
           "profile_v2"
         ],

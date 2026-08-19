@@ -4561,8 +4561,8 @@
         ],
         "x_name": "yuri",
         "promo_name": "yuri",
-        "followers_count": 0,
-        "followers_text": "0",
+        "followers_count": 1,
+        "followers_text": "1",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -4585,6 +4585,22 @@
           {
             "source": "profile_v2",
             "count": 0
+          },
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
           }
         ],
         "check_followers_count": 0,
@@ -4626,8 +4642,8 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 0,
-        "qualified_followers_text": "0",
+        "qualified_followers_count": 1,
+        "qualified_followers_text": "1",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -7410,8 +7426,8 @@
         ],
         "x_name": "Sara",
         "promo_name": "Sara",
-        "followers_count": 2,
-        "followers_text": "2",
+        "followers_count": 3,
+        "followers_text": "3",
         "followers_sources": [
           "profile_v2"
         ],
@@ -7427,6 +7443,10 @@
           {
             "source": "profile_v2",
             "count": 2
+          },
+          {
+            "source": "profile_v2",
+            "count": 3
           }
         ],
         "check_followers_count": 0,
@@ -7453,8 +7473,8 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 2,
-        "qualified_followers_text": "2",
+        "qualified_followers_count": 3,
+        "qualified_followers_text": "3",
         "qualified_followers_sources": [
           "profile_v2"
         ],
@@ -12027,8 +12047,8 @@
         ],
         "x_name": "yuri",
         "promo_name": "yuri",
-        "followers_count": 0,
-        "followers_text": "0",
+        "followers_count": 1,
+        "followers_text": "1",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -12051,6 +12071,22 @@
           {
             "source": "profile_v2",
             "count": 0
+          },
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
           }
         ],
         "check_followers_count": 0,
@@ -12092,8 +12128,8 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 0,
-        "qualified_followers_text": "0",
+        "qualified_followers_count": 1,
+        "qualified_followers_text": "1",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

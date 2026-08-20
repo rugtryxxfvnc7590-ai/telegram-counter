@@ -268,8 +268,100 @@ class LinkParsingTest(unittest.TestCase):
         entry = registry["entries"]["-1003218974409"]["promoa"]
         self.assertIn("@ToBulaer", entry["tweet_text"])
         self.assertEqual(entry["required_mentions_count"], 4)
+        self.assertIn("vx_status_v2", entry["tweet_text_sources"])
+        self.assertEqual(entry["tweet_text_primary_source"], "vx_status_v2")
         self.assertEqual(entry["followers_text"], "4W")
         self.assertEqual(entry["eligibility_text"], "✅合格")
+
+    def test_long_fx_text_without_full_source_never_triggers_missing_mentions(self):
+        links = [{
+            "role": "promo",
+            "tweet_text": "长正文" * 45,
+            "tweet_text_sources": ["status_v2", "status_legacy_i"],
+            "required_mentions_count": 0,
+        }]
+
+        self.assertTrue(tweet_text_may_be_truncated(links[0]["tweet_text"], links[0]["tweet_text_sources"]))
+        self.assertFalse(promo_link_missing_required_mentions(links))
+        self.assertIsNone(main.promo_link_content_eligible(links))
+
+    def test_full_vx_text_without_required_mentions_is_confirmed_invalid(self):
+        links = [{
+            "role": "promo",
+            "tweet_text": "这是已经取完的长正文" * 20,
+            "tweet_text_sources": ["vx_status_v2"],
+            "required_mentions_count": 0,
+        }]
+
+        self.assertFalse(tweet_text_may_be_truncated(links[0]["tweet_text"], links[0]["tweet_text_sources"]))
+        self.assertTrue(promo_link_missing_required_mentions(links))
+        self.assertFalse(main.promo_link_content_eligible(links))
+
+    def test_backfill_replaces_existing_truncated_text_with_complete_vx_text(self):
+        class FakeResp:
+            status_code = 200
+
+            def __init__(self, payload):
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        partial = "小陈的探店系列：" + "前半段正文" * 25
+        complete = partial + "\n@ToBuerma @ToBulaer @KawasawaSen @BulmaList"
+
+        def fake_get(url, timeout=8):
+            if "api.vxtwitter.com" in url:
+                return FakeResp({
+                    "user_screen_name": "xiaochen000007",
+                    "user_name": "小陈和小王的日常",
+                    "text": complete,
+                })
+            return FakeResp({
+                "tweet": {
+                    "author": {
+                        "screen_name": "xiaochen000007",
+                        "name": "小陈和小王的日常",
+                        "followers": 151499,
+                    },
+                    "text": partial,
+                }
+            })
+
+        registry = {
+            "date": "2026-08-19",
+            "entries": {
+                "-1003891628675": {
+                    "xiaochen000007": {
+                        "x_handle": "xiaochen000007",
+                        "promo_handle": "xiaochen000007",
+                        "promo_url": "https://x.com/xiaochen000007/status/2090012491149631529?s=46",
+                        "promo_post_id": "2090012491149631529",
+                        "chat_id": "-1003891628675",
+                        "x_name": "小陈和小王的日常",
+                        "followers_count": 151499,
+                        "followers_sources": ["profile_v2"],
+                        "tweet_text": partial,
+                        "tweet_text_sources": ["status_v2"],
+                        "required_mentions_count": 0,
+                        "content_eligible": False,
+                        "eligibility_text": "❌缺少指定@",
+                    }
+                }
+            },
+            "post_entries": {},
+        }
+
+        with patch.object(main.requests, "get", side_effect=fake_get, create=True):
+            changed = backfill_registry_metadata(registry)
+
+        entry = registry["entries"]["-1003891628675"]["xiaochen000007"]
+        self.assertEqual(changed, 1)
+        self.assertEqual(entry["tweet_text"], complete)
+        self.assertEqual(entry["required_mentions_count"], 4)
+        self.assertTrue(entry["content_eligible"])
+        self.assertEqual(entry["eligibility_text"], "✅合格")
+        self.assertIn("vx_status_v2", entry["tweet_text_sources"])
 
     def test_backfill_registry_metadata_updates_old_entries(self):
         class FakeResp:

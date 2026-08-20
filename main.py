@@ -22,6 +22,8 @@ GROUP_3_CHAT_ID_FALLBACK = "-1003739822194"
 LOW_FOLLOWER_REPLY_TEXT = "粉丝数量低于最低互推标准，该链接不予互推！"
 TARGET_MENTIONS = ("ToBulaer", "ToBuerma", "KawasawaSen", "BulmaList")
 INVALID_MENTIONS_REPLY_TEXT = "该链接违规，未@社区账号，不予互推"
+FULL_TWEET_TEXT_SOURCES = frozenset({"vx_status_v2", "vx_status_i"})
+LONG_TEXT_UNCERTAIN_LENGTH = 120
 CUTOFF_HOUR = 19
 CUTOFF_ELIGIBILITY_TEXT = "❌超时链接"
 REPLY_RULES_FILE = Path(__file__).resolve().with_name("bot_reply_rules.json")
@@ -320,11 +322,18 @@ def count_required_mentions(text):
     return count
 
 
-def tweet_text_may_be_truncated(text):
+def tweet_text_may_be_truncated(text, sources=None):
     raw = _normalize_mention_text(text).strip()
     if not raw:
         return True
-    return "…" in raw or raw.endswith("...") or raw.endswith("…")
+    if "…" in raw or raw.endswith("...") or raw.endswith("…"):
+        return True
+    source_set = {str(source) for source in (sources or [])}
+    if source_set & FULL_TWEET_TEXT_SOURCES:
+        return False
+    # FxTwitter 会把 X 长文本截断在旧长度附近，且不一定带省略号。
+    # 在没有完整长文本来源时，宁可待确认，不直接判“缺少指定@”。
+    return len(raw) >= LONG_TEXT_UNCERTAIN_LENGTH
 
 
 def _payload_text(*values):
@@ -402,6 +411,13 @@ def _author_meta_from_payload(data, source=""):
         "followers_text": format_followers(followers),
         "tweet_text": tweet_text,
     }
+    if tweet_text and source:
+        meta["tweet_text_sources"] = [source]
+        meta["tweet_text_observations"] = [{
+            "source": source,
+            "length": len(tweet_text),
+            "required_mentions_count": count_required_mentions(tweet_text),
+        }]
     if followers is not None and source:
         meta["followers_sources"] = [source]
         meta["followers_observations"] = [{"source": source, "count": followers}]
@@ -427,6 +443,29 @@ def _merge_author_meta(base, incoming):
             or (incoming_mentions == current_mentions and len(incoming_text) > len(current_text))
         ):
             base["tweet_text"] = incoming_text
+            base["tweet_text_primary_source"] = (incoming.get("tweet_text_sources") or [""])[0]
+    text_sources = list(base.get("tweet_text_sources") or [])
+    for source in incoming.get("tweet_text_sources") or []:
+        if source not in text_sources:
+            text_sources.append(source)
+    if text_sources:
+        base["tweet_text_sources"] = text_sources
+    text_observations = list(base.get("tweet_text_observations") or [])
+    seen_text_observations = {
+        (str(x.get("source")), _int_or_none(x.get("length")), _int_or_none(x.get("required_mentions_count")))
+        for x in text_observations if isinstance(x, dict)
+    }
+    for observation in incoming.get("tweet_text_observations") or []:
+        key = (
+            str(observation.get("source")),
+            _int_or_none(observation.get("length")),
+            _int_or_none(observation.get("required_mentions_count")),
+        )
+        if key not in seen_text_observations:
+            text_observations.append(observation)
+            seen_text_observations.add(key)
+    if text_observations:
+        base["tweet_text_observations"] = text_observations
     current = _int_or_none(base.get("followers_count"))
     new = _int_or_none(incoming.get("followers_count"))
     if new is not None and (current is None or new > current):
@@ -537,6 +576,9 @@ def extract_x_links_ordered(text):
             links[-1]["followers_sources"] = meta.get("followers_sources", [])
             links[-1]["followers_observations"] = meta.get("followers_observations", [])
             links[-1]["tweet_text"] = meta.get("tweet_text", "")
+            links[-1]["tweet_text_sources"] = meta.get("tweet_text_sources", [])
+            links[-1]["tweet_text_observations"] = meta.get("tweet_text_observations", [])
+            links[-1]["tweet_text_primary_source"] = meta.get("tweet_text_primary_source", "")
             links[-1]["required_mentions_count"] = count_required_mentions(meta.get("tweet_text", ""))
             if meta.get("screen_name"):
                 links[-1]["handle"] = meta["screen_name"].lower()
@@ -766,7 +808,7 @@ def promo_link_missing_required_mentions(links):
         count = count_required_mentions(tweet_text)
     if count >= 2:
         return False
-    if tweet_text_may_be_truncated(tweet_text):
+    if tweet_text_may_be_truncated(tweet_text, promo_link.get("tweet_text_sources")):
         return False
     return count < 2
 
@@ -780,7 +822,7 @@ def promo_link_content_eligible(links):
         count = int(promo_link.get("required_mentions_count"))
     except Exception:
         count = count_required_mentions(tweet_text)
-    if count < 2 and tweet_text_may_be_truncated(tweet_text):
+    if count < 2 and tweet_text_may_be_truncated(tweet_text, promo_link.get("tweet_text_sources")):
         return None
     return not promo_link_missing_required_mentions(links)
 
@@ -884,6 +926,9 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "check_followers_sources": check_link.get("followers_sources", []),
         "check_followers_observations": check_link.get("followers_observations", []),
         "tweet_text": promo_link.get("tweet_text", ""),
+        "tweet_text_sources": promo_link.get("tweet_text_sources", []),
+        "tweet_text_observations": promo_link.get("tweet_text_observations", []),
+        "tweet_text_primary_source": promo_link.get("tweet_text_primary_source", ""),
         "required_mentions_count": promo_link.get("required_mentions_count", ""),
         "content_eligible": promo_link_content_eligible(links),
         "promo_url": promo_link.get("url", ""),
@@ -942,6 +987,9 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links, after_cutoff
             "check_followers_sources": check_link.get("followers_sources", []),
             "check_followers_observations": check_link.get("followers_observations", []),
             "tweet_text": promo_link.get("tweet_text", ""),
+            "tweet_text_sources": promo_link.get("tweet_text_sources", []),
+            "tweet_text_observations": promo_link.get("tweet_text_observations", []),
+            "tweet_text_primary_source": promo_link.get("tweet_text_primary_source", ""),
             "required_mentions_count": promo_link.get("required_mentions_count", ""),
             "content_eligible": promo_link_content_eligible(links),
             "promo_url": promo_link.get("url", ""),
@@ -1004,6 +1052,60 @@ def _entry_needs_followers_verify(entry, count_key, sources_key):
     return "profile_v2" not in ((entry or {}).get(sources_key) or [])
 
 
+def _entry_needs_tweet_verify(entry):
+    tweet_text = str((entry or {}).get("tweet_text") or "")
+    if not tweet_text:
+        return True
+    if count_required_mentions(tweet_text) >= 2:
+        return False
+    return tweet_text_may_be_truncated(tweet_text, (entry or {}).get("tweet_text_sources"))
+
+
+def _merge_entry_tweet_text(entry, meta):
+    if not isinstance(entry, dict) or not isinstance(meta, dict):
+        return False
+    changed = False
+    incoming_text = str(meta.get("tweet_text") or "")
+    current_text = str(entry.get("tweet_text") or "")
+    incoming_count = count_required_mentions(incoming_text)
+    current_count = count_required_mentions(current_text)
+    if incoming_text and (
+        not current_text
+        or incoming_count > current_count
+        or (incoming_count == current_count and len(incoming_text) > len(current_text))
+    ):
+        entry["tweet_text"] = incoming_text
+        entry["tweet_text_primary_source"] = meta.get("tweet_text_primary_source", "")
+        changed = True
+
+    sources = list(entry.get("tweet_text_sources") or [])
+    for source in meta.get("tweet_text_sources") or []:
+        if source not in sources:
+            sources.append(source)
+            changed = True
+    if sources:
+        entry["tweet_text_sources"] = sources
+
+    observations = list(entry.get("tweet_text_observations") or [])
+    seen = {
+        (str(x.get("source")), _int_or_none(x.get("length")), _int_or_none(x.get("required_mentions_count")))
+        for x in observations if isinstance(x, dict)
+    }
+    for observation in meta.get("tweet_text_observations") or []:
+        key = (
+            str(observation.get("source")),
+            _int_or_none(observation.get("length")),
+            _int_or_none(observation.get("required_mentions_count")),
+        )
+        if key not in seen:
+            observations.append(observation)
+            seen.add(key)
+            changed = True
+    if observations:
+        entry["tweet_text_observations"] = observations
+    return changed
+
+
 def enrich_entry_metadata(entry):
     if not isinstance(entry, dict):
         return False
@@ -1014,6 +1116,7 @@ def enrich_entry_metadata(entry):
     if (
         not (entry.get("x_name") and entry.get("followers_count") and entry.get("tweet_text"))
         or _entry_needs_followers_verify(entry, "followers_count", "followers_sources")
+        or _entry_needs_tweet_verify(entry)
     ):
         meta = fetch_x_author_meta(url, handle=handle, post_id=post_id)
         if meta.get("name") and not entry.get("x_name"):
@@ -1029,8 +1132,7 @@ def enrich_entry_metadata(entry):
             "followers_observations",
         ):
             changed = True
-        if meta.get("tweet_text") and not entry.get("tweet_text"):
-            entry["tweet_text"] = meta["tweet_text"]
+        if _merge_entry_tweet_text(entry, meta):
             changed = True
     check_url = entry.get("check_url") or ""
     check_handle = entry.get("check_handle") or ""
@@ -1055,7 +1157,11 @@ def enrich_entry_metadata(entry):
         if entry.get("required_mentions_count") != mention_count:
             entry["required_mentions_count"] = mention_count
             changed = True
-        content_eligible = None if mention_count < 2 and tweet_text_may_be_truncated(tweet_text) else mention_count >= 2
+        content_eligible = (
+            None
+            if mention_count < 2 and tweet_text_may_be_truncated(tweet_text, entry.get("tweet_text_sources"))
+            else mention_count >= 2
+        )
         if entry.get("content_eligible") is not content_eligible:
             entry["content_eligible"] = content_eligible
             changed = True

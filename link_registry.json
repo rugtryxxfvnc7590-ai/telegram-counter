@@ -2510,8 +2510,8 @@
         ],
         "x_name": "小陈和小王的日常",
         "promo_name": "小陈和小王的日常",
-        "followers_count": 149299,
-        "followers_text": "14.9W",
+        "followers_count": 151552,
+        "followers_text": "15.1W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -2534,6 +2534,22 @@
           {
             "source": "profile_v2",
             "count": 149299
+          },
+          {
+            "source": "status_v2",
+            "count": 151552
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 151552
+          },
+          {
+            "source": "status_legacy",
+            "count": 151552
+          },
+          {
+            "source": "profile_v2",
+            "count": 151552
           }
         ],
         "check_followers_count": 149299,
@@ -2562,9 +2578,9 @@
             "count": 149299
           }
         ],
-        "tweet_text": "小陈的探店系列7:\n        本作紧急重制版来袭由于保护技师和spa店隐私上部作品下架 这是探店系列首次采用vlog形式发布 在某网红绿色连锁spa店出水 心中有水绿店照出\n       中途顺便忽悠技师小妹去私影和94店上班顺便讨论了一下这个行业（感觉我好坏啊）\n       ps：技师小妹是我发小炮友",
-        "required_mentions_count": 0,
-        "content_eligible": false,
+        "tweet_text": "小陈的探店系列7:\n        本作紧急重制版来袭由于保护技师和spa店隐私上部作品下架 这是探店系列首次采用vlog形式发布 在某网红绿色连锁spa店出水 心中有水绿店照出\n       中途顺便忽悠技师小妹去私影和94店上班顺便讨论了一下这个行业（感觉我好坏啊）\n       ps：技师小妹是我发小炮友 小陈高中同学有时候这世界就是这么小\n\n完整版27分钟将在内群更新\n\n@tobuerma\n\n@ToBulaer\n\n@KawasawaSen \n\n@BulmaList",
+        "required_mentions_count": 4,
+        "content_eligible": true,
         "promo_url": "https://x.com/xiaochen000007/status/2090012491149631529?s=46",
         "check_url": "https://x.com/xiaochen000007/status/2090012491149631529?s=46",
         "promo_post_id": "2090012491149631529",
@@ -2575,17 +2591,51 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 149299,
-        "qualified_followers_text": "14.9W",
+        "qualified_followers_count": 151552,
+        "qualified_followers_text": "15.1W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
-        "mutual_eligible": false,
-        "eligibility_text": "❌缺少指定@",
-        "ineligible_reason": "missing_required_mentions"
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "tweet_text_primary_source": "vx_status_v2",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 156,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 156,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 238,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 238,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 156,
+            "required_mentions_count": 0
+          }
+        ]
       },
       "laibeinaixiba": {
         "x_handle": "laibeinaixiba",
@@ -5589,7 +5639,41 @@
           "profile_v2"
         ],
         "mutual_eligible": true,
-        "eligibility_text": "✅合格"
+        "eligibility_text": "✅合格",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 70,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 70,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 70,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 70,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 70,
+            "required_mentions_count": 4
+          }
+        ]
       },
       "cocoluhk": {
         "x_handle": "cocoluhk",
@@ -5720,6 +5804,214 @@
         "followers_min": 0,
         "qualified_followers_count": 149,
         "qualified_followers_text": "149",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "annebabycute": {
+        "x_handle": "annebabycute",
+        "check_handle": "annebabycute",
+        "dual_link": false,
+        "promo_handle": "annebabycute",
+        "tg_username": "Annebabysexy",
+        "tg_user_id": 8489845372,
+        "tg_name": "Anne安妮✈️8.24-9.7广深",
+        "link": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+        "message_text": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+            "handle": "annebabycute",
+            "post_id": "2089764079510651323",
+            "role": "promo",
+            "author_name": "安妮日记",
+            "followers_count": 188,
+            "followers_text": "188",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 188
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 188
+              },
+              {
+                "source": "status_legacy",
+                "count": 188
+              },
+              {
+                "source": "profile_v2",
+                "count": 188
+              }
+            ],
+            "tweet_text": "想成为爸爸们的玩物\n\n📹@BlackMagus001 \n\n@ToBulaer\n@ToBuerma\n@KawasawaSen\n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 72,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 72,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 72,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 72,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 72,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+            "post_id": "2089764079510651323",
+            "handle": "annebabycute",
+            "source_time": "2026-08-20 14:26:07",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "安妮日记",
+        "promo_name": "安妮日记",
+        "followers_count": 188,
+        "followers_text": "188",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 188
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 188
+          },
+          {
+            "source": "status_legacy",
+            "count": 188
+          },
+          {
+            "source": "profile_v2",
+            "count": 188
+          }
+        ],
+        "check_followers_count": 188,
+        "check_followers_text": "188",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 188
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 188
+          },
+          {
+            "source": "status_legacy",
+            "count": 188
+          },
+          {
+            "source": "profile_v2",
+            "count": 188
+          }
+        ],
+        "tweet_text": "想成为爸爸们的玩物\n\n📹@BlackMagus001 \n\n@ToBulaer\n@ToBuerma\n@KawasawaSen\n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 72,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 72,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 72,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 72,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 72,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+        "check_url": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+        "promo_post_id": "2089764079510651323",
+        "check_post_id": "2089764079510651323",
+        "chat_id": "-1003739822194",
+        "message_id": 679,
+        "time": "2026-08-20 14:26:07",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 188,
+        "qualified_followers_text": "188",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -8516,8 +8808,8 @@
         ],
         "x_name": "小陈和小王的日常",
         "promo_name": "小陈和小王的日常",
-        "followers_count": 149299,
-        "followers_text": "14.9W",
+        "followers_count": 151552,
+        "followers_text": "15.1W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -8540,6 +8832,22 @@
           {
             "source": "profile_v2",
             "count": 149299
+          },
+          {
+            "source": "status_v2",
+            "count": 151552
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 151552
+          },
+          {
+            "source": "status_legacy",
+            "count": 151552
+          },
+          {
+            "source": "profile_v2",
+            "count": 151552
           }
         ],
         "check_followers_count": 149299,
@@ -8568,9 +8876,9 @@
             "count": 149299
           }
         ],
-        "tweet_text": "小陈的探店系列7:\n        本作紧急重制版来袭由于保护技师和spa店隐私上部作品下架 这是探店系列首次采用vlog形式发布 在某网红绿色连锁spa店出水 心中有水绿店照出\n       中途顺便忽悠技师小妹去私影和94店上班顺便讨论了一下这个行业（感觉我好坏啊）\n       ps：技师小妹是我发小炮友",
-        "required_mentions_count": 0,
-        "content_eligible": false,
+        "tweet_text": "小陈的探店系列7:\n        本作紧急重制版来袭由于保护技师和spa店隐私上部作品下架 这是探店系列首次采用vlog形式发布 在某网红绿色连锁spa店出水 心中有水绿店照出\n       中途顺便忽悠技师小妹去私影和94店上班顺便讨论了一下这个行业（感觉我好坏啊）\n       ps：技师小妹是我发小炮友 小陈高中同学有时候这世界就是这么小\n\n完整版27分钟将在内群更新\n\n@tobuerma\n\n@ToBulaer\n\n@KawasawaSen \n\n@BulmaList",
+        "required_mentions_count": 4,
+        "content_eligible": true,
         "promo_url": "https://x.com/xiaochen000007/status/2090012491149631529?s=46",
         "check_url": "https://x.com/xiaochen000007/status/2090012491149631529?s=46",
         "promo_post_id": "2090012491149631529",
@@ -8581,17 +8889,51 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 149299,
-        "qualified_followers_text": "14.9W",
+        "qualified_followers_count": 151552,
+        "qualified_followers_text": "15.1W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
-        "mutual_eligible": false,
-        "eligibility_text": "❌缺少指定@",
-        "ineligible_reason": "missing_required_mentions"
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "tweet_text_primary_source": "vx_status_v2",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 156,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 156,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 238,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 238,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 156,
+            "required_mentions_count": 0
+          }
+        ]
       },
       "2089558662457282900": {
         "x_handle": "laibeinaixiba",
@@ -11595,7 +11937,41 @@
           "profile_v2"
         ],
         "mutual_eligible": true,
-        "eligibility_text": "✅合格"
+        "eligibility_text": "✅合格",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 70,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 70,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 70,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 70,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 70,
+            "required_mentions_count": 4
+          }
+        ]
       },
       "2089922794608087042": {
         "x_handle": "cocoluhk",
@@ -11726,6 +12102,214 @@
         "followers_min": 0,
         "qualified_followers_count": 149,
         "qualified_followers_text": "149",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2089764079510651323": {
+        "x_handle": "annebabycute",
+        "check_handle": "annebabycute",
+        "dual_link": false,
+        "promo_handle": "annebabycute",
+        "tg_username": "Annebabysexy",
+        "tg_user_id": 8489845372,
+        "tg_name": "Anne安妮✈️8.24-9.7广深",
+        "link": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+        "message_text": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+            "handle": "annebabycute",
+            "post_id": "2089764079510651323",
+            "role": "promo",
+            "author_name": "安妮日记",
+            "followers_count": 188,
+            "followers_text": "188",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 188
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 188
+              },
+              {
+                "source": "status_legacy",
+                "count": 188
+              },
+              {
+                "source": "profile_v2",
+                "count": 188
+              }
+            ],
+            "tweet_text": "想成为爸爸们的玩物\n\n📹@BlackMagus001 \n\n@ToBulaer\n@ToBuerma\n@KawasawaSen\n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 72,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 72,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 72,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 72,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 72,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+            "post_id": "2089764079510651323",
+            "handle": "annebabycute",
+            "source_time": "2026-08-20 14:26:07",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "安妮日记",
+        "promo_name": "安妮日记",
+        "followers_count": 188,
+        "followers_text": "188",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 188
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 188
+          },
+          {
+            "source": "status_legacy",
+            "count": 188
+          },
+          {
+            "source": "profile_v2",
+            "count": 188
+          }
+        ],
+        "check_followers_count": 188,
+        "check_followers_text": "188",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 188
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 188
+          },
+          {
+            "source": "status_legacy",
+            "count": 188
+          },
+          {
+            "source": "profile_v2",
+            "count": 188
+          }
+        ],
+        "tweet_text": "想成为爸爸们的玩物\n\n📹@BlackMagus001 \n\n@ToBulaer\n@ToBuerma\n@KawasawaSen\n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 72,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 72,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 72,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 72,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 72,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+        "check_url": "https://x.com/annebabycute/status/2089764079510651323?s=46",
+        "promo_post_id": "2089764079510651323",
+        "check_post_id": "2089764079510651323",
+        "chat_id": "-1003739822194",
+        "message_id": 679,
+        "time": "2026-08-20 14:26:07",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 188,
+        "qualified_followers_text": "188",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

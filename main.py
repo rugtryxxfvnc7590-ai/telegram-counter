@@ -24,6 +24,31 @@ TARGET_MENTIONS = ("ToBulaer", "ToBuerma", "KawasawaSen", "BulmaList")
 INVALID_MENTIONS_REPLY_TEXT = "该链接违规，未@社区账号，不予互推"
 CUTOFF_HOUR = 19
 CUTOFF_ELIGIBILITY_TEXT = "❌超时链接"
+REPLY_RULES_FILE = Path(__file__).resolve().with_name("bot_reply_rules.json")
+DEFAULT_REPLY_RULES = {
+    "missing_mentions": {"enabled": True, "groups": ["群一", "群二", "群三"], "text": INVALID_MENTIONS_REPLY_TEXT},
+    "low_followers": {"enabled": True, "groups": ["群一", "群二", "群三"], "text": LOW_FOLLOWER_REPLY_TEXT},
+    "limit_full": {
+        "enabled": True,
+        "groups": ["群二", "群三"],
+        "text": "🐾 叮当~ 今日互推已满40条，前40名已锁定上车！后面发的会被机器猫记进候选名单，如有空位会优先安排哦，辛苦各位啦~记得看群置顶规则呀！",
+    },
+    "limit_excess_1": {
+        "enabled": True,
+        "groups": ["群二", "群三"],
+        "text": "🐾 机器猫收到啦~ 不过今日40个名额已满，你这条先帮你放进候选名单排队啦，有机会就给你顶上去！",
+    },
+    "limit_excess_2": {
+        "enabled": True,
+        "groups": ["群二", "群三"],
+        "text": "🐾 又有新链接~ 机器猫已经悄悄记下，放进候选备用区啦。今日正选已满，这些会作为优先候选，辛苦再等等~",
+    },
+    "limit_excess_3": {
+        "enabled": True,
+        "groups": ["群二", "群三"],
+        "text": "🐾 机器猫的小本本快记满啦！今日40条正选早已满员，后面这些都帮你存进候选池，有空位时优先考虑，感谢理解和支持呀~",
+    },
+}
 
 # Telegram 消息的 date 是 Unix 时间戳，统一换算到中国标准时间。
 BEIJING = ZoneInfo("Asia/Shanghai")
@@ -80,6 +105,32 @@ def group_label_for_chat(chat_id):
     if cid in expand_chat_id(GROUP_3_CHAT_ID_FALLBACK):
         return "群三"
     return "chat_" + cid.replace("-", "m")
+
+
+def load_reply_rules(path=None):
+    rules = {key: dict(value) for key, value in DEFAULT_REPLY_RULES.items()}
+    try:
+        data = json.loads(Path(path or REPLY_RULES_FILE).read_text(encoding="utf-8"))
+    except Exception:
+        data = {}
+    for key, incoming in (data.get("reply_rules") or {}).items():
+        if key not in rules or not isinstance(incoming, dict):
+            continue
+        rules[key].update(incoming)
+        rules[key]["enabled"] = bool(rules[key].get("enabled", True))
+        rules[key]["groups"] = [str(group) for group in (rules[key].get("groups") or [])]
+        rules[key]["text"] = str(rules[key].get("text") or DEFAULT_REPLY_RULES[key]["text"]).strip()
+    return rules
+
+
+def reply_rule_enabled(rules, key, chat_id):
+    rule = (rules or {}).get(key) or DEFAULT_REPLY_RULES.get(key) or {}
+    return bool(rule.get("enabled", True)) and group_label_for_chat(chat_id) in set(rule.get("groups") or [])
+
+
+def reply_rule_text(rules, key):
+    rule = (rules or {}).get(key) or DEFAULT_REPLY_RULES.get(key) or {}
+    return str(rule.get("text") or "").strip()
 
 
 def min_followers_for_chat(chat_id):
@@ -1063,6 +1114,7 @@ def main():
     )
     state = load_state()
     registry = load_registry()
+    reply_rules = load_reply_rules()
 
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
     params = {"offset": state.get("offset", 0) + 1, "timeout": 10, "allowed_updates": ["message", "edited_message"]}
@@ -1162,44 +1214,52 @@ def main():
                     extra += " | 19:00后超时链接"
                 print(f"   📝 收录 @{handle} ← {tg_tag}{extra}")
 
-            if violation_reply_allowed(msg["date"]) and promo_link_below_minimum(links, actual_chat_id):
-                reply_to_message_once(grp, actual_chat_id, message_id, "low_followers", LOW_FOLLOWER_REPLY_TEXT, save_callback=lambda: save_state(state))
-            elif violation_reply_allowed(msg["date"]) and promo_link_missing_required_mentions(links):
-                reply_to_message_once(grp, actual_chat_id, message_id, "missing_mentions", INVALID_MENTIONS_REPLY_TEXT, save_callback=lambda: save_state(state))
-            elif limit_reply_enabled(actual_chat_id) and is_new_message and current == MAX_LIMIT:
+            if (
+                violation_reply_allowed(msg["date"])
+                and promo_link_below_minimum(links, actual_chat_id)
+                and reply_rule_enabled(reply_rules, "low_followers", actual_chat_id)
+            ):
+                reply_to_message_once(grp, actual_chat_id, message_id, "low_followers", reply_rule_text(reply_rules, "low_followers"), save_callback=lambda: save_state(state))
+            elif (
+                violation_reply_allowed(msg["date"])
+                and promo_link_missing_required_mentions(links)
+                and reply_rule_enabled(reply_rules, "missing_mentions", actual_chat_id)
+            ):
+                reply_to_message_once(grp, actual_chat_id, message_id, "missing_mentions", reply_rule_text(reply_rules, "missing_mentions"), save_callback=lambda: save_state(state))
+            elif limit_reply_enabled(actual_chat_id) and is_new_message and current == MAX_LIMIT and reply_rule_enabled(reply_rules, "limit_full", actual_chat_id):
                 reply_to_message_once(
                     grp,
                     actual_chat_id,
                     message_id,
                     "limit_full",
-                    "🐾 叮当~ 今日互推已满40条，前40名已锁定上车！后面发的会被机器猫记进候选名单，如有空位会优先安排哦，辛苦各位啦~记得看群置顶规则呀！",
+                    reply_rule_text(reply_rules, "limit_full"),
                 )
             elif limit_reply_enabled(actual_chat_id) and is_new_message and current > MAX_LIMIT:
                 excess = current - MAX_LIMIT
                 if excess % 3 == 1:
-                    if excess <= 3:
+                    if excess <= 3 and reply_rule_enabled(reply_rules, "limit_excess_1", actual_chat_id):
                         reply_to_message_once(
                             grp,
                             actual_chat_id,
                             message_id,
                             "limit_excess_1",
-                            "🐾 机器猫收到啦~ 不过今日40个名额已满，你这条先帮你放进候选名单排队啦，有机会就给你顶上去！",
+                            reply_rule_text(reply_rules, "limit_excess_1"),
                         )
-                    elif excess <= 6:
+                    elif excess <= 6 and reply_rule_enabled(reply_rules, "limit_excess_2", actual_chat_id):
                         reply_to_message_once(
                             grp,
                             actual_chat_id,
                             message_id,
                             "limit_excess_2",
-                            "🐾 又有新链接~ 机器猫已经悄悄记下，放进候选备用区啦。今日正选已满，这些会作为优先候选，辛苦再等等~",
+                            reply_rule_text(reply_rules, "limit_excess_2"),
                         )
-                    else:
+                    elif reply_rule_enabled(reply_rules, "limit_excess_3", actual_chat_id):
                         reply_to_message_once(
                             grp,
                             actual_chat_id,
                             message_id,
                             "limit_excess_3",
-                            "🐾 机器猫的小本本快记满啦！今日40条正选早已满员，后面这些都帮你存进候选池，有空位时优先考虑，感谢理解和支持呀~",
+                            reply_rule_text(reply_rules, "limit_excess_3"),
                         )
 
         enriched = backfill_registry_metadata(registry)

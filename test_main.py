@@ -2,6 +2,7 @@ import unittest
 import json
 import tempfile
 from datetime import datetime, timezone
+from pathlib import Path
 from types import ModuleType
 import sys
 from unittest.mock import patch
@@ -31,6 +32,9 @@ from main import (
     promo_link_missing_required_mentions,
     record_link,
     reply_to_message_once,
+    load_reply_rules,
+    reply_rule_enabled,
+    reply_rule_text,
     remove_registry_rows_for_message,
     remove_registry_rows_if_edited_message_lost_links,
     save_group_registry_exports,
@@ -628,6 +632,31 @@ class LinkParsingTest(unittest.TestCase):
         self.assertEqual(len(calls), 1)
         self.assertIn("456:missing_mentions", group_state.get("reply_keys"))
         self.assertGreaterEqual(len(saves), 1)
+
+    def test_reply_rules_can_be_disabled_and_customized_by_group(self):
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / "rules.json"
+            path.write_text(json.dumps({
+                "reply_rules": {
+                    "missing_mentions": {
+                        "enabled": False,
+                        "groups": ["群二"],
+                        "text": "自定义缺少社区账号",
+                    },
+                    "low_followers": {
+                        "enabled": True,
+                        "groups": ["群三"],
+                        "text": "自定义粉丝不足",
+                    },
+                }
+            }, ensure_ascii=False), encoding="utf-8")
+            rules = load_reply_rules(path)
+
+        self.assertFalse(reply_rule_enabled(rules, "missing_mentions", "-1003218974409"))
+        self.assertFalse(reply_rule_enabled(rules, "low_followers", "-1003218974409"))
+        self.assertTrue(reply_rule_enabled(rules, "low_followers", "-1003739822194"))
+        self.assertEqual(reply_rule_text(rules, "missing_mentions"), "自定义缺少社区账号")
+        self.assertEqual(reply_rule_text(rules, "low_followers"), "自定义粉丝不足")
 
     def test_edited_message_replaces_old_registry_rows(self):
         registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}

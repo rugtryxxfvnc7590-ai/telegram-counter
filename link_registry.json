@@ -6243,6 +6243,422 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格"
+      },
+      "cicimo_o": {
+        "x_handle": "cicimo_o",
+        "check_handle": "cicimo_o",
+        "dual_link": false,
+        "promo_handle": "cicimo_o",
+        "tg_username": "Cicimo_oO",
+        "tg_user_id": 7348226714,
+        "tg_name": "诗 诗💗",
+        "link": "诗诗\n\nhttps://x.com/cicimo_o/status/2091023915674116220?s=46",
+        "message_text": "诗诗\n\nhttps://x.com/cicimo_o/status/2091023915674116220?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cicimo_o/status/2091023915674116220?s=46",
+            "handle": "cicimo_o",
+            "post_id": "2091023915674116220",
+            "role": "promo",
+            "author_name": "诗诗",
+            "followers_count": 41403,
+            "followers_text": "4.1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 41403
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 41403
+              },
+              {
+                "source": "status_legacy",
+                "count": 41403
+              },
+              {
+                "source": "profile_v2",
+                "count": 41403
+              }
+            ],
+            "tweet_text": "嗯紫色真的很有韵味\n@ToBuerma @ToBulaer \n@KawasawaSen @BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 54,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 54,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 54,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 54,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 54,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cicimo_o/status/2091023915674116220?s=46",
+            "post_id": "2091023915674116220",
+            "handle": "cicimo_o",
+            "source_time": "2026-08-22 12:45:53",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "诗诗",
+        "promo_name": "诗诗",
+        "followers_count": 41403,
+        "followers_text": "4.1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 41403
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 41403
+          },
+          {
+            "source": "status_legacy",
+            "count": 41403
+          },
+          {
+            "source": "profile_v2",
+            "count": 41403
+          }
+        ],
+        "check_followers_count": 41403,
+        "check_followers_text": "4.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 41403
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 41403
+          },
+          {
+            "source": "status_legacy",
+            "count": 41403
+          },
+          {
+            "source": "profile_v2",
+            "count": 41403
+          }
+        ],
+        "tweet_text": "嗯紫色真的很有韵味\n@ToBuerma @ToBulaer \n@KawasawaSen @BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 54,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 54,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 54,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 54,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 54,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cicimo_o/status/2091023915674116220?s=46",
+        "check_url": "https://x.com/cicimo_o/status/2091023915674116220?s=46",
+        "promo_post_id": "2091023915674116220",
+        "check_post_id": "2091023915674116220",
+        "chat_id": "-1003739822194",
+        "message_id": 796,
+        "time": "2026-08-22 12:45:53",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 41403,
+        "qualified_followers_text": "4.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "chiirouo": {
+        "x_handle": "chiirouo",
+        "check_handle": "chiirouo",
+        "dual_link": false,
+        "promo_handle": "chiirouo",
+        "tg_username": "realrou",
+        "tg_user_id": 7722665588,
+        "tg_name": "肉本肉",
+        "link": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+        "message_text": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+            "handle": "chiirouo",
+            "post_id": "2083321227947671594",
+            "role": "promo",
+            "author_name": "𝑱𝒂𝒔𝒎𝒊𝒏𝒆 肉",
+            "followers_count": 1164,
+            "followers_text": "1.1K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1164
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1164
+              },
+              {
+                "source": "status_legacy",
+                "count": 1164
+              },
+              {
+                "source": "profile_v2",
+                "count": 1164
+              }
+            ],
+            "tweet_text": "样衣终于到了\n\n💛 #鳴潮 #穗穗 #穂穂 #수수 #suisui \n\n📩\n\n @ToBuerma @ToBulaer \n@KawasawaSen @BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 84,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 84,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 84,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 84,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 84,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+            "post_id": "2083321227947671594",
+            "handle": "chiirouo",
+            "source_time": "2026-08-22 12:50:45",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "𝑱𝒂𝒔𝒎𝒊𝒏𝒆 肉",
+        "promo_name": "𝑱𝒂𝒔𝒎𝒊𝒏𝒆 肉",
+        "followers_count": 1164,
+        "followers_text": "1.1K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1164
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1164
+          },
+          {
+            "source": "status_legacy",
+            "count": 1164
+          },
+          {
+            "source": "profile_v2",
+            "count": 1164
+          }
+        ],
+        "check_followers_count": 1164,
+        "check_followers_text": "1.1K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1164
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1164
+          },
+          {
+            "source": "status_legacy",
+            "count": 1164
+          },
+          {
+            "source": "profile_v2",
+            "count": 1164
+          }
+        ],
+        "tweet_text": "样衣终于到了\n\n💛 #鳴潮 #穗穗 #穂穂 #수수 #suisui \n\n📩\n\n @ToBuerma @ToBulaer \n@KawasawaSen @BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 84,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 84,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 84,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 84,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 84,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+        "check_url": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+        "promo_post_id": "2083321227947671594",
+        "check_post_id": "2083321227947671594",
+        "chat_id": "-1003739822194",
+        "message_id": 797,
+        "time": "2026-08-22 12:50:45",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1164,
+        "qualified_followers_text": "1.1K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
       }
     },
     "-1003218974409": {
@@ -12691,6 +13107,422 @@
         "followers_min": 0,
         "qualified_followers_count": 128,
         "qualified_followers_text": "128",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2091023915674116220": {
+        "x_handle": "cicimo_o",
+        "check_handle": "cicimo_o",
+        "dual_link": false,
+        "promo_handle": "cicimo_o",
+        "tg_username": "Cicimo_oO",
+        "tg_user_id": 7348226714,
+        "tg_name": "诗 诗💗",
+        "link": "诗诗\n\nhttps://x.com/cicimo_o/status/2091023915674116220?s=46",
+        "message_text": "诗诗\n\nhttps://x.com/cicimo_o/status/2091023915674116220?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cicimo_o/status/2091023915674116220?s=46",
+            "handle": "cicimo_o",
+            "post_id": "2091023915674116220",
+            "role": "promo",
+            "author_name": "诗诗",
+            "followers_count": 41403,
+            "followers_text": "4.1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 41403
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 41403
+              },
+              {
+                "source": "status_legacy",
+                "count": 41403
+              },
+              {
+                "source": "profile_v2",
+                "count": 41403
+              }
+            ],
+            "tweet_text": "嗯紫色真的很有韵味\n@ToBuerma @ToBulaer \n@KawasawaSen @BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 54,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 54,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 54,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 54,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 54,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cicimo_o/status/2091023915674116220?s=46",
+            "post_id": "2091023915674116220",
+            "handle": "cicimo_o",
+            "source_time": "2026-08-22 12:45:53",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "诗诗",
+        "promo_name": "诗诗",
+        "followers_count": 41403,
+        "followers_text": "4.1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 41403
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 41403
+          },
+          {
+            "source": "status_legacy",
+            "count": 41403
+          },
+          {
+            "source": "profile_v2",
+            "count": 41403
+          }
+        ],
+        "check_followers_count": 41403,
+        "check_followers_text": "4.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 41403
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 41403
+          },
+          {
+            "source": "status_legacy",
+            "count": 41403
+          },
+          {
+            "source": "profile_v2",
+            "count": 41403
+          }
+        ],
+        "tweet_text": "嗯紫色真的很有韵味\n@ToBuerma @ToBulaer \n@KawasawaSen @BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 54,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 54,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 54,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 54,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 54,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cicimo_o/status/2091023915674116220?s=46",
+        "check_url": "https://x.com/cicimo_o/status/2091023915674116220?s=46",
+        "promo_post_id": "2091023915674116220",
+        "check_post_id": "2091023915674116220",
+        "chat_id": "-1003739822194",
+        "message_id": 796,
+        "time": "2026-08-22 12:45:53",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 41403,
+        "qualified_followers_text": "4.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2083321227947671594": {
+        "x_handle": "chiirouo",
+        "check_handle": "chiirouo",
+        "dual_link": false,
+        "promo_handle": "chiirouo",
+        "tg_username": "realrou",
+        "tg_user_id": 7722665588,
+        "tg_name": "肉本肉",
+        "link": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+        "message_text": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+            "handle": "chiirouo",
+            "post_id": "2083321227947671594",
+            "role": "promo",
+            "author_name": "𝑱𝒂𝒔𝒎𝒊𝒏𝒆 肉",
+            "followers_count": 1164,
+            "followers_text": "1.1K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1164
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1164
+              },
+              {
+                "source": "status_legacy",
+                "count": 1164
+              },
+              {
+                "source": "profile_v2",
+                "count": 1164
+              }
+            ],
+            "tweet_text": "样衣终于到了\n\n💛 #鳴潮 #穗穗 #穂穂 #수수 #suisui \n\n📩\n\n @ToBuerma @ToBulaer \n@KawasawaSen @BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 84,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 84,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 84,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 84,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 84,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+            "post_id": "2083321227947671594",
+            "handle": "chiirouo",
+            "source_time": "2026-08-22 12:50:45",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "𝑱𝒂𝒔𝒎𝒊𝒏𝒆 肉",
+        "promo_name": "𝑱𝒂𝒔𝒎𝒊𝒏𝒆 肉",
+        "followers_count": 1164,
+        "followers_text": "1.1K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1164
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1164
+          },
+          {
+            "source": "status_legacy",
+            "count": 1164
+          },
+          {
+            "source": "profile_v2",
+            "count": 1164
+          }
+        ],
+        "check_followers_count": 1164,
+        "check_followers_text": "1.1K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1164
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1164
+          },
+          {
+            "source": "status_legacy",
+            "count": 1164
+          },
+          {
+            "source": "profile_v2",
+            "count": 1164
+          }
+        ],
+        "tweet_text": "样衣终于到了\n\n💛 #鳴潮 #穗穗 #穂穂 #수수 #suisui \n\n📩\n\n @ToBuerma @ToBulaer \n@KawasawaSen @BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 84,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 84,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 84,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 84,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 84,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+        "check_url": "https://x.com/chiirouo/status/2083321227947671594?s=46",
+        "promo_post_id": "2083321227947671594",
+        "check_post_id": "2083321227947671594",
+        "chat_id": "-1003739822194",
+        "message_id": 797,
+        "time": "2026-08-22 12:50:45",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1164,
+        "qualified_followers_text": "1.1K",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

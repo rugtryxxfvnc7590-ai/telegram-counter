@@ -4593,6 +4593,214 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格"
+      },
+      "iwt_o": {
+        "x_handle": "iwt_o",
+        "check_handle": "iwt_o",
+        "dual_link": false,
+        "promo_handle": "iwt_o",
+        "tg_username": "juying222",
+        "tg_user_id": 7596437302,
+        "tg_name": "巨樱 不看简介滚",
+        "link": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+        "message_text": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+            "handle": "iwt_o",
+            "post_id": "2088052673459437826",
+            "role": "promo",
+            "author_name": "巨樱@iwt_o",
+            "followers_count": 244875,
+            "followers_text": "24.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 244875
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 244875
+              },
+              {
+                "source": "status_legacy",
+                "count": 244875
+              },
+              {
+                "source": "profile_v2",
+                "count": 244875
+              }
+            ],
+            "tweet_text": "给你看看大奶子@ToBuerma @ToBulaer @BulmaList @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+            "post_id": "2088052673459437826",
+            "handle": "iwt_o",
+            "source_time": "2026-08-24 14:48:01",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "巨樱@iwt_o",
+        "promo_name": "巨樱@iwt_o",
+        "followers_count": 244875,
+        "followers_text": "24.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 244875
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 244875
+          },
+          {
+            "source": "status_legacy",
+            "count": 244875
+          },
+          {
+            "source": "profile_v2",
+            "count": 244875
+          }
+        ],
+        "check_followers_count": 244875,
+        "check_followers_text": "24.4W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 244875
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 244875
+          },
+          {
+            "source": "status_legacy",
+            "count": 244875
+          },
+          {
+            "source": "profile_v2",
+            "count": 244875
+          }
+        ],
+        "tweet_text": "给你看看大奶子@ToBuerma @ToBulaer @BulmaList @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+        "check_url": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+        "promo_post_id": "2088052673459437826",
+        "check_post_id": "2088052673459437826",
+        "chat_id": "-1003891628675",
+        "message_id": 6537,
+        "time": "2026-08-24 14:48:01",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 244875,
+        "qualified_followers_text": "24.4W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
       }
     },
     "-1003739822194": {
@@ -12719,6 +12927,214 @@
         "followers_min": 100000,
         "qualified_followers_count": 211351,
         "qualified_followers_text": "21.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2088052673459437826": {
+        "x_handle": "iwt_o",
+        "check_handle": "iwt_o",
+        "dual_link": false,
+        "promo_handle": "iwt_o",
+        "tg_username": "juying222",
+        "tg_user_id": 7596437302,
+        "tg_name": "巨樱 不看简介滚",
+        "link": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+        "message_text": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+            "handle": "iwt_o",
+            "post_id": "2088052673459437826",
+            "role": "promo",
+            "author_name": "巨樱@iwt_o",
+            "followers_count": 244875,
+            "followers_text": "24.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 244875
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 244875
+              },
+              {
+                "source": "status_legacy",
+                "count": 244875
+              },
+              {
+                "source": "profile_v2",
+                "count": 244875
+              }
+            ],
+            "tweet_text": "给你看看大奶子@ToBuerma @ToBulaer @BulmaList @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+            "post_id": "2088052673459437826",
+            "handle": "iwt_o",
+            "source_time": "2026-08-24 14:48:01",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "巨樱@iwt_o",
+        "promo_name": "巨樱@iwt_o",
+        "followers_count": 244875,
+        "followers_text": "24.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 244875
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 244875
+          },
+          {
+            "source": "status_legacy",
+            "count": 244875
+          },
+          {
+            "source": "profile_v2",
+            "count": 244875
+          }
+        ],
+        "check_followers_count": 244875,
+        "check_followers_text": "24.4W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 244875
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 244875
+          },
+          {
+            "source": "status_legacy",
+            "count": 244875
+          },
+          {
+            "source": "profile_v2",
+            "count": 244875
+          }
+        ],
+        "tweet_text": "给你看看大奶子@ToBuerma @ToBulaer @BulmaList @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+        "check_url": "https://x.com/iwt_o/status/2088052673459437826?s=46",
+        "promo_post_id": "2088052673459437826",
+        "check_post_id": "2088052673459437826",
+        "chat_id": "-1003891628675",
+        "message_id": 6537,
+        "time": "2026-08-24 14:48:01",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 244875,
+        "qualified_followers_text": "24.4W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

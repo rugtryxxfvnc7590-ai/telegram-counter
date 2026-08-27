@@ -7382,7 +7382,7 @@
         ],
         "x_name": "Kk兽",
         "promo_name": "Kk兽",
-        "followers_count": 2243,
+        "followers_count": 2244,
         "followers_text": "2.2K",
         "followers_sources": [
           "profile_v2"
@@ -7411,6 +7411,10 @@
           {
             "source": "profile_v2",
             "count": 2243
+          },
+          {
+            "source": "profile_v2",
+            "count": 2244
           }
         ],
         "check_followers_count": 2232,
@@ -7442,7 +7446,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 2243,
+        "qualified_followers_count": 2244,
         "qualified_followers_text": "2.2K",
         "qualified_followers_sources": [
           "profile_v2"
@@ -10876,7 +10880,7 @@
             "post_id": "2092516513475596488",
             "role": "promo",
             "author_name": "先知先觉",
-            "followers_count": 9128,
+            "followers_count": 9135,
             "followers_text": "9.1K",
             "followers_sources": [
               "status_v2",
@@ -10887,19 +10891,19 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 9128
+                "count": 9135
               },
               {
                 "source": "status_legacy_i",
-                "count": 9128
+                "count": 9135
               },
               {
                 "source": "status_legacy",
-                "count": 9128
+                "count": 9135
               },
               {
                 "source": "profile_v2",
-                "count": 9128
+                "count": 9135
               }
             ],
             "tweet_text": "夏末夕阳，废弃楼房\n8月最后一波写真，我们选择尝试一下户外\n经过半个多小时的心理建设，前妻终于豁出去拍了一些，各位且看且珍惜，完整版整理完发纸飞机频道\n另，9.16日前还在频道的童鞋，会抽一个幸运观众送出额外福利，大家尽请期待！\n频道链接在这里→ https://t.me/xinzhxinju1bot\n@ToBuerma\n@ToBulaer\n@KawasawaSen\n@BulmaList",
@@ -10947,13 +10951,13 @@
             "url": "https://x.com/xinzhxinju1/status/2092516513475596488",
             "post_id": "2092516513475596488",
             "handle": "xinzhxinju1",
-            "source_time": "2026-08-27 18:51:10",
+            "source_time": "2026-08-27 20:48:16",
             "edit_time": ""
           }
         ],
         "x_name": "先知先觉",
         "promo_name": "先知先觉",
-        "followers_count": 9128,
+        "followers_count": 9135,
         "followers_text": "9.1K",
         "followers_sources": [
           "status_v2",
@@ -10964,22 +10968,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "status_legacy_i",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "status_legacy",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "profile_v2",
-            "count": 9128
+            "count": 9135
           }
         ],
-        "check_followers_count": 9128,
+        "check_followers_count": 9135,
         "check_followers_text": "9.1K",
         "check_followers_sources": [
           "status_v2",
@@ -10990,19 +10994,19 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "status_legacy_i",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "status_legacy",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "profile_v2",
-            "count": 9128
+            "count": 9135
           }
         ],
         "tweet_text": "夏末夕阳，废弃楼房\n8月最后一波写真，我们选择尝试一下户外\n经过半个多小时的心理建设，前妻终于豁出去拍了一些，各位且看且珍惜，完整版整理完发纸飞机频道\n另，9.16日前还在频道的童鞋，会抽一个幸运观众送出额外福利，大家尽请期待！\n频道链接在这里→ https://t.me/xinzhxinju1bot\n@ToBuerma\n@ToBulaer\n@KawasawaSen\n@BulmaList",
@@ -11048,14 +11052,14 @@
         "promo_post_id": "2092516513475596488",
         "check_post_id": "2092516513475596488",
         "chat_id": "-1003739822194",
-        "message_id": 1071,
-        "time": "2026-08-27 18:51:10",
-        "after_cutoff": false,
-        "cutoff_time": "",
+        "message_id": 1079,
+        "time": "2026-08-27 20:48:16",
+        "after_cutoff": true,
+        "cutoff_time": "19:00",
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 9128,
+        "qualified_followers_count": 9135,
         "qualified_followers_text": "9.1K",
         "qualified_followers_sources": [
           "status_v2",
@@ -11063,8 +11067,9 @@
           "status_legacy",
           "profile_v2"
         ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格"
+        "mutual_eligible": false,
+        "eligibility_text": "❌超时链接",
+        "ineligible_reason": "after_cutoff"
       }
     }
   },
@@ -21828,7 +21833,7 @@
             "post_id": "2092516513475596488",
             "role": "promo",
             "author_name": "先知先觉",
-            "followers_count": 9128,
+            "followers_count": 9135,
             "followers_text": "9.1K",
             "followers_sources": [
               "status_v2",
@@ -21839,19 +21844,19 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 9128
+                "count": 9135
               },
               {
                 "source": "status_legacy_i",
-                "count": 9128
+                "count": 9135
               },
               {
                 "source": "status_legacy",
-                "count": 9128
+                "count": 9135
               },
               {
                 "source": "profile_v2",
-                "count": 9128
+                "count": 9135
               }
             ],
             "tweet_text": "夏末夕阳，废弃楼房\n8月最后一波写真，我们选择尝试一下户外\n经过半个多小时的心理建设，前妻终于豁出去拍了一些，各位且看且珍惜，完整版整理完发纸飞机频道\n另，9.16日前还在频道的童鞋，会抽一个幸运观众送出额外福利，大家尽请期待！\n频道链接在这里→ https://t.me/xinzhxinju1bot\n@ToBuerma\n@ToBulaer\n@KawasawaSen\n@BulmaList",
@@ -21899,13 +21904,13 @@
             "url": "https://x.com/xinzhxinju1/status/2092516513475596488",
             "post_id": "2092516513475596488",
             "handle": "xinzhxinju1",
-            "source_time": "2026-08-27 18:51:10",
+            "source_time": "2026-08-27 20:48:16",
             "edit_time": ""
           }
         ],
         "x_name": "先知先觉",
         "promo_name": "先知先觉",
-        "followers_count": 9128,
+        "followers_count": 9135,
         "followers_text": "9.1K",
         "followers_sources": [
           "status_v2",
@@ -21916,22 +21921,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "status_legacy_i",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "status_legacy",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "profile_v2",
-            "count": 9128
+            "count": 9135
           }
         ],
-        "check_followers_count": 9128,
+        "check_followers_count": 9135,
         "check_followers_text": "9.1K",
         "check_followers_sources": [
           "status_v2",
@@ -21942,19 +21947,19 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "status_legacy_i",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "status_legacy",
-            "count": 9128
+            "count": 9135
           },
           {
             "source": "profile_v2",
-            "count": 9128
+            "count": 9135
           }
         ],
         "tweet_text": "夏末夕阳，废弃楼房\n8月最后一波写真，我们选择尝试一下户外\n经过半个多小时的心理建设，前妻终于豁出去拍了一些，各位且看且珍惜，完整版整理完发纸飞机频道\n另，9.16日前还在频道的童鞋，会抽一个幸运观众送出额外福利，大家尽请期待！\n频道链接在这里→ https://t.me/xinzhxinju1bot\n@ToBuerma\n@ToBulaer\n@KawasawaSen\n@BulmaList",
@@ -22000,14 +22005,14 @@
         "promo_post_id": "2092516513475596488",
         "check_post_id": "2092516513475596488",
         "chat_id": "-1003739822194",
-        "message_id": 1071,
-        "time": "2026-08-27 18:51:10",
-        "after_cutoff": false,
-        "cutoff_time": "",
+        "message_id": 1079,
+        "time": "2026-08-27 20:48:16",
+        "after_cutoff": true,
+        "cutoff_time": "19:00",
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 9128,
+        "qualified_followers_count": 9135,
         "qualified_followers_text": "9.1K",
         "qualified_followers_sources": [
           "status_v2",
@@ -22015,8 +22020,9 @@
           "status_legacy",
           "profile_v2"
         ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格"
+        "mutual_eligible": false,
+        "eligibility_text": "❌超时链接",
+        "ineligible_reason": "after_cutoff"
       }
     }
   }

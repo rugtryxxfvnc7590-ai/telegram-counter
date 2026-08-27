@@ -3537,6 +3537,214 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格"
+      },
+      "wz12241": {
+        "x_handle": "wz12241",
+        "check_handle": "wz12241",
+        "dual_link": false,
+        "promo_handle": "wz12241",
+        "tg_username": "wz12241",
+        "tg_user_id": 7857198680,
+        "tg_name": "七月七",
+        "link": "https://x.com/wz12241/status/2092933052150464645?s=46",
+        "message_text": "https://x.com/wz12241/status/2092933052150464645?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/wz12241/status/2092933052150464645?s=46",
+            "handle": "wz12241",
+            "post_id": "2092933052150464645",
+            "role": "promo",
+            "author_name": "七月七",
+            "followers_count": 123688,
+            "followers_text": "12.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 123688
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 123688
+              },
+              {
+                "source": "status_legacy",
+                "count": 123688
+              },
+              {
+                "source": "profile_v2",
+                "count": 123688
+              }
+            ],
+            "tweet_text": "被骑射4次，彻底榨干了\n\n@ToBulaer @ToBuerma\n@KawasawaSen @BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 56,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 56,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 56,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 56,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 56,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/wz12241/status/2092933052150464645?s=46",
+            "post_id": "2092933052150464645",
+            "handle": "wz12241",
+            "source_time": "2026-08-28 04:03:03",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "七月七",
+        "promo_name": "七月七",
+        "followers_count": 123688,
+        "followers_text": "12.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 123688
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 123688
+          },
+          {
+            "source": "status_legacy",
+            "count": 123688
+          },
+          {
+            "source": "profile_v2",
+            "count": 123688
+          }
+        ],
+        "check_followers_count": 123688,
+        "check_followers_text": "12.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 123688
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 123688
+          },
+          {
+            "source": "status_legacy",
+            "count": 123688
+          },
+          {
+            "source": "profile_v2",
+            "count": 123688
+          }
+        ],
+        "tweet_text": "被骑射4次，彻底榨干了\n\n@ToBulaer @ToBuerma\n@KawasawaSen @BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 56,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 56,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 56,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 56,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 56,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/wz12241/status/2092933052150464645?s=46",
+        "check_url": "https://x.com/wz12241/status/2092933052150464645?s=46",
+        "promo_post_id": "2092933052150464645",
+        "check_post_id": "2092933052150464645",
+        "chat_id": "-1003891628675",
+        "message_id": 6742,
+        "time": "2026-08-28 04:03:03",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 123688,
+        "qualified_followers_text": "12.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
       }
     },
     "-1003218974409": {},
@@ -9568,6 +9776,214 @@
         "followers_min": 100000,
         "qualified_followers_count": 130177,
         "qualified_followers_text": "13W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2092933052150464645": {
+        "x_handle": "wz12241",
+        "check_handle": "wz12241",
+        "dual_link": false,
+        "promo_handle": "wz12241",
+        "tg_username": "wz12241",
+        "tg_user_id": 7857198680,
+        "tg_name": "七月七",
+        "link": "https://x.com/wz12241/status/2092933052150464645?s=46",
+        "message_text": "https://x.com/wz12241/status/2092933052150464645?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/wz12241/status/2092933052150464645?s=46",
+            "handle": "wz12241",
+            "post_id": "2092933052150464645",
+            "role": "promo",
+            "author_name": "七月七",
+            "followers_count": 123688,
+            "followers_text": "12.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 123688
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 123688
+              },
+              {
+                "source": "status_legacy",
+                "count": 123688
+              },
+              {
+                "source": "profile_v2",
+                "count": 123688
+              }
+            ],
+            "tweet_text": "被骑射4次，彻底榨干了\n\n@ToBulaer @ToBuerma\n@KawasawaSen @BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 56,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 56,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 56,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 56,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 56,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/wz12241/status/2092933052150464645?s=46",
+            "post_id": "2092933052150464645",
+            "handle": "wz12241",
+            "source_time": "2026-08-28 04:03:03",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "七月七",
+        "promo_name": "七月七",
+        "followers_count": 123688,
+        "followers_text": "12.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 123688
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 123688
+          },
+          {
+            "source": "status_legacy",
+            "count": 123688
+          },
+          {
+            "source": "profile_v2",
+            "count": 123688
+          }
+        ],
+        "check_followers_count": 123688,
+        "check_followers_text": "12.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 123688
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 123688
+          },
+          {
+            "source": "status_legacy",
+            "count": 123688
+          },
+          {
+            "source": "profile_v2",
+            "count": 123688
+          }
+        ],
+        "tweet_text": "被骑射4次，彻底榨干了\n\n@ToBulaer @ToBuerma\n@KawasawaSen @BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 56,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 56,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 56,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 56,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 56,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/wz12241/status/2092933052150464645?s=46",
+        "check_url": "https://x.com/wz12241/status/2092933052150464645?s=46",
+        "promo_post_id": "2092933052150464645",
+        "check_post_id": "2092933052150464645",
+        "chat_id": "-1003891628675",
+        "message_id": 6742,
+        "time": "2026-08-28 04:03:03",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 123688,
+        "qualified_followers_text": "12.3W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

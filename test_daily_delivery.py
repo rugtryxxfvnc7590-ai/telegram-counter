@@ -136,6 +136,39 @@ class DailyListTest(unittest.TestCase):
 
 
 class GroupSnapshotTest(unittest.TestCase):
+    def test_unchanged_message_reuses_snapshot_without_x_lookup(self):
+        chat_id = main.GROUP_1_CHAT_ID_FALLBACK
+        old_entry = {
+            "x_handle": "kept",
+            "promo_handle": "kept",
+            "promo_post_id": "111",
+            "promo_url": "https://x.com/kept/status/111",
+            "message_id": 7,
+            "message_text": "https://x.com/kept/status/111",
+            "time": "2026-08-27 18:30:00",
+            "mutual_eligible": True,
+            "after_cutoff": False,
+        }
+        registry = {
+            "date": "2026-08-27",
+            "entries": {chat_id: {"kept": dict(old_entry)}},
+            "post_entries": {chat_id: {"111": dict(old_entry)}},
+        }
+        state = {"date": "2026-08-27", "groups": {}}
+        messages = [{
+            "message_id": 7,
+            "date": datetime(2026, 8, 27, 18, 30, tzinfo=BEIJING).timestamp(),
+            "text": "https://x.com/kept/status/111",
+            "from": {"id": 9, "username": "telegram_user", "first_name": "小王"},
+        }]
+
+        with patch("sync_group_messages.extract_x_links_ordered", side_effect=AssertionError("不应重新请求 X")):
+            count = sync_group_messages.replace_group_snapshot(registry, state, chat_id, messages, "2026-08-27")
+
+        self.assertEqual(count, 1)
+        self.assertEqual(registry["entries"][chat_id]["kept"]["promo_post_id"], "111")
+        self.assertIn("111", registry["post_entries"][chat_id])
+
     def test_snapshot_replaces_stale_rows_and_counts_only_x_messages(self):
         chat_id = main.GROUP_2_CHAT_ID_FALLBACK
         registry = {

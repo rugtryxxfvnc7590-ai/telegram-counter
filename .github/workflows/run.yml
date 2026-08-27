@@ -3,6 +3,8 @@ on:
   schedule:
     # GitHub Actions 的 cron 使用 UTC；每 15 分钟的间隔不受时区影响。
     - cron: '*/15 * * * *'
+    # 北京时间 19:05、19:10 两次防漏；19:00 主任务成功后会被发送状态自动去重。
+    - cron: '5,10 11 * * *'
   workflow_dispatch:
 
 # 状态会提交回仓库，禁止两次运行同时读写同一个 offset/count。

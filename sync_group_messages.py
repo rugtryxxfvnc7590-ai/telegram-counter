@@ -47,6 +47,17 @@ def _previous_rows_by_message(registry, chat_id):
     return rows
 
 
+def _previous_snapshot_by_message(registry, chat_id):
+    snapshots = defaultdict(lambda: {"entries": [], "post_entries": []})
+    for cid in expand_chat_id(chat_id):
+        for bucket_name in ("entries", "post_entries"):
+            for key, entry in ((((registry or {}).get(bucket_name) or {}).get(cid) or {}).items()):
+                message_id = str((entry or {}).get("message_id") or "")
+                if message_id:
+                    snapshots[message_id][bucket_name].append((str(key), dict(entry or {})))
+    return snapshots
+
+
 def replace_group_snapshot(registry, state, chat_id, messages, day):
     if registry.get("date") != day:
         registry.clear()
@@ -56,6 +67,7 @@ def replace_group_snapshot(registry, state, chat_id, messages, day):
         state["groups"] = {}
 
     previous = _previous_rows_by_message(registry, chat_id)
+    snapshots = _previous_snapshot_by_message(registry, chat_id)
     for cid in expand_chat_id(chat_id):
         registry.setdefault("entries", {}).pop(cid, None)
         registry.setdefault("post_entries", {}).pop(cid, None)
@@ -80,6 +92,17 @@ def replace_group_snapshot(registry, state, chat_id, messages, day):
             continue
         message_id = int(msg.get("message_id") or 0)
         msg_time = beijing_full_time(msg["date"])
+        old_snapshot = snapshots.get(str(message_id)) or {}
+        old_rows = list(old_snapshot.get("entries") or []) + list(old_snapshot.get("post_entries") or [])
+        if old_rows and all(str(entry.get("message_text") or "") == text for _, entry in old_rows):
+            for key, entry in old_snapshot.get("entries") or []:
+                registry["entries"][chat_id][key] = entry
+            for key, entry in old_snapshot.get("post_entries") or []:
+                registry["post_entries"][chat_id][key] = entry
+            group_state["count"] += 1
+            group_state["message_ids"].append(str(message_id))
+            matched += 1
+            continue
         links = extract_x_links_ordered(text)
         handles = handles_from_links(links)
         check_handle, dual_link, promo_handle = parse_check_handle_from_handles(handles)

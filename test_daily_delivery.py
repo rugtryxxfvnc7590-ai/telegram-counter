@@ -23,7 +23,7 @@ def _entry(post_id, message_id, when, *, eligible=True, after_cutoff=False, prom
 
 
 class DailyListTest(unittest.TestCase):
-    def test_links_are_eligible_pre_cutoff_promo_posts_in_message_order(self):
+    def test_links_are_eligible_pre_cutoff_promo_posts_in_reverse_message_order(self):
         registry = {
             "date": "2026-08-27",
             "post_entries": {
@@ -40,8 +40,8 @@ class DailyListTest(unittest.TestCase):
         self.assertEqual(
             main.daily_eligible_links(registry, main.GROUP_1_CHAT_ID_FALLBACK),
             [
-                "https://x.com/user111/status/111",
                 "https://x.com/user222/status/222",
+                "https://x.com/user111/status/111",
             ],
         )
 
@@ -53,8 +53,8 @@ class DailyListTest(unittest.TestCase):
         )
         self.assertEqual(
             text,
-            "群二（8月27日）互推名单，共 2 条\n"
-            "1 https://x.com/a/status/1\n"
+            "群二（8月27日）互推名单，共 2 条\n\n"
+            "1 https://x.com/a/status/1\n\n"
             "2 https://x.com/b/status/2",
         )
 

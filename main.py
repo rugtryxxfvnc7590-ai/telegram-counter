@@ -314,7 +314,9 @@ def daily_eligible_links(registry, chat_id):
                 continue
             seen.add(url)
             rows.append((str(entry.get("time") or ""), int(entry.get("message_id") or 0), url))
-    rows.sort(key=lambda item: (item[0], item[1], item[2]))
+    # The 19:00 list is presented newest first: the last accepted Telegram
+    # message is numbered 1 and the first accepted message stays at the bottom.
+    rows.sort(key=lambda item: (item[0], item[1], item[2]), reverse=True)
     return [item[2] for item in rows]
 
 
@@ -329,7 +331,7 @@ def format_daily_list_message(group_label, day, links):
         lines.extend(f"{index} {url}" for index, url in enumerate(links, 1))
     else:
         lines.append("今日没有合格互推链接")
-    return "\n".join(lines)
+    return "\n\n".join(lines)
 
 
 def _send_private_message(chat_id, text):

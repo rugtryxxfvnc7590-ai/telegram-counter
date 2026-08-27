@@ -86,6 +86,13 @@ class LinkParsingTest(unittest.TestCase):
         self.assertIn("-1003891628675", ids)
         self.assertIn("-1003218974409", ids)
 
+    def test_all_three_production_groups_are_listened_without_secrets(self):
+        with patch.dict("os.environ", {}, clear=True):
+            ids = set(load_chat_ids())
+        self.assertIn("-1003891628675", ids)
+        self.assertIn("-1003218974409", ids)
+        self.assertIn("-1003739822194", ids)
+
     def test_group1_chat_id_is_always_listened_even_when_env_is_set(self):
         with patch.dict(
             "os.environ",

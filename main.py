@@ -26,6 +26,7 @@ FULL_TWEET_TEXT_SOURCES = frozenset({"vx_status_v2", "vx_status_i"})
 LONG_TEXT_UNCERTAIN_LENGTH = 120
 CUTOFF_HOUR = 19
 CUTOFF_ELIGIBILITY_TEXT = "❌超时链接"
+OWNER_CHAT_ID_ENV = "TELEGRAM_OWNER_CHAT_ID"
 REPLY_RULES_FILE = Path(__file__).resolve().with_name("bot_reply_rules.json")
 DEFAULT_REPLY_RULES = {
     "missing_mentions": {"enabled": True, "groups": ["群一", "群二", "群三"], "text": INVALID_MENTIONS_REPLY_TEXT},
@@ -87,10 +88,22 @@ def load_chat_ids():
                 part = part.strip()
                 if part:
                     ids.update(expand_chat_id(part))
-    ids.update(expand_chat_id(GROUP_1_CHAT_ID_FALLBACK))
-    if not os.getenv("TELEGRAM_CHAT_ID_GROUP3", "").strip():
-        ids.update(expand_chat_id(GROUP_3_CHAT_ID_FALLBACK))
+    # 三个生产群固定加入监听，Secret 只允许补充，不允许意外替换生产群。
+    for fallback in (
+        GROUP_1_CHAT_ID_FALLBACK,
+        GROUP_2_CHAT_ID_FALLBACK,
+        GROUP_3_CHAT_ID_FALLBACK,
+    ):
+        ids.update(expand_chat_id(fallback))
     return sorted(ids)
+
+
+def canonical_group_chat_ids():
+    return (
+        ("群一", GROUP_1_CHAT_ID_FALLBACK),
+        ("群二", GROUP_2_CHAT_ID_FALLBACK),
+        ("群三", GROUP_3_CHAT_ID_FALLBACK),
+    )
 
 
 def limit_reply_enabled(chat_id):
@@ -266,6 +279,133 @@ def violation_reply_allowed(unix_ts):
     """19:00-23:59 是闲聊时段，违规仍记录到后台，但不在群里回复打扰。"""
     hour = datetime.fromtimestamp(unix_ts, BEIJING).hour
     return not (CUTOFF_HOUR <= hour <= 23)
+
+
+def daily_list_send_due(now=None):
+    now = now or datetime.now(BEIJING)
+    if now.tzinfo is None:
+        now = now.replace(tzinfo=BEIJING)
+    else:
+        now = now.astimezone(BEIJING)
+    return now.hour >= CUTOFF_HOUR
+
+
+def _canonical_promo_url(entry):
+    handle = str((entry or {}).get("promo_handle") or "").lstrip("@").strip()
+    post_id = str((entry or {}).get("promo_post_id") or "").strip()
+    if handle and post_id:
+        return f"https://x.com/{handle}/status/{post_id}"
+    return str((entry or {}).get("promo_url") or (entry or {}).get("link") or "").strip()
+
+
+def daily_eligible_links(registry, chat_id):
+    rows = []
+    seen = set()
+    for cid in expand_chat_id(chat_id):
+        bucket = ((registry or {}).get("post_entries") or {}).get(cid) or {}
+        for post_id, entry in bucket.items():
+            entry = entry or {}
+            if str(entry.get("promo_post_id") or "") != str(post_id):
+                continue
+            if entry.get("after_cutoff") or entry.get("mutual_eligible") is not True:
+                continue
+            url = _canonical_promo_url(entry)
+            if not url or url in seen:
+                continue
+            seen.add(url)
+            rows.append((str(entry.get("time") or ""), int(entry.get("message_id") or 0), url))
+    rows.sort(key=lambda item: (item[0], item[1], item[2]))
+    return [item[2] for item in rows]
+
+
+def format_daily_list_message(group_label, day, links):
+    try:
+        parsed = datetime.strptime(day, "%Y-%m-%d")
+        date_label = f"{parsed.month}月{parsed.day}日"
+    except Exception:
+        date_label = day
+    lines = [f"{group_label}（{date_label}）互推名单，共 {len(links)} 条"]
+    if links:
+        lines.extend(f"{index} {url}" for index, url in enumerate(links, 1))
+    else:
+        lines.append("今日没有合格互推链接")
+    return "\n".join(lines)
+
+
+def _send_private_message(chat_id, text):
+    if not BOT_TOKEN:
+        return False, "未配置 TELEGRAM_BOT_TOKEN"
+    try:
+        response = requests.post(
+            f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
+            json={"chat_id": chat_id, "text": text, "disable_web_page_preview": True},
+            timeout=15,
+        )
+        payload = response.json()
+    except Exception as exc:
+        return False, str(exc)
+    if response.status_code != 200 or not payload.get("ok"):
+        return False, str(payload)
+    return True, ""
+
+
+def send_daily_lists_to_owner(registry, state, now=None, save_callback=None):
+    now = now or datetime.now(BEIJING)
+    if now.tzinfo is None:
+        now = now.replace(tzinfo=BEIJING)
+    else:
+        now = now.astimezone(BEIJING)
+    if not daily_list_send_due(now):
+        print("19:00 私信名单：尚未到发送时间，跳过。")
+        return {}
+
+    owner_chat_id = os.getenv(OWNER_CHAT_ID_ENV, "").strip()
+    if not owner_chat_id:
+        print(f"19:00 私信名单：未配置 {OWNER_CHAT_ID_ENV}，跳过。")
+        return {}
+    if any(owner_chat_id in expand_chat_id(chat_id) for _, chat_id in canonical_group_chat_ids()):
+        print("19:00 私信名单：目标是群聊 ID，已拒绝发送。")
+        return {}
+
+    day = now.strftime("%Y-%m-%d")
+    sent_state = state.setdefault("owner_daily_lists", {})
+    if sent_state.get("date") != day:
+        sent_state.clear()
+        sent_state.update({"date": day, "groups": {}})
+    sent_groups = sent_state.setdefault("groups", {})
+    snapshot_state = state.get("group_snapshot_sync") or {}
+    snapshot_groups = set(snapshot_state.get("completed_groups") or []) if snapshot_state.get("date") == day else set()
+    results = {}
+
+    for group_label, chat_id in canonical_group_chat_ids():
+        if (sent_groups.get(group_label) or {}).get("sent"):
+            results[group_label] = "already_sent"
+            continue
+        if group_label not in snapshot_groups:
+            results[group_label] = "waiting_for_snapshot"
+            print(f"19:00 私信名单：{group_label} 今日群消息快照未完成，下一轮先补齐再发送。")
+            continue
+        links = daily_eligible_links(registry if registry.get("date") == day else {}, chat_id)
+        message = format_daily_list_message(group_label, day, links)
+        if len(message) > 4096:
+            results[group_label] = "message_too_long"
+            print(f"19:00 私信名单：{group_label} 文本超过 Telegram 单条消息上限，未发送。")
+            continue
+        ok, error = _send_private_message(owner_chat_id, message)
+        if not ok:
+            results[group_label] = "failed"
+            print(f"19:00 私信名单：{group_label} 发送失败，将在下一轮重试：{error}")
+            continue
+        sent_groups[group_label] = {
+            "sent": True,
+            "sent_at": now.strftime("%Y-%m-%d %H:%M:%S"),
+            "count": len(links),
+        }
+        if save_callback:
+            save_callback()
+        results[group_label] = "sent"
+        print(f"19:00 私信名单：{group_label} 已发送 {len(links)} 条到个人私信。")
+    return results
 
 
 def resolve_tweet_author(tweet_id):

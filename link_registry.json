@@ -6347,7 +6347,7 @@
         ],
         "x_name": "郭丶老师",
         "promo_name": "郭丶老师",
-        "followers_count": 13286,
+        "followers_count": 13288,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -6471,6 +6471,22 @@
           {
             "source": "profile_v2",
             "count": 13286
+          },
+          {
+            "source": "status_v2",
+            "count": 13288
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13288
+          },
+          {
+            "source": "status_legacy",
+            "count": 13288
+          },
+          {
+            "source": "profile_v2",
+            "count": 13288
           }
         ],
         "check_followers_count": 13276,
@@ -6549,7 +6565,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 13286,
+        "qualified_followers_count": 13288,
         "qualified_followers_text": "1.3W",
         "qualified_followers_sources": [
           "status_v2",
@@ -11148,6 +11164,214 @@
         "followers_min": 0,
         "qualified_followers_count": 42811,
         "qualified_followers_text": "4.2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "tutu_kirar2wer": {
+        "x_handle": "tutu_kirar2wer",
+        "check_handle": "tutu_kirar2wer",
+        "dual_link": false,
+        "promo_handle": "tutu_kirar2wer",
+        "tg_username": "TTRean",
+        "tg_user_id": 5999016712,
+        "tg_name": "突突Rean",
+        "link": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+        "message_text": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+            "handle": "tutu_kirar2wer",
+            "post_id": "2093249266210971908",
+            "role": "promo",
+            "author_name": "突突Rean",
+            "followers_count": 14502,
+            "followers_text": "1.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 14502
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 14502
+              },
+              {
+                "source": "status_legacy",
+                "count": 14502
+              },
+              {
+                "source": "profile_v2",
+                "count": 14502
+              }
+            ],
+            "tweet_text": "带货主播喉咙都是嘶哑的吗？\n对会讲粤语的女生真的毫无抵抗\n丰润的蜜桃臀🍑真的是天选飞机杯\n@ToBuerma @ToBulaer \n@BulmaList @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 89,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 89,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 89,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 89,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 89,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+            "post_id": "2093249266210971908",
+            "handle": "tutu_kirar2wer",
+            "source_time": "2026-08-28 16:08:43",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "突突Rean",
+        "promo_name": "突突Rean",
+        "followers_count": 14502,
+        "followers_text": "1.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 14502
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14502
+          },
+          {
+            "source": "status_legacy",
+            "count": 14502
+          },
+          {
+            "source": "profile_v2",
+            "count": 14502
+          }
+        ],
+        "check_followers_count": 14502,
+        "check_followers_text": "1.4W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 14502
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14502
+          },
+          {
+            "source": "status_legacy",
+            "count": 14502
+          },
+          {
+            "source": "profile_v2",
+            "count": 14502
+          }
+        ],
+        "tweet_text": "带货主播喉咙都是嘶哑的吗？\n对会讲粤语的女生真的毫无抵抗\n丰润的蜜桃臀🍑真的是天选飞机杯\n@ToBuerma @ToBulaer \n@BulmaList @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 89,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 89,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 89,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 89,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 89,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+        "check_url": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+        "promo_post_id": "2093249266210971908",
+        "check_post_id": "2093249266210971908",
+        "chat_id": "-1003739822194",
+        "message_id": 1123,
+        "time": "2026-08-28 16:08:43",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 14502,
+        "qualified_followers_text": "1.4W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -17506,7 +17730,7 @@
         ],
         "x_name": "郭丶老师",
         "promo_name": "郭丶老师",
-        "followers_count": 13286,
+        "followers_count": 13288,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -17630,6 +17854,22 @@
           {
             "source": "profile_v2",
             "count": 13286
+          },
+          {
+            "source": "status_v2",
+            "count": 13288
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13288
+          },
+          {
+            "source": "status_legacy",
+            "count": 13288
+          },
+          {
+            "source": "profile_v2",
+            "count": 13288
           }
         ],
         "check_followers_count": 13276,
@@ -17708,7 +17948,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 13286,
+        "qualified_followers_count": 13288,
         "qualified_followers_text": "1.3W",
         "qualified_followers_sources": [
           "status_v2",
@@ -22090,6 +22330,214 @@
         "followers_min": 0,
         "qualified_followers_count": 42811,
         "qualified_followers_text": "4.2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2093249266210971908": {
+        "x_handle": "tutu_kirar2wer",
+        "check_handle": "tutu_kirar2wer",
+        "dual_link": false,
+        "promo_handle": "tutu_kirar2wer",
+        "tg_username": "TTRean",
+        "tg_user_id": 5999016712,
+        "tg_name": "突突Rean",
+        "link": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+        "message_text": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+            "handle": "tutu_kirar2wer",
+            "post_id": "2093249266210971908",
+            "role": "promo",
+            "author_name": "突突Rean",
+            "followers_count": 14502,
+            "followers_text": "1.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 14502
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 14502
+              },
+              {
+                "source": "status_legacy",
+                "count": 14502
+              },
+              {
+                "source": "profile_v2",
+                "count": 14502
+              }
+            ],
+            "tweet_text": "带货主播喉咙都是嘶哑的吗？\n对会讲粤语的女生真的毫无抵抗\n丰润的蜜桃臀🍑真的是天选飞机杯\n@ToBuerma @ToBulaer \n@BulmaList @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 89,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 89,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 89,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 89,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 89,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+            "post_id": "2093249266210971908",
+            "handle": "tutu_kirar2wer",
+            "source_time": "2026-08-28 16:08:43",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "突突Rean",
+        "promo_name": "突突Rean",
+        "followers_count": 14502,
+        "followers_text": "1.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 14502
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14502
+          },
+          {
+            "source": "status_legacy",
+            "count": 14502
+          },
+          {
+            "source": "profile_v2",
+            "count": 14502
+          }
+        ],
+        "check_followers_count": 14502,
+        "check_followers_text": "1.4W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 14502
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14502
+          },
+          {
+            "source": "status_legacy",
+            "count": 14502
+          },
+          {
+            "source": "profile_v2",
+            "count": 14502
+          }
+        ],
+        "tweet_text": "带货主播喉咙都是嘶哑的吗？\n对会讲粤语的女生真的毫无抵抗\n丰润的蜜桃臀🍑真的是天选飞机杯\n@ToBuerma @ToBulaer \n@BulmaList @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 89,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 89,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 89,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 89,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 89,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+        "check_url": "https://x.com/tutu_kirar2wer/status/2093249266210971908?s=46",
+        "promo_post_id": "2093249266210971908",
+        "check_post_id": "2093249266210971908",
+        "chat_id": "-1003739822194",
+        "message_id": 1123,
+        "time": "2026-08-28 16:08:43",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 14502,
+        "qualified_followers_text": "1.4W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

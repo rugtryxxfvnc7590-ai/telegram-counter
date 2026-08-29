@@ -62,8 +62,8 @@ X_HANDLE_RE = re.compile(
 )
 SKIP_HANDLES = frozenset({"i", "intent", "search", "home", "share", "hashtag"})
 X_URL_RE = re.compile(r"https?://(?:www\.)?(?:twitter\.com|x\.com)/[^\s\]\)<>\"]+", re.IGNORECASE)
-STATUS_RE = re.compile(r"/(?:i/)?status/(\d+)", re.IGNORECASE)
-I_STATUS_RE = re.compile(r"/i/status/(\d+)", re.IGNORECASE)
+STATUS_RE = re.compile(r"/(?:i/)?status/(\d+)(?=[/?#]|$)", re.IGNORECASE)
+I_STATUS_RE = re.compile(r"/i/status/(\d+)(?=[/?#]|$)", re.IGNORECASE)
 _tweet_author_cache = {}
 _x_author_meta_cache = {}
 

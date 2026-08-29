@@ -185,6 +185,7 @@ class LinkParsingTest(unittest.TestCase):
             "https://x.com/home",
             "https://x.com/search?q=test",
             "https://x.com/hashtag/test",
+            "https://x.com/fake/status/123abc",
             "https://twitter.com/bob/status/123?s=46",
         ])
         with patch.object(main, "fetch_x_author_meta", return_value={}):

@@ -470,12 +470,15 @@ def tweet_text_may_be_truncated(text, sources=None):
         return True
     if "…" in raw or raw.endswith("...") or raw.endswith("…"):
         return True
+    # 真机确认：X 的 Show more 可以把尾部账号折叠掉，而 Fx/Vx 接口仍把
+    # 折叠前正文标成完整来源。长正文未读到指定账号时必须按不确定处理，
+    # 不能向群里发送“未@”回复。
+    if len(raw) >= LONG_TEXT_UNCERTAIN_LENGTH:
+        return True
     source_set = {str(source) for source in (sources or [])}
     if source_set & FULL_TWEET_TEXT_SOURCES:
         return False
-    # FxTwitter 会把 X 长文本截断在旧长度附近，且不一定带省略号。
-    # 在没有完整长文本来源时，宁可待确认，不直接判“缺少指定@”。
-    return len(raw) >= LONG_TEXT_UNCERTAIN_LENGTH
+    return False
 
 
 def _payload_text(*values):
@@ -536,11 +539,11 @@ def _author_meta_from_payload(data, source=""):
             "followers": data.get("followers") or data.get("followers_count"),
         }
     tweet_text = _payload_text(
-        (tweet or {}).get("text"),
         (tweet or {}).get("full_text"),
+        (tweet or {}).get("text"),
         (tweet or {}).get("raw_text"),
-        data.get("text"),
         data.get("full_text"),
+        data.get("text"),
         data.get("raw_text"),
     )
     if not author and not tweet_text:

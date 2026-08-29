@@ -313,7 +313,7 @@ class LinkParsingTest(unittest.TestCase):
         self.assertFalse(promo_link_missing_required_mentions(links))
         self.assertIsNone(main.promo_link_content_eligible(links))
 
-    def test_full_vx_text_without_required_mentions_is_confirmed_invalid(self):
+    def test_long_vx_text_without_required_mentions_is_uncertain(self):
         links = [{
             "role": "promo",
             "tweet_text": "这是已经取完的长正文" * 20,
@@ -321,9 +321,37 @@ class LinkParsingTest(unittest.TestCase):
             "required_mentions_count": 0,
         }]
 
+        self.assertTrue(tweet_text_may_be_truncated(links[0]["tweet_text"], links[0]["tweet_text_sources"]))
+        self.assertFalse(promo_link_missing_required_mentions(links))
+        self.assertIsNone(main.promo_link_content_eligible(links))
+
+    def test_short_full_vx_text_without_required_mentions_is_confirmed_invalid(self):
+        links = [{
+            "role": "promo",
+            "tweet_text": "短正文没有指定账号",
+            "tweet_text_sources": ["vx_status_v2"],
+            "required_mentions_count": 0,
+        }]
+
         self.assertFalse(tweet_text_may_be_truncated(links[0]["tweet_text"], links[0]["tweet_text_sources"]))
         self.assertTrue(promo_link_missing_required_mentions(links))
         self.assertFalse(main.promo_link_content_eligible(links))
+
+    def test_show_more_case_with_all_api_sources_never_replies_missing_mentions(self):
+        text = "长正文" * 35 + "\n频道入口→ https://t.me/example"
+        links = [{
+            "role": "promo",
+            "tweet_text": text,
+            "tweet_text_sources": [
+                "status_v2", "status_legacy_i", "vx_status_v2", "vx_status_i", "status_legacy",
+            ],
+            "required_mentions_count": 0,
+        }]
+
+        self.assertGreaterEqual(len(text), main.LONG_TEXT_UNCERTAIN_LENGTH)
+        self.assertTrue(tweet_text_may_be_truncated(text, links[0]["tweet_text_sources"]))
+        self.assertFalse(promo_link_missing_required_mentions(links))
+        self.assertIsNone(main.promo_link_content_eligible(links))
 
     def test_backfill_replaces_existing_truncated_text_with_complete_vx_text(self):
         class FakeResp:

@@ -694,11 +694,19 @@ def _status_id_from_x_url(url):
     return m.group(1) if m else ""
 
 
+def contains_x_post_link(text):
+    """Only a numeric /status/<id> URL is a collectable X post link."""
+    return any(_status_id_from_x_url(m.group(0)) for m in X_URL_RE.finditer(text or ""))
+
+
 def extract_x_links_ordered(text):
     links = []
     seen_urls = set()
-    for idx, m in enumerate(X_URL_RE.finditer(text or ""), start=1):
+    for m in X_URL_RE.finditer(text or ""):
         url = m.group(0).rstrip(".,，。；;：:")
+        post_id = _status_id_from_x_url(url)
+        if not post_id:
+            continue
         if url in seen_urls:
             continue
         seen_urls.add(url)
@@ -707,7 +715,7 @@ def extract_x_links_ordered(text):
             "order": len(links) + 1,
             "url": url,
             "handle": handle or "",
-            "post_id": _status_id_from_x_url(url),
+            "post_id": post_id,
             "role": "",
         })
         meta = fetch_x_author_meta(url, handle=links[-1]["handle"], post_id=links[-1]["post_id"])
@@ -985,19 +993,20 @@ def remove_registry_rows_for_message(registry, chat_id, message_id):
 def remove_registry_rows_if_edited_message_lost_links(registry, chat_id, message_id, text, is_edited_message):
     if not is_edited_message:
         return []
-    if TWITTER_REGEX.search(text or ""):
+    if contains_x_post_link(text):
         return []
     return remove_registry_rows_for_message(registry, chat_id, message_id)
 
 
 def _link_option(label, url="", post_id="", handle="", source_time="", edit_time=""):
     url = str(url or "").strip()
-    if not url:
+    resolved_post_id = _status_id_from_x_url(url)
+    if not url or not resolved_post_id:
         return None
     return {
         "label": label,
         "url": url,
-        "post_id": str(post_id or _status_id_from_x_url(url)),
+        "post_id": resolved_post_id,
         "handle": str(handle or _handle_from_x_url(url) or "").lstrip("@").lower(),
         "source_time": source_time,
         "edit_time": edit_time,
@@ -1407,6 +1416,20 @@ def main():
                     )
                 continue
 
+            links = extract_x_links_ordered(text)
+            if not links:
+                if removed_no_link:
+                    matched += 1
+                    print(
+                        f"   ♻️ 编辑消息已不含 X 推文链接，同步移除后台登记 {len(removed_no_link)} 条 "
+                        f"| 群 {actual_chat_id} | 消息ID {message_id}"
+                    )
+                else:
+                    print(
+                        f"   ⏭️ 忽略非推文 X 链接 | 群 {actual_chat_id} | 消息ID {message_id}"
+                    )
+                continue
+
             msg_day = beijing_day_of(msg["date"])
             msg_time = beijing_full_time(msg["date"])
             after_cutoff = message_after_cutoff(msg["date"])
@@ -1436,7 +1459,6 @@ def main():
             edit_note = " | 编辑消息" if is_edited_message else ""
             print(f"🔗 [{msg_time}] 群 {actual_chat_id} 第 {current} 条 | 发送人: {tg_tag}{edit_note}")
 
-            links = extract_x_links_ordered(text)
             handles = handles_from_links(links)
             check_handle, dual_link, promo_handle = parse_check_handle_from_handles(handles)
             previous_entries = remove_registry_rows_for_message(registry, actual_chat_id, message_id)

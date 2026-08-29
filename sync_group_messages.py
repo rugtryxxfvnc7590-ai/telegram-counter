@@ -7,9 +7,9 @@ from main import (
     GROUP_1_CHAT_ID_FALLBACK,
     GROUP_2_CHAT_ID_FALLBACK,
     GROUP_3_CHAT_ID_FALLBACK,
-    TWITTER_REGEX,
     backfill_registry_metadata,
     beijing_full_time,
+    contains_x_post_link,
     expand_chat_id,
     extract_x_links_ordered,
     handles_from_links,
@@ -58,6 +58,17 @@ def _previous_snapshot_by_message(registry, chat_id):
     return snapshots
 
 
+def _snapshot_has_only_post_links(snapshot):
+    rows = list((snapshot or {}).get("entries") or []) + list((snapshot or {}).get("post_entries") or [])
+    if not rows:
+        return False
+    return all(
+        str((entry or {}).get("promo_post_id") or "").isdigit()
+        and contains_x_post_link((entry or {}).get("promo_url") or "")
+        for _, entry in rows
+    )
+
+
 def replace_group_snapshot(registry, state, chat_id, messages, day):
     if registry.get("date") != day:
         registry.clear()
@@ -88,13 +99,17 @@ def replace_group_snapshot(registry, state, chat_id, messages, day):
     matched = 0
     for msg in sorted(messages, key=lambda item: (int(item.get("date") or 0), int(item.get("message_id") or 0))):
         text = str(msg.get("text") or "")
-        if not TWITTER_REGEX.search(text):
+        if not contains_x_post_link(text):
             continue
         message_id = int(msg.get("message_id") or 0)
         msg_time = beijing_full_time(msg["date"])
         old_snapshot = snapshots.get(str(message_id)) or {}
         old_rows = list(old_snapshot.get("entries") or []) + list(old_snapshot.get("post_entries") or [])
-        if old_rows and all(str(entry.get("message_text") or "") == text for _, entry in old_rows):
+        if (
+            old_rows
+            and _snapshot_has_only_post_links(old_snapshot)
+            and all(str(entry.get("message_text") or "") == text for _, entry in old_rows)
+        ):
             for key, entry in old_snapshot.get("entries") or []:
                 registry["entries"][chat_id][key] = entry
             for key, entry in old_snapshot.get("post_entries") or []:

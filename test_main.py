@@ -19,6 +19,7 @@ from main import (
     beijing_full_time,
     backfill_registry_metadata,
     count_required_mentions,
+    contains_x_post_link,
     extract_x_handles_ordered,
     extract_x_links_ordered,
     fetch_x_author_meta,
@@ -177,6 +178,25 @@ class LinkParsingTest(unittest.TestCase):
             "2085928788068831535",
         ])
         self.assertEqual([item["handle"] for item in links[:2]], ["tianqipaidui", "yzlzp77"])
+
+    def test_profile_and_other_non_post_x_urls_are_not_collected(self):
+        text = "\n".join([
+            "https://x.com/alice",
+            "https://x.com/home",
+            "https://x.com/search?q=test",
+            "https://x.com/hashtag/test",
+            "https://twitter.com/bob/status/123?s=46",
+        ])
+        with patch.object(main, "fetch_x_author_meta", return_value={}):
+            links = extract_x_links_ordered(text)
+
+        self.assertEqual([item["post_id"] for item in links], ["123"])
+        self.assertEqual([item["url"] for item in links], ["https://twitter.com/bob/status/123?s=46"])
+        self.assertTrue(contains_x_post_link(text))
+        self.assertFalse(contains_x_post_link("https://x.com/alice\nhttps://x.com/search?q=test"))
+
+    def test_profile_only_message_has_no_collectable_links(self):
+        self.assertEqual(extract_x_links_ordered("主页 https://x.com/alice"), [])
 
     def test_second_link_is_check_handle(self):
         text = "https://x.com/promoA/status/111?s=46\nhttps://x.com/checkB/status/222?s=46"
@@ -808,6 +828,21 @@ class LinkParsingTest(unittest.TestCase):
 
         removed = remove_registry_rows_if_edited_message_lost_links(
             registry, "-1003218974409", 456, "这条消息已经删掉链接", True
+        )
+
+        self.assertEqual(len(removed), 2)
+        self.assertNotIn("old", registry["entries"]["-1003218974409"])
+        self.assertNotIn("111", registry["post_entries"]["-1003218974409"])
+
+    def test_editing_post_link_to_profile_link_removes_old_registry_rows(self):
+        registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
+        msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
+        old_text = "https://x.com/old/status/111?s=46"
+        old_links = extract_x_links_ordered(old_text)
+        record_link(registry, "old", msg, old_text, "-1003218974409", "2026-08-09 00:00:00", links=old_links)
+
+        removed = remove_registry_rows_if_edited_message_lost_links(
+            registry, "-1003218974409", 456, "主页 https://x.com/old", True
         )
 
         self.assertEqual(len(removed), 2)

@@ -190,6 +190,12 @@ class GroupSnapshotTest(unittest.TestCase):
                 "text": "普通聊天",
                 "from": {"id": 10, "username": "chat_user", "first_name": "小李"},
             },
+            {
+                "message_id": 4,
+                "date": datetime(2026, 8, 27, 18, 2, tzinfo=BEIJING).timestamp(),
+                "text": "主页 https://x.com/profileonly",
+                "from": {"id": 11, "username": "profile_user", "first_name": "小张"},
+            },
         ]
         links = [{
             "order": 1,

@@ -9260,7 +9260,7 @@
         ],
         "x_name": "先知先觉",
         "promo_name": "先知先觉",
-        "followers_count": 9200,
+        "followers_count": 9201,
         "followers_text": "9.2K",
         "followers_sources": [
           "status_v2",
@@ -9332,6 +9332,22 @@
           {
             "source": "profile_v2",
             "count": 9200
+          },
+          {
+            "source": "status_v2",
+            "count": 9201
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9201
+          },
+          {
+            "source": "status_legacy",
+            "count": 9201
+          },
+          {
+            "source": "profile_v2",
+            "count": 9201
           }
         ],
         "check_followers_count": 9195,
@@ -9410,7 +9426,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 9200,
+        "qualified_followers_count": 9201,
         "qualified_followers_text": "9.2K",
         "qualified_followers_sources": [
           "status_v2",
@@ -19100,7 +19116,7 @@
         ],
         "x_name": "先知先觉",
         "promo_name": "先知先觉",
-        "followers_count": 9200,
+        "followers_count": 9201,
         "followers_text": "9.2K",
         "followers_sources": [
           "status_v2",
@@ -19172,6 +19188,22 @@
           {
             "source": "profile_v2",
             "count": 9200
+          },
+          {
+            "source": "status_v2",
+            "count": 9201
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9201
+          },
+          {
+            "source": "status_legacy",
+            "count": 9201
+          },
+          {
+            "source": "profile_v2",
+            "count": 9201
           }
         ],
         "check_followers_count": 9195,
@@ -19250,7 +19282,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 9200,
+        "qualified_followers_count": 9201,
         "qualified_followers_text": "9.2K",
         "qualified_followers_sources": [
           "status_v2",

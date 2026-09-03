@@ -5201,6 +5201,422 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格"
+      },
+      "12_wheat": {
+        "x_handle": "12_wheat",
+        "check_handle": "12_wheat",
+        "dual_link": false,
+        "promo_handle": "12_wheat",
+        "tg_username": "ItGets",
+        "tg_user_id": 7019696899,
+        "tg_name": "12K",
+        "link": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "message_text": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+            "handle": "12_wheat",
+            "post_id": "2095406252969046440",
+            "role": "promo",
+            "author_name": "12K",
+            "followers_count": 130895,
+            "followers_text": "13W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 130895
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 130894
+              },
+              {
+                "source": "status_legacy",
+                "count": 130894
+              },
+              {
+                "source": "profile_v2",
+                "count": 130894
+              }
+            ],
+            "tweet_text": "审美累积😛\n@ToBulaer  @ToBulma  \n @BulmaList  @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 53,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+            "post_id": "2095406252969046440",
+            "handle": "12_wheat",
+            "source_time": "2026-09-03 15:01:21",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "12K",
+        "promo_name": "12K",
+        "followers_count": 130895,
+        "followers_text": "13W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 130895
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 130894
+          },
+          {
+            "source": "status_legacy",
+            "count": 130894
+          },
+          {
+            "source": "profile_v2",
+            "count": 130894
+          }
+        ],
+        "check_followers_count": 130895,
+        "check_followers_text": "13W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 130895
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 130894
+          },
+          {
+            "source": "status_legacy",
+            "count": 130894
+          },
+          {
+            "source": "profile_v2",
+            "count": 130894
+          }
+        ],
+        "tweet_text": "审美累积😛\n@ToBulaer  @ToBulma  \n @BulmaList  @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 53,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "check_url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "promo_post_id": "2095406252969046440",
+        "check_post_id": "2095406252969046440",
+        "chat_id": "-1003891628675",
+        "message_id": 7074,
+        "time": "2026-09-03 15:01:21",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 130895,
+        "qualified_followers_text": "13W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "wdqhc999": {
+        "x_handle": "wdqhc999",
+        "check_handle": "wdqhc999",
+        "dual_link": false,
+        "promo_handle": "wdqhc999",
+        "tg_username": "wdqhc11",
+        "tg_user_id": 874072822,
+        "tg_name": "我的枪好长啊",
+        "link": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+        "message_text": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+            "handle": "wdqhc999",
+            "post_id": "2095065083512832262",
+            "role": "promo",
+            "author_name": "我的枪好长啊",
+            "followers_count": 588117,
+            "followers_text": "58.8W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 588117
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 588117
+              },
+              {
+                "source": "status_legacy",
+                "count": 588117
+              },
+              {
+                "source": "profile_v2",
+                "count": 588117
+              }
+            ],
+            "tweet_text": "要的就是蜘蛛侠🕷️🥵\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+            "post_id": "2095065083512832262",
+            "handle": "wdqhc999",
+            "source_time": "2026-09-03 15:10:46",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "我的枪好长啊",
+        "promo_name": "我的枪好长啊",
+        "followers_count": 588117,
+        "followers_text": "58.8W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 588117
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 588117
+          },
+          {
+            "source": "status_legacy",
+            "count": 588117
+          },
+          {
+            "source": "profile_v2",
+            "count": 588117
+          }
+        ],
+        "check_followers_count": 588117,
+        "check_followers_text": "58.8W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 588117
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 588117
+          },
+          {
+            "source": "status_legacy",
+            "count": 588117
+          },
+          {
+            "source": "profile_v2",
+            "count": 588117
+          }
+        ],
+        "tweet_text": "要的就是蜘蛛侠🕷️🥵\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+        "check_url": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+        "promo_post_id": "2095065083512832262",
+        "check_post_id": "2095065083512832262",
+        "chat_id": "-1003891628675",
+        "message_id": 7075,
+        "time": "2026-09-03 15:10:46",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 588117,
+        "qualified_followers_text": "58.8W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
       }
     },
     "-1003218974409": {},
@@ -14144,6 +14560,422 @@
         "followers_min": 100000,
         "qualified_followers_count": 155394,
         "qualified_followers_text": "15.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2095406252969046440": {
+        "x_handle": "12_wheat",
+        "check_handle": "12_wheat",
+        "dual_link": false,
+        "promo_handle": "12_wheat",
+        "tg_username": "ItGets",
+        "tg_user_id": 7019696899,
+        "tg_name": "12K",
+        "link": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "message_text": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+            "handle": "12_wheat",
+            "post_id": "2095406252969046440",
+            "role": "promo",
+            "author_name": "12K",
+            "followers_count": 130895,
+            "followers_text": "13W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 130895
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 130894
+              },
+              {
+                "source": "status_legacy",
+                "count": 130894
+              },
+              {
+                "source": "profile_v2",
+                "count": 130894
+              }
+            ],
+            "tweet_text": "审美累积😛\n@ToBulaer  @ToBulma  \n @BulmaList  @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 53,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+            "post_id": "2095406252969046440",
+            "handle": "12_wheat",
+            "source_time": "2026-09-03 15:01:21",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "12K",
+        "promo_name": "12K",
+        "followers_count": 130895,
+        "followers_text": "13W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 130895
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 130894
+          },
+          {
+            "source": "status_legacy",
+            "count": 130894
+          },
+          {
+            "source": "profile_v2",
+            "count": 130894
+          }
+        ],
+        "check_followers_count": 130895,
+        "check_followers_text": "13W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 130895
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 130894
+          },
+          {
+            "source": "status_legacy",
+            "count": 130894
+          },
+          {
+            "source": "profile_v2",
+            "count": 130894
+          }
+        ],
+        "tweet_text": "审美累积😛\n@ToBulaer  @ToBulma  \n @BulmaList  @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 53,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "check_url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "promo_post_id": "2095406252969046440",
+        "check_post_id": "2095406252969046440",
+        "chat_id": "-1003891628675",
+        "message_id": 7074,
+        "time": "2026-09-03 15:01:21",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 130895,
+        "qualified_followers_text": "13W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2095065083512832262": {
+        "x_handle": "wdqhc999",
+        "check_handle": "wdqhc999",
+        "dual_link": false,
+        "promo_handle": "wdqhc999",
+        "tg_username": "wdqhc11",
+        "tg_user_id": 874072822,
+        "tg_name": "我的枪好长啊",
+        "link": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+        "message_text": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+            "handle": "wdqhc999",
+            "post_id": "2095065083512832262",
+            "role": "promo",
+            "author_name": "我的枪好长啊",
+            "followers_count": 588117,
+            "followers_text": "58.8W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 588117
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 588117
+              },
+              {
+                "source": "status_legacy",
+                "count": 588117
+              },
+              {
+                "source": "profile_v2",
+                "count": 588117
+              }
+            ],
+            "tweet_text": "要的就是蜘蛛侠🕷️🥵\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+            "post_id": "2095065083512832262",
+            "handle": "wdqhc999",
+            "source_time": "2026-09-03 15:10:46",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "我的枪好长啊",
+        "promo_name": "我的枪好长啊",
+        "followers_count": 588117,
+        "followers_text": "58.8W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 588117
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 588117
+          },
+          {
+            "source": "status_legacy",
+            "count": 588117
+          },
+          {
+            "source": "profile_v2",
+            "count": 588117
+          }
+        ],
+        "check_followers_count": 588117,
+        "check_followers_text": "58.8W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 588117
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 588117
+          },
+          {
+            "source": "status_legacy",
+            "count": 588117
+          },
+          {
+            "source": "profile_v2",
+            "count": 588117
+          }
+        ],
+        "tweet_text": "要的就是蜘蛛侠🕷️🥵\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+        "check_url": "https://x.com/wdqhc999/status/2095065083512832262?s=46",
+        "promo_post_id": "2095065083512832262",
+        "check_post_id": "2095065083512832262",
+        "chat_id": "-1003891628675",
+        "message_id": 7075,
+        "time": "2026-09-03 15:10:46",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 588117,
+        "qualified_followers_text": "58.8W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

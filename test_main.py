@@ -204,6 +204,58 @@ class LinkParsingTest(unittest.TestCase):
         self.assertEqual(extract_x_handles_ordered(text), ["promoa", "checkb"])
         self.assertEqual(parse_check_handle(text), ("checkb", True, "promoa"))
 
+    def test_group2_and_group3_accept_second_profile_link_as_check_only(self):
+        text = (
+            "https://x.com/xiaoyi3359/status/2095392858819674609?s=20\n"
+            "转上面 回推下面\nhttps://x.com/xyiyi66"
+        )
+        with patch.object(main, "fetch_x_author_meta", return_value={}):
+            links = extract_x_links_ordered(text, allow_profile_check=True)
+        self.assertEqual([item["handle"] for item in links], ["xiaoyi3359", "xyiyi66"])
+        self.assertEqual([item["role"] for item in links], ["promo", "check"])
+        self.assertEqual(links[0]["post_id"], "2095392858819674609")
+        self.assertEqual(links[1]["post_id"], "")
+
+    def test_daily_list_sends_first_link_and_keeps_second_only_for_checking(self):
+        text = (
+            "https://x.com/xiaoyi3359/status/2095392858819674609?s=20\n"
+            "转上面 回推下面\nhttps://x.com/xyiyi66"
+        )
+        with patch.object(main, "fetch_x_author_meta", return_value={}):
+            links = extract_x_links_ordered(text, allow_profile_check=True)
+        msg = {"message_id": 1437, "from": {"id": 123, "username": "tg_user"}}
+        chat_id = "-1003739822194"
+        registry = {"date": "2026-09-03", "entries": {}, "post_entries": {}}
+        record_link(
+            registry,
+            "xiaoyi3359",
+            msg,
+            text,
+            chat_id,
+            "2026-09-03 18:00:00",
+            check_handle="xyiyi66",
+            dual_link=True,
+            promo_handle="xiaoyi3359",
+            links=links,
+        )
+        post_entries = registry["post_entries"][chat_id]
+        self.assertEqual(set(post_entries), {"2095392858819674609"})
+        post_entries["2095392858819674609"]["mutual_eligible"] = True
+        self.assertEqual(
+            main.daily_eligible_links(registry, chat_id),
+            ["https://x.com/xiaoyi3359/status/2095392858819674609"],
+        )
+
+    def test_profile_link_is_never_collected_without_a_first_post(self):
+        with patch.object(main, "fetch_x_author_meta", return_value={}):
+            links = extract_x_links_ordered("https://x.com/xyiyi66", allow_profile_check=True)
+        self.assertEqual(links, [])
+
+    def test_reply_account_check_is_enabled_only_for_group2_and_group3(self):
+        self.assertFalse(main.reply_account_check_enabled("-1003891628675"))
+        self.assertTrue(main.reply_account_check_enabled("-1003218974409"))
+        self.assertTrue(main.reply_account_check_enabled("-1003739822194"))
+
     def test_record_link_keeps_message_text_and_post_ids(self):
         text = "https://x.com/promoA/status/111?s=46\nhttps://x.com/checkB/status/222?s=46"
         links = extract_x_links_ordered(text)

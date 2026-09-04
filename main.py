@@ -60,6 +60,10 @@ X_HANDLE_RE = re.compile(
     r'https?://(?:www\.)?(?:twitter\.com|x\.com)/(@?)([A-Za-z0-9_]{1,15})(?:/|$|\?)',
     re.IGNORECASE,
 )
+X_PROFILE_URL_RE = re.compile(
+    r'^https?://(?:www\.)?(?:twitter\.com|x\.com)/@?([A-Za-z0-9_]{1,15})/?(?:\?[^#\s]*)?(?:#[^\s]*)?$',
+    re.IGNORECASE,
+)
 SKIP_HANDLES = frozenset({"i", "intent", "search", "home", "share", "hashtag"})
 X_URL_RE = re.compile(r"https?://(?:www\.)?(?:twitter\.com|x\.com)/[^\s\]\)<>\"]+", re.IGNORECASE)
 STATUS_RE = re.compile(r"/(?:i/)?status/(\d+)(?=[/?#]|$)", re.IGNORECASE)
@@ -109,6 +113,15 @@ def canonical_group_chat_ids():
 def limit_reply_enabled(chat_id):
     """群一只收录链接，不发满 40 条/候选名单提示。"""
     return str(chat_id).strip() not in expand_chat_id(GROUP_1_CHAT_ID_FALLBACK)
+
+
+def reply_account_check_enabled(chat_id):
+    """第二条回推号规则只用于群二和群三。"""
+    cid = str(chat_id).strip()
+    return (
+        cid in expand_chat_id(GROUP_2_CHAT_ID_FALLBACK)
+        or cid in expand_chat_id(GROUP_3_CHAT_ID_FALLBACK)
+    )
 
 
 def group_label_for_chat(chat_id):
@@ -702,18 +715,28 @@ def contains_x_post_link(text):
     return any(_status_id_from_x_url(m.group(0)) for m in X_URL_RE.finditer(text or ""))
 
 
-def extract_x_links_ordered(text):
+def extract_x_links_ordered(text, allow_profile_check=False):
     links = []
     seen_urls = set()
     for m in X_URL_RE.finditer(text or ""):
         url = m.group(0).rstrip(".,，。；;：:")
         post_id = _status_id_from_x_url(url)
-        if not post_id:
-            continue
         if url in seen_urls:
             continue
         seen_urls.add(url)
-        handle = _handle_from_x_url(url)
+        handle = _handle_from_x_url(url) if post_id else ""
+        if not post_id:
+            profile_match = X_PROFILE_URL_RE.fullmatch(url)
+            profile_handle = profile_match.group(1).lstrip("@").lower() if profile_match else ""
+            if (
+                not allow_profile_check
+                or len(links) != 1
+                or not links[0].get("post_id")
+                or not profile_handle
+                or profile_handle in SKIP_HANDLES
+            ):
+                continue
+            handle = profile_handle
         links.append({
             "order": len(links) + 1,
             "url": url,
@@ -1419,7 +1442,10 @@ def main():
                     )
                 continue
 
-            links = extract_x_links_ordered(text)
+            links = extract_x_links_ordered(
+                text,
+                allow_profile_check=reply_account_check_enabled(actual_chat_id),
+            )
             if not links:
                 if removed_no_link:
                     matched += 1

@@ -6873,6 +6873,422 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格"
+      },
+      "12_wheat": {
+        "x_handle": "12_wheat",
+        "check_handle": "12_wheat",
+        "dual_link": false,
+        "promo_handle": "12_wheat",
+        "tg_username": "ItGets",
+        "tg_user_id": 7019696899,
+        "tg_name": "12K",
+        "link": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "message_text": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+            "handle": "12_wheat",
+            "post_id": "2095406252969046440",
+            "role": "promo",
+            "author_name": "12K",
+            "followers_count": 131939,
+            "followers_text": "13.1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 131939
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 131939
+              },
+              {
+                "source": "status_legacy",
+                "count": 131939
+              },
+              {
+                "source": "profile_v2",
+                "count": 131939
+              }
+            ],
+            "tweet_text": "审美累积😛\n@ToBulaer  @ToBulma  \n @BulmaList  @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 53,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+            "post_id": "2095406252969046440",
+            "handle": "12_wheat",
+            "source_time": "2026-09-04 18:50:11",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "12K",
+        "promo_name": "12K",
+        "followers_count": 131939,
+        "followers_text": "13.1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 131939
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 131939
+          },
+          {
+            "source": "status_legacy",
+            "count": 131939
+          },
+          {
+            "source": "profile_v2",
+            "count": 131939
+          }
+        ],
+        "check_followers_count": 131939,
+        "check_followers_text": "13.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 131939
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 131939
+          },
+          {
+            "source": "status_legacy",
+            "count": 131939
+          },
+          {
+            "source": "profile_v2",
+            "count": 131939
+          }
+        ],
+        "tweet_text": "审美累积😛\n@ToBulaer  @ToBulma  \n @BulmaList  @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 53,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "check_url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "promo_post_id": "2095406252969046440",
+        "check_post_id": "2095406252969046440",
+        "chat_id": "-1003891628675",
+        "message_id": 7136,
+        "time": "2026-09-04 18:50:11",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 131939,
+        "qualified_followers_text": "13.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "youmeier": {
+        "x_handle": "youmeier",
+        "check_handle": "youmeier",
+        "dual_link": false,
+        "promo_handle": "youmeier",
+        "tg_username": "MYSY888",
+        "tg_user_id": 5997103908,
+        "tg_name": "蜜桔 摄影",
+        "link": "https://x.com/youmeier/status/2095826976670134694?s=46",
+        "message_text": "https://x.com/youmeier/status/2095826976670134694?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/youmeier/status/2095826976670134694?s=46",
+            "handle": "youmeier",
+            "post_id": "2095826976670134694",
+            "role": "promo",
+            "author_name": "蜜桔摄影",
+            "followers_count": 209122,
+            "followers_text": "20.9W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 209122
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 209122
+              },
+              {
+                "source": "status_legacy",
+                "count": 209122
+              },
+              {
+                "source": "profile_v2",
+                "count": 209122
+              }
+            ],
+            "tweet_text": "抖音主播模特\n真空凸点长裙 透视内内 无缝裆油亮黑丝\nSM🪢 TK🦶🏻 揉🐻 虐🐻 指J🤟🏻 入体玩具GC💦  「敏感内容🔞」\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 101,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 101,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 101,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 101,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 101,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/youmeier/status/2095826976670134694?s=46",
+            "post_id": "2095826976670134694",
+            "handle": "youmeier",
+            "source_time": "2026-09-04 18:51:20",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "蜜桔摄影",
+        "promo_name": "蜜桔摄影",
+        "followers_count": 209122,
+        "followers_text": "20.9W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 209122
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 209122
+          },
+          {
+            "source": "status_legacy",
+            "count": 209122
+          },
+          {
+            "source": "profile_v2",
+            "count": 209122
+          }
+        ],
+        "check_followers_count": 209122,
+        "check_followers_text": "20.9W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 209122
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 209122
+          },
+          {
+            "source": "status_legacy",
+            "count": 209122
+          },
+          {
+            "source": "profile_v2",
+            "count": 209122
+          }
+        ],
+        "tweet_text": "抖音主播模特\n真空凸点长裙 透视内内 无缝裆油亮黑丝\nSM🪢 TK🦶🏻 揉🐻 虐🐻 指J🤟🏻 入体玩具GC💦  「敏感内容🔞」\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 101,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 101,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 101,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 101,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 101,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/youmeier/status/2095826976670134694?s=46",
+        "check_url": "https://x.com/youmeier/status/2095826976670134694?s=46",
+        "promo_post_id": "2095826976670134694",
+        "check_post_id": "2095826976670134694",
+        "chat_id": "-1003891628675",
+        "message_id": 7137,
+        "time": "2026-09-04 18:51:20",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 209122,
+        "qualified_followers_text": "20.9W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
       }
     },
     "-1003218974409": {},
@@ -18328,6 +18744,422 @@
         "followers_min": 100000,
         "qualified_followers_count": 345229,
         "qualified_followers_text": "34.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2095406252969046440": {
+        "x_handle": "12_wheat",
+        "check_handle": "12_wheat",
+        "dual_link": false,
+        "promo_handle": "12_wheat",
+        "tg_username": "ItGets",
+        "tg_user_id": 7019696899,
+        "tg_name": "12K",
+        "link": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "message_text": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+            "handle": "12_wheat",
+            "post_id": "2095406252969046440",
+            "role": "promo",
+            "author_name": "12K",
+            "followers_count": 131939,
+            "followers_text": "13.1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 131939
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 131939
+              },
+              {
+                "source": "status_legacy",
+                "count": 131939
+              },
+              {
+                "source": "profile_v2",
+                "count": 131939
+              }
+            ],
+            "tweet_text": "审美累积😛\n@ToBulaer  @ToBulma  \n @BulmaList  @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 53,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+            "post_id": "2095406252969046440",
+            "handle": "12_wheat",
+            "source_time": "2026-09-04 18:50:11",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "12K",
+        "promo_name": "12K",
+        "followers_count": 131939,
+        "followers_text": "13.1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 131939
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 131939
+          },
+          {
+            "source": "status_legacy",
+            "count": 131939
+          },
+          {
+            "source": "profile_v2",
+            "count": 131939
+          }
+        ],
+        "check_followers_count": 131939,
+        "check_followers_text": "13.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 131939
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 131939
+          },
+          {
+            "source": "status_legacy",
+            "count": 131939
+          },
+          {
+            "source": "profile_v2",
+            "count": 131939
+          }
+        ],
+        "tweet_text": "审美累积😛\n@ToBulaer  @ToBulma  \n @BulmaList  @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 53,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "check_url": "https://x.com/12_wheat/status/2095406252969046440?s=46",
+        "promo_post_id": "2095406252969046440",
+        "check_post_id": "2095406252969046440",
+        "chat_id": "-1003891628675",
+        "message_id": 7136,
+        "time": "2026-09-04 18:50:11",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 131939,
+        "qualified_followers_text": "13.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2095826976670134694": {
+        "x_handle": "youmeier",
+        "check_handle": "youmeier",
+        "dual_link": false,
+        "promo_handle": "youmeier",
+        "tg_username": "MYSY888",
+        "tg_user_id": 5997103908,
+        "tg_name": "蜜桔 摄影",
+        "link": "https://x.com/youmeier/status/2095826976670134694?s=46",
+        "message_text": "https://x.com/youmeier/status/2095826976670134694?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/youmeier/status/2095826976670134694?s=46",
+            "handle": "youmeier",
+            "post_id": "2095826976670134694",
+            "role": "promo",
+            "author_name": "蜜桔摄影",
+            "followers_count": 209122,
+            "followers_text": "20.9W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 209122
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 209122
+              },
+              {
+                "source": "status_legacy",
+                "count": 209122
+              },
+              {
+                "source": "profile_v2",
+                "count": 209122
+              }
+            ],
+            "tweet_text": "抖音主播模特\n真空凸点长裙 透视内内 无缝裆油亮黑丝\nSM🪢 TK🦶🏻 揉🐻 虐🐻 指J🤟🏻 入体玩具GC💦  「敏感内容🔞」\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 101,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 101,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 101,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 101,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 101,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/youmeier/status/2095826976670134694?s=46",
+            "post_id": "2095826976670134694",
+            "handle": "youmeier",
+            "source_time": "2026-09-04 18:51:20",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "蜜桔摄影",
+        "promo_name": "蜜桔摄影",
+        "followers_count": 209122,
+        "followers_text": "20.9W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 209122
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 209122
+          },
+          {
+            "source": "status_legacy",
+            "count": 209122
+          },
+          {
+            "source": "profile_v2",
+            "count": 209122
+          }
+        ],
+        "check_followers_count": 209122,
+        "check_followers_text": "20.9W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 209122
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 209122
+          },
+          {
+            "source": "status_legacy",
+            "count": 209122
+          },
+          {
+            "source": "profile_v2",
+            "count": 209122
+          }
+        ],
+        "tweet_text": "抖音主播模特\n真空凸点长裙 透视内内 无缝裆油亮黑丝\nSM🪢 TK🦶🏻 揉🐻 虐🐻 指J🤟🏻 入体玩具GC💦  「敏感内容🔞」\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 101,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 101,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 101,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 101,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 101,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/youmeier/status/2095826976670134694?s=46",
+        "check_url": "https://x.com/youmeier/status/2095826976670134694?s=46",
+        "promo_post_id": "2095826976670134694",
+        "check_post_id": "2095826976670134694",
+        "chat_id": "-1003891628675",
+        "message_id": 7137,
+        "time": "2026-09-04 18:51:20",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 209122,
+        "qualified_followers_text": "20.9W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

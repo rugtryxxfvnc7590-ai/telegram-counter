@@ -11922,8 +11922,8 @@
         ],
         "x_name": "长驱直入",
         "promo_name": "长驱直入",
-        "followers_count": 0,
-        "followers_text": "0",
+        "followers_count": 1,
+        "followers_text": "1",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -11946,6 +11946,22 @@
           {
             "source": "profile_v2",
             "count": 0
+          },
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
           }
         ],
         "check_followers_count": 0,
@@ -12024,8 +12040,8 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 0,
-        "qualified_followers_text": "0",
+        "qualified_followers_count": 1,
+        "qualified_followers_text": "1",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -24568,8 +24584,8 @@
         ],
         "x_name": "长驱直入",
         "promo_name": "长驱直入",
-        "followers_count": 0,
-        "followers_text": "0",
+        "followers_count": 1,
+        "followers_text": "1",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -24592,6 +24608,22 @@
           {
             "source": "profile_v2",
             "count": 0
+          },
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
           }
         ],
         "check_followers_count": 0,
@@ -24670,8 +24702,8 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 0,
-        "qualified_followers_text": "0",
+        "qualified_followers_count": 1,
+        "qualified_followers_text": "1",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

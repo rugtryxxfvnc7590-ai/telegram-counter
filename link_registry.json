@@ -6374,6 +6374,440 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格"
+      },
+      "25_nagisa": {
+        "x_handle": "25_nagisa",
+        "check_handle": "lazypigy850",
+        "dual_link": true,
+        "promo_handle": "25_nagisa",
+        "tg_username": "lazypiggy001",
+        "tg_user_id": 7745875882,
+        "tg_name": "LazyPiggy懶懶豬(定制下单请私信💕)",
+        "link": "推这个↓\nhttps://x.com/25_nagisa/status/2096030834088435991?s=46\n\n这个转↓\nhttps://x.com/lazypigy850",
+        "message_text": "推这个↓\nhttps://x.com/25_nagisa/status/2096030834088435991?s=46\n\n这个转↓\nhttps://x.com/lazypigy850",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/25_nagisa/status/2096030834088435991?s=46",
+            "handle": "25_nagisa",
+            "post_id": "2096030834088435991",
+            "role": "promo",
+            "author_name": "蕾伊贝",
+            "followers_count": 1,
+            "followers_text": "1",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1
+              },
+              {
+                "source": "status_legacy",
+                "count": 1
+              },
+              {
+                "source": "profile_v2",
+                "count": 1
+              }
+            ],
+            "tweet_text": "這樣真的很難忍住不🐍喔\n看吧 白白的塗滿腳了\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 58,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/lazypigy850",
+            "handle": "lazypigy850",
+            "post_id": "",
+            "role": "check",
+            "author_name": "草莓仔🍓",
+            "followers_count": 9823,
+            "followers_text": "9.8K",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 9823
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/25_nagisa/status/2096030834088435991?s=46",
+            "post_id": "2096030834088435991",
+            "handle": "25_nagisa",
+            "source_time": "2026-09-05 08:24:27",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "蕾伊贝",
+        "promo_name": "蕾伊贝",
+        "followers_count": 1,
+        "followers_text": "1",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
+          }
+        ],
+        "check_followers_count": 9823,
+        "check_followers_text": "9.8K",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 9823
+          }
+        ],
+        "tweet_text": "這樣真的很難忍住不🐍喔\n看吧 白白的塗滿腳了\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 58,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/25_nagisa/status/2096030834088435991?s=46",
+        "check_url": "https://x.com/lazypigy850",
+        "promo_post_id": "2096030834088435991",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 1493,
+        "time": "2026-09-05 08:24:27",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 9823,
+        "qualified_followers_text": "9.8K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "lazypigy850": {
+        "x_handle": "lazypigy850",
+        "check_handle": "lazypigy850",
+        "dual_link": true,
+        "promo_handle": "25_nagisa",
+        "tg_username": "lazypiggy001",
+        "tg_user_id": 7745875882,
+        "tg_name": "LazyPiggy懶懶豬(定制下单请私信💕)",
+        "link": "推这个↓\nhttps://x.com/25_nagisa/status/2096030834088435991?s=46\n\n这个转↓\nhttps://x.com/lazypigy850",
+        "message_text": "推这个↓\nhttps://x.com/25_nagisa/status/2096030834088435991?s=46\n\n这个转↓\nhttps://x.com/lazypigy850",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/25_nagisa/status/2096030834088435991?s=46",
+            "handle": "25_nagisa",
+            "post_id": "2096030834088435991",
+            "role": "promo",
+            "author_name": "蕾伊贝",
+            "followers_count": 1,
+            "followers_text": "1",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1
+              },
+              {
+                "source": "status_legacy",
+                "count": 1
+              },
+              {
+                "source": "profile_v2",
+                "count": 1
+              }
+            ],
+            "tweet_text": "這樣真的很難忍住不🐍喔\n看吧 白白的塗滿腳了\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 58,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/lazypigy850",
+            "handle": "lazypigy850",
+            "post_id": "",
+            "role": "check",
+            "author_name": "草莓仔🍓",
+            "followers_count": 9823,
+            "followers_text": "9.8K",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 9823
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/25_nagisa/status/2096030834088435991?s=46",
+            "post_id": "2096030834088435991",
+            "handle": "25_nagisa",
+            "source_time": "2026-09-05 08:24:27",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "蕾伊贝",
+        "promo_name": "蕾伊贝",
+        "followers_count": 1,
+        "followers_text": "1",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
+          }
+        ],
+        "check_followers_count": 9823,
+        "check_followers_text": "9.8K",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 9823
+          }
+        ],
+        "tweet_text": "這樣真的很難忍住不🐍喔\n看吧 白白的塗滿腳了\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 58,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/25_nagisa/status/2096030834088435991?s=46",
+        "check_url": "https://x.com/lazypigy850",
+        "promo_post_id": "2096030834088435991",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 1493,
+        "time": "2026-09-05 08:24:27",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 9823,
+        "qualified_followers_text": "9.8K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
       }
     }
   },
@@ -12538,6 +12972,223 @@
         "followers_min": 0,
         "qualified_followers_count": 1154,
         "qualified_followers_text": "1.1K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2096030834088435991": {
+        "x_handle": "25_nagisa",
+        "check_handle": "lazypigy850",
+        "dual_link": true,
+        "promo_handle": "25_nagisa",
+        "tg_username": "lazypiggy001",
+        "tg_user_id": 7745875882,
+        "tg_name": "LazyPiggy懶懶豬(定制下单请私信💕)",
+        "link": "推这个↓\nhttps://x.com/25_nagisa/status/2096030834088435991?s=46\n\n这个转↓\nhttps://x.com/lazypigy850",
+        "message_text": "推这个↓\nhttps://x.com/25_nagisa/status/2096030834088435991?s=46\n\n这个转↓\nhttps://x.com/lazypigy850",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/25_nagisa/status/2096030834088435991?s=46",
+            "handle": "25_nagisa",
+            "post_id": "2096030834088435991",
+            "role": "promo",
+            "author_name": "蕾伊贝",
+            "followers_count": 1,
+            "followers_text": "1",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1
+              },
+              {
+                "source": "status_legacy",
+                "count": 1
+              },
+              {
+                "source": "profile_v2",
+                "count": 1
+              }
+            ],
+            "tweet_text": "這樣真的很難忍住不🐍喔\n看吧 白白的塗滿腳了\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 58,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 58,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/lazypigy850",
+            "handle": "lazypigy850",
+            "post_id": "",
+            "role": "check",
+            "author_name": "草莓仔🍓",
+            "followers_count": 9823,
+            "followers_text": "9.8K",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 9823
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/25_nagisa/status/2096030834088435991?s=46",
+            "post_id": "2096030834088435991",
+            "handle": "25_nagisa",
+            "source_time": "2026-09-05 08:24:27",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "蕾伊贝",
+        "promo_name": "蕾伊贝",
+        "followers_count": 1,
+        "followers_text": "1",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
+          }
+        ],
+        "check_followers_count": 9823,
+        "check_followers_text": "9.8K",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 9823
+          }
+        ],
+        "tweet_text": "這樣真的很難忍住不🐍喔\n看吧 白白的塗滿腳了\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 58,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 58,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/25_nagisa/status/2096030834088435991?s=46",
+        "check_url": "https://x.com/lazypigy850",
+        "promo_post_id": "2096030834088435991",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 1493,
+        "time": "2026-09-05 08:24:27",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 9823,
+        "qualified_followers_text": "9.8K",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

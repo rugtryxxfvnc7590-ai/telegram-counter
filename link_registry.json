@@ -6470,6 +6470,648 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格"
+      },
+      "sweetyou02": {
+        "x_handle": "sweetyou02",
+        "check_handle": "sweetyou02",
+        "dual_link": false,
+        "promo_handle": "sweetyou02",
+        "tg_username": "catdog851",
+        "tg_user_id": 5452100710,
+        "tg_name": "葡萄 吃不饱",
+        "link": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+        "message_text": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+            "handle": "sweetyou02",
+            "post_id": "2095884833218261137",
+            "role": "promo",
+            "author_name": "欧尼太太",
+            "followers_count": 3569,
+            "followers_text": "3.5K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 3569
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 3569
+              },
+              {
+                "source": "status_legacy",
+                "count": 3569
+              },
+              {
+                "source": "profile_v2",
+                "count": 3569
+              }
+            ],
+            "tweet_text": "背着老公偷偷跑出来挨操🥵🥵\n\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 47,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+            "post_id": "2095884833218261137",
+            "handle": "sweetyou02",
+            "source_time": "2026-09-07 01:20:52",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "欧尼太太",
+        "promo_name": "欧尼太太",
+        "followers_count": 3569,
+        "followers_text": "3.5K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3569
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3569
+          },
+          {
+            "source": "status_legacy",
+            "count": 3569
+          },
+          {
+            "source": "profile_v2",
+            "count": 3569
+          }
+        ],
+        "check_followers_count": 3569,
+        "check_followers_text": "3.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3569
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3569
+          },
+          {
+            "source": "status_legacy",
+            "count": 3569
+          },
+          {
+            "source": "profile_v2",
+            "count": 3569
+          }
+        ],
+        "tweet_text": "背着老公偷偷跑出来挨操🥵🥵\n\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 47,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+        "check_url": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+        "promo_post_id": "2095884833218261137",
+        "check_post_id": "2095884833218261137",
+        "chat_id": "-1003739822194",
+        "message_id": 1572,
+        "time": "2026-09-07 01:20:52",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 3569,
+        "qualified_followers_text": "3.5K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "xiaoyi3359": {
+        "x_handle": "xiaoyi3359",
+        "check_handle": "xyiyi66",
+        "dual_link": true,
+        "promo_handle": "xiaoyi3359",
+        "tg_username": "xiaoyiyi96",
+        "tg_user_id": 6711450768,
+        "tg_name": "小姨 在线一对一",
+        "link": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "message_text": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20",
+            "handle": "xiaoyi3359",
+            "post_id": "2095392858819674609",
+            "role": "promo",
+            "author_name": "小姨接在线",
+            "followers_count": 7911,
+            "followers_text": "7.9K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 7911
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 7911
+              },
+              {
+                "source": "status_legacy",
+                "count": 7911
+              },
+              {
+                "source": "profile_v2",
+                "count": 7911
+              }
+            ],
+            "tweet_text": "好不容易来完大姨妈现在又轮到排卵期了 大腿根都是湿的，下辈子我一定当个男的 长个几把方便多了操。\n@ToBulaer\n@KawasawaSen\n@ToBuerma",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 81,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/xyiyi66",
+            "handle": "xyiyi66",
+            "post_id": "",
+            "role": "check",
+            "author_name": "小姨•在线一对一",
+            "followers_count": 20803,
+            "followers_text": "2W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 20803
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20",
+            "post_id": "2095392858819674609",
+            "handle": "xiaoyi3359",
+            "source_time": "2026-09-07 01:24:19",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小姨接在线",
+        "promo_name": "小姨接在线",
+        "followers_count": 7911,
+        "followers_text": "7.9K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7911
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7911
+          },
+          {
+            "source": "status_legacy",
+            "count": 7911
+          },
+          {
+            "source": "profile_v2",
+            "count": 7911
+          }
+        ],
+        "check_followers_count": 20803,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 20803
+          }
+        ],
+        "tweet_text": "好不容易来完大姨妈现在又轮到排卵期了 大腿根都是湿的，下辈子我一定当个男的 长个几把方便多了操。\n@ToBulaer\n@KawasawaSen\n@ToBuerma",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 81,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20",
+        "check_url": "https://x.com/xyiyi66",
+        "promo_post_id": "2095392858819674609",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 1573,
+        "time": "2026-09-07 01:24:19",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 20803,
+        "qualified_followers_text": "2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "xyiyi66": {
+        "x_handle": "xyiyi66",
+        "check_handle": "xyiyi66",
+        "dual_link": true,
+        "promo_handle": "xiaoyi3359",
+        "tg_username": "xiaoyiyi96",
+        "tg_user_id": 6711450768,
+        "tg_name": "小姨 在线一对一",
+        "link": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "message_text": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20",
+            "handle": "xiaoyi3359",
+            "post_id": "2095392858819674609",
+            "role": "promo",
+            "author_name": "小姨接在线",
+            "followers_count": 7911,
+            "followers_text": "7.9K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 7911
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 7911
+              },
+              {
+                "source": "status_legacy",
+                "count": 7911
+              },
+              {
+                "source": "profile_v2",
+                "count": 7911
+              }
+            ],
+            "tweet_text": "好不容易来完大姨妈现在又轮到排卵期了 大腿根都是湿的，下辈子我一定当个男的 长个几把方便多了操。\n@ToBulaer\n@KawasawaSen\n@ToBuerma",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 81,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/xyiyi66",
+            "handle": "xyiyi66",
+            "post_id": "",
+            "role": "check",
+            "author_name": "小姨•在线一对一",
+            "followers_count": 20803,
+            "followers_text": "2W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 20803
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20",
+            "post_id": "2095392858819674609",
+            "handle": "xiaoyi3359",
+            "source_time": "2026-09-07 01:24:19",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小姨接在线",
+        "promo_name": "小姨接在线",
+        "followers_count": 7911,
+        "followers_text": "7.9K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7911
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7911
+          },
+          {
+            "source": "status_legacy",
+            "count": 7911
+          },
+          {
+            "source": "profile_v2",
+            "count": 7911
+          }
+        ],
+        "check_followers_count": 20803,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 20803
+          }
+        ],
+        "tweet_text": "好不容易来完大姨妈现在又轮到排卵期了 大腿根都是湿的，下辈子我一定当个男的 长个几把方便多了操。\n@ToBulaer\n@KawasawaSen\n@ToBuerma",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 81,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20",
+        "check_url": "https://x.com/xyiyi66",
+        "promo_post_id": "2095392858819674609",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 1573,
+        "time": "2026-09-07 01:24:19",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 20803,
+        "qualified_followers_text": "2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
       }
     }
   },
@@ -12718,6 +13360,431 @@
         "followers_min": 0,
         "qualified_followers_count": 1618,
         "qualified_followers_text": "1.6K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2095884833218261137": {
+        "x_handle": "sweetyou02",
+        "check_handle": "sweetyou02",
+        "dual_link": false,
+        "promo_handle": "sweetyou02",
+        "tg_username": "catdog851",
+        "tg_user_id": 5452100710,
+        "tg_name": "葡萄 吃不饱",
+        "link": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+        "message_text": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+            "handle": "sweetyou02",
+            "post_id": "2095884833218261137",
+            "role": "promo",
+            "author_name": "欧尼太太",
+            "followers_count": 3569,
+            "followers_text": "3.5K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 3569
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 3569
+              },
+              {
+                "source": "status_legacy",
+                "count": 3569
+              },
+              {
+                "source": "profile_v2",
+                "count": 3569
+              }
+            ],
+            "tweet_text": "背着老公偷偷跑出来挨操🥵🥵\n\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 47,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+            "post_id": "2095884833218261137",
+            "handle": "sweetyou02",
+            "source_time": "2026-09-07 01:20:52",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "欧尼太太",
+        "promo_name": "欧尼太太",
+        "followers_count": 3569,
+        "followers_text": "3.5K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3569
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3569
+          },
+          {
+            "source": "status_legacy",
+            "count": 3569
+          },
+          {
+            "source": "profile_v2",
+            "count": 3569
+          }
+        ],
+        "check_followers_count": 3569,
+        "check_followers_text": "3.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3569
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3569
+          },
+          {
+            "source": "status_legacy",
+            "count": 3569
+          },
+          {
+            "source": "profile_v2",
+            "count": 3569
+          }
+        ],
+        "tweet_text": "背着老公偷偷跑出来挨操🥵🥵\n\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 47,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+        "check_url": "https://x.com/sweetyou02/status/2095884833218261137?s=46",
+        "promo_post_id": "2095884833218261137",
+        "check_post_id": "2095884833218261137",
+        "chat_id": "-1003739822194",
+        "message_id": 1572,
+        "time": "2026-09-07 01:20:52",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 3569,
+        "qualified_followers_text": "3.5K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2095392858819674609": {
+        "x_handle": "xiaoyi3359",
+        "check_handle": "xyiyi66",
+        "dual_link": true,
+        "promo_handle": "xiaoyi3359",
+        "tg_username": "xiaoyiyi96",
+        "tg_user_id": 6711450768,
+        "tg_name": "小姨 在线一对一",
+        "link": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "message_text": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20",
+            "handle": "xiaoyi3359",
+            "post_id": "2095392858819674609",
+            "role": "promo",
+            "author_name": "小姨接在线",
+            "followers_count": 7911,
+            "followers_text": "7.9K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 7911
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 7911
+              },
+              {
+                "source": "status_legacy",
+                "count": 7911
+              },
+              {
+                "source": "profile_v2",
+                "count": 7911
+              }
+            ],
+            "tweet_text": "好不容易来完大姨妈现在又轮到排卵期了 大腿根都是湿的，下辈子我一定当个男的 长个几把方便多了操。\n@ToBulaer\n@KawasawaSen\n@ToBuerma",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 81,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 81,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/xyiyi66",
+            "handle": "xyiyi66",
+            "post_id": "",
+            "role": "check",
+            "author_name": "小姨•在线一对一",
+            "followers_count": 20803,
+            "followers_text": "2W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 20803
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20",
+            "post_id": "2095392858819674609",
+            "handle": "xiaoyi3359",
+            "source_time": "2026-09-07 01:24:19",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小姨接在线",
+        "promo_name": "小姨接在线",
+        "followers_count": 7911,
+        "followers_text": "7.9K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7911
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7911
+          },
+          {
+            "source": "status_legacy",
+            "count": 7911
+          },
+          {
+            "source": "profile_v2",
+            "count": 7911
+          }
+        ],
+        "check_followers_count": 20803,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 20803
+          }
+        ],
+        "tweet_text": "好不容易来完大姨妈现在又轮到排卵期了 大腿根都是湿的，下辈子我一定当个男的 长个几把方便多了操。\n@ToBulaer\n@KawasawaSen\n@ToBuerma",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 81,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 81,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaoyi3359/status/2095392858819674609?s=20",
+        "check_url": "https://x.com/xyiyi66",
+        "promo_post_id": "2095392858819674609",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 1573,
+        "time": "2026-09-07 01:24:19",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 20803,
+        "qualified_followers_text": "2W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

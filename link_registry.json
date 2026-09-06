@@ -8540,6 +8540,630 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格"
+      },
+      "bo13581": {
+        "x_handle": "bo13581",
+        "check_handle": "bo13581",
+        "dual_link": false,
+        "promo_handle": "bo13581",
+        "tg_username": "kaia6252",
+        "tg_user_id": 7628179593,
+        "tg_name": "诸葛不打野",
+        "link": "https://x.com/bo13581/status/2096415717939962122?s=46",
+        "message_text": "https://x.com/bo13581/status/2096415717939962122?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/bo13581/status/2096415717939962122?s=46",
+            "handle": "bo13581",
+            "post_id": "2096415717939962122",
+            "role": "promo",
+            "author_name": "波波软了",
+            "followers_count": 67,
+            "followers_text": "67",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 67
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 67
+              },
+              {
+                "source": "status_legacy",
+                "count": 67
+              },
+              {
+                "source": "profile_v2",
+                "count": 67
+              }
+            ],
+            "tweet_text": "早上总要喝点什么吧 喝🍼可以吗？                                                     @ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 102,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 102,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 102,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 102,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 102,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/bo13581/status/2096415717939962122?s=46",
+            "post_id": "2096415717939962122",
+            "handle": "bo13581",
+            "source_time": "2026-09-06 10:19:59",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "波波软了",
+        "promo_name": "波波软了",
+        "followers_count": 67,
+        "followers_text": "67",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 67
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 67
+          },
+          {
+            "source": "status_legacy",
+            "count": 67
+          },
+          {
+            "source": "profile_v2",
+            "count": 67
+          }
+        ],
+        "check_followers_count": 67,
+        "check_followers_text": "67",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 67
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 67
+          },
+          {
+            "source": "status_legacy",
+            "count": 67
+          },
+          {
+            "source": "profile_v2",
+            "count": 67
+          }
+        ],
+        "tweet_text": "早上总要喝点什么吧 喝🍼可以吗？                                                     @ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 102,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 102,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 102,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 102,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 102,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/bo13581/status/2096415717939962122?s=46",
+        "check_url": "https://x.com/bo13581/status/2096415717939962122?s=46",
+        "promo_post_id": "2096415717939962122",
+        "check_post_id": "2096415717939962122",
+        "chat_id": "-1003739822194",
+        "message_id": 1535,
+        "time": "2026-09-06 10:19:59",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 67,
+        "qualified_followers_text": "67",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "webslinger739": {
+        "x_handle": "webslinger739",
+        "check_handle": "webslinger739",
+        "dual_link": false,
+        "promo_handle": "webslinger739",
+        "tg_username": "xye918",
+        "tg_user_id": 1129654552,
+        "tg_name": "小鱼",
+        "link": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+        "message_text": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+            "handle": "webslinger739",
+            "post_id": "2095758465511919908",
+            "role": "promo",
+            "author_name": "大猩猩",
+            "followers_count": 16112,
+            "followers_text": "1.6W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 16112
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 16112
+              },
+              {
+                "source": "status_legacy",
+                "count": 16112
+              },
+              {
+                "source": "profile_v2",
+                "count": 16112
+              }
+            ],
+            "tweet_text": "https://NFBusty.24.12.31.Octavia.Red 与前女友跨年\n【出演女优】：https://Octavia.Red\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 104,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 104,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 104,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 104,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 104,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+            "post_id": "2095758465511919908",
+            "handle": "webslinger739",
+            "source_time": "2026-09-06 10:27:38",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "大猩猩",
+        "promo_name": "大猩猩",
+        "followers_count": 16112,
+        "followers_text": "1.6W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 16112
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 16112
+          },
+          {
+            "source": "status_legacy",
+            "count": 16112
+          },
+          {
+            "source": "profile_v2",
+            "count": 16112
+          }
+        ],
+        "check_followers_count": 16112,
+        "check_followers_text": "1.6W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 16112
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 16112
+          },
+          {
+            "source": "status_legacy",
+            "count": 16112
+          },
+          {
+            "source": "profile_v2",
+            "count": 16112
+          }
+        ],
+        "tweet_text": "https://NFBusty.24.12.31.Octavia.Red 与前女友跨年\n【出演女优】：https://Octavia.Red\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 104,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 104,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 104,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 104,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 104,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+        "check_url": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+        "promo_post_id": "2095758465511919908",
+        "check_post_id": "2095758465511919908",
+        "chat_id": "-1003739822194",
+        "message_id": 1536,
+        "time": "2026-09-06 10:27:38",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 16112,
+        "qualified_followers_text": "1.6W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "shs0211": {
+        "x_handle": "shs0211",
+        "check_handle": "shs0211",
+        "dual_link": false,
+        "promo_handle": "shs0211",
+        "tg_username": "xye918",
+        "tg_user_id": 1129654552,
+        "tg_name": "小鱼",
+        "link": "https://x.com/shs0211/status/2095756514225189363?s=20",
+        "message_text": "https://x.com/shs0211/status/2095756514225189363?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/shs0211/status/2095756514225189363?s=20",
+            "handle": "shs0211",
+            "post_id": "2095756514225189363",
+            "role": "promo",
+            "author_name": "樱木",
+            "followers_count": 10046,
+            "followers_text": "1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 10046
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 10046
+              },
+              {
+                "source": "status_legacy",
+                "count": 10046
+              },
+              {
+                "source": "profile_v2",
+                "count": 10046
+              }
+            ],
+            "tweet_text": "全脸出镜 无法斩断执念的纠缠男人末路 忘不掉拥有迷人F罩杯巨乳身材的她 再次内射 这本该是至福的时光却终将迎来终结\n【出演女优】：石川祐奈\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 103,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 103,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 103,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 103,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 103,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/shs0211/status/2095756514225189363?s=20",
+            "post_id": "2095756514225189363",
+            "handle": "shs0211",
+            "source_time": "2026-09-06 10:28:27",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "樱木",
+        "promo_name": "樱木",
+        "followers_count": 10046,
+        "followers_text": "1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10046
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10046
+          },
+          {
+            "source": "status_legacy",
+            "count": 10046
+          },
+          {
+            "source": "profile_v2",
+            "count": 10046
+          }
+        ],
+        "check_followers_count": 10046,
+        "check_followers_text": "1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10046
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10046
+          },
+          {
+            "source": "status_legacy",
+            "count": 10046
+          },
+          {
+            "source": "profile_v2",
+            "count": 10046
+          }
+        ],
+        "tweet_text": "全脸出镜 无法斩断执念的纠缠男人末路 忘不掉拥有迷人F罩杯巨乳身材的她 再次内射 这本该是至福的时光却终将迎来终结\n【出演女优】：石川祐奈\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 103,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 103,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 103,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 103,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 103,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/shs0211/status/2095756514225189363?s=20",
+        "check_url": "https://x.com/shs0211/status/2095756514225189363?s=20",
+        "promo_post_id": "2095756514225189363",
+        "check_post_id": "2095756514225189363",
+        "chat_id": "-1003739822194",
+        "message_id": 1537,
+        "time": "2026-09-06 10:28:27",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 10046,
+        "qualified_followers_text": "1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
       }
     }
   },
@@ -17075,6 +17699,630 @@
         "followers_min": 0,
         "qualified_followers_count": 473,
         "qualified_followers_text": "473",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2096415717939962122": {
+        "x_handle": "bo13581",
+        "check_handle": "bo13581",
+        "dual_link": false,
+        "promo_handle": "bo13581",
+        "tg_username": "kaia6252",
+        "tg_user_id": 7628179593,
+        "tg_name": "诸葛不打野",
+        "link": "https://x.com/bo13581/status/2096415717939962122?s=46",
+        "message_text": "https://x.com/bo13581/status/2096415717939962122?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/bo13581/status/2096415717939962122?s=46",
+            "handle": "bo13581",
+            "post_id": "2096415717939962122",
+            "role": "promo",
+            "author_name": "波波软了",
+            "followers_count": 67,
+            "followers_text": "67",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 67
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 67
+              },
+              {
+                "source": "status_legacy",
+                "count": 67
+              },
+              {
+                "source": "profile_v2",
+                "count": 67
+              }
+            ],
+            "tweet_text": "早上总要喝点什么吧 喝🍼可以吗？                                                     @ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 102,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 102,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 102,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 102,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 102,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/bo13581/status/2096415717939962122?s=46",
+            "post_id": "2096415717939962122",
+            "handle": "bo13581",
+            "source_time": "2026-09-06 10:19:59",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "波波软了",
+        "promo_name": "波波软了",
+        "followers_count": 67,
+        "followers_text": "67",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 67
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 67
+          },
+          {
+            "source": "status_legacy",
+            "count": 67
+          },
+          {
+            "source": "profile_v2",
+            "count": 67
+          }
+        ],
+        "check_followers_count": 67,
+        "check_followers_text": "67",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 67
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 67
+          },
+          {
+            "source": "status_legacy",
+            "count": 67
+          },
+          {
+            "source": "profile_v2",
+            "count": 67
+          }
+        ],
+        "tweet_text": "早上总要喝点什么吧 喝🍼可以吗？                                                     @ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 102,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 102,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 102,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 102,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 102,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/bo13581/status/2096415717939962122?s=46",
+        "check_url": "https://x.com/bo13581/status/2096415717939962122?s=46",
+        "promo_post_id": "2096415717939962122",
+        "check_post_id": "2096415717939962122",
+        "chat_id": "-1003739822194",
+        "message_id": 1535,
+        "time": "2026-09-06 10:19:59",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 67,
+        "qualified_followers_text": "67",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2095758465511919908": {
+        "x_handle": "webslinger739",
+        "check_handle": "webslinger739",
+        "dual_link": false,
+        "promo_handle": "webslinger739",
+        "tg_username": "xye918",
+        "tg_user_id": 1129654552,
+        "tg_name": "小鱼",
+        "link": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+        "message_text": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+            "handle": "webslinger739",
+            "post_id": "2095758465511919908",
+            "role": "promo",
+            "author_name": "大猩猩",
+            "followers_count": 16112,
+            "followers_text": "1.6W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 16112
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 16112
+              },
+              {
+                "source": "status_legacy",
+                "count": 16112
+              },
+              {
+                "source": "profile_v2",
+                "count": 16112
+              }
+            ],
+            "tweet_text": "https://NFBusty.24.12.31.Octavia.Red 与前女友跨年\n【出演女优】：https://Octavia.Red\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 104,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 104,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 104,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 104,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 104,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+            "post_id": "2095758465511919908",
+            "handle": "webslinger739",
+            "source_time": "2026-09-06 10:27:38",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "大猩猩",
+        "promo_name": "大猩猩",
+        "followers_count": 16112,
+        "followers_text": "1.6W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 16112
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 16112
+          },
+          {
+            "source": "status_legacy",
+            "count": 16112
+          },
+          {
+            "source": "profile_v2",
+            "count": 16112
+          }
+        ],
+        "check_followers_count": 16112,
+        "check_followers_text": "1.6W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 16112
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 16112
+          },
+          {
+            "source": "status_legacy",
+            "count": 16112
+          },
+          {
+            "source": "profile_v2",
+            "count": 16112
+          }
+        ],
+        "tweet_text": "https://NFBusty.24.12.31.Octavia.Red 与前女友跨年\n【出演女优】：https://Octavia.Red\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 104,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 104,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 104,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 104,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 104,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+        "check_url": "https://x.com/webslinger739/status/2095758465511919908?s=20",
+        "promo_post_id": "2095758465511919908",
+        "check_post_id": "2095758465511919908",
+        "chat_id": "-1003739822194",
+        "message_id": 1536,
+        "time": "2026-09-06 10:27:38",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 16112,
+        "qualified_followers_text": "1.6W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2095756514225189363": {
+        "x_handle": "shs0211",
+        "check_handle": "shs0211",
+        "dual_link": false,
+        "promo_handle": "shs0211",
+        "tg_username": "xye918",
+        "tg_user_id": 1129654552,
+        "tg_name": "小鱼",
+        "link": "https://x.com/shs0211/status/2095756514225189363?s=20",
+        "message_text": "https://x.com/shs0211/status/2095756514225189363?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/shs0211/status/2095756514225189363?s=20",
+            "handle": "shs0211",
+            "post_id": "2095756514225189363",
+            "role": "promo",
+            "author_name": "樱木",
+            "followers_count": 10046,
+            "followers_text": "1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 10046
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 10046
+              },
+              {
+                "source": "status_legacy",
+                "count": 10046
+              },
+              {
+                "source": "profile_v2",
+                "count": 10046
+              }
+            ],
+            "tweet_text": "全脸出镜 无法斩断执念的纠缠男人末路 忘不掉拥有迷人F罩杯巨乳身材的她 再次内射 这本该是至福的时光却终将迎来终结\n【出演女优】：石川祐奈\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 103,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 103,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 103,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 103,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 103,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/shs0211/status/2095756514225189363?s=20",
+            "post_id": "2095756514225189363",
+            "handle": "shs0211",
+            "source_time": "2026-09-06 10:28:27",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "樱木",
+        "promo_name": "樱木",
+        "followers_count": 10046,
+        "followers_text": "1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10046
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10046
+          },
+          {
+            "source": "status_legacy",
+            "count": 10046
+          },
+          {
+            "source": "profile_v2",
+            "count": 10046
+          }
+        ],
+        "check_followers_count": 10046,
+        "check_followers_text": "1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10046
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10046
+          },
+          {
+            "source": "status_legacy",
+            "count": 10046
+          },
+          {
+            "source": "profile_v2",
+            "count": 10046
+          }
+        ],
+        "tweet_text": "全脸出镜 无法斩断执念的纠缠男人末路 忘不掉拥有迷人F罩杯巨乳身材的她 再次内射 这本该是至福的时光却终将迎来终结\n【出演女优】：石川祐奈\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 103,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 103,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 103,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 103,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 103,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/shs0211/status/2095756514225189363?s=20",
+        "check_url": "https://x.com/shs0211/status/2095756514225189363?s=20",
+        "promo_post_id": "2095756514225189363",
+        "check_post_id": "2095756514225189363",
+        "chat_id": "-1003739822194",
+        "message_id": 1537,
+        "time": "2026-09-06 10:28:27",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 10046,
+        "qualified_followers_text": "1W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

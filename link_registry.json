@@ -12198,8 +12198,8 @@
         ],
         "x_name": "tank小猫",
         "promo_name": "tank小猫",
-        "followers_count": 0,
-        "followers_text": "0",
+        "followers_count": 1,
+        "followers_text": "1",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -12222,6 +12222,22 @@
           {
             "source": "profile_v2",
             "count": 0
+          },
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
           }
         ],
         "check_followers_count": 0,
@@ -12300,8 +12316,216 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 0,
-        "qualified_followers_text": "0",
+        "qualified_followers_count": 1,
+        "qualified_followers_text": "1",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "xinzhxinju1": {
+        "x_handle": "xinzhxinju1",
+        "check_handle": "xinzhxinju1",
+        "dual_link": false,
+        "promo_handle": "xinzhxinju1",
+        "tg_username": "Xinzhxinju1",
+        "tg_user_id": 8008858318,
+        "tg_name": "先知 先觉",
+        "link": "https://x.com/xinzhxinju1/status/2095844335300530395",
+        "message_text": "https://x.com/xinzhxinju1/status/2095844335300530395",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xinzhxinju1/status/2095844335300530395",
+            "handle": "xinzhxinju1",
+            "post_id": "2095844335300530395",
+            "role": "promo",
+            "author_name": "先知先觉",
+            "followers_count": 9536,
+            "followers_text": "9.5K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 9536
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 9536
+              },
+              {
+                "source": "status_legacy",
+                "count": 9536
+              },
+              {
+                "source": "profile_v2",
+                "count": 9536
+              }
+            ],
+            "tweet_text": "来了来了，视频来了，9月的第一场TJ强度已经这么高了，以后还要怎么搞哦，JJ已经废了，魔丸不知道还能顶多久\n原声无BGM+更多细节版在这里哦→https://t.me/xinzhxinju1bot\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 131,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 131,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 131,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 131,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 131,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xinzhxinju1/status/2095844335300530395",
+            "post_id": "2095844335300530395",
+            "handle": "xinzhxinju1",
+            "source_time": "2026-09-06 17:15:42",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "先知先觉",
+        "promo_name": "先知先觉",
+        "followers_count": 9536,
+        "followers_text": "9.5K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 9536
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9536
+          },
+          {
+            "source": "status_legacy",
+            "count": 9536
+          },
+          {
+            "source": "profile_v2",
+            "count": 9536
+          }
+        ],
+        "check_followers_count": 9536,
+        "check_followers_text": "9.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 9536
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9536
+          },
+          {
+            "source": "status_legacy",
+            "count": 9536
+          },
+          {
+            "source": "profile_v2",
+            "count": 9536
+          }
+        ],
+        "tweet_text": "来了来了，视频来了，9月的第一场TJ强度已经这么高了，以后还要怎么搞哦，JJ已经废了，魔丸不知道还能顶多久\n原声无BGM+更多细节版在这里哦→https://t.me/xinzhxinju1bot\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 131,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 131,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 131,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 131,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 131,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xinzhxinju1/status/2095844335300530395",
+        "check_url": "https://x.com/xinzhxinju1/status/2095844335300530395",
+        "promo_post_id": "2095844335300530395",
+        "check_post_id": "2095844335300530395",
+        "chat_id": "-1003739822194",
+        "message_id": 1550,
+        "time": "2026-09-06 17:15:42",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 9536,
+        "qualified_followers_text": "9.5K",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -24294,8 +24518,8 @@
         ],
         "x_name": "tank小猫",
         "promo_name": "tank小猫",
-        "followers_count": 0,
-        "followers_text": "0",
+        "followers_count": 1,
+        "followers_text": "1",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -24318,6 +24542,22 @@
           {
             "source": "profile_v2",
             "count": 0
+          },
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
           }
         ],
         "check_followers_count": 0,
@@ -24396,8 +24636,216 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 0,
-        "qualified_followers_text": "0",
+        "qualified_followers_count": 1,
+        "qualified_followers_text": "1",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格"
+      },
+      "2095844335300530395": {
+        "x_handle": "xinzhxinju1",
+        "check_handle": "xinzhxinju1",
+        "dual_link": false,
+        "promo_handle": "xinzhxinju1",
+        "tg_username": "Xinzhxinju1",
+        "tg_user_id": 8008858318,
+        "tg_name": "先知 先觉",
+        "link": "https://x.com/xinzhxinju1/status/2095844335300530395",
+        "message_text": "https://x.com/xinzhxinju1/status/2095844335300530395",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xinzhxinju1/status/2095844335300530395",
+            "handle": "xinzhxinju1",
+            "post_id": "2095844335300530395",
+            "role": "promo",
+            "author_name": "先知先觉",
+            "followers_count": 9536,
+            "followers_text": "9.5K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 9536
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 9536
+              },
+              {
+                "source": "status_legacy",
+                "count": 9536
+              },
+              {
+                "source": "profile_v2",
+                "count": 9536
+              }
+            ],
+            "tweet_text": "来了来了，视频来了，9月的第一场TJ强度已经这么高了，以后还要怎么搞哦，JJ已经废了，魔丸不知道还能顶多久\n原声无BGM+更多细节版在这里哦→https://t.me/xinzhxinju1bot\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 131,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 131,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 131,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 131,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 131,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xinzhxinju1/status/2095844335300530395",
+            "post_id": "2095844335300530395",
+            "handle": "xinzhxinju1",
+            "source_time": "2026-09-06 17:15:42",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "先知先觉",
+        "promo_name": "先知先觉",
+        "followers_count": 9536,
+        "followers_text": "9.5K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 9536
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9536
+          },
+          {
+            "source": "status_legacy",
+            "count": 9536
+          },
+          {
+            "source": "profile_v2",
+            "count": 9536
+          }
+        ],
+        "check_followers_count": 9536,
+        "check_followers_text": "9.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 9536
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9536
+          },
+          {
+            "source": "status_legacy",
+            "count": 9536
+          },
+          {
+            "source": "profile_v2",
+            "count": 9536
+          }
+        ],
+        "tweet_text": "来了来了，视频来了，9月的第一场TJ强度已经这么高了，以后还要怎么搞哦，JJ已经废了，魔丸不知道还能顶多久\n原声无BGM+更多细节版在这里哦→https://t.me/xinzhxinju1bot\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 131,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 131,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 131,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 131,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 131,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xinzhxinju1/status/2095844335300530395",
+        "check_url": "https://x.com/xinzhxinju1/status/2095844335300530395",
+        "promo_post_id": "2095844335300530395",
+        "check_post_id": "2095844335300530395",
+        "chat_id": "-1003739822194",
+        "message_id": 1550,
+        "time": "2026-09-06 17:15:42",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 9536,
+        "qualified_followers_text": "9.5K",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

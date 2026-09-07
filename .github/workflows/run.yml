@@ -58,7 +58,7 @@ jobs:
           TELEGRAM_STRING_SESSION: ${{ secrets.TELEGRAM_STRING_SESSION }}
         run: python sync_deleted_messages.py
 
-      - name: 发送19:00逐群私信名单
+      - name: 处理人数上限回复与满额或19点逐群私信名单
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}

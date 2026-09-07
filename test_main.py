@@ -109,10 +109,12 @@ class LinkParsingTest(unittest.TestCase):
         self.assertIn("-3891628675", ids)
         self.assertIn("-1001111111111", ids)
 
-    def test_group1_limit_reply_is_disabled(self):
-        self.assertFalse(limit_reply_enabled("-1003891628675"))
-        self.assertFalse(limit_reply_enabled("-3891628675"))
+    def test_limit_reply_supports_all_three_groups(self):
+        self.assertTrue(limit_reply_enabled("-1003891628675"))
+        self.assertTrue(limit_reply_enabled("-3891628675"))
         self.assertTrue(limit_reply_enabled("-1003218974409"))
+        self.assertTrue(limit_reply_enabled("-1003739822194"))
+        self.assertFalse(limit_reply_enabled("-1009999999999"))
         self.assertEqual(min_followers_for_chat("-1003891628675"), 100000)
         self.assertEqual(min_followers_for_chat("-1003218974409"), 20000)
         self.assertEqual(min_followers_for_chat("-1003739822194"), 0)

@@ -6,8 +6,11 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from daily_capacity import (
+    admitted_rows, capacity_template, group_for_chat, normalize_daily_limits,
+)
+
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
-MAX_LIMIT = 40
 STATE_FILE = "state.json"
 REGISTRY_FILE = "link_registry.json"
 REGISTRY_HISTORY_DIR = "registry_history"
@@ -35,6 +38,11 @@ DEFAULT_REPLY_RULES = {
         "enabled": True,
         "groups": ["群二", "群三"],
         "text": "🐾 叮当~ 今日互推已满40条，前40名已锁定上车！后面发的会被机器猫记进候选名单，如有空位会优先安排哦，辛苦各位啦~记得看群置顶规则呀！",
+    },
+    "limit_overflow": {
+        "enabled": True,
+        "groups": ["群一", "群二", "群三"],
+        "text": "今日互推已满{limit}条，你的链接已记入候选名单，暂不加入今日正式互推名单。",
     },
     "limit_excess_1": {
         "enabled": True,
@@ -111,8 +119,7 @@ def canonical_group_chat_ids():
 
 
 def limit_reply_enabled(chat_id):
-    """群一只收录链接，不发满 40 条/候选名单提示。"""
-    return str(chat_id).strip() not in expand_chat_id(GROUP_1_CHAT_ID_FALLBACK)
+    return group_for_chat(chat_id) in normalize_daily_limits()
 
 
 def reply_account_check_enabled(chat_id):
@@ -148,7 +155,18 @@ def load_reply_rules(path=None):
         rules[key]["enabled"] = bool(rules[key].get("enabled", True))
         rules[key]["groups"] = [str(group) for group in (rules[key].get("groups") or [])]
         rules[key]["text"] = str(rules[key].get("text") or DEFAULT_REPLY_RULES[key]["text"]).strip()
+    for key, rule in rules.items():
+        if key.startswith("limit_"):
+            rule["text"] = capacity_template(rule["text"])
     return rules
+
+
+def load_daily_limits(path=None):
+    try:
+        data = json.loads(Path(path or REPLY_RULES_FILE).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        data = {}
+    return normalize_daily_limits(data.get("daily_list_limits"))
 
 
 def reply_rule_enabled(rules, key, chat_id):
@@ -243,11 +261,14 @@ def _registry_bucket_for_chat(registry, bucket_name, chat_id):
 
 
 def _single_group_registry(registry, chat_id):
-    return {
+    data = {
         "date": (registry or {}).get("date", ""),
         "entries": _registry_bucket_for_chat(registry, "entries", chat_id),
         "post_entries": _registry_bucket_for_chat(registry, "post_entries", chat_id),
     }
+    if "daily_list_limits" in registry:
+        data["daily_list_limits"] = registry["daily_list_limits"]
+    return data
 
 
 def save_group_registry_exports(registry, base_dir=GROUP_REGISTRY_DIR):
@@ -311,26 +332,11 @@ def _canonical_promo_url(entry):
     return str((entry or {}).get("promo_url") or (entry or {}).get("link") or "").strip()
 
 
-def daily_eligible_links(registry, chat_id):
-    rows = []
-    seen = set()
-    for cid in expand_chat_id(chat_id):
-        bucket = ((registry or {}).get("post_entries") or {}).get(cid) or {}
-        for post_id, entry in bucket.items():
-            entry = entry or {}
-            if str(entry.get("promo_post_id") or "") != str(post_id):
-                continue
-            if entry.get("after_cutoff") or entry.get("mutual_eligible") is not True:
-                continue
-            url = _canonical_promo_url(entry)
-            if not url or url in seen:
-                continue
-            seen.add(url)
-            rows.append((str(entry.get("time") or ""), int(entry.get("message_id") or 0), url))
-    # The 19:00 list is presented newest first: the last accepted Telegram
-    # message is numbered 1 and the first accepted message stays at the bottom.
-    rows.sort(key=lambda item: (item[0], item[1], item[2]), reverse=True)
-    return [item[2] for item in rows]
+def daily_eligible_links(registry, chat_id, limits=None):
+    limits = limits if limits is not None else (registry or {}).get("daily_list_limits") or load_daily_limits()
+    limit = normalize_daily_limits(limits).get(group_for_chat(chat_id), 0)
+    rows, _ = admitted_rows(registry, expand_chat_id(chat_id), limit)
+    return [row["url"] for row in reversed(rows)]
 
 
 def format_daily_list_message(group_label, day, links):
@@ -364,15 +370,13 @@ def _send_private_message(chat_id, text):
     return True, ""
 
 
-def send_daily_lists_to_owner(registry, state, now=None, save_callback=None):
+def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, limits=None):
     now = now or datetime.now(BEIJING)
     if now.tzinfo is None:
         now = now.replace(tzinfo=BEIJING)
     else:
         now = now.astimezone(BEIJING)
-    if not daily_list_send_due(now):
-        print("19:00 私信名单：尚未到发送时间，跳过。")
-        return {}
+    limits = normalize_daily_limits(limits if limits is not None else load_daily_limits())
 
     owner_chat_id = os.getenv(OWNER_CHAT_ID_ENV, "").strip()
     if not owner_chat_id:
@@ -396,11 +400,15 @@ def send_daily_lists_to_owner(registry, state, now=None, save_callback=None):
         if (sent_groups.get(group_label) or {}).get("sent"):
             results[group_label] = "already_sent"
             continue
-        if group_label not in snapshot_groups:
+        if group_label not in snapshot_groups or registry.get("date") != day:
             results[group_label] = "waiting_for_snapshot"
             print(f"19:00 私信名单：{group_label} 今日群消息快照未完成，下一轮先补齐再发送。")
             continue
-        links = daily_eligible_links(registry if registry.get("date") == day else {}, chat_id)
+        links = daily_eligible_links(registry, chat_id, limits=limits)
+        full = bool(limits[group_label]) and len(links) >= limits[group_label]
+        if not full and not daily_list_send_due(now):
+            results[group_label] = "waiting_for_limit_or_cutoff"
+            continue
         message = format_daily_list_message(group_label, day, links)
         if len(message) > 4096:
             results[group_label] = "message_too_long"
@@ -415,6 +423,9 @@ def send_daily_lists_to_owner(registry, state, now=None, save_callback=None):
             "sent": True,
             "sent_at": now.strftime("%Y-%m-%d %H:%M:%S"),
             "count": len(links),
+            "trigger": "capacity_full" if full and not daily_list_send_due(now) else "19:00",
+            "limit": limits[group_label],
+            "links": links,
         }
         if save_callback:
             save_callback()
@@ -1525,41 +1536,6 @@ def main():
                 and reply_rule_enabled(reply_rules, "missing_mentions", actual_chat_id)
             ):
                 reply_to_message_once(grp, actual_chat_id, message_id, "missing_mentions", reply_rule_text(reply_rules, "missing_mentions"), save_callback=lambda: save_state(state))
-            elif limit_reply_enabled(actual_chat_id) and is_new_message and current == MAX_LIMIT and reply_rule_enabled(reply_rules, "limit_full", actual_chat_id):
-                reply_to_message_once(
-                    grp,
-                    actual_chat_id,
-                    message_id,
-                    "limit_full",
-                    reply_rule_text(reply_rules, "limit_full"),
-                )
-            elif limit_reply_enabled(actual_chat_id) and is_new_message and current > MAX_LIMIT:
-                excess = current - MAX_LIMIT
-                if excess % 3 == 1:
-                    if excess <= 3 and reply_rule_enabled(reply_rules, "limit_excess_1", actual_chat_id):
-                        reply_to_message_once(
-                            grp,
-                            actual_chat_id,
-                            message_id,
-                            "limit_excess_1",
-                            reply_rule_text(reply_rules, "limit_excess_1"),
-                        )
-                    elif excess <= 6 and reply_rule_enabled(reply_rules, "limit_excess_2", actual_chat_id):
-                        reply_to_message_once(
-                            grp,
-                            actual_chat_id,
-                            message_id,
-                            "limit_excess_2",
-                            reply_rule_text(reply_rules, "limit_excess_2"),
-                        )
-                    elif reply_rule_enabled(reply_rules, "limit_excess_3", actual_chat_id):
-                        reply_to_message_once(
-                            grp,
-                            actual_chat_id,
-                            message_id,
-                            "limit_excess_3",
-                            reply_rule_text(reply_rules, "limit_excess_3"),
-                        )
 
         enriched = backfill_registry_metadata(registry)
         if enriched:

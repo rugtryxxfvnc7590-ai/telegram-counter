@@ -430,17 +430,17 @@
         "tg_username": "hong14868_03",
         "tg_user_id": 8412768331,
         "tg_name": "不闲聊 hong14868",
-        "link": "https://x.com/hong14868/status/2096108672225087824?s=46",
-        "message_text": "https://x.com/hong14868/status/2096108672225087824?s=46",
+        "link": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
+        "message_text": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/hong14868/status/2096108672225087824?s=46",
+            "url": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
             "handle": "hong14868",
-            "post_id": "2096108672225087824",
+            "post_id": "2097200201446363321",
             "role": "promo",
             "author_name": "hong14868",
-            "followers_count": 473715,
+            "followers_count": 473827,
             "followers_text": "47.3W",
             "followers_sources": [
               "status_v2",
@@ -451,22 +451,22 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 473715
+                "count": 473827
               },
               {
                 "source": "status_legacy_i",
-                "count": 473713
+                "count": 473827
               },
               {
                 "source": "status_legacy",
-                "count": 473713
+                "count": 473827
               },
               {
                 "source": "profile_v2",
-                "count": 473715
+                "count": 473827
               }
             ],
-            "tweet_text": "这是艺术照🫦\n获取更多精彩-主页简介\n@ToBulaer @ToBuerma\n@KawasawaSen",
+            "tweet_text": "🫦\n获取更多精彩-主页简介\n@ToBulaer @ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -477,27 +477,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 51,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 51,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 51,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 51,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 51,
+                "length": 46,
                 "required_mentions_count": 3
               }
             ],
@@ -508,16 +508,24 @@
         "link_options": [
           {
             "label": "编辑后",
+            "url": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
+            "post_id": "2097200201446363321",
+            "handle": "hong14868",
+            "source_time": "2026-09-08 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/hong14868/status/2096108672225087824?s=46",
             "post_id": "2096108672225087824",
             "handle": "hong14868",
             "source_time": "2026-09-08 00:00:00",
-            "edit_time": ""
+            "edit_time": "2026-09-08 01:35:17"
           }
         ],
         "x_name": "hong14868",
         "promo_name": "hong14868",
-        "followers_count": 473715,
+        "followers_count": 473827,
         "followers_text": "47.3W",
         "followers_sources": [
           "status_v2",
@@ -528,22 +536,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 473715
+            "count": 473827
           },
           {
             "source": "status_legacy_i",
-            "count": 473713
+            "count": 473827
           },
           {
             "source": "status_legacy",
-            "count": 473713
+            "count": 473827
           },
           {
             "source": "profile_v2",
-            "count": 473715
+            "count": 473827
           }
         ],
-        "check_followers_count": 473715,
+        "check_followers_count": 473827,
         "check_followers_text": "47.3W",
         "check_followers_sources": [
           "status_v2",
@@ -554,22 +562,22 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 473715
+            "count": 473827
           },
           {
             "source": "status_legacy_i",
-            "count": 473713
+            "count": 473827
           },
           {
             "source": "status_legacy",
-            "count": 473713
+            "count": 473827
           },
           {
             "source": "profile_v2",
-            "count": 473715
+            "count": 473827
           }
         ],
-        "tweet_text": "这是艺术照🫦\n获取更多精彩-主页简介\n@ToBulaer @ToBuerma\n@KawasawaSen",
+        "tweet_text": "🫦\n获取更多精彩-主页简介\n@ToBulaer @ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -580,46 +588,46 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 51,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 51,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 51,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 51,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 51,
+            "length": 46,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/hong14868/status/2096108672225087824?s=46",
-        "check_url": "https://x.com/hong14868/status/2096108672225087824?s=46",
-        "promo_post_id": "2096108672225087824",
-        "check_post_id": "2096108672225087824",
+        "promo_url": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
+        "check_url": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
+        "promo_post_id": "2097200201446363321",
+        "check_post_id": "2097200201446363321",
         "chat_id": "-1003891628675",
         "message_id": 7352,
         "time": "2026-09-08 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
         "edited": true,
-        "edit_time": "2026-09-08 01:35:17",
+        "edit_time": "2026-09-08 13:50:27",
         "followers_min": 100000,
-        "qualified_followers_count": 473715,
+        "qualified_followers_count": 473827,
         "qualified_followers_text": "47.3W",
         "qualified_followers_sources": [
           "status_v2",
@@ -11603,7 +11611,7 @@
         "daily_list_rank": 2,
         "daily_list_status": "accepted"
       },
-      "2096108672225087824": {
+      "2097200201446363321": {
         "x_handle": "hong14868",
         "check_handle": "hong14868",
         "dual_link": false,
@@ -11611,17 +11619,17 @@
         "tg_username": "hong14868_03",
         "tg_user_id": 8412768331,
         "tg_name": "不闲聊 hong14868",
-        "link": "https://x.com/hong14868/status/2096108672225087824?s=46",
-        "message_text": "https://x.com/hong14868/status/2096108672225087824?s=46",
+        "link": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
+        "message_text": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/hong14868/status/2096108672225087824?s=46",
+            "url": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
             "handle": "hong14868",
-            "post_id": "2096108672225087824",
+            "post_id": "2097200201446363321",
             "role": "promo",
             "author_name": "hong14868",
-            "followers_count": 473715,
+            "followers_count": 473827,
             "followers_text": "47.3W",
             "followers_sources": [
               "status_v2",
@@ -11632,22 +11640,22 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 473715
+                "count": 473827
               },
               {
                 "source": "status_legacy_i",
-                "count": 473713
+                "count": 473827
               },
               {
                 "source": "status_legacy",
-                "count": 473713
+                "count": 473827
               },
               {
                 "source": "profile_v2",
-                "count": 473715
+                "count": 473827
               }
             ],
-            "tweet_text": "这是艺术照🫦\n获取更多精彩-主页简介\n@ToBulaer @ToBuerma\n@KawasawaSen",
+            "tweet_text": "🫦\n获取更多精彩-主页简介\n@ToBulaer @ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -11658,27 +11666,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 51,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 51,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 51,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 51,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 51,
+                "length": 46,
                 "required_mentions_count": 3
               }
             ],
@@ -11689,16 +11697,24 @@
         "link_options": [
           {
             "label": "编辑后",
+            "url": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
+            "post_id": "2097200201446363321",
+            "handle": "hong14868",
+            "source_time": "2026-09-08 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/hong14868/status/2096108672225087824?s=46",
             "post_id": "2096108672225087824",
             "handle": "hong14868",
             "source_time": "2026-09-08 00:00:00",
-            "edit_time": ""
+            "edit_time": "2026-09-08 01:35:17"
           }
         ],
         "x_name": "hong14868",
         "promo_name": "hong14868",
-        "followers_count": 473715,
+        "followers_count": 473827,
         "followers_text": "47.3W",
         "followers_sources": [
           "status_v2",
@@ -11709,22 +11725,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 473715
+            "count": 473827
           },
           {
             "source": "status_legacy_i",
-            "count": 473713
+            "count": 473827
           },
           {
             "source": "status_legacy",
-            "count": 473713
+            "count": 473827
           },
           {
             "source": "profile_v2",
-            "count": 473715
+            "count": 473827
           }
         ],
-        "check_followers_count": 473715,
+        "check_followers_count": 473827,
         "check_followers_text": "47.3W",
         "check_followers_sources": [
           "status_v2",
@@ -11735,22 +11751,22 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 473715
+            "count": 473827
           },
           {
             "source": "status_legacy_i",
-            "count": 473713
+            "count": 473827
           },
           {
             "source": "status_legacy",
-            "count": 473713
+            "count": 473827
           },
           {
             "source": "profile_v2",
-            "count": 473715
+            "count": 473827
           }
         ],
-        "tweet_text": "这是艺术照🫦\n获取更多精彩-主页简介\n@ToBulaer @ToBuerma\n@KawasawaSen",
+        "tweet_text": "🫦\n获取更多精彩-主页简介\n@ToBulaer @ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -11761,46 +11777,46 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 51,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 51,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 51,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 51,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 51,
+            "length": 46,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/hong14868/status/2096108672225087824?s=46",
-        "check_url": "https://x.com/hong14868/status/2096108672225087824?s=46",
-        "promo_post_id": "2096108672225087824",
-        "check_post_id": "2096108672225087824",
+        "promo_url": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
+        "check_url": "https://x.com/hong14868/status/2097200201446363321/video/1?s=46",
+        "promo_post_id": "2097200201446363321",
+        "check_post_id": "2097200201446363321",
         "chat_id": "-1003891628675",
         "message_id": 7352,
         "time": "2026-09-08 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
         "edited": true,
-        "edit_time": "2026-09-08 01:35:17",
+        "edit_time": "2026-09-08 13:50:27",
         "followers_min": 100000,
-        "qualified_followers_count": 473715,
+        "qualified_followers_count": 473827,
         "qualified_followers_text": "47.3W",
         "qualified_followers_sources": [
           "status_v2",

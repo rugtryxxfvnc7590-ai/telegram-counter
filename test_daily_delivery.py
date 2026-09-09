@@ -23,6 +23,12 @@ def _entry(post_id, message_id, when, *, eligible=True, after_cutoff=False, prom
 
 
 class DailyListTest(unittest.TestCase):
+    def setUp(self):
+        # Keep list expectations independent of the production quota file.
+        limits = patch("main.load_daily_limits", return_value={"群一": 40, "群二": 40, "群三": 40})
+        limits.start()
+        self.addCleanup(limits.stop)
+
     def test_links_are_eligible_pre_cutoff_promo_posts_in_reverse_message_order(self):
         registry = {
             "date": "2026-08-27",

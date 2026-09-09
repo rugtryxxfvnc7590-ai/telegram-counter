@@ -244,7 +244,7 @@ class LinkParsingTest(unittest.TestCase):
         self.assertEqual(set(post_entries), {"2095392858819674609"})
         post_entries["2095392858819674609"]["mutual_eligible"] = True
         self.assertEqual(
-            main.daily_eligible_links(registry, chat_id),
+            main.daily_eligible_links(registry, chat_id, {"群三": 40}),
             ["https://x.com/xiaoyi3359/status/2095392858819674609"],
         )
 

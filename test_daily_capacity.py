@@ -1,4 +1,5 @@
 import copy
+import json
 import random
 import unittest
 import sys
@@ -42,6 +43,21 @@ def test_rules():
 
 
 class CapacityPolicyTest(unittest.TestCase):
+    def test_default_delivery_reads_dashboard_limits_without_real_config(self):
+        registry = registry_for({"群一": 43, "群二": 43, "群三": 43})
+        now = datetime(2026, 9, 7, 18, tzinfo=main.BEIJING)
+        for cap in (0, 1, 30, 40, 500):
+            limits = {group: cap for group, _ in main.canonical_group_chat_ids()}
+            with self.subTest(cap=cap), patch("main.Path.read_text", return_value=json.dumps({"daily_list_limits": limits})), patch(
+                "capacity_delivery.send_capacity_reply", return_value=True
+            ) as send:
+                self.assertEqual(main.load_daily_limits(), limits)
+                for group, chat_id in main.canonical_group_chat_ids():
+                    links = main.daily_eligible_links(registry, chat_id)
+                    self.assertEqual(len(links), min(cap, 43) if cap else 43)
+                capacity_delivery.process_capacity_replies(registry, ready_state(), now, rules=test_rules())
+                self.assertEqual(send.call_count, 3 * max(44 - cap, 0) if cap else 0)
+
     def test_limits_validate_integer_and_support_unlimited(self):
         self.assertEqual(normalize_daily_limits({"群一": 30, "群二": "40", "群三": 0}),
                          {"群一": 30, "群二": 40, "群三": 0})
@@ -115,6 +131,12 @@ class CapacityPolicyTest(unittest.TestCase):
 
 
 class CapacityDeliveryTest(unittest.TestCase):
+    def setUp(self):
+        # Delivery fixtures use 40 slots, independently of live dashboard settings.
+        limits = patch("main.load_daily_limits", return_value={"群一": 40, "群二": 40, "群三": 40})
+        limits.start()
+        self.addCleanup(limits.stop)
+
     def test_full_group_sent_before_19_other_groups_wait_and_no_repeat(self):
         registry = registry_for({"群一": 42, "群二": 3, "群三": 5})
         limits = {"群一": 40, "群二": 30, "群三": 0}

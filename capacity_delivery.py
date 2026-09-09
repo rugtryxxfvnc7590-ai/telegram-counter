@@ -26,7 +26,8 @@ def process_capacity_replies(registry, state, now=None, limits=None, rules=None,
     now = now or datetime.now(main.BEIJING)
     now = now.replace(tzinfo=main.BEIJING) if now.tzinfo is None else now.astimezone(main.BEIJING)
     day = now.strftime("%Y-%m-%d")
-    if now.hour >= main.CUTOFF_HOUR or registry.get("date") != day:
+    # eligible_rows filters by message time; a delayed run may reply until midnight.
+    if registry.get("date") != day:
         return {}
     snapshot = state.get("group_snapshot_sync") or {}
     if snapshot.get("date") != day:

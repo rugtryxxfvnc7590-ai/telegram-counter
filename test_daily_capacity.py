@@ -3,7 +3,7 @@ import json
 import random
 import unittest
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from types import ModuleType
 from unittest.mock import patch
 
@@ -182,13 +182,72 @@ class CapacityDeliveryTest(unittest.TestCase):
                 self.assertTrue(text.startswith(capacity_rule_for_rank(rank, cap)))
                 self.assertIn(f"名额{cap}", text)
 
-    def test_no_group_replies_after_cutoff_or_with_incomplete_snapshot(self):
+    def test_no_group_replies_with_stale_or_incomplete_snapshot(self):
         registry = registry_for({"群三": 45})
         with patch("capacity_delivery.send_capacity_reply") as send:
-            for state, now in ((ready_state(), datetime(2026, 9, 7, 19, tzinfo=main.BEIJING)),
-                               ({}, datetime(2026, 9, 7, 18, tzinfo=main.BEIJING))):
+            for state, now in (
+                ({}, datetime(2026, 9, 7, 19, tzinfo=main.BEIJING)),
+                ({"group_snapshot_sync": {"date": DAY, "completed_groups": []}}, datetime(2026, 9, 7, 20, tzinfo=main.BEIJING)),
+                ({"group_snapshot_sync": {"date": "2026-09-06", "completed_groups": ["群三"]}}, datetime(2026, 9, 7, 20, tzinfo=main.BEIJING)),
+                (ready_state(), datetime(2026, 9, 8, 0, tzinfo=main.BEIJING)),
+            ):
                 self.assertEqual(capacity_delivery.process_capacity_replies(registry, state, now, rules=test_rules()), {})
             send.assert_not_called()
+
+    def test_delayed_replies_use_message_cutoff_in_all_groups_and_do_not_repeat(self):
+        registry = registry_for({"群一": 34, "群二": 34, "群三": 34})
+        limits = {"群一": 30, "群二": 30, "群三": 30}
+        for bucket in registry["post_entries"].values():
+            for message_id, when in ((31, "18:59:59"), (32, "19:00:00"), (33, "19:00:01"), (34, "23:59:59")):
+                bucket[str(message_id)]["time"] = f"{DAY} {when}"
+                bucket[str(message_id)]["after_cutoff"] = False
+        for now in (
+            datetime(2026, 9, 7, 19, tzinfo=main.BEIJING),
+            datetime(2026, 9, 7, 19, 44, tzinfo=main.BEIJING),
+            datetime(2026, 9, 7, 23, 59, 59, tzinfo=main.BEIJING),
+            datetime(2026, 9, 7, 11, 44, tzinfo=timezone.utc),
+        ):
+            with self.subTest(now=now), patch("capacity_delivery.send_capacity_reply", return_value=True) as send:
+                state = ready_state()
+                result = capacity_delivery.process_capacity_replies(registry, state, now, limits, test_rules())
+                self.assertEqual(len(result), 6)
+                expected = {(cid, mid) for _, cid in main.canonical_group_chat_ids() for mid in (30, 31)}
+                self.assertEqual({(call.args[0], call.args[1]) for call in send.call_args_list}, expected)
+                reloaded = json.loads(json.dumps(state))
+                self.assertEqual(capacity_delivery.process_capacity_replies(registry, reloaded, now, limits, test_rules()), {})
+                self.assertEqual(send.call_count, 6)
+
+    def test_delayed_retry_sends_only_the_failed_message(self):
+        registry = registry_for({"群三": 31})
+        state = ready_state()
+        limits = {"群一": 30, "群二": 40, "群三": 30}
+        now = datetime(2026, 9, 7, 19, 44, tzinfo=main.BEIJING)
+        with patch("capacity_delivery.send_capacity_reply", side_effect=[True, False]) as send:
+            first = capacity_delivery.process_capacity_replies(registry, state, now, limits, test_rules())
+            self.assertEqual(first, {"群三:30": "sent", "群三:31": "failed"})
+        later = datetime(2026, 9, 7, 23, 59, tzinfo=main.BEIJING)
+        with patch("capacity_delivery.send_capacity_reply", return_value=True) as send:
+            second = capacity_delivery.process_capacity_replies(registry, state, later, limits, test_rules())
+            self.assertEqual(second, {"群三:31": "sent"})
+            self.assertEqual([call.args[1] for call in send.call_args_list], [31])
+            self.assertEqual(capacity_delivery.process_capacity_replies(registry, state, later, limits, test_rules()), {})
+            self.assertEqual(send.call_count, 1)
+
+    def test_delayed_replies_keep_group_switches_and_candidate_stages(self):
+        now = datetime(2026, 9, 7, 20, tzinfo=main.BEIJING)
+        for cap in (30, 40):
+            registry = registry_for({"群一": cap + 9, "群二": cap + 9, "群三": cap + 9})
+            limits = {group: cap for group, _ in main.canonical_group_chat_ids()}
+            rules = test_rules()
+            for rule in rules.values():
+                rule["groups"] = ["群二"]
+            rules["limit_full"]["enabled"] = False
+            with self.subTest(cap=cap), patch("capacity_delivery.send_capacity_reply", return_value=True) as send:
+                capacity_delivery.process_capacity_replies(registry, ready_state(), now, limits, rules)
+                self.assertEqual(send.call_count, 9)
+                for call in send.call_args_list:
+                    self.assertEqual(call.args[0], main.GROUP_2_CHAT_ID_FALLBACK)
+                    self.assertTrue(call.args[2].startswith(capacity_rule_for_rank(call.args[1], cap)))
 
     def test_reply_switches_failed_retry_and_snapshot_reuse(self):
         registry = registry_for({"群三": 43})

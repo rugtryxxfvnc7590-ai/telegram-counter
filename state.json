@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "offset": 364614393,
+  "offset": 364614394,
   "groups": {
     "-1003891628675": {
       "count": 31,
@@ -43,7 +43,7 @@
       "message_ids": []
     },
     "-1003739822194": {
-      "count": 19,
+      "count": 20,
       "message_ids": [
         "1703",
         "1704",
@@ -63,13 +63,14 @@
         "1720",
         "1721",
         "1737",
-        "1738"
+        "1738",
+        "1739"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-10",
-    "run_at": "2026-09-10 18:45:22",
+    "run_at": "2026-09-10 19:00:38",
     "completed_groups": [
       "群一",
       "群二",
@@ -116,6 +117,42 @@
           "https://x.com/xiao16877/status/2096248548375527646",
           "https://x.com/snd99x/status/2092911348900561299",
           "https://x.com/tiaotiaosheep/status/2095081308619964841"
+        ]
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-09-10 19:00:42",
+        "count": 0,
+        "trigger": "19:00",
+        "limit": 40,
+        "links": []
+      },
+      "群三": {
+        "sent": true,
+        "sent_at": "2026-09-10 19:00:42",
+        "count": 19,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [
+          "https://x.com/feitunpapap/status/2097309930554585549",
+          "https://x.com/showu3u/status/2097574526850928783",
+          "https://x.com/tankxm07/status/2097973933043794289",
+          "https://x.com/ykydf778/status/2096420927877816526",
+          "https://x.com/vinodsrt/status/2097893237453406400",
+          "https://x.com/mopomeeaii/status/2097889474894274611",
+          "https://x.com/25_nagisa/status/2097900410426302706",
+          "https://x.com/obdiedie/status/2097656783863247341",
+          "https://x.com/cicimo_oo/status/2097854177145979276",
+          "https://x.com/bibo8893/status/2096730968157766088",
+          "https://x.com/bear8151/status/2094600223498928342",
+          "https://x.com/bo13581/status/2096415717939962122",
+          "https://x.com/bobohanya66/status/2097323652392079618",
+          "https://x.com/zhuguang9859/status/2097343975011295511",
+          "https://x.com/cuihaooo/status/2094633339852661102",
+          "https://x.com/kwonhm0611/status/2097635567106396645",
+          "https://x.com/dajiejieuuya/status/2095749062016520548",
+          "https://x.com/rogueyuyinqi/status/2097757278820872406",
+          "https://x.com/miyaaiqiya11/status/2097605373008257140"
         ]
       }
     }

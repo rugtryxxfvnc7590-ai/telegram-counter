@@ -1,41 +1,19 @@
 {
-  "date": "2026-09-10",
-  "offset": 364614414,
+  "date": "2026-09-11",
+  "offset": 364614425,
   "groups": {
     "-1003891628675": {
-      "count": 31,
+      "count": 9,
       "message_ids": [
-        "7458",
-        "7459",
-        "7460",
-        "7461",
-        "7462",
-        "7463",
-        "7464",
-        "7465",
-        "7466",
-        "7467",
-        "7468",
-        "7469",
-        "7470",
-        "7471",
-        "7472",
-        "7473",
-        "7474",
-        "7475",
-        "7476",
-        "7477",
-        "7478",
-        "7479",
-        "7480",
-        "7482",
-        "7483",
-        "7485",
-        "7487",
-        "7488",
-        "7489",
-        "7490",
-        "7492"
+        "7504",
+        "7505",
+        "7506",
+        "7507",
+        "7508",
+        "7509",
+        "7510",
+        "7511",
+        "7512"
       ]
     },
     "-1003218974409": {
@@ -43,34 +21,13 @@
       "message_ids": []
     },
     "-1003739822194": {
-      "count": 20,
-      "message_ids": [
-        "1703",
-        "1704",
-        "1705",
-        "1706",
-        "1709",
-        "1710",
-        "1711",
-        "1712",
-        "1713",
-        "1714",
-        "1715",
-        "1716",
-        "1717",
-        "1718",
-        "1719",
-        "1720",
-        "1721",
-        "1737",
-        "1738",
-        "1739"
-      ]
+      "count": 0,
+      "message_ids": []
     }
   },
   "group_snapshot_sync": {
-    "date": "2026-09-10",
-    "run_at": "2026-09-10 23:45:21",
+    "date": "2026-09-11",
+    "run_at": "2026-09-11 00:00:57",
     "completed_groups": [
       "群一",
       "群二",
@@ -78,104 +35,13 @@
     ]
   },
   "owner_daily_lists": {
-    "date": "2026-09-10",
-    "groups": {
-      "群一": {
-        "sent": true,
-        "sent_at": "2026-09-10 12:35:45",
-        "count": 30,
-        "trigger": "capacity_full",
-        "limit": 30,
-        "links": [
-          "https://x.com/vlog918/status/2097905671979319590",
-          "https://x.com/libalababy/status/2097897905055219912",
-          "https://x.com/thelol1pop99/status/2097890060808909041",
-          "https://x.com/guilin010/status/2033855076935328128",
-          "https://x.com/lazypiggy850/status/2097744941648867793",
-          "https://x.com/wdqhc999/status/2097273330667774266",
-          "https://x.com/laibeinaixiba/status/2094246628693868572",
-          "https://x.com/sluttytatia404/status/2088283046755877031",
-          "https://x.com/bob7078/status/2096894539546161179",
-          "https://x.com/qbln9999/status/2087533026809180203",
-          "https://x.com/joragyyy/status/2096931649418051921",
-          "https://x.com/aksaks99999/status/2094773822570274834",
-          "https://x.com/jxzeroc/status/2055688600302592317",
-          "https://x.com/uudajiejie/status/2096477722503774311",
-          "https://x.com/shixiaotaone/status/2097621891683061823",
-          "https://x.com/shixiaotaon/status/2096876634725093590",
-          "https://x.com/caochangqing111/status/2061740187214832037",
-          "https://x.com/xiaochen000007/status/2086843958924288011",
-          "https://x.com/kuqiqiii_owo/status/2063917940743786522",
-          "https://x.com/lris_intj/status/2097596391979675867",
-          "https://x.com/hanzuzong3/status/2096561895637667967",
-          "https://x.com/xiuchiluchu910/status/2097183668603064371",
-          "https://x.com/jingyeshiwu/status/2097678006009393595",
-          "https://x.com/svj798ds/status/2097324081804612027",
-          "https://x.com/nancyyzp/status/2036666414669717564",
-          "https://x.com/hong14868/status/2097200201446363321",
-          "https://x.com/sleepsbg/status/2095539898090651722",
-          "https://x.com/xiao16877/status/2096248548375527646",
-          "https://x.com/snd99x/status/2092911348900561299",
-          "https://x.com/tiaotiaosheep/status/2095081308619964841"
-        ]
-      },
-      "群二": {
-        "sent": true,
-        "sent_at": "2026-09-10 19:00:42",
-        "count": 0,
-        "trigger": "19:00",
-        "limit": 40,
-        "links": []
-      },
-      "群三": {
-        "sent": true,
-        "sent_at": "2026-09-10 19:00:42",
-        "count": 19,
-        "trigger": "19:00",
-        "limit": 30,
-        "links": [
-          "https://x.com/feitunpapap/status/2097309930554585549",
-          "https://x.com/showu3u/status/2097574526850928783",
-          "https://x.com/tankxm07/status/2097973933043794289",
-          "https://x.com/ykydf778/status/2096420927877816526",
-          "https://x.com/vinodsrt/status/2097893237453406400",
-          "https://x.com/mopomeeaii/status/2097889474894274611",
-          "https://x.com/25_nagisa/status/2097900410426302706",
-          "https://x.com/obdiedie/status/2097656783863247341",
-          "https://x.com/cicimo_oo/status/2097854177145979276",
-          "https://x.com/bibo8893/status/2096730968157766088",
-          "https://x.com/bear8151/status/2094600223498928342",
-          "https://x.com/bo13581/status/2096415717939962122",
-          "https://x.com/bobohanya66/status/2097323652392079618",
-          "https://x.com/zhuguang9859/status/2097343975011295511",
-          "https://x.com/cuihaooo/status/2094633339852661102",
-          "https://x.com/kwonhm0611/status/2097635567106396645",
-          "https://x.com/dajiejieuuya/status/2095749062016520548",
-          "https://x.com/rogueyuyinqi/status/2097757278820872406",
-          "https://x.com/miyaaiqiya11/status/2097605373008257140"
-        ]
-      }
-    }
+    "date": "2026-09-11",
+    "groups": {}
   },
   "capacity_replies": {
-    "date": "2026-09-10",
+    "date": "2026-09-11",
     "groups": {
-      "群一": {
-        "full": {
-          "message_id": 7490,
-          "rule": "limit_full",
-          "count": 30,
-          "limit": 30,
-          "sent_at": "2026-09-10 12:35:46"
-        },
-        "7492": {
-          "message_id": 7492,
-          "rule": "limit_overflow",
-          "count": 31,
-          "limit": 30,
-          "sent_at": "2026-09-10 12:45:28"
-        }
-      },
+      "群一": {},
       "群二": {},
       "群三": {}
     }

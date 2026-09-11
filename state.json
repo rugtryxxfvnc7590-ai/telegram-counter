@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "offset": 364614497,
+  "offset": 364614499,
   "groups": {
     "-1003891628675": {
       "count": 30,
@@ -42,7 +42,7 @@
       "message_ids": []
     },
     "-1003739822194": {
-      "count": 28,
+      "count": 30,
       "message_ids": [
         "1750",
         "1751",
@@ -71,7 +71,9 @@
         "1786",
         "1787",
         "1788",
-        "1789"
+        "1789",
+        "1790",
+        "1791"
       ],
       "reply_keys": [
         "1764:missing_mentions"
@@ -80,7 +82,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-11",
-    "run_at": "2026-09-11 16:00:45",
+    "run_at": "2026-09-11 16:15:27",
     "completed_groups": [
       "群一",
       "群二",
@@ -128,6 +130,45 @@
           "https://x.com/tiaotiaosheep/status/2095081308619964841",
           "https://x.com/xiuchiluchu910/status/2092121798523445696"
         ]
+      },
+      "群三": {
+        "sent": true,
+        "sent_at": "2026-09-11 16:15:31",
+        "count": 30,
+        "trigger": "capacity_full",
+        "limit": 30,
+        "links": [
+          "https://x.com/jingxiangyjx/status/2098321083262984213",
+          "https://x.com/showu3u/status/2098321913751990435",
+          "https://x.com/cicimo_oo/status/2098313466839028029",
+          "https://x.com/puppycatovo/status/2098051766889951611",
+          "https://x.com/tankxm07/status/2098290191236784412",
+          "https://x.com/chimanyufan/status/2094262390087205294",
+          "https://x.com/xinzhxinju1/status/2098018657569788378",
+          "https://x.com/bibo8893/status/2096730968157766088",
+          "https://x.com/dajiejieuuya/status/2095749062016520548",
+          "https://x.com/vinodsrt/status/2098245155983970672",
+          "https://x.com/mopomeeaii/status/2098240908160323609",
+          "https://x.com/bear8151/status/2098195611569037823",
+          "https://x.com/bo13581/status/2096415717939962122",
+          "https://x.com/25_nagisa/status/2097900410426302706",
+          "https://x.com/zhuguang9859/status/2096297773457162313",
+          "https://x.com/dunrk12x/status/2097141406934692063",
+          "https://x.com/smartbuyao/status/2097976708335059252",
+          "https://x.com/dunesq1vg/status/2098216608795963801",
+          "https://x.com/gg2anan/status/2096914422640124337",
+          "https://x.com/youmimilll/status/2098065949631054295",
+          "https://x.com/qiqitu777_/status/2095770176079991290",
+          "https://x.com/obdiedie/status/2097656783863247341",
+          "https://x.com/rogueyuyinqi/status/2098007272802877610",
+          "https://x.com/qianhetangcaiyl/status/2098095103646773386",
+          "https://x.com/ykydf778/status/2095463049935376626",
+          "https://x.com/tuturc88/status/2097602908070240535",
+          "https://x.com/miyaaiqiya11/status/2097605373008257140",
+          "https://x.com/saza5277/status/2098011811689992645",
+          "https://x.com/1tbsvip/status/2095062209911226677",
+          "https://x.com/cocoluhk/status/2098048671539712485"
+        ]
       }
     }
   },
@@ -151,7 +192,15 @@
         }
       },
       "群二": {},
-      "群三": {}
+      "群三": {
+        "full": {
+          "message_id": 1791,
+          "rule": "limit_full",
+          "count": 30,
+          "limit": 30,
+          "sent_at": "2026-09-11 16:15:31"
+        }
+      }
     }
   }
 }

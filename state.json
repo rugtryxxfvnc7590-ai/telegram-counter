@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "offset": 364614505,
+  "offset": 364614506,
   "groups": {
     "-1003891628675": {
       "count": 30,
@@ -82,7 +82,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-11",
-    "run_at": "2026-09-11 18:45:26",
+    "run_at": "2026-09-11 19:00:40",
     "completed_groups": [
       "群一",
       "群二",
@@ -169,6 +169,14 @@
           "https://x.com/1tbsvip/status/2095062209911226677",
           "https://x.com/cocoluhk/status/2098048671539712485"
         ]
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-09-11 19:00:43",
+        "count": 0,
+        "trigger": "19:00",
+        "limit": 40,
+        "links": []
       }
     }
   },

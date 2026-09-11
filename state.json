@@ -1,9 +1,9 @@
 {
   "date": "2026-09-11",
-  "offset": 364614469,
+  "offset": 364614470,
   "groups": {
     "-1003891628675": {
-      "count": 29,
+      "count": 30,
       "message_ids": [
         "7504",
         "7505",
@@ -19,6 +19,7 @@
         "7515",
         "7516",
         "7517",
+        "7519",
         "7520",
         "7521",
         "7523",
@@ -63,7 +64,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-11",
-    "run_at": "2026-09-11 08:15:35",
+    "run_at": "2026-09-11 08:30:32",
     "completed_groups": [
       "群一",
       "群二",
@@ -72,12 +73,60 @@
   },
   "owner_daily_lists": {
     "date": "2026-09-11",
-    "groups": {}
+    "groups": {
+      "群一": {
+        "sent": true,
+        "sent_at": "2026-09-11 08:30:35",
+        "count": 30,
+        "trigger": "capacity_full",
+        "limit": 30,
+        "links": [
+          "https://x.com/shixiaotaone/status/2097621891683061823",
+          "https://x.com/shixiaotaon/status/2096876634725093590",
+          "https://x.com/libalababy/status/2090393445093572790",
+          "https://x.com/guilin010/status/2044029747869704357",
+          "https://x.com/laibeinaixiba/status/2089558662457282900",
+          "https://x.com/youmeier/status/2097271174480998895",
+          "https://x.com/wdqhc999/status/2097273330667774266",
+          "https://x.com/dsang1874/status/2082144096412742099",
+          "https://x.com/joragyyy/status/2069047734859100275",
+          "https://x.com/xiao16877/status/2098041563175874999",
+          "https://x.com/xiaochen000007/status/2096145336901550438",
+          "https://x.com/sluttytatia404/status/2088283046755877031",
+          "https://x.com/qbln9999/status/2095835762092920960",
+          "https://x.com/kuqiqiii_owo/status/2098032092974100767",
+          "https://x.com/hanzuzong3/status/2096561895637667967",
+          "https://x.com/caochangqing111/status/2040667645729497247",
+          "https://x.com/qinxian8023/status/1843994899403976912",
+          "https://x.com/xiaoqiaots/status/2097176911688688066",
+          "https://x.com/lazypiggy850/status/2097744941648867793",
+          "https://x.com/aliqinqin888/status/2071113744898298146",
+          "https://x.com/jxzeroc/status/2064035587590615481",
+          "https://x.com/sleepsbg/status/2097674491753292281",
+          "https://x.com/lris_intj/status/2097596391979675867",
+          "https://x.com/svj798ds/status/2093700203945631785",
+          "https://x.com/nancyyzp/status/2097912009618866482",
+          "https://x.com/snd99x/status/2092911348900561299",
+          "https://x.com/bob7078/status/2098074559991947389",
+          "https://x.com/hong14868/status/2092452004824027637",
+          "https://x.com/tiaotiaosheep/status/2095081308619964841",
+          "https://x.com/xiuchiluchu910/status/2092121798523445696"
+        ]
+      }
+    }
   },
   "capacity_replies": {
     "date": "2026-09-11",
     "groups": {
-      "群一": {},
+      "群一": {
+        "full": {
+          "message_id": 7536,
+          "rule": "limit_full",
+          "count": 30,
+          "limit": 30,
+          "sent_at": "2026-09-11 08:30:36"
+        }
+      },
       "群二": {},
       "群三": {}
     }

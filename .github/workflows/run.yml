@@ -6,6 +6,16 @@ on:
     # 北京时间 19:05、19:10 两次防漏；19:00 主任务成功后会被发送状态自动去重。
     - cron: '5,10 11 * * *'
   workflow_dispatch:
+    inputs:
+      reissue_owner_group:
+        description: '仅经本人确认：补发没有消息ID的旧版私信名单'
+        type: choice
+        options: ['不补发', '群一', '群二', '群三']
+        default: '不补发'
+      reissue_owner_date:
+        description: '授权当天日期 YYYY-MM-DD；不匹配当天则不补发'
+        type: string
+        default: ''
 
 # 状态会提交回仓库，禁止两次运行同时读写同一个 offset/count。
 concurrency:
@@ -62,6 +72,8 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+          OWNER_LIST_REISSUE_GROUP: ${{ inputs.reissue_owner_group }}
+          OWNER_LIST_REISSUE_DATE: ${{ inputs.reissue_owner_date }}
         run: python send_daily_lists.py
 
       - name: 提交状态更新

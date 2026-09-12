@@ -9,6 +9,7 @@ from zoneinfo import ZoneInfo
 from daily_capacity import (
     admitted_rows, capacity_template, group_for_chat, normalize_daily_limits,
 )
+from private_list_sync import edited_slots, freeze_links
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
 STATE_FILE = "state.json"
@@ -339,7 +340,7 @@ def daily_eligible_links(registry, chat_id, limits=None):
     return [row["url"] for row in reversed(rows)]
 
 
-def format_daily_list_message(group_label, day, links):
+def format_daily_list_message(group_label, day, links, edited_indices=()):
     try:
         parsed = datetime.strptime(day, "%Y-%m-%d")
         date_label = f"{parsed.month}月{parsed.day}日"
@@ -347,7 +348,9 @@ def format_daily_list_message(group_label, day, links):
         date_label = day
     lines = [f"{group_label}（{date_label}）互推名单，共 {len(links)} 条"]
     if links:
-        lines.extend(f"{index} {url}" for index, url in enumerate(links, 1))
+        edited_indices = set(edited_indices)
+        lines.extend(f"{'已编辑 ' if index in edited_indices else ''}{index} {url}"
+                     for index, url in enumerate(links, 1))
     else:
         lines.append("今日没有合格互推链接")
     return "\n\n".join(lines)
@@ -367,10 +370,63 @@ def _send_private_message(chat_id, text):
         return False, str(exc)
     if response.status_code != 200 or not payload.get("ok"):
         return False, str(payload)
-    return True, ""
+    return True, {"message_id": (payload.get("result") or {}).get("message_id")}
 
 
-def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, limits=None):
+def _edit_private_message(chat_id, message_id, text):
+    if not BOT_TOKEN:
+        return False, "未配置 TELEGRAM_BOT_TOKEN"
+    try:
+        response = requests.post(
+            f"https://api.telegram.org/bot{BOT_TOKEN}/editMessageText",
+            json={"chat_id": chat_id, "message_id": message_id, "text": text,
+                  "disable_web_page_preview": True}, timeout=15,
+        )
+        payload = response.json()
+    except Exception as exc:
+        return False, type(exc).__name__
+    if response.status_code == 200 and payload.get("ok"):
+        return True, ""
+    # Telegram may have applied an edit whose response was lost before state persisted.
+    description = str(payload.get("description") or "")
+    if payload.get("error_code") == 400 and "message is not modified" in description.lower():
+        return True, ""
+    return False, description or "Telegram 编辑失败"
+
+
+def _sync_sent_owner_list(registry, record, group, chat_id, owner, day, now, replace_legacy=False):
+    message_id = record.get("message_id")
+    if record.get("owner_chat_id") not in (None, "", owner):
+        return "owner_changed", False
+    if not message_id and not replace_legacy:
+        return "already_sent", False
+    slots = record.get("slots")
+    if slots is None:
+        slots = freeze_links(record.get("links") or [], registry, expand_chat_id(chat_id), day)
+    updated = edited_slots(slots, registry, expand_chat_id(chat_id), day, now)
+    links = [slot["url"] for slot in updated]
+    indices = [i for i, slot in enumerate(updated, 1) if slot.get("edited")]
+    message = format_daily_list_message(group, day, links, indices)
+    if message_id and message == record.get("text"):
+        return "already_sent", False
+    if len(message) > 4096:
+        return "message_too_long", False
+    if message_id:
+        ok, detail = _edit_private_message(owner, message_id, message)
+    else:
+        ok, detail = _send_private_message(owner, message)
+    if not ok:
+        print(f"私信名单同步：{group} 失败，保留原记录等待下轮重试：{detail}")
+        return "edit_failed" if message_id else "failed", False
+    if not message_id:
+        record["message_id"] = detail.get("message_id") if isinstance(detail, dict) else None
+        record["legacy_reissued_at"] = now
+    record.update(owner_chat_id=owner, slots=updated, links=links, text=message, updated_at=now)
+    return "edited" if message_id else "legacy_reissued", True
+
+
+def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, limits=None,
+                             replace_legacy_groups=()):
     now = now or datetime.now(BEIJING)
     if now.tzinfo is None:
         now = now.replace(tzinfo=BEIJING)
@@ -381,6 +437,9 @@ def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, lim
     owner_chat_id = os.getenv(OWNER_CHAT_ID_ENV, "").strip()
     if not owner_chat_id:
         print(f"19:00 私信名单：未配置 {OWNER_CHAT_ID_ENV}，跳过。")
+        return {}
+    if not owner_chat_id.isdigit() or int(owner_chat_id) <= 0:
+        print("19:00 私信名单：目标不是个人用户数字ID，已拒绝发送或编辑。")
         return {}
     if any(owner_chat_id in expand_chat_id(chat_id) for _, chat_id in canonical_group_chat_ids()):
         print("19:00 私信名单：目标是群聊 ID，已拒绝发送。")
@@ -397,8 +456,21 @@ def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, lim
     results = {}
 
     for group_label, chat_id in canonical_group_chat_ids():
-        if (sent_groups.get(group_label) or {}).get("sent"):
-            results[group_label] = "already_sent"
+        record = sent_groups.get(group_label) or {}
+        if record.get("sent"):
+            if group_label not in snapshot_groups or registry.get("date") != day:
+                results[group_label] = "waiting_for_snapshot"
+                continue
+            status, changed = _sync_sent_owner_list(
+                registry, record, group_label, chat_id, owner_chat_id, day,
+                now.strftime("%Y-%m-%d %H:%M:%S"),
+                replace_legacy=(group_label in replace_legacy_groups and not record.get("legacy_reissued_at")),
+            )
+            results[group_label] = status
+            if changed:
+                if save_callback:
+                    save_callback()
+                print(f"私信名单同步：{group_label} {status}，固定 {record['count']} 条。")
             continue
         if group_label not in snapshot_groups or registry.get("date") != day:
             results[group_label] = "waiting_for_snapshot"
@@ -426,6 +498,10 @@ def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, lim
             "trigger": "capacity_full" if full and not daily_list_send_due(now) else "19:00",
             "limit": limits[group_label],
             "links": links,
+            "slots": freeze_links(links, registry, expand_chat_id(chat_id), day),
+            "message_id": error.get("message_id") if isinstance(error, dict) else None,
+            "owner_chat_id": owner_chat_id,
+            "text": message,
         }
         if save_callback:
             save_callback()

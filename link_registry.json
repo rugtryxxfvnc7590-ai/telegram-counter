@@ -7296,7 +7296,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 11787,
+        "followers_count": 11803,
         "followers_text": "1.1W",
         "followers_sources": [
           "status_v2",
@@ -7848,6 +7848,22 @@
           {
             "source": "profile_v2",
             "count": 11787
+          },
+          {
+            "source": "status_v2",
+            "count": 11803
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 11803
+          },
+          {
+            "source": "status_legacy",
+            "count": 11803
+          },
+          {
+            "source": "profile_v2",
+            "count": 11803
           }
         ],
         "check_followers_count": 185455,
@@ -8043,7 +8059,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 11787,
+        "followers_count": 11803,
         "followers_text": "1.1W",
         "followers_sources": [
           "status_v2",
@@ -8595,6 +8611,22 @@
           {
             "source": "profile_v2",
             "count": 11787
+          },
+          {
+            "source": "status_v2",
+            "count": 11803
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 11803
+          },
+          {
+            "source": "status_legacy",
+            "count": 11803
+          },
+          {
+            "source": "profile_v2",
+            "count": 11803
           }
         ],
         "check_followers_count": 185455,
@@ -12049,6 +12081,216 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "daily_list_rank": 15,
+        "daily_list_status": "accepted"
+      },
+      "bo9685": {
+        "x_handle": "bo9685",
+        "check_handle": "bo9685",
+        "dual_link": false,
+        "promo_handle": "bo9685",
+        "tg_username": "kaia6252",
+        "tg_user_id": 7628179593,
+        "tg_name": "诸葛不打野",
+        "link": "https://x.com/bo9685/status/2098908512483217427?s=46",
+        "message_text": "https://x.com/bo9685/status/2098908512483217427?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/bo9685/status/2098908512483217427?s=46",
+            "handle": "bo9685",
+            "post_id": "2098908512483217427",
+            "role": "promo",
+            "author_name": "Mo",
+            "followers_count": 1098,
+            "followers_text": "1K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1098
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1098
+              },
+              {
+                "source": "status_legacy",
+                "count": 1098
+              },
+              {
+                "source": "profile_v2",
+                "count": 1098
+              }
+            ],
+            "tweet_text": "早上的馒头应该很新鲜吧                                            @ToBuerma\n\n@ToBulaer\n\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 89,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 89,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 89,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 89,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 89,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/bo9685/status/2098908512483217427?s=46",
+            "post_id": "2098908512483217427",
+            "handle": "bo9685",
+            "source_time": "2026-09-13 07:33:23",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Mo",
+        "promo_name": "Mo",
+        "followers_count": 1098,
+        "followers_text": "1K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1098
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1098
+          },
+          {
+            "source": "status_legacy",
+            "count": 1098
+          },
+          {
+            "source": "profile_v2",
+            "count": 1098
+          }
+        ],
+        "check_followers_count": 1098,
+        "check_followers_text": "1K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1098
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1098
+          },
+          {
+            "source": "status_legacy",
+            "count": 1098
+          },
+          {
+            "source": "profile_v2",
+            "count": 1098
+          }
+        ],
+        "tweet_text": "早上的馒头应该很新鲜吧                                            @ToBuerma\n\n@ToBulaer\n\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 89,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 89,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 89,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 89,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 89,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/bo9685/status/2098908512483217427?s=46",
+        "check_url": "https://x.com/bo9685/status/2098908512483217427?s=46",
+        "promo_post_id": "2098908512483217427",
+        "check_post_id": "2098908512483217427",
+        "chat_id": "-1003739822194",
+        "message_id": 1972,
+        "time": "2026-09-13 07:33:23",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1098,
+        "qualified_followers_text": "1K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 16,
         "daily_list_status": "accepted"
       }
     }
@@ -19349,7 +19591,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 11787,
+        "followers_count": 11803,
         "followers_text": "1.1W",
         "followers_sources": [
           "status_v2",
@@ -19901,6 +20143,22 @@
           {
             "source": "profile_v2",
             "count": 11787
+          },
+          {
+            "source": "status_v2",
+            "count": 11803
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 11803
+          },
+          {
+            "source": "status_legacy",
+            "count": 11803
+          },
+          {
+            "source": "profile_v2",
+            "count": 11803
           }
         ],
         "check_followers_count": 185455,
@@ -23136,6 +23394,216 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "daily_list_rank": 15,
+        "daily_list_status": "accepted"
+      },
+      "2098908512483217427": {
+        "x_handle": "bo9685",
+        "check_handle": "bo9685",
+        "dual_link": false,
+        "promo_handle": "bo9685",
+        "tg_username": "kaia6252",
+        "tg_user_id": 7628179593,
+        "tg_name": "诸葛不打野",
+        "link": "https://x.com/bo9685/status/2098908512483217427?s=46",
+        "message_text": "https://x.com/bo9685/status/2098908512483217427?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/bo9685/status/2098908512483217427?s=46",
+            "handle": "bo9685",
+            "post_id": "2098908512483217427",
+            "role": "promo",
+            "author_name": "Mo",
+            "followers_count": 1098,
+            "followers_text": "1K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1098
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1098
+              },
+              {
+                "source": "status_legacy",
+                "count": 1098
+              },
+              {
+                "source": "profile_v2",
+                "count": 1098
+              }
+            ],
+            "tweet_text": "早上的馒头应该很新鲜吧                                            @ToBuerma\n\n@ToBulaer\n\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 89,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 89,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 89,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 89,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 89,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/bo9685/status/2098908512483217427?s=46",
+            "post_id": "2098908512483217427",
+            "handle": "bo9685",
+            "source_time": "2026-09-13 07:33:23",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Mo",
+        "promo_name": "Mo",
+        "followers_count": 1098,
+        "followers_text": "1K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1098
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1098
+          },
+          {
+            "source": "status_legacy",
+            "count": 1098
+          },
+          {
+            "source": "profile_v2",
+            "count": 1098
+          }
+        ],
+        "check_followers_count": 1098,
+        "check_followers_text": "1K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1098
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1098
+          },
+          {
+            "source": "status_legacy",
+            "count": 1098
+          },
+          {
+            "source": "profile_v2",
+            "count": 1098
+          }
+        ],
+        "tweet_text": "早上的馒头应该很新鲜吧                                            @ToBuerma\n\n@ToBulaer\n\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 89,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 89,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 89,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 89,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 89,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/bo9685/status/2098908512483217427?s=46",
+        "check_url": "https://x.com/bo9685/status/2098908512483217427?s=46",
+        "promo_post_id": "2098908512483217427",
+        "check_post_id": "2098908512483217427",
+        "chat_id": "-1003739822194",
+        "message_id": 1972,
+        "time": "2026-09-13 07:33:23",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1098,
+        "qualified_followers_text": "1K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 16,
         "daily_list_status": "accepted"
       }
     }

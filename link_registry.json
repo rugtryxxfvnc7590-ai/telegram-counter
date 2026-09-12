@@ -7296,7 +7296,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 11696,
+        "followers_count": 11700,
         "followers_text": "1.1W",
         "followers_sources": [
           "status_v2",
@@ -7696,6 +7696,22 @@
           {
             "source": "profile_v2",
             "count": 11696
+          },
+          {
+            "source": "status_v2",
+            "count": 11700
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 11700
+          },
+          {
+            "source": "status_legacy",
+            "count": 11700
+          },
+          {
+            "source": "profile_v2",
+            "count": 11700
           }
         ],
         "check_followers_count": 185455,
@@ -7891,7 +7907,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 11696,
+        "followers_count": 11700,
         "followers_text": "1.1W",
         "followers_sources": [
           "status_v2",
@@ -8291,6 +8307,22 @@
           {
             "source": "profile_v2",
             "count": 11696
+          },
+          {
+            "source": "status_v2",
+            "count": 11700
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 11700
+          },
+          {
+            "source": "status_legacy",
+            "count": 11700
+          },
+          {
+            "source": "profile_v2",
+            "count": 11700
           }
         ],
         "check_followers_count": 185455,
@@ -10905,6 +10937,216 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "tankxm07": {
+        "x_handle": "tankxm07",
+        "check_handle": "tankxm07",
+        "dual_link": false,
+        "promo_handle": "tankxm07",
+        "tg_username": "pptmm17",
+        "tg_user_id": 8620232479,
+        "tg_name": "泡芙",
+        "link": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+        "message_text": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+            "handle": "tankxm07",
+            "post_id": "2098708147447935040",
+            "role": "promo",
+            "author_name": "tank小猫",
+            "followers_count": 1850,
+            "followers_text": "1.8K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1850
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1850
+              },
+              {
+                "source": "status_legacy",
+                "count": 1850
+              },
+              {
+                "source": "profile_v2",
+                "count": 1850
+              }
+            ],
+            "tweet_text": "你们好像挺喜欢看这种羞耻姿势 #母狗\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 53,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+            "post_id": "2098708147447935040",
+            "handle": "tankxm07",
+            "source_time": "2026-09-13 05:32:55",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "tank小猫",
+        "promo_name": "tank小猫",
+        "followers_count": 1850,
+        "followers_text": "1.8K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1850
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1850
+          },
+          {
+            "source": "status_legacy",
+            "count": 1850
+          },
+          {
+            "source": "profile_v2",
+            "count": 1850
+          }
+        ],
+        "check_followers_count": 1850,
+        "check_followers_text": "1.8K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1850
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1850
+          },
+          {
+            "source": "status_legacy",
+            "count": 1850
+          },
+          {
+            "source": "profile_v2",
+            "count": 1850
+          }
+        ],
+        "tweet_text": "你们好像挺喜欢看这种羞耻姿势 #母狗\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 53,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+        "check_url": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+        "promo_post_id": "2098708147447935040",
+        "check_post_id": "2098708147447935040",
+        "chat_id": "-1003739822194",
+        "message_id": 1970,
+        "time": "2026-09-13 05:32:55",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1850,
+        "qualified_followers_text": "1.8K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 12,
         "daily_list_status": "accepted"
       }
     }
@@ -18205,7 +18447,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 11696,
+        "followers_count": 11700,
         "followers_text": "1.1W",
         "followers_sources": [
           "status_v2",
@@ -18605,6 +18847,22 @@
           {
             "source": "profile_v2",
             "count": 11696
+          },
+          {
+            "source": "status_v2",
+            "count": 11700
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 11700
+          },
+          {
+            "source": "status_legacy",
+            "count": 11700
+          },
+          {
+            "source": "profile_v2",
+            "count": 11700
           }
         ],
         "check_followers_count": 185455,
@@ -21000,6 +21258,216 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "2098708147447935040": {
+        "x_handle": "tankxm07",
+        "check_handle": "tankxm07",
+        "dual_link": false,
+        "promo_handle": "tankxm07",
+        "tg_username": "pptmm17",
+        "tg_user_id": 8620232479,
+        "tg_name": "泡芙",
+        "link": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+        "message_text": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+            "handle": "tankxm07",
+            "post_id": "2098708147447935040",
+            "role": "promo",
+            "author_name": "tank小猫",
+            "followers_count": 1850,
+            "followers_text": "1.8K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1850
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1850
+              },
+              {
+                "source": "status_legacy",
+                "count": 1850
+              },
+              {
+                "source": "profile_v2",
+                "count": 1850
+              }
+            ],
+            "tweet_text": "你们好像挺喜欢看这种羞耻姿势 #母狗\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 53,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+            "post_id": "2098708147447935040",
+            "handle": "tankxm07",
+            "source_time": "2026-09-13 05:32:55",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "tank小猫",
+        "promo_name": "tank小猫",
+        "followers_count": 1850,
+        "followers_text": "1.8K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1850
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1850
+          },
+          {
+            "source": "status_legacy",
+            "count": 1850
+          },
+          {
+            "source": "profile_v2",
+            "count": 1850
+          }
+        ],
+        "check_followers_count": 1850,
+        "check_followers_text": "1.8K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1850
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1850
+          },
+          {
+            "source": "status_legacy",
+            "count": 1850
+          },
+          {
+            "source": "profile_v2",
+            "count": 1850
+          }
+        ],
+        "tweet_text": "你们好像挺喜欢看这种羞耻姿势 #母狗\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 53,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+        "check_url": "https://x.com/tankxm07/status/2098708147447935040?s=46",
+        "promo_post_id": "2098708147447935040",
+        "check_post_id": "2098708147447935040",
+        "chat_id": "-1003739822194",
+        "message_id": 1970,
+        "time": "2026-09-13 05:32:55",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1850,
+        "qualified_followers_text": "1.8K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 12,
         "daily_list_status": "accepted"
       }
     }

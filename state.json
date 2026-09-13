@@ -92,12 +92,32 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-13",
-    "run_at": "2026-09-13 21:15:31",
+    "run_at": "2026-09-13 21:25:44",
     "completed_groups": [
       "群一",
       "群二",
       "群三"
-    ]
+    ],
+    "violation_receipt_groups": {
+      "群一": {
+        "run_key": "34759788869:1",
+        "checked_at": "2026-09-13 21:25:45",
+        "bot_user_id": 8755020155,
+        "confirmed_replies": 0
+      },
+      "群二": {
+        "run_key": "34759788869:1",
+        "checked_at": "2026-09-13 21:25:45",
+        "bot_user_id": 8755020155,
+        "confirmed_replies": 3
+      },
+      "群三": {
+        "run_key": "34759788869:1",
+        "checked_at": "2026-09-13 21:25:45",
+        "bot_user_id": 8755020155,
+        "confirmed_replies": 0
+      }
+    }
   },
   "owner_daily_lists": {
     "date": "2026-09-13",
@@ -890,23 +910,40 @@
           "message_id": 74118,
           "rule": "low_followers",
           "attempts": 2,
-          "attempted_at": "2026-09-13 17:30:50"
+          "attempted_at": "2026-09-13 17:30:50",
+          "text": "粉丝数量低于最低互推标准，该链接不予互推！",
+          "confirmation": "telegram_history",
+          "bot_user_id": 8755020155,
+          "telegram_reply_message_id": 74132,
+          "sent_at": "2026-09-13 17:15:41"
         },
         "74121:low_followers": {
           "status": "sent",
           "message_id": 74121,
           "rule": "low_followers",
           "attempts": 2,
-          "attempted_at": "2026-09-13 17:30:51"
+          "attempted_at": "2026-09-13 17:30:51",
+          "text": "粉丝数量低于最低互推标准，该链接不予互推！",
+          "confirmation": "telegram_history",
+          "bot_user_id": 8755020155,
+          "telegram_reply_message_id": 74133,
+          "sent_at": "2026-09-13 17:15:42"
         },
         "74125:low_followers": {
           "status": "sent",
           "message_id": 74125,
           "rule": "low_followers",
           "attempts": 2,
-          "attempted_at": "2026-09-13 17:30:52"
+          "attempted_at": "2026-09-13 17:30:52",
+          "text": "粉丝数量低于最低互推标准，该链接不予互推！",
+          "confirmation": "telegram_history",
+          "bot_user_id": 8755020155,
+          "telegram_reply_message_id": 74134,
+          "sent_at": "2026-09-13 17:15:42"
         }
-      }
+      },
+      "群一": {},
+      "群三": {}
     }
   }
 }

@@ -6828,7 +6828,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12244,
+        "followers_count": 12245,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -6996,6 +6996,22 @@
           {
             "source": "profile_v2",
             "count": 12244
+          },
+          {
+            "source": "status_v2",
+            "count": 12245
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12245
+          },
+          {
+            "source": "status_legacy",
+            "count": 12245
+          },
+          {
+            "source": "profile_v2",
+            "count": 12245
           }
         ],
         "check_followers_count": 186108,
@@ -7191,7 +7207,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12244,
+        "followers_count": 12245,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -7359,6 +7375,22 @@
           {
             "source": "profile_v2",
             "count": 12244
+          },
+          {
+            "source": "status_v2",
+            "count": 12245
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12245
+          },
+          {
+            "source": "status_legacy",
+            "count": 12245
+          },
+          {
+            "source": "profile_v2",
+            "count": 12245
           }
         ],
         "check_followers_count": 186108,
@@ -20915,7 +20947,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12244,
+        "followers_count": 12245,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -21083,6 +21115,22 @@
           {
             "source": "profile_v2",
             "count": 12244
+          },
+          {
+            "source": "status_v2",
+            "count": 12245
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12245
+          },
+          {
+            "source": "status_legacy",
+            "count": 12245
+          },
+          {
+            "source": "profile_v2",
+            "count": 12245
           }
         ],
         "check_followers_count": 186108,
@@ -27389,6 +27437,12 @@
         "74138": {
           "reason": "message_deleted_in_complete_snapshot",
           "confirmed_at": "2026-09-13 17:45:31"
+        }
+      },
+      "群三": {
+        "1990": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-09-13 18:45:29"
         }
       }
     }

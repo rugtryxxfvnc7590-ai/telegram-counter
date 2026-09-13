@@ -92,7 +92,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-13",
-    "run_at": "2026-09-13 18:45:28",
+    "run_at": "2026-09-13 19:01:04",
     "completed_groups": [
       "群一",
       "群二",
@@ -791,6 +791,53 @@
         "message_id": 2684,
         "owner_chat_id": "8614747348",
         "text": "群三（9月13日）互推名单，共 30 条\n\n1 https://x.com/cocoluhk/status/2097321339338318141\n\n2 https://x.com/aerolattic29965/status/2098975357638701108\n\n3 https://x.com/youmimilll/status/2099060323139608901\n\n4 https://x.com/samak44504824/status/2097953057233576407\n\n5 https://x.com/zz052177/status/2097953232975012000\n\n6 https://x.com/sm2022i/status/2097952846612414828\n\n7 https://x.com/mm075217/status/2097952448661119071\n\n8 https://x.com/blacksex999/status/2096508398770741325\n\n9 https://x.com/cicimo_oo/status/2099028340011319749\n\n10 https://x.com/xiaoyi3359/status/2098713106612383860\n\n11 https://x.com/mopomeeaii/status/2098965014233354264\n\n12 https://x.com/vinodsrt/status/2098961963254763882\n\n13 https://x.com/qiqitu777_/status/2098956144022831489\n\n14 https://x.com/bibo8891/status/2098909437499162984\n\n15 https://x.com/bo9685/status/2098908512483217427\n\n16 https://x.com/dajiejieuuya/status/2095749062016520548\n\n17 https://x.com/tankxm07/status/2098708147447935040\n\n18 https://x.com/xxyi09/status/2098854061579837463\n\n19 https://x.com/lolisdiary/status/2097361604182741001\n\n20 https://x.com/annebabysexxy/status/2098714459464511584\n\n21 https://x.com/chiirouo/status/2098697667966853374\n\n22 https://x.com/rogueyuyinqi/status/2098636099342217697\n\n23 https://x.com/miyaaiqiya11/status/2097605373008257140\n\n24 https://x.com/sweetyou02/status/2098765699296776241\n\n25 https://x.com/tuturc88/status/2097602908070240535\n\n26 https://x.com/xinshangye/status/2098912599262007506\n\n27 https://x.com/w92oowfi7q95161/status/2098916782249783319\n\n28 https://x.com/ykydf778/status/2098241189241868751\n\n29 https://x.com/lovelove131413/status/2098232207102054566\n\n30 https://x.com/1tbsvip/status/2095062209911226677"
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-09-13 19:01:11",
+        "count": 3,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [
+          "https://x.com/xiaowang0000001/status/2098689991702688221",
+          "https://x.com/tvtvir/status/2098678046190633085",
+          "https://x.com/yzlzp77/status/2085158793932071149"
+        ],
+        "slots": [
+          {
+            "handle": "xiaowang0000001",
+            "post_id": "2098689991702688221",
+            "original_post_id": "2098689991702688221",
+            "url": "https://x.com/xiaowang0000001/status/2098689991702688221",
+            "edited": false,
+            "message_id": "74119",
+            "tg_user_id": "5718822279",
+            "time": "2026-09-13 00:25:06"
+          },
+          {
+            "handle": "tvtvir",
+            "post_id": "2098678046190633085",
+            "original_post_id": "2098678046190633085",
+            "url": "https://x.com/tvtvir/status/2098678046190633085",
+            "edited": false,
+            "message_id": "74117",
+            "tg_user_id": "6555223935",
+            "time": "2026-09-13 00:00:44"
+          },
+          {
+            "handle": "yzlzp77",
+            "post_id": "2085158793932071149",
+            "original_post_id": "2085158793932071149",
+            "url": "https://x.com/yzlzp77/status/2085158793932071149",
+            "edited": false,
+            "message_id": "74116",
+            "tg_user_id": "7382134028",
+            "time": "2026-09-13 00:00:36"
+          }
+        ],
+        "message_id": 2685,
+        "owner_chat_id": "8614747348",
+        "text": "群二（9月13日）互推名单，共 3 条\n\n1 https://x.com/xiaowang0000001/status/2098689991702688221\n\n2 https://x.com/tvtvir/status/2098678046190633085\n\n3 https://x.com/yzlzp77/status/2085158793932071149"
       }
     }
   },

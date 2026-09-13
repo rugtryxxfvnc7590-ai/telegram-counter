@@ -6593,7 +6593,9 @@
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -6608,6 +6610,16 @@
           },
           {
             "source": "status_legacy",
+            "length": 107,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 107,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
             "length": 107,
             "required_mentions_count": 3
           }
@@ -6724,7 +6736,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12109,
+        "followers_count": 12120,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -6748,6 +6760,22 @@
           {
             "source": "profile_v2",
             "count": 12109
+          },
+          {
+            "source": "status_v2",
+            "count": 12120
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12120
+          },
+          {
+            "source": "status_legacy",
+            "count": 12120
+          },
+          {
+            "source": "profile_v2",
+            "count": 12120
           }
         ],
         "check_followers_count": 12109,
@@ -6776,11 +6804,13 @@
             "count": 12109
           }
         ],
-        "tweet_text": "侦探事务所第二期：嫖客Vlog\n         本期事务所第二期带大家探密楼风玩法以及咯咯哒质量下面由战地记者小飞飞带来的一线报道\n         本期女主咯咯哒是一位大学生兼职现在开学估计不会怎么做了也是我们侦探的老相好",
+        "tweet_text": "侦探事务所第二期：嫖客Vlog\n         本期事务所第二期带大家探密楼风玩法以及咯咯哒质量下面由战地记者小飞飞带来的一线报道\n         本期女主咯咯哒是一位大学生兼职现在开学估计不会怎么做了也是我们侦探的老相好\n我们侦探恶趣味满满中途摘套直接内射不知道以后会给哪个老实人接盘（这是谁的女儿以后谁的妻子）侦探最后还给大家带来面部特写有认识女主的可以在评论区留言\n\n完整版将在内群更新\n\nps：女大学生还是很敬业的不说停一直给你口\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -6797,11 +6827,21 @@
             "source": "status_legacy",
             "length": 113,
             "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 257,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 257,
+            "required_mentions_count": 3
           }
         ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 0,
-        "content_eligible": false,
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
         "promo_url": "https://x.com/xiaowang0000001/status/2098689991702688221?s=46",
         "check_url": "https://x.com/xiaowang0000001/status/2098689991702688221?s=46",
         "promo_post_id": "2098689991702688221",
@@ -6814,7 +6854,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 12109,
+        "qualified_followers_count": 12120,
         "qualified_followers_text": "1.2W",
         "qualified_followers_sources": [
           "status_v2",
@@ -6823,8 +6863,8 @@
           "profile_v2"
         ],
         "mutual_eligible": false,
-        "eligibility_text": "❌缺少指定@ / ❌粉丝不足",
-        "ineligible_reason": "missing_required_mentions,followers_below_minimum",
+        "eligibility_text": "❌粉丝不足",
+        "ineligible_reason": "followers_below_minimum",
         "daily_list_rank": 0,
         "daily_list_status": "ineligible"
       },
@@ -6967,7 +7007,9 @@
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -6982,6 +7024,16 @@
           },
           {
             "source": "status_legacy",
+            "length": 85,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 85,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
             "length": 85,
             "required_mentions_count": 4
           }
@@ -9836,8 +9888,8 @@
             "edit_time": ""
           }
         ],
-        "x_name": "",
-        "promo_name": "",
+        "x_name": "Mo",
+        "promo_name": "Mo",
         "followers_count": "",
         "followers_text": "",
         "followers_sources": [],
@@ -9846,12 +9898,26 @@
         "check_followers_text": "",
         "check_followers_sources": [],
         "check_followers_observations": [],
-        "tweet_text": "",
-        "tweet_text_sources": [],
-        "tweet_text_observations": [],
-        "tweet_text_primary_source": "",
-        "required_mentions_count": "",
-        "content_eligible": null,
+        "tweet_text": "早上的馒头应该很新鲜吧                                            @ToBuerma\n\n@ToBulaer\n\n@KawasawaSen",
+        "tweet_text_sources": [
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "vx_status_v2",
+            "length": 89,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 89,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
         "promo_url": "https://x.com/bo9685/status/2098908512483217427?s=46",
         "check_url": "https://x.com/bo9685/status/2098908512483217427?s=46",
         "promo_post_id": "2098908512483217427",
@@ -9865,7 +9931,7 @@
         "edit_time": "",
         "followers_min": 0,
         "mutual_eligible": true,
-        "eligibility_text": "待确认",
+        "eligibility_text": "✅合格",
         "daily_list_rank": 16,
         "daily_list_status": "accepted"
       },
@@ -17394,7 +17460,9 @@
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -17409,6 +17477,16 @@
           },
           {
             "source": "status_legacy",
+            "length": 107,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 107,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
             "length": 107,
             "required_mentions_count": 3
           }
@@ -17525,7 +17603,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12109,
+        "followers_count": 12120,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -17549,6 +17627,22 @@
           {
             "source": "profile_v2",
             "count": 12109
+          },
+          {
+            "source": "status_v2",
+            "count": 12120
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12120
+          },
+          {
+            "source": "status_legacy",
+            "count": 12120
+          },
+          {
+            "source": "profile_v2",
+            "count": 12120
           }
         ],
         "check_followers_count": 12109,
@@ -17577,11 +17671,13 @@
             "count": 12109
           }
         ],
-        "tweet_text": "侦探事务所第二期：嫖客Vlog\n         本期事务所第二期带大家探密楼风玩法以及咯咯哒质量下面由战地记者小飞飞带来的一线报道\n         本期女主咯咯哒是一位大学生兼职现在开学估计不会怎么做了也是我们侦探的老相好",
+        "tweet_text": "侦探事务所第二期：嫖客Vlog\n         本期事务所第二期带大家探密楼风玩法以及咯咯哒质量下面由战地记者小飞飞带来的一线报道\n         本期女主咯咯哒是一位大学生兼职现在开学估计不会怎么做了也是我们侦探的老相好\n我们侦探恶趣味满满中途摘套直接内射不知道以后会给哪个老实人接盘（这是谁的女儿以后谁的妻子）侦探最后还给大家带来面部特写有认识女主的可以在评论区留言\n\n完整版将在内群更新\n\nps：女大学生还是很敬业的不说停一直给你口\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -17598,11 +17694,21 @@
             "source": "status_legacy",
             "length": 113,
             "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 257,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 257,
+            "required_mentions_count": 3
           }
         ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 0,
-        "content_eligible": false,
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
         "promo_url": "https://x.com/xiaowang0000001/status/2098689991702688221?s=46",
         "check_url": "https://x.com/xiaowang0000001/status/2098689991702688221?s=46",
         "promo_post_id": "2098689991702688221",
@@ -17615,7 +17721,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 12109,
+        "qualified_followers_count": 12120,
         "qualified_followers_text": "1.2W",
         "qualified_followers_sources": [
           "status_v2",
@@ -17624,8 +17730,8 @@
           "profile_v2"
         ],
         "mutual_eligible": false,
-        "eligibility_text": "❌缺少指定@ / ❌粉丝不足",
-        "ineligible_reason": "missing_required_mentions,followers_below_minimum",
+        "eligibility_text": "❌粉丝不足",
+        "ineligible_reason": "followers_below_minimum",
         "daily_list_rank": 0,
         "daily_list_status": "ineligible"
       },
@@ -17768,7 +17874,9 @@
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -17783,6 +17891,16 @@
           },
           {
             "source": "status_legacy",
+            "length": 85,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 85,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
             "length": 85,
             "required_mentions_count": 4
           }
@@ -20637,8 +20755,8 @@
             "edit_time": ""
           }
         ],
-        "x_name": "",
-        "promo_name": "",
+        "x_name": "Mo",
+        "promo_name": "Mo",
         "followers_count": "",
         "followers_text": "",
         "followers_sources": [],
@@ -20647,12 +20765,26 @@
         "check_followers_text": "",
         "check_followers_sources": [],
         "check_followers_observations": [],
-        "tweet_text": "",
-        "tweet_text_sources": [],
-        "tweet_text_observations": [],
-        "tweet_text_primary_source": "",
-        "required_mentions_count": "",
-        "content_eligible": null,
+        "tweet_text": "早上的馒头应该很新鲜吧                                            @ToBuerma\n\n@ToBulaer\n\n@KawasawaSen",
+        "tweet_text_sources": [
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "vx_status_v2",
+            "length": 89,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 89,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
         "promo_url": "https://x.com/bo9685/status/2098908512483217427?s=46",
         "check_url": "https://x.com/bo9685/status/2098908512483217427?s=46",
         "promo_post_id": "2098908512483217427",
@@ -20666,7 +20798,7 @@
         "edit_time": "",
         "followers_min": 0,
         "mutual_eligible": true,
-        "eligibility_text": "待确认",
+        "eligibility_text": "✅合格",
         "daily_list_rank": 16,
         "daily_list_status": "accepted"
       },

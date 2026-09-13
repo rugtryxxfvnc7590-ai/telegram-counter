@@ -20,6 +20,7 @@ from main import (
     parse_check_handle_from_handles,
     record_link,
     record_post_only,
+    reply_account_check_enabled,
     save_registry,
     save_state,
 )
@@ -69,6 +70,20 @@ def _snapshot_has_only_post_links(snapshot):
         and contains_x_post_link((entry or {}).get("promo_url") or "")
         for _, entry in rows
     )
+
+
+def _snapshot_keeps_return_profile(rows, text, chat_id):
+    if not reply_account_check_enabled(chat_id):
+        return True
+    # Use the same parser without X requests to detect the old stripped-profile cache.
+    links = extract_x_links_ordered(text, allow_profile_check=True, resolve_metadata=False)
+    profile = next((link for link in links if link["role"] == "check" and not link["post_id"]), None)
+    if not profile:
+        return True
+    return all(entry.get("check_url") == profile["url"]
+               and str(entry.get("check_handle") or "").lower() == profile["handle"]
+               and bool(entry.get("dual_link")) == (str(entry.get("promo_handle") or "").lower() != profile["handle"])
+               for _, entry in rows)
 
 
 def replace_group_snapshot(registry, state, chat_id, messages, day, now=None):
@@ -126,6 +141,7 @@ def _replace_group_snapshot(registry, state, chat_id, messages, day):
             old_rows
             and _snapshot_has_only_post_links(old_snapshot)
             and all(str(entry.get("message_text") or "") == text for _, entry in old_rows)
+            and _snapshot_keeps_return_profile(old_rows, text, chat_id)
         ):
             for key, entry in old_snapshot.get("entries") or []:
                 registry["entries"][chat_id][key] = entry
@@ -135,7 +151,7 @@ def _replace_group_snapshot(registry, state, chat_id, messages, day):
             group_state["message_ids"].append(str(message_id))
             matched += 1
             continue
-        links = extract_x_links_ordered(text)
+        links = extract_x_links_ordered(text, allow_profile_check=reply_account_check_enabled(chat_id))
         handles = handles_from_links(links)
         check_handle, dual_link, promo_handle = parse_check_handle_from_handles(handles)
         previous_entries = previous.get(str(message_id), [])

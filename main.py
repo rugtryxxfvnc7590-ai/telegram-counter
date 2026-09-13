@@ -825,7 +825,7 @@ def contains_x_post_link(text):
     return any(_status_id_from_x_url(m.group(0)) for m in X_URL_RE.finditer(text or ""))
 
 
-def extract_x_links_ordered(text, allow_profile_check=False):
+def extract_x_links_ordered(text, allow_profile_check=False, resolve_metadata=True):
     links = []
     seen_urls = set()
     for m in X_URL_RE.finditer(text or ""):
@@ -834,7 +834,8 @@ def extract_x_links_ordered(text, allow_profile_check=False):
         if url in seen_urls:
             continue
         seen_urls.add(url)
-        handle = _handle_from_x_url(url) if post_id else ""
+        handle = (_handle_from_x_url(url) if post_id
+                  and (resolve_metadata or not I_STATUS_RE.search(url)) else "")
         if not post_id:
             profile_match = X_PROFILE_URL_RE.fullmatch(url)
             profile_handle = profile_match.group(1).lstrip("@").lower() if profile_match else ""
@@ -854,7 +855,8 @@ def extract_x_links_ordered(text, allow_profile_check=False):
             "post_id": post_id,
             "role": "",
         })
-        meta = fetch_x_author_meta(url, handle=links[-1]["handle"], post_id=links[-1]["post_id"])
+        meta = (fetch_x_author_meta(url, handle=links[-1]["handle"], post_id=links[-1]["post_id"])
+                if resolve_metadata else {})
         if meta:
             links[-1]["author_name"] = meta.get("name", "")
             links[-1]["followers_count"] = meta.get("followers_count", "")

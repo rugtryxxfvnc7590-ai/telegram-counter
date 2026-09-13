@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "offset": 364614817,
+  "offset": 364614820,
   "groups": {
     "-1003891628675": {
       "count": 31,
@@ -39,13 +39,17 @@
       ]
     },
     "-1003218974409": {
-      "count": 5,
+      "count": 6,
       "message_ids": [
         "74116",
         "74117",
         "74118",
         "74119",
-        "74121"
+        "74121",
+        "74125"
+      ],
+      "reply_keys": [
+        "74125:low_followers"
       ]
     },
     "-1003739822194": {
@@ -79,7 +83,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-13",
-    "run_at": "2026-09-13 15:30:46",
+    "run_at": "2026-09-13 15:45:38",
     "completed_groups": [
       "群一",
       "群二",
@@ -118,7 +122,7 @@
           "https://x.com/lazypiggy850/status/2085284595612971360",
           "https://x.com/sleepsbg/status/2095539898090651722",
           "https://x.com/sluttytatia404/status/2098755170507297230",
-          "https://x.com/qitian1110/status/2093598675796893920",
+          "https://x.com/qitian1110/status/2099038378511769920",
           "https://x.com/cattyllo023/status/2098326280219262990",
           "https://x.com/hong14868/status/2098256590201553133",
           "https://x.com/svj798ds/status/2097324081804612027",
@@ -350,13 +354,14 @@
           },
           {
             "handle": "qitian1110",
-            "post_id": "2093598675796893920",
+            "post_id": "2099038378511769920",
             "original_post_id": "2093598675796893920",
-            "url": "https://x.com/qitian1110/status/2093598675796893920",
-            "edited": false,
+            "url": "https://x.com/qitian1110/status/2099038378511769920",
+            "edited": true,
             "message_id": "7605",
             "tg_user_id": "6384787643",
-            "time": "2026-09-13 00:00:00"
+            "time": "2026-09-13 00:00:00",
+            "edit_time": "2026-09-13 15:32:34"
           },
           {
             "handle": "cattyllo023",
@@ -431,7 +436,8 @@
         ],
         "message_id": 2662,
         "owner_chat_id": "8614747348",
-        "text": "群一（9月13日）互推名单，共 30 条\n\n1 https://x.com/xiao16877/status/2098041563175874999\n\n2 https://x.com/shoojeenn/status/2097220897769984343\n\n3 https://x.com/laibeinaixiba/status/2094246628693868572\n\n4 https://x.com/joragyyy/status/2098810318101364867\n\n5 https://x.com/xiaochen000007/status/2096145336901550438\n\n6 https://x.com/youmeier/status/2098735887832231941\n\n7 https://x.com/pty0808/status/2098753938925166599\n\n8 https://x.com/qbln9999/status/2098781227939684707\n\n9 https://x.com/shixiaotaone/status/2097621891683061823\n\n10 https://x.com/jiojioyishujia1/status/2098715673023418409\n\n11 https://x.com/shixiaotaon/status/2098346524791169281\n\n12 https://x.com/kuqiqiii_owo/status/2063917940743786522\n\n13 https://x.com/hanzuzong3/status/2098444003540881749\n\n14 https://x.com/jxzeroc/status/2050643478854660558\n\n15 https://x.com/aksaks99999/status/2094773822570274834\n\n16 https://x.com/libalababy/status/2088566401787408615\n\n17 https://x.com/lris_intj/status/2097596391979675867\n\n18 https://x.com/xiaoqiaots/status/2098712298542305614\n\n19 https://x.com/bob7078/status/2098074559991947389\n\n20 https://x.com/lazypiggy850/status/2085284595612971360\n\n21 https://x.com/sleepsbg/status/2095539898090651722\n\n22 https://x.com/sluttytatia404/status/2098755170507297230\n\n23 https://x.com/qitian1110/status/2093598675796893920\n\n24 https://x.com/cattyllo023/status/2098326280219262990\n\n25 https://x.com/hong14868/status/2098256590201553133\n\n26 https://x.com/svj798ds/status/2097324081804612027\n\n27 https://x.com/nancyyzp/status/2097912009618866482\n\n28 https://x.com/snd99x/status/2098329473385197995\n\n29 https://x.com/tiaotiaosheep/status/2098611456942243983\n\n30 https://x.com/xiuchiluchu910/status/2097183668603064371"
+        "text": "群一（9月13日）互推名单，共 30 条\n\n1 https://x.com/xiao16877/status/2098041563175874999\n\n2 https://x.com/shoojeenn/status/2097220897769984343\n\n3 https://x.com/laibeinaixiba/status/2094246628693868572\n\n4 https://x.com/joragyyy/status/2098810318101364867\n\n5 https://x.com/xiaochen000007/status/2096145336901550438\n\n6 https://x.com/youmeier/status/2098735887832231941\n\n7 https://x.com/pty0808/status/2098753938925166599\n\n8 https://x.com/qbln9999/status/2098781227939684707\n\n9 https://x.com/shixiaotaone/status/2097621891683061823\n\n10 https://x.com/jiojioyishujia1/status/2098715673023418409\n\n11 https://x.com/shixiaotaon/status/2098346524791169281\n\n12 https://x.com/kuqiqiii_owo/status/2063917940743786522\n\n13 https://x.com/hanzuzong3/status/2098444003540881749\n\n14 https://x.com/jxzeroc/status/2050643478854660558\n\n15 https://x.com/aksaks99999/status/2094773822570274834\n\n16 https://x.com/libalababy/status/2088566401787408615\n\n17 https://x.com/lris_intj/status/2097596391979675867\n\n18 https://x.com/xiaoqiaots/status/2098712298542305614\n\n19 https://x.com/bob7078/status/2098074559991947389\n\n20 https://x.com/lazypiggy850/status/2085284595612971360\n\n21 https://x.com/sleepsbg/status/2095539898090651722\n\n22 https://x.com/sluttytatia404/status/2098755170507297230\n\n已编辑 23 https://x.com/qitian1110/status/2099038378511769920\n\n24 https://x.com/cattyllo023/status/2098326280219262990\n\n25 https://x.com/hong14868/status/2098256590201553133\n\n26 https://x.com/svj798ds/status/2097324081804612027\n\n27 https://x.com/nancyyzp/status/2097912009618866482\n\n28 https://x.com/snd99x/status/2098329473385197995\n\n29 https://x.com/tiaotiaosheep/status/2098611456942243983\n\n30 https://x.com/xiuchiluchu910/status/2097183668603064371",
+        "updated_at": "2026-09-13 15:45:45"
       }
     }
   },
@@ -454,7 +460,15 @@
   "edited_link_receipts": {
     "date": "2026-09-13",
     "groups": {
-      "群一": {},
+      "群一": {
+        "7605": {
+          "key": "7605:2099038378511769920:2026-09-13 15:32:34:synced",
+          "post_id": "2099038378511769920",
+          "outcome": "synced",
+          "retained_post_id": "2099038378511769920",
+          "sent_at": "2026-09-13 15:45:46"
+        }
+      },
       "群二": {},
       "群三": {}
     }

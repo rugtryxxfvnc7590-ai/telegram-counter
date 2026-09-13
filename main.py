@@ -1474,13 +1474,22 @@ def backfill_registry_metadata(registry):
 
 
 def reply_to_message(chat_id, message_id, text):
+    if not BOT_TOKEN:
+        return False
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    payload = {"chat_id": chat_id, "text": text, "reply_to_message_id": message_id}
+    payload = {"chat_id": chat_id, "text": text, "reply_to_message_id": message_id,
+               "allow_sending_without_reply": False}
     try:
         r = requests.post(url, json=payload, timeout=10)
-        print(f"群内回复状态: {r.status_code} | 消息ID: {message_id}")
+        data = r.json()
+        ok = r.status_code == 200 and data.get("ok") is True
+        description = str(data.get("description") or "").replace(BOT_TOKEN, "[redacted]")[:300]
+        print(f"群内回复状态: {r.status_code} | 群: {chat_id} | 消息ID: {message_id} | 成功: {ok} | {description}")
+        return ok
     except Exception as e:
-        print(f"回复异常: {e}")
+        # Request exceptions can contain the token-bearing URL.
+        print(f"群内回复异常: {type(e).__name__} | 群: {chat_id} | 消息ID: {message_id}")
+        return False
 
 
 def reply_to_message_once(group_state, chat_id, message_id, reason, text, save_callback=None):
@@ -1488,16 +1497,17 @@ def reply_to_message_once(group_state, chat_id, message_id, reason, text, save_c
     sent = set(group_state.get("reply_keys") or [])
     if key in sent:
         return False
+    if not reply_to_message(chat_id, message_id, text):
+        return False
     group_state["reply_keys"] = _bounded_list_append(group_state.get("reply_keys"), key, limit=800)
-    if save_callback:
-        save_callback()
-    reply_to_message(chat_id, message_id, text)
     if save_callback:
         save_callback()
     return True
 
 
 def main():
+    from violation_delivery import deliver_violation_reply
+
     chat_ids = load_chat_ids()
     if not chat_ids:
         print("❌ 没读到任何群 ID，请检查 TELEGRAM_CHAT_ID Secret")
@@ -1632,14 +1642,14 @@ def main():
                 and promo_link_below_minimum(links, actual_chat_id)
                 and reply_rule_enabled(reply_rules, "low_followers", actual_chat_id)
             ):
-                reply_to_message_once(grp, actual_chat_id, message_id, "low_followers", reply_rule_text(reply_rules, "low_followers"), save_callback=lambda: save_state(state))
+                deliver_violation_reply(state, actual_chat_id, message_id, "low_followers", reply_rules, save_callback=lambda: save_state(state))
             elif (
                 violation_reply_allowed(msg["date"])
                 and not edit_reply_deferred
                 and promo_link_missing_required_mentions(links)
                 and reply_rule_enabled(reply_rules, "missing_mentions", actual_chat_id)
             ):
-                reply_to_message_once(grp, actual_chat_id, message_id, "missing_mentions", reply_rule_text(reply_rules, "missing_mentions"), save_callback=lambda: save_state(state))
+                deliver_violation_reply(state, actual_chat_id, message_id, "missing_mentions", reply_rules, save_callback=lambda: save_state(state))
 
         enriched = backfill_registry_metadata(registry)
         if enriched:

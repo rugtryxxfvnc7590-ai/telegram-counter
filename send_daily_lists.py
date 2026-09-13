@@ -5,6 +5,7 @@ from main import BEIJING, load_daily_limits, load_registry, load_state, save_reg
 from capacity_delivery import process_capacity_replies, send_capacity_reply
 from edited_link_receipts import process_edited_link_receipts
 from daily_capacity import stamp_admission
+from violation_delivery import process_violation_replies
 
 
 def main():
@@ -29,6 +30,7 @@ def main():
         save_callback=lambda: save_state(state),
     )
     process_capacity_replies(registry, state, limits=limits, save_callback=lambda: save_state(state))
+    process_violation_replies(registry, state, save_callback=lambda: save_state(state))
     save_state(state)
     return 0
 

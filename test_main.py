@@ -824,11 +824,15 @@ class LinkParsingTest(unittest.TestCase):
         self.assertFalse(promo_link_missing_required_mentions(links))
         self.assertIsNone(main.promo_link_content_eligible(links))
 
-    def test_reply_to_message_once_marks_before_send_and_saves(self):
+    def test_reply_to_message_once_marks_only_after_success_and_saves(self):
         group_state = {}
         calls = []
         saves = []
-        with patch("main.reply_to_message", lambda *args: calls.append(args)):
+        def send(*args):
+            self.assertNotIn("456:missing_mentions", group_state.get("reply_keys") or [])
+            calls.append(args)
+            return True
+        with patch("main.reply_to_message", side_effect=send):
             self.assertTrue(reply_to_message_once(group_state, "-1001", 456, "missing_mentions", "bad", save_callback=lambda: saves.append(True)))
             self.assertFalse(reply_to_message_once(group_state, "-1001", 456, "missing_mentions", "bad", save_callback=lambda: saves.append(True)))
         self.assertEqual(len(calls), 1)

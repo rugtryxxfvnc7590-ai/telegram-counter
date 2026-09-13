@@ -201,6 +201,7 @@ async def _today_messages(client, entity, day_start_utc):
         sender = await message.get_sender()
         messages.append({
             "message_id": message.id,
+            "reply_to_message_id": getattr(message, "reply_to_msg_id", None),
             "date": int(message_date.timestamp()),
             "edit_date": int(message.edit_date.timestamp()) if message.edit_date else None,
             "text": message.raw_text or "",
@@ -209,6 +210,7 @@ async def _today_messages(client, entity, day_start_utc):
                 "username": getattr(sender, "username", "") or "",
                 "first_name": getattr(sender, "first_name", "") or "",
                 "last_name": getattr(sender, "last_name", "") or "",
+                "is_bot": bool(getattr(sender, "bot", False)),
             },
         })
     if len(messages) >= HISTORY_LIMIT and not reached_previous_day:
@@ -217,6 +219,9 @@ async def _today_messages(client, entity, day_start_utc):
 
 
 async def async_main():
+    from main import load_reply_rules
+    from violation_delivery import recover_violation_replies, verified_reply_bot_id
+
     if not deletion_sync_enabled():
         print("今日群消息补齐：未配置 Telegram 用户会话，跳过。")
         return 0
@@ -237,6 +242,8 @@ async def async_main():
         "run_at": now.strftime("%Y-%m-%d %H:%M:%S"),
         "completed_groups": [],
     }
+    bot_id = verified_reply_bot_id()
+    reply_rules = load_reply_rules()
     api_id = int(_env_value("TELEGRAM_API_ID"))
     client = TelegramClient(StringSession(_string_session()), api_id, _env_value("TELEGRAM_API_HASH"))
 
@@ -247,6 +254,7 @@ async def async_main():
                 entity = await _resolve_entity(client, chat_id)
                 messages = await _today_messages(client, entity, day_start)
                 matched = replace_group_snapshot(registry, state, chat_id, messages, day, now=datetime.now(BEIJING))
+                recover_violation_replies(state, chat_id, messages, bot_id, reply_rules, now=datetime.now(BEIJING))
             except Exception as exc:
                 print(f"今日群消息补齐：群 {chat_id} 核查失败，保留原数据：{exc}")
                 continue

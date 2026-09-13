@@ -8,7 +8,7 @@ from unittest.mock import patch
 
 sys.modules.setdefault("requests", ModuleType("requests"))
 import main
-from violation_delivery import deliver_violation_reply, process_violation_replies
+from violation_delivery import deliver_violation_reply, process_violation_replies, receipt_run_key
 
 
 DAY = "2026-09-13"
@@ -38,6 +38,9 @@ class ViolationDeliveryTests(unittest.TestCase):
     def setUp(self):
         self.state = {"date": DAY, "groups": {}, "group_snapshot_sync": {
             "date": DAY, "completed_groups": ["群一", "群二", "群三"],
+            "violation_receipt_groups": {group: {"run_key": receipt_run_key(),
+                "checked_at": DAY + " 12:00:00", "bot_user_id": 900}
+                for group in ("群一", "群二", "群三")},
         }}
         self.registry = {"date": DAY, "post_entries": {GROUP2: {"101": entry()}}}
         self.rules = deepcopy(main.DEFAULT_REPLY_RULES)
@@ -47,8 +50,11 @@ class ViolationDeliveryTests(unittest.TestCase):
         self.addCleanup(self.sender.stop)
 
     def run_replies(self, **kwargs):
+        now = kwargs.pop("now", at(12))
+        for receipt in self.state["group_snapshot_sync"]["violation_receipt_groups"].values():
+            receipt["checked_at"] = now.strftime("%Y-%m-%d %H:%M:%S")
         return process_violation_replies(self.registry, self.state, rules=self.rules,
-                                         now=kwargs.pop("now", at(12)), **kwargs)
+                                         now=now, **kwargs)
 
     def test_snapshot_only_message_uses_existing_custom_rule_once(self):
         self.assertEqual(list(self.run_replies().values()), ["sent"])
@@ -127,6 +133,7 @@ class ViolationDeliveryTests(unittest.TestCase):
 
     def test_send_time_rechecked_for_each_message(self):
         self.registry["post_entries"][GROUP2]["102"] = entry(2)
+        self.state["group_snapshot_sync"]["violation_receipt_groups"]["群二"]["checked_at"] = DAY + " 18:59:00"
         with patch("violation_delivery._now", side_effect=[at(18, 59), at(18, 59), at(18, 59), at(19)]):
             process_violation_replies(self.registry, self.state, rules=self.rules)
         self.send.assert_called_once()

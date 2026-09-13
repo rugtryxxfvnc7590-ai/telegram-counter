@@ -52,30 +52,33 @@ def freeze_links(links, registry, chat_ids, day):
     return slots
 
 
+def matching_edit_rows(slot, rows, day, now_text):
+    if not slot.get("message_id"):
+        return
+    for row in rows:
+        entry = row["entry"]
+        if (row["handle"] != slot["handle"] or row["message_id"] != slot["message_id"]
+                or row["time"] != slot.get("time")
+                or (slot.get("tg_user_id") and row["tg_user_id"] != slot["tg_user_id"])):
+            continue
+        edit_time = str(entry.get("edit_time") or "")
+        try:
+            datetime.strptime(edit_time, "%Y-%m-%d %H:%M:%S")
+        except ValueError:
+            continue
+        if (not entry.get("edited") or edit_time[:10] != day or edit_time > now_text
+                or edit_time < slot.get("edit_time", "")):
+            continue
+        yield row, edit_time
+
+
 def edited_slots(slots, registry, chat_ids, day, now_text):
     rows = current_rows(registry, chat_ids, day)
     updated = deepcopy(slots)
     for slot in updated:
-        if not slot.get("message_id"):
-            continue
-        matches = []
-        for row in rows:
-            entry = row["entry"]
-            if (row["handle"] != slot["handle"] or row["message_id"] != slot["message_id"]
-                    or row["time"] != slot.get("time")
-                    or (slot.get("tg_user_id") and row["tg_user_id"] != slot["tg_user_id"])):
-                continue
-            if entry.get("mutual_eligible") is not True or entry.get("after_cutoff"):
-                continue
-            edit_time = str(entry.get("edit_time") or "")
-            try:
-                datetime.strptime(edit_time, "%Y-%m-%d %H:%M:%S")
-            except ValueError:
-                continue
-            if (not entry.get("edited") or edit_time[:10] != day or edit_time > now_text
-                    or edit_time < slot.get("edit_time", "")):
-                continue
-            matches.append((edit_time, row["post_id"], row["url"]))
+        matches = [(edit_time, row["post_id"], row["url"])
+                   for row, edit_time in matching_edit_rows(slot, rows, day, now_text)
+                   if row["entry"].get("mutual_eligible") is True and not row["entry"].get("after_cutoff")]
         if not matches:
             continue
         latest_time = max(item[0] for item in matches)

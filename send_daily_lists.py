@@ -2,7 +2,8 @@ from datetime import datetime
 import os
 from pathlib import Path
 from main import BEIJING, load_daily_limits, load_registry, load_state, save_registry, save_state, send_daily_lists_to_owner
-from capacity_delivery import process_capacity_replies
+from capacity_delivery import process_capacity_replies, send_capacity_reply
+from edited_link_receipts import process_edited_link_receipts
 from daily_capacity import stamp_admission
 
 
@@ -21,6 +22,11 @@ def main():
         limits=limits,
         save_callback=lambda: save_state(state),
         replace_legacy_groups=legacy_reissue_groups(),
+    )
+    process_edited_link_receipts(
+        registry, state, send_reply=send_capacity_reply,
+        owner_chat_id=os.getenv("TELEGRAM_OWNER_CHAT_ID", ""),
+        save_callback=lambda: save_state(state),
     )
     process_capacity_replies(registry, state, limits=limits, save_callback=lambda: save_state(state))
     save_state(state)

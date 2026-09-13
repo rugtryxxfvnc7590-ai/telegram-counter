@@ -10,6 +10,7 @@ from daily_capacity import (
     admitted_rows, capacity_template, group_for_chat, normalize_daily_limits,
 )
 from private_list_sync import edited_slots, freeze_links
+from edited_link_receipts import defer_edited_link_reply
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
 STATE_FILE = "state.json"
@@ -1600,14 +1601,17 @@ def main():
                     extra += " | 19:00后超时链接"
                 print(f"   📝 收录 @{handle} ← {tg_tag}{extra}")
 
+            edit_reply_deferred = defer_edited_link_reply(registry, state, actual_chat_id, message_id)
             if (
                 violation_reply_allowed(msg["date"])
+                and not edit_reply_deferred
                 and promo_link_below_minimum(links, actual_chat_id)
                 and reply_rule_enabled(reply_rules, "low_followers", actual_chat_id)
             ):
                 reply_to_message_once(grp, actual_chat_id, message_id, "low_followers", reply_rule_text(reply_rules, "low_followers"), save_callback=lambda: save_state(state))
             elif (
                 violation_reply_allowed(msg["date"])
+                and not edit_reply_deferred
                 and promo_link_missing_required_mentions(links)
                 and reply_rule_enabled(reply_rules, "missing_mentions", actual_chat_id)
             ):

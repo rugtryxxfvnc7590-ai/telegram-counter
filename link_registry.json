@@ -6828,7 +6828,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12237,
+        "followers_count": 12239,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -6932,6 +6932,22 @@
           {
             "source": "profile_v2",
             "count": 12237
+          },
+          {
+            "source": "status_v2",
+            "count": 12239
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12239
+          },
+          {
+            "source": "status_legacy",
+            "count": 12239
+          },
+          {
+            "source": "profile_v2",
+            "count": 12239
           }
         ],
         "check_followers_count": 186108,
@@ -7127,7 +7143,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12237,
+        "followers_count": 12239,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -7231,6 +7247,22 @@
           {
             "source": "profile_v2",
             "count": 12237
+          },
+          {
+            "source": "status_v2",
+            "count": 12239
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12239
+          },
+          {
+            "source": "status_legacy",
+            "count": 12239
+          },
+          {
+            "source": "profile_v2",
+            "count": 12239
           }
         ],
         "check_followers_count": 186108,
@@ -13745,6 +13777,216 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "daily_list_rank": 29,
+        "daily_list_status": "accepted"
+      },
+      "cocoluhk": {
+        "x_handle": "cocoluhk",
+        "check_handle": "cocoluhk",
+        "dual_link": false,
+        "promo_handle": "cocoluhk",
+        "tg_username": "HKcocoLU",
+        "tg_user_id": 5820965161,
+        "tg_name": "coco",
+        "link": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "message_text": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+            "handle": "cocoluhk",
+            "post_id": "2097321339338318141",
+            "role": "promo",
+            "author_name": "coco在深圳",
+            "followers_count": 3081,
+            "followers_text": "3K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 3081
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 3081
+              },
+              {
+                "source": "status_legacy",
+                "count": 3081
+              },
+              {
+                "source": "profile_v2",
+                "count": 3081
+              }
+            ],
+            "tweet_text": "你有故事吗？我有酒🍷约起来🥰\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 48,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+            "post_id": "2097321339338318141",
+            "handle": "cocoluhk",
+            "source_time": "2026-09-13 17:57:15",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "coco在深圳",
+        "promo_name": "coco在深圳",
+        "followers_count": 3081,
+        "followers_text": "3K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3081
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3081
+          },
+          {
+            "source": "status_legacy",
+            "count": 3081
+          },
+          {
+            "source": "profile_v2",
+            "count": 3081
+          }
+        ],
+        "check_followers_count": 3081,
+        "check_followers_text": "3K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3081
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3081
+          },
+          {
+            "source": "status_legacy",
+            "count": 3081
+          },
+          {
+            "source": "profile_v2",
+            "count": 3081
+          }
+        ],
+        "tweet_text": "你有故事吗？我有酒🍷约起来🥰\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 48,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "check_url": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "promo_post_id": "2097321339338318141",
+        "check_post_id": "2097321339338318141",
+        "chat_id": "-1003739822194",
+        "message_id": 1986,
+        "time": "2026-09-13 17:57:15",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 3081,
+        "qualified_followers_text": "3K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 30,
         "daily_list_status": "accepted"
       }
     }
@@ -20577,7 +20819,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12237,
+        "followers_count": 12239,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -20681,6 +20923,22 @@
           {
             "source": "profile_v2",
             "count": 12237
+          },
+          {
+            "source": "status_v2",
+            "count": 12239
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12239
+          },
+          {
+            "source": "status_legacy",
+            "count": 12239
+          },
+          {
+            "source": "profile_v2",
+            "count": 12239
           }
         ],
         "check_followers_count": 186108,
@@ -26757,6 +27015,216 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "daily_list_rank": 29,
+        "daily_list_status": "accepted"
+      },
+      "2097321339338318141": {
+        "x_handle": "cocoluhk",
+        "check_handle": "cocoluhk",
+        "dual_link": false,
+        "promo_handle": "cocoluhk",
+        "tg_username": "HKcocoLU",
+        "tg_user_id": 5820965161,
+        "tg_name": "coco",
+        "link": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "message_text": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+            "handle": "cocoluhk",
+            "post_id": "2097321339338318141",
+            "role": "promo",
+            "author_name": "coco在深圳",
+            "followers_count": 3081,
+            "followers_text": "3K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 3081
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 3081
+              },
+              {
+                "source": "status_legacy",
+                "count": 3081
+              },
+              {
+                "source": "profile_v2",
+                "count": 3081
+              }
+            ],
+            "tweet_text": "你有故事吗？我有酒🍷约起来🥰\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 48,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+            "post_id": "2097321339338318141",
+            "handle": "cocoluhk",
+            "source_time": "2026-09-13 17:57:15",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "coco在深圳",
+        "promo_name": "coco在深圳",
+        "followers_count": 3081,
+        "followers_text": "3K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3081
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3081
+          },
+          {
+            "source": "status_legacy",
+            "count": 3081
+          },
+          {
+            "source": "profile_v2",
+            "count": 3081
+          }
+        ],
+        "check_followers_count": 3081,
+        "check_followers_text": "3K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3081
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3081
+          },
+          {
+            "source": "status_legacy",
+            "count": 3081
+          },
+          {
+            "source": "profile_v2",
+            "count": 3081
+          }
+        ],
+        "tweet_text": "你有故事吗？我有酒🍷约起来🥰\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 48,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "check_url": "https://x.com/cocoluhk/status/2097321339338318141?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "promo_post_id": "2097321339338318141",
+        "check_post_id": "2097321339338318141",
+        "chat_id": "-1003739822194",
+        "message_id": 1986,
+        "time": "2026-09-13 17:57:15",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 3081,
+        "qualified_followers_text": "3K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 30,
         "daily_list_status": "accepted"
       }
     }

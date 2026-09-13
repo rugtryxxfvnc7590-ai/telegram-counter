@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "offset": 364614838,
+  "offset": 364614839,
   "groups": {
     "-1003891628675": {
       "count": 31,
@@ -55,7 +55,7 @@
       ]
     },
     "-1003739822194": {
-      "count": 29,
+      "count": 30,
       "message_ids": [
         "1957",
         "1958",
@@ -85,13 +85,14 @@
         "1982",
         "1983",
         "1984",
-        "1985"
+        "1985",
+        "1986"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-13",
-    "run_at": "2026-09-13 17:45:30",
+    "run_at": "2026-09-13 18:00:56",
     "completed_groups": [
       "群一",
       "群二",
@@ -446,6 +447,350 @@
         "owner_chat_id": "8614747348",
         "text": "群一（9月13日）互推名单，共 30 条\n\n1 https://x.com/xiao16877/status/2098041563175874999\n\n2 https://x.com/shoojeenn/status/2097220897769984343\n\n3 https://x.com/laibeinaixiba/status/2094246628693868572\n\n4 https://x.com/joragyyy/status/2098810318101364867\n\n5 https://x.com/xiaochen000007/status/2096145336901550438\n\n6 https://x.com/youmeier/status/2098735887832231941\n\n7 https://x.com/pty0808/status/2098753938925166599\n\n8 https://x.com/qbln9999/status/2098781227939684707\n\n9 https://x.com/shixiaotaone/status/2097621891683061823\n\n10 https://x.com/jiojioyishujia1/status/2098715673023418409\n\n11 https://x.com/shixiaotaon/status/2098346524791169281\n\n12 https://x.com/kuqiqiii_owo/status/2063917940743786522\n\n13 https://x.com/hanzuzong3/status/2098444003540881749\n\n14 https://x.com/jxzeroc/status/2050643478854660558\n\n15 https://x.com/aksaks99999/status/2094773822570274834\n\n16 https://x.com/libalababy/status/2088566401787408615\n\n17 https://x.com/lris_intj/status/2097596391979675867\n\n18 https://x.com/xiaoqiaots/status/2098712298542305614\n\n19 https://x.com/bob7078/status/2098074559991947389\n\n20 https://x.com/lazypiggy850/status/2085284595612971360\n\n21 https://x.com/sleepsbg/status/2095539898090651722\n\n22 https://x.com/sluttytatia404/status/2098755170507297230\n\n已编辑 23 https://x.com/qitian1110/status/2099038378511769920\n\n24 https://x.com/cattyllo023/status/2098326280219262990\n\n25 https://x.com/hong14868/status/2098256590201553133\n\n26 https://x.com/svj798ds/status/2097324081804612027\n\n27 https://x.com/nancyyzp/status/2097912009618866482\n\n28 https://x.com/snd99x/status/2098329473385197995\n\n29 https://x.com/tiaotiaosheep/status/2098611456942243983\n\n30 https://x.com/xiuchiluchu910/status/2097183668603064371",
         "updated_at": "2026-09-13 15:45:45"
+      },
+      "群三": {
+        "sent": true,
+        "sent_at": "2026-09-13 18:01:04",
+        "count": 30,
+        "trigger": "capacity_full",
+        "limit": 30,
+        "links": [
+          "https://x.com/cocoluhk/status/2097321339338318141",
+          "https://x.com/aerolattic29965/status/2098975357638701108",
+          "https://x.com/youmimilll/status/2099060323139608901",
+          "https://x.com/samak44504824/status/2097953057233576407",
+          "https://x.com/zz052177/status/2097953232975012000",
+          "https://x.com/sm2022i/status/2097952846612414828",
+          "https://x.com/mm075217/status/2097952448661119071",
+          "https://x.com/blacksex999/status/2096508398770741325",
+          "https://x.com/cicimo_oo/status/2099028340011319749",
+          "https://x.com/xiaoyi3359/status/2098713106612383860",
+          "https://x.com/mopomeeaii/status/2098965014233354264",
+          "https://x.com/vinodsrt/status/2098961963254763882",
+          "https://x.com/qiqitu777_/status/2098956144022831489",
+          "https://x.com/bibo8891/status/2098909437499162984",
+          "https://x.com/bo9685/status/2098908512483217427",
+          "https://x.com/dajiejieuuya/status/2095749062016520548",
+          "https://x.com/tankxm07/status/2098708147447935040",
+          "https://x.com/xxyi09/status/2098854061579837463",
+          "https://x.com/lolisdiary/status/2097361604182741001",
+          "https://x.com/annebabysexxy/status/2098714459464511584",
+          "https://x.com/chiirouo/status/2098697667966853374",
+          "https://x.com/rogueyuyinqi/status/2098636099342217697",
+          "https://x.com/miyaaiqiya11/status/2097605373008257140",
+          "https://x.com/sweetyou02/status/2098765699296776241",
+          "https://x.com/tuturc88/status/2097602908070240535",
+          "https://x.com/xinshangye/status/2098912599262007506",
+          "https://x.com/w92oowfi7q95161/status/2098916782249783319",
+          "https://x.com/ykydf778/status/2098241189241868751",
+          "https://x.com/lovelove131413/status/2098232207102054566",
+          "https://x.com/1tbsvip/status/2095062209911226677"
+        ],
+        "slots": [
+          {
+            "handle": "cocoluhk",
+            "post_id": "2097321339338318141",
+            "original_post_id": "2097321339338318141",
+            "url": "https://x.com/cocoluhk/status/2097321339338318141",
+            "edited": false,
+            "message_id": "1986",
+            "tg_user_id": "5820965161",
+            "time": "2026-09-13 17:57:15"
+          },
+          {
+            "handle": "aerolattic29965",
+            "post_id": "2098975357638701108",
+            "original_post_id": "2098975357638701108",
+            "url": "https://x.com/aerolattic29965/status/2098975357638701108",
+            "edited": false,
+            "message_id": "1985",
+            "tg_user_id": "1941523438",
+            "time": "2026-09-13 17:23:53"
+          },
+          {
+            "handle": "youmimilll",
+            "post_id": "2099060323139608901",
+            "original_post_id": "2099060323139608901",
+            "url": "https://x.com/youmimilll/status/2099060323139608901",
+            "edited": false,
+            "message_id": "1984",
+            "tg_user_id": "6555223935",
+            "time": "2026-09-13 16:59:37"
+          },
+          {
+            "handle": "samak44504824",
+            "post_id": "2097953057233576407",
+            "original_post_id": "2097953057233576407",
+            "url": "https://x.com/samak44504824/status/2097953057233576407",
+            "edited": false,
+            "message_id": "1983",
+            "tg_user_id": "8996288061",
+            "time": "2026-09-13 16:42:48"
+          },
+          {
+            "handle": "zz052177",
+            "post_id": "2097953232975012000",
+            "original_post_id": "2097953232975012000",
+            "url": "https://x.com/zz052177/status/2097953232975012000",
+            "edited": false,
+            "message_id": "1982",
+            "tg_user_id": "7686875368",
+            "time": "2026-09-13 16:39:09"
+          },
+          {
+            "handle": "sm2022i",
+            "post_id": "2097952846612414828",
+            "original_post_id": "2097952846612414828",
+            "url": "https://x.com/sm2022i/status/2097952846612414828",
+            "edited": false,
+            "message_id": "1981",
+            "tg_user_id": "7686875368",
+            "time": "2026-09-13 16:39:00"
+          },
+          {
+            "handle": "mm075217",
+            "post_id": "2097952448661119071",
+            "original_post_id": "2097952448661119071",
+            "url": "https://x.com/mm075217/status/2097952448661119071",
+            "edited": false,
+            "message_id": "1980",
+            "tg_user_id": "8295434836",
+            "time": "2026-09-13 16:38:47"
+          },
+          {
+            "handle": "blacksex999",
+            "post_id": "2096508398770741325",
+            "original_post_id": "2096508398770741325",
+            "url": "https://x.com/blacksex999/status/2096508398770741325",
+            "edited": false,
+            "message_id": "1979",
+            "tg_user_id": "7446354632",
+            "time": "2026-09-13 14:57:13"
+          },
+          {
+            "handle": "cicimo_oo",
+            "post_id": "2099028340011319749",
+            "original_post_id": "2099028340011319749",
+            "url": "https://x.com/cicimo_oo/status/2099028340011319749",
+            "edited": false,
+            "message_id": "1978",
+            "tg_user_id": "7348226714",
+            "time": "2026-09-13 14:53:00"
+          },
+          {
+            "handle": "xiaoyi3359",
+            "post_id": "2098713106612383860",
+            "original_post_id": "2098713106612383860",
+            "url": "https://x.com/xiaoyi3359/status/2098713106612383860",
+            "edited": false,
+            "message_id": "1977",
+            "tg_user_id": "6711450768",
+            "time": "2026-09-13 13:17:07"
+          },
+          {
+            "handle": "mopomeeaii",
+            "post_id": "2098965014233354264",
+            "original_post_id": "2098965014233354264",
+            "url": "https://x.com/mopomeeaii/status/2098965014233354264",
+            "edited": false,
+            "message_id": "1976",
+            "tg_user_id": "1129654552",
+            "time": "2026-09-13 10:40:39"
+          },
+          {
+            "handle": "vinodsrt",
+            "post_id": "2098961963254763882",
+            "original_post_id": "2098961963254763882",
+            "url": "https://x.com/vinodsrt/status/2098961963254763882",
+            "edited": false,
+            "message_id": "1975",
+            "tg_user_id": "1129654552",
+            "time": "2026-09-13 10:29:04"
+          },
+          {
+            "handle": "qiqitu777_",
+            "post_id": "2098956144022831489",
+            "original_post_id": "2098956144022831489",
+            "url": "https://x.com/qiqitu777_/status/2098956144022831489",
+            "edited": false,
+            "message_id": "1974",
+            "tg_user_id": "8531774368",
+            "time": "2026-09-13 10:07:27"
+          },
+          {
+            "handle": "bibo8891",
+            "post_id": "2098909437499162984",
+            "original_post_id": "2098909437499162984",
+            "url": "https://x.com/bibo8891/status/2098909437499162984",
+            "edited": false,
+            "message_id": "1973",
+            "tg_user_id": "7261659842",
+            "time": "2026-09-13 08:34:28"
+          },
+          {
+            "handle": "bo9685",
+            "post_id": "2098908512483217427",
+            "original_post_id": "2098908512483217427",
+            "url": "https://x.com/bo9685/status/2098908512483217427",
+            "edited": false,
+            "message_id": "1972",
+            "tg_user_id": "7628179593",
+            "time": "2026-09-13 07:33:23"
+          },
+          {
+            "handle": "dajiejieuuya",
+            "post_id": "2095749062016520548",
+            "original_post_id": "2095749062016520548",
+            "url": "https://x.com/dajiejieuuya/status/2095749062016520548",
+            "edited": false,
+            "message_id": "1971",
+            "tg_user_id": "8244388416",
+            "time": "2026-09-13 06:06:46"
+          },
+          {
+            "handle": "tankxm07",
+            "post_id": "2098708147447935040",
+            "original_post_id": "2098708147447935040",
+            "url": "https://x.com/tankxm07/status/2098708147447935040",
+            "edited": false,
+            "message_id": "1970",
+            "tg_user_id": "8620232479",
+            "time": "2026-09-13 05:32:55"
+          },
+          {
+            "handle": "xxyi09",
+            "post_id": "2098854061579837463",
+            "original_post_id": "2098854061579837463",
+            "url": "https://x.com/xxyi09/status/2098854061579837463",
+            "edited": false,
+            "message_id": "1969",
+            "tg_user_id": "7258555218",
+            "time": "2026-09-13 03:20:06"
+          },
+          {
+            "handle": "lolisdiary",
+            "post_id": "2097361604182741001",
+            "original_post_id": "2097361604182741001",
+            "url": "https://x.com/lolisdiary/status/2097361604182741001",
+            "edited": false,
+            "message_id": "1968",
+            "tg_user_id": "8529463856",
+            "time": "2026-09-13 02:48:37"
+          },
+          {
+            "handle": "annebabysexxy",
+            "post_id": "2098714459464511584",
+            "original_post_id": "2098714459464511584",
+            "url": "https://x.com/annebabysexxy/status/2098714459464511584",
+            "edited": false,
+            "message_id": "1967",
+            "tg_user_id": "8489845372",
+            "time": "2026-09-13 02:28:07"
+          },
+          {
+            "handle": "chiirouo",
+            "post_id": "2098697667966853374",
+            "original_post_id": "2098697667966853374",
+            "url": "https://x.com/chiirouo/status/2098697667966853374",
+            "edited": false,
+            "message_id": "1966",
+            "tg_user_id": "7722665588",
+            "time": "2026-09-13 01:20:36"
+          },
+          {
+            "handle": "rogueyuyinqi",
+            "post_id": "2098636099342217697",
+            "original_post_id": "2098636099342217697",
+            "url": "https://x.com/rogueyuyinqi/status/2098636099342217697",
+            "edited": false,
+            "message_id": "1965",
+            "tg_user_id": "8690119616",
+            "time": "2026-09-13 00:10:50"
+          },
+          {
+            "handle": "miyaaiqiya11",
+            "post_id": "2097605373008257140",
+            "original_post_id": "2097605373008257140",
+            "url": "https://x.com/miyaaiqiya11/status/2097605373008257140",
+            "edited": false,
+            "message_id": "1964",
+            "tg_user_id": "7998831093",
+            "time": "2026-09-13 00:09:00"
+          },
+          {
+            "handle": "sweetyou02",
+            "post_id": "2098765699296776241",
+            "original_post_id": "2098765699296776241",
+            "url": "https://x.com/sweetyou02/status/2098765699296776241",
+            "edited": false,
+            "message_id": "1963",
+            "tg_user_id": "5452100710",
+            "time": "2026-09-13 00:05:47"
+          },
+          {
+            "handle": "tuturc88",
+            "post_id": "2097602908070240535",
+            "original_post_id": "2097602908070240535",
+            "url": "https://x.com/tuturc88/status/2097602908070240535",
+            "edited": false,
+            "message_id": "1962",
+            "tg_user_id": "7657752636",
+            "time": "2026-09-13 00:04:55"
+          },
+          {
+            "handle": "xinshangye",
+            "post_id": "2098912599262007506",
+            "original_post_id": "2098912599262007506",
+            "url": "https://x.com/xinshangye/status/2098912599262007506",
+            "edited": false,
+            "message_id": "1961",
+            "tg_user_id": "6667732154",
+            "time": "2026-09-13 00:01:30"
+          },
+          {
+            "handle": "w92oowfi7q95161",
+            "post_id": "2098916782249783319",
+            "original_post_id": "2098916782249783319",
+            "url": "https://x.com/w92oowfi7q95161/status/2098916782249783319",
+            "edited": false,
+            "message_id": "1960",
+            "tg_user_id": "5340909281",
+            "time": "2026-09-13 00:01:19"
+          },
+          {
+            "handle": "ykydf778",
+            "post_id": "2098241189241868751",
+            "original_post_id": "2098241189241868751",
+            "url": "https://x.com/ykydf778/status/2098241189241868751",
+            "edited": false,
+            "message_id": "1959",
+            "tg_user_id": "8127208804",
+            "time": "2026-09-13 00:01:07"
+          },
+          {
+            "handle": "lovelove131413",
+            "post_id": "2098232207102054566",
+            "original_post_id": "2098232207102054566",
+            "url": "https://x.com/lovelove131413/status/2098232207102054566",
+            "edited": false,
+            "message_id": "1958",
+            "tg_user_id": "7745875882",
+            "time": "2026-09-13 00:00:19"
+          },
+          {
+            "handle": "1tbsvip",
+            "post_id": "2095062209911226677",
+            "original_post_id": "2095062209911226677",
+            "url": "https://x.com/1tbsvip/status/2095062209911226677",
+            "edited": false,
+            "message_id": "1957",
+            "tg_user_id": "5493105308",
+            "time": "2026-09-13 00:00:02"
+          }
+        ],
+        "message_id": 2684,
+        "owner_chat_id": "8614747348",
+        "text": "群三（9月13日）互推名单，共 30 条\n\n1 https://x.com/cocoluhk/status/2097321339338318141\n\n2 https://x.com/aerolattic29965/status/2098975357638701108\n\n3 https://x.com/youmimilll/status/2099060323139608901\n\n4 https://x.com/samak44504824/status/2097953057233576407\n\n5 https://x.com/zz052177/status/2097953232975012000\n\n6 https://x.com/sm2022i/status/2097952846612414828\n\n7 https://x.com/mm075217/status/2097952448661119071\n\n8 https://x.com/blacksex999/status/2096508398770741325\n\n9 https://x.com/cicimo_oo/status/2099028340011319749\n\n10 https://x.com/xiaoyi3359/status/2098713106612383860\n\n11 https://x.com/mopomeeaii/status/2098965014233354264\n\n12 https://x.com/vinodsrt/status/2098961963254763882\n\n13 https://x.com/qiqitu777_/status/2098956144022831489\n\n14 https://x.com/bibo8891/status/2098909437499162984\n\n15 https://x.com/bo9685/status/2098908512483217427\n\n16 https://x.com/dajiejieuuya/status/2095749062016520548\n\n17 https://x.com/tankxm07/status/2098708147447935040\n\n18 https://x.com/xxyi09/status/2098854061579837463\n\n19 https://x.com/lolisdiary/status/2097361604182741001\n\n20 https://x.com/annebabysexxy/status/2098714459464511584\n\n21 https://x.com/chiirouo/status/2098697667966853374\n\n22 https://x.com/rogueyuyinqi/status/2098636099342217697\n\n23 https://x.com/miyaaiqiya11/status/2097605373008257140\n\n24 https://x.com/sweetyou02/status/2098765699296776241\n\n25 https://x.com/tuturc88/status/2097602908070240535\n\n26 https://x.com/xinshangye/status/2098912599262007506\n\n27 https://x.com/w92oowfi7q95161/status/2098916782249783319\n\n28 https://x.com/ykydf778/status/2098241189241868751\n\n29 https://x.com/lovelove131413/status/2098232207102054566\n\n30 https://x.com/1tbsvip/status/2095062209911226677"
       }
     }
   },
@@ -462,7 +807,15 @@
         }
       },
       "群二": {},
-      "群三": {}
+      "群三": {
+        "full": {
+          "message_id": 1986,
+          "rule": "limit_full",
+          "count": 30,
+          "limit": 30,
+          "sent_at": "2026-09-13 18:01:04"
+        }
+      }
     }
   },
   "edited_link_receipts": {

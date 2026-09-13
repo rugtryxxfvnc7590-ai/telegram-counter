@@ -6828,7 +6828,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12214,
+        "followers_count": 12233,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -6900,6 +6900,22 @@
           {
             "source": "profile_v2",
             "count": 12214
+          },
+          {
+            "source": "status_v2",
+            "count": 12233
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12233
+          },
+          {
+            "source": "status_legacy",
+            "count": 12233
+          },
+          {
+            "source": "profile_v2",
+            "count": 12233
           }
         ],
         "check_followers_count": 186108,
@@ -7095,7 +7111,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12214,
+        "followers_count": 12233,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -7167,6 +7183,22 @@
           {
             "source": "profile_v2",
             "count": 12214
+          },
+          {
+            "source": "status_v2",
+            "count": 12233
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12233
+          },
+          {
+            "source": "status_legacy",
+            "count": 12233
+          },
+          {
+            "source": "profile_v2",
+            "count": 12233
           }
         ],
         "check_followers_count": 186108,
@@ -7537,7 +7569,7 @@
         ],
         "x_name": "足爺（视频号）",
         "promo_name": "足爺（视频号）",
-        "followers_count": 1053,
+        "followers_count": 1055,
         "followers_text": "1K",
         "followers_sources": [
           "status_v2",
@@ -7593,6 +7625,22 @@
           {
             "source": "profile_v2",
             "count": 1053
+          },
+          {
+            "source": "status_v2",
+            "count": 1055
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1055
+          },
+          {
+            "source": "status_legacy",
+            "count": 1055
+          },
+          {
+            "source": "profile_v2",
+            "count": 1055
           }
         ],
         "check_followers_count": 1050,
@@ -7671,7 +7719,7 @@
         "edited": true,
         "edit_time": "2026-09-13 15:31:34",
         "followers_min": 20000,
-        "qualified_followers_count": 1053,
+        "qualified_followers_count": 1055,
         "qualified_followers_text": "1K",
         "qualified_followers_sources": [
           "status_v2",
@@ -7684,444 +7732,6 @@
         "ineligible_reason": "followers_below_minimum",
         "daily_list_rank": 0,
         "daily_list_status": "ineligible"
-      },
-      "shiyuqinqin88": {
-        "x_handle": "shiyuqinqin88",
-        "check_handle": "aliqinqin888",
-        "dual_link": true,
-        "promo_handle": "shiyuqinqin88",
-        "tg_username": "shixiaoyu99",
-        "tg_user_id": 5404758777,
-        "tg_name": "Destiny",
-        "link": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
-        "message_text": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
-            "handle": "shiyuqinqin88",
-            "post_id": "2099048467783942372",
-            "role": "promo",
-            "author_name": "時瑜Yuu",
-            "followers_count": 9470,
-            "followers_text": "9.4K",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 9470
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 9470
-              },
-              {
-                "source": "status_legacy",
-                "count": 9470
-              },
-              {
-                "source": "profile_v2",
-                "count": 9470
-              }
-            ],
-            "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 42,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          },
-          {
-            "order": 2,
-            "url": "https://x.com/aliqinqin888?s=21",
-            "handle": "aliqinqin888",
-            "post_id": "",
-            "role": "check",
-            "author_name": "早安阿离",
-            "followers_count": 124134,
-            "followers_text": "12.4W",
-            "followers_sources": [
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "profile_v2",
-                "count": 124134
-              }
-            ],
-            "tweet_text": "",
-            "tweet_text_sources": [],
-            "tweet_text_observations": [],
-            "tweet_text_primary_source": "",
-            "required_mentions_count": 0
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
-            "post_id": "2099048467783942372",
-            "handle": "shiyuqinqin88",
-            "source_time": "2026-09-13 16:36:17",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "時瑜Yuu",
-        "promo_name": "時瑜Yuu",
-        "followers_count": 9470,
-        "followers_text": "9.4K",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 9470
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 9470
-          },
-          {
-            "source": "status_legacy",
-            "count": 9470
-          },
-          {
-            "source": "profile_v2",
-            "count": 9470
-          }
-        ],
-        "check_followers_count": 124134,
-        "check_followers_text": "12.4W",
-        "check_followers_sources": [
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "profile_v2",
-            "count": 124134
-          }
-        ],
-        "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 42,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
-        "check_url": "https://x.com/aliqinqin888?s=21",
-        "promo_post_id": "2099048467783942372",
-        "check_post_id": "",
-        "chat_id": "-1003218974409",
-        "message_id": 74131,
-        "time": "2026-09-13 16:36:17",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 20000,
-        "qualified_followers_count": 124134,
-        "qualified_followers_text": "12.4W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "daily_list_rank": 4,
-        "daily_list_status": "accepted"
-      },
-      "aliqinqin888": {
-        "x_handle": "aliqinqin888",
-        "check_handle": "aliqinqin888",
-        "dual_link": true,
-        "promo_handle": "shiyuqinqin88",
-        "tg_username": "shixiaoyu99",
-        "tg_user_id": 5404758777,
-        "tg_name": "Destiny",
-        "link": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
-        "message_text": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
-            "handle": "shiyuqinqin88",
-            "post_id": "2099048467783942372",
-            "role": "promo",
-            "author_name": "時瑜Yuu",
-            "followers_count": 9470,
-            "followers_text": "9.4K",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 9470
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 9470
-              },
-              {
-                "source": "status_legacy",
-                "count": 9470
-              },
-              {
-                "source": "profile_v2",
-                "count": 9470
-              }
-            ],
-            "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 42,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          },
-          {
-            "order": 2,
-            "url": "https://x.com/aliqinqin888?s=21",
-            "handle": "aliqinqin888",
-            "post_id": "",
-            "role": "check",
-            "author_name": "早安阿离",
-            "followers_count": 124134,
-            "followers_text": "12.4W",
-            "followers_sources": [
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "profile_v2",
-                "count": 124134
-              }
-            ],
-            "tweet_text": "",
-            "tweet_text_sources": [],
-            "tweet_text_observations": [],
-            "tweet_text_primary_source": "",
-            "required_mentions_count": 0
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
-            "post_id": "2099048467783942372",
-            "handle": "shiyuqinqin88",
-            "source_time": "2026-09-13 16:36:17",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "時瑜Yuu",
-        "promo_name": "時瑜Yuu",
-        "followers_count": 9470,
-        "followers_text": "9.4K",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 9470
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 9470
-          },
-          {
-            "source": "status_legacy",
-            "count": 9470
-          },
-          {
-            "source": "profile_v2",
-            "count": 9470
-          }
-        ],
-        "check_followers_count": 124134,
-        "check_followers_text": "12.4W",
-        "check_followers_sources": [
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "profile_v2",
-            "count": 124134
-          }
-        ],
-        "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 42,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
-        "check_url": "https://x.com/aliqinqin888?s=21",
-        "promo_post_id": "2099048467783942372",
-        "check_post_id": "",
-        "chat_id": "-1003218974409",
-        "message_id": 74131,
-        "time": "2026-09-13 16:36:17",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 20000,
-        "qualified_followers_count": 124134,
-        "qualified_followers_text": "12.4W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "daily_list_rank": 4,
-        "daily_list_status": "accepted"
       }
     },
     "-1003739822194": {
@@ -12843,6 +12453,1266 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "daily_list_rank": 23,
+        "daily_list_status": "accepted"
+      },
+      "mm075217": {
+        "x_handle": "mm075217",
+        "check_handle": "mm075217",
+        "dual_link": false,
+        "promo_handle": "mm075217",
+        "tg_username": "zz2022i",
+        "tg_user_id": 8295434836,
+        "tg_name": "yuki",
+        "link": "https://x.com/mm075217/status/2097952448661119071?s=46",
+        "message_text": "https://x.com/mm075217/status/2097952448661119071?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/mm075217/status/2097952448661119071?s=46",
+            "handle": "mm075217",
+            "post_id": "2097952448661119071",
+            "role": "promo",
+            "author_name": "MM",
+            "followers_count": 417,
+            "followers_text": "417",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 417
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 417
+              },
+              {
+                "source": "status_legacy",
+                "count": 417
+              },
+              {
+                "source": "profile_v2",
+                "count": 417
+              }
+            ],
+            "tweet_text": "見知らぬ人に見せるために卵を産む\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 53,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/mm075217/status/2097952448661119071?s=46",
+            "post_id": "2097952448661119071",
+            "handle": "mm075217",
+            "source_time": "2026-09-13 16:38:47",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "MM",
+        "promo_name": "MM",
+        "followers_count": 417,
+        "followers_text": "417",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 417
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 417
+          },
+          {
+            "source": "status_legacy",
+            "count": 417
+          },
+          {
+            "source": "profile_v2",
+            "count": 417
+          }
+        ],
+        "check_followers_count": 417,
+        "check_followers_text": "417",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 417
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 417
+          },
+          {
+            "source": "status_legacy",
+            "count": 417
+          },
+          {
+            "source": "profile_v2",
+            "count": 417
+          }
+        ],
+        "tweet_text": "見知らぬ人に見せるために卵を産む\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 53,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/mm075217/status/2097952448661119071?s=46",
+        "check_url": "https://x.com/mm075217/status/2097952448661119071?s=46",
+        "promo_post_id": "2097952448661119071",
+        "check_post_id": "2097952448661119071",
+        "chat_id": "-1003739822194",
+        "message_id": 1980,
+        "time": "2026-09-13 16:38:47",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 417,
+        "qualified_followers_text": "417",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 24,
+        "daily_list_status": "accepted"
+      },
+      "sm2022i": {
+        "x_handle": "sm2022i",
+        "check_handle": "sm2022i",
+        "dual_link": false,
+        "promo_handle": "sm2022i",
+        "tg_username": "ay204188",
+        "tg_user_id": 7686875368,
+        "tg_name": "崽崽",
+        "link": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+        "message_text": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+            "handle": "sm2022i",
+            "post_id": "2097952846612414828",
+            "role": "promo",
+            "author_name": "失望的备胎",
+            "followers_count": 8152,
+            "followers_text": "8.1K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 8149
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 8152
+              },
+              {
+                "source": "status_legacy",
+                "count": 8149
+              },
+              {
+                "source": "profile_v2",
+                "count": 8152
+              }
+            ],
+            "tweet_text": "全部都插进去了～\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+            "post_id": "2097952846612414828",
+            "handle": "sm2022i",
+            "source_time": "2026-09-13 16:39:00",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "失望的备胎",
+        "promo_name": "失望的备胎",
+        "followers_count": 8152,
+        "followers_text": "8.1K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8149
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8152
+          },
+          {
+            "source": "status_legacy",
+            "count": 8149
+          },
+          {
+            "source": "profile_v2",
+            "count": 8152
+          }
+        ],
+        "check_followers_count": 8152,
+        "check_followers_text": "8.1K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8149
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8152
+          },
+          {
+            "source": "status_legacy",
+            "count": 8149
+          },
+          {
+            "source": "profile_v2",
+            "count": 8152
+          }
+        ],
+        "tweet_text": "全部都插进去了～\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+        "check_url": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+        "promo_post_id": "2097952846612414828",
+        "check_post_id": "2097952846612414828",
+        "chat_id": "-1003739822194",
+        "message_id": 1981,
+        "time": "2026-09-13 16:39:00",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 8152,
+        "qualified_followers_text": "8.1K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 25,
+        "daily_list_status": "accepted"
+      },
+      "zz052177": {
+        "x_handle": "zz052177",
+        "check_handle": "zz052177",
+        "dual_link": false,
+        "promo_handle": "zz052177",
+        "tg_username": "ay204188",
+        "tg_user_id": 7686875368,
+        "tg_name": "崽崽",
+        "link": "https://x.com/zz052177/status/2097953232975012000?s=46",
+        "message_text": "https://x.com/zz052177/status/2097953232975012000?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/zz052177/status/2097953232975012000?s=46",
+            "handle": "zz052177",
+            "post_id": "2097953232975012000",
+            "role": "promo",
+            "author_name": "牛乳ビスケット",
+            "followers_count": 1570,
+            "followers_text": "1.5K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1570
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1570
+              },
+              {
+                "source": "status_legacy",
+                "count": 1570
+              },
+              {
+                "source": "profile_v2",
+                "count": 1570
+              }
+            ],
+            "tweet_text": "回転するおもちゃが穴の中でかき混ぜられるまで遊ぶ\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 61,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 61,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 61,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 61,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 61,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/zz052177/status/2097953232975012000?s=46",
+            "post_id": "2097953232975012000",
+            "handle": "zz052177",
+            "source_time": "2026-09-13 16:39:09",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "牛乳ビスケット",
+        "promo_name": "牛乳ビスケット",
+        "followers_count": 1570,
+        "followers_text": "1.5K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1570
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1570
+          },
+          {
+            "source": "status_legacy",
+            "count": 1570
+          },
+          {
+            "source": "profile_v2",
+            "count": 1570
+          }
+        ],
+        "check_followers_count": 1570,
+        "check_followers_text": "1.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1570
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1570
+          },
+          {
+            "source": "status_legacy",
+            "count": 1570
+          },
+          {
+            "source": "profile_v2",
+            "count": 1570
+          }
+        ],
+        "tweet_text": "回転するおもちゃが穴の中でかき混ぜられるまで遊ぶ\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 61,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 61,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 61,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 61,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 61,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/zz052177/status/2097953232975012000?s=46",
+        "check_url": "https://x.com/zz052177/status/2097953232975012000?s=46",
+        "promo_post_id": "2097953232975012000",
+        "check_post_id": "2097953232975012000",
+        "chat_id": "-1003739822194",
+        "message_id": 1982,
+        "time": "2026-09-13 16:39:09",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1570,
+        "qualified_followers_text": "1.5K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 26,
+        "daily_list_status": "accepted"
+      },
+      "samak44504824": {
+        "x_handle": "samak44504824",
+        "check_handle": "samak44504824",
+        "dual_link": false,
+        "promo_handle": "samak44504824",
+        "tg_username": "",
+        "tg_user_id": 8996288061,
+        "tg_name": "崽崽崽崽吃汉堡",
+        "link": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+        "message_text": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+            "handle": "samak44504824",
+            "post_id": "2097953057233576407",
+            "role": "promo",
+            "author_name": "ミルク千層ケーキ",
+            "followers_count": 1350,
+            "followers_text": "1.3K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1350
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1350
+              },
+              {
+                "source": "status_legacy",
+                "count": 1350
+              },
+              {
+                "source": "profile_v2",
+                "count": 1350
+              }
+            ],
+            "tweet_text": "震える絶頂まで弄られる\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 48,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+            "post_id": "2097953057233576407",
+            "handle": "samak44504824",
+            "source_time": "2026-09-13 16:42:48",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "ミルク千層ケーキ",
+        "promo_name": "ミルク千層ケーキ",
+        "followers_count": 1350,
+        "followers_text": "1.3K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1350
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1350
+          },
+          {
+            "source": "status_legacy",
+            "count": 1350
+          },
+          {
+            "source": "profile_v2",
+            "count": 1350
+          }
+        ],
+        "check_followers_count": 1350,
+        "check_followers_text": "1.3K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1350
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1350
+          },
+          {
+            "source": "status_legacy",
+            "count": 1350
+          },
+          {
+            "source": "profile_v2",
+            "count": 1350
+          }
+        ],
+        "tweet_text": "震える絶頂まで弄られる\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 48,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+        "check_url": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+        "promo_post_id": "2097953057233576407",
+        "check_post_id": "2097953057233576407",
+        "chat_id": "-1003739822194",
+        "message_id": 1983,
+        "time": "2026-09-13 16:42:48",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1350,
+        "qualified_followers_text": "1.3K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 27,
+        "daily_list_status": "accepted"
+      },
+      "youmimilll": {
+        "x_handle": "youmimilll",
+        "check_handle": "youmimilll",
+        "dual_link": false,
+        "promo_handle": "youmimilll",
+        "tg_username": "TvTVir",
+        "tg_user_id": 6555223935,
+        "tg_name": "宝宝 诗",
+        "link": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+        "message_text": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+            "handle": "youmimilll",
+            "post_id": "2099060323139608901",
+            "role": "promo",
+            "author_name": "柚米眯",
+            "followers_count": 4202,
+            "followers_text": "4.2K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 4202
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 4202
+              },
+              {
+                "source": "status_legacy",
+                "count": 4202
+              },
+              {
+                "source": "profile_v2",
+                "count": 4202
+              }
+            ],
+            "tweet_text": "洗干净了，想吃就快点吃吧，吃那个痘痘还会爆汁\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 55,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+            "post_id": "2099060323139608901",
+            "handle": "youmimilll",
+            "source_time": "2026-09-13 16:59:37",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "柚米眯",
+        "promo_name": "柚米眯",
+        "followers_count": 4202,
+        "followers_text": "4.2K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4202
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4202
+          },
+          {
+            "source": "status_legacy",
+            "count": 4202
+          },
+          {
+            "source": "profile_v2",
+            "count": 4202
+          }
+        ],
+        "check_followers_count": 4202,
+        "check_followers_text": "4.2K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4202
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4202
+          },
+          {
+            "source": "status_legacy",
+            "count": 4202
+          },
+          {
+            "source": "profile_v2",
+            "count": 4202
+          }
+        ],
+        "tweet_text": "洗干净了，想吃就快点吃吧，吃那个痘痘还会爆汁\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 55,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+        "check_url": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+        "promo_post_id": "2099060323139608901",
+        "check_post_id": "2099060323139608901",
+        "chat_id": "-1003739822194",
+        "message_id": 1984,
+        "time": "2026-09-13 16:59:37",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 4202,
+        "qualified_followers_text": "4.2K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 28,
+        "daily_list_status": "accepted"
+      },
+      "aerolattic29965": {
+        "x_handle": "aerolattic29965",
+        "check_handle": "aerolattic29965",
+        "dual_link": false,
+        "promo_handle": "aerolattic29965",
+        "tg_username": "tefe858",
+        "tg_user_id": 1941523438,
+        "tg_name": "cute(只回复口令)",
+        "link": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+        "message_text": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+            "handle": "aerolattic29965",
+            "post_id": "2098975357638701108",
+            "role": "promo",
+            "author_name": "布偶喵",
+            "followers_count": 687,
+            "followers_text": "687",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 687
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 687
+              },
+              {
+                "source": "status_legacy",
+                "count": 687
+              },
+              {
+                "source": "profile_v2",
+                "count": 687
+              }
+            ],
+            "tweet_text": "可爱的小珠子\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 40,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 40,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 40,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 40,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 40,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+            "post_id": "2098975357638701108",
+            "handle": "aerolattic29965",
+            "source_time": "2026-09-13 17:23:53",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "布偶喵",
+        "promo_name": "布偶喵",
+        "followers_count": 687,
+        "followers_text": "687",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 687
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 687
+          },
+          {
+            "source": "status_legacy",
+            "count": 687
+          },
+          {
+            "source": "profile_v2",
+            "count": 687
+          }
+        ],
+        "check_followers_count": 687,
+        "check_followers_text": "687",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 687
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 687
+          },
+          {
+            "source": "status_legacy",
+            "count": 687
+          },
+          {
+            "source": "profile_v2",
+            "count": 687
+          }
+        ],
+        "tweet_text": "可爱的小珠子\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 40,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 40,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 40,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 40,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 40,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+        "check_url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+        "promo_post_id": "2098975357638701108",
+        "check_post_id": "2098975357638701108",
+        "chat_id": "-1003739822194",
+        "message_id": 1985,
+        "time": "2026-09-13 17:23:53",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 687,
+        "qualified_followers_text": "687",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 29,
         "daily_list_status": "accepted"
       }
     }
@@ -19675,7 +20545,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12214,
+        "followers_count": 12233,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -19747,6 +20617,22 @@
           {
             "source": "profile_v2",
             "count": 12214
+          },
+          {
+            "source": "status_v2",
+            "count": 12233
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12233
+          },
+          {
+            "source": "status_legacy",
+            "count": 12233
+          },
+          {
+            "source": "profile_v2",
+            "count": 12233
           }
         ],
         "check_followers_count": 186108,
@@ -20117,7 +21003,7 @@
         ],
         "x_name": "足爺（视频号）",
         "promo_name": "足爺（视频号）",
-        "followers_count": 1053,
+        "followers_count": 1055,
         "followers_text": "1K",
         "followers_sources": [
           "status_v2",
@@ -20173,6 +21059,22 @@
           {
             "source": "profile_v2",
             "count": 1053
+          },
+          {
+            "source": "status_v2",
+            "count": 1055
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1055
+          },
+          {
+            "source": "status_legacy",
+            "count": 1055
+          },
+          {
+            "source": "profile_v2",
+            "count": 1055
           }
         ],
         "check_followers_count": 1050,
@@ -20251,7 +21153,7 @@
         "edited": true,
         "edit_time": "2026-09-13 15:31:34",
         "followers_min": 20000,
-        "qualified_followers_count": 1053,
+        "qualified_followers_count": 1055,
         "qualified_followers_text": "1K",
         "qualified_followers_sources": [
           "status_v2",
@@ -20264,225 +21166,6 @@
         "ineligible_reason": "followers_below_minimum",
         "daily_list_rank": 0,
         "daily_list_status": "ineligible"
-      },
-      "2099048467783942372": {
-        "x_handle": "shiyuqinqin88",
-        "check_handle": "aliqinqin888",
-        "dual_link": true,
-        "promo_handle": "shiyuqinqin88",
-        "tg_username": "shixiaoyu99",
-        "tg_user_id": 5404758777,
-        "tg_name": "Destiny",
-        "link": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
-        "message_text": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
-            "handle": "shiyuqinqin88",
-            "post_id": "2099048467783942372",
-            "role": "promo",
-            "author_name": "時瑜Yuu",
-            "followers_count": 9470,
-            "followers_text": "9.4K",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 9470
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 9470
-              },
-              {
-                "source": "status_legacy",
-                "count": 9470
-              },
-              {
-                "source": "profile_v2",
-                "count": 9470
-              }
-            ],
-            "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 42,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 42,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          },
-          {
-            "order": 2,
-            "url": "https://x.com/aliqinqin888?s=21",
-            "handle": "aliqinqin888",
-            "post_id": "",
-            "role": "check",
-            "author_name": "早安阿离",
-            "followers_count": 124134,
-            "followers_text": "12.4W",
-            "followers_sources": [
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "profile_v2",
-                "count": 124134
-              }
-            ],
-            "tweet_text": "",
-            "tweet_text_sources": [],
-            "tweet_text_observations": [],
-            "tweet_text_primary_source": "",
-            "required_mentions_count": 0
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
-            "post_id": "2099048467783942372",
-            "handle": "shiyuqinqin88",
-            "source_time": "2026-09-13 16:36:17",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "時瑜Yuu",
-        "promo_name": "時瑜Yuu",
-        "followers_count": 9470,
-        "followers_text": "9.4K",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 9470
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 9470
-          },
-          {
-            "source": "status_legacy",
-            "count": 9470
-          },
-          {
-            "source": "profile_v2",
-            "count": 9470
-          }
-        ],
-        "check_followers_count": 124134,
-        "check_followers_text": "12.4W",
-        "check_followers_sources": [
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "profile_v2",
-            "count": 124134
-          }
-        ],
-        "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 42,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 42,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
-        "check_url": "https://x.com/aliqinqin888?s=21",
-        "promo_post_id": "2099048467783942372",
-        "check_post_id": "",
-        "chat_id": "-1003218974409",
-        "message_id": 74131,
-        "time": "2026-09-13 16:36:17",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 20000,
-        "qualified_followers_count": 124134,
-        "qualified_followers_text": "12.4W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "daily_list_rank": 4,
-        "daily_list_status": "accepted"
       }
     },
     "-1003739822194": {
@@ -24767,6 +25450,1266 @@
         "eligibility_text": "✅合格",
         "daily_list_rank": 23,
         "daily_list_status": "accepted"
+      },
+      "2097952448661119071": {
+        "x_handle": "mm075217",
+        "check_handle": "mm075217",
+        "dual_link": false,
+        "promo_handle": "mm075217",
+        "tg_username": "zz2022i",
+        "tg_user_id": 8295434836,
+        "tg_name": "yuki",
+        "link": "https://x.com/mm075217/status/2097952448661119071?s=46",
+        "message_text": "https://x.com/mm075217/status/2097952448661119071?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/mm075217/status/2097952448661119071?s=46",
+            "handle": "mm075217",
+            "post_id": "2097952448661119071",
+            "role": "promo",
+            "author_name": "MM",
+            "followers_count": 417,
+            "followers_text": "417",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 417
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 417
+              },
+              {
+                "source": "status_legacy",
+                "count": 417
+              },
+              {
+                "source": "profile_v2",
+                "count": 417
+              }
+            ],
+            "tweet_text": "見知らぬ人に見せるために卵を産む\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 53,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 53,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/mm075217/status/2097952448661119071?s=46",
+            "post_id": "2097952448661119071",
+            "handle": "mm075217",
+            "source_time": "2026-09-13 16:38:47",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "MM",
+        "promo_name": "MM",
+        "followers_count": 417,
+        "followers_text": "417",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 417
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 417
+          },
+          {
+            "source": "status_legacy",
+            "count": 417
+          },
+          {
+            "source": "profile_v2",
+            "count": 417
+          }
+        ],
+        "check_followers_count": 417,
+        "check_followers_text": "417",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 417
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 417
+          },
+          {
+            "source": "status_legacy",
+            "count": 417
+          },
+          {
+            "source": "profile_v2",
+            "count": 417
+          }
+        ],
+        "tweet_text": "見知らぬ人に見せるために卵を産む\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 53,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 53,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/mm075217/status/2097952448661119071?s=46",
+        "check_url": "https://x.com/mm075217/status/2097952448661119071?s=46",
+        "promo_post_id": "2097952448661119071",
+        "check_post_id": "2097952448661119071",
+        "chat_id": "-1003739822194",
+        "message_id": 1980,
+        "time": "2026-09-13 16:38:47",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 417,
+        "qualified_followers_text": "417",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 24,
+        "daily_list_status": "accepted"
+      },
+      "2097952846612414828": {
+        "x_handle": "sm2022i",
+        "check_handle": "sm2022i",
+        "dual_link": false,
+        "promo_handle": "sm2022i",
+        "tg_username": "ay204188",
+        "tg_user_id": 7686875368,
+        "tg_name": "崽崽",
+        "link": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+        "message_text": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+            "handle": "sm2022i",
+            "post_id": "2097952846612414828",
+            "role": "promo",
+            "author_name": "失望的备胎",
+            "followers_count": 8152,
+            "followers_text": "8.1K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 8149
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 8152
+              },
+              {
+                "source": "status_legacy",
+                "count": 8149
+              },
+              {
+                "source": "profile_v2",
+                "count": 8152
+              }
+            ],
+            "tweet_text": "全部都插进去了～\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+            "post_id": "2097952846612414828",
+            "handle": "sm2022i",
+            "source_time": "2026-09-13 16:39:00",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "失望的备胎",
+        "promo_name": "失望的备胎",
+        "followers_count": 8152,
+        "followers_text": "8.1K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8149
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8152
+          },
+          {
+            "source": "status_legacy",
+            "count": 8149
+          },
+          {
+            "source": "profile_v2",
+            "count": 8152
+          }
+        ],
+        "check_followers_count": 8152,
+        "check_followers_text": "8.1K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8149
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8152
+          },
+          {
+            "source": "status_legacy",
+            "count": 8149
+          },
+          {
+            "source": "profile_v2",
+            "count": 8152
+          }
+        ],
+        "tweet_text": "全部都插进去了～\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+        "check_url": "https://x.com/sm2022i/status/2097952846612414828?s=46",
+        "promo_post_id": "2097952846612414828",
+        "check_post_id": "2097952846612414828",
+        "chat_id": "-1003739822194",
+        "message_id": 1981,
+        "time": "2026-09-13 16:39:00",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 8152,
+        "qualified_followers_text": "8.1K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 25,
+        "daily_list_status": "accepted"
+      },
+      "2097953232975012000": {
+        "x_handle": "zz052177",
+        "check_handle": "zz052177",
+        "dual_link": false,
+        "promo_handle": "zz052177",
+        "tg_username": "ay204188",
+        "tg_user_id": 7686875368,
+        "tg_name": "崽崽",
+        "link": "https://x.com/zz052177/status/2097953232975012000?s=46",
+        "message_text": "https://x.com/zz052177/status/2097953232975012000?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/zz052177/status/2097953232975012000?s=46",
+            "handle": "zz052177",
+            "post_id": "2097953232975012000",
+            "role": "promo",
+            "author_name": "牛乳ビスケット",
+            "followers_count": 1570,
+            "followers_text": "1.5K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1570
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1570
+              },
+              {
+                "source": "status_legacy",
+                "count": 1570
+              },
+              {
+                "source": "profile_v2",
+                "count": 1570
+              }
+            ],
+            "tweet_text": "回転するおもちゃが穴の中でかき混ぜられるまで遊ぶ\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 61,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 61,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 61,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 61,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 61,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/zz052177/status/2097953232975012000?s=46",
+            "post_id": "2097953232975012000",
+            "handle": "zz052177",
+            "source_time": "2026-09-13 16:39:09",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "牛乳ビスケット",
+        "promo_name": "牛乳ビスケット",
+        "followers_count": 1570,
+        "followers_text": "1.5K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1570
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1570
+          },
+          {
+            "source": "status_legacy",
+            "count": 1570
+          },
+          {
+            "source": "profile_v2",
+            "count": 1570
+          }
+        ],
+        "check_followers_count": 1570,
+        "check_followers_text": "1.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1570
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1570
+          },
+          {
+            "source": "status_legacy",
+            "count": 1570
+          },
+          {
+            "source": "profile_v2",
+            "count": 1570
+          }
+        ],
+        "tweet_text": "回転するおもちゃが穴の中でかき混ぜられるまで遊ぶ\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 61,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 61,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 61,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 61,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 61,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/zz052177/status/2097953232975012000?s=46",
+        "check_url": "https://x.com/zz052177/status/2097953232975012000?s=46",
+        "promo_post_id": "2097953232975012000",
+        "check_post_id": "2097953232975012000",
+        "chat_id": "-1003739822194",
+        "message_id": 1982,
+        "time": "2026-09-13 16:39:09",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1570,
+        "qualified_followers_text": "1.5K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 26,
+        "daily_list_status": "accepted"
+      },
+      "2097953057233576407": {
+        "x_handle": "samak44504824",
+        "check_handle": "samak44504824",
+        "dual_link": false,
+        "promo_handle": "samak44504824",
+        "tg_username": "",
+        "tg_user_id": 8996288061,
+        "tg_name": "崽崽崽崽吃汉堡",
+        "link": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+        "message_text": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+            "handle": "samak44504824",
+            "post_id": "2097953057233576407",
+            "role": "promo",
+            "author_name": "ミルク千層ケーキ",
+            "followers_count": 1350,
+            "followers_text": "1.3K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1350
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1350
+              },
+              {
+                "source": "status_legacy",
+                "count": 1350
+              },
+              {
+                "source": "profile_v2",
+                "count": 1350
+              }
+            ],
+            "tweet_text": "震える絶頂まで弄られる\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 48,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 48,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+            "post_id": "2097953057233576407",
+            "handle": "samak44504824",
+            "source_time": "2026-09-13 16:42:48",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "ミルク千層ケーキ",
+        "promo_name": "ミルク千層ケーキ",
+        "followers_count": 1350,
+        "followers_text": "1.3K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1350
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1350
+          },
+          {
+            "source": "status_legacy",
+            "count": 1350
+          },
+          {
+            "source": "profile_v2",
+            "count": 1350
+          }
+        ],
+        "check_followers_count": 1350,
+        "check_followers_text": "1.3K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1350
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1350
+          },
+          {
+            "source": "status_legacy",
+            "count": 1350
+          },
+          {
+            "source": "profile_v2",
+            "count": 1350
+          }
+        ],
+        "tweet_text": "震える絶頂まで弄られる\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 48,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 48,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+        "check_url": "https://x.com/samak44504824/status/2097953057233576407?s=46",
+        "promo_post_id": "2097953057233576407",
+        "check_post_id": "2097953057233576407",
+        "chat_id": "-1003739822194",
+        "message_id": 1983,
+        "time": "2026-09-13 16:42:48",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1350,
+        "qualified_followers_text": "1.3K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 27,
+        "daily_list_status": "accepted"
+      },
+      "2099060323139608901": {
+        "x_handle": "youmimilll",
+        "check_handle": "youmimilll",
+        "dual_link": false,
+        "promo_handle": "youmimilll",
+        "tg_username": "TvTVir",
+        "tg_user_id": 6555223935,
+        "tg_name": "宝宝 诗",
+        "link": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+        "message_text": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+            "handle": "youmimilll",
+            "post_id": "2099060323139608901",
+            "role": "promo",
+            "author_name": "柚米眯",
+            "followers_count": 4202,
+            "followers_text": "4.2K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 4202
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 4202
+              },
+              {
+                "source": "status_legacy",
+                "count": 4202
+              },
+              {
+                "source": "profile_v2",
+                "count": 4202
+              }
+            ],
+            "tweet_text": "洗干净了，想吃就快点吃吧，吃那个痘痘还会爆汁\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 55,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+            "post_id": "2099060323139608901",
+            "handle": "youmimilll",
+            "source_time": "2026-09-13 16:59:37",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "柚米眯",
+        "promo_name": "柚米眯",
+        "followers_count": 4202,
+        "followers_text": "4.2K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4202
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4202
+          },
+          {
+            "source": "status_legacy",
+            "count": 4202
+          },
+          {
+            "source": "profile_v2",
+            "count": 4202
+          }
+        ],
+        "check_followers_count": 4202,
+        "check_followers_text": "4.2K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4202
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4202
+          },
+          {
+            "source": "status_legacy",
+            "count": 4202
+          },
+          {
+            "source": "profile_v2",
+            "count": 4202
+          }
+        ],
+        "tweet_text": "洗干净了，想吃就快点吃吧，吃那个痘痘还会爆汁\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 55,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+        "check_url": "https://x.com/youmimilll/status/2099060323139608901?s=46",
+        "promo_post_id": "2099060323139608901",
+        "check_post_id": "2099060323139608901",
+        "chat_id": "-1003739822194",
+        "message_id": 1984,
+        "time": "2026-09-13 16:59:37",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 4202,
+        "qualified_followers_text": "4.2K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 28,
+        "daily_list_status": "accepted"
+      },
+      "2098975357638701108": {
+        "x_handle": "aerolattic29965",
+        "check_handle": "aerolattic29965",
+        "dual_link": false,
+        "promo_handle": "aerolattic29965",
+        "tg_username": "tefe858",
+        "tg_user_id": 1941523438,
+        "tg_name": "cute(只回复口令)",
+        "link": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+        "message_text": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+            "handle": "aerolattic29965",
+            "post_id": "2098975357638701108",
+            "role": "promo",
+            "author_name": "布偶喵",
+            "followers_count": 687,
+            "followers_text": "687",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 687
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 687
+              },
+              {
+                "source": "status_legacy",
+                "count": 687
+              },
+              {
+                "source": "profile_v2",
+                "count": 687
+              }
+            ],
+            "tweet_text": "可爱的小珠子\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 40,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 40,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 40,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 40,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 40,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+            "post_id": "2098975357638701108",
+            "handle": "aerolattic29965",
+            "source_time": "2026-09-13 17:23:53",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "布偶喵",
+        "promo_name": "布偶喵",
+        "followers_count": 687,
+        "followers_text": "687",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 687
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 687
+          },
+          {
+            "source": "status_legacy",
+            "count": 687
+          },
+          {
+            "source": "profile_v2",
+            "count": 687
+          }
+        ],
+        "check_followers_count": 687,
+        "check_followers_text": "687",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 687
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 687
+          },
+          {
+            "source": "status_legacy",
+            "count": 687
+          },
+          {
+            "source": "profile_v2",
+            "count": 687
+          }
+        ],
+        "tweet_text": "可爱的小珠子\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 40,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 40,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 40,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 40,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 40,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+        "check_url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+        "promo_post_id": "2098975357638701108",
+        "check_post_id": "2098975357638701108",
+        "chat_id": "-1003739822194",
+        "message_id": 1985,
+        "time": "2026-09-13 17:23:53",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 687,
+        "qualified_followers_text": "687",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 29,
+        "daily_list_status": "accepted"
       }
     }
   },
@@ -24774,5 +26717,16 @@
     "群一": 30,
     "群二": 30,
     "群三": 30
+  },
+  "confirmed_withdrawals": {
+    "date": "2026-09-13",
+    "groups": {
+      "群二": {
+        "74131": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-09-13 17:30:44"
+        }
+      }
+    }
   }
 }

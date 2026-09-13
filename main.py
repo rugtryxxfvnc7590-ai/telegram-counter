@@ -11,6 +11,7 @@ from daily_capacity import (
 )
 from private_list_sync import edited_slots, freeze_links
 from edited_link_receipts import defer_edited_link_reply
+from withdrawal_sync import plan_roster
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
 STATE_FILE = "state.json"
@@ -395,7 +396,8 @@ def _edit_private_message(chat_id, message_id, text):
     return False, description or "Telegram 编辑失败"
 
 
-def _sync_sent_owner_list(registry, record, group, chat_id, owner, day, now, replace_legacy=False):
+def _sync_sent_owner_list(registry, record, group, chat_id, owner, day, now, replace_legacy=False,
+                         limit=0, save_callback=None):
     message_id = record.get("message_id")
     if record.get("owner_chat_id") not in (None, "", owner):
         return "owner_changed", False
@@ -404,11 +406,26 @@ def _sync_sent_owner_list(registry, record, group, chat_id, owner, day, now, rep
     slots = record.get("slots")
     if slots is None:
         slots = freeze_links(record.get("links") or [], registry, expand_chat_id(chat_id), day)
-    updated = edited_slots(slots, registry, expand_chat_id(chat_id), day, now)
+    plan = plan_roster(dict(record, slots=slots), registry, chat_id, day, now, limit)
+    roster_changed = (plan["slots"] != slots
+                      or plan["withdrawn_message_ids"] != record.get("withdrawn_message_ids", []))
+    if roster_changed:
+        desired = dict(plan, planned_at=now)
+        previous = record.get("pending_roster") or {}
+        if any(previous.get(key) != plan[key] for key in plan):
+            record["pending_roster"] = desired
+            if save_callback:
+                save_callback()
+    updated = edited_slots(plan["slots"], registry, expand_chat_id(chat_id), day, now)
     links = [slot["url"] for slot in updated]
     indices = [i for i, slot in enumerate(updated, 1) if slot.get("edited")]
     message = format_daily_list_message(group, day, links, indices)
     if message_id and message == record.get("text"):
+        if record.get("pending_roster"):
+            record.update(slots=updated, links=links, count=len(links), roster_capacity=plan["capacity"],
+                          withdrawn_message_ids=plan["withdrawn_message_ids"])
+            record.pop("pending_roster", None)
+            return "already_sent", True
         return "already_sent", False
     if len(message) > 4096:
         return "message_too_long", False
@@ -422,12 +439,16 @@ def _sync_sent_owner_list(registry, record, group, chat_id, owner, day, now, rep
     if not message_id:
         record["message_id"] = detail.get("message_id") if isinstance(detail, dict) else None
         record["legacy_reissued_at"] = now
-    record.update(owner_chat_id=owner, slots=updated, links=links, text=message, updated_at=now)
+    record.update(owner_chat_id=owner, slots=updated, links=links, count=len(links), text=message, updated_at=now)
+    if record.get("pending_roster"):
+        record.update(roster_capacity=plan["capacity"], withdrawn_message_ids=plan["withdrawn_message_ids"])
+        record.pop("pending_roster", None)
     return "edited" if message_id else "legacy_reissued", True
 
 
 def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, limits=None,
                              replace_legacy_groups=()):
+    fixed_now = now
     now = now or datetime.now(BEIJING)
     if now.tzinfo is None:
         now = now.replace(tzinfo=BEIJING)
@@ -464,14 +485,15 @@ def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, lim
                 continue
             status, changed = _sync_sent_owner_list(
                 registry, record, group_label, chat_id, owner_chat_id, day,
-                now.strftime("%Y-%m-%d %H:%M:%S"),
+                (now if fixed_now is not None else datetime.now(BEIJING)).strftime("%Y-%m-%d %H:%M:%S"),
                 replace_legacy=(group_label in replace_legacy_groups and not record.get("legacy_reissued_at")),
+                limit=limits[group_label], save_callback=save_callback,
             )
             results[group_label] = status
             if changed:
                 if save_callback:
                     save_callback()
-                print(f"私信名单同步：{group_label} {status}，固定 {record['count']} 条。")
+                print(f"私信名单同步：{group_label} {status}，当前 {record['count']} 条。")
             continue
         if group_label not in snapshot_groups or registry.get("date") != day:
             results[group_label] = "waiting_for_snapshot"

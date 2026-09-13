@@ -3,6 +3,7 @@ import os
 from collections import defaultdict
 
 from main import expand_chat_id, load_registry, remove_registry_rows_for_message, save_registry
+from withdrawal_sync import note_withdrawals
 
 
 SESSION_ENV_KEYS = ("TELEGRAM_STRING_SESSION", "TELEGRAM_USER_SESSION", "TELETHON_SESSION")
@@ -88,13 +89,17 @@ async def _existing_message_ids(client, entity, message_ids):
         messages = await client.get_messages(entity, ids=batch)
         if not isinstance(messages, (list, tuple)):
             messages = [messages]
+        if len(messages) != len(batch):
+            raise RuntimeError("不完整的按ID查询结果，不能判定消息已删除")
         for message_id, message in zip(batch, messages):
             if message is not None:
+                if getattr(message, "id", None) != message_id:
+                    raise RuntimeError("按ID查询返回了不同消息，不能判定消息已删除")
                 existing.add(message_id)
     return existing
 
 
-async def sync_deleted_messages_with_client(client, registry=None, logger=print):
+async def sync_deleted_messages_with_client(client, registry=None, logger=print, now=None):
     registry = registry if registry is not None else load_registry()
     refs = collect_registry_message_refs(registry)
     deleted_by_chat = {}
@@ -111,6 +116,7 @@ async def sync_deleted_messages_with_client(client, registry=None, logger=print)
         deleted = sorted(set(message_ids) - existing)
         if deleted:
             deleted_by_chat[chat_id] = deleted
+            note_withdrawals(registry, chat_id, {str(mid): "message_deleted_by_id" for mid in deleted}, now)
 
     removed = prune_deleted_message_ids(registry, deleted_by_chat)
     if removed:

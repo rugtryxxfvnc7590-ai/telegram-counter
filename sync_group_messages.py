@@ -1,4 +1,5 @@
 import asyncio
+from copy import deepcopy
 from collections import defaultdict
 from datetime import datetime, time, timezone
 
@@ -23,6 +24,7 @@ from main import (
     save_state,
 )
 from sync_deleted_messages import _env_value, _resolve_entity, _string_session, deletion_sync_enabled
+from withdrawal_sync import snapshot_withdrawals
 
 
 HISTORY_LIMIT = 3000
@@ -69,7 +71,22 @@ def _snapshot_has_only_post_links(snapshot):
     )
 
 
-def replace_group_snapshot(registry, state, chat_id, messages, day):
+def replace_group_snapshot(registry, state, chat_id, messages, day, now=None):
+    # Parsing failure must not turn a partial snapshot into apparent deletions.
+    replacement, next_state = deepcopy(registry), deepcopy(state)
+    matched = _replace_group_snapshot(replacement, next_state, chat_id, messages, day)
+    evidence = deepcopy(registry)
+    snapshot_withdrawals(evidence, state, chat_id, messages, day, contains_x_post_link, now)
+    if evidence.get("date") == day and "confirmed_withdrawals" in evidence:
+        replacement["confirmed_withdrawals"] = evidence["confirmed_withdrawals"]
+    registry.clear()
+    registry.update(replacement)
+    state.clear()
+    state.update(next_state)
+    return matched
+
+
+def _replace_group_snapshot(registry, state, chat_id, messages, day):
     if registry.get("date") != day:
         registry.clear()
         registry.update({"date": day, "entries": {}, "post_entries": {}})
@@ -158,7 +175,7 @@ async def _today_messages(client, entity, day_start_utc):
     reached_previous_day = False
     async for message in client.iter_messages(entity, limit=HISTORY_LIMIT):
         if not message.date:
-            continue
+            raise RuntimeError("群消息缺少日期，拒绝用不完整快照覆盖")
         message_date = message.date
         if message_date.tzinfo is None:
             message_date = message_date.replace(tzinfo=timezone.utc)
@@ -213,7 +230,7 @@ async def async_main():
             try:
                 entity = await _resolve_entity(client, chat_id)
                 messages = await _today_messages(client, entity, day_start)
-                matched = replace_group_snapshot(registry, state, chat_id, messages, day)
+                matched = replace_group_snapshot(registry, state, chat_id, messages, day, now=datetime.now(BEIJING))
             except Exception as exc:
                 print(f"今日群消息补齐：群 {chat_id} 核查失败，保留原数据：{exc}")
                 continue

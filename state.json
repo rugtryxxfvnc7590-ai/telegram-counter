@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "offset": 364614825,
+  "offset": 364614826,
   "groups": {
     "-1003891628675": {
       "count": 31,
@@ -39,16 +39,16 @@
       ]
     },
     "-1003218974409": {
-      "count": 6,
+      "count": 7,
       "message_ids": [
         "74116",
         "74117",
         "74118",
         "74119",
         "74121",
-        "74125"
-      ],
-      "reply_keys": []
+        "74125",
+        "74131"
+      ]
     },
     "-1003739822194": {
       "count": 23,
@@ -81,7 +81,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-13",
-    "run_at": "2026-09-13 16:30:45",
+    "run_at": "2026-09-13 16:38:05",
     "completed_groups": [
       "群一",
       "群二",
@@ -469,6 +469,37 @@
       },
       "群二": {},
       "群三": {}
+    }
+  },
+  "violation_replies": {
+    "date": "2026-09-13",
+    "groups": {
+      "群二": {
+        "74118:low_followers": {
+          "status": "failed",
+          "message_id": 74118,
+          "rule": "low_followers",
+          "attempts": 1,
+          "attempted_at": "2026-09-13 16:38:11",
+          "retry_after": "2026-09-13 16:43:11"
+        },
+        "74121:low_followers": {
+          "status": "failed",
+          "message_id": 74121,
+          "rule": "low_followers",
+          "attempts": 1,
+          "attempted_at": "2026-09-13 16:38:12",
+          "retry_after": "2026-09-13 16:43:12"
+        },
+        "74125:low_followers": {
+          "status": "failed",
+          "message_id": 74125,
+          "rule": "low_followers",
+          "attempts": 1,
+          "attempted_at": "2026-09-13 16:38:12",
+          "retry_after": "2026-09-13 16:43:12"
+        }
+      }
     }
   }
 }

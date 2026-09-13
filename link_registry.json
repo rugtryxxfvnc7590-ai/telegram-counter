@@ -6828,7 +6828,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12210,
+        "followers_count": 12214,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -6884,6 +6884,22 @@
           {
             "source": "profile_v2",
             "count": 12210
+          },
+          {
+            "source": "status_v2",
+            "count": 12214
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12214
+          },
+          {
+            "source": "status_legacy",
+            "count": 12214
+          },
+          {
+            "source": "profile_v2",
+            "count": 12214
           }
         ],
         "check_followers_count": 186108,
@@ -7079,7 +7095,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12210,
+        "followers_count": 12214,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -7135,6 +7151,22 @@
           {
             "source": "profile_v2",
             "count": 12210
+          },
+          {
+            "source": "status_v2",
+            "count": 12214
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12214
+          },
+          {
+            "source": "status_legacy",
+            "count": 12214
+          },
+          {
+            "source": "profile_v2",
+            "count": 12214
           }
         ],
         "check_followers_count": 186108,
@@ -7652,6 +7684,444 @@
         "ineligible_reason": "followers_below_minimum",
         "daily_list_rank": 0,
         "daily_list_status": "ineligible"
+      },
+      "shiyuqinqin88": {
+        "x_handle": "shiyuqinqin88",
+        "check_handle": "aliqinqin888",
+        "dual_link": true,
+        "promo_handle": "shiyuqinqin88",
+        "tg_username": "shixiaoyu99",
+        "tg_user_id": 5404758777,
+        "tg_name": "Destiny",
+        "link": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
+        "message_text": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
+            "handle": "shiyuqinqin88",
+            "post_id": "2099048467783942372",
+            "role": "promo",
+            "author_name": "時瑜Yuu",
+            "followers_count": 9470,
+            "followers_text": "9.4K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 9470
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 9470
+              },
+              {
+                "source": "status_legacy",
+                "count": 9470
+              },
+              {
+                "source": "profile_v2",
+                "count": 9470
+              }
+            ],
+            "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 42,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/aliqinqin888?s=21",
+            "handle": "aliqinqin888",
+            "post_id": "",
+            "role": "check",
+            "author_name": "早安阿离",
+            "followers_count": 124134,
+            "followers_text": "12.4W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 124134
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
+            "post_id": "2099048467783942372",
+            "handle": "shiyuqinqin88",
+            "source_time": "2026-09-13 16:36:17",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "時瑜Yuu",
+        "promo_name": "時瑜Yuu",
+        "followers_count": 9470,
+        "followers_text": "9.4K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 9470
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9470
+          },
+          {
+            "source": "status_legacy",
+            "count": 9470
+          },
+          {
+            "source": "profile_v2",
+            "count": 9470
+          }
+        ],
+        "check_followers_count": 124134,
+        "check_followers_text": "12.4W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 124134
+          }
+        ],
+        "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 42,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
+        "check_url": "https://x.com/aliqinqin888?s=21",
+        "promo_post_id": "2099048467783942372",
+        "check_post_id": "",
+        "chat_id": "-1003218974409",
+        "message_id": 74131,
+        "time": "2026-09-13 16:36:17",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 124134,
+        "qualified_followers_text": "12.4W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 4,
+        "daily_list_status": "accepted"
+      },
+      "aliqinqin888": {
+        "x_handle": "aliqinqin888",
+        "check_handle": "aliqinqin888",
+        "dual_link": true,
+        "promo_handle": "shiyuqinqin88",
+        "tg_username": "shixiaoyu99",
+        "tg_user_id": 5404758777,
+        "tg_name": "Destiny",
+        "link": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
+        "message_text": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
+            "handle": "shiyuqinqin88",
+            "post_id": "2099048467783942372",
+            "role": "promo",
+            "author_name": "時瑜Yuu",
+            "followers_count": 9470,
+            "followers_text": "9.4K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 9470
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 9470
+              },
+              {
+                "source": "status_legacy",
+                "count": 9470
+              },
+              {
+                "source": "profile_v2",
+                "count": 9470
+              }
+            ],
+            "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 42,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/aliqinqin888?s=21",
+            "handle": "aliqinqin888",
+            "post_id": "",
+            "role": "check",
+            "author_name": "早安阿离",
+            "followers_count": 124134,
+            "followers_text": "12.4W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 124134
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
+            "post_id": "2099048467783942372",
+            "handle": "shiyuqinqin88",
+            "source_time": "2026-09-13 16:36:17",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "時瑜Yuu",
+        "promo_name": "時瑜Yuu",
+        "followers_count": 9470,
+        "followers_text": "9.4K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 9470
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9470
+          },
+          {
+            "source": "status_legacy",
+            "count": 9470
+          },
+          {
+            "source": "profile_v2",
+            "count": 9470
+          }
+        ],
+        "check_followers_count": 124134,
+        "check_followers_text": "12.4W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 124134
+          }
+        ],
+        "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 42,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
+        "check_url": "https://x.com/aliqinqin888?s=21",
+        "promo_post_id": "2099048467783942372",
+        "check_post_id": "",
+        "chat_id": "-1003218974409",
+        "message_id": 74131,
+        "time": "2026-09-13 16:36:17",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 124134,
+        "qualified_followers_text": "12.4W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 4,
+        "daily_list_status": "accepted"
       }
     },
     "-1003739822194": {
@@ -19205,7 +19675,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12210,
+        "followers_count": 12214,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -19261,6 +19731,22 @@
           {
             "source": "profile_v2",
             "count": 12210
+          },
+          {
+            "source": "status_v2",
+            "count": 12214
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12214
+          },
+          {
+            "source": "status_legacy",
+            "count": 12214
+          },
+          {
+            "source": "profile_v2",
+            "count": 12214
           }
         ],
         "check_followers_count": 186108,
@@ -19778,6 +20264,225 @@
         "ineligible_reason": "followers_below_minimum",
         "daily_list_rank": 0,
         "daily_list_status": "ineligible"
+      },
+      "2099048467783942372": {
+        "x_handle": "shiyuqinqin88",
+        "check_handle": "aliqinqin888",
+        "dual_link": true,
+        "promo_handle": "shiyuqinqin88",
+        "tg_username": "shixiaoyu99",
+        "tg_user_id": 5404758777,
+        "tg_name": "Destiny",
+        "link": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
+        "message_text": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20\n推上面☝️\n回推👉 https://x.com/aliqinqin888?s=21",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
+            "handle": "shiyuqinqin88",
+            "post_id": "2099048467783942372",
+            "role": "promo",
+            "author_name": "時瑜Yuu",
+            "followers_count": 9470,
+            "followers_text": "9.4K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 9470
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 9470
+              },
+              {
+                "source": "status_legacy",
+                "count": 9470
+              },
+              {
+                "source": "profile_v2",
+                "count": 9470
+              }
+            ],
+            "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 42,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/aliqinqin888?s=21",
+            "handle": "aliqinqin888",
+            "post_id": "",
+            "role": "check",
+            "author_name": "早安阿离",
+            "followers_count": 124134,
+            "followers_text": "12.4W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 124134
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
+            "post_id": "2099048467783942372",
+            "handle": "shiyuqinqin88",
+            "source_time": "2026-09-13 16:36:17",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "時瑜Yuu",
+        "promo_name": "時瑜Yuu",
+        "followers_count": 9470,
+        "followers_text": "9.4K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 9470
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9470
+          },
+          {
+            "source": "status_legacy",
+            "count": 9470
+          },
+          {
+            "source": "profile_v2",
+            "count": 9470
+          }
+        ],
+        "check_followers_count": 124134,
+        "check_followers_text": "12.4W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 124134
+          }
+        ],
+        "tweet_text": "永远站在你身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 42,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/shiyuqinqin88/status/2099048467783942372?s=20",
+        "check_url": "https://x.com/aliqinqin888?s=21",
+        "promo_post_id": "2099048467783942372",
+        "check_post_id": "",
+        "chat_id": "-1003218974409",
+        "message_id": 74131,
+        "time": "2026-09-13 16:36:17",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 124134,
+        "qualified_followers_text": "12.4W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 4,
+        "daily_list_status": "accepted"
       }
     },
     "-1003739822194": {

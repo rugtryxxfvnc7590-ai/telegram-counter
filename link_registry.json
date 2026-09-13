@@ -6828,7 +6828,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12329,
+        "followers_count": 12346,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -7204,6 +7204,22 @@
           {
             "source": "profile_v2",
             "count": 12329
+          },
+          {
+            "source": "status_v2",
+            "count": 12346
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12346
+          },
+          {
+            "source": "status_legacy",
+            "count": 12346
+          },
+          {
+            "source": "profile_v2",
+            "count": 12346
           }
         ],
         "check_followers_count": 186108,
@@ -7250,6 +7266,11 @@
             "source": "status_legacy",
             "length": 113,
             "required_mentions_count": 0
+          },
+          {
+            "source": "status_v2",
+            "length": 257,
+            "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "vx_status_v2",
@@ -7399,7 +7420,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12329,
+        "followers_count": 12346,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -7775,6 +7796,22 @@
           {
             "source": "profile_v2",
             "count": 12329
+          },
+          {
+            "source": "status_v2",
+            "count": 12346
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12346
+          },
+          {
+            "source": "status_legacy",
+            "count": 12346
+          },
+          {
+            "source": "profile_v2",
+            "count": 12346
           }
         ],
         "check_followers_count": 186108,
@@ -7821,6 +7858,11 @@
             "source": "status_legacy",
             "length": 113,
             "required_mentions_count": 0
+          },
+          {
+            "source": "status_v2",
+            "length": 257,
+            "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "vx_status_v2",
@@ -21395,7 +21437,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12329,
+        "followers_count": 12346,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -21771,6 +21813,22 @@
           {
             "source": "profile_v2",
             "count": 12329
+          },
+          {
+            "source": "status_v2",
+            "count": 12346
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12346
+          },
+          {
+            "source": "status_legacy",
+            "count": 12346
+          },
+          {
+            "source": "profile_v2",
+            "count": 12346
           }
         ],
         "check_followers_count": 186108,
@@ -21817,6 +21875,11 @@
             "source": "status_legacy",
             "length": 113,
             "required_mentions_count": 0
+          },
+          {
+            "source": "status_v2",
+            "length": 257,
+            "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "vx_status_v2",

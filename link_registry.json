@@ -6752,7 +6752,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12151,
+        "followers_count": 12163,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -6824,6 +6824,22 @@
           {
             "source": "profile_v2",
             "count": 12151
+          },
+          {
+            "source": "status_v2",
+            "count": 12163
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12163
+          },
+          {
+            "source": "status_legacy",
+            "count": 12163
+          },
+          {
+            "source": "profile_v2",
+            "count": 12163
           }
         ],
         "check_followers_count": 12109,
@@ -6902,7 +6918,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 12151,
+        "qualified_followers_count": 12163,
         "qualified_followers_text": "1.2W",
         "qualified_followers_sources": [
           "status_v2",
@@ -10911,6 +10927,426 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "daily_list_rank": 21,
+        "daily_list_status": "accepted"
+      },
+      "cicimo_oo": {
+        "x_handle": "cicimo_oo",
+        "check_handle": "cicimo_oo",
+        "dual_link": false,
+        "promo_handle": "cicimo_oo",
+        "tg_username": "Cicimo_oO",
+        "tg_user_id": 7348226714,
+        "tg_name": "诗 诗💗",
+        "link": "诗诗\n\nhttps://x.com/cicimo_oo/status/2099028340011319749?s=46",
+        "message_text": "诗诗\n\nhttps://x.com/cicimo_oo/status/2099028340011319749?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cicimo_oo/status/2099028340011319749?s=46",
+            "handle": "cicimo_oo",
+            "post_id": "2099028340011319749",
+            "role": "promo",
+            "author_name": "诗诗「防丢号」",
+            "followers_count": 1298,
+            "followers_text": "1.2K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1298
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1298
+              },
+              {
+                "source": "status_legacy",
+                "count": 1298
+              },
+              {
+                "source": "profile_v2",
+                "count": 1298
+              }
+            ],
+            "tweet_text": "本来想跪下求自己别爱他了，但发现跪下来高度刚好\n@ToBuerma @ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 57,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cicimo_oo/status/2099028340011319749?s=46",
+            "post_id": "2099028340011319749",
+            "handle": "cicimo_oo",
+            "source_time": "2026-09-13 14:53:00",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "诗诗「防丢号」",
+        "promo_name": "诗诗「防丢号」",
+        "followers_count": 1298,
+        "followers_text": "1.2K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1298
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1298
+          },
+          {
+            "source": "status_legacy",
+            "count": 1298
+          },
+          {
+            "source": "profile_v2",
+            "count": 1298
+          }
+        ],
+        "check_followers_count": 1298,
+        "check_followers_text": "1.2K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1298
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1298
+          },
+          {
+            "source": "status_legacy",
+            "count": 1298
+          },
+          {
+            "source": "profile_v2",
+            "count": 1298
+          }
+        ],
+        "tweet_text": "本来想跪下求自己别爱他了，但发现跪下来高度刚好\n@ToBuerma @ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 57,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cicimo_oo/status/2099028340011319749?s=46",
+        "check_url": "https://x.com/cicimo_oo/status/2099028340011319749?s=46",
+        "promo_post_id": "2099028340011319749",
+        "check_post_id": "2099028340011319749",
+        "chat_id": "-1003739822194",
+        "message_id": 1978,
+        "time": "2026-09-13 14:53:00",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1298,
+        "qualified_followers_text": "1.2K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 22,
+        "daily_list_status": "accepted"
+      },
+      "blacksex999": {
+        "x_handle": "blacksex999",
+        "check_handle": "blacksex999",
+        "dual_link": false,
+        "promo_handle": "blacksex999",
+        "tg_username": "blacksex99",
+        "tg_user_id": 7446354632,
+        "tg_name": "OB噢逼 不闲聊看简介",
+        "link": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+        "message_text": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+            "handle": "blacksex999",
+            "post_id": "2096508398770741325",
+            "role": "promo",
+            "author_name": "爹爹",
+            "followers_count": 299,
+            "followers_text": "299",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 299
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 299
+              },
+              {
+                "source": "status_legacy",
+                "count": 299
+              },
+              {
+                "source": "profile_v2",
+                "count": 299
+              }
+            ],
+            "tweet_text": "人瘦胸還這麼大，被女神榨乾了\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 49,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 49,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 49,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 49,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 49,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+            "post_id": "2096508398770741325",
+            "handle": "blacksex999",
+            "source_time": "2026-09-13 14:57:13",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "爹爹",
+        "promo_name": "爹爹",
+        "followers_count": 299,
+        "followers_text": "299",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 299
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 299
+          },
+          {
+            "source": "status_legacy",
+            "count": 299
+          },
+          {
+            "source": "profile_v2",
+            "count": 299
+          }
+        ],
+        "check_followers_count": 299,
+        "check_followers_text": "299",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 299
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 299
+          },
+          {
+            "source": "status_legacy",
+            "count": 299
+          },
+          {
+            "source": "profile_v2",
+            "count": 299
+          }
+        ],
+        "tweet_text": "人瘦胸還這麼大，被女神榨乾了\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 49,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 49,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 49,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 49,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 49,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+        "check_url": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+        "promo_post_id": "2096508398770741325",
+        "check_post_id": "2096508398770741325",
+        "chat_id": "-1003739822194",
+        "message_id": 1979,
+        "time": "2026-09-13 14:57:13",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 299,
+        "qualified_followers_text": "299",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 23,
         "daily_list_status": "accepted"
       }
     }
@@ -17667,7 +18103,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 12151,
+        "followers_count": 12163,
         "followers_text": "1.2W",
         "followers_sources": [
           "status_v2",
@@ -17739,6 +18175,22 @@
           {
             "source": "profile_v2",
             "count": 12151
+          },
+          {
+            "source": "status_v2",
+            "count": 12163
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12163
+          },
+          {
+            "source": "status_legacy",
+            "count": 12163
+          },
+          {
+            "source": "profile_v2",
+            "count": 12163
           }
         ],
         "check_followers_count": 12109,
@@ -17817,7 +18269,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 12151,
+        "qualified_followers_count": 12163,
         "qualified_followers_text": "1.2W",
         "qualified_followers_sources": [
           "status_v2",
@@ -21826,6 +22278,426 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "daily_list_rank": 21,
+        "daily_list_status": "accepted"
+      },
+      "2099028340011319749": {
+        "x_handle": "cicimo_oo",
+        "check_handle": "cicimo_oo",
+        "dual_link": false,
+        "promo_handle": "cicimo_oo",
+        "tg_username": "Cicimo_oO",
+        "tg_user_id": 7348226714,
+        "tg_name": "诗 诗💗",
+        "link": "诗诗\n\nhttps://x.com/cicimo_oo/status/2099028340011319749?s=46",
+        "message_text": "诗诗\n\nhttps://x.com/cicimo_oo/status/2099028340011319749?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cicimo_oo/status/2099028340011319749?s=46",
+            "handle": "cicimo_oo",
+            "post_id": "2099028340011319749",
+            "role": "promo",
+            "author_name": "诗诗「防丢号」",
+            "followers_count": 1298,
+            "followers_text": "1.2K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1298
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1298
+              },
+              {
+                "source": "status_legacy",
+                "count": 1298
+              },
+              {
+                "source": "profile_v2",
+                "count": 1298
+              }
+            ],
+            "tweet_text": "本来想跪下求自己别爱他了，但发现跪下来高度刚好\n@ToBuerma @ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 57,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cicimo_oo/status/2099028340011319749?s=46",
+            "post_id": "2099028340011319749",
+            "handle": "cicimo_oo",
+            "source_time": "2026-09-13 14:53:00",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "诗诗「防丢号」",
+        "promo_name": "诗诗「防丢号」",
+        "followers_count": 1298,
+        "followers_text": "1.2K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1298
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1298
+          },
+          {
+            "source": "status_legacy",
+            "count": 1298
+          },
+          {
+            "source": "profile_v2",
+            "count": 1298
+          }
+        ],
+        "check_followers_count": 1298,
+        "check_followers_text": "1.2K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1298
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1298
+          },
+          {
+            "source": "status_legacy",
+            "count": 1298
+          },
+          {
+            "source": "profile_v2",
+            "count": 1298
+          }
+        ],
+        "tweet_text": "本来想跪下求自己别爱他了，但发现跪下来高度刚好\n@ToBuerma @ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 57,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cicimo_oo/status/2099028340011319749?s=46",
+        "check_url": "https://x.com/cicimo_oo/status/2099028340011319749?s=46",
+        "promo_post_id": "2099028340011319749",
+        "check_post_id": "2099028340011319749",
+        "chat_id": "-1003739822194",
+        "message_id": 1978,
+        "time": "2026-09-13 14:53:00",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1298,
+        "qualified_followers_text": "1.2K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 22,
+        "daily_list_status": "accepted"
+      },
+      "2096508398770741325": {
+        "x_handle": "blacksex999",
+        "check_handle": "blacksex999",
+        "dual_link": false,
+        "promo_handle": "blacksex999",
+        "tg_username": "blacksex99",
+        "tg_user_id": 7446354632,
+        "tg_name": "OB噢逼 不闲聊看简介",
+        "link": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+        "message_text": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+            "handle": "blacksex999",
+            "post_id": "2096508398770741325",
+            "role": "promo",
+            "author_name": "爹爹",
+            "followers_count": 299,
+            "followers_text": "299",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 299
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 299
+              },
+              {
+                "source": "status_legacy",
+                "count": 299
+              },
+              {
+                "source": "profile_v2",
+                "count": 299
+              }
+            ],
+            "tweet_text": "人瘦胸還這麼大，被女神榨乾了\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 49,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 49,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 49,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 49,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 49,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+            "post_id": "2096508398770741325",
+            "handle": "blacksex999",
+            "source_time": "2026-09-13 14:57:13",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "爹爹",
+        "promo_name": "爹爹",
+        "followers_count": 299,
+        "followers_text": "299",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 299
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 299
+          },
+          {
+            "source": "status_legacy",
+            "count": 299
+          },
+          {
+            "source": "profile_v2",
+            "count": 299
+          }
+        ],
+        "check_followers_count": 299,
+        "check_followers_text": "299",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 299
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 299
+          },
+          {
+            "source": "status_legacy",
+            "count": 299
+          },
+          {
+            "source": "profile_v2",
+            "count": 299
+          }
+        ],
+        "tweet_text": "人瘦胸還這麼大，被女神榨乾了\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 49,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 49,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 49,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 49,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 49,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+        "check_url": "https://x.com/blacksex999/status/2096508398770741325?s=46",
+        "promo_post_id": "2096508398770741325",
+        "check_post_id": "2096508398770741325",
+        "chat_id": "-1003739822194",
+        "message_id": 1979,
+        "time": "2026-09-13 14:57:13",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 299,
+        "qualified_followers_text": "299",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "daily_list_rank": 23,
         "daily_list_status": "accepted"
       }
     }

@@ -5923,12 +5923,650 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 01:15:34",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 27,
+        "daily_list_status": "accepted"
+      },
+      "joragyyy": {
+        "x_handle": "joragyyy",
+        "check_handle": "joragyyy",
+        "dual_link": false,
+        "promo_handle": "joragyyy",
+        "tg_username": "Yiiceing",
+        "tg_user_id": 7996721954,
+        "tg_name": "Yiiceing",
+        "link": "https://x.com/joragyyy/status/2098810318101364867",
+        "message_text": "https://x.com/joragyyy/status/2098810318101364867",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/joragyyy/status/2098810318101364867",
+            "handle": "joragyyy",
+            "post_id": "2098810318101364867",
+            "role": "promo",
+            "author_name": "Yiiceing",
+            "followers_count": 106507,
+            "followers_text": "10.6W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 106507
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 106507
+              },
+              {
+                "source": "status_legacy",
+                "count": 106507
+              },
+              {
+                "source": "profile_v2",
+                "count": 106507
+              }
+            ],
+            "tweet_text": "被撑开了\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 39,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 39,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 39,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 39,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 39,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/joragyyy/status/2098810318101364867",
+            "post_id": "2098810318101364867",
+            "handle": "joragyyy",
+            "source_time": "2026-09-15 01:17:23",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Yiiceing",
+        "promo_name": "Yiiceing",
+        "followers_count": 106507,
+        "followers_text": "10.6W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 106507
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 106507
+          },
+          {
+            "source": "status_legacy",
+            "count": 106507
+          },
+          {
+            "source": "profile_v2",
+            "count": 106507
+          }
+        ],
+        "check_followers_count": 106507,
+        "check_followers_text": "10.6W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 106507
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 106507
+          },
+          {
+            "source": "status_legacy",
+            "count": 106507
+          },
+          {
+            "source": "profile_v2",
+            "count": 106507
+          }
+        ],
+        "tweet_text": "被撑开了\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 39,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 39,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 39,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 39,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 39,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/joragyyy/status/2098810318101364867",
+        "check_url": "https://x.com/joragyyy/status/2098810318101364867",
+        "promo_post_id": "2098810318101364867",
+        "check_post_id": "2098810318101364867",
+        "chat_id": "-1003891628675",
+        "message_id": 7732,
+        "time": "2026-09-15 01:17:23",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 106507,
+        "qualified_followers_text": "10.6W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 01:17:23",
+        "admission_locked": false,
+        "daily_list_rank": 28,
         "daily_list_status": "accepted"
       }
     },
-    "-1003218974409": {},
+    "-1003218974409": {
+      "zhuguang9859": {
+        "x_handle": "zhuguang9859",
+        "check_handle": "zhuguang9859",
+        "dual_link": false,
+        "promo_handle": "zhuguang9859",
+        "tg_username": "xiatian9859",
+        "tg_user_id": 8281002968,
+        "tg_name": "逐光",
+        "link": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "message_text": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+            "handle": "zhuguang9859",
+            "post_id": "2099543492787896632",
+            "role": "promo",
+            "author_name": "逐光的夏天",
+            "followers_count": 53124,
+            "followers_text": "5.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 53124
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 53124
+              },
+              {
+                "source": "status_legacy",
+                "count": 53124
+              },
+              {
+                "source": "profile_v2",
+                "count": 53124
+              }
+            ],
+            "tweet_text": "壮硕单男（二）女友从开始的抗拒，转化成了淫荡的状态，内心的小母狗苏醒，渴望着肉棒的侵犯，每次一撞击她都紧紧的抓着枕头，果然还是喜欢3p的\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 105,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+            "post_id": "2099543492787896632",
+            "handle": "zhuguang9859",
+            "source_time": "2026-09-15 01:21:40",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "逐光的夏天",
+        "promo_name": "逐光的夏天",
+        "followers_count": 53124,
+        "followers_text": "5.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy",
+            "count": 53124
+          },
+          {
+            "source": "profile_v2",
+            "count": 53124
+          }
+        ],
+        "check_followers_count": 53124,
+        "check_followers_text": "5.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy",
+            "count": 53124
+          },
+          {
+            "source": "profile_v2",
+            "count": 53124
+          }
+        ],
+        "tweet_text": "壮硕单男（二）女友从开始的抗拒，转化成了淫荡的状态，内心的小母狗苏醒，渴望着肉棒的侵犯，每次一撞击她都紧紧的抓着枕头，果然还是喜欢3p的\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 105,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "check_url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "promo_post_id": "2099543492787896632",
+        "check_post_id": "2099543492787896632",
+        "chat_id": "-1003218974409",
+        "message_id": 74163,
+        "time": "2026-09-15 01:21:40",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 53124,
+        "qualified_followers_text": "5.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 01:21:40",
+        "admission_locked": false,
+        "daily_list_rank": 1,
+        "daily_list_status": "accepted"
+      },
+      "xiaowang0000001": {
+        "x_handle": "xiaowang0000001",
+        "check_handle": "xiaowang0000001",
+        "dual_link": false,
+        "promo_handle": "xiaowang0000001",
+        "tg_username": "xiaochen000007",
+        "tg_user_id": 5718822279,
+        "tg_name": "小陈和小王的日常",
+        "link": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "message_text": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+            "handle": "xiaowang0000001",
+            "post_id": "2093625385972093276",
+            "role": "promo",
+            "author_name": "小王的侦探事务所",
+            "followers_count": 13602,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13602
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13602
+              },
+              {
+                "source": "status_legacy",
+                "count": 13602
+              },
+              {
+                "source": "profile_v2",
+                "count": 13602
+              }
+            ],
+            "tweet_text": "侦探事务所第一期：\n       本期由战地记者小飞飞带大家直击现场\n揭秘KTV出台（半露脸）文化本次拍摄地点为当地特色荤场、真空场\n\n全程对白有趣 公主一开始装清纯装自己不会口我们侦探可不会惯着她直接深喉还被咬了一口 最后一波无套进入差点内射（侦探大哥状态有点不佳疯狂折腾妹子）\n\nps：公主还想让我们侦探大哥多给她介绍一些客人我们侦探大哥直接说看她表现\n   \n完整版30分钟以及地址将在内群更新\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen \n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 140,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 140,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 248,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 248,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 140,
+                "required_mentions_count": 0
+              }
+            ],
+            "tweet_text_primary_source": "vx_status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+            "post_id": "2093625385972093276",
+            "handle": "xiaowang0000001",
+            "source_time": "2026-09-15 01:24:14",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小王的侦探事务所",
+        "promo_name": "小王的侦探事务所",
+        "followers_count": 13602,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy",
+            "count": 13602
+          },
+          {
+            "source": "profile_v2",
+            "count": 13602
+          }
+        ],
+        "check_followers_count": 13602,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy",
+            "count": 13602
+          },
+          {
+            "source": "profile_v2",
+            "count": 13602
+          }
+        ],
+        "tweet_text": "侦探事务所第一期：\n       本期由战地记者小飞飞带大家直击现场\n揭秘KTV出台（半露脸）文化本次拍摄地点为当地特色荤场、真空场\n\n全程对白有趣 公主一开始装清纯装自己不会口我们侦探可不会惯着她直接深喉还被咬了一口 最后一波无套进入差点内射（侦探大哥状态有点不佳疯狂折腾妹子）\n\nps：公主还想让我们侦探大哥多给她介绍一些客人我们侦探大哥直接说看她表现\n   \n完整版30分钟以及地址将在内群更新\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen \n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 140,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 140,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 248,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 248,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 140,
+            "required_mentions_count": 0
+          }
+        ],
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "check_url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "promo_post_id": "2093625385972093276",
+        "check_post_id": "2093625385972093276",
+        "chat_id": "-1003218974409",
+        "message_id": 74164,
+        "time": "2026-09-15 01:24:14",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 13602,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": false,
+        "eligibility_text": "❌粉丝不足",
+        "ineligible_reason": "followers_below_minimum",
+        "admission_time": "2026-09-15 01:24:14",
+        "admission_locked": false,
+        "daily_list_rank": 0,
+        "daily_list_status": "ineligible"
+      }
+    },
     "-1003739822194": {
       "dunrk12x": {
         "x_handle": "dunrk12x",
@@ -8868,6 +9506,642 @@
         "admission_time": "2026-09-15 00:59:09",
         "admission_locked": true,
         "daily_list_rank": 14,
+        "daily_list_status": "accepted"
+      },
+      "zhuguang9859": {
+        "x_handle": "zhuguang9859",
+        "check_handle": "zhuguang9859",
+        "dual_link": false,
+        "promo_handle": "zhuguang9859",
+        "tg_username": "xiatian9859",
+        "tg_user_id": 8281002968,
+        "tg_name": "逐光",
+        "link": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "message_text": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+            "handle": "zhuguang9859",
+            "post_id": "2099543492787896632",
+            "role": "promo",
+            "author_name": "逐光的夏天",
+            "followers_count": 53124,
+            "followers_text": "5.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 53124
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 53124
+              },
+              {
+                "source": "status_legacy",
+                "count": 53124
+              },
+              {
+                "source": "profile_v2",
+                "count": 53124
+              }
+            ],
+            "tweet_text": "壮硕单男（二）女友从开始的抗拒，转化成了淫荡的状态，内心的小母狗苏醒，渴望着肉棒的侵犯，每次一撞击她都紧紧的抓着枕头，果然还是喜欢3p的\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 105,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+            "post_id": "2099543492787896632",
+            "handle": "zhuguang9859",
+            "source_time": "2026-09-15 01:20:02",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "逐光的夏天",
+        "promo_name": "逐光的夏天",
+        "followers_count": 53124,
+        "followers_text": "5.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy",
+            "count": 53124
+          },
+          {
+            "source": "profile_v2",
+            "count": 53124
+          }
+        ],
+        "check_followers_count": 53124,
+        "check_followers_text": "5.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy",
+            "count": 53124
+          },
+          {
+            "source": "profile_v2",
+            "count": 53124
+          }
+        ],
+        "tweet_text": "壮硕单男（二）女友从开始的抗拒，转化成了淫荡的状态，内心的小母狗苏醒，渴望着肉棒的侵犯，每次一撞击她都紧紧的抓着枕头，果然还是喜欢3p的\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 105,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "check_url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "promo_post_id": "2099543492787896632",
+        "check_post_id": "2099543492787896632",
+        "chat_id": "-1003739822194",
+        "message_id": 2083,
+        "time": "2026-09-15 01:20:02",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 53124,
+        "qualified_followers_text": "5.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 01:20:02",
+        "admission_locked": false,
+        "daily_list_rank": 15,
+        "daily_list_status": "accepted"
+      },
+      "xiaowang0000001": {
+        "x_handle": "xiaowang0000001",
+        "check_handle": "xiaowang0000001",
+        "dual_link": false,
+        "promo_handle": "xiaowang0000001",
+        "tg_username": "xiaowang0000001",
+        "tg_user_id": 927691734,
+        "tg_name": "小王探店",
+        "link": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "message_text": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+            "handle": "xiaowang0000001",
+            "post_id": "2093625385972093276",
+            "role": "promo",
+            "author_name": "小王的侦探事务所",
+            "followers_count": 13602,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13602
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13602
+              },
+              {
+                "source": "status_legacy",
+                "count": 13602
+              },
+              {
+                "source": "profile_v2",
+                "count": 13602
+              }
+            ],
+            "tweet_text": "侦探事务所第一期：\n       本期由战地记者小飞飞带大家直击现场\n揭秘KTV出台（半露脸）文化本次拍摄地点为当地特色荤场、真空场\n\n全程对白有趣 公主一开始装清纯装自己不会口我们侦探可不会惯着她直接深喉还被咬了一口 最后一波无套进入差点内射（侦探大哥状态有点不佳疯狂折腾妹子）\n\nps：公主还想让我们侦探大哥多给她介绍一些客人我们侦探大哥直接说看她表现\n   \n完整版30分钟以及地址将在内群更新\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen \n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 140,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 140,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 248,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 248,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 140,
+                "required_mentions_count": 0
+              }
+            ],
+            "tweet_text_primary_source": "vx_status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+            "post_id": "2093625385972093276",
+            "handle": "xiaowang0000001",
+            "source_time": "2026-09-15 01:25:04",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小王的侦探事务所",
+        "promo_name": "小王的侦探事务所",
+        "followers_count": 13602,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy",
+            "count": 13602
+          },
+          {
+            "source": "profile_v2",
+            "count": 13602
+          }
+        ],
+        "check_followers_count": 13602,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy",
+            "count": 13602
+          },
+          {
+            "source": "profile_v2",
+            "count": 13602
+          }
+        ],
+        "tweet_text": "侦探事务所第一期：\n       本期由战地记者小飞飞带大家直击现场\n揭秘KTV出台（半露脸）文化本次拍摄地点为当地特色荤场、真空场\n\n全程对白有趣 公主一开始装清纯装自己不会口我们侦探可不会惯着她直接深喉还被咬了一口 最后一波无套进入差点内射（侦探大哥状态有点不佳疯狂折腾妹子）\n\nps：公主还想让我们侦探大哥多给她介绍一些客人我们侦探大哥直接说看她表现\n   \n完整版30分钟以及地址将在内群更新\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen \n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 140,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 140,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 248,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 248,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 140,
+            "required_mentions_count": 0
+          }
+        ],
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "check_url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "promo_post_id": "2093625385972093276",
+        "check_post_id": "2093625385972093276",
+        "chat_id": "-1003739822194",
+        "message_id": 2084,
+        "time": "2026-09-15 01:25:04",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 13602,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 01:25:04",
+        "admission_locked": false,
+        "daily_list_rank": 16,
+        "daily_list_status": "accepted"
+      },
+      "cuihaooo": {
+        "x_handle": "cuihaooo",
+        "check_handle": "cuihaooo",
+        "dual_link": false,
+        "promo_handle": "cuihaooo",
+        "tg_username": "ioiuun",
+        "tg_user_id": 6874033725,
+        "tg_name": "崔浩",
+        "link": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+        "message_text": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+            "handle": "cuihaooo",
+            "post_id": "2094633339852661102",
+            "role": "promo",
+            "author_name": "崔浩",
+            "followers_count": 688,
+            "followers_text": "688",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 688
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 688
+              },
+              {
+                "source": "status_legacy",
+                "count": 688
+              },
+              {
+                "source": "profile_v2",
+                "count": 688
+              }
+            ],
+            "tweet_text": "#4号女主\n\n一些约会前的对话和doi\n\n真的反差 我给他c的已经丧志了\n\n完整版更新到视频群里了已经\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 86,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+            "post_id": "2094633339852661102",
+            "handle": "cuihaooo",
+            "source_time": "2026-09-15 01:29:07",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "崔浩",
+        "promo_name": "崔浩",
+        "followers_count": 688,
+        "followers_text": "688",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 688
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 688
+          },
+          {
+            "source": "status_legacy",
+            "count": 688
+          },
+          {
+            "source": "profile_v2",
+            "count": 688
+          }
+        ],
+        "check_followers_count": 688,
+        "check_followers_text": "688",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 688
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 688
+          },
+          {
+            "source": "status_legacy",
+            "count": 688
+          },
+          {
+            "source": "profile_v2",
+            "count": 688
+          }
+        ],
+        "tweet_text": "#4号女主\n\n一些约会前的对话和doi\n\n真的反差 我给他c的已经丧志了\n\n完整版更新到视频群里了已经\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 86,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+        "check_url": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+        "promo_post_id": "2094633339852661102",
+        "check_post_id": "2094633339852661102",
+        "chat_id": "-1003739822194",
+        "message_id": 2085,
+        "time": "2026-09-15 01:29:07",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 688,
+        "qualified_followers_text": "688",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 01:29:07",
+        "admission_locked": false,
+        "daily_list_rank": 17,
         "daily_list_status": "accepted"
       }
     }
@@ -14795,12 +16069,650 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 01:15:34",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 27,
+        "daily_list_status": "accepted"
+      },
+      "2098810318101364867": {
+        "x_handle": "joragyyy",
+        "check_handle": "joragyyy",
+        "dual_link": false,
+        "promo_handle": "joragyyy",
+        "tg_username": "Yiiceing",
+        "tg_user_id": 7996721954,
+        "tg_name": "Yiiceing",
+        "link": "https://x.com/joragyyy/status/2098810318101364867",
+        "message_text": "https://x.com/joragyyy/status/2098810318101364867",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/joragyyy/status/2098810318101364867",
+            "handle": "joragyyy",
+            "post_id": "2098810318101364867",
+            "role": "promo",
+            "author_name": "Yiiceing",
+            "followers_count": 106507,
+            "followers_text": "10.6W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 106507
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 106507
+              },
+              {
+                "source": "status_legacy",
+                "count": 106507
+              },
+              {
+                "source": "profile_v2",
+                "count": 106507
+              }
+            ],
+            "tweet_text": "被撑开了\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 39,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 39,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 39,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 39,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 39,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/joragyyy/status/2098810318101364867",
+            "post_id": "2098810318101364867",
+            "handle": "joragyyy",
+            "source_time": "2026-09-15 01:17:23",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Yiiceing",
+        "promo_name": "Yiiceing",
+        "followers_count": 106507,
+        "followers_text": "10.6W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 106507
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 106507
+          },
+          {
+            "source": "status_legacy",
+            "count": 106507
+          },
+          {
+            "source": "profile_v2",
+            "count": 106507
+          }
+        ],
+        "check_followers_count": 106507,
+        "check_followers_text": "10.6W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 106507
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 106507
+          },
+          {
+            "source": "status_legacy",
+            "count": 106507
+          },
+          {
+            "source": "profile_v2",
+            "count": 106507
+          }
+        ],
+        "tweet_text": "被撑开了\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 39,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 39,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 39,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 39,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 39,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/joragyyy/status/2098810318101364867",
+        "check_url": "https://x.com/joragyyy/status/2098810318101364867",
+        "promo_post_id": "2098810318101364867",
+        "check_post_id": "2098810318101364867",
+        "chat_id": "-1003891628675",
+        "message_id": 7732,
+        "time": "2026-09-15 01:17:23",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 106507,
+        "qualified_followers_text": "10.6W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 01:17:23",
+        "admission_locked": false,
+        "daily_list_rank": 28,
         "daily_list_status": "accepted"
       }
     },
-    "-1003218974409": {},
+    "-1003218974409": {
+      "2099543492787896632": {
+        "x_handle": "zhuguang9859",
+        "check_handle": "zhuguang9859",
+        "dual_link": false,
+        "promo_handle": "zhuguang9859",
+        "tg_username": "xiatian9859",
+        "tg_user_id": 8281002968,
+        "tg_name": "逐光",
+        "link": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "message_text": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+            "handle": "zhuguang9859",
+            "post_id": "2099543492787896632",
+            "role": "promo",
+            "author_name": "逐光的夏天",
+            "followers_count": 53124,
+            "followers_text": "5.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 53124
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 53124
+              },
+              {
+                "source": "status_legacy",
+                "count": 53124
+              },
+              {
+                "source": "profile_v2",
+                "count": 53124
+              }
+            ],
+            "tweet_text": "壮硕单男（二）女友从开始的抗拒，转化成了淫荡的状态，内心的小母狗苏醒，渴望着肉棒的侵犯，每次一撞击她都紧紧的抓着枕头，果然还是喜欢3p的\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 105,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+            "post_id": "2099543492787896632",
+            "handle": "zhuguang9859",
+            "source_time": "2026-09-15 01:21:40",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "逐光的夏天",
+        "promo_name": "逐光的夏天",
+        "followers_count": 53124,
+        "followers_text": "5.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy",
+            "count": 53124
+          },
+          {
+            "source": "profile_v2",
+            "count": 53124
+          }
+        ],
+        "check_followers_count": 53124,
+        "check_followers_text": "5.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy",
+            "count": 53124
+          },
+          {
+            "source": "profile_v2",
+            "count": 53124
+          }
+        ],
+        "tweet_text": "壮硕单男（二）女友从开始的抗拒，转化成了淫荡的状态，内心的小母狗苏醒，渴望着肉棒的侵犯，每次一撞击她都紧紧的抓着枕头，果然还是喜欢3p的\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 105,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "check_url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "promo_post_id": "2099543492787896632",
+        "check_post_id": "2099543492787896632",
+        "chat_id": "-1003218974409",
+        "message_id": 74163,
+        "time": "2026-09-15 01:21:40",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 53124,
+        "qualified_followers_text": "5.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 01:21:40",
+        "admission_locked": false,
+        "daily_list_rank": 1,
+        "daily_list_status": "accepted"
+      },
+      "2093625385972093276": {
+        "x_handle": "xiaowang0000001",
+        "check_handle": "xiaowang0000001",
+        "dual_link": false,
+        "promo_handle": "xiaowang0000001",
+        "tg_username": "xiaochen000007",
+        "tg_user_id": 5718822279,
+        "tg_name": "小陈和小王的日常",
+        "link": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "message_text": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+            "handle": "xiaowang0000001",
+            "post_id": "2093625385972093276",
+            "role": "promo",
+            "author_name": "小王的侦探事务所",
+            "followers_count": 13602,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13602
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13602
+              },
+              {
+                "source": "status_legacy",
+                "count": 13602
+              },
+              {
+                "source": "profile_v2",
+                "count": 13602
+              }
+            ],
+            "tweet_text": "侦探事务所第一期：\n       本期由战地记者小飞飞带大家直击现场\n揭秘KTV出台（半露脸）文化本次拍摄地点为当地特色荤场、真空场\n\n全程对白有趣 公主一开始装清纯装自己不会口我们侦探可不会惯着她直接深喉还被咬了一口 最后一波无套进入差点内射（侦探大哥状态有点不佳疯狂折腾妹子）\n\nps：公主还想让我们侦探大哥多给她介绍一些客人我们侦探大哥直接说看她表现\n   \n完整版30分钟以及地址将在内群更新\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen \n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 140,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 140,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 248,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 248,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 140,
+                "required_mentions_count": 0
+              }
+            ],
+            "tweet_text_primary_source": "vx_status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+            "post_id": "2093625385972093276",
+            "handle": "xiaowang0000001",
+            "source_time": "2026-09-15 01:24:14",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小王的侦探事务所",
+        "promo_name": "小王的侦探事务所",
+        "followers_count": 13602,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy",
+            "count": 13602
+          },
+          {
+            "source": "profile_v2",
+            "count": 13602
+          }
+        ],
+        "check_followers_count": 13602,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy",
+            "count": 13602
+          },
+          {
+            "source": "profile_v2",
+            "count": 13602
+          }
+        ],
+        "tweet_text": "侦探事务所第一期：\n       本期由战地记者小飞飞带大家直击现场\n揭秘KTV出台（半露脸）文化本次拍摄地点为当地特色荤场、真空场\n\n全程对白有趣 公主一开始装清纯装自己不会口我们侦探可不会惯着她直接深喉还被咬了一口 最后一波无套进入差点内射（侦探大哥状态有点不佳疯狂折腾妹子）\n\nps：公主还想让我们侦探大哥多给她介绍一些客人我们侦探大哥直接说看她表现\n   \n完整版30分钟以及地址将在内群更新\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen \n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 140,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 140,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 248,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 248,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 140,
+            "required_mentions_count": 0
+          }
+        ],
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "check_url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "promo_post_id": "2093625385972093276",
+        "check_post_id": "2093625385972093276",
+        "chat_id": "-1003218974409",
+        "message_id": 74164,
+        "time": "2026-09-15 01:24:14",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 13602,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": false,
+        "eligibility_text": "❌粉丝不足",
+        "ineligible_reason": "followers_below_minimum",
+        "admission_time": "2026-09-15 01:24:14",
+        "admission_locked": false,
+        "daily_list_rank": 0,
+        "daily_list_status": "ineligible"
+      }
+    },
     "-1003739822194": {
       "2099328166020223229": {
         "x_handle": "dunrk12x",
@@ -17740,6 +19652,642 @@
         "admission_time": "2026-09-15 00:59:09",
         "admission_locked": true,
         "daily_list_rank": 14,
+        "daily_list_status": "accepted"
+      },
+      "2099543492787896632": {
+        "x_handle": "zhuguang9859",
+        "check_handle": "zhuguang9859",
+        "dual_link": false,
+        "promo_handle": "zhuguang9859",
+        "tg_username": "xiatian9859",
+        "tg_user_id": 8281002968,
+        "tg_name": "逐光",
+        "link": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "message_text": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+            "handle": "zhuguang9859",
+            "post_id": "2099543492787896632",
+            "role": "promo",
+            "author_name": "逐光的夏天",
+            "followers_count": 53124,
+            "followers_text": "5.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 53124
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 53124
+              },
+              {
+                "source": "status_legacy",
+                "count": 53124
+              },
+              {
+                "source": "profile_v2",
+                "count": 53124
+              }
+            ],
+            "tweet_text": "壮硕单男（二）女友从开始的抗拒，转化成了淫荡的状态，内心的小母狗苏醒，渴望着肉棒的侵犯，每次一撞击她都紧紧的抓着枕头，果然还是喜欢3p的\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 105,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 105,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+            "post_id": "2099543492787896632",
+            "handle": "zhuguang9859",
+            "source_time": "2026-09-15 01:20:02",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "逐光的夏天",
+        "promo_name": "逐光的夏天",
+        "followers_count": 53124,
+        "followers_text": "5.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy",
+            "count": 53124
+          },
+          {
+            "source": "profile_v2",
+            "count": 53124
+          }
+        ],
+        "check_followers_count": 53124,
+        "check_followers_text": "5.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 53124
+          },
+          {
+            "source": "status_legacy",
+            "count": 53124
+          },
+          {
+            "source": "profile_v2",
+            "count": 53124
+          }
+        ],
+        "tweet_text": "壮硕单男（二）女友从开始的抗拒，转化成了淫荡的状态，内心的小母狗苏醒，渴望着肉棒的侵犯，每次一撞击她都紧紧的抓着枕头，果然还是喜欢3p的\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 105,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 105,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "check_url": "https://x.com/zhuguang9859/status/2099543492787896632?s=52",
+        "promo_post_id": "2099543492787896632",
+        "check_post_id": "2099543492787896632",
+        "chat_id": "-1003739822194",
+        "message_id": 2083,
+        "time": "2026-09-15 01:20:02",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 53124,
+        "qualified_followers_text": "5.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 01:20:02",
+        "admission_locked": false,
+        "daily_list_rank": 15,
+        "daily_list_status": "accepted"
+      },
+      "2093625385972093276": {
+        "x_handle": "xiaowang0000001",
+        "check_handle": "xiaowang0000001",
+        "dual_link": false,
+        "promo_handle": "xiaowang0000001",
+        "tg_username": "xiaowang0000001",
+        "tg_user_id": 927691734,
+        "tg_name": "小王探店",
+        "link": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "message_text": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+            "handle": "xiaowang0000001",
+            "post_id": "2093625385972093276",
+            "role": "promo",
+            "author_name": "小王的侦探事务所",
+            "followers_count": 13602,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13602
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13602
+              },
+              {
+                "source": "status_legacy",
+                "count": 13602
+              },
+              {
+                "source": "profile_v2",
+                "count": 13602
+              }
+            ],
+            "tweet_text": "侦探事务所第一期：\n       本期由战地记者小飞飞带大家直击现场\n揭秘KTV出台（半露脸）文化本次拍摄地点为当地特色荤场、真空场\n\n全程对白有趣 公主一开始装清纯装自己不会口我们侦探可不会惯着她直接深喉还被咬了一口 最后一波无套进入差点内射（侦探大哥状态有点不佳疯狂折腾妹子）\n\nps：公主还想让我们侦探大哥多给她介绍一些客人我们侦探大哥直接说看她表现\n   \n完整版30分钟以及地址将在内群更新\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen \n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 140,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 140,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 248,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 248,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 140,
+                "required_mentions_count": 0
+              }
+            ],
+            "tweet_text_primary_source": "vx_status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+            "post_id": "2093625385972093276",
+            "handle": "xiaowang0000001",
+            "source_time": "2026-09-15 01:25:04",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小王的侦探事务所",
+        "promo_name": "小王的侦探事务所",
+        "followers_count": 13602,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy",
+            "count": 13602
+          },
+          {
+            "source": "profile_v2",
+            "count": 13602
+          }
+        ],
+        "check_followers_count": 13602,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13602
+          },
+          {
+            "source": "status_legacy",
+            "count": 13602
+          },
+          {
+            "source": "profile_v2",
+            "count": 13602
+          }
+        ],
+        "tweet_text": "侦探事务所第一期：\n       本期由战地记者小飞飞带大家直击现场\n揭秘KTV出台（半露脸）文化本次拍摄地点为当地特色荤场、真空场\n\n全程对白有趣 公主一开始装清纯装自己不会口我们侦探可不会惯着她直接深喉还被咬了一口 最后一波无套进入差点内射（侦探大哥状态有点不佳疯狂折腾妹子）\n\nps：公主还想让我们侦探大哥多给她介绍一些客人我们侦探大哥直接说看她表现\n   \n完整版30分钟以及地址将在内群更新\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen \n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 140,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 140,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 248,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 248,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 140,
+            "required_mentions_count": 0
+          }
+        ],
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "check_url": "https://x.com/xiaowang0000001/status/2093625385972093276?s=46",
+        "promo_post_id": "2093625385972093276",
+        "check_post_id": "2093625385972093276",
+        "chat_id": "-1003739822194",
+        "message_id": 2084,
+        "time": "2026-09-15 01:25:04",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 13602,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 01:25:04",
+        "admission_locked": false,
+        "daily_list_rank": 16,
+        "daily_list_status": "accepted"
+      },
+      "2094633339852661102": {
+        "x_handle": "cuihaooo",
+        "check_handle": "cuihaooo",
+        "dual_link": false,
+        "promo_handle": "cuihaooo",
+        "tg_username": "ioiuun",
+        "tg_user_id": 6874033725,
+        "tg_name": "崔浩",
+        "link": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+        "message_text": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+            "handle": "cuihaooo",
+            "post_id": "2094633339852661102",
+            "role": "promo",
+            "author_name": "崔浩",
+            "followers_count": 688,
+            "followers_text": "688",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 688
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 688
+              },
+              {
+                "source": "status_legacy",
+                "count": 688
+              },
+              {
+                "source": "profile_v2",
+                "count": 688
+              }
+            ],
+            "tweet_text": "#4号女主\n\n一些约会前的对话和doi\n\n真的反差 我给他c的已经丧志了\n\n完整版更新到视频群里了已经\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 86,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+            "post_id": "2094633339852661102",
+            "handle": "cuihaooo",
+            "source_time": "2026-09-15 01:29:07",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "崔浩",
+        "promo_name": "崔浩",
+        "followers_count": 688,
+        "followers_text": "688",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 688
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 688
+          },
+          {
+            "source": "status_legacy",
+            "count": 688
+          },
+          {
+            "source": "profile_v2",
+            "count": 688
+          }
+        ],
+        "check_followers_count": 688,
+        "check_followers_text": "688",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 688
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 688
+          },
+          {
+            "source": "status_legacy",
+            "count": 688
+          },
+          {
+            "source": "profile_v2",
+            "count": 688
+          }
+        ],
+        "tweet_text": "#4号女主\n\n一些约会前的对话和doi\n\n真的反差 我给他c的已经丧志了\n\n完整版更新到视频群里了已经\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 86,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+        "check_url": "https://x.com/cuihaooo/status/2094633339852661102?s=46",
+        "promo_post_id": "2094633339852661102",
+        "check_post_id": "2094633339852661102",
+        "chat_id": "-1003739822194",
+        "message_id": 2085,
+        "time": "2026-09-15 01:29:07",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 688,
+        "qualified_followers_text": "688",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 01:29:07",
+        "admission_locked": false,
+        "daily_list_rank": 17,
         "daily_list_status": "accepted"
       }
     }

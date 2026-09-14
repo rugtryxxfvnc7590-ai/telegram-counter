@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "offset": 364615001,
+  "offset": 364615002,
   "groups": {
     "-1003891628675": {
       "count": 34,
@@ -89,7 +89,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-14",
-    "run_at": "2026-09-14 23:30:33",
+    "run_at": "2026-09-14 23:41:45",
     "completed_groups": [
       "群一",
       "群二",
@@ -97,20 +97,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "34862577415:1",
-        "checked_at": "2026-09-14 23:30:34",
+        "run_key": "34863824199:1",
+        "checked_at": "2026-09-14 23:41:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "34862577415:1",
-        "checked_at": "2026-09-14 23:30:34",
+        "run_key": "34863824199:1",
+        "checked_at": "2026-09-14 23:41:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "34862577415:1",
-        "checked_at": "2026-09-14 23:30:35",
+        "run_key": "34863824199:1",
+        "checked_at": "2026-09-14 23:41:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -860,6 +860,20 @@
           "count": 31,
           "limit": 30,
           "sent_at": "2026-09-14 16:30:46"
+        },
+        "7667": {
+          "message_id": 7667,
+          "rule": "limit_excess_1",
+          "count": 33,
+          "limit": 30,
+          "sent_at": "2026-09-14 23:41:48"
+        },
+        "7658": {
+          "message_id": 7658,
+          "rule": "limit_overflow",
+          "count": 34,
+          "limit": 30,
+          "sent_at": "2026-09-14 23:41:48"
         }
       },
       "群二": {},

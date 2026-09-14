@@ -48,6 +48,7 @@ def freeze_links(links, registry, chat_ids, day):
                 "url": url, "edited": False}
         if len(bindings) == 1:
             slot.update(zip(("message_id", "tg_user_id", "time"), next(iter(bindings))))
+            slot["admission_time"] = min(str(row["entry"].get("admission_time") or row["time"]) for row in matches)
         slots.append(slot)
     return slots
 

@@ -26,6 +26,9 @@ from main import (
 )
 from sync_deleted_messages import _env_value, _resolve_entity, _string_session, deletion_sync_enabled
 from withdrawal_sync import snapshot_withdrawals
+from admission_order import set_admission_time
+from daily_capacity import group_for_chat
+from edited_link_receipts import _published_slots
 
 
 HISTORY_LIMIT = 3000
@@ -111,6 +114,7 @@ def _replace_group_snapshot(registry, state, chat_id, messages, day):
 
     previous = _previous_rows_by_message(registry, chat_id)
     snapshots = _previous_snapshot_by_message(registry, chat_id)
+    published_slots = _published_slots(state, group_for_chat(chat_id), day) or None
     for cid in expand_chat_id(chat_id):
         registry.setdefault("entries", {}).pop(cid, None)
         registry.setdefault("post_entries", {}).pop(cid, None)
@@ -137,16 +141,19 @@ def _replace_group_snapshot(registry, state, chat_id, messages, day):
         msg_time = beijing_full_time(msg["date"])
         old_snapshot = snapshots.get(str(message_id)) or {}
         old_rows = list(old_snapshot.get("entries") or []) + list(old_snapshot.get("post_entries") or [])
+        previous_entries = previous.get(str(message_id), [])
         if (
             old_rows
             and _snapshot_has_only_post_links(old_snapshot)
             and all(str(entry.get("message_text") or "") == text for _, entry in old_rows)
             and _snapshot_keeps_return_profile(old_rows, text, chat_id)
         ):
-            for key, entry in old_snapshot.get("entries") or []:
-                registry["entries"][chat_id][key] = entry
-            for key, entry in old_snapshot.get("post_entries") or []:
-                registry["post_entries"][chat_id][key] = entry
+            for bucket_name in ("entries", "post_entries"):
+                for key, old_entry in old_snapshot.get(bucket_name) or []:
+                    entry = dict(old_entry, edited=bool(msg.get("edit_date")),
+                                 edit_time=beijing_full_time(msg["edit_date"]) if msg.get("edit_date") else "")
+                    set_admission_time(entry, previous_entries, published_slots)
+                    registry[bucket_name][chat_id][key] = entry
             group_state["count"] += 1
             group_state["message_ids"].append(str(message_id))
             matched += 1
@@ -154,7 +161,6 @@ def _replace_group_snapshot(registry, state, chat_id, messages, day):
         links = extract_x_links_ordered(text, allow_profile_check=reply_account_check_enabled(chat_id))
         handles = handles_from_links(links)
         check_handle, dual_link, promo_handle = parse_check_handle_from_handles(handles)
-        previous_entries = previous.get(str(message_id), [])
         if not handles:
             record_post_only(
                 registry,
@@ -164,6 +170,8 @@ def _replace_group_snapshot(registry, state, chat_id, messages, day):
                 msg_time,
                 links,
                 after_cutoff=message_after_cutoff(msg["date"]),
+                previous_entries=previous_entries,
+                published_slots=published_slots,
             )
         for handle in handles:
             record_link(
@@ -179,6 +187,7 @@ def _replace_group_snapshot(registry, state, chat_id, messages, day):
                 links=links,
                 previous_entries=previous_entries,
                 after_cutoff=message_after_cutoff(msg["date"]),
+                published_slots=published_slots,
             )
         group_state["count"] += 1
         group_state["message_ids"].append(str(message_id))

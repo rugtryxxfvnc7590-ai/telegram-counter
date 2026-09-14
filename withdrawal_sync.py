@@ -93,5 +93,6 @@ def plan_roster(record, registry, chat_id, day, now_text, limit):
                 if len(slots) >= target:
                     break
         if slots != original:
-            slots.sort(key=lambda s: (s.get("time", ""), int(s.get("message_id") or 0), s["url"]), reverse=True)
+            slots.sort(key=lambda s: (s.get("admission_time") or s.get("time", ""),
+                                      int(s.get("message_id") or 0), s["url"]), reverse=True)
     return {"slots": slots, "capacity": capacity, "withdrawn_message_ids": sorted(retired)}

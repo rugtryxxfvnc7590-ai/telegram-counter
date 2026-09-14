@@ -75,8 +75,8 @@ def eligible_rows(registry, chat_ids, day=""):
             entry = raw or {}
             if str(entry.get("promo_post_id") or "") != str(post_id):
                 continue
-            when = str(entry.get("time") or "")
-            if day and when[:10] != day:
+            when = str(entry.get("admission_time") or entry.get("time") or "")
+            if day and (when[:10] != day or str(entry.get("time") or "")[:10] != day):
                 continue
             if entry.get("after_cutoff") or entry.get("mutual_eligible") is not True:
                 continue

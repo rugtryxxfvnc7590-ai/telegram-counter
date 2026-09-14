@@ -10,7 +10,8 @@ from daily_capacity import (
     admitted_rows, capacity_template, group_for_chat, normalize_daily_limits,
 )
 from private_list_sync import edited_slots, freeze_links
-from edited_link_receipts import defer_edited_link_reply
+from edited_link_receipts import defer_edited_link_reply, _published_slots
+from admission_order import set_admission_time
 from withdrawal_sync import plan_roster
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
@@ -1184,7 +1185,7 @@ def build_link_options(links, previous_entries=None, msg_time=""):
 
 def record_link(registry, x_handle, msg, text, chat_id, msg_time,
                 check_handle=None, dual_link=False, promo_handle=None, links=None,
-                previous_entries=None, after_cutoff=False):
+                previous_entries=None, after_cutoff=False, published_slots=None):
     user = msg.get("from", {})
     name = user.get("first_name", "")
     if user.get("last_name"):
@@ -1233,6 +1234,7 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
         "edit_time": beijing_full_time(msg["edit_date"]) if msg.get("edit_date") else "",
     }
     update_eligibility_fields(entry, chat_id)
+    set_admission_time(entry, previous_entries, published_slots)
     bucket[x_handle] = entry
     post_bucket = registry.setdefault("post_entries", {}).setdefault(chat_id, {})
     for item in links or []:
@@ -1241,7 +1243,8 @@ def record_link(registry, x_handle, msg, text, chat_id, msg_time,
             post_bucket[post_id] = dict(entry, x_handle=item.get("handle") or x_handle)
 
 
-def record_post_only(registry, msg, text, chat_id, msg_time, links, after_cutoff=False):
+def record_post_only(registry, msg, text, chat_id, msg_time, links, after_cutoff=False,
+                     previous_entries=None, published_slots=None):
     user = msg.get("from", {})
     name = user.get("first_name", "")
     if user.get("last_name"):
@@ -1294,6 +1297,7 @@ def record_post_only(registry, msg, text, chat_id, msg_time, links, after_cutoff
             "edit_time": beijing_full_time(msg["edit_date"]) if msg.get("edit_date") else "",
         }
         update_eligibility_fields(post_bucket[post_id], chat_id)
+        set_admission_time(post_bucket[post_id], previous_entries, published_slots)
 
 
 def _merge_entry_followers(entry, meta, count_key, text_key, sources_key, observations_key):
@@ -1613,18 +1617,20 @@ def main():
             handles = handles_from_links(links)
             check_handle, dual_link, promo_handle = parse_check_handle_from_handles(handles)
             previous_entries = remove_registry_rows_for_message(registry, actual_chat_id, message_id)
+            published_slots = _published_slots(state, group_for_chat(actual_chat_id), msg_day) or None
             removed = len(previous_entries)
             if removed:
                 print(f"   ♻️ 同一 Telegram 消息已更新，移除旧登记 {removed} 条")
             if not handles:
                 print(f"   ⚠️ 未能从链接解析 X 账号 ← {tg_tag}")
-                record_post_only(registry, msg, text, actual_chat_id, msg_time, links, after_cutoff=after_cutoff)
+                record_post_only(registry, msg, text, actual_chat_id, msg_time, links, after_cutoff=after_cutoff,
+                                 previous_entries=previous_entries, published_slots=published_slots)
             for handle in handles:
                 record_link(
                     registry, handle, msg, text, actual_chat_id, msg_time,
                     check_handle=check_handle or handle, dual_link=dual_link,
                     promo_handle=promo_handle or handle, links=links,
-                    previous_entries=previous_entries, after_cutoff=after_cutoff,
+                    previous_entries=previous_entries, after_cutoff=after_cutoff, published_slots=published_slots,
                 )
                 extra = ""
                 if dual_link and check_handle and handle != check_handle:

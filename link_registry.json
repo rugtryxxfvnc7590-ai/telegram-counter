@@ -3576,8 +3576,8 @@
         "time": "2026-09-15 00:01:15",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-15 00:17:22",
         "followers_min": 100000,
         "qualified_followers_count": 340771,
         "qualified_followers_text": "34W",
@@ -4015,7 +4015,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:09:05",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 24,
         "daily_list_status": "accepted"
       },
@@ -4227,7 +4227,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:02:51",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 18,
         "daily_list_status": "accepted"
       },
@@ -4439,7 +4439,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:03:57",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 19,
         "daily_list_status": "accepted"
       },
@@ -4651,7 +4651,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:04:19",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 20,
         "daily_list_status": "accepted"
       },
@@ -4863,7 +4863,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:06:42",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 21,
         "daily_list_status": "accepted"
       },
@@ -5075,7 +5075,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:06:45",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 22,
         "daily_list_status": "accepted"
       },
@@ -5287,7 +5287,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:06:58",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 23,
         "daily_list_status": "accepted"
       }
@@ -5898,7 +5898,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:01:58",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted"
       },
@@ -6110,7 +6110,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:02:46",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted"
       },
@@ -6322,7 +6322,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:02:47",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted"
       },
@@ -6534,7 +6534,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:02:50",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted"
       },
@@ -6746,7 +6746,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:03:07",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted"
       },
@@ -6958,7 +6958,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:03:49",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
         "daily_list_status": "accepted"
       },
@@ -7170,7 +7170,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:12:20",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
         "daily_list_status": "accepted"
       },
@@ -7368,8 +7368,8 @@
         "time": "2026-09-15 00:12:47",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-15 00:30:45",
         "followers_min": 0,
         "qualified_followers_count": 19708,
         "qualified_followers_text": "1.9W",
@@ -7382,7 +7382,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:12:47",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 10,
         "daily_list_status": "accepted"
       },
@@ -7594,8 +7594,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:13:18",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "sweetyou02": {
+        "x_handle": "sweetyou02",
+        "check_handle": "sweetyou02",
+        "dual_link": false,
+        "promo_handle": "sweetyou02",
+        "tg_username": "catdog851",
+        "tg_user_id": 5452100710,
+        "tg_name": "葡萄 吃不饱",
+        "link": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+        "message_text": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+            "handle": "sweetyou02",
+            "post_id": "2099104468705169497",
+            "role": "promo",
+            "author_name": "欧尼太太",
+            "followers_count": 5360,
+            "followers_text": "5.3K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 5360
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 5360
+              },
+              {
+                "source": "status_legacy",
+                "count": 5360
+              },
+              {
+                "source": "profile_v2",
+                "count": 5360
+              }
+            ],
+            "tweet_text": "扛着腿操最色了😌\n\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 42,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+            "post_id": "2099104468705169497",
+            "handle": "sweetyou02",
+            "source_time": "2026-09-15 00:26:29",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "欧尼太太",
+        "promo_name": "欧尼太太",
+        "followers_count": 5360,
+        "followers_text": "5.3K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5360
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5360
+          },
+          {
+            "source": "status_legacy",
+            "count": 5360
+          },
+          {
+            "source": "profile_v2",
+            "count": 5360
+          }
+        ],
+        "check_followers_count": 5360,
+        "check_followers_text": "5.3K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5360
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5360
+          },
+          {
+            "source": "status_legacy",
+            "count": 5360
+          },
+          {
+            "source": "profile_v2",
+            "count": 5360
+          }
+        ],
+        "tweet_text": "扛着腿操最色了😌\n\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 42,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+        "check_url": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+        "promo_post_id": "2099104468705169497",
+        "check_post_id": "2099104468705169497",
+        "chat_id": "-1003739822194",
+        "message_id": 2081,
+        "time": "2026-09-15 00:26:29",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 5360,
+        "qualified_followers_text": "5.3K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 00:26:29",
+        "admission_locked": false,
+        "daily_list_rank": 12,
         "daily_list_status": "accepted"
       }
     }
@@ -11176,8 +11388,8 @@
         "time": "2026-09-15 00:01:15",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-15 00:17:22",
         "followers_min": 100000,
         "qualified_followers_count": 340771,
         "qualified_followers_text": "34W",
@@ -11615,7 +11827,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:09:05",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 24,
         "daily_list_status": "accepted"
       },
@@ -11827,7 +12039,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:02:51",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 18,
         "daily_list_status": "accepted"
       },
@@ -12039,7 +12251,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:03:57",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 19,
         "daily_list_status": "accepted"
       },
@@ -12251,7 +12463,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:04:19",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 20,
         "daily_list_status": "accepted"
       },
@@ -12463,7 +12675,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:06:42",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 21,
         "daily_list_status": "accepted"
       },
@@ -12675,7 +12887,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:06:45",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 22,
         "daily_list_status": "accepted"
       },
@@ -12887,7 +13099,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:06:58",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 23,
         "daily_list_status": "accepted"
       }
@@ -13498,7 +13710,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:01:58",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted"
       },
@@ -13710,7 +13922,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:02:46",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted"
       },
@@ -13922,7 +14134,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:02:47",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted"
       },
@@ -14134,7 +14346,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:02:50",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted"
       },
@@ -14346,7 +14558,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:03:07",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted"
       },
@@ -14558,7 +14770,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:03:49",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
         "daily_list_status": "accepted"
       },
@@ -14770,7 +14982,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:12:20",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
         "daily_list_status": "accepted"
       },
@@ -14968,8 +15180,8 @@
         "time": "2026-09-15 00:12:47",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-15 00:30:45",
         "followers_min": 0,
         "qualified_followers_count": 19708,
         "qualified_followers_text": "1.9W",
@@ -14982,7 +15194,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:12:47",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 10,
         "daily_list_status": "accepted"
       },
@@ -15194,8 +15406,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 00:13:18",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "2099104468705169497": {
+        "x_handle": "sweetyou02",
+        "check_handle": "sweetyou02",
+        "dual_link": false,
+        "promo_handle": "sweetyou02",
+        "tg_username": "catdog851",
+        "tg_user_id": 5452100710,
+        "tg_name": "葡萄 吃不饱",
+        "link": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+        "message_text": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+            "handle": "sweetyou02",
+            "post_id": "2099104468705169497",
+            "role": "promo",
+            "author_name": "欧尼太太",
+            "followers_count": 5360,
+            "followers_text": "5.3K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 5360
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 5360
+              },
+              {
+                "source": "status_legacy",
+                "count": 5360
+              },
+              {
+                "source": "profile_v2",
+                "count": 5360
+              }
+            ],
+            "tweet_text": "扛着腿操最色了😌\n\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 42,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+            "post_id": "2099104468705169497",
+            "handle": "sweetyou02",
+            "source_time": "2026-09-15 00:26:29",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "欧尼太太",
+        "promo_name": "欧尼太太",
+        "followers_count": 5360,
+        "followers_text": "5.3K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5360
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5360
+          },
+          {
+            "source": "status_legacy",
+            "count": 5360
+          },
+          {
+            "source": "profile_v2",
+            "count": 5360
+          }
+        ],
+        "check_followers_count": 5360,
+        "check_followers_text": "5.3K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5360
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5360
+          },
+          {
+            "source": "status_legacy",
+            "count": 5360
+          },
+          {
+            "source": "profile_v2",
+            "count": 5360
+          }
+        ],
+        "tweet_text": "扛着腿操最色了😌\n\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 42,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+        "check_url": "https://x.com/sweetyou02/status/2099104468705169497?s=46",
+        "promo_post_id": "2099104468705169497",
+        "check_post_id": "2099104468705169497",
+        "chat_id": "-1003739822194",
+        "message_id": 2081,
+        "time": "2026-09-15 00:26:29",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 5360,
+        "qualified_followers_text": "5.3K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 00:26:29",
+        "admission_locked": false,
+        "daily_list_rank": 12,
         "daily_list_status": "accepted"
       }
     }

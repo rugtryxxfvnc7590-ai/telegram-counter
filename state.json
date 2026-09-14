@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "offset": 364615050,
+  "offset": 364615051,
   "groups": {
     "-1003891628675": {
       "count": 25,
@@ -40,7 +40,7 @@
       "message_ids": []
     },
     "-1003739822194": {
-      "count": 11,
+      "count": 12,
       "message_ids": [
         "2068",
         "2069",
@@ -52,13 +52,14 @@
         "2076",
         "2078",
         "2079",
-        "2080"
+        "2080",
+        "2081"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-15",
-    "run_at": "2026-09-15 00:16:16",
+    "run_at": "2026-09-15 00:30:45",
     "completed_groups": [
       "群一",
       "群二",
@@ -66,20 +67,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "34867426519:1",
-        "checked_at": "2026-09-15 00:16:17",
+        "run_key": "34869018616:1",
+        "checked_at": "2026-09-15 00:30:47",
         "bot_user_id": 8755020155,
-        "confirmed_replies": 0
+        "confirmed_replies": 1
       },
       "群二": {
-        "run_key": "34867426519:1",
-        "checked_at": "2026-09-15 00:16:18",
+        "run_key": "34869018616:1",
+        "checked_at": "2026-09-15 00:30:47",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "34867426519:1",
-        "checked_at": "2026-09-15 00:16:18",
+        "run_key": "34869018616:1",
+        "checked_at": "2026-09-15 00:30:47",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -115,7 +116,11 @@
           "rule": "missing_mentions",
           "attempts": 1,
           "attempted_at": "2026-09-15 00:16:19",
-          "text": "该链接违规，未@社区账号，不予互推"
+          "text": "该链接违规，未@社区账号，不予互推",
+          "confirmation": "telegram_history",
+          "bot_user_id": 8755020155,
+          "telegram_reply_message_id": 7728,
+          "sent_at": "2026-09-15 00:16:20"
         }
       },
       "群二": {},

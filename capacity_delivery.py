@@ -5,6 +5,7 @@ from daily_capacity import (
     capacity_rule_for_rank, chat_ids_for_group, eligible_rows,
     normalize_daily_limits, render_capacity_text,
 )
+from edited_link_receipts import _published_slots
 
 
 def send_capacity_reply(chat_id, message_id, text):
@@ -43,6 +44,8 @@ def process_capacity_replies(registry, state, now=None, limits=None, rules=None,
     for group, chat_id in main.canonical_group_chat_ids():
         if group not in completed or not limits[group]:
             continue
+        published_messages = {str(slot.get("message_id")) for slot in _published_slots(state, group, day)
+                              if slot.get("message_id")}
         sent = delivery.setdefault("groups", {}).setdefault(group, {})
         legacy_keys = set()
         for cid in chat_ids_for_group(group):
@@ -51,6 +54,10 @@ def process_capacity_replies(registry, state, now=None, limits=None, rules=None,
             rule = capacity_rule_for_rank(rank, limits[group])
             message_id = row["message_id"]
             if not rule or not message_id:
+                continue
+            # Re-ranking new/edited links cannot revoke an acknowledged admission.
+            if rule != "limit_full" and str(message_id) in published_messages:
+                print(f"名额提醒：{group} 原消息 {message_id} 已在正式名单，跳过超额/候选提醒。")
                 continue
             # A stage reply replaces the generic overflow reply for that message.
             if rule.startswith("limit_excess_") and not main.reply_rule_enabled(rules, rule, chat_id):

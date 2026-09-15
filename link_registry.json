@@ -6923,7 +6923,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13960,
+        "followers_count": 13965,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -7883,6 +7883,18 @@
           {
             "source": "profile_v2",
             "count": 13960
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13965
+          },
+          {
+            "source": "status_legacy",
+            "count": 13965
+          },
+          {
+            "source": "profile_v2",
+            "count": 13965
           }
         ],
         "check_followers_count": 187214,
@@ -8090,7 +8102,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13960,
+        "followers_count": 13965,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -9050,6 +9062,18 @@
           {
             "source": "profile_v2",
             "count": 13960
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13965
+          },
+          {
+            "source": "status_legacy",
+            "count": 13965
+          },
+          {
+            "source": "profile_v2",
+            "count": 13965
           }
         ],
         "check_followers_count": 187214,
@@ -17163,6 +17187,190 @@
         "admission_locked": false,
         "daily_list_rank": 34,
         "daily_list_status": "waitlist"
+      },
+      "jaacckki999": {
+        "x_handle": "jaacckki999",
+        "check_handle": "jaacckki999",
+        "dual_link": false,
+        "promo_handle": "jaacckki999",
+        "tg_username": "yuange998",
+        "tg_user_id": 8437726707,
+        "tg_name": "元歌",
+        "link": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+        "message_text": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+            "handle": "jaacckki999",
+            "post_id": "2062381202208891259",
+            "role": "promo",
+            "author_name": "JoJo原创（重生版）",
+            "followers_count": 11646,
+            "followers_text": "1.1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 11646
+              },
+              {
+                "source": "status_legacy",
+                "count": 11646
+              },
+              {
+                "source": "profile_v2",
+                "count": 11646
+              }
+            ],
+            "tweet_text": "06年 极品微胖大学生 叫声可射 粉粉嫩嫩 D杯！！\n▶️\n@ToBulaer\n@ToBuerma\n@KawasawaSen\n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 73,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 73,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 73,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 73,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+            "post_id": "2062381202208891259",
+            "handle": "jaacckki999",
+            "source_time": "2026-09-15 15:49:06",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "JoJo原创（重生版）",
+        "promo_name": "JoJo原创（重生版）",
+        "followers_count": 11646,
+        "followers_text": "1.1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 11646
+          },
+          {
+            "source": "status_legacy",
+            "count": 11646
+          },
+          {
+            "source": "profile_v2",
+            "count": 11646
+          }
+        ],
+        "check_followers_count": 11646,
+        "check_followers_text": "1.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 11646
+          },
+          {
+            "source": "status_legacy",
+            "count": 11646
+          },
+          {
+            "source": "profile_v2",
+            "count": 11646
+          }
+        ],
+        "tweet_text": "06年 极品微胖大学生 叫声可射 粉粉嫩嫩 D杯！！\n▶️\n@ToBulaer\n@ToBuerma\n@KawasawaSen\n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 73,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 73,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 73,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 73,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+        "check_url": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+        "promo_post_id": "2062381202208891259",
+        "check_post_id": "2062381202208891259",
+        "chat_id": "-1003739822194",
+        "message_id": 2108,
+        "time": "2026-09-15 15:49:06",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 11646,
+        "qualified_followers_text": "1.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 15:49:06",
+        "admission_locked": false,
+        "daily_list_rank": 35,
+        "daily_list_status": "waitlist"
       }
     }
   },
@@ -24089,7 +24297,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13960,
+        "followers_count": 13965,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -25049,6 +25257,18 @@
           {
             "source": "profile_v2",
             "count": 13960
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13965
+          },
+          {
+            "source": "status_legacy",
+            "count": 13965
+          },
+          {
+            "source": "profile_v2",
+            "count": 13965
           }
         ],
         "check_followers_count": 187214,
@@ -32719,6 +32939,190 @@
         "admission_time": "2026-09-15 15:27:36",
         "admission_locked": false,
         "daily_list_rank": 34,
+        "daily_list_status": "waitlist"
+      },
+      "2062381202208891259": {
+        "x_handle": "jaacckki999",
+        "check_handle": "jaacckki999",
+        "dual_link": false,
+        "promo_handle": "jaacckki999",
+        "tg_username": "yuange998",
+        "tg_user_id": 8437726707,
+        "tg_name": "元歌",
+        "link": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+        "message_text": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+            "handle": "jaacckki999",
+            "post_id": "2062381202208891259",
+            "role": "promo",
+            "author_name": "JoJo原创（重生版）",
+            "followers_count": 11646,
+            "followers_text": "1.1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 11646
+              },
+              {
+                "source": "status_legacy",
+                "count": 11646
+              },
+              {
+                "source": "profile_v2",
+                "count": 11646
+              }
+            ],
+            "tweet_text": "06年 极品微胖大学生 叫声可射 粉粉嫩嫩 D杯！！\n▶️\n@ToBulaer\n@ToBuerma\n@KawasawaSen\n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 73,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 73,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 73,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 73,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+            "post_id": "2062381202208891259",
+            "handle": "jaacckki999",
+            "source_time": "2026-09-15 15:49:06",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "JoJo原创（重生版）",
+        "promo_name": "JoJo原创（重生版）",
+        "followers_count": 11646,
+        "followers_text": "1.1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 11646
+          },
+          {
+            "source": "status_legacy",
+            "count": 11646
+          },
+          {
+            "source": "profile_v2",
+            "count": 11646
+          }
+        ],
+        "check_followers_count": 11646,
+        "check_followers_text": "1.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 11646
+          },
+          {
+            "source": "status_legacy",
+            "count": 11646
+          },
+          {
+            "source": "profile_v2",
+            "count": 11646
+          }
+        ],
+        "tweet_text": "06年 极品微胖大学生 叫声可射 粉粉嫩嫩 D杯！！\n▶️\n@ToBulaer\n@ToBuerma\n@KawasawaSen\n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 73,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 73,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 73,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 73,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+        "check_url": "https://x.com/jaacckki999/status/2062381202208891259?s=46",
+        "promo_post_id": "2062381202208891259",
+        "check_post_id": "2062381202208891259",
+        "chat_id": "-1003739822194",
+        "message_id": 2108,
+        "time": "2026-09-15 15:49:06",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 11646,
+        "qualified_followers_text": "1.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 15:49:06",
+        "admission_locked": false,
+        "daily_list_rank": 35,
         "daily_list_status": "waitlist"
       }
     }

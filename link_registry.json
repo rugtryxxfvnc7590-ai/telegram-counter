@@ -6923,7 +6923,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13945,
+        "followers_count": 13952,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -7851,6 +7851,22 @@
           {
             "source": "profile_v2",
             "count": 13945
+          },
+          {
+            "source": "status_v2",
+            "count": 13952
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13952
+          },
+          {
+            "source": "profile_v2",
+            "count": 13952
+          },
+          {
+            "source": "status_legacy",
+            "count": 13952
           }
         ],
         "check_followers_count": 187214,
@@ -8058,7 +8074,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13945,
+        "followers_count": 13952,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -8986,6 +9002,22 @@
           {
             "source": "profile_v2",
             "count": 13945
+          },
+          {
+            "source": "status_v2",
+            "count": 13952
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13952
+          },
+          {
+            "source": "profile_v2",
+            "count": 13952
+          },
+          {
+            "source": "status_legacy",
+            "count": 13952
           }
         ],
         "check_followers_count": 187214,
@@ -16915,6 +16947,190 @@
         "admission_locked": false,
         "daily_list_rank": 33,
         "daily_list_status": "waitlist"
+      },
+      "showu3u": {
+        "x_handle": "showu3u",
+        "check_handle": "showu3u",
+        "dual_link": false,
+        "promo_handle": "showu3u",
+        "tg_username": "beibei3064",
+        "tg_user_id": 5344912406,
+        "tg_name": "Betty",
+        "link": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "message_text": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+            "handle": "showu3u",
+            "post_id": "2099415358633599059",
+            "role": "promo",
+            "author_name": "小u",
+            "followers_count": 7409,
+            "followers_text": "7.4K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 7409
+              },
+              {
+                "source": "status_legacy",
+                "count": 7409
+              },
+              {
+                "source": "profile_v2",
+                "count": 7409
+              }
+            ],
+            "tweet_text": "看看小u有什么变化呀😉\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+            "post_id": "2099415358633599059",
+            "handle": "showu3u",
+            "source_time": "2026-09-15 15:27:36",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小u",
+        "promo_name": "小u",
+        "followers_count": 7409,
+        "followers_text": "7.4K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7409
+          },
+          {
+            "source": "status_legacy",
+            "count": 7409
+          },
+          {
+            "source": "profile_v2",
+            "count": 7409
+          }
+        ],
+        "check_followers_count": 7409,
+        "check_followers_text": "7.4K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7409
+          },
+          {
+            "source": "status_legacy",
+            "count": 7409
+          },
+          {
+            "source": "profile_v2",
+            "count": 7409
+          }
+        ],
+        "tweet_text": "看看小u有什么变化呀😉\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "check_url": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "promo_post_id": "2099415358633599059",
+        "check_post_id": "2099415358633599059",
+        "chat_id": "-1003739822194",
+        "message_id": 2106,
+        "time": "2026-09-15 15:27:36",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 7409,
+        "qualified_followers_text": "7.4K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 15:27:36",
+        "admission_locked": false,
+        "daily_list_rank": 34,
+        "daily_list_status": "waitlist"
       }
     }
   },
@@ -23841,7 +24057,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13945,
+        "followers_count": 13952,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -24769,6 +24985,22 @@
           {
             "source": "profile_v2",
             "count": 13945
+          },
+          {
+            "source": "status_v2",
+            "count": 13952
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13952
+          },
+          {
+            "source": "profile_v2",
+            "count": 13952
+          },
+          {
+            "source": "status_legacy",
+            "count": 13952
           }
         ],
         "check_followers_count": 187214,
@@ -32255,6 +32487,190 @@
         "admission_time": "2026-09-15 14:17:19",
         "admission_locked": false,
         "daily_list_rank": 33,
+        "daily_list_status": "waitlist"
+      },
+      "2099415358633599059": {
+        "x_handle": "showu3u",
+        "check_handle": "showu3u",
+        "dual_link": false,
+        "promo_handle": "showu3u",
+        "tg_username": "beibei3064",
+        "tg_user_id": 5344912406,
+        "tg_name": "Betty",
+        "link": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "message_text": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+            "handle": "showu3u",
+            "post_id": "2099415358633599059",
+            "role": "promo",
+            "author_name": "小u",
+            "followers_count": 7409,
+            "followers_text": "7.4K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 7409
+              },
+              {
+                "source": "status_legacy",
+                "count": 7409
+              },
+              {
+                "source": "profile_v2",
+                "count": 7409
+              }
+            ],
+            "tweet_text": "看看小u有什么变化呀😉\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+            "post_id": "2099415358633599059",
+            "handle": "showu3u",
+            "source_time": "2026-09-15 15:27:36",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小u",
+        "promo_name": "小u",
+        "followers_count": 7409,
+        "followers_text": "7.4K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7409
+          },
+          {
+            "source": "status_legacy",
+            "count": 7409
+          },
+          {
+            "source": "profile_v2",
+            "count": 7409
+          }
+        ],
+        "check_followers_count": 7409,
+        "check_followers_text": "7.4K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7409
+          },
+          {
+            "source": "status_legacy",
+            "count": 7409
+          },
+          {
+            "source": "profile_v2",
+            "count": 7409
+          }
+        ],
+        "tweet_text": "看看小u有什么变化呀😉\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "check_url": "https://x.com/showu3u/status/2099415358633599059?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "promo_post_id": "2099415358633599059",
+        "check_post_id": "2099415358633599059",
+        "chat_id": "-1003739822194",
+        "message_id": 2106,
+        "time": "2026-09-15 15:27:36",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 7409,
+        "qualified_followers_text": "7.4K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 15:27:36",
+        "admission_locked": false,
+        "daily_list_rank": 34,
         "daily_list_status": "waitlist"
       }
     }

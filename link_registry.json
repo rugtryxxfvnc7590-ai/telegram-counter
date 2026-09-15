@@ -6923,7 +6923,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13989,
+        "followers_count": 13996,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -7979,6 +7979,34 @@
           {
             "source": "profile_v2",
             "count": 13989
+          },
+          {
+            "source": "status_v2",
+            "count": 13996
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13995
+          },
+          {
+            "source": "status_legacy",
+            "count": 13995
+          },
+          {
+            "source": "profile_v2",
+            "count": 13996
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13996
+          },
+          {
+            "source": "status_legacy",
+            "count": 13996
+          },
+          {
+            "source": "profile_v2",
+            "count": 13995
           }
         ],
         "check_followers_count": 187214,
@@ -8186,7 +8214,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13989,
+        "followers_count": 13996,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -9242,6 +9270,34 @@
           {
             "source": "profile_v2",
             "count": 13989
+          },
+          {
+            "source": "status_v2",
+            "count": 13996
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13995
+          },
+          {
+            "source": "status_legacy",
+            "count": 13995
+          },
+          {
+            "source": "profile_v2",
+            "count": 13996
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13996
+          },
+          {
+            "source": "status_legacy",
+            "count": 13996
+          },
+          {
+            "source": "profile_v2",
+            "count": 13995
           }
         ],
         "check_followers_count": 187214,
@@ -17539,6 +17595,448 @@
         "admission_locked": false,
         "daily_list_rank": 35,
         "daily_list_status": "waitlist"
+      },
+      "gg2anan": {
+        "x_handle": "gg2anan",
+        "check_handle": "guoguo11122",
+        "dual_link": true,
+        "promo_handle": "gg2anan",
+        "tg_username": "Guoguoqq",
+        "tg_user_id": 8243332573,
+        "tg_name": "GuoGuo💞",
+        "link": "https://x.com/gg2anan/status/2099433227542999257?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "message_text": "https://x.com/gg2anan/status/2099433227542999257?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+            "handle": "gg2anan",
+            "post_id": "2099433227542999257",
+            "role": "promo",
+            "author_name": "Selena",
+            "followers_count": 2855,
+            "followers_text": "2.8K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 2855
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 2855
+              },
+              {
+                "source": "status_legacy",
+                "count": 2855
+              },
+              {
+                "source": "profile_v2",
+                "count": 2855
+              }
+            ],
+            "tweet_text": "2/4，\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen\n.",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 41,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/guoguo11122?s=21",
+            "handle": "guoguo11122",
+            "post_id": "",
+            "role": "check",
+            "author_name": "Guoguo💞",
+            "followers_count": 35571,
+            "followers_text": "3.5W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 35571
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+            "post_id": "2099433227542999257",
+            "handle": "gg2anan",
+            "source_time": "2026-09-15 17:40:30",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Selena",
+        "promo_name": "Selena",
+        "followers_count": 2855,
+        "followers_text": "2.8K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 2855
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 2855
+          },
+          {
+            "source": "status_legacy",
+            "count": 2855
+          },
+          {
+            "source": "profile_v2",
+            "count": 2855
+          }
+        ],
+        "check_followers_count": 35571,
+        "check_followers_text": "3.5W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 35571
+          }
+        ],
+        "tweet_text": "2/4，\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen\n.",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 41,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+        "check_url": "https://x.com/guoguo11122?s=21",
+        "promo_post_id": "2099433227542999257",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 2110,
+        "time": "2026-09-15 17:40:30",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 35571,
+        "qualified_followers_text": "3.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 17:40:30",
+        "admission_locked": false,
+        "daily_list_rank": 36,
+        "daily_list_status": "waitlist"
+      },
+      "guoguo11122": {
+        "x_handle": "guoguo11122",
+        "check_handle": "guoguo11122",
+        "dual_link": true,
+        "promo_handle": "gg2anan",
+        "tg_username": "Guoguoqq",
+        "tg_user_id": 8243332573,
+        "tg_name": "GuoGuo💞",
+        "link": "https://x.com/gg2anan/status/2099433227542999257?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "message_text": "https://x.com/gg2anan/status/2099433227542999257?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+            "handle": "gg2anan",
+            "post_id": "2099433227542999257",
+            "role": "promo",
+            "author_name": "Selena",
+            "followers_count": 2855,
+            "followers_text": "2.8K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 2855
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 2855
+              },
+              {
+                "source": "status_legacy",
+                "count": 2855
+              },
+              {
+                "source": "profile_v2",
+                "count": 2855
+              }
+            ],
+            "tweet_text": "2/4，\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen\n.",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 41,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/guoguo11122?s=21",
+            "handle": "guoguo11122",
+            "post_id": "",
+            "role": "check",
+            "author_name": "Guoguo💞",
+            "followers_count": 35571,
+            "followers_text": "3.5W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 35571
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+            "post_id": "2099433227542999257",
+            "handle": "gg2anan",
+            "source_time": "2026-09-15 17:40:30",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Selena",
+        "promo_name": "Selena",
+        "followers_count": 2855,
+        "followers_text": "2.8K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 2855
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 2855
+          },
+          {
+            "source": "status_legacy",
+            "count": 2855
+          },
+          {
+            "source": "profile_v2",
+            "count": 2855
+          }
+        ],
+        "check_followers_count": 35571,
+        "check_followers_text": "3.5W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 35571
+          }
+        ],
+        "tweet_text": "2/4，\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen\n.",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 41,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+        "check_url": "https://x.com/guoguo11122?s=21",
+        "promo_post_id": "2099433227542999257",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 2110,
+        "time": "2026-09-15 17:40:30",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 35571,
+        "qualified_followers_text": "3.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 17:40:30",
+        "admission_locked": false,
+        "daily_list_rank": 36,
+        "daily_list_status": "waitlist"
       }
     }
   },
@@ -24465,7 +24963,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13989,
+        "followers_count": 13996,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -25521,6 +26019,34 @@
           {
             "source": "profile_v2",
             "count": 13989
+          },
+          {
+            "source": "status_v2",
+            "count": 13996
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13995
+          },
+          {
+            "source": "status_legacy",
+            "count": 13995
+          },
+          {
+            "source": "profile_v2",
+            "count": 13996
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13996
+          },
+          {
+            "source": "status_legacy",
+            "count": 13996
+          },
+          {
+            "source": "profile_v2",
+            "count": 13995
           }
         ],
         "check_followers_count": 187214,
@@ -33375,6 +33901,227 @@
         "admission_time": "2026-09-15 15:49:06",
         "admission_locked": false,
         "daily_list_rank": 35,
+        "daily_list_status": "waitlist"
+      },
+      "2099433227542999257": {
+        "x_handle": "gg2anan",
+        "check_handle": "guoguo11122",
+        "dual_link": true,
+        "promo_handle": "gg2anan",
+        "tg_username": "Guoguoqq",
+        "tg_user_id": 8243332573,
+        "tg_name": "GuoGuo💞",
+        "link": "https://x.com/gg2anan/status/2099433227542999257?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "message_text": "https://x.com/gg2anan/status/2099433227542999257?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+            "handle": "gg2anan",
+            "post_id": "2099433227542999257",
+            "role": "promo",
+            "author_name": "Selena",
+            "followers_count": 2855,
+            "followers_text": "2.8K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 2855
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 2855
+              },
+              {
+                "source": "status_legacy",
+                "count": 2855
+              },
+              {
+                "source": "profile_v2",
+                "count": 2855
+              }
+            ],
+            "tweet_text": "2/4，\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen\n.",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 41,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/guoguo11122?s=21",
+            "handle": "guoguo11122",
+            "post_id": "",
+            "role": "check",
+            "author_name": "Guoguo💞",
+            "followers_count": 35571,
+            "followers_text": "3.5W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 35571
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+            "post_id": "2099433227542999257",
+            "handle": "gg2anan",
+            "source_time": "2026-09-15 17:40:30",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Selena",
+        "promo_name": "Selena",
+        "followers_count": 2855,
+        "followers_text": "2.8K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 2855
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 2855
+          },
+          {
+            "source": "status_legacy",
+            "count": 2855
+          },
+          {
+            "source": "profile_v2",
+            "count": 2855
+          }
+        ],
+        "check_followers_count": 35571,
+        "check_followers_text": "3.5W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 35571
+          }
+        ],
+        "tweet_text": "2/4，\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen\n.",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 41,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+        "check_url": "https://x.com/guoguo11122?s=21",
+        "promo_post_id": "2099433227542999257",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 2110,
+        "time": "2026-09-15 17:40:30",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 35571,
+        "qualified_followers_text": "3.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-15 17:40:30",
+        "admission_locked": false,
+        "daily_list_rank": 36,
         "daily_list_status": "waitlist"
       }
     }

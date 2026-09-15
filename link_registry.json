@@ -6683,7 +6683,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13825,
+        "followers_count": 13828,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -7311,6 +7311,22 @@
           {
             "source": "status_legacy_i",
             "count": 13825
+          },
+          {
+            "source": "status_v2",
+            "count": 13828
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13828
+          },
+          {
+            "source": "status_legacy",
+            "count": 13828
+          },
+          {
+            "source": "profile_v2",
+            "count": 13828
           }
         ],
         "check_followers_count": 187214,
@@ -7518,7 +7534,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13825,
+        "followers_count": 13828,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -8146,6 +8162,22 @@
           {
             "source": "status_legacy_i",
             "count": 13825
+          },
+          {
+            "source": "status_v2",
+            "count": 13828
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13828
+          },
+          {
+            "source": "status_legacy",
+            "count": 13828
+          },
+          {
+            "source": "profile_v2",
+            "count": 13828
           }
         ],
         "check_followers_count": 187214,
@@ -14358,7 +14390,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 10:43:50",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 26,
         "daily_list_status": "accepted"
       },
@@ -14570,7 +14602,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 10:44:18",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 27,
         "daily_list_status": "accepted"
       }
@@ -21259,7 +21291,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 13825,
+        "followers_count": 13828,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -21887,6 +21919,22 @@
           {
             "source": "status_legacy_i",
             "count": 13825
+          },
+          {
+            "source": "status_v2",
+            "count": 13828
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13828
+          },
+          {
+            "source": "status_legacy",
+            "count": 13828
+          },
+          {
+            "source": "profile_v2",
+            "count": 13828
           }
         ],
         "check_followers_count": 187214,
@@ -27878,7 +27926,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 10:43:50",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 26,
         "daily_list_status": "accepted"
       },
@@ -28090,7 +28138,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-15 10:44:18",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 27,
         "daily_list_status": "accepted"
       }

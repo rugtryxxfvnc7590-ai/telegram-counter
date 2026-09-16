@@ -11036,8 +11036,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:39:52",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 14,
+        "daily_list_status": "accepted"
+      },
+      "sweetyou02": {
+        "x_handle": "sweetyou02",
+        "check_handle": "sweetyou02",
+        "dual_link": false,
+        "promo_handle": "sweetyou02",
+        "tg_username": "catdog851",
+        "tg_user_id": 5452100710,
+        "tg_name": "葡萄 吃不饱",
+        "link": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+        "message_text": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+            "handle": "sweetyou02",
+            "post_id": "2094699617309044904",
+            "role": "promo",
+            "author_name": "欧尼太太",
+            "followers_count": 5542,
+            "followers_text": "5.5K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 5542
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 5542
+              },
+              {
+                "source": "status_legacy",
+                "count": 5542
+              },
+              {
+                "source": "profile_v2",
+                "count": 5542
+              }
+            ],
+            "tweet_text": "我宣布掐着脖子后入是最爽的姿势！\n\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+            "post_id": "2094699617309044904",
+            "handle": "sweetyou02",
+            "source_time": "2026-09-17 00:45:59",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "欧尼太太",
+        "promo_name": "欧尼太太",
+        "followers_count": 5542,
+        "followers_text": "5.5K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5542
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5542
+          },
+          {
+            "source": "status_legacy",
+            "count": 5542
+          },
+          {
+            "source": "profile_v2",
+            "count": 5542
+          }
+        ],
+        "check_followers_count": 5542,
+        "check_followers_text": "5.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5542
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5542
+          },
+          {
+            "source": "status_legacy",
+            "count": 5542
+          },
+          {
+            "source": "profile_v2",
+            "count": 5542
+          }
+        ],
+        "tweet_text": "我宣布掐着脖子后入是最爽的姿势！\n\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+        "check_url": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+        "promo_post_id": "2094699617309044904",
+        "check_post_id": "2094699617309044904",
+        "chat_id": "-1003739822194",
+        "message_id": 2220,
+        "time": "2026-09-17 00:45:59",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 5542,
+        "qualified_followers_text": "5.5K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 00:45:59",
+        "admission_locked": false,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted"
       }
     }
@@ -21857,8 +22069,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:39:52",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 14,
+        "daily_list_status": "accepted"
+      },
+      "2094699617309044904": {
+        "x_handle": "sweetyou02",
+        "check_handle": "sweetyou02",
+        "dual_link": false,
+        "promo_handle": "sweetyou02",
+        "tg_username": "catdog851",
+        "tg_user_id": 5452100710,
+        "tg_name": "葡萄 吃不饱",
+        "link": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+        "message_text": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+            "handle": "sweetyou02",
+            "post_id": "2094699617309044904",
+            "role": "promo",
+            "author_name": "欧尼太太",
+            "followers_count": 5542,
+            "followers_text": "5.5K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 5542
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 5542
+              },
+              {
+                "source": "status_legacy",
+                "count": 5542
+              },
+              {
+                "source": "profile_v2",
+                "count": 5542
+              }
+            ],
+            "tweet_text": "我宣布掐着脖子后入是最爽的姿势！\n\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+            "post_id": "2094699617309044904",
+            "handle": "sweetyou02",
+            "source_time": "2026-09-17 00:45:59",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "欧尼太太",
+        "promo_name": "欧尼太太",
+        "followers_count": 5542,
+        "followers_text": "5.5K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5542
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5542
+          },
+          {
+            "source": "status_legacy",
+            "count": 5542
+          },
+          {
+            "source": "profile_v2",
+            "count": 5542
+          }
+        ],
+        "check_followers_count": 5542,
+        "check_followers_text": "5.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5542
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5542
+          },
+          {
+            "source": "status_legacy",
+            "count": 5542
+          },
+          {
+            "source": "profile_v2",
+            "count": 5542
+          }
+        ],
+        "tweet_text": "我宣布掐着脖子后入是最爽的姿势！\n\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+        "check_url": "https://x.com/sweetyou02/status/2094699617309044904?s=46",
+        "promo_post_id": "2094699617309044904",
+        "check_post_id": "2094699617309044904",
+        "chat_id": "-1003739822194",
+        "message_id": 2220,
+        "time": "2026-09-17 00:45:59",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 5542,
+        "qualified_followers_text": "5.5K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 00:45:59",
+        "admission_locked": false,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted"
       }
     }

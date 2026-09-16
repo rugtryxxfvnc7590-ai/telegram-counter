@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "offset": 364615250,
+  "offset": 364615254,
   "groups": {
     "-1003891628675": {
       "count": 32,
@@ -97,7 +97,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-16",
-    "run_at": "2026-09-16 18:45:33",
+    "run_at": "2026-09-16 19:00:42",
     "completed_groups": [
       "群一",
       "群二",
@@ -105,20 +105,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35086665830:1",
-        "checked_at": "2026-09-16 18:45:34",
+        "run_key": "35087994990:1",
+        "checked_at": "2026-09-16 19:00:44",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35086665830:1",
-        "checked_at": "2026-09-16 18:45:34",
+        "run_key": "35087994990:1",
+        "checked_at": "2026-09-16 19:00:44",
         "bot_user_id": 8755020155,
         "confirmed_replies": 1
       },
       "群三": {
-        "run_key": "35086665830:1",
-        "checked_at": "2026-09-16 18:45:35",
+        "run_key": "35087994990:1",
+        "checked_at": "2026-09-16 19:00:44",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -882,6 +882,44 @@
         "withdrawn_message_ids": [
           "2133"
         ]
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-09-16 19:00:47",
+        "count": 2,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [
+          "https://x.com/zhuguang9859/status/2099543492787896632",
+          "https://x.com/chairlfen_cn/status/2099052962505269386"
+        ],
+        "slots": [
+          {
+            "handle": "zhuguang9859",
+            "post_id": "2099543492787896632",
+            "original_post_id": "2099543492787896632",
+            "url": "https://x.com/zhuguang9859/status/2099543492787896632",
+            "edited": false,
+            "message_id": "74178",
+            "tg_user_id": "8281002968",
+            "time": "2026-09-16 02:42:09",
+            "admission_time": "2026-09-16 02:42:09"
+          },
+          {
+            "handle": "chairlfen_cn",
+            "post_id": "2099052962505269386",
+            "original_post_id": "2099052962505269386",
+            "url": "https://x.com/chairlfen_cn/status/2099052962505269386",
+            "edited": false,
+            "message_id": "74175",
+            "tg_user_id": "1853744305",
+            "time": "2026-09-16 01:04:43",
+            "admission_time": "2026-09-16 01:04:43"
+          }
+        ],
+        "message_id": 2732,
+        "owner_chat_id": "8614747348",
+        "text": "群二（9月16日）互推名单，共 2 条\n\n1 https://x.com/zhuguang9859/status/2099543492787896632\n\n2 https://x.com/chairlfen_cn/status/2099052962505269386"
       }
     }
   },

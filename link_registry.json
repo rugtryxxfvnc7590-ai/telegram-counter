@@ -7948,7 +7948,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:17:42",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted"
       }
@@ -8982,7 +8982,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:16:47",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 10,
         "daily_list_status": "accepted"
       },
@@ -10170,7 +10170,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:18:46",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
         "daily_list_status": "accepted"
       },
@@ -10391,7 +10391,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:20:02",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 12,
         "daily_list_status": "accepted"
       },
@@ -10612,7 +10612,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:20:02",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 12,
         "daily_list_status": "accepted"
       },
@@ -10824,8 +10824,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:24:08",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 13,
+        "daily_list_status": "accepted"
+      },
+      "xiaoxianjiang11": {
+        "x_handle": "xiaoxianjiang11",
+        "check_handle": "xiaoxianjiang11",
+        "dual_link": false,
+        "promo_handle": "xiaoxianjiang11",
+        "tg_username": "xiaoxianjiang",
+        "tg_user_id": 7174784840,
+        "tg_name": "小仙酱 ✈️",
+        "link": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+        "message_text": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+            "handle": "xiaoxianjiang11",
+            "post_id": "2100241204659270005",
+            "role": "promo",
+            "author_name": "小仙爱吃酱",
+            "followers_count": 203,
+            "followers_text": "203",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 203
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 203
+              },
+              {
+                "source": "status_legacy",
+                "count": 203
+              },
+              {
+                "source": "profile_v2",
+                "count": 203
+              }
+            ],
+            "tweet_text": "膝盖就这样被磨破的\n#cosplay #巨乳\n@ToBulaer \n@ToBuerma\n@KawasawaSen \n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 68,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 68,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 68,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 68,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 68,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+            "post_id": "2100241204659270005",
+            "handle": "xiaoxianjiang11",
+            "source_time": "2026-09-17 00:39:52",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小仙爱吃酱",
+        "promo_name": "小仙爱吃酱",
+        "followers_count": 203,
+        "followers_text": "203",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 203
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 203
+          },
+          {
+            "source": "status_legacy",
+            "count": 203
+          },
+          {
+            "source": "profile_v2",
+            "count": 203
+          }
+        ],
+        "check_followers_count": 203,
+        "check_followers_text": "203",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 203
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 203
+          },
+          {
+            "source": "status_legacy",
+            "count": 203
+          },
+          {
+            "source": "profile_v2",
+            "count": 203
+          }
+        ],
+        "tweet_text": "膝盖就这样被磨破的\n#cosplay #巨乳\n@ToBulaer \n@ToBuerma\n@KawasawaSen \n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 68,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 68,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 68,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 68,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 68,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+        "check_url": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+        "promo_post_id": "2100241204659270005",
+        "check_post_id": "2100241204659270005",
+        "chat_id": "-1003739822194",
+        "message_id": 2219,
+        "time": "2026-09-17 00:39:52",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 203,
+        "qualified_followers_text": "203",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 00:39:52",
+        "admission_locked": false,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted"
       }
     }
@@ -18778,7 +18990,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:17:42",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted"
       }
@@ -19812,7 +20024,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:16:47",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 10,
         "daily_list_status": "accepted"
       },
@@ -21000,7 +21212,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:18:46",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
         "daily_list_status": "accepted"
       },
@@ -21221,7 +21433,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:20:02",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 12,
         "daily_list_status": "accepted"
       },
@@ -21433,8 +21645,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:24:08",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 13,
+        "daily_list_status": "accepted"
+      },
+      "2100241204659270005": {
+        "x_handle": "xiaoxianjiang11",
+        "check_handle": "xiaoxianjiang11",
+        "dual_link": false,
+        "promo_handle": "xiaoxianjiang11",
+        "tg_username": "xiaoxianjiang",
+        "tg_user_id": 7174784840,
+        "tg_name": "小仙酱 ✈️",
+        "link": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+        "message_text": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+            "handle": "xiaoxianjiang11",
+            "post_id": "2100241204659270005",
+            "role": "promo",
+            "author_name": "小仙爱吃酱",
+            "followers_count": 203,
+            "followers_text": "203",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 203
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 203
+              },
+              {
+                "source": "status_legacy",
+                "count": 203
+              },
+              {
+                "source": "profile_v2",
+                "count": 203
+              }
+            ],
+            "tweet_text": "膝盖就这样被磨破的\n#cosplay #巨乳\n@ToBulaer \n@ToBuerma\n@KawasawaSen \n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 68,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 68,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 68,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 68,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 68,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+            "post_id": "2100241204659270005",
+            "handle": "xiaoxianjiang11",
+            "source_time": "2026-09-17 00:39:52",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小仙爱吃酱",
+        "promo_name": "小仙爱吃酱",
+        "followers_count": 203,
+        "followers_text": "203",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 203
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 203
+          },
+          {
+            "source": "status_legacy",
+            "count": 203
+          },
+          {
+            "source": "profile_v2",
+            "count": 203
+          }
+        ],
+        "check_followers_count": 203,
+        "check_followers_text": "203",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 203
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 203
+          },
+          {
+            "source": "status_legacy",
+            "count": 203
+          },
+          {
+            "source": "profile_v2",
+            "count": 203
+          }
+        ],
+        "tweet_text": "膝盖就这样被磨破的\n#cosplay #巨乳\n@ToBulaer \n@ToBuerma\n@KawasawaSen \n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 68,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 68,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 68,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 68,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 68,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+        "check_url": "https://x.com/xiaoxianjiang11/status/2100241204659270005?s=46",
+        "promo_post_id": "2100241204659270005",
+        "check_post_id": "2100241204659270005",
+        "chat_id": "-1003739822194",
+        "message_id": 2219,
+        "time": "2026-09-17 00:39:52",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 203,
+        "qualified_followers_text": "203",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 00:39:52",
+        "admission_locked": false,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted"
       }
     }

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "offset": 364615207,
+  "offset": 364615208,
   "groups": {
     "-1003891628675": {
       "count": 32,
@@ -40,10 +40,14 @@
       ]
     },
     "-1003218974409": {
-      "count": 2,
+      "count": 3,
       "message_ids": [
         "74175",
-        "74178"
+        "74178",
+        "74180"
+      ],
+      "reply_keys": [
+        "74180:low_followers"
       ]
     },
     "-1003739822194": {
@@ -82,7 +86,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-16",
-    "run_at": "2026-09-16 09:00:48",
+    "run_at": "2026-09-16 09:15:25",
     "completed_groups": [
       "群一",
       "群二",
@@ -90,20 +94,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35042330290:1",
-        "checked_at": "2026-09-16 09:00:49",
+        "run_key": "35043337953:1",
+        "checked_at": "2026-09-16 09:15:25",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35042330290:1",
-        "checked_at": "2026-09-16 09:00:49",
+        "run_key": "35043337953:1",
+        "checked_at": "2026-09-16 09:15:26",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35042330290:1",
-        "checked_at": "2026-09-16 09:00:49",
+        "run_key": "35043337953:1",
+        "checked_at": "2026-09-16 09:15:26",
         "bot_user_id": 8755020155,
         "confirmed_replies": 1
       }
@@ -530,7 +534,16 @@
     "date": "2026-09-16",
     "groups": {
       "群一": {},
-      "群二": {},
+      "群二": {
+        "74180:low_followers": {
+          "status": "sent",
+          "message_id": 74180,
+          "rule": "low_followers",
+          "attempts": 1,
+          "attempted_at": "2026-09-16 09:15:29",
+          "text": "粉丝数量低于最低互推标准，该链接不予互推！"
+        }
+      },
       "群三": {
         "2144:missing_mentions": {
           "status": "sent",

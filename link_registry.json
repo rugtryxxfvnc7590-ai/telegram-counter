@@ -11248,8 +11248,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:45:59",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 15,
+        "daily_list_status": "accepted"
+      },
+      "violentdesil": {
+        "x_handle": "violentdesil",
+        "check_handle": "violentdesil",
+        "dual_link": false,
+        "promo_handle": "violentdesil",
+        "tg_username": "Violentdesi",
+        "tg_user_id": 8359725663,
+        "tg_name": "狩伐s",
+        "link": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+        "message_text": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+            "handle": "violentdesil",
+            "post_id": "2099184018487210023",
+            "role": "promo",
+            "author_name": "一只鱼",
+            "followers_count": 738,
+            "followers_text": "738",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 738
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 738
+              },
+              {
+                "source": "status_legacy",
+                "count": 738
+              },
+              {
+                "source": "profile_v2",
+                "count": 738
+              }
+            ],
+            "tweet_text": "和男友说跟闺蜜逛街结果来找我偷吃\n上来就给我深喉 那勾人的眼神实在太顶了\n她男朋友都舍不得插的嘴让我当飞机杯使用\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 94,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 94,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 94,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 94,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 94,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+            "post_id": "2099184018487210023",
+            "handle": "violentdesil",
+            "source_time": "2026-09-17 01:00:23",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "一只鱼",
+        "promo_name": "一只鱼",
+        "followers_count": 738,
+        "followers_text": "738",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 738
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 738
+          },
+          {
+            "source": "status_legacy",
+            "count": 738
+          },
+          {
+            "source": "profile_v2",
+            "count": 738
+          }
+        ],
+        "check_followers_count": 738,
+        "check_followers_text": "738",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 738
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 738
+          },
+          {
+            "source": "status_legacy",
+            "count": 738
+          },
+          {
+            "source": "profile_v2",
+            "count": 738
+          }
+        ],
+        "tweet_text": "和男友说跟闺蜜逛街结果来找我偷吃\n上来就给我深喉 那勾人的眼神实在太顶了\n她男朋友都舍不得插的嘴让我当飞机杯使用\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 94,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 94,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 94,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 94,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 94,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+        "check_url": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+        "promo_post_id": "2099184018487210023",
+        "check_post_id": "2099184018487210023",
+        "chat_id": "-1003739822194",
+        "message_id": 2224,
+        "time": "2026-09-17 01:00:23",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 738,
+        "qualified_followers_text": "738",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 01:00:23",
+        "admission_locked": false,
+        "daily_list_rank": 16,
         "daily_list_status": "accepted"
       }
     }
@@ -22281,8 +22493,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 00:45:59",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 15,
+        "daily_list_status": "accepted"
+      },
+      "2099184018487210023": {
+        "x_handle": "violentdesil",
+        "check_handle": "violentdesil",
+        "dual_link": false,
+        "promo_handle": "violentdesil",
+        "tg_username": "Violentdesi",
+        "tg_user_id": 8359725663,
+        "tg_name": "狩伐s",
+        "link": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+        "message_text": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+            "handle": "violentdesil",
+            "post_id": "2099184018487210023",
+            "role": "promo",
+            "author_name": "一只鱼",
+            "followers_count": 738,
+            "followers_text": "738",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 738
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 738
+              },
+              {
+                "source": "status_legacy",
+                "count": 738
+              },
+              {
+                "source": "profile_v2",
+                "count": 738
+              }
+            ],
+            "tweet_text": "和男友说跟闺蜜逛街结果来找我偷吃\n上来就给我深喉 那勾人的眼神实在太顶了\n她男朋友都舍不得插的嘴让我当飞机杯使用\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 94,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 94,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 94,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 94,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 94,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+            "post_id": "2099184018487210023",
+            "handle": "violentdesil",
+            "source_time": "2026-09-17 01:00:23",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "一只鱼",
+        "promo_name": "一只鱼",
+        "followers_count": 738,
+        "followers_text": "738",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 738
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 738
+          },
+          {
+            "source": "status_legacy",
+            "count": 738
+          },
+          {
+            "source": "profile_v2",
+            "count": 738
+          }
+        ],
+        "check_followers_count": 738,
+        "check_followers_text": "738",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 738
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 738
+          },
+          {
+            "source": "status_legacy",
+            "count": 738
+          },
+          {
+            "source": "profile_v2",
+            "count": 738
+          }
+        ],
+        "tweet_text": "和男友说跟闺蜜逛街结果来找我偷吃\n上来就给我深喉 那勾人的眼神实在太顶了\n她男朋友都舍不得插的嘴让我当飞机杯使用\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 94,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 94,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 94,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 94,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 94,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+        "check_url": "https://x.com/violentdesil/status/2099184018487210023?s=46",
+        "promo_post_id": "2099184018487210023",
+        "check_post_id": "2099184018487210023",
+        "chat_id": "-1003739822194",
+        "message_id": 2224,
+        "time": "2026-09-17 01:00:23",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 738,
+        "qualified_followers_text": "738",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 01:00:23",
+        "admission_locked": false,
+        "daily_list_rank": 16,
         "daily_list_status": "accepted"
       }
     }

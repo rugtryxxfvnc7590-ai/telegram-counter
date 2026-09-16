@@ -5762,17 +5762,17 @@
         "tg_username": "shixiaoyu99",
         "tg_user_id": 5404758777,
         "tg_name": "Destiny",
-        "link": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
-        "message_text": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
+        "link": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
+        "message_text": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
+            "url": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
             "handle": "aliqinqin888",
-            "post_id": "2071113744898298146",
+            "post_id": "2100142703660933204",
             "role": "promo",
             "author_name": "早安阿离",
-            "followers_count": 124158,
+            "followers_count": 124148,
             "followers_text": "12.4W",
             "followers_sources": [
               "status_v2",
@@ -5783,22 +5783,22 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 124158
+                "count": 124148
               },
               {
                 "source": "status_legacy_i",
-                "count": 124158
+                "count": 124148
               },
               {
                 "source": "status_legacy",
-                "count": 124158
+                "count": 124148
               },
               {
                 "source": "profile_v2",
-                "count": 124158
+                "count": 124148
               }
             ],
-            "tweet_text": "外面世界太危险 来我身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen \n@BulmaList",
+            "tweet_text": "wataa\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -5809,37 +5809,45 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 59,
-                "required_mentions_count": 4
+                "length": 39,
+                "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 59,
-                "required_mentions_count": 4
+                "length": 39,
+                "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 59,
-                "required_mentions_count": 4
+                "length": 39,
+                "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 59,
-                "required_mentions_count": 4
+                "length": 39,
+                "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 59,
-                "required_mentions_count": 4
+                "length": 39,
+                "required_mentions_count": 3
               }
             ],
             "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 4
+            "required_mentions_count": 3
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
+            "post_id": "2100142703660933204",
+            "handle": "aliqinqin888",
+            "source_time": "2026-09-16 00:41:14",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
             "post_id": "2071113744898298146",
             "handle": "aliqinqin888",
@@ -5849,7 +5857,7 @@
         ],
         "x_name": "早安阿离",
         "promo_name": "早安阿离",
-        "followers_count": 124158,
+        "followers_count": 124148,
         "followers_text": "12.4W",
         "followers_sources": [
           "status_v2",
@@ -5860,22 +5868,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "status_legacy_i",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "status_legacy",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "profile_v2",
-            "count": 124158
+            "count": 124148
           }
         ],
-        "check_followers_count": 124158,
+        "check_followers_count": 124148,
         "check_followers_text": "12.4W",
         "check_followers_sources": [
           "status_v2",
@@ -5886,22 +5894,22 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "status_legacy_i",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "status_legacy",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "profile_v2",
-            "count": 124158
+            "count": 124148
           }
         ],
-        "tweet_text": "外面世界太危险 来我身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen \n@BulmaList",
+        "tweet_text": "wataa\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -5912,46 +5920,46 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 59,
-            "required_mentions_count": 4
+            "length": 39,
+            "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 59,
-            "required_mentions_count": 4
+            "length": 39,
+            "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 59,
-            "required_mentions_count": 4
+            "length": 39,
+            "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 59,
-            "required_mentions_count": 4
+            "length": 39,
+            "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 59,
-            "required_mentions_count": 4
+            "length": 39,
+            "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 4,
+        "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
-        "check_url": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
-        "promo_post_id": "2071113744898298146",
-        "check_post_id": "2071113744898298146",
+        "promo_url": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
+        "check_url": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
+        "promo_post_id": "2100142703660933204",
+        "check_post_id": "2100142703660933204",
         "chat_id": "-1003891628675",
         "message_id": 7793,
         "time": "2026-09-16 00:41:14",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-16 16:41:48",
         "followers_min": 100000,
-        "qualified_followers_count": 124158,
+        "qualified_followers_count": 124148,
         "qualified_followers_text": "12.4W",
         "qualified_followers_sources": [
           "status_v2",
@@ -20613,7 +20621,7 @@
         "daily_list_rank": 29,
         "daily_list_status": "accepted"
       },
-      "2071113744898298146": {
+      "2100142703660933204": {
         "x_handle": "aliqinqin888",
         "check_handle": "aliqinqin888",
         "dual_link": false,
@@ -20621,17 +20629,17 @@
         "tg_username": "shixiaoyu99",
         "tg_user_id": 5404758777,
         "tg_name": "Destiny",
-        "link": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
-        "message_text": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
+        "link": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
+        "message_text": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
+            "url": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
             "handle": "aliqinqin888",
-            "post_id": "2071113744898298146",
+            "post_id": "2100142703660933204",
             "role": "promo",
             "author_name": "早安阿离",
-            "followers_count": 124158,
+            "followers_count": 124148,
             "followers_text": "12.4W",
             "followers_sources": [
               "status_v2",
@@ -20642,22 +20650,22 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 124158
+                "count": 124148
               },
               {
                 "source": "status_legacy_i",
-                "count": 124158
+                "count": 124148
               },
               {
                 "source": "status_legacy",
-                "count": 124158
+                "count": 124148
               },
               {
                 "source": "profile_v2",
-                "count": 124158
+                "count": 124148
               }
             ],
-            "tweet_text": "外面世界太危险 来我身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen \n@BulmaList",
+            "tweet_text": "wataa\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -20668,37 +20676,45 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 59,
-                "required_mentions_count": 4
+                "length": 39,
+                "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 59,
-                "required_mentions_count": 4
+                "length": 39,
+                "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 59,
-                "required_mentions_count": 4
+                "length": 39,
+                "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 59,
-                "required_mentions_count": 4
+                "length": 39,
+                "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 59,
-                "required_mentions_count": 4
+                "length": 39,
+                "required_mentions_count": 3
               }
             ],
             "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 4
+            "required_mentions_count": 3
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
+            "post_id": "2100142703660933204",
+            "handle": "aliqinqin888",
+            "source_time": "2026-09-16 00:41:14",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
             "post_id": "2071113744898298146",
             "handle": "aliqinqin888",
@@ -20708,7 +20724,7 @@
         ],
         "x_name": "早安阿离",
         "promo_name": "早安阿离",
-        "followers_count": 124158,
+        "followers_count": 124148,
         "followers_text": "12.4W",
         "followers_sources": [
           "status_v2",
@@ -20719,22 +20735,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "status_legacy_i",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "status_legacy",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "profile_v2",
-            "count": 124158
+            "count": 124148
           }
         ],
-        "check_followers_count": 124158,
+        "check_followers_count": 124148,
         "check_followers_text": "12.4W",
         "check_followers_sources": [
           "status_v2",
@@ -20745,22 +20761,22 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "status_legacy_i",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "status_legacy",
-            "count": 124158
+            "count": 124148
           },
           {
             "source": "profile_v2",
-            "count": 124158
+            "count": 124148
           }
         ],
-        "tweet_text": "外面世界太危险 来我身边\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen \n@BulmaList",
+        "tweet_text": "wataa\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -20771,46 +20787,46 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 59,
-            "required_mentions_count": 4
+            "length": 39,
+            "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 59,
-            "required_mentions_count": 4
+            "length": 39,
+            "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 59,
-            "required_mentions_count": 4
+            "length": 39,
+            "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 59,
-            "required_mentions_count": 4
+            "length": 39,
+            "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 59,
-            "required_mentions_count": 4
+            "length": 39,
+            "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 4,
+        "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
-        "check_url": "https://x.com/aliqinqin888/status/2071113744898298146?s=20",
-        "promo_post_id": "2071113744898298146",
-        "check_post_id": "2071113744898298146",
+        "promo_url": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
+        "check_url": "https://x.com/aliqinqin888/status/2100142703660933204?s=20",
+        "promo_post_id": "2100142703660933204",
+        "check_post_id": "2100142703660933204",
         "chat_id": "-1003891628675",
         "message_id": 7793,
         "time": "2026-09-16 00:41:14",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-16 16:41:48",
         "followers_min": 100000,
-        "qualified_followers_count": 124158,
+        "qualified_followers_count": 124148,
         "qualified_followers_text": "12.4W",
         "qualified_followers_sources": [
           "status_v2",

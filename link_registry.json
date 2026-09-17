@@ -8259,7 +8259,7 @@
         ],
         "x_name": "皮耶",
         "promo_name": "皮耶",
-        "followers_count": 42774,
+        "followers_count": 42777,
         "followers_text": "4.2W",
         "followers_sources": [
           "status_v2",
@@ -8375,6 +8375,18 @@
           {
             "source": "profile_v2",
             "count": 42774
+          },
+          {
+            "source": "status_v2",
+            "count": 42777
+          },
+          {
+            "source": "status_legacy",
+            "count": 42777
+          },
+          {
+            "source": "profile_v2",
+            "count": 42777
           }
         ],
         "check_followers_count": 42765,
@@ -8453,7 +8465,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 42774,
+        "qualified_followers_count": 42777,
         "qualified_followers_text": "4.2W",
         "qualified_followers_sources": [
           "status_v2",
@@ -8690,46 +8702,40 @@
         "tg_username": "dajiejieUU",
         "tg_user_id": 8244388416,
         "tg_name": "Miaaaaa",
-        "link": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
-        "message_text": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
+        "link": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+        "message_text": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
+            "url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
             "handle": "dajiejieuuya",
-            "post_id": "2095749062016520548",
+            "post_id": "2100450694360965456",
             "role": "promo",
             "author_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
-            "followers_count": 6283,
-            "followers_text": "6.2K",
+            "followers_count": 6384,
+            "followers_text": "6.3K",
             "followers_sources": [
               "status_v2",
-              "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 6283
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 6283
+                "count": 6384
               },
               {
                 "source": "status_legacy",
-                "count": 6283
+                "count": 6384
               },
               {
                 "source": "profile_v2",
-                "count": 6283
+                "count": 6384
               }
             ],
-            "tweet_text": "不用羡慕，你也可以！\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
+            "tweet_text": "停车场现抓一只小狗清理足底\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
-              "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
@@ -8737,27 +8743,22 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 45,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 45,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 45,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 45,
+                "length": 48,
                 "required_mentions_count": 3
               }
             ],
@@ -8767,72 +8768,69 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+            "post_id": "2100450694360965456",
+            "handle": "dajiejieuuya",
+            "source_time": "2026-09-17 00:00:40",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
             "post_id": "2095749062016520548",
             "handle": "dajiejieuuya",
             "source_time": "2026-09-17 00:00:40",
-            "edit_time": ""
+            "edit_time": "2026-09-17 00:01:16"
           }
         ],
         "x_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
         "promo_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
-        "followers_count": 6283,
-        "followers_text": "6.2K",
+        "followers_count": 6384,
+        "followers_text": "6.3K",
         "followers_sources": [
           "status_v2",
-          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 6283
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 6283
+            "count": 6384
           },
           {
             "source": "status_legacy",
-            "count": 6283
+            "count": 6384
           },
           {
             "source": "profile_v2",
-            "count": 6283
+            "count": 6384
           }
         ],
-        "check_followers_count": 6283,
-        "check_followers_text": "6.2K",
+        "check_followers_count": 6384,
+        "check_followers_text": "6.3K",
         "check_followers_sources": [
           "status_v2",
-          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 6283
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 6283
+            "count": 6384
           },
           {
             "source": "status_legacy",
-            "count": 6283
+            "count": 6384
           },
           {
             "source": "profile_v2",
-            "count": 6283
+            "count": 6384
           }
         ],
-        "tweet_text": "不用羡慕，你也可以！\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
+        "tweet_text": "停车场现抓一只小狗清理足底\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
-          "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
@@ -8840,50 +8838,44 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 45,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 45,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 45,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 45,
+            "length": 48,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
-        "check_url": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
-        "promo_post_id": "2095749062016520548",
-        "check_post_id": "2095749062016520548",
+        "promo_url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+        "check_url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+        "promo_post_id": "2100450694360965456",
+        "check_post_id": "2100450694360965456",
         "chat_id": "-1003739822194",
         "message_id": 2204,
         "time": "2026-09-17 00:00:40",
         "after_cutoff": false,
         "cutoff_time": "",
         "edited": true,
-        "edit_time": "2026-09-17 00:01:16",
+        "edit_time": "2026-09-17 13:04:39",
         "followers_min": 0,
-        "qualified_followers_count": 6283,
-        "qualified_followers_text": "6.2K",
+        "qualified_followers_count": 6384,
+        "qualified_followers_text": "6.3K",
         "qualified_followers_sources": [
           "status_v2",
-          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
@@ -23575,7 +23567,7 @@
         ],
         "x_name": "皮耶",
         "promo_name": "皮耶",
-        "followers_count": 42774,
+        "followers_count": 42777,
         "followers_text": "4.2W",
         "followers_sources": [
           "status_v2",
@@ -23691,6 +23683,18 @@
           {
             "source": "profile_v2",
             "count": 42774
+          },
+          {
+            "source": "status_v2",
+            "count": 42777
+          },
+          {
+            "source": "status_legacy",
+            "count": 42777
+          },
+          {
+            "source": "profile_v2",
+            "count": 42777
           }
         ],
         "check_followers_count": 42765,
@@ -23769,7 +23773,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 42774,
+        "qualified_followers_count": 42777,
         "qualified_followers_text": "4.2W",
         "qualified_followers_sources": [
           "status_v2",
@@ -23998,7 +24002,7 @@
         "daily_list_rank": 1,
         "daily_list_status": "accepted"
       },
-      "2095749062016520548": {
+      "2100450694360965456": {
         "x_handle": "dajiejieuuya",
         "check_handle": "dajiejieuuya",
         "dual_link": false,
@@ -24006,46 +24010,40 @@
         "tg_username": "dajiejieUU",
         "tg_user_id": 8244388416,
         "tg_name": "Miaaaaa",
-        "link": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
-        "message_text": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
+        "link": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+        "message_text": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
+            "url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
             "handle": "dajiejieuuya",
-            "post_id": "2095749062016520548",
+            "post_id": "2100450694360965456",
             "role": "promo",
             "author_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
-            "followers_count": 6283,
-            "followers_text": "6.2K",
+            "followers_count": 6384,
+            "followers_text": "6.3K",
             "followers_sources": [
               "status_v2",
-              "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 6283
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 6283
+                "count": 6384
               },
               {
                 "source": "status_legacy",
-                "count": 6283
+                "count": 6384
               },
               {
                 "source": "profile_v2",
-                "count": 6283
+                "count": 6384
               }
             ],
-            "tweet_text": "不用羡慕，你也可以！\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
+            "tweet_text": "停车场现抓一只小狗清理足底\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
-              "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
@@ -24053,27 +24051,22 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 45,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 45,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 45,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 45,
+                "length": 48,
                 "required_mentions_count": 3
               }
             ],
@@ -24083,72 +24076,69 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+            "post_id": "2100450694360965456",
+            "handle": "dajiejieuuya",
+            "source_time": "2026-09-17 00:00:40",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
             "post_id": "2095749062016520548",
             "handle": "dajiejieuuya",
             "source_time": "2026-09-17 00:00:40",
-            "edit_time": ""
+            "edit_time": "2026-09-17 00:01:16"
           }
         ],
         "x_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
         "promo_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
-        "followers_count": 6283,
-        "followers_text": "6.2K",
+        "followers_count": 6384,
+        "followers_text": "6.3K",
         "followers_sources": [
           "status_v2",
-          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 6283
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 6283
+            "count": 6384
           },
           {
             "source": "status_legacy",
-            "count": 6283
+            "count": 6384
           },
           {
             "source": "profile_v2",
-            "count": 6283
+            "count": 6384
           }
         ],
-        "check_followers_count": 6283,
-        "check_followers_text": "6.2K",
+        "check_followers_count": 6384,
+        "check_followers_text": "6.3K",
         "check_followers_sources": [
           "status_v2",
-          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 6283
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 6283
+            "count": 6384
           },
           {
             "source": "status_legacy",
-            "count": 6283
+            "count": 6384
           },
           {
             "source": "profile_v2",
-            "count": 6283
+            "count": 6384
           }
         ],
-        "tweet_text": "不用羡慕，你也可以！\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
+        "tweet_text": "停车场现抓一只小狗清理足底\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
-          "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
@@ -24156,50 +24146,44 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 45,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 45,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 45,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 45,
+            "length": 48,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
-        "check_url": "https://x.com/dajiejieuuya/status/2095749062016520548?s=46",
-        "promo_post_id": "2095749062016520548",
-        "check_post_id": "2095749062016520548",
+        "promo_url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+        "check_url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+        "promo_post_id": "2100450694360965456",
+        "check_post_id": "2100450694360965456",
         "chat_id": "-1003739822194",
         "message_id": 2204,
         "time": "2026-09-17 00:00:40",
         "after_cutoff": false,
         "cutoff_time": "",
         "edited": true,
-        "edit_time": "2026-09-17 00:01:16",
+        "edit_time": "2026-09-17 13:04:39",
         "followers_min": 0,
-        "qualified_followers_count": 6283,
-        "qualified_followers_text": "6.2K",
+        "qualified_followers_count": 6384,
+        "qualified_followers_text": "6.3K",
         "qualified_followers_sources": [
           "status_v2",
-          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],

@@ -13129,6 +13129,642 @@
         "admission_locked": true,
         "daily_list_rank": 24,
         "daily_list_status": "accepted"
+      },
+      "koio95": {
+        "x_handle": "koio95",
+        "check_handle": "koio95",
+        "dual_link": false,
+        "promo_handle": "koio95",
+        "tg_username": "yuner118",
+        "tg_user_id": 8548890215,
+        "tg_name": "云儿",
+        "link": "https://x.com/koio95/status/2100389725215355389?s=20",
+        "message_text": "https://x.com/koio95/status/2100389725215355389?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/koio95/status/2100389725215355389?s=20",
+            "handle": "koio95",
+            "post_id": "2100389725215355389",
+            "role": "promo",
+            "author_name": "肉肉",
+            "followers_count": 13168,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13168
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13168
+              },
+              {
+                "source": "status_legacy",
+                "count": 13168
+              },
+              {
+                "source": "profile_v2",
+                "count": 13168
+              }
+            ],
+            "tweet_text": "哥哥喜欢肉肉多的小少妇一枚嘛\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/koio95/status/2100389725215355389?s=20",
+            "post_id": "2100389725215355389",
+            "handle": "koio95",
+            "source_time": "2026-09-17 09:04:32",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "肉肉",
+        "promo_name": "肉肉",
+        "followers_count": 13168,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13168
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13168
+          },
+          {
+            "source": "status_legacy",
+            "count": 13168
+          },
+          {
+            "source": "profile_v2",
+            "count": 13168
+          }
+        ],
+        "check_followers_count": 13168,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13168
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13168
+          },
+          {
+            "source": "status_legacy",
+            "count": 13168
+          },
+          {
+            "source": "profile_v2",
+            "count": 13168
+          }
+        ],
+        "tweet_text": "哥哥喜欢肉肉多的小少妇一枚嘛\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/koio95/status/2100389725215355389?s=20",
+        "check_url": "https://x.com/koio95/status/2100389725215355389?s=20",
+        "promo_post_id": "2100389725215355389",
+        "check_post_id": "2100389725215355389",
+        "chat_id": "-1003739822194",
+        "message_id": 2235,
+        "time": "2026-09-17 09:04:32",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 13168,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 09:04:32",
+        "admission_locked": false,
+        "daily_list_rank": 25,
+        "daily_list_status": "accepted"
+      },
+      "mopomeeaii": {
+        "x_handle": "mopomeeaii",
+        "check_handle": "mopomeeaii",
+        "dual_link": false,
+        "promo_handle": "mopomeeaii",
+        "tg_username": "xye918",
+        "tg_user_id": 1129654552,
+        "tg_name": "小鱼",
+        "link": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+        "message_text": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+            "handle": "mopomeeaii",
+            "post_id": "2098965014233354264",
+            "role": "promo",
+            "author_name": "国产私房",
+            "followers_count": 13260,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13260
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13260
+              },
+              {
+                "source": "status_legacy",
+                "count": 13260
+              },
+              {
+                "source": "profile_v2",
+                "count": 13260
+              }
+            ],
+            "tweet_text": "妖女榨汁 淫妖横行 四女足交 疯狂榨精 苏畅 #夏晴子 #艾鲤 #李蓉蓉.\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 73,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 73,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 73,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 73,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 73,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+            "post_id": "2098965014233354264",
+            "handle": "mopomeeaii",
+            "source_time": "2026-09-17 09:07:54",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "国产私房",
+        "promo_name": "国产私房",
+        "followers_count": 13260,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13260
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13260
+          },
+          {
+            "source": "status_legacy",
+            "count": 13260
+          },
+          {
+            "source": "profile_v2",
+            "count": 13260
+          }
+        ],
+        "check_followers_count": 13260,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13260
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13260
+          },
+          {
+            "source": "status_legacy",
+            "count": 13260
+          },
+          {
+            "source": "profile_v2",
+            "count": 13260
+          }
+        ],
+        "tweet_text": "妖女榨汁 淫妖横行 四女足交 疯狂榨精 苏畅 #夏晴子 #艾鲤 #李蓉蓉.\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 73,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 73,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 73,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 73,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 73,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+        "check_url": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+        "promo_post_id": "2098965014233354264",
+        "check_post_id": "2098965014233354264",
+        "chat_id": "-1003739822194",
+        "message_id": 2236,
+        "time": "2026-09-17 09:07:54",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 13260,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 09:07:54",
+        "admission_locked": false,
+        "daily_list_rank": 26,
+        "daily_list_status": "accepted"
+      },
+      "vinodsrt": {
+        "x_handle": "vinodsrt",
+        "check_handle": "vinodsrt",
+        "dual_link": false,
+        "promo_handle": "vinodsrt",
+        "tg_username": "xye918",
+        "tg_user_id": 1129654552,
+        "tg_name": "小鱼",
+        "link": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+        "message_text": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+            "handle": "vinodsrt",
+            "post_id": "2100081209825239095",
+            "role": "promo",
+            "author_name": "蜜蜜日记本",
+            "followers_count": 13441,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13441
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13441
+              },
+              {
+                "source": "status_legacy",
+                "count": 13441
+              },
+              {
+                "source": "profile_v2",
+                "count": 13441
+              }
+            ],
+            "tweet_text": "390JNT-123 藤川乃風 森林原人【人妻性感内衣系列】第39集 29岁外表清纯却经验人数超100人的荡妇人妻登场 紧缠着肉棒的极度淫乱背德性交\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 110,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+            "post_id": "2100081209825239095",
+            "handle": "vinodsrt",
+            "source_time": "2026-09-17 09:08:14",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "蜜蜜日记本",
+        "promo_name": "蜜蜜日记本",
+        "followers_count": 13441,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13441
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13441
+          },
+          {
+            "source": "status_legacy",
+            "count": 13441
+          },
+          {
+            "source": "profile_v2",
+            "count": 13441
+          }
+        ],
+        "check_followers_count": 13441,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13441
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13441
+          },
+          {
+            "source": "status_legacy",
+            "count": 13441
+          },
+          {
+            "source": "profile_v2",
+            "count": 13441
+          }
+        ],
+        "tweet_text": "390JNT-123 藤川乃風 森林原人【人妻性感内衣系列】第39集 29岁外表清纯却经验人数超100人的荡妇人妻登场 紧缠着肉棒的极度淫乱背德性交\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 110,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+        "check_url": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+        "promo_post_id": "2100081209825239095",
+        "check_post_id": "2100081209825239095",
+        "chat_id": "-1003739822194",
+        "message_id": 2237,
+        "time": "2026-09-17 09:08:14",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 13441,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 09:08:14",
+        "admission_locked": false,
+        "daily_list_rank": 27,
+        "daily_list_status": "accepted"
       }
     }
   },
@@ -25864,6 +26500,642 @@
         "admission_time": "2026-09-17 07:54:42",
         "admission_locked": true,
         "daily_list_rank": 24,
+        "daily_list_status": "accepted"
+      },
+      "2100389725215355389": {
+        "x_handle": "koio95",
+        "check_handle": "koio95",
+        "dual_link": false,
+        "promo_handle": "koio95",
+        "tg_username": "yuner118",
+        "tg_user_id": 8548890215,
+        "tg_name": "云儿",
+        "link": "https://x.com/koio95/status/2100389725215355389?s=20",
+        "message_text": "https://x.com/koio95/status/2100389725215355389?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/koio95/status/2100389725215355389?s=20",
+            "handle": "koio95",
+            "post_id": "2100389725215355389",
+            "role": "promo",
+            "author_name": "肉肉",
+            "followers_count": 13168,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13168
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13168
+              },
+              {
+                "source": "status_legacy",
+                "count": 13168
+              },
+              {
+                "source": "profile_v2",
+                "count": 13168
+              }
+            ],
+            "tweet_text": "哥哥喜欢肉肉多的小少妇一枚嘛\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/koio95/status/2100389725215355389?s=20",
+            "post_id": "2100389725215355389",
+            "handle": "koio95",
+            "source_time": "2026-09-17 09:04:32",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "肉肉",
+        "promo_name": "肉肉",
+        "followers_count": 13168,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13168
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13168
+          },
+          {
+            "source": "status_legacy",
+            "count": 13168
+          },
+          {
+            "source": "profile_v2",
+            "count": 13168
+          }
+        ],
+        "check_followers_count": 13168,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13168
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13168
+          },
+          {
+            "source": "status_legacy",
+            "count": 13168
+          },
+          {
+            "source": "profile_v2",
+            "count": 13168
+          }
+        ],
+        "tweet_text": "哥哥喜欢肉肉多的小少妇一枚嘛\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/koio95/status/2100389725215355389?s=20",
+        "check_url": "https://x.com/koio95/status/2100389725215355389?s=20",
+        "promo_post_id": "2100389725215355389",
+        "check_post_id": "2100389725215355389",
+        "chat_id": "-1003739822194",
+        "message_id": 2235,
+        "time": "2026-09-17 09:04:32",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 13168,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 09:04:32",
+        "admission_locked": false,
+        "daily_list_rank": 25,
+        "daily_list_status": "accepted"
+      },
+      "2098965014233354264": {
+        "x_handle": "mopomeeaii",
+        "check_handle": "mopomeeaii",
+        "dual_link": false,
+        "promo_handle": "mopomeeaii",
+        "tg_username": "xye918",
+        "tg_user_id": 1129654552,
+        "tg_name": "小鱼",
+        "link": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+        "message_text": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+            "handle": "mopomeeaii",
+            "post_id": "2098965014233354264",
+            "role": "promo",
+            "author_name": "国产私房",
+            "followers_count": 13260,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13260
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13260
+              },
+              {
+                "source": "status_legacy",
+                "count": 13260
+              },
+              {
+                "source": "profile_v2",
+                "count": 13260
+              }
+            ],
+            "tweet_text": "妖女榨汁 淫妖横行 四女足交 疯狂榨精 苏畅 #夏晴子 #艾鲤 #李蓉蓉.\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 73,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 73,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 73,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 73,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 73,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+            "post_id": "2098965014233354264",
+            "handle": "mopomeeaii",
+            "source_time": "2026-09-17 09:07:54",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "国产私房",
+        "promo_name": "国产私房",
+        "followers_count": 13260,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13260
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13260
+          },
+          {
+            "source": "status_legacy",
+            "count": 13260
+          },
+          {
+            "source": "profile_v2",
+            "count": 13260
+          }
+        ],
+        "check_followers_count": 13260,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13260
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13260
+          },
+          {
+            "source": "status_legacy",
+            "count": 13260
+          },
+          {
+            "source": "profile_v2",
+            "count": 13260
+          }
+        ],
+        "tweet_text": "妖女榨汁 淫妖横行 四女足交 疯狂榨精 苏畅 #夏晴子 #艾鲤 #李蓉蓉.\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 73,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 73,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 73,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 73,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 73,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+        "check_url": "https://x.com/mopomeeaii/status/2098965014233354264?s=20",
+        "promo_post_id": "2098965014233354264",
+        "check_post_id": "2098965014233354264",
+        "chat_id": "-1003739822194",
+        "message_id": 2236,
+        "time": "2026-09-17 09:07:54",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 13260,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 09:07:54",
+        "admission_locked": false,
+        "daily_list_rank": 26,
+        "daily_list_status": "accepted"
+      },
+      "2100081209825239095": {
+        "x_handle": "vinodsrt",
+        "check_handle": "vinodsrt",
+        "dual_link": false,
+        "promo_handle": "vinodsrt",
+        "tg_username": "xye918",
+        "tg_user_id": 1129654552,
+        "tg_name": "小鱼",
+        "link": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+        "message_text": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+            "handle": "vinodsrt",
+            "post_id": "2100081209825239095",
+            "role": "promo",
+            "author_name": "蜜蜜日记本",
+            "followers_count": 13441,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13441
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13441
+              },
+              {
+                "source": "status_legacy",
+                "count": 13441
+              },
+              {
+                "source": "profile_v2",
+                "count": 13441
+              }
+            ],
+            "tweet_text": "390JNT-123 藤川乃風 森林原人【人妻性感内衣系列】第39集 29岁外表清纯却经验人数超100人的荡妇人妻登场 紧缠着肉棒的极度淫乱背德性交\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 110,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+            "post_id": "2100081209825239095",
+            "handle": "vinodsrt",
+            "source_time": "2026-09-17 09:08:14",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "蜜蜜日记本",
+        "promo_name": "蜜蜜日记本",
+        "followers_count": 13441,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13441
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13441
+          },
+          {
+            "source": "status_legacy",
+            "count": 13441
+          },
+          {
+            "source": "profile_v2",
+            "count": 13441
+          }
+        ],
+        "check_followers_count": 13441,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13441
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13441
+          },
+          {
+            "source": "status_legacy",
+            "count": 13441
+          },
+          {
+            "source": "profile_v2",
+            "count": 13441
+          }
+        ],
+        "tweet_text": "390JNT-123 藤川乃風 森林原人【人妻性感内衣系列】第39集 29岁外表清纯却经验人数超100人的荡妇人妻登场 紧缠着肉棒的极度淫乱背德性交\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 110,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+        "check_url": "https://x.com/VINODSRT/status/2100081209825239095?s=20",
+        "promo_post_id": "2100081209825239095",
+        "check_post_id": "2100081209825239095",
+        "chat_id": "-1003739822194",
+        "message_id": 2237,
+        "time": "2026-09-17 09:08:14",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 13441,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 09:08:14",
+        "admission_locked": false,
+        "daily_list_rank": 27,
         "daily_list_status": "accepted"
       }
     }

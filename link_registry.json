@@ -8160,8 +8160,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 10:41:03",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
+        "daily_list_status": "accepted"
+      },
+      "pylover12": {
+        "x_handle": "pylover12",
+        "check_handle": "pylover12",
+        "dual_link": false,
+        "promo_handle": "pylover12",
+        "tg_username": "pylover12",
+        "tg_user_id": 8981122816,
+        "tg_name": "皮 耶",
+        "link": "https://x.com/pylover12/status/2099431995705327647?s=46",
+        "message_text": "https://x.com/pylover12/status/2099431995705327647?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/pylover12/status/2099431995705327647?s=46",
+            "handle": "pylover12",
+            "post_id": "2099431995705327647",
+            "role": "promo",
+            "author_name": "皮耶",
+            "followers_count": 42765,
+            "followers_text": "4.2W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 42765
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 42765
+              },
+              {
+                "source": "status_legacy",
+                "count": 42765
+              },
+              {
+                "source": "profile_v2",
+                "count": 42765
+              }
+            ],
+            "tweet_text": "日本特产测评第二弹！吃完依旧是非常火热 明显能感觉逼里的温度高了一截，而且摸着更敏感了 尤其是吃完水会超多！虽然我自己本身就还蛮水润的🤤其他跟上一次的效果感觉没有差很多，但是这个果冻有点难吃…又辣又苦吃完一身的鸡皮疙瘩还是喜欢液体版一点🥲@KazamaTom  @KasukabeAe @Suotomet\n@sktwobba",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 162,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 162,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 162,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "vx_status_i",
+                "length": 162,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "status_legacy",
+                "length": 162,
+                "required_mentions_count": 0
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/pylover12/status/2099431995705327647?s=46",
+            "post_id": "2099431995705327647",
+            "handle": "pylover12",
+            "source_time": "2026-09-17 10:59:01",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "皮耶",
+        "promo_name": "皮耶",
+        "followers_count": 42765,
+        "followers_text": "4.2W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 42765
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 42765
+          },
+          {
+            "source": "status_legacy",
+            "count": 42765
+          },
+          {
+            "source": "profile_v2",
+            "count": 42765
+          }
+        ],
+        "check_followers_count": 42765,
+        "check_followers_text": "4.2W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 42765
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 42765
+          },
+          {
+            "source": "status_legacy",
+            "count": 42765
+          },
+          {
+            "source": "profile_v2",
+            "count": 42765
+          }
+        ],
+        "tweet_text": "日本特产测评第二弹！吃完依旧是非常火热 明显能感觉逼里的温度高了一截，而且摸着更敏感了 尤其是吃完水会超多！虽然我自己本身就还蛮水润的🤤其他跟上一次的效果感觉没有差很多，但是这个果冻有点难吃…又辣又苦吃完一身的鸡皮疙瘩还是喜欢液体版一点🥲@KazamaTom  @KasukabeAe @Suotomet\n@sktwobba",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 162,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 162,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 162,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_i",
+            "length": 162,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy",
+            "length": 162,
+            "required_mentions_count": 0
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 0,
+        "content_eligible": null,
+        "promo_url": "https://x.com/pylover12/status/2099431995705327647?s=46",
+        "check_url": "https://x.com/pylover12/status/2099431995705327647?s=46",
+        "promo_post_id": "2099431995705327647",
+        "check_post_id": "2099431995705327647",
+        "chat_id": "-1003218974409",
+        "message_id": 74200,
+        "time": "2026-09-17 10:59:01",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 42765,
+        "qualified_followers_text": "4.2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "待确认",
+        "admission_time": "2026-09-17 10:59:01",
+        "admission_locked": false,
+        "daily_list_rank": 5,
         "daily_list_status": "accepted"
       }
     },
@@ -22748,8 +22960,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-17 10:41:03",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
+        "daily_list_status": "accepted"
+      },
+      "2099431995705327647": {
+        "x_handle": "pylover12",
+        "check_handle": "pylover12",
+        "dual_link": false,
+        "promo_handle": "pylover12",
+        "tg_username": "pylover12",
+        "tg_user_id": 8981122816,
+        "tg_name": "皮 耶",
+        "link": "https://x.com/pylover12/status/2099431995705327647?s=46",
+        "message_text": "https://x.com/pylover12/status/2099431995705327647?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/pylover12/status/2099431995705327647?s=46",
+            "handle": "pylover12",
+            "post_id": "2099431995705327647",
+            "role": "promo",
+            "author_name": "皮耶",
+            "followers_count": 42765,
+            "followers_text": "4.2W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 42765
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 42765
+              },
+              {
+                "source": "status_legacy",
+                "count": 42765
+              },
+              {
+                "source": "profile_v2",
+                "count": 42765
+              }
+            ],
+            "tweet_text": "日本特产测评第二弹！吃完依旧是非常火热 明显能感觉逼里的温度高了一截，而且摸着更敏感了 尤其是吃完水会超多！虽然我自己本身就还蛮水润的🤤其他跟上一次的效果感觉没有差很多，但是这个果冻有点难吃…又辣又苦吃完一身的鸡皮疙瘩还是喜欢液体版一点🥲@KazamaTom  @KasukabeAe @Suotomet\n@sktwobba",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 162,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 162,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 162,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "vx_status_i",
+                "length": 162,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "status_legacy",
+                "length": 162,
+                "required_mentions_count": 0
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/pylover12/status/2099431995705327647?s=46",
+            "post_id": "2099431995705327647",
+            "handle": "pylover12",
+            "source_time": "2026-09-17 10:59:01",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "皮耶",
+        "promo_name": "皮耶",
+        "followers_count": 42765,
+        "followers_text": "4.2W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 42765
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 42765
+          },
+          {
+            "source": "status_legacy",
+            "count": 42765
+          },
+          {
+            "source": "profile_v2",
+            "count": 42765
+          }
+        ],
+        "check_followers_count": 42765,
+        "check_followers_text": "4.2W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 42765
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 42765
+          },
+          {
+            "source": "status_legacy",
+            "count": 42765
+          },
+          {
+            "source": "profile_v2",
+            "count": 42765
+          }
+        ],
+        "tweet_text": "日本特产测评第二弹！吃完依旧是非常火热 明显能感觉逼里的温度高了一截，而且摸着更敏感了 尤其是吃完水会超多！虽然我自己本身就还蛮水润的🤤其他跟上一次的效果感觉没有差很多，但是这个果冻有点难吃…又辣又苦吃完一身的鸡皮疙瘩还是喜欢液体版一点🥲@KazamaTom  @KasukabeAe @Suotomet\n@sktwobba",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 162,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 162,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 162,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_i",
+            "length": 162,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy",
+            "length": 162,
+            "required_mentions_count": 0
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 0,
+        "content_eligible": null,
+        "promo_url": "https://x.com/pylover12/status/2099431995705327647?s=46",
+        "check_url": "https://x.com/pylover12/status/2099431995705327647?s=46",
+        "promo_post_id": "2099431995705327647",
+        "check_post_id": "2099431995705327647",
+        "chat_id": "-1003218974409",
+        "message_id": 74200,
+        "time": "2026-09-17 10:59:01",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 42765,
+        "qualified_followers_text": "4.2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "待确认",
+        "admission_time": "2026-09-17 10:59:01",
+        "admission_locked": false,
+        "daily_list_rank": 5,
         "daily_list_status": "accepted"
       }
     },

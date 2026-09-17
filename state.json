@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "offset": 364615383,
+  "offset": 364615384,
   "groups": {
     "-1003891628675": {
       "count": 37,
@@ -94,7 +94,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-17",
-    "run_at": "2026-09-17 14:30:35",
+    "run_at": "2026-09-17 14:45:23",
     "completed_groups": [
       "群一",
       "群二",
@@ -102,20 +102,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35190111137:1",
-        "checked_at": "2026-09-17 14:30:36",
+        "run_key": "35191227242:1",
+        "checked_at": "2026-09-17 14:45:24",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35190111137:1",
-        "checked_at": "2026-09-17 14:30:37",
+        "run_key": "35191227242:1",
+        "checked_at": "2026-09-17 14:45:24",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35190111137:1",
-        "checked_at": "2026-09-17 14:30:37",
+        "run_key": "35191227242:1",
+        "checked_at": "2026-09-17 14:45:25",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -138,7 +138,7 @@
           "https://x.com/jingyeshiwu/status/2097678006009393595",
           "https://x.com/xye9518/status/2097142504420474998",
           "https://x.com/asecresm/status/2100123909492547675",
-          "https://x.com/xiaochen000007/status/2096145336901550438",
+          "https://x.com/xiaochen000007/status/2100473377173774410",
           "https://x.com/lris_intj/status/2099748122687684760",
           "https://x.com/qitian1110/status/2093598675796893920",
           "https://x.com/shixiaotaone/status/2099031369255178401",
@@ -242,14 +242,15 @@
           },
           {
             "handle": "xiaochen000007",
-            "post_id": "2096145336901550438",
+            "post_id": "2100473377173774410",
             "original_post_id": "2096145336901550438",
-            "url": "https://x.com/xiaochen000007/status/2096145336901550438",
-            "edited": false,
+            "url": "https://x.com/xiaochen000007/status/2100473377173774410",
+            "edited": true,
             "message_id": "7846",
             "tg_user_id": "5718822279",
             "time": "2026-09-17 00:00:57",
-            "admission_time": "2026-09-17 00:00:57"
+            "admission_time": "2026-09-17 00:00:57",
+            "edit_time": "2026-09-17 14:36:16"
           },
           {
             "handle": "lris_intj",
@@ -497,8 +498,8 @@
         ],
         "message_id": 2733,
         "owner_chat_id": "8614747348",
-        "text": "群一（9月17日）互推名单，共 30 条\n\n1 https://x.com/aksaks99999/status/2094773822570274834\n\n2 https://x.com/guilin010/status/2049841235272290313\n\n3 https://x.com/sleepsbg/status/2095539898090651722\n\n4 https://x.com/hanzuzong3/status/2099829887867781257\n\n5 https://x.com/jingyeshiwu/status/2097678006009393595\n\n6 https://x.com/xye9518/status/2097142504420474998\n\n7 https://x.com/asecresm/status/2100123909492547675\n\n8 https://x.com/xiaochen000007/status/2096145336901550438\n\n9 https://x.com/lris_intj/status/2099748122687684760\n\n10 https://x.com/qitian1110/status/2093598675796893920\n\n11 https://x.com/shixiaotaone/status/2099031369255178401\n\n12 https://x.com/wdqhctt/status/2093693360183886201\n\n13 https://x.com/qbln9999/status/2100225608014020818\n\n14 https://x.com/shixiaotaon/status/2098346524791169281\n\n15 https://x.com/wdqhc999/status/2099389027791368469\n\n16 https://x.com/xiuchiluchu910/status/2099719816097431828\n\n17 https://x.com/uudajiejie/status/2094308725200978359\n\n18 https://x.com/jxzeroc/status/2099867020091347357\n\n19 https://x.com/svj798ds/status/2008017967410553180\n\n20 https://x.com/pty0808/status/2100226163427922167\n\n21 https://x.com/jiojioyishujia1/status/2099754827266068533\n\n22 https://x.com/xiaotaobabyye/status/2100210251022942594\n\n23 https://x.com/laibeinaixiba/status/2089558662457282900\n\n24 https://x.com/libalababy/status/2097897905055219912\n\n25 https://x.com/hong14868/status/2099852870635958762\n\n已编辑 26 https://x.com/nancyyzp/status/2100470256015663479\n\n27 https://x.com/bob7078/status/2099174818147176465\n\n28 https://x.com/xiao16877/status/2090156693741310235\n\n29 https://x.com/tiaotiaosheep/status/2098611456942243983\n\n30 https://x.com/snd99x/status/2098329473385197995",
-        "updated_at": "2026-09-17 14:30:40"
+        "text": "群一（9月17日）互推名单，共 30 条\n\n1 https://x.com/aksaks99999/status/2094773822570274834\n\n2 https://x.com/guilin010/status/2049841235272290313\n\n3 https://x.com/sleepsbg/status/2095539898090651722\n\n4 https://x.com/hanzuzong3/status/2099829887867781257\n\n5 https://x.com/jingyeshiwu/status/2097678006009393595\n\n6 https://x.com/xye9518/status/2097142504420474998\n\n7 https://x.com/asecresm/status/2100123909492547675\n\n已编辑 8 https://x.com/xiaochen000007/status/2100473377173774410\n\n9 https://x.com/lris_intj/status/2099748122687684760\n\n10 https://x.com/qitian1110/status/2093598675796893920\n\n11 https://x.com/shixiaotaone/status/2099031369255178401\n\n12 https://x.com/wdqhctt/status/2093693360183886201\n\n13 https://x.com/qbln9999/status/2100225608014020818\n\n14 https://x.com/shixiaotaon/status/2098346524791169281\n\n15 https://x.com/wdqhc999/status/2099389027791368469\n\n16 https://x.com/xiuchiluchu910/status/2099719816097431828\n\n17 https://x.com/uudajiejie/status/2094308725200978359\n\n18 https://x.com/jxzeroc/status/2099867020091347357\n\n19 https://x.com/svj798ds/status/2008017967410553180\n\n20 https://x.com/pty0808/status/2100226163427922167\n\n21 https://x.com/jiojioyishujia1/status/2099754827266068533\n\n22 https://x.com/xiaotaobabyye/status/2100210251022942594\n\n23 https://x.com/laibeinaixiba/status/2089558662457282900\n\n24 https://x.com/libalababy/status/2097897905055219912\n\n25 https://x.com/hong14868/status/2099852870635958762\n\n已编辑 26 https://x.com/nancyyzp/status/2100470256015663479\n\n27 https://x.com/bob7078/status/2099174818147176465\n\n28 https://x.com/xiao16877/status/2090156693741310235\n\n29 https://x.com/tiaotiaosheep/status/2098611456942243983\n\n30 https://x.com/snd99x/status/2098329473385197995",
+        "updated_at": "2026-09-17 14:45:27"
       },
       "群三": {
         "sent": true,
@@ -975,6 +976,13 @@
           "outcome": "synced",
           "retained_post_id": "2100470256015663479",
           "sent_at": "2026-09-17 14:30:40"
+        },
+        "7846": {
+          "key": "7846:2100473377173774410:2026-09-17 14:36:16:synced",
+          "post_id": "2100473377173774410",
+          "outcome": "synced",
+          "retained_post_id": "2100473377173774410",
+          "sent_at": "2026-09-17 14:45:28"
         }
       },
       "群二": {},

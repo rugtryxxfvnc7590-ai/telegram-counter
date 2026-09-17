@@ -7208,7 +7208,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 04:25:30",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted"
       }
@@ -11567,7 +11567,7 @@
         ],
         "x_name": "qianhetangcai",
         "promo_name": "qianhetangcai",
-        "followers_count": 8671,
+        "followers_count": 8672,
         "followers_text": "8.6K",
         "followers_sources": [
           "status_v2",
@@ -11807,6 +11807,22 @@
           {
             "source": "profile_v2",
             "count": 8671
+          },
+          {
+            "source": "status_v2",
+            "count": 8672
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8672
+          },
+          {
+            "source": "profile_v2",
+            "count": 8672
+          },
+          {
+            "source": "status_legacy",
+            "count": 8672
           }
         ],
         "check_followers_count": 8639,
@@ -11885,7 +11901,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 8671,
+        "qualified_followers_count": 8672,
         "qualified_followers_text": "8.6K",
         "qualified_followers_sources": [
           "status_v2",
@@ -12532,7 +12548,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 04:25:02",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 23,
         "daily_list_status": "accepted"
       }
@@ -19746,7 +19762,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 04:25:30",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted"
       }
@@ -23884,7 +23900,7 @@
         ],
         "x_name": "qianhetangcai",
         "promo_name": "qianhetangcai",
-        "followers_count": 8671,
+        "followers_count": 8672,
         "followers_text": "8.6K",
         "followers_sources": [
           "status_v2",
@@ -24124,6 +24140,22 @@
           {
             "source": "profile_v2",
             "count": 8671
+          },
+          {
+            "source": "status_v2",
+            "count": 8672
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8672
+          },
+          {
+            "source": "profile_v2",
+            "count": 8672
+          },
+          {
+            "source": "status_legacy",
+            "count": 8672
           }
         ],
         "check_followers_count": 8639,
@@ -24202,7 +24234,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 8671,
+        "qualified_followers_count": 8672,
         "qualified_followers_text": "8.6K",
         "qualified_followers_sources": [
           "status_v2",
@@ -24849,7 +24881,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 04:25:02",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 23,
         "daily_list_status": "accepted"
       }

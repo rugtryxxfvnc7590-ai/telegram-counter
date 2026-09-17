@@ -8695,6 +8695,10 @@
           {
             "source": "profile_v2",
             "count": 42805
+          },
+          {
+            "source": "status_v2",
+            "count": 42805
           }
         ],
         "check_followers_count": 42765,
@@ -24310,6 +24314,10 @@
           },
           {
             "source": "profile_v2",
+            "count": 42805
+          },
+          {
+            "source": "status_v2",
             "count": 42805
           }
         ],

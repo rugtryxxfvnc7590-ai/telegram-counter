@@ -94,7 +94,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-17",
-    "run_at": "2026-09-17 18:45:34",
+    "run_at": "2026-09-17 19:00:48",
     "completed_groups": [
       "群一",
       "群二",
@@ -102,20 +102,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35212112016:1",
-        "checked_at": "2026-09-17 18:45:35",
+        "run_key": "35213406593:1",
+        "checked_at": "2026-09-17 19:00:50",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35212112016:1",
-        "checked_at": "2026-09-17 18:45:35",
+        "run_key": "35213406593:1",
+        "checked_at": "2026-09-17 19:00:50",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35212112016:1",
-        "checked_at": "2026-09-17 18:45:35",
+        "run_key": "35213406593:1",
+        "checked_at": "2026-09-17 19:00:51",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -876,6 +876,80 @@
         "owner_chat_id": "8614747348",
         "text": "群三（9月17日）互推名单，共 30 条\n\n1 https://x.com/sm2022i/status/2099460016453615737\n\n2 https://x.com/mm075217/status/2099458410358149206\n\n3 https://x.com/nagiii_chan/status/2100392408240517143\n\n4 https://x.com/vinodsrt/status/2100081209825239095\n\n5 https://x.com/mopomeeaii/status/2098965014233354264\n\n6 https://x.com/koio95/status/2100389725215355389\n\n7 https://x.com/bibo8891/status/2098909437499162984\n\n8 https://x.com/bear9362/status/2099664463691718926\n\n9 https://x.com/tankxm07/status/2096526922503364722\n\n10 https://x.com/baoyisi66/status/2098759895483048149\n\n11 https://x.com/kwonhm0611/status/2097635567106396645\n\n12 https://x.com/gg2anan/status/2099433227542999257\n\n13 https://x.com/obdiedie/status/2100193017315602547\n\n14 https://x.com/cocoluhk8/status/2100127844580077985\n\n15 https://x.com/violentdesil/status/2099184018487210023\n\n16 https://x.com/sweetyou02/status/2094699617309044904\n\n17 https://x.com/xiaoxianjiang11/status/2100241204659270005\n\n18 https://x.com/yjx267/status/2100259157601308679\n\n19 https://x.com/xiaoyi3359/status/2100258206916239523\n\n20 https://x.com/saza5277/status/2100258031800102978\n\n21 https://x.com/azisen1/status/2100032894391751140\n\n22 https://x.com/rogueyuyinqi/status/2096082370676105546\n\n23 https://x.com/hentaoxi/status/2099121765603836206\n\n24 https://x.com/xinxinjjj/status/2100179146450362440\n\n25 https://x.com/zhuguang9859/status/2099543492787896632\n\n26 https://x.com/qianhetangcaiyl/status/2090071194368421988\n\n27 https://x.com/ykydf778/status/2096420927877816526\n\n28 https://x.com/1tbsvip/status/2100223183169388870\n\n已编辑 29 https://x.com/dajiejieuuya/status/2100450694360965456\n\n30 https://x.com/dunesq1vg/status/2100039979422609465",
         "updated_at": "2026-09-17 13:15:34"
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-09-17 19:00:54",
+        "count": 5,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [
+          "https://x.com/pylover12/status/2099431995705327647",
+          "https://x.com/mubona_7/status/2079816444175638795",
+          "https://x.com/catdog852/status/2097562129398374427",
+          "https://x.com/zhuguang9859/status/2099543492787896632",
+          "https://x.com/yzlzp77/status/2085158793932071149"
+        ],
+        "slots": [
+          {
+            "handle": "pylover12",
+            "post_id": "2099431995705327647",
+            "original_post_id": "2099431995705327647",
+            "url": "https://x.com/pylover12/status/2099431995705327647",
+            "edited": false,
+            "message_id": "74200",
+            "tg_user_id": "8981122816",
+            "time": "2026-09-17 10:59:01",
+            "admission_time": "2026-09-17 10:59:01"
+          },
+          {
+            "handle": "mubona_7",
+            "post_id": "2079816444175638795",
+            "original_post_id": "2079816444175638795",
+            "url": "https://x.com/mubona_7/status/2079816444175638795",
+            "edited": false,
+            "message_id": "74199",
+            "tg_user_id": "8793013021",
+            "time": "2026-09-17 10:41:03",
+            "admission_time": "2026-09-17 10:41:03"
+          },
+          {
+            "handle": "catdog852",
+            "post_id": "2097562129398374427",
+            "original_post_id": "2097562129398374427",
+            "url": "https://x.com/catdog852/status/2097562129398374427",
+            "edited": false,
+            "message_id": "74198",
+            "tg_user_id": "5452100710",
+            "time": "2026-09-17 00:17:42",
+            "admission_time": "2026-09-17 00:17:42"
+          },
+          {
+            "handle": "zhuguang9859",
+            "post_id": "2099543492787896632",
+            "original_post_id": "2099543492787896632",
+            "url": "https://x.com/zhuguang9859/status/2099543492787896632",
+            "edited": false,
+            "message_id": "74197",
+            "tg_user_id": "8281002968",
+            "time": "2026-09-17 00:10:37",
+            "admission_time": "2026-09-17 00:10:37"
+          },
+          {
+            "handle": "yzlzp77",
+            "post_id": "2085158793932071149",
+            "original_post_id": "2085158793932071149",
+            "url": "https://x.com/yzlzp77/status/2085158793932071149",
+            "edited": false,
+            "message_id": "74196",
+            "tg_user_id": "7382134028",
+            "time": "2026-09-17 00:04:20",
+            "admission_time": "2026-09-17 00:04:20"
+          }
+        ],
+        "message_id": 2752,
+        "owner_chat_id": "8614747348",
+        "text": "群二（9月17日）互推名单，共 5 条\n\n1 https://x.com/pylover12/status/2099431995705327647\n\n2 https://x.com/mubona_7/status/2079816444175638795\n\n3 https://x.com/catdog852/status/2097562129398374427\n\n4 https://x.com/zhuguang9859/status/2099543492787896632\n\n5 https://x.com/yzlzp77/status/2085158793932071149"
       }
     }
   },

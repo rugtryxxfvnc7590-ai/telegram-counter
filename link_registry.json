@@ -8259,7 +8259,7 @@
         ],
         "x_name": "皮耶",
         "promo_name": "皮耶",
-        "followers_count": 42765,
+        "followers_count": 42766,
         "followers_text": "4.2W",
         "followers_sources": [
           "status_v2",
@@ -8283,6 +8283,18 @@
           {
             "source": "profile_v2",
             "count": 42765
+          },
+          {
+            "source": "status_v2",
+            "count": 42766
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 42766
+          },
+          {
+            "source": "profile_v2",
+            "count": 42766
           }
         ],
         "check_followers_count": 42765,
@@ -8361,7 +8373,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 42765,
+        "qualified_followers_count": 42766,
         "qualified_followers_text": "4.2W",
         "qualified_followers_sources": [
           "status_v2",
@@ -14797,6 +14809,218 @@
         "admission_locked": true,
         "daily_list_rank": 30,
         "daily_list_status": "accepted"
+      },
+      "daimitvt": {
+        "x_handle": "daimitvt",
+        "check_handle": "daimitvt",
+        "dual_link": false,
+        "promo_handle": "daimitvt",
+        "tg_username": "youmimilll",
+        "tg_user_id": 6555223935,
+        "tg_name": "宝宝 诗",
+        "link": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+        "message_text": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+            "handle": "daimitvt",
+            "post_id": "2100423794313834850",
+            "role": "promo",
+            "author_name": "小呆咪",
+            "followers_count": 3868,
+            "followers_text": "3.8K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 3868
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 3868
+              },
+              {
+                "source": "status_legacy",
+                "count": 3868
+              },
+              {
+                "source": "profile_v2",
+                "count": 3868
+              }
+            ],
+            "tweet_text": "就放这里了，谁要吃自己吃\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 46,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+            "post_id": "2100423794313834850",
+            "handle": "daimitvt",
+            "source_time": "2026-09-17 11:17:44",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小呆咪",
+        "promo_name": "小呆咪",
+        "followers_count": 3868,
+        "followers_text": "3.8K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3868
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3868
+          },
+          {
+            "source": "status_legacy",
+            "count": 3868
+          },
+          {
+            "source": "profile_v2",
+            "count": 3868
+          }
+        ],
+        "check_followers_count": 3868,
+        "check_followers_text": "3.8K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3868
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3868
+          },
+          {
+            "source": "status_legacy",
+            "count": 3868
+          },
+          {
+            "source": "profile_v2",
+            "count": 3868
+          }
+        ],
+        "tweet_text": "就放这里了，谁要吃自己吃\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 46,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+        "check_url": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+        "promo_post_id": "2100423794313834850",
+        "check_post_id": "2100423794313834850",
+        "chat_id": "-1003739822194",
+        "message_id": 2242,
+        "time": "2026-09-17 11:17:44",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 3868,
+        "qualified_followers_text": "3.8K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 11:17:44",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "waitlist"
       }
     }
   },
@@ -23059,7 +23283,7 @@
         ],
         "x_name": "皮耶",
         "promo_name": "皮耶",
-        "followers_count": 42765,
+        "followers_count": 42766,
         "followers_text": "4.2W",
         "followers_sources": [
           "status_v2",
@@ -23083,6 +23307,18 @@
           {
             "source": "profile_v2",
             "count": 42765
+          },
+          {
+            "source": "status_v2",
+            "count": 42766
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 42766
+          },
+          {
+            "source": "profile_v2",
+            "count": 42766
           }
         ],
         "check_followers_count": 42765,
@@ -23161,7 +23397,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 42765,
+        "qualified_followers_count": 42766,
         "qualified_followers_text": "4.2W",
         "qualified_followers_sources": [
           "status_v2",
@@ -29201,6 +29437,218 @@
         "admission_locked": true,
         "daily_list_rank": 30,
         "daily_list_status": "accepted"
+      },
+      "2100423794313834850": {
+        "x_handle": "daimitvt",
+        "check_handle": "daimitvt",
+        "dual_link": false,
+        "promo_handle": "daimitvt",
+        "tg_username": "youmimilll",
+        "tg_user_id": 6555223935,
+        "tg_name": "宝宝 诗",
+        "link": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+        "message_text": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+            "handle": "daimitvt",
+            "post_id": "2100423794313834850",
+            "role": "promo",
+            "author_name": "小呆咪",
+            "followers_count": 3868,
+            "followers_text": "3.8K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 3868
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 3868
+              },
+              {
+                "source": "status_legacy",
+                "count": 3868
+              },
+              {
+                "source": "profile_v2",
+                "count": 3868
+              }
+            ],
+            "tweet_text": "就放这里了，谁要吃自己吃\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 46,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+            "post_id": "2100423794313834850",
+            "handle": "daimitvt",
+            "source_time": "2026-09-17 11:17:44",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小呆咪",
+        "promo_name": "小呆咪",
+        "followers_count": 3868,
+        "followers_text": "3.8K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3868
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3868
+          },
+          {
+            "source": "status_legacy",
+            "count": 3868
+          },
+          {
+            "source": "profile_v2",
+            "count": 3868
+          }
+        ],
+        "check_followers_count": 3868,
+        "check_followers_text": "3.8K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3868
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3868
+          },
+          {
+            "source": "status_legacy",
+            "count": 3868
+          },
+          {
+            "source": "profile_v2",
+            "count": 3868
+          }
+        ],
+        "tweet_text": "就放这里了，谁要吃自己吃\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 46,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+        "check_url": "https://x.com/daimitvt/status/2100423794313834850?s=46",
+        "promo_post_id": "2100423794313834850",
+        "check_post_id": "2100423794313834850",
+        "chat_id": "-1003739822194",
+        "message_id": 2242,
+        "time": "2026-09-17 11:17:44",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 3868,
+        "qualified_followers_text": "3.8K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-17 11:17:44",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "waitlist"
       }
     }
   },

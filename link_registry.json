@@ -11567,7 +11567,7 @@
         ],
         "x_name": "qianhetangcai",
         "promo_name": "qianhetangcai",
-        "followers_count": 8692,
+        "followers_count": 8693,
         "followers_text": "8.6K",
         "followers_sources": [
           "status_v2",
@@ -12015,6 +12015,22 @@
           {
             "source": "profile_v2",
             "count": 8692
+          },
+          {
+            "source": "status_v2",
+            "count": 8693
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8693
+          },
+          {
+            "source": "status_legacy",
+            "count": 8693
+          },
+          {
+            "source": "profile_v2",
+            "count": 8693
           }
         ],
         "check_followers_count": 8639,
@@ -12103,7 +12119,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 8692,
+        "qualified_followers_count": 8693,
         "qualified_followers_text": "8.6K",
         "qualified_followers_sources": [
           "status_v2",
@@ -14206,7 +14222,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 09:22:41",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 30,
         "daily_list_status": "accepted"
       }
@@ -25558,7 +25574,7 @@
         ],
         "x_name": "qianhetangcai",
         "promo_name": "qianhetangcai",
-        "followers_count": 8692,
+        "followers_count": 8693,
         "followers_text": "8.6K",
         "followers_sources": [
           "status_v2",
@@ -26006,6 +26022,22 @@
           {
             "source": "profile_v2",
             "count": 8692
+          },
+          {
+            "source": "status_v2",
+            "count": 8693
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8693
+          },
+          {
+            "source": "status_legacy",
+            "count": 8693
+          },
+          {
+            "source": "profile_v2",
+            "count": 8693
           }
         ],
         "check_followers_count": 8639,
@@ -26094,7 +26126,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 8692,
+        "qualified_followers_count": 8693,
         "qualified_followers_text": "8.6K",
         "qualified_followers_sources": [
           "status_v2",
@@ -28197,7 +28229,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 09:22:41",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 30,
         "daily_list_status": "accepted"
       }

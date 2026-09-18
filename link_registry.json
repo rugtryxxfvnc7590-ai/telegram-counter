@@ -8640,26 +8640,26 @@
         "daily_list_rank": 5,
         "daily_list_status": "accepted"
       },
-      "gg2anan": {
-        "x_handle": "gg2anan",
-        "check_handle": "gg2anan",
-        "dual_link": false,
-        "promo_handle": "gg2anan",
+      "kwonhm0611": {
+        "x_handle": "kwonhm0611",
+        "check_handle": "guoguo11122",
+        "dual_link": true,
+        "promo_handle": "kwonhm0611",
         "tg_username": "Guoguoqq",
         "tg_user_id": 8243332573,
         "tg_name": "GuoGuo💞",
-        "link": "https://x.com/gg2anan/status/2099433227542999257?s=46",
-        "message_text": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+        "link": "https://x.com/kwonhm0611/status/2100866464198836658?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "message_text": "https://x.com/kwonhm0611/status/2100866464198836658?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
-            "handle": "gg2anan",
-            "post_id": "2099433227542999257",
+            "url": "https://x.com/kwonhm0611/status/2100866464198836658?s=46",
+            "handle": "kwonhm0611",
+            "post_id": "2100866464198836658",
             "role": "promo",
-            "author_name": "Selena",
-            "followers_count": 3107,
-            "followers_text": "3.1K",
+            "author_name": "在线视频— —",
+            "followers_count": 576,
+            "followers_text": "576",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
@@ -8669,22 +8669,22 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 3107
+                "count": 576
               },
               {
                 "source": "status_legacy_i",
-                "count": 3107
+                "count": 576
               },
               {
                 "source": "status_legacy",
-                "count": 3107
+                "count": 576
               },
               {
                 "source": "profile_v2",
-                "count": 3107
+                "count": 576
               }
             ],
-            "tweet_text": "2/4，\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen\n.",
+            "tweet_text": "-\n\n纵有千般好 唯你最重要～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -8695,37 +8695,69 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 41,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 41,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 41,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 41,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 41,
+                "length": 50,
                 "required_mentions_count": 3
               }
             ],
             "tweet_text_primary_source": "status_v2",
             "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/guoguo11122?s=21",
+            "handle": "guoguo11122",
+            "post_id": "",
+            "role": "check",
+            "author_name": "Guoguo💞",
+            "followers_count": 35563,
+            "followers_text": "3.5W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 35563
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/kwonhm0611/status/2100866464198836658?s=46",
+            "post_id": "2100866464198836658",
+            "handle": "kwonhm0611",
+            "source_time": "2026-09-18 00:03:53",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
             "post_id": "2099433227542999257",
             "handle": "gg2anan",
@@ -8733,10 +8765,10 @@
             "edit_time": ""
           }
         ],
-        "x_name": "Selena",
-        "promo_name": "Selena",
-        "followers_count": 3107,
-        "followers_text": "3.1K",
+        "x_name": "在线视频— —",
+        "promo_name": "在线视频— —",
+        "followers_count": 576,
+        "followers_text": "576",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -8746,48 +8778,33 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 3107
+            "count": 576
           },
           {
             "source": "status_legacy_i",
-            "count": 3107
+            "count": 576
           },
           {
             "source": "status_legacy",
-            "count": 3107
+            "count": 576
           },
           {
             "source": "profile_v2",
-            "count": 3107
+            "count": 576
           }
         ],
-        "check_followers_count": 3107,
-        "check_followers_text": "3.1K",
+        "check_followers_count": 35563,
+        "check_followers_text": "3.5W",
         "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
-            "source": "status_v2",
-            "count": 3107
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 3107
-          },
-          {
-            "source": "status_legacy",
-            "count": 3107
-          },
-          {
             "source": "profile_v2",
-            "count": 3107
+            "count": 35563
           }
         ],
-        "tweet_text": "2/4，\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen\n.",
+        "tweet_text": "-\n\n纵有千般好 唯你最重要～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -8798,47 +8815,47 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 41,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 41,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 41,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 41,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 41,
+            "length": 50,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
-        "check_url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
-        "promo_post_id": "2099433227542999257",
-        "check_post_id": "2099433227542999257",
+        "promo_url": "https://x.com/kwonhm0611/status/2100866464198836658?s=46",
+        "check_url": "https://x.com/guoguo11122?s=21",
+        "promo_post_id": "2100866464198836658",
+        "check_post_id": "",
         "chat_id": "-1003739822194",
         "message_id": 2278,
         "time": "2026-09-18 00:03:53",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-18 16:37:46",
         "followers_min": 0,
-        "qualified_followers_count": 3107,
-        "qualified_followers_text": "3.1K",
+        "qualified_followers_count": 35563,
+        "qualified_followers_text": "3.5W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -8847,10 +8864,239 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
-        "admission_time": "2026-09-18 00:03:53",
-        "admission_locked": true,
-        "daily_list_rank": 6,
-        "daily_list_status": "accepted"
+        "admission_time": "2026-09-18 16:37:46",
+        "admission_locked": false,
+        "daily_list_rank": 32,
+        "daily_list_status": "waitlist"
+      },
+      "guoguo11122": {
+        "x_handle": "guoguo11122",
+        "check_handle": "guoguo11122",
+        "dual_link": true,
+        "promo_handle": "kwonhm0611",
+        "tg_username": "Guoguoqq",
+        "tg_user_id": 8243332573,
+        "tg_name": "GuoGuo💞",
+        "link": "https://x.com/kwonhm0611/status/2100866464198836658?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "message_text": "https://x.com/kwonhm0611/status/2100866464198836658?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/kwonhm0611/status/2100866464198836658?s=46",
+            "handle": "kwonhm0611",
+            "post_id": "2100866464198836658",
+            "role": "promo",
+            "author_name": "在线视频— —",
+            "followers_count": 576,
+            "followers_text": "576",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 576
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 576
+              },
+              {
+                "source": "status_legacy",
+                "count": 576
+              },
+              {
+                "source": "profile_v2",
+                "count": 576
+              }
+            ],
+            "tweet_text": "-\n\n纵有千般好 唯你最重要～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/guoguo11122?s=21",
+            "handle": "guoguo11122",
+            "post_id": "",
+            "role": "check",
+            "author_name": "Guoguo💞",
+            "followers_count": 35563,
+            "followers_text": "3.5W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 35563
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "编辑后",
+            "url": "https://x.com/kwonhm0611/status/2100866464198836658?s=46",
+            "post_id": "2100866464198836658",
+            "handle": "kwonhm0611",
+            "source_time": "2026-09-18 00:03:53",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
+            "url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+            "post_id": "2099433227542999257",
+            "handle": "gg2anan",
+            "source_time": "2026-09-18 00:03:53",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "在线视频— —",
+        "promo_name": "在线视频— —",
+        "followers_count": 576,
+        "followers_text": "576",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 576
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 576
+          },
+          {
+            "source": "status_legacy",
+            "count": 576
+          },
+          {
+            "source": "profile_v2",
+            "count": 576
+          }
+        ],
+        "check_followers_count": 35563,
+        "check_followers_text": "3.5W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 35563
+          }
+        ],
+        "tweet_text": "-\n\n纵有千般好 唯你最重要～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/kwonhm0611/status/2100866464198836658?s=46",
+        "check_url": "https://x.com/guoguo11122?s=21",
+        "promo_post_id": "2100866464198836658",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 2278,
+        "time": "2026-09-18 00:03:53",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": true,
+        "edit_time": "2026-09-18 16:37:46",
+        "followers_min": 0,
+        "qualified_followers_count": 35563,
+        "qualified_followers_text": "3.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-18 16:37:46",
+        "admission_locked": false,
+        "daily_list_rank": 32,
+        "daily_list_status": "waitlist"
       },
       "unniya18": {
         "x_handle": "unniya18",
@@ -9061,7 +9307,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:04:51",
         "admission_locked": true,
-        "daily_list_rank": 7,
+        "daily_list_rank": 6,
         "daily_list_status": "accepted"
       },
       "qiqitu777_": {
@@ -9273,7 +9519,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:05:54",
         "admission_locked": true,
-        "daily_list_rank": 8,
+        "daily_list_rank": 7,
         "daily_list_status": "accepted"
       },
       "rogueyuyinqi": {
@@ -9485,7 +9731,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:07:06",
         "admission_locked": true,
-        "daily_list_rank": 9,
+        "daily_list_rank": 8,
         "daily_list_status": "accepted"
       },
       "violentdesil": {
@@ -9697,7 +9943,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:08:59",
         "admission_locked": true,
-        "daily_list_rank": 10,
+        "daily_list_rank": 9,
         "daily_list_status": "accepted"
       },
       "vinodsrt": {
@@ -9909,7 +10155,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:11:36",
         "admission_locked": true,
-        "daily_list_rank": 11,
+        "daily_list_rank": 10,
         "daily_list_status": "accepted"
       },
       "mopomeeaii": {
@@ -10121,7 +10367,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:12:04",
         "admission_locked": true,
-        "daily_list_rank": 12,
+        "daily_list_rank": 11,
         "daily_list_status": "accepted"
       },
       "koio95": {
@@ -10333,7 +10579,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:12:41",
         "admission_locked": true,
-        "daily_list_rank": 13,
+        "daily_list_rank": 12,
         "daily_list_status": "accepted"
       },
       "obmissu": {
@@ -10545,7 +10791,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:13:08",
         "admission_locked": true,
-        "daily_list_rank": 14,
+        "daily_list_rank": 13,
         "daily_list_status": "accepted"
       },
       "ykydf778": {
@@ -10757,7 +11003,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:22:27",
         "admission_locked": true,
-        "daily_list_rank": 15,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted"
       },
       "aerolattic29965": {
@@ -10969,7 +11215,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:32:27",
         "admission_locked": true,
-        "daily_list_rank": 16,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted"
       },
       "chiirouoo": {
@@ -11181,7 +11427,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:33:55",
         "admission_locked": true,
-        "daily_list_rank": 17,
+        "daily_list_rank": 16,
         "daily_list_status": "accepted"
       },
       "xinzhxinju1": {
@@ -11393,7 +11639,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:34:31",
         "admission_locked": true,
-        "daily_list_rank": 18,
+        "daily_list_rank": 17,
         "daily_list_status": "accepted"
       },
       "hentaoxi": {
@@ -11605,7 +11851,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:36:02",
         "admission_locked": true,
-        "daily_list_rank": 19,
+        "daily_list_rank": 18,
         "daily_list_status": "accepted"
       },
       "qianhetangcaiyl": {
@@ -12571,6 +12817,22 @@
           {
             "source": "profile_v2",
             "count": 8747
+          },
+          {
+            "source": "status_v2",
+            "count": 8746
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8746
+          },
+          {
+            "source": "status_legacy",
+            "count": 8746
+          },
+          {
+            "source": "profile_v2",
+            "count": 8746
           }
         ],
         "check_followers_count": 8639,
@@ -12671,7 +12933,7 @@
         "eligibility_text": "待确认",
         "admission_time": "2026-09-18 00:39:15",
         "admission_locked": true,
-        "daily_list_rank": 20,
+        "daily_list_rank": 19,
         "daily_list_status": "accepted"
       },
       "xiaoyi3359": {
@@ -12883,7 +13145,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:41:08",
         "admission_locked": true,
-        "daily_list_rank": 21,
+        "daily_list_rank": 20,
         "daily_list_status": "accepted"
       },
       "annebabysexxy": {
@@ -13095,7 +13357,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 01:13:08",
         "admission_locked": true,
-        "daily_list_rank": 22,
+        "daily_list_rank": 21,
         "daily_list_status": "accepted"
       },
       "zhuguang9859": {
@@ -13307,7 +13569,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 04:25:02",
         "admission_locked": true,
-        "daily_list_rank": 23,
+        "daily_list_rank": 22,
         "daily_list_status": "accepted"
       },
       "tankxm07": {
@@ -13519,7 +13781,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 05:20:39",
         "admission_locked": true,
-        "daily_list_rank": 24,
+        "daily_list_rank": 23,
         "daily_list_status": "accepted"
       },
       "cocoluhk": {
@@ -13731,7 +13993,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 05:25:01",
         "admission_locked": true,
-        "daily_list_rank": 25,
+        "daily_list_rank": 24,
         "daily_list_status": "accepted"
       },
       "daimitvt": {
@@ -13943,7 +14205,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 06:45:18",
         "admission_locked": true,
-        "daily_list_rank": 26,
+        "daily_list_rank": 25,
         "daily_list_status": "accepted"
       },
       "bo13581": {
@@ -14127,7 +14389,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 08:44:57",
         "admission_locked": true,
-        "daily_list_rank": 27,
+        "daily_list_rank": 26,
         "daily_list_status": "accepted"
       },
       "bear9362": {
@@ -14339,7 +14601,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 08:49:57",
         "admission_locked": true,
-        "daily_list_rank": 28,
+        "daily_list_rank": 27,
         "daily_list_status": "accepted"
       },
       "nagiii_chan": {
@@ -14551,7 +14813,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 09:14:32",
         "admission_locked": true,
-        "daily_list_rank": 29,
+        "daily_list_rank": 28,
         "daily_list_status": "accepted"
       },
       "dunrk12x": {
@@ -14763,7 +15025,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 09:22:41",
         "admission_locked": true,
-        "daily_list_rank": 30,
+        "daily_list_rank": 29,
         "daily_list_status": "accepted"
       },
       "bibo8891": {
@@ -14975,8 +15237,8 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 10:04:38",
         "admission_locked": false,
-        "daily_list_rank": 31,
-        "daily_list_status": "waitlist"
+        "daily_list_rank": 30,
+        "daily_list_status": "accepted"
       },
       "hyu159640": {
         "x_handle": "hyu159640",
@@ -15187,7 +15449,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 12:59:08",
         "admission_locked": false,
-        "daily_list_rank": 32,
+        "daily_list_rank": 31,
         "daily_list_status": "waitlist"
       }
     }
@@ -23611,26 +23873,26 @@
         "daily_list_rank": 5,
         "daily_list_status": "accepted"
       },
-      "2099433227542999257": {
-        "x_handle": "gg2anan",
-        "check_handle": "gg2anan",
-        "dual_link": false,
-        "promo_handle": "gg2anan",
+      "2100866464198836658": {
+        "x_handle": "kwonhm0611",
+        "check_handle": "guoguo11122",
+        "dual_link": true,
+        "promo_handle": "kwonhm0611",
         "tg_username": "Guoguoqq",
         "tg_user_id": 8243332573,
         "tg_name": "GuoGuo💞",
-        "link": "https://x.com/gg2anan/status/2099433227542999257?s=46",
-        "message_text": "https://x.com/gg2anan/status/2099433227542999257?s=46",
+        "link": "https://x.com/kwonhm0611/status/2100866464198836658?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "message_text": "https://x.com/kwonhm0611/status/2100866464198836658?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
-            "handle": "gg2anan",
-            "post_id": "2099433227542999257",
+            "url": "https://x.com/kwonhm0611/status/2100866464198836658?s=46",
+            "handle": "kwonhm0611",
+            "post_id": "2100866464198836658",
             "role": "promo",
-            "author_name": "Selena",
-            "followers_count": 3107,
-            "followers_text": "3.1K",
+            "author_name": "在线视频— —",
+            "followers_count": 576,
+            "followers_text": "576",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
@@ -23640,22 +23902,22 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 3107
+                "count": 576
               },
               {
                 "source": "status_legacy_i",
-                "count": 3107
+                "count": 576
               },
               {
                 "source": "status_legacy",
-                "count": 3107
+                "count": 576
               },
               {
                 "source": "profile_v2",
-                "count": 3107
+                "count": 576
               }
             ],
-            "tweet_text": "2/4，\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen\n.",
+            "tweet_text": "-\n\n纵有千般好 唯你最重要～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -23666,37 +23928,69 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 41,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 41,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 41,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 41,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 41,
+                "length": 50,
                 "required_mentions_count": 3
               }
             ],
             "tweet_text_primary_source": "status_v2",
             "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/guoguo11122?s=21",
+            "handle": "guoguo11122",
+            "post_id": "",
+            "role": "check",
+            "author_name": "Guoguo💞",
+            "followers_count": 35563,
+            "followers_text": "3.5W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 35563
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/kwonhm0611/status/2100866464198836658?s=46",
+            "post_id": "2100866464198836658",
+            "handle": "kwonhm0611",
+            "source_time": "2026-09-18 00:03:53",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
             "post_id": "2099433227542999257",
             "handle": "gg2anan",
@@ -23704,10 +23998,10 @@
             "edit_time": ""
           }
         ],
-        "x_name": "Selena",
-        "promo_name": "Selena",
-        "followers_count": 3107,
-        "followers_text": "3.1K",
+        "x_name": "在线视频— —",
+        "promo_name": "在线视频— —",
+        "followers_count": 576,
+        "followers_text": "576",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -23717,48 +24011,33 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 3107
+            "count": 576
           },
           {
             "source": "status_legacy_i",
-            "count": 3107
+            "count": 576
           },
           {
             "source": "status_legacy",
-            "count": 3107
+            "count": 576
           },
           {
             "source": "profile_v2",
-            "count": 3107
+            "count": 576
           }
         ],
-        "check_followers_count": 3107,
-        "check_followers_text": "3.1K",
+        "check_followers_count": 35563,
+        "check_followers_text": "3.5W",
         "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
-            "source": "status_v2",
-            "count": 3107
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 3107
-          },
-          {
-            "source": "status_legacy",
-            "count": 3107
-          },
-          {
             "source": "profile_v2",
-            "count": 3107
+            "count": 35563
           }
         ],
-        "tweet_text": "2/4，\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen\n.",
+        "tweet_text": "-\n\n纵有千般好 唯你最重要～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -23769,47 +24048,47 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 41,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 41,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 41,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 41,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 41,
+            "length": 50,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
-        "check_url": "https://x.com/gg2anan/status/2099433227542999257?s=46",
-        "promo_post_id": "2099433227542999257",
-        "check_post_id": "2099433227542999257",
+        "promo_url": "https://x.com/kwonhm0611/status/2100866464198836658?s=46",
+        "check_url": "https://x.com/guoguo11122?s=21",
+        "promo_post_id": "2100866464198836658",
+        "check_post_id": "",
         "chat_id": "-1003739822194",
         "message_id": 2278,
         "time": "2026-09-18 00:03:53",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-18 16:37:46",
         "followers_min": 0,
-        "qualified_followers_count": 3107,
-        "qualified_followers_text": "3.1K",
+        "qualified_followers_count": 35563,
+        "qualified_followers_text": "3.5W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -23818,10 +24097,10 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
-        "admission_time": "2026-09-18 00:03:53",
-        "admission_locked": true,
-        "daily_list_rank": 6,
-        "daily_list_status": "accepted"
+        "admission_time": "2026-09-18 16:37:46",
+        "admission_locked": false,
+        "daily_list_rank": 32,
+        "daily_list_status": "waitlist"
       },
       "2097269936305709064": {
         "x_handle": "unniya18",
@@ -24032,7 +24311,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:04:51",
         "admission_locked": true,
-        "daily_list_rank": 7,
+        "daily_list_rank": 6,
         "daily_list_status": "accepted"
       },
       "2100098508368073119": {
@@ -24244,7 +24523,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:05:54",
         "admission_locked": true,
-        "daily_list_rank": 8,
+        "daily_list_rank": 7,
         "daily_list_status": "accepted"
       },
       "2100400662056178103": {
@@ -24456,7 +24735,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:07:06",
         "admission_locked": true,
-        "daily_list_rank": 9,
+        "daily_list_rank": 8,
         "daily_list_status": "accepted"
       },
       "2099184018487210023": {
@@ -24668,7 +24947,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:08:59",
         "admission_locked": true,
-        "daily_list_rank": 10,
+        "daily_list_rank": 9,
         "daily_list_status": "accepted"
       },
       "2098245155983970672": {
@@ -24880,7 +25159,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:11:36",
         "admission_locked": true,
-        "daily_list_rank": 11,
+        "daily_list_rank": 10,
         "daily_list_status": "accepted"
       },
       "2097889474894274611": {
@@ -25092,7 +25371,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:12:04",
         "admission_locked": true,
-        "daily_list_rank": 12,
+        "daily_list_rank": 11,
         "daily_list_status": "accepted"
       },
       "2089215351183782344": {
@@ -25304,7 +25583,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:12:41",
         "admission_locked": true,
-        "daily_list_rank": 13,
+        "daily_list_rank": 12,
         "daily_list_status": "accepted"
       },
       "2099861601214177443": {
@@ -25516,7 +25795,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:13:08",
         "admission_locked": true,
-        "daily_list_rank": 14,
+        "daily_list_rank": 13,
         "daily_list_status": "accepted"
       },
       "2100415747139010812": {
@@ -25728,7 +26007,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:22:27",
         "admission_locked": true,
-        "daily_list_rank": 15,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted"
       },
       "2098975357638701108": {
@@ -25940,7 +26219,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:32:27",
         "admission_locked": true,
-        "daily_list_rank": 16,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted"
       },
       "2096225110474863015": {
@@ -26152,7 +26431,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:33:55",
         "admission_locked": true,
-        "daily_list_rank": 17,
+        "daily_list_rank": 16,
         "daily_list_status": "accepted"
       },
       "2100574128088694841": {
@@ -26364,7 +26643,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:34:31",
         "admission_locked": true,
-        "daily_list_rank": 18,
+        "daily_list_rank": 17,
         "daily_list_status": "accepted"
       },
       "2099121765603836206": {
@@ -26576,7 +26855,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:36:02",
         "admission_locked": true,
-        "daily_list_rank": 19,
+        "daily_list_rank": 18,
         "daily_list_status": "accepted"
       },
       "2100625555398025642": {
@@ -27542,6 +27821,22 @@
           {
             "source": "profile_v2",
             "count": 8747
+          },
+          {
+            "source": "status_v2",
+            "count": 8746
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8746
+          },
+          {
+            "source": "status_legacy",
+            "count": 8746
+          },
+          {
+            "source": "profile_v2",
+            "count": 8746
           }
         ],
         "check_followers_count": 8639,
@@ -27642,7 +27937,7 @@
         "eligibility_text": "待确认",
         "admission_time": "2026-09-18 00:39:15",
         "admission_locked": true,
-        "daily_list_rank": 20,
+        "daily_list_rank": 19,
         "daily_list_status": "accepted"
       },
       "2095760748404158564": {
@@ -27854,7 +28149,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 00:41:08",
         "admission_locked": true,
-        "daily_list_rank": 21,
+        "daily_list_rank": 20,
         "daily_list_status": "accepted"
       },
       "2095159963484360752": {
@@ -28066,7 +28361,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 01:13:08",
         "admission_locked": true,
-        "daily_list_rank": 22,
+        "daily_list_rank": 21,
         "daily_list_status": "accepted"
       },
       "2099543492787896632": {
@@ -28278,7 +28573,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 04:25:02",
         "admission_locked": true,
-        "daily_list_rank": 23,
+        "daily_list_rank": 22,
         "daily_list_status": "accepted"
       },
       "2097589974011187567": {
@@ -28490,7 +28785,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 05:20:39",
         "admission_locked": true,
-        "daily_list_rank": 24,
+        "daily_list_rank": 23,
         "daily_list_status": "accepted"
       },
       "2100126724218585328": {
@@ -28702,7 +28997,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 05:25:01",
         "admission_locked": true,
-        "daily_list_rank": 25,
+        "daily_list_rank": 24,
         "daily_list_status": "accepted"
       },
       "2100423794313834850": {
@@ -28914,7 +29209,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 06:45:18",
         "admission_locked": true,
-        "daily_list_rank": 26,
+        "daily_list_rank": 25,
         "daily_list_status": "accepted"
       },
       "2100743609029206324": {
@@ -29098,7 +29393,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 08:44:57",
         "admission_locked": true,
-        "daily_list_rank": 27,
+        "daily_list_rank": 26,
         "daily_list_status": "accepted"
       },
       "2099664463691718926": {
@@ -29310,7 +29605,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 08:49:57",
         "admission_locked": true,
-        "daily_list_rank": 28,
+        "daily_list_rank": 27,
         "daily_list_status": "accepted"
       },
       "2100755216882659807": {
@@ -29522,7 +29817,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 09:14:32",
         "admission_locked": true,
-        "daily_list_rank": 29,
+        "daily_list_rank": 28,
         "daily_list_status": "accepted"
       },
       "2100757215019934117": {
@@ -29734,7 +30029,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 09:22:41",
         "admission_locked": true,
-        "daily_list_rank": 30,
+        "daily_list_rank": 29,
         "daily_list_status": "accepted"
       },
       "2098909437499162984": {
@@ -29946,8 +30241,8 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 10:04:38",
         "admission_locked": false,
-        "daily_list_rank": 31,
-        "daily_list_status": "waitlist"
+        "daily_list_rank": 30,
+        "daily_list_status": "accepted"
       },
       "2100803033311727686": {
         "x_handle": "hyu159640",
@@ -30158,7 +30453,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 12:59:08",
         "admission_locked": false,
-        "daily_list_rank": 32,
+        "daily_list_rank": 31,
         "daily_list_status": "waitlist"
       }
     }

@@ -13804,35 +13804,46 @@
             "post_id": "2100755216882659807",
             "role": "promo",
             "author_name": "n a g i",
-            "followers_count": 153,
-            "followers_text": "153",
+            "followers_count": 154,
+            "followers_text": "154",
             "followers_sources": [
+              "status_v2",
               "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
+                "source": "status_v2",
+                "count": 154
+              },
+              {
                 "source": "status_legacy_i",
-                "count": 153
+                "count": 154
               },
               {
                 "source": "status_legacy",
-                "count": 153
+                "count": 154
               },
               {
                 "source": "profile_v2",
-                "count": 153
+                "count": 154
               }
             ],
             "tweet_text": "古力娜扎-黑丝站街女被大爷在巷子里狂干\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
             "tweet_text_sources": [
+              "status_v2",
               "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
             ],
             "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 55,
+                "required_mentions_count": 3
+              },
               {
                 "source": "status_legacy_i",
                 "length": 55,
@@ -13854,13 +13865,13 @@
                 "required_mentions_count": 3
               }
             ],
-            "tweet_text_primary_source": "status_legacy_i",
+            "tweet_text_primary_source": "status_v2",
             "required_mentions_count": 3
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
             "url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
             "post_id": "2100755216882659807",
             "handle": "nagiii_chan",
@@ -13870,56 +13881,72 @@
         ],
         "x_name": "n a g i",
         "promo_name": "n a g i",
-        "followers_count": 153,
-        "followers_text": "153",
+        "followers_count": 154,
+        "followers_text": "154",
         "followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
+            "source": "status_v2",
+            "count": 154
+          },
+          {
             "source": "status_legacy_i",
-            "count": 153
+            "count": 154
           },
           {
             "source": "status_legacy",
-            "count": 153
+            "count": 154
           },
           {
             "source": "profile_v2",
-            "count": 153
+            "count": 154
           }
         ],
-        "check_followers_count": 153,
-        "check_followers_text": "153",
+        "check_followers_count": 154,
+        "check_followers_text": "154",
         "check_followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
+            "source": "status_v2",
+            "count": 154
+          },
+          {
             "source": "status_legacy_i",
-            "count": 153
+            "count": 154
           },
           {
             "source": "status_legacy",
-            "count": 153
+            "count": 154
           },
           {
             "source": "profile_v2",
-            "count": 153
+            "count": 154
           }
         ],
         "tweet_text": "古力娜扎-黑丝站街女被大爷在巷子里狂干\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
         "tweet_text_sources": [
+          "status_v2",
           "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
         ],
         "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 55,
+            "required_mentions_count": 3
+          },
           {
             "source": "status_legacy_i",
             "length": 55,
@@ -13941,7 +13968,7 @@
             "required_mentions_count": 3
           }
         ],
-        "tweet_text_primary_source": "status_legacy_i",
+        "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
         "promo_url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
@@ -13956,9 +13983,10 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 153,
-        "qualified_followers_text": "153",
+        "qualified_followers_count": 154,
+        "qualified_followers_text": "154",
         "qualified_followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
@@ -13966,8 +13994,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 09:14:32",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 29,
+        "daily_list_status": "accepted"
+      },
+      "dunrk12x": {
+        "x_handle": "dunrk12x",
+        "check_handle": "dunrk12x",
+        "dual_link": false,
+        "promo_handle": "dunrk12x",
+        "tg_username": "Honolulu888",
+        "tg_user_id": 8244653896,
+        "tg_name": "上海盾儿",
+        "link": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+        "message_text": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+            "handle": "dunrk12x",
+            "post_id": "2100757215019934117",
+            "role": "promo",
+            "author_name": "🛡️盾儿",
+            "followers_count": 10053,
+            "followers_text": "1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 10053
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 10053
+              },
+              {
+                "source": "status_legacy",
+                "count": 10053
+              },
+              {
+                "source": "profile_v2",
+                "count": 10053
+              }
+            ],
+            "tweet_text": "清纯盾儿\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 69,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 69,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 69,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 69,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 69,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+            "post_id": "2100757215019934117",
+            "handle": "dunrk12x",
+            "source_time": "2026-09-18 09:22:41",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "🛡️盾儿",
+        "promo_name": "🛡️盾儿",
+        "followers_count": 10053,
+        "followers_text": "1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10053
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10053
+          },
+          {
+            "source": "status_legacy",
+            "count": 10053
+          },
+          {
+            "source": "profile_v2",
+            "count": 10053
+          }
+        ],
+        "check_followers_count": 10053,
+        "check_followers_text": "1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10053
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10053
+          },
+          {
+            "source": "status_legacy",
+            "count": 10053
+          },
+          {
+            "source": "profile_v2",
+            "count": 10053
+          }
+        ],
+        "tweet_text": "清纯盾儿\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 69,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 69,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 69,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 69,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 69,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+        "check_url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+        "promo_post_id": "2100757215019934117",
+        "check_post_id": "2100757215019934117",
+        "chat_id": "-1003739822194",
+        "message_id": 2310,
+        "time": "2026-09-18 09:22:41",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 10053,
+        "qualified_followers_text": "1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-18 09:22:41",
+        "admission_locked": false,
+        "daily_list_rank": 30,
         "daily_list_status": "accepted"
       }
     }
@@ -27555,35 +27795,46 @@
             "post_id": "2100755216882659807",
             "role": "promo",
             "author_name": "n a g i",
-            "followers_count": 153,
-            "followers_text": "153",
+            "followers_count": 154,
+            "followers_text": "154",
             "followers_sources": [
+              "status_v2",
               "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
+                "source": "status_v2",
+                "count": 154
+              },
+              {
                 "source": "status_legacy_i",
-                "count": 153
+                "count": 154
               },
               {
                 "source": "status_legacy",
-                "count": 153
+                "count": 154
               },
               {
                 "source": "profile_v2",
-                "count": 153
+                "count": 154
               }
             ],
             "tweet_text": "古力娜扎-黑丝站街女被大爷在巷子里狂干\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
             "tweet_text_sources": [
+              "status_v2",
               "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
             ],
             "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 55,
+                "required_mentions_count": 3
+              },
               {
                 "source": "status_legacy_i",
                 "length": 55,
@@ -27605,13 +27856,13 @@
                 "required_mentions_count": 3
               }
             ],
-            "tweet_text_primary_source": "status_legacy_i",
+            "tweet_text_primary_source": "status_v2",
             "required_mentions_count": 3
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
             "url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
             "post_id": "2100755216882659807",
             "handle": "nagiii_chan",
@@ -27621,56 +27872,72 @@
         ],
         "x_name": "n a g i",
         "promo_name": "n a g i",
-        "followers_count": 153,
-        "followers_text": "153",
+        "followers_count": 154,
+        "followers_text": "154",
         "followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
+            "source": "status_v2",
+            "count": 154
+          },
+          {
             "source": "status_legacy_i",
-            "count": 153
+            "count": 154
           },
           {
             "source": "status_legacy",
-            "count": 153
+            "count": 154
           },
           {
             "source": "profile_v2",
-            "count": 153
+            "count": 154
           }
         ],
-        "check_followers_count": 153,
-        "check_followers_text": "153",
+        "check_followers_count": 154,
+        "check_followers_text": "154",
         "check_followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
+            "source": "status_v2",
+            "count": 154
+          },
+          {
             "source": "status_legacy_i",
-            "count": 153
+            "count": 154
           },
           {
             "source": "status_legacy",
-            "count": 153
+            "count": 154
           },
           {
             "source": "profile_v2",
-            "count": 153
+            "count": 154
           }
         ],
         "tweet_text": "古力娜扎-黑丝站街女被大爷在巷子里狂干\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
         "tweet_text_sources": [
+          "status_v2",
           "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
         ],
         "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 55,
+            "required_mentions_count": 3
+          },
           {
             "source": "status_legacy_i",
             "length": 55,
@@ -27692,7 +27959,7 @@
             "required_mentions_count": 3
           }
         ],
-        "tweet_text_primary_source": "status_legacy_i",
+        "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
         "promo_url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
@@ -27707,9 +27974,10 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 153,
-        "qualified_followers_text": "153",
+        "qualified_followers_count": 154,
+        "qualified_followers_text": "154",
         "qualified_followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
@@ -27717,8 +27985,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 09:14:32",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 29,
+        "daily_list_status": "accepted"
+      },
+      "2100757215019934117": {
+        "x_handle": "dunrk12x",
+        "check_handle": "dunrk12x",
+        "dual_link": false,
+        "promo_handle": "dunrk12x",
+        "tg_username": "Honolulu888",
+        "tg_user_id": 8244653896,
+        "tg_name": "上海盾儿",
+        "link": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+        "message_text": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+            "handle": "dunrk12x",
+            "post_id": "2100757215019934117",
+            "role": "promo",
+            "author_name": "🛡️盾儿",
+            "followers_count": 10053,
+            "followers_text": "1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 10053
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 10053
+              },
+              {
+                "source": "status_legacy",
+                "count": 10053
+              },
+              {
+                "source": "profile_v2",
+                "count": 10053
+              }
+            ],
+            "tweet_text": "清纯盾儿\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 69,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 69,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 69,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 69,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 69,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+            "post_id": "2100757215019934117",
+            "handle": "dunrk12x",
+            "source_time": "2026-09-18 09:22:41",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "🛡️盾儿",
+        "promo_name": "🛡️盾儿",
+        "followers_count": 10053,
+        "followers_text": "1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10053
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10053
+          },
+          {
+            "source": "status_legacy",
+            "count": 10053
+          },
+          {
+            "source": "profile_v2",
+            "count": 10053
+          }
+        ],
+        "check_followers_count": 10053,
+        "check_followers_text": "1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10053
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10053
+          },
+          {
+            "source": "status_legacy",
+            "count": 10053
+          },
+          {
+            "source": "profile_v2",
+            "count": 10053
+          }
+        ],
+        "tweet_text": "清纯盾儿\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 69,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 69,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 69,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 69,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 69,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+        "check_url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+        "promo_post_id": "2100757215019934117",
+        "check_post_id": "2100757215019934117",
+        "chat_id": "-1003739822194",
+        "message_id": 2310,
+        "time": "2026-09-18 09:22:41",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 10053,
+        "qualified_followers_text": "1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-18 09:22:41",
+        "admission_locked": false,
+        "daily_list_rank": 30,
         "daily_list_status": "accepted"
       }
     }

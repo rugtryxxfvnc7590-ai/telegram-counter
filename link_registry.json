@@ -11061,7 +11061,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:32:22",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 17,
         "daily_list_status": "accepted"
       },
@@ -11273,8 +11273,192 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:44:14",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 18,
+        "daily_list_status": "accepted"
+      },
+      "maojio513": {
+        "x_handle": "maojio513",
+        "check_handle": "maojio513",
+        "dual_link": false,
+        "promo_handle": "maojio513",
+        "tg_username": "xiaoyiyi96",
+        "tg_user_id": 6711450768,
+        "tg_name": "颐",
+        "link": "https://x.com/maojio513/status/2100429104147529787?s=20",
+        "message_text": "https://x.com/maojio513/status/2100429104147529787?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/maojio513/status/2100429104147529787?s=20",
+            "handle": "maojio513",
+            "post_id": "2100429104147529787",
+            "role": "promo",
+            "author_name": "小鬼精咕咕",
+            "followers_count": 32402,
+            "followers_text": "3.2W",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 32402
+              },
+              {
+                "source": "status_legacy",
+                "count": 32402
+              },
+              {
+                "source": "profile_v2",
+                "count": 32402
+              }
+            ],
+            "tweet_text": "你知道我现在在想什么吗？不太正经。\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/maojio513/status/2100429104147529787?s=20",
+            "post_id": "2100429104147529787",
+            "handle": "maojio513",
+            "source_time": "2026-09-19 00:47:26",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小鬼精咕咕",
+        "promo_name": "小鬼精咕咕",
+        "followers_count": 32402,
+        "followers_text": "3.2W",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 32402
+          },
+          {
+            "source": "status_legacy",
+            "count": 32402
+          },
+          {
+            "source": "profile_v2",
+            "count": 32402
+          }
+        ],
+        "check_followers_count": 32402,
+        "check_followers_text": "3.2W",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 32402
+          },
+          {
+            "source": "status_legacy",
+            "count": 32402
+          },
+          {
+            "source": "profile_v2",
+            "count": 32402
+          }
+        ],
+        "tweet_text": "你知道我现在在想什么吗？不太正经。\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/maojio513/status/2100429104147529787?s=20",
+        "check_url": "https://x.com/maojio513/status/2100429104147529787?s=20",
+        "promo_post_id": "2100429104147529787",
+        "check_post_id": "2100429104147529787",
+        "chat_id": "-1003739822194",
+        "message_id": 2349,
+        "time": "2026-09-19 00:47:26",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 32402,
+        "qualified_followers_text": "3.2W",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-19 00:47:26",
+        "admission_locked": false,
+        "daily_list_rank": 19,
         "daily_list_status": "accepted"
       }
     }
@@ -21898,7 +22082,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:32:22",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 17,
         "daily_list_status": "accepted"
       },
@@ -22110,8 +22294,192 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:44:14",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 18,
+        "daily_list_status": "accepted"
+      },
+      "2100429104147529787": {
+        "x_handle": "maojio513",
+        "check_handle": "maojio513",
+        "dual_link": false,
+        "promo_handle": "maojio513",
+        "tg_username": "xiaoyiyi96",
+        "tg_user_id": 6711450768,
+        "tg_name": "颐",
+        "link": "https://x.com/maojio513/status/2100429104147529787?s=20",
+        "message_text": "https://x.com/maojio513/status/2100429104147529787?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/maojio513/status/2100429104147529787?s=20",
+            "handle": "maojio513",
+            "post_id": "2100429104147529787",
+            "role": "promo",
+            "author_name": "小鬼精咕咕",
+            "followers_count": 32402,
+            "followers_text": "3.2W",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 32402
+              },
+              {
+                "source": "status_legacy",
+                "count": 32402
+              },
+              {
+                "source": "profile_v2",
+                "count": 32402
+              }
+            ],
+            "tweet_text": "你知道我现在在想什么吗？不太正经。\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/maojio513/status/2100429104147529787?s=20",
+            "post_id": "2100429104147529787",
+            "handle": "maojio513",
+            "source_time": "2026-09-19 00:47:26",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小鬼精咕咕",
+        "promo_name": "小鬼精咕咕",
+        "followers_count": 32402,
+        "followers_text": "3.2W",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 32402
+          },
+          {
+            "source": "status_legacy",
+            "count": 32402
+          },
+          {
+            "source": "profile_v2",
+            "count": 32402
+          }
+        ],
+        "check_followers_count": 32402,
+        "check_followers_text": "3.2W",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 32402
+          },
+          {
+            "source": "status_legacy",
+            "count": 32402
+          },
+          {
+            "source": "profile_v2",
+            "count": 32402
+          }
+        ],
+        "tweet_text": "你知道我现在在想什么吗？不太正经。\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/maojio513/status/2100429104147529787?s=20",
+        "check_url": "https://x.com/maojio513/status/2100429104147529787?s=20",
+        "promo_post_id": "2100429104147529787",
+        "check_post_id": "2100429104147529787",
+        "chat_id": "-1003739822194",
+        "message_id": 2349,
+        "time": "2026-09-19 00:47:26",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 32402,
+        "qualified_followers_text": "3.2W",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-19 00:47:26",
+        "admission_locked": false,
+        "daily_list_rank": 19,
         "daily_list_status": "accepted"
       }
     }

@@ -14241,6 +14241,218 @@
         "admission_locked": true,
         "daily_list_rank": 30,
         "daily_list_status": "accepted"
+      },
+      "bibo8891": {
+        "x_handle": "bibo8891",
+        "check_handle": "bibo8891",
+        "dual_link": false,
+        "promo_handle": "bibo8891",
+        "tg_username": "yu15786",
+        "tg_user_id": 7261659842,
+        "tg_name": "余欢",
+        "link": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+        "message_text": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+            "handle": "bibo8891",
+            "post_id": "2098909437499162984",
+            "role": "promo",
+            "author_name": "瓜崽",
+            "followers_count": 8776,
+            "followers_text": "8.7K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 8776
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 8776
+              },
+              {
+                "source": "status_legacy",
+                "count": 8776
+              },
+              {
+                "source": "profile_v2",
+                "count": 8776
+              }
+            ],
+            "tweet_text": "这里开了一个口 可以进来了                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 82,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 82,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 82,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 82,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 82,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+            "post_id": "2098909437499162984",
+            "handle": "bibo8891",
+            "source_time": "2026-09-18 10:04:38",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "瓜崽",
+        "promo_name": "瓜崽",
+        "followers_count": 8776,
+        "followers_text": "8.7K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8776
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8776
+          },
+          {
+            "source": "status_legacy",
+            "count": 8776
+          },
+          {
+            "source": "profile_v2",
+            "count": 8776
+          }
+        ],
+        "check_followers_count": 8776,
+        "check_followers_text": "8.7K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8776
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8776
+          },
+          {
+            "source": "status_legacy",
+            "count": 8776
+          },
+          {
+            "source": "profile_v2",
+            "count": 8776
+          }
+        ],
+        "tweet_text": "这里开了一个口 可以进来了                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 82,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 82,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 82,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 82,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 82,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+        "check_url": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+        "promo_post_id": "2098909437499162984",
+        "check_post_id": "2098909437499162984",
+        "chat_id": "-1003739822194",
+        "message_id": 2315,
+        "time": "2026-09-18 10:04:38",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 8776,
+        "qualified_followers_text": "8.7K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-18 10:04:38",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "waitlist"
       }
     }
   },
@@ -28264,6 +28476,218 @@
         "admission_locked": true,
         "daily_list_rank": 30,
         "daily_list_status": "accepted"
+      },
+      "2098909437499162984": {
+        "x_handle": "bibo8891",
+        "check_handle": "bibo8891",
+        "dual_link": false,
+        "promo_handle": "bibo8891",
+        "tg_username": "yu15786",
+        "tg_user_id": 7261659842,
+        "tg_name": "余欢",
+        "link": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+        "message_text": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+            "handle": "bibo8891",
+            "post_id": "2098909437499162984",
+            "role": "promo",
+            "author_name": "瓜崽",
+            "followers_count": 8776,
+            "followers_text": "8.7K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 8776
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 8776
+              },
+              {
+                "source": "status_legacy",
+                "count": 8776
+              },
+              {
+                "source": "profile_v2",
+                "count": 8776
+              }
+            ],
+            "tweet_text": "这里开了一个口 可以进来了                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 82,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 82,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 82,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 82,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 82,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+            "post_id": "2098909437499162984",
+            "handle": "bibo8891",
+            "source_time": "2026-09-18 10:04:38",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "瓜崽",
+        "promo_name": "瓜崽",
+        "followers_count": 8776,
+        "followers_text": "8.7K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8776
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8776
+          },
+          {
+            "source": "status_legacy",
+            "count": 8776
+          },
+          {
+            "source": "profile_v2",
+            "count": 8776
+          }
+        ],
+        "check_followers_count": 8776,
+        "check_followers_text": "8.7K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8776
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8776
+          },
+          {
+            "source": "status_legacy",
+            "count": 8776
+          },
+          {
+            "source": "profile_v2",
+            "count": 8776
+          }
+        ],
+        "tweet_text": "这里开了一个口 可以进来了                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 82,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 82,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 82,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 82,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 82,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+        "check_url": "https://x.com/bibo8891/status/2098909437499162984?s=46",
+        "promo_post_id": "2098909437499162984",
+        "check_post_id": "2098909437499162984",
+        "chat_id": "-1003739822194",
+        "message_id": 2315,
+        "time": "2026-09-18 10:04:38",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 8776,
+        "qualified_followers_text": "8.7K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-18 10:04:38",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "waitlist"
       }
     }
   },

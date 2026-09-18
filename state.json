@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "offset": 364615516,
+  "offset": 364615522,
   "groups": {
     "-1003891628675": {
       "count": 33,
@@ -88,7 +88,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-18",
-    "run_at": "2026-09-18 18:45:39",
+    "run_at": "2026-09-18 19:00:38",
     "completed_groups": [
       "群一",
       "群二",
@@ -96,20 +96,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35336248526:1",
-        "checked_at": "2026-09-18 18:45:41",
+        "run_key": "35337474460:1",
+        "checked_at": "2026-09-18 19:00:39",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35336248526:1",
-        "checked_at": "2026-09-18 18:45:41",
+        "run_key": "35337474460:1",
+        "checked_at": "2026-09-18 19:00:39",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35336248526:1",
-        "checked_at": "2026-09-18 18:45:41",
+        "run_key": "35337474460:1",
+        "checked_at": "2026-09-18 19:00:40",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -867,6 +867,56 @@
         "message_id": 2789,
         "owner_chat_id": "8614747348",
         "text": "群三（9月18日）互推名单，共 30 条\n\n1 https://x.com/dunrk12x/status/2100757215019934117\n\n2 https://x.com/nagiii_chan/status/2100755216882659807\n\n3 https://x.com/bear9362/status/2099664463691718926\n\n4 https://x.com/bo13581/status/2100743609029206324\n\n5 https://x.com/daimitvt/status/2100423794313834850\n\n6 https://x.com/cocoluhk/status/2100126724218585328\n\n7 https://x.com/tankxm07/status/2097589974011187567\n\n8 https://x.com/zhuguang9859/status/2099543492787896632\n\n9 https://x.com/annebabysexxy/status/2095159963484360752\n\n10 https://x.com/xiaoyi3359/status/2095760748404158564\n\n11 https://x.com/qianhetangcaiyl/status/2100625555398025642\n\n12 https://x.com/hentaoxi/status/2099121765603836206\n\n13 https://x.com/xinzhxinju1/status/2100574128088694841\n\n14 https://x.com/chiirouoo/status/2096225110474863015\n\n15 https://x.com/aerolattic29965/status/2098975357638701108\n\n16 https://x.com/ykydf778/status/2100415747139010812\n\n17 https://x.com/obmissu/status/2099861601214177443\n\n18 https://x.com/koio95/status/2089215351183782344\n\n19 https://x.com/mopomeeaii/status/2097889474894274611\n\n20 https://x.com/vinodsrt/status/2098245155983970672\n\n21 https://x.com/violentdesil/status/2099184018487210023\n\n22 https://x.com/rogueyuyinqi/status/2100400662056178103\n\n23 https://x.com/qiqitu777_/status/2100098508368073119\n\n24 https://x.com/unniya18/status/2097269936305709064\n\n25 https://x.com/gg2anan/status/2099433227542999257\n\n26 https://x.com/showu3u/status/2100437037585416454\n\n27 https://x.com/1tbsvip/status/2100223183169388870\n\n28 https://x.com/dajiejieuuya/status/2100450694360965456\n\n29 https://x.com/saza5277/status/2100258031800102978\n\n30 https://x.com/lovelove131413/status/2098232207102054566"
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-09-18 19:00:42",
+        "count": 3,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [
+          "https://x.com/xiaochen000007/status/2100671077257265212",
+          "https://x.com/maojio513/status/2100745619102953866",
+          "https://x.com/zhuguang9859/status/2099543492787896632"
+        ],
+        "slots": [
+          {
+            "handle": "xiaochen000007",
+            "post_id": "2100671077257265212",
+            "original_post_id": "2100671077257265212",
+            "url": "https://x.com/xiaochen000007/status/2100671077257265212",
+            "edited": false,
+            "message_id": "74208",
+            "tg_user_id": "5718822279",
+            "time": "2026-09-18 17:02:39",
+            "admission_time": "2026-09-18 17:02:39"
+          },
+          {
+            "handle": "maojio513",
+            "post_id": "2100745619102953866",
+            "original_post_id": "2100745619102953866",
+            "url": "https://x.com/maojio513/status/2100745619102953866",
+            "edited": false,
+            "message_id": "74207",
+            "tg_user_id": "6711450768",
+            "time": "2026-09-18 10:39:02",
+            "admission_time": "2026-09-18 10:39:02"
+          },
+          {
+            "handle": "zhuguang9859",
+            "post_id": "2099543492787896632",
+            "original_post_id": "2099543492787896632",
+            "url": "https://x.com/zhuguang9859/status/2099543492787896632",
+            "edited": false,
+            "message_id": "74206",
+            "tg_user_id": "8281002968",
+            "time": "2026-09-18 04:25:30",
+            "admission_time": "2026-09-18 04:25:30"
+          }
+        ],
+        "message_id": 2790,
+        "owner_chat_id": "8614747348",
+        "text": "群二（9月18日）互推名单，共 3 条\n\n1 https://x.com/xiaochen000007/status/2100671077257265212\n\n2 https://x.com/maojio513/status/2100745619102953866\n\n3 https://x.com/zhuguang9859/status/2099543492787896632"
       }
     }
   },

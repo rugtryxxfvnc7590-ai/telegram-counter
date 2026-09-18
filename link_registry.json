@@ -13782,8 +13782,192 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 08:49:57",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 28,
+        "daily_list_status": "accepted"
+      },
+      "nagiii_chan": {
+        "x_handle": "nagiii_chan",
+        "check_handle": "nagiii_chan",
+        "dual_link": false,
+        "promo_handle": "nagiii_chan",
+        "tg_username": "kau918",
+        "tg_user_id": 8565972608,
+        "tg_name": "Denise Welch",
+        "link": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+        "message_text": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+            "handle": "nagiii_chan",
+            "post_id": "2100755216882659807",
+            "role": "promo",
+            "author_name": "n a g i",
+            "followers_count": 153,
+            "followers_text": "153",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 153
+              },
+              {
+                "source": "status_legacy",
+                "count": 153
+              },
+              {
+                "source": "profile_v2",
+                "count": 153
+              }
+            ],
+            "tweet_text": "古力娜扎-黑丝站街女被大爷在巷子里狂干\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 55,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+            "post_id": "2100755216882659807",
+            "handle": "nagiii_chan",
+            "source_time": "2026-09-18 09:14:32",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "n a g i",
+        "promo_name": "n a g i",
+        "followers_count": 153,
+        "followers_text": "153",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 153
+          },
+          {
+            "source": "status_legacy",
+            "count": 153
+          },
+          {
+            "source": "profile_v2",
+            "count": 153
+          }
+        ],
+        "check_followers_count": 153,
+        "check_followers_text": "153",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 153
+          },
+          {
+            "source": "status_legacy",
+            "count": 153
+          },
+          {
+            "source": "profile_v2",
+            "count": 153
+          }
+        ],
+        "tweet_text": "古力娜扎-黑丝站街女被大爷在巷子里狂干\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 55,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+        "check_url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+        "promo_post_id": "2100755216882659807",
+        "check_post_id": "2100755216882659807",
+        "chat_id": "-1003739822194",
+        "message_id": 2309,
+        "time": "2026-09-18 09:14:32",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 153,
+        "qualified_followers_text": "153",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-18 09:14:32",
+        "admission_locked": false,
+        "daily_list_rank": 29,
         "daily_list_status": "accepted"
       }
     }
@@ -27349,8 +27533,192 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 08:49:57",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 28,
+        "daily_list_status": "accepted"
+      },
+      "2100755216882659807": {
+        "x_handle": "nagiii_chan",
+        "check_handle": "nagiii_chan",
+        "dual_link": false,
+        "promo_handle": "nagiii_chan",
+        "tg_username": "kau918",
+        "tg_user_id": 8565972608,
+        "tg_name": "Denise Welch",
+        "link": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+        "message_text": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+            "handle": "nagiii_chan",
+            "post_id": "2100755216882659807",
+            "role": "promo",
+            "author_name": "n a g i",
+            "followers_count": 153,
+            "followers_text": "153",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 153
+              },
+              {
+                "source": "status_legacy",
+                "count": 153
+              },
+              {
+                "source": "profile_v2",
+                "count": 153
+              }
+            ],
+            "tweet_text": "古力娜扎-黑丝站街女被大爷在巷子里狂干\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 55,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+            "post_id": "2100755216882659807",
+            "handle": "nagiii_chan",
+            "source_time": "2026-09-18 09:14:32",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "n a g i",
+        "promo_name": "n a g i",
+        "followers_count": 153,
+        "followers_text": "153",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 153
+          },
+          {
+            "source": "status_legacy",
+            "count": 153
+          },
+          {
+            "source": "profile_v2",
+            "count": 153
+          }
+        ],
+        "check_followers_count": 153,
+        "check_followers_text": "153",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 153
+          },
+          {
+            "source": "status_legacy",
+            "count": 153
+          },
+          {
+            "source": "profile_v2",
+            "count": 153
+          }
+        ],
+        "tweet_text": "古力娜扎-黑丝站街女被大爷在巷子里狂干\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 55,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+        "check_url": "https://x.com/nagiii_chan/status/2100755216882659807?s=20",
+        "promo_post_id": "2100755216882659807",
+        "check_post_id": "2100755216882659807",
+        "chat_id": "-1003739822194",
+        "message_id": 2309,
+        "time": "2026-09-18 09:14:32",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 153,
+        "qualified_followers_text": "153",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-18 09:14:32",
+        "admission_locked": false,
+        "daily_list_rank": 29,
         "daily_list_status": "accepted"
       }
     }

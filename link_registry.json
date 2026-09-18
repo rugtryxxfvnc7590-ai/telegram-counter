@@ -7336,7 +7336,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 10:39:02",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted"
       }
@@ -11695,8 +11695,8 @@
         ],
         "x_name": "qianhetangcai",
         "promo_name": "qianhetangcai",
-        "followers_count": 8697,
-        "followers_text": "8.6K",
+        "followers_count": 8700,
+        "followers_text": "8.7K",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -12207,6 +12207,22 @@
           {
             "source": "profile_v2",
             "count": 8697
+          },
+          {
+            "source": "status_v2",
+            "count": 8700
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8700
+          },
+          {
+            "source": "profile_v2",
+            "count": 8700
+          },
+          {
+            "source": "status_legacy",
+            "count": 8700
           }
         ],
         "check_followers_count": 8639,
@@ -12295,8 +12311,8 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 8697,
-        "qualified_followers_text": "8.6K",
+        "qualified_followers_count": 8700,
+        "qualified_followers_text": "8.7K",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -21952,7 +21968,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-18 10:39:02",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted"
       }
@@ -26090,8 +26106,8 @@
         ],
         "x_name": "qianhetangcai",
         "promo_name": "qianhetangcai",
-        "followers_count": 8697,
-        "followers_text": "8.6K",
+        "followers_count": 8700,
+        "followers_text": "8.7K",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -26602,6 +26618,22 @@
           {
             "source": "profile_v2",
             "count": 8697
+          },
+          {
+            "source": "status_v2",
+            "count": 8700
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8700
+          },
+          {
+            "source": "profile_v2",
+            "count": 8700
+          },
+          {
+            "source": "status_legacy",
+            "count": 8700
           }
         ],
         "check_followers_count": 8639,
@@ -26690,8 +26722,8 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 8697,
-        "qualified_followers_text": "8.6K",
+        "qualified_followers_count": 8700,
+        "qualified_followers_text": "8.7K",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",

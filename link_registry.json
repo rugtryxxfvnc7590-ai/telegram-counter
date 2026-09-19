@@ -7592,7 +7592,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 18:54:52",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted"
       }
@@ -14911,6 +14911,163 @@
         "admission_locked": false,
         "daily_list_rank": 32,
         "daily_list_status": "waitlist"
+      },
+      "tutu_kirar2wer": {
+        "x_handle": "tutu_kirar2wer",
+        "check_handle": "tutu_kirar2wer",
+        "dual_link": false,
+        "promo_handle": "tutu_kirar2wer",
+        "tg_username": "TTRean",
+        "tg_user_id": 5999016712,
+        "tg_name": "突突Rean",
+        "link": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+        "message_text": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+            "handle": "tutu_kirar2wer",
+            "post_id": "2101267894390726701",
+            "role": "promo",
+            "author_name": "突突Rean",
+            "followers_count": 14908,
+            "followers_text": "1.4W",
+            "followers_sources": [
+              "status_legacy_i",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 14908
+              },
+              {
+                "source": "profile_v2",
+                "count": 14908
+              }
+            ],
+            "tweet_text": "颤抖都是高潮的前兆  整间屋子都回荡着肉体碰撞的声音与呐喊  释放最原始的欲望\n@ToBulaer\n @ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 74,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 74,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 74,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+            "post_id": "2101267894390726701",
+            "handle": "tutu_kirar2wer",
+            "source_time": "2026-09-19 19:12:52",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "突突Rean",
+        "promo_name": "突突Rean",
+        "followers_count": 14908,
+        "followers_text": "1.4W",
+        "followers_sources": [
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 14908
+          },
+          {
+            "source": "profile_v2",
+            "count": 14908
+          }
+        ],
+        "check_followers_count": 14908,
+        "check_followers_text": "1.4W",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 14908
+          },
+          {
+            "source": "profile_v2",
+            "count": 14908
+          }
+        ],
+        "tweet_text": "颤抖都是高潮的前兆  整间屋子都回荡着肉体碰撞的声音与呐喊  释放最原始的欲望\n@ToBulaer\n @ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 74,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 74,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 74,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+        "check_url": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+        "promo_post_id": "2101267894390726701",
+        "check_post_id": "2101267894390726701",
+        "chat_id": "-1003739822194",
+        "message_id": 2378,
+        "time": "2026-09-19 19:12:52",
+        "after_cutoff": true,
+        "cutoff_time": "19:00",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 14908,
+        "qualified_followers_text": "1.4W",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "mutual_eligible": false,
+        "eligibility_text": "❌超时链接",
+        "ineligible_reason": "after_cutoff",
+        "admission_time": "2026-09-19 19:12:52",
+        "admission_locked": false,
+        "daily_list_rank": 0,
+        "daily_list_status": "ineligible"
       }
     }
   },
@@ -22506,7 +22663,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 18:54:52",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted"
       }
@@ -29200,6 +29357,163 @@
         "admission_locked": false,
         "daily_list_rank": 32,
         "daily_list_status": "waitlist"
+      },
+      "2101267894390726701": {
+        "x_handle": "tutu_kirar2wer",
+        "check_handle": "tutu_kirar2wer",
+        "dual_link": false,
+        "promo_handle": "tutu_kirar2wer",
+        "tg_username": "TTRean",
+        "tg_user_id": 5999016712,
+        "tg_name": "突突Rean",
+        "link": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+        "message_text": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+            "handle": "tutu_kirar2wer",
+            "post_id": "2101267894390726701",
+            "role": "promo",
+            "author_name": "突突Rean",
+            "followers_count": 14908,
+            "followers_text": "1.4W",
+            "followers_sources": [
+              "status_legacy_i",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 14908
+              },
+              {
+                "source": "profile_v2",
+                "count": 14908
+              }
+            ],
+            "tweet_text": "颤抖都是高潮的前兆  整间屋子都回荡着肉体碰撞的声音与呐喊  释放最原始的欲望\n@ToBulaer\n @ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 74,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 74,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 74,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+            "post_id": "2101267894390726701",
+            "handle": "tutu_kirar2wer",
+            "source_time": "2026-09-19 19:12:52",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "突突Rean",
+        "promo_name": "突突Rean",
+        "followers_count": 14908,
+        "followers_text": "1.4W",
+        "followers_sources": [
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 14908
+          },
+          {
+            "source": "profile_v2",
+            "count": 14908
+          }
+        ],
+        "check_followers_count": 14908,
+        "check_followers_text": "1.4W",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 14908
+          },
+          {
+            "source": "profile_v2",
+            "count": 14908
+          }
+        ],
+        "tweet_text": "颤抖都是高潮的前兆  整间屋子都回荡着肉体碰撞的声音与呐喊  释放最原始的欲望\n@ToBulaer\n @ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 74,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 74,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 74,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+        "check_url": "https://x.com/tutu_kirar2wer/status/2101267894390726701?s=46",
+        "promo_post_id": "2101267894390726701",
+        "check_post_id": "2101267894390726701",
+        "chat_id": "-1003739822194",
+        "message_id": 2378,
+        "time": "2026-09-19 19:12:52",
+        "after_cutoff": true,
+        "cutoff_time": "19:00",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 14908,
+        "qualified_followers_text": "1.4W",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "mutual_eligible": false,
+        "eligibility_text": "❌超时链接",
+        "ineligible_reason": "after_cutoff",
+        "admission_time": "2026-09-19 19:12:52",
+        "admission_locked": false,
+        "daily_list_rank": 0,
+        "daily_list_status": "ineligible"
       }
     }
   },

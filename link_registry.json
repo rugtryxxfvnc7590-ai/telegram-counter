@@ -9763,92 +9763,102 @@
         "daily_list_rank": 12,
         "daily_list_status": "accepted"
       },
-      "aerolattic29965": {
-        "x_handle": "aerolattic29965",
+      "kippsatee": {
+        "x_handle": "kippsatee",
         "check_handle": "aerolattic29965",
-        "dual_link": false,
-        "promo_handle": "aerolattic29965",
+        "dual_link": true,
+        "promo_handle": "kippsatee",
         "tg_username": "tefe858",
         "tg_user_id": 1941523438,
         "tg_name": "cute(只回复口令)",
-        "link": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
-        "message_text": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+        "link": "https://x.com/kippsatee/status/2101162237021020579?s=46\n推这条👆🏻\n回推👇🏻\nhttps://x.com/aerolattic29965?s=11",
+        "message_text": "https://x.com/kippsatee/status/2101162237021020579?s=46\n推这条👆🏻\n回推👇🏻\nhttps://x.com/aerolattic29965?s=11",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
-            "handle": "aerolattic29965",
-            "post_id": "2098975357638701108",
+            "url": "https://x.com/kippsatee/status/2101162237021020579?s=46",
+            "handle": "kippsatee",
+            "post_id": "2101162237021020579",
             "role": "promo",
-            "author_name": "布偶",
-            "followers_count": 1684,
-            "followers_text": "1.6K",
+            "author_name": "布偶喵",
+            "followers_count": 7567,
+            "followers_text": "7.5K",
             "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
-                "source": "status_v2",
-                "count": 1684
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 1684
-              },
-              {
                 "source": "status_legacy",
-                "count": 1684
+                "count": 7567
               },
               {
                 "source": "profile_v2",
-                "count": 1684
+                "count": 7567
               }
             ],
-            "tweet_text": "可爱的小珠子\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text": "要是坐在热乎乎的肉棒上就好啦\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
             "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
             ],
             "tweet_text_observations": [
               {
-                "source": "status_v2",
-                "length": 40,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 40,
-                "required_mentions_count": 3
-              },
-              {
                 "source": "vx_status_v2",
-                "length": 40,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 40,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 40,
+                "length": 50,
                 "required_mentions_count": 3
               }
             ],
-            "tweet_text_primary_source": "status_v2",
+            "tweet_text_primary_source": "vx_status_v2",
             "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/aerolattic29965?s=11",
+            "handle": "aerolattic29965",
+            "post_id": "",
+            "role": "check",
+            "author_name": "布偶",
+            "followers_count": 2002,
+            "followers_text": "2K",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 2002
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/kippsatee/status/2101162237021020579?s=46",
+            "post_id": "2101162237021020579",
+            "handle": "kippsatee",
+            "source_time": "2026-09-19 00:11:19",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
             "post_id": "2098975357638701108",
             "handle": "aerolattic29965",
@@ -9856,124 +9866,268 @@
             "edit_time": ""
           }
         ],
-        "x_name": "布偶",
-        "promo_name": "布偶",
-        "followers_count": 1684,
-        "followers_text": "1.6K",
+        "x_name": "布偶喵",
+        "promo_name": "布偶喵",
+        "followers_count": 7567,
+        "followers_text": "7.5K",
         "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
-            "source": "status_v2",
-            "count": 1684
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 1684
-          },
-          {
             "source": "status_legacy",
-            "count": 1684
+            "count": 7567
           },
           {
             "source": "profile_v2",
-            "count": 1684
+            "count": 7567
           }
         ],
-        "check_followers_count": 1684,
-        "check_followers_text": "1.6K",
+        "check_followers_count": 2002,
+        "check_followers_text": "2K",
         "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
-            "source": "status_v2",
-            "count": 1684
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 1684
-          },
-          {
-            "source": "status_legacy",
-            "count": 1684
-          },
-          {
             "source": "profile_v2",
-            "count": 1684
+            "count": 2002
           }
         ],
-        "tweet_text": "可爱的小珠子\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text": "要是坐在热乎乎的肉棒上就好啦\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
         "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
         ],
         "tweet_text_observations": [
           {
-            "source": "status_v2",
-            "length": 40,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 40,
-            "required_mentions_count": 3
-          },
-          {
             "source": "vx_status_v2",
-            "length": 40,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 40,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 40,
+            "length": 50,
             "required_mentions_count": 3
           }
         ],
-        "tweet_text_primary_source": "status_v2",
+        "tweet_text_primary_source": "vx_status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
-        "check_url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
-        "promo_post_id": "2098975357638701108",
-        "check_post_id": "2098975357638701108",
+        "promo_url": "https://x.com/kippsatee/status/2101162237021020579?s=46",
+        "check_url": "https://x.com/aerolattic29965?s=11",
+        "promo_post_id": "2101162237021020579",
+        "check_post_id": "",
         "chat_id": "-1003739822194",
         "message_id": 2343,
         "time": "2026-09-19 00:11:19",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-19 13:00:55",
         "followers_min": 0,
-        "qualified_followers_count": 1684,
-        "qualified_followers_text": "1.6K",
+        "qualified_followers_count": 7567,
+        "qualified_followers_text": "7.5K",
         "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
-        "admission_time": "2026-09-19 00:11:19",
-        "admission_locked": true,
-        "daily_list_rank": 13,
-        "daily_list_status": "accepted"
+        "admission_time": "2026-09-19 13:00:55",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "waitlist"
+      },
+      "aerolattic29965": {
+        "x_handle": "aerolattic29965",
+        "check_handle": "aerolattic29965",
+        "dual_link": true,
+        "promo_handle": "kippsatee",
+        "tg_username": "tefe858",
+        "tg_user_id": 1941523438,
+        "tg_name": "cute(只回复口令)",
+        "link": "https://x.com/kippsatee/status/2101162237021020579?s=46\n推这条👆🏻\n回推👇🏻\nhttps://x.com/aerolattic29965?s=11",
+        "message_text": "https://x.com/kippsatee/status/2101162237021020579?s=46\n推这条👆🏻\n回推👇🏻\nhttps://x.com/aerolattic29965?s=11",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/kippsatee/status/2101162237021020579?s=46",
+            "handle": "kippsatee",
+            "post_id": "2101162237021020579",
+            "role": "promo",
+            "author_name": "布偶喵",
+            "followers_count": 7567,
+            "followers_text": "7.5K",
+            "followers_sources": [
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy",
+                "count": 7567
+              },
+              {
+                "source": "profile_v2",
+                "count": 7567
+              }
+            ],
+            "tweet_text": "要是坐在热乎乎的肉棒上就好啦\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "vx_status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/aerolattic29965?s=11",
+            "handle": "aerolattic29965",
+            "post_id": "",
+            "role": "check",
+            "author_name": "布偶",
+            "followers_count": 2002,
+            "followers_text": "2K",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 2002
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "编辑后",
+            "url": "https://x.com/kippsatee/status/2101162237021020579?s=46",
+            "post_id": "2101162237021020579",
+            "handle": "kippsatee",
+            "source_time": "2026-09-19 00:11:19",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
+            "url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+            "post_id": "2098975357638701108",
+            "handle": "aerolattic29965",
+            "source_time": "2026-09-19 00:11:19",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "布偶喵",
+        "promo_name": "布偶喵",
+        "followers_count": 7567,
+        "followers_text": "7.5K",
+        "followers_sources": [
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy",
+            "count": 7567
+          },
+          {
+            "source": "profile_v2",
+            "count": 7567
+          }
+        ],
+        "check_followers_count": 2002,
+        "check_followers_text": "2K",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 2002
+          }
+        ],
+        "tweet_text": "要是坐在热乎乎的肉棒上就好啦\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/kippsatee/status/2101162237021020579?s=46",
+        "check_url": "https://x.com/aerolattic29965?s=11",
+        "promo_post_id": "2101162237021020579",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 2343,
+        "time": "2026-09-19 00:11:19",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": true,
+        "edit_time": "2026-09-19 13:00:55",
+        "followers_min": 0,
+        "qualified_followers_count": 7567,
+        "qualified_followers_text": "7.5K",
+        "qualified_followers_sources": [
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-19 13:00:55",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "waitlist"
       },
       "25_nagisa": {
         "x_handle": "25_nagisa",
@@ -10193,7 +10347,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:12:38",
         "admission_locked": true,
-        "daily_list_rank": 14,
+        "daily_list_rank": 13,
         "daily_list_status": "accepted"
       },
       "lazypigy850": {
@@ -10414,7 +10568,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:12:38",
         "admission_locked": true,
-        "daily_list_rank": 14,
+        "daily_list_rank": 13,
         "daily_list_status": "accepted"
       },
       "saza5277": {
@@ -10626,7 +10780,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:17:32",
         "admission_locked": true,
-        "daily_list_rank": 15,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted"
       },
       "rogueyuyinqi": {
@@ -10838,7 +10992,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:28:20",
         "admission_locked": true,
-        "daily_list_rank": 16,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted"
       },
       "showu3u": {
@@ -11050,7 +11204,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:32:22",
         "admission_locked": true,
-        "daily_list_rank": 17,
+        "daily_list_rank": 16,
         "daily_list_status": "accepted"
       },
       "xinxinjjj": {
@@ -11262,7 +11416,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:44:14",
         "admission_locked": true,
-        "daily_list_rank": 18,
+        "daily_list_rank": 17,
         "daily_list_status": "accepted"
       },
       "maojio513": {
@@ -11446,7 +11600,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:47:26",
         "admission_locked": true,
-        "daily_list_rank": 19,
+        "daily_list_rank": 18,
         "daily_list_status": "accepted"
       },
       "xinzhxinju1": {
@@ -11658,7 +11812,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 01:08:49",
         "admission_locked": true,
-        "daily_list_rank": 20,
+        "daily_list_rank": 19,
         "daily_list_status": "accepted"
       },
       "xujiaoxp": {
@@ -11870,7 +12024,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 01:19:21",
         "admission_locked": true,
-        "daily_list_rank": 21,
+        "daily_list_rank": 20,
         "daily_list_status": "accepted"
       },
       "hentaoxi": {
@@ -12054,7 +12208,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 01:50:50",
         "admission_locked": true,
-        "daily_list_rank": 22,
+        "daily_list_rank": 21,
         "daily_list_status": "accepted"
       },
       "puffcream0": {
@@ -12266,7 +12420,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 01:53:50",
         "admission_locked": true,
-        "daily_list_rank": 23,
+        "daily_list_rank": 22,
         "daily_list_status": "accepted"
       },
       "qianhetangcaiyl": {
@@ -12478,7 +12632,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 02:16:31",
         "admission_locked": true,
-        "daily_list_rank": 24,
+        "daily_list_rank": 23,
         "daily_list_status": "accepted"
       },
       "feitunpapap": {
@@ -12690,7 +12844,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 04:08:12",
         "admission_locked": true,
-        "daily_list_rank": 25,
+        "daily_list_rank": 24,
         "daily_list_status": "accepted"
       },
       "chiirouoo": {
@@ -12902,7 +13056,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 04:34:00",
         "admission_locked": true,
-        "daily_list_rank": 26,
+        "daily_list_rank": 25,
         "daily_list_status": "accepted"
       },
       "tankxm07": {
@@ -13114,7 +13268,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 06:01:33",
         "admission_locked": true,
-        "daily_list_rank": 27,
+        "daily_list_rank": 26,
         "daily_list_status": "accepted"
       },
       "zhuguang9859": {
@@ -13326,7 +13480,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 08:08:45",
         "admission_locked": true,
-        "daily_list_rank": 28,
+        "daily_list_rank": 27,
         "daily_list_status": "accepted"
       },
       "bo13581": {
@@ -13538,7 +13692,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 08:11:00",
         "admission_locked": true,
-        "daily_list_rank": 29,
+        "daily_list_rank": 28,
         "daily_list_status": "accepted"
       },
       "bear9362": {
@@ -13750,7 +13904,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 08:17:24",
         "admission_locked": true,
-        "daily_list_rank": 30,
+        "daily_list_rank": 29,
         "daily_list_status": "accepted"
       },
       "ayazinan1232955": {
@@ -13934,8 +14088,8 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 12:43:36",
         "admission_locked": false,
-        "daily_list_rank": 31,
-        "daily_list_status": "waitlist"
+        "daily_list_rank": 30,
+        "daily_list_status": "accepted"
       }
     }
   },
@@ -23481,92 +23635,102 @@
         "daily_list_rank": 12,
         "daily_list_status": "accepted"
       },
-      "2098975357638701108": {
-        "x_handle": "aerolattic29965",
+      "2101162237021020579": {
+        "x_handle": "kippsatee",
         "check_handle": "aerolattic29965",
-        "dual_link": false,
-        "promo_handle": "aerolattic29965",
+        "dual_link": true,
+        "promo_handle": "kippsatee",
         "tg_username": "tefe858",
         "tg_user_id": 1941523438,
         "tg_name": "cute(只回复口令)",
-        "link": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
-        "message_text": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
+        "link": "https://x.com/kippsatee/status/2101162237021020579?s=46\n推这条👆🏻\n回推👇🏻\nhttps://x.com/aerolattic29965?s=11",
+        "message_text": "https://x.com/kippsatee/status/2101162237021020579?s=46\n推这条👆🏻\n回推👇🏻\nhttps://x.com/aerolattic29965?s=11",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
-            "handle": "aerolattic29965",
-            "post_id": "2098975357638701108",
+            "url": "https://x.com/kippsatee/status/2101162237021020579?s=46",
+            "handle": "kippsatee",
+            "post_id": "2101162237021020579",
             "role": "promo",
-            "author_name": "布偶",
-            "followers_count": 1684,
-            "followers_text": "1.6K",
+            "author_name": "布偶喵",
+            "followers_count": 7567,
+            "followers_text": "7.5K",
             "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
-                "source": "status_v2",
-                "count": 1684
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 1684
-              },
-              {
                 "source": "status_legacy",
-                "count": 1684
+                "count": 7567
               },
               {
                 "source": "profile_v2",
-                "count": 1684
+                "count": 7567
               }
             ],
-            "tweet_text": "可爱的小珠子\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text": "要是坐在热乎乎的肉棒上就好啦\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
             "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
             ],
             "tweet_text_observations": [
               {
-                "source": "status_v2",
-                "length": 40,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 40,
-                "required_mentions_count": 3
-              },
-              {
                 "source": "vx_status_v2",
-                "length": 40,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 40,
+                "length": 50,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 40,
+                "length": 50,
                 "required_mentions_count": 3
               }
             ],
-            "tweet_text_primary_source": "status_v2",
+            "tweet_text_primary_source": "vx_status_v2",
             "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/aerolattic29965?s=11",
+            "handle": "aerolattic29965",
+            "post_id": "",
+            "role": "check",
+            "author_name": "布偶",
+            "followers_count": 2002,
+            "followers_text": "2K",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 2002
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/kippsatee/status/2101162237021020579?s=46",
+            "post_id": "2101162237021020579",
+            "handle": "kippsatee",
+            "source_time": "2026-09-19 00:11:19",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
             "post_id": "2098975357638701108",
             "handle": "aerolattic29965",
@@ -23574,124 +23738,85 @@
             "edit_time": ""
           }
         ],
-        "x_name": "布偶",
-        "promo_name": "布偶",
-        "followers_count": 1684,
-        "followers_text": "1.6K",
+        "x_name": "布偶喵",
+        "promo_name": "布偶喵",
+        "followers_count": 7567,
+        "followers_text": "7.5K",
         "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
-            "source": "status_v2",
-            "count": 1684
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 1684
-          },
-          {
             "source": "status_legacy",
-            "count": 1684
+            "count": 7567
           },
           {
             "source": "profile_v2",
-            "count": 1684
+            "count": 7567
           }
         ],
-        "check_followers_count": 1684,
-        "check_followers_text": "1.6K",
+        "check_followers_count": 2002,
+        "check_followers_text": "2K",
         "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
-            "source": "status_v2",
-            "count": 1684
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 1684
-          },
-          {
-            "source": "status_legacy",
-            "count": 1684
-          },
-          {
             "source": "profile_v2",
-            "count": 1684
+            "count": 2002
           }
         ],
-        "tweet_text": "可爱的小珠子\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text": "要是坐在热乎乎的肉棒上就好啦\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
         "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
         ],
         "tweet_text_observations": [
           {
-            "source": "status_v2",
-            "length": 40,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 40,
-            "required_mentions_count": 3
-          },
-          {
             "source": "vx_status_v2",
-            "length": 40,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 40,
+            "length": 50,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 40,
+            "length": 50,
             "required_mentions_count": 3
           }
         ],
-        "tweet_text_primary_source": "status_v2",
+        "tweet_text_primary_source": "vx_status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
-        "check_url": "https://x.com/aerolattic29965/status/2098975357638701108?s=46",
-        "promo_post_id": "2098975357638701108",
-        "check_post_id": "2098975357638701108",
+        "promo_url": "https://x.com/kippsatee/status/2101162237021020579?s=46",
+        "check_url": "https://x.com/aerolattic29965?s=11",
+        "promo_post_id": "2101162237021020579",
+        "check_post_id": "",
         "chat_id": "-1003739822194",
         "message_id": 2343,
         "time": "2026-09-19 00:11:19",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-19 13:00:55",
         "followers_min": 0,
-        "qualified_followers_count": 1684,
-        "qualified_followers_text": "1.6K",
+        "qualified_followers_count": 7567,
+        "qualified_followers_text": "7.5K",
         "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
-        "admission_time": "2026-09-19 00:11:19",
-        "admission_locked": true,
-        "daily_list_rank": 13,
-        "daily_list_status": "accepted"
+        "admission_time": "2026-09-19 13:00:55",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "waitlist"
       },
       "2097900410426302706": {
         "x_handle": "25_nagisa",
@@ -23911,7 +24036,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:12:38",
         "admission_locked": true,
-        "daily_list_rank": 14,
+        "daily_list_rank": 13,
         "daily_list_status": "accepted"
       },
       "2100258031800102978": {
@@ -24123,7 +24248,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:17:32",
         "admission_locked": true,
-        "daily_list_rank": 15,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted"
       },
       "2100822644430078161": {
@@ -24335,7 +24460,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:28:20",
         "admission_locked": true,
-        "daily_list_rank": 16,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted"
       },
       "2100979942158995508": {
@@ -24547,7 +24672,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:32:22",
         "admission_locked": true,
-        "daily_list_rank": 17,
+        "daily_list_rank": 16,
         "daily_list_status": "accepted"
       },
       "2088939481709826244": {
@@ -24759,7 +24884,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:44:14",
         "admission_locked": true,
-        "daily_list_rank": 18,
+        "daily_list_rank": 17,
         "daily_list_status": "accepted"
       },
       "2100429104147529787": {
@@ -24943,7 +25068,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 00:47:26",
         "admission_locked": true,
-        "daily_list_rank": 19,
+        "daily_list_rank": 18,
         "daily_list_status": "accepted"
       },
       "2100574128088694841": {
@@ -25155,7 +25280,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 01:08:49",
         "admission_locked": true,
-        "daily_list_rank": 20,
+        "daily_list_rank": 19,
         "daily_list_status": "accepted"
       },
       "2100884316968665094": {
@@ -25367,7 +25492,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 01:19:21",
         "admission_locked": true,
-        "daily_list_rank": 21,
+        "daily_list_rank": 20,
         "daily_list_status": "accepted"
       },
       "2091080155980808543": {
@@ -25551,7 +25676,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 01:50:50",
         "admission_locked": true,
-        "daily_list_rank": 22,
+        "daily_list_rank": 21,
         "daily_list_status": "accepted"
       },
       "2100557074879144136": {
@@ -25763,7 +25888,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 01:53:50",
         "admission_locked": true,
-        "daily_list_rank": 23,
+        "daily_list_rank": 22,
         "daily_list_status": "accepted"
       },
       "2100619112754114733": {
@@ -25975,7 +26100,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 02:16:31",
         "admission_locked": true,
-        "daily_list_rank": 24,
+        "daily_list_rank": 23,
         "daily_list_status": "accepted"
       },
       "2096137880469139500": {
@@ -26187,7 +26312,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 04:08:12",
         "admission_locked": true,
-        "daily_list_rank": 25,
+        "daily_list_rank": 24,
         "daily_list_status": "accepted"
       },
       "2101046966973256027": {
@@ -26399,7 +26524,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 04:34:00",
         "admission_locked": true,
-        "daily_list_rank": 26,
+        "daily_list_rank": 25,
         "daily_list_status": "accepted"
       },
       "2100969836595831274": {
@@ -26611,7 +26736,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 06:01:33",
         "admission_locked": true,
-        "daily_list_rank": 27,
+        "daily_list_rank": 26,
         "daily_list_status": "accepted"
       },
       "2101100724507836506": {
@@ -26823,7 +26948,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 08:08:45",
         "admission_locked": true,
-        "daily_list_rank": 28,
+        "daily_list_rank": 27,
         "daily_list_status": "accepted"
       },
       "2100743609029206324": {
@@ -27035,7 +27160,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 08:11:00",
         "admission_locked": true,
-        "daily_list_rank": 29,
+        "daily_list_rank": 28,
         "daily_list_status": "accepted"
       },
       "2099664463691718926": {
@@ -27247,7 +27372,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 08:17:24",
         "admission_locked": true,
-        "daily_list_rank": 30,
+        "daily_list_rank": 29,
         "daily_list_status": "accepted"
       },
       "2101170166860222684": {
@@ -27431,8 +27556,8 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-19 12:43:36",
         "admission_locked": false,
-        "daily_list_rank": 31,
-        "daily_list_status": "waitlist"
+        "daily_list_rank": 30,
+        "daily_list_status": "accepted"
       }
     }
   },

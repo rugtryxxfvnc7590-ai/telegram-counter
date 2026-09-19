@@ -27565,5 +27565,16 @@
     "群一": 30,
     "群二": 30,
     "群三": 30
+  },
+  "confirmed_withdrawals": {
+    "date": "2026-09-19",
+    "groups": {
+      "群三": {
+        "2372": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-09-19 13:45:29"
+        }
+      }
+    }
   }
 }

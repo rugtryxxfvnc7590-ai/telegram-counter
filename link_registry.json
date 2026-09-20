@@ -12106,8 +12106,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-21 05:38:39",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 27,
+        "daily_list_status": "accepted"
+      },
+      "tankxm07": {
+        "x_handle": "tankxm07",
+        "check_handle": "tankxm07",
+        "dual_link": false,
+        "promo_handle": "tankxm07",
+        "tg_username": "pptmm17",
+        "tg_user_id": 8620232479,
+        "tg_name": "泡芙",
+        "link": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+        "message_text": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+            "handle": "tankxm07",
+            "post_id": "2101615902554988752",
+            "role": "promo",
+            "author_name": "tank小猫",
+            "followers_count": 4218,
+            "followers_text": "4.2K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 4218
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 4218
+              },
+              {
+                "source": "status_legacy",
+                "count": 4218
+              },
+              {
+                "source": "profile_v2",
+                "count": 4218
+              }
+            ],
+            "tweet_text": "吃波波                                                                                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 136,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+            "post_id": "2101615902554988752",
+            "handle": "tankxm07",
+            "source_time": "2026-09-21 05:59:55",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "tank小猫",
+        "promo_name": "tank小猫",
+        "followers_count": 4218,
+        "followers_text": "4.2K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4218
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4218
+          },
+          {
+            "source": "status_legacy",
+            "count": 4218
+          },
+          {
+            "source": "profile_v2",
+            "count": 4218
+          }
+        ],
+        "check_followers_count": 4218,
+        "check_followers_text": "4.2K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4218
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4218
+          },
+          {
+            "source": "status_legacy",
+            "count": 4218
+          },
+          {
+            "source": "profile_v2",
+            "count": 4218
+          }
+        ],
+        "tweet_text": "吃波波                                                                                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 136,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+        "check_url": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+        "promo_post_id": "2101615902554988752",
+        "check_post_id": "2101615902554988752",
+        "chat_id": "-1003739822194",
+        "message_id": 2488,
+        "time": "2026-09-21 05:59:55",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 4218,
+        "qualified_followers_text": "4.2K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-21 05:59:55",
+        "admission_locked": false,
+        "daily_list_rank": 28,
         "daily_list_status": "accepted"
       }
     }
@@ -24020,8 +24232,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-21 05:38:39",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 27,
+        "daily_list_status": "accepted"
+      },
+      "2101615902554988752": {
+        "x_handle": "tankxm07",
+        "check_handle": "tankxm07",
+        "dual_link": false,
+        "promo_handle": "tankxm07",
+        "tg_username": "pptmm17",
+        "tg_user_id": 8620232479,
+        "tg_name": "泡芙",
+        "link": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+        "message_text": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+            "handle": "tankxm07",
+            "post_id": "2101615902554988752",
+            "role": "promo",
+            "author_name": "tank小猫",
+            "followers_count": 4218,
+            "followers_text": "4.2K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 4218
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 4218
+              },
+              {
+                "source": "status_legacy",
+                "count": 4218
+              },
+              {
+                "source": "profile_v2",
+                "count": 4218
+              }
+            ],
+            "tweet_text": "吃波波                                                                                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 136,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+            "post_id": "2101615902554988752",
+            "handle": "tankxm07",
+            "source_time": "2026-09-21 05:59:55",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "tank小猫",
+        "promo_name": "tank小猫",
+        "followers_count": 4218,
+        "followers_text": "4.2K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4218
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4218
+          },
+          {
+            "source": "status_legacy",
+            "count": 4218
+          },
+          {
+            "source": "profile_v2",
+            "count": 4218
+          }
+        ],
+        "check_followers_count": 4218,
+        "check_followers_text": "4.2K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4218
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4218
+          },
+          {
+            "source": "status_legacy",
+            "count": 4218
+          },
+          {
+            "source": "profile_v2",
+            "count": 4218
+          }
+        ],
+        "tweet_text": "吃波波                                                                                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 136,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+        "check_url": "https://x.com/tankxm07/status/2101615902554988752?s=46",
+        "promo_post_id": "2101615902554988752",
+        "check_post_id": "2101615902554988752",
+        "chat_id": "-1003739822194",
+        "message_id": 2488,
+        "time": "2026-09-21 05:59:55",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 4218,
+        "qualified_followers_text": "4.2K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-21 05:59:55",
+        "admission_locked": false,
+        "daily_list_rank": 28,
         "daily_list_status": "accepted"
       }
     }

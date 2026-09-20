@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "offset": 364615843,
+  "offset": 364615848,
   "groups": {
     "-1003891628675": {
       "count": 31,
@@ -46,7 +46,7 @@
       ]
     },
     "-1003739822194": {
-      "count": 15,
+      "count": 19,
       "message_ids": [
         "2459",
         "2460",
@@ -62,13 +62,17 @@
         "2472",
         "2473",
         "2474",
-        "2475"
+        "2475",
+        "2476",
+        "2477",
+        "2478",
+        "2479"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-21",
-    "run_at": "2026-09-21 00:45:25",
+    "run_at": "2026-09-21 01:00:45",
     "completed_groups": [
       "群一",
       "群二",
@@ -76,20 +80,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35523688824:1",
-        "checked_at": "2026-09-21 00:45:26",
+        "run_key": "35524468100:1",
+        "checked_at": "2026-09-21 01:00:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35523688824:1",
-        "checked_at": "2026-09-21 00:45:26",
+        "run_key": "35524468100:1",
+        "checked_at": "2026-09-21 01:00:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35523688824:1",
-        "checked_at": "2026-09-21 00:45:27",
+        "run_key": "35524468100:1",
+        "checked_at": "2026-09-21 01:00:47",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -1140,13 +1144,61 @@
             "tg_user_id": "7335175723",
             "time": "2026-09-21 00:37:08",
             "admission_time": "2026-09-21 00:37:08"
+          },
+          {
+            "handle": "showu3u",
+            "post_id": "2101714675100680406",
+            "original_post_id": "2101714675100680406",
+            "url": "https://x.com/showu3u/status/2101714675100680406",
+            "edited": false,
+            "position": 16,
+            "message_id": "2476",
+            "tg_user_id": "5344912406",
+            "time": "2026-09-21 00:46:59",
+            "admission_time": "2026-09-21 00:46:59"
+          },
+          {
+            "handle": "yjx267",
+            "post_id": "2101612430803738882",
+            "original_post_id": "2101612430803738882",
+            "url": "https://x.com/yjx267/status/2101612430803738882",
+            "edited": false,
+            "position": 17,
+            "message_id": "2477",
+            "tg_user_id": "5675062801",
+            "time": "2026-09-21 00:49:53",
+            "admission_time": "2026-09-21 00:49:53"
+          },
+          {
+            "handle": "kwonhm0611",
+            "post_id": "2100866464198836658",
+            "original_post_id": "2100866464198836658",
+            "url": "https://x.com/kwonhm0611/status/2100866464198836658",
+            "edited": false,
+            "position": 18,
+            "message_id": "2478",
+            "tg_user_id": "8228762729",
+            "time": "2026-09-21 00:55:24",
+            "admission_time": "2026-09-21 00:55:24"
+          },
+          {
+            "handle": "xinxinjjj",
+            "post_id": "2101622233085169963",
+            "original_post_id": "2101622233085169963",
+            "url": "https://x.com/xinxinjjj/status/2101622233085169963",
+            "edited": false,
+            "position": 19,
+            "message_id": "2479",
+            "tg_user_id": "1437992083",
+            "time": "2026-09-21 00:57:26",
+            "admission_time": "2026-09-21 00:57:26"
           }
         ],
-        "capacity": 15,
+        "capacity": 19,
         "withdrawn_message_ids": [],
         "vacant_positions": {},
-        "roster_capacity": 15,
-        "count": 15
+        "roster_capacity": 19,
+        "count": 19
       }
     }
   },

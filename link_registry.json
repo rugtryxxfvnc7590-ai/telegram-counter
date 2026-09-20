@@ -11314,8 +11314,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-21 02:49:11",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 23,
+        "daily_list_status": "accepted"
+      },
+      "chiirouoo": {
+        "x_handle": "chiirouoo",
+        "check_handle": "chiirouoo",
+        "dual_link": false,
+        "promo_handle": "chiirouoo",
+        "tg_username": "realrou",
+        "tg_user_id": 7722665588,
+        "tg_name": "肉本肉",
+        "link": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+        "message_text": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+            "handle": "chiirouoo",
+            "post_id": "2101046966973256027",
+            "role": "promo",
+            "author_name": "肉肉白",
+            "followers_count": 1413,
+            "followers_text": "1.4K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1413
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1413
+              },
+              {
+                "source": "status_legacy",
+                "count": 1413
+              },
+              {
+                "source": "profile_v2",
+                "count": 1413
+              }
+            ],
+            "tweet_text": "ᨳ  NeedyGirlOverdose ᜊ\n\nJust cosplaying a game I love \n\n✉️\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 91,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 91,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 91,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 91,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 91,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+            "post_id": "2101046966973256027",
+            "handle": "chiirouoo",
+            "source_time": "2026-09-21 03:13:48",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "肉肉白",
+        "promo_name": "肉肉白",
+        "followers_count": 1413,
+        "followers_text": "1.4K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1413
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1413
+          },
+          {
+            "source": "status_legacy",
+            "count": 1413
+          },
+          {
+            "source": "profile_v2",
+            "count": 1413
+          }
+        ],
+        "check_followers_count": 1413,
+        "check_followers_text": "1.4K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1413
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1413
+          },
+          {
+            "source": "status_legacy",
+            "count": 1413
+          },
+          {
+            "source": "profile_v2",
+            "count": 1413
+          }
+        ],
+        "tweet_text": "ᨳ  NeedyGirlOverdose ᜊ\n\nJust cosplaying a game I love \n\n✉️\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 91,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 91,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 91,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 91,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 91,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+        "check_url": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+        "promo_post_id": "2101046966973256027",
+        "check_post_id": "2101046966973256027",
+        "chat_id": "-1003739822194",
+        "message_id": 2484,
+        "time": "2026-09-21 03:13:48",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1413,
+        "qualified_followers_text": "1.4K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-21 03:13:48",
+        "admission_locked": false,
+        "daily_list_rank": 24,
         "daily_list_status": "accepted"
       }
     }
@@ -22436,8 +22648,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-21 02:49:11",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 23,
+        "daily_list_status": "accepted"
+      },
+      "2101046966973256027": {
+        "x_handle": "chiirouoo",
+        "check_handle": "chiirouoo",
+        "dual_link": false,
+        "promo_handle": "chiirouoo",
+        "tg_username": "realrou",
+        "tg_user_id": 7722665588,
+        "tg_name": "肉本肉",
+        "link": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+        "message_text": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+            "handle": "chiirouoo",
+            "post_id": "2101046966973256027",
+            "role": "promo",
+            "author_name": "肉肉白",
+            "followers_count": 1413,
+            "followers_text": "1.4K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1413
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1413
+              },
+              {
+                "source": "status_legacy",
+                "count": 1413
+              },
+              {
+                "source": "profile_v2",
+                "count": 1413
+              }
+            ],
+            "tweet_text": "ᨳ  NeedyGirlOverdose ᜊ\n\nJust cosplaying a game I love \n\n✉️\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 91,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 91,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 91,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 91,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 91,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+            "post_id": "2101046966973256027",
+            "handle": "chiirouoo",
+            "source_time": "2026-09-21 03:13:48",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "肉肉白",
+        "promo_name": "肉肉白",
+        "followers_count": 1413,
+        "followers_text": "1.4K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1413
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1413
+          },
+          {
+            "source": "status_legacy",
+            "count": 1413
+          },
+          {
+            "source": "profile_v2",
+            "count": 1413
+          }
+        ],
+        "check_followers_count": 1413,
+        "check_followers_text": "1.4K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1413
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1413
+          },
+          {
+            "source": "status_legacy",
+            "count": 1413
+          },
+          {
+            "source": "profile_v2",
+            "count": 1413
+          }
+        ],
+        "tweet_text": "ᨳ  NeedyGirlOverdose ᜊ\n\nJust cosplaying a game I love \n\n✉️\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 91,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 91,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 91,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 91,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 91,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+        "check_url": "https://x.com/chiirouoo/status/2101046966973256027?s=46",
+        "promo_post_id": "2101046966973256027",
+        "check_post_id": "2101046966973256027",
+        "chat_id": "-1003739822194",
+        "message_id": 2484,
+        "time": "2026-09-21 03:13:48",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1413,
+        "qualified_followers_text": "1.4K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-21 03:13:48",
+        "admission_locked": false,
+        "daily_list_rank": 24,
         "daily_list_status": "accepted"
       }
     }

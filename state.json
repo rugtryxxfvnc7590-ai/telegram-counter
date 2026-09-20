@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "offset": 364615856,
+  "offset": 364615857,
   "groups": {
     "-1003891628675": {
       "count": 31,
@@ -48,7 +48,7 @@
       ]
     },
     "-1003739822194": {
-      "count": 25,
+      "count": 26,
       "message_ids": [
         "2459",
         "2460",
@@ -74,13 +74,14 @@
         "2482",
         "2483",
         "2484",
-        "2485"
+        "2485",
+        "2486"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-21",
-    "run_at": "2026-09-21 03:45:25",
+    "run_at": "2026-09-21 04:00:38",
     "completed_groups": [
       "群一",
       "群二",
@@ -88,20 +89,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35533323266:1",
-        "checked_at": "2026-09-21 03:45:26",
+        "run_key": "35534115994:1",
+        "checked_at": "2026-09-21 04:00:40",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35533323266:1",
-        "checked_at": "2026-09-21 03:45:26",
+        "run_key": "35534115994:1",
+        "checked_at": "2026-09-21 04:00:40",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35533323266:1",
-        "checked_at": "2026-09-21 03:45:26",
+        "run_key": "35534115994:1",
+        "checked_at": "2026-09-21 04:00:41",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -1296,13 +1297,25 @@
             "tg_user_id": "8489845372",
             "time": "2026-09-21 03:36:58",
             "admission_time": "2026-09-21 03:36:58"
+          },
+          {
+            "handle": "youmimilll",
+            "post_id": "2101540413052207232",
+            "original_post_id": "2101540413052207232",
+            "url": "https://x.com/youmimilll/status/2101540413052207232",
+            "edited": false,
+            "position": 26,
+            "message_id": "2486",
+            "tg_user_id": "6555223935",
+            "time": "2026-09-21 03:47:19",
+            "admission_time": "2026-09-21 03:47:19"
           }
         ],
-        "capacity": 25,
+        "capacity": 26,
         "withdrawn_message_ids": [],
         "vacant_positions": {},
-        "roster_capacity": 25,
-        "count": 25
+        "roster_capacity": 26,
+        "count": 26
       }
     }
   },

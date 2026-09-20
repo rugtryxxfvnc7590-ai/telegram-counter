@@ -11710,8 +11710,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-21 03:36:58",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 25,
+        "daily_list_status": "accepted"
+      },
+      "youmimilll": {
+        "x_handle": "youmimilll",
+        "check_handle": "youmimilll",
+        "dual_link": false,
+        "promo_handle": "youmimilll",
+        "tg_username": "youmimilll",
+        "tg_user_id": 6555223935,
+        "tg_name": "呆呆 咪",
+        "link": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+        "message_text": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+            "handle": "youmimilll",
+            "post_id": "2101540413052207232",
+            "role": "promo",
+            "author_name": "柚米眯",
+            "followers_count": 5908,
+            "followers_text": "5.9K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 5908
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 5908
+              },
+              {
+                "source": "status_legacy",
+                "count": 5908
+              },
+              {
+                "source": "profile_v2",
+                "count": 5908
+              }
+            ],
+            "tweet_text": "我就乐意这样子，不服叫妈妈\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 47,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+            "post_id": "2101540413052207232",
+            "handle": "youmimilll",
+            "source_time": "2026-09-21 03:47:19",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "柚米眯",
+        "promo_name": "柚米眯",
+        "followers_count": 5908,
+        "followers_text": "5.9K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5908
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5908
+          },
+          {
+            "source": "status_legacy",
+            "count": 5908
+          },
+          {
+            "source": "profile_v2",
+            "count": 5908
+          }
+        ],
+        "check_followers_count": 5908,
+        "check_followers_text": "5.9K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5908
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5908
+          },
+          {
+            "source": "status_legacy",
+            "count": 5908
+          },
+          {
+            "source": "profile_v2",
+            "count": 5908
+          }
+        ],
+        "tweet_text": "我就乐意这样子，不服叫妈妈\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 47,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+        "check_url": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+        "promo_post_id": "2101540413052207232",
+        "check_post_id": "2101540413052207232",
+        "chat_id": "-1003739822194",
+        "message_id": 2486,
+        "time": "2026-09-21 03:47:19",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 5908,
+        "qualified_followers_text": "5.9K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-21 03:47:19",
+        "admission_locked": false,
+        "daily_list_rank": 26,
         "daily_list_status": "accepted"
       }
     }
@@ -23228,8 +23440,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-21 03:36:58",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 25,
+        "daily_list_status": "accepted"
+      },
+      "2101540413052207232": {
+        "x_handle": "youmimilll",
+        "check_handle": "youmimilll",
+        "dual_link": false,
+        "promo_handle": "youmimilll",
+        "tg_username": "youmimilll",
+        "tg_user_id": 6555223935,
+        "tg_name": "呆呆 咪",
+        "link": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+        "message_text": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+            "handle": "youmimilll",
+            "post_id": "2101540413052207232",
+            "role": "promo",
+            "author_name": "柚米眯",
+            "followers_count": 5908,
+            "followers_text": "5.9K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 5908
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 5908
+              },
+              {
+                "source": "status_legacy",
+                "count": 5908
+              },
+              {
+                "source": "profile_v2",
+                "count": 5908
+              }
+            ],
+            "tweet_text": "我就乐意这样子，不服叫妈妈\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 47,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 47,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+            "post_id": "2101540413052207232",
+            "handle": "youmimilll",
+            "source_time": "2026-09-21 03:47:19",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "柚米眯",
+        "promo_name": "柚米眯",
+        "followers_count": 5908,
+        "followers_text": "5.9K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5908
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5908
+          },
+          {
+            "source": "status_legacy",
+            "count": 5908
+          },
+          {
+            "source": "profile_v2",
+            "count": 5908
+          }
+        ],
+        "check_followers_count": 5908,
+        "check_followers_text": "5.9K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 5908
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 5908
+          },
+          {
+            "source": "status_legacy",
+            "count": 5908
+          },
+          {
+            "source": "profile_v2",
+            "count": 5908
+          }
+        ],
+        "tweet_text": "我就乐意这样子，不服叫妈妈\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 47,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 47,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+        "check_url": "https://x.com/youmimilll/status/2101540413052207232?s=46",
+        "promo_post_id": "2101540413052207232",
+        "check_post_id": "2101540413052207232",
+        "chat_id": "-1003739822194",
+        "message_id": 2486,
+        "time": "2026-09-21 03:47:19",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 5908,
+        "qualified_followers_text": "5.9K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-21 03:47:19",
+        "admission_locked": false,
+        "daily_list_rank": 26,
         "daily_list_status": "accepted"
       }
     }

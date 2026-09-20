@@ -29,6 +29,7 @@ from withdrawal_sync import snapshot_withdrawals
 from admission_order import set_admission_time
 from daily_capacity import group_for_chat
 from edited_link_receipts import _published_slots
+from daily_roster import admission_slots
 
 
 HISTORY_LIMIT = 3000
@@ -114,7 +115,8 @@ def _replace_group_snapshot(registry, state, chat_id, messages, day):
 
     previous = _previous_rows_by_message(registry, chat_id)
     snapshots = _previous_snapshot_by_message(registry, chat_id)
-    published_slots = _published_slots(state, group_for_chat(chat_id), day) or None
+    published_slots = (admission_slots(state, group_for_chat(chat_id), day)
+                       or _published_slots(state, group_for_chat(chat_id), day) or None)
     for cid in expand_chat_id(chat_id):
         registry.setdefault("entries", {}).pop(cid, None)
         registry.setdefault("post_entries", {}).pop(cid, None)
@@ -230,6 +232,7 @@ async def _today_messages(client, entity, day_start_utc):
 async def async_main():
     from main import load_reply_rules
     from violation_delivery import recover_violation_replies, verified_reply_bot_id
+    from replacement_delivery import recover_replacement_replies
 
     if not deletion_sync_enabled():
         print("今日群消息补齐：未配置 Telegram 用户会话，跳过。")
@@ -264,6 +267,7 @@ async def async_main():
                 messages = await _today_messages(client, entity, day_start)
                 matched = replace_group_snapshot(registry, state, chat_id, messages, day, now=datetime.now(BEIJING))
                 recover_violation_replies(state, chat_id, messages, bot_id, reply_rules, now=datetime.now(BEIJING))
+                recover_replacement_replies(state, chat_id, messages, bot_id, reply_rules, now=datetime.now(BEIJING))
             except Exception as exc:
                 print(f"今日群消息补齐：群 {chat_id} 核查失败，保留原数据：{exc}")
                 continue

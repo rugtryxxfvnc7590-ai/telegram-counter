@@ -6,6 +6,8 @@ from capacity_delivery import process_capacity_replies, send_capacity_reply
 from edited_link_receipts import process_edited_link_receipts
 from daily_capacity import stamp_admission
 from violation_delivery import process_violation_replies
+from replacement_delivery import process_replacement_replies
+from website_sync import sync_website
 
 
 def main():
@@ -29,6 +31,8 @@ def main():
         owner_chat_id=os.getenv("TELEGRAM_OWNER_CHAT_ID", ""),
         save_callback=lambda: save_state(state),
     )
+    process_replacement_replies(state, save_callback=lambda: save_state(state))
+    sync_website(state, save_callback=lambda: save_state(state))
     process_capacity_replies(registry, state, limits=limits, save_callback=lambda: save_state(state))
     process_violation_replies(registry, state, save_callback=lambda: save_state(state))
     save_state(state)

@@ -13,6 +13,7 @@ from private_list_sync import edited_slots, freeze_links
 from edited_link_receipts import defer_edited_link_reply, _published_slots
 from admission_order import set_admission_time
 from withdrawal_sync import plan_roster
+from daily_roster import admission_slots
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
 STATE_FILE = "state.json"
@@ -36,6 +37,8 @@ CUTOFF_ELIGIBILITY_TEXT = "❌超时链接"
 OWNER_CHAT_ID_ENV = "TELEGRAM_OWNER_CHAT_ID"
 REPLY_RULES_FILE = Path(__file__).resolve().with_name("bot_reply_rules.json")
 DEFAULT_REPLY_RULES = {
+    "replacement_admitted": {"enabled": True, "groups": ["群一", "群二", "群三"],
+                             "text": "已成功加入今日互推名单内，请记得转推"},
     "missing_mentions": {"enabled": True, "groups": ["群一", "群二", "群三"], "text": INVALID_MENTIONS_REPLY_TEXT},
     "low_followers": {"enabled": True, "groups": ["群一", "群二", "群三"], "text": LOW_FOLLOWER_REPLY_TEXT},
     "limit_full": {
@@ -343,7 +346,7 @@ def daily_eligible_links(registry, chat_id, limits=None):
     return [row["url"] for row in reversed(rows)]
 
 
-def format_daily_list_message(group_label, day, links, edited_indices=()):
+def format_daily_list_message(group_label, day, links, edited_indices=(), slots=None):
     try:
         parsed = datetime.strptime(day, "%Y-%m-%d")
         date_label = f"{parsed.month}月{parsed.day}日"
@@ -352,8 +355,12 @@ def format_daily_list_message(group_label, day, links, edited_indices=()):
     lines = [f"{group_label}（{date_label}）互推名单，共 {len(links)} 条"]
     if links:
         edited_indices = set(edited_indices)
-        lines.extend(f"{'已编辑 ' if index in edited_indices else ''}{index} {url}"
-                     for index, url in enumerate(links, 1))
+        for index, url in enumerate(links, 1):
+            slot = slots[index - 1] if slots is not None else {}
+            position = slot.get("position", index)
+            prefix = "候补" if slot.get("is_replacement") else ""
+            edited = slot.get("edited", index in edited_indices)
+            lines.append(f"{'已编辑 ' if edited else ''}{prefix}{position} {url}")
     else:
         lines.append("今日没有合格互推链接")
     return "\n\n".join(lines)
@@ -398,7 +405,7 @@ def _edit_private_message(chat_id, message_id, text):
 
 
 def _sync_sent_owner_list(registry, record, group, chat_id, owner, day, now, replace_legacy=False,
-                         limit=0, save_callback=None):
+                         limit=0, save_callback=None, shared_roster=None):
     message_id = record.get("message_id")
     if record.get("owner_chat_id") not in (None, "", owner):
         return "owner_changed", False
@@ -407,9 +414,13 @@ def _sync_sent_owner_list(registry, record, group, chat_id, owner, day, now, rep
     slots = record.get("slots")
     if slots is None:
         slots = freeze_links(record.get("links") or [], registry, expand_chat_id(chat_id), day)
-    plan = plan_roster(dict(record, slots=slots), registry, chat_id, day, now, limit)
-    roster_changed = (plan["slots"] != slots
-                      or plan["withdrawn_message_ids"] != record.get("withdrawn_message_ids", []))
+    plan = ({key: shared_roster[key] for key in ("slots", "capacity", "withdrawn_message_ids", "vacant_positions")}
+            if shared_roster is not None and now[11:16] < "19:00"
+            else plan_roster(dict(record, slots=slots), registry, chat_id, day, now, limit))
+    roster_changed = ([(s.get("position"), s.get("message_id")) for s in plan["slots"]]
+                      != [(s.get("position"), s.get("message_id")) for s in slots]
+                      or plan["withdrawn_message_ids"] != record.get("withdrawn_message_ids", [])
+                      or plan["vacant_positions"] != record.get("vacant_positions", {}))
     if roster_changed:
         desired = dict(plan, planned_at=now)
         previous = record.get("pending_roster") or {}
@@ -420,11 +431,11 @@ def _sync_sent_owner_list(registry, record, group, chat_id, owner, day, now, rep
     updated = edited_slots(plan["slots"], registry, expand_chat_id(chat_id), day, now)
     links = [slot["url"] for slot in updated]
     indices = [i for i, slot in enumerate(updated, 1) if slot.get("edited")]
-    message = format_daily_list_message(group, day, links, indices)
+    message = format_daily_list_message(group, day, links, indices, slots=updated)
     if message_id and message == record.get("text"):
         if record.get("pending_roster"):
             record.update(slots=updated, links=links, count=len(links), roster_capacity=plan["capacity"],
-                          withdrawn_message_ids=plan["withdrawn_message_ids"])
+                          withdrawn_message_ids=plan["withdrawn_message_ids"], vacant_positions=plan["vacant_positions"])
             record.pop("pending_roster", None)
             return "already_sent", True
         return "already_sent", False
@@ -442,7 +453,8 @@ def _sync_sent_owner_list(registry, record, group, chat_id, owner, day, now, rep
         record["legacy_reissued_at"] = now
     record.update(owner_chat_id=owner, slots=updated, links=links, count=len(links), text=message, updated_at=now)
     if record.get("pending_roster"):
-        record.update(roster_capacity=plan["capacity"], withdrawn_message_ids=plan["withdrawn_message_ids"])
+        record.update(roster_capacity=plan["capacity"], withdrawn_message_ids=plan["withdrawn_message_ids"],
+                      vacant_positions=plan["vacant_positions"])
         record.pop("pending_roster", None)
     return "edited" if message_id else "legacy_reissued", True
 
@@ -456,6 +468,10 @@ def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, lim
     else:
         now = now.astimezone(BEIJING)
     limits = normalize_daily_limits(limits if limits is not None else load_daily_limits())
+    from daily_roster import final_owner_rosters, refresh_daily_rosters
+    rosters = refresh_daily_rosters(registry, state, limits, now=now, save_callback=save_callback)
+    if daily_list_send_due(now):
+        rosters = final_owner_rosters(registry, state, limits, now=now)
 
     owner_chat_id = os.getenv(OWNER_CHAT_ID_ENV, "").strip()
     if not owner_chat_id:
@@ -489,6 +505,7 @@ def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, lim
                 (now if fixed_now is not None else datetime.now(BEIJING)).strftime("%Y-%m-%d %H:%M:%S"),
                 replace_legacy=(group_label in replace_legacy_groups and not record.get("legacy_reissued_at")),
                 limit=limits[group_label], save_callback=save_callback,
+                shared_roster=rosters.get(group_label),
             )
             results[group_label] = status
             if changed:
@@ -500,12 +517,15 @@ def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, lim
             results[group_label] = "waiting_for_snapshot"
             print(f"19:00 私信名单：{group_label} 今日群消息快照未完成，下一轮先补齐再发送。")
             continue
-        links = daily_eligible_links(registry, chat_id, limits=limits)
+        roster = rosters.get(group_label)
+        frozen = (roster["slots"] if roster is not None
+                  else freeze_links(daily_eligible_links(registry, chat_id, limits=limits), registry, expand_chat_id(chat_id), day))
+        links = [slot["url"] for slot in frozen]
         full = bool(limits[group_label]) and len(links) >= limits[group_label]
         if not full and not daily_list_send_due(now):
             results[group_label] = "waiting_for_limit_or_cutoff"
             continue
-        message = format_daily_list_message(group_label, day, links)
+        message = format_daily_list_message(group_label, day, links, slots=frozen)
         if len(message) > 4096:
             results[group_label] = "message_too_long"
             print(f"19:00 私信名单：{group_label} 文本超过 Telegram 单条消息上限，未发送。")
@@ -522,11 +542,15 @@ def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, lim
             "trigger": "capacity_full" if full and not daily_list_send_due(now) else "19:00",
             "limit": limits[group_label],
             "links": links,
-            "slots": freeze_links(links, registry, expand_chat_id(chat_id), day),
+            "slots": frozen,
             "message_id": error.get("message_id") if isinstance(error, dict) else None,
             "owner_chat_id": owner_chat_id,
             "text": message,
         }
+        if roster is not None:
+            sent_groups[group_label].update(roster_capacity=len(frozen) + len(roster["vacant_positions"]),
+                                           vacant_positions=roster["vacant_positions"],
+                                           withdrawn_message_ids=roster["withdrawn_message_ids"])
         if save_callback:
             save_callback()
         results[group_label] = "sent"
@@ -1617,7 +1641,8 @@ def main():
             handles = handles_from_links(links)
             check_handle, dual_link, promo_handle = parse_check_handle_from_handles(handles)
             previous_entries = remove_registry_rows_for_message(registry, actual_chat_id, message_id)
-            published_slots = _published_slots(state, group_for_chat(actual_chat_id), msg_day) or None
+            published_slots = (admission_slots(state, group_for_chat(actual_chat_id), msg_day)
+                               or _published_slots(state, group_for_chat(actual_chat_id), msg_day) or None)
             removed = len(previous_entries)
             if removed:
                 print(f"   ♻️ 同一 Telegram 消息已更新，移除旧登记 {removed} 条")

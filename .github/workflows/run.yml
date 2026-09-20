@@ -73,6 +73,8 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+          WEBSITE_SYNC_SECRET: ${{ secrets.WEBSITE_SYNC_SECRET }}
+          WEBSITE_SYNC_URL: ${{ vars.WEBSITE_SYNC_URL }}
           OWNER_LIST_REISSUE_GROUP: ${{ inputs.reissue_owner_group }}
           OWNER_LIST_REISSUE_DATE: ${{ inputs.reissue_owner_date }}
         run: python send_daily_lists.py

@@ -35,7 +35,7 @@ def freeze_links(links, registry, chat_ids, day):
     """Bind an already selected list, including legacy URLs retained in edit history."""
     rows = current_rows(registry, chat_ids, day)
     slots = []
-    for url in links:
+    for position, url in enumerate(links, 1):
         handle, post_id = post_identity(url)
         matches = []
         for row in rows:
@@ -45,7 +45,7 @@ def freeze_links(links, registry, chat_ids, day):
                 matches.append(row)
         bindings = {(r["message_id"], r["tg_user_id"], r["time"]) for r in matches}
         slot = {"handle": handle, "post_id": post_id, "original_post_id": post_id,
-                "url": url, "edited": False}
+                "url": url, "edited": False, "position": position}
         if len(bindings) == 1:
             slot.update(zip(("message_id", "tg_user_id", "time"), next(iter(bindings))))
             slot["admission_time"] = min(str(row["entry"].get("admission_time") or row["time"]) for row in matches)

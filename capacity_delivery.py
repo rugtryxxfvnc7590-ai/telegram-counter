@@ -46,6 +46,10 @@ def process_capacity_replies(registry, state, now=None, limits=None, rules=None,
             continue
         published_messages = {str(slot.get("message_id")) for slot in _published_slots(state, group, day)
                               if slot.get("message_id")}
+        daily = state.get("daily_rosters") or {}
+        if daily.get("date") == day:
+            published_messages.update(str(slot.get("message_id")) for slot in
+                ((daily.get("groups") or {}).get(group) or {}).get("slots", []) if slot.get("message_id"))
         sent = delivery.setdefault("groups", {}).setdefault(group, {})
         legacy_keys = set()
         for cid in chat_ids_for_group(group):

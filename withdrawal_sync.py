@@ -38,12 +38,13 @@ def snapshot_withdrawals(registry, state, chat_id, messages, day, contains_post,
             for entry in ((registry.get(bucket) or {}).get(cid) or {}).values():
                 if str(entry.get("time") or "")[:10] == day:
                     known.add(str(entry.get("message_id") or ""))
-    published = state.get("owner_daily_lists") or {}
-    if published.get("date") == day:
-        record = (published.get("groups") or {}).get(group_for_chat(chat_id)) or {}
-        for slot in list(record.get("slots") or []) + list((record.get("pending_roster") or {}).get("slots") or []):
-            if str(slot.get("time") or "")[:10] == day:
-                known.add(str(slot.get("message_id") or ""))
+    for name in ("owner_daily_lists", "daily_rosters"):
+        published = state.get(name) or {}
+        if published.get("date") == day:
+            record = (published.get("groups") or {}).get(group_for_chat(chat_id)) or {}
+            for slot in list(record.get("slots") or []) + list((record.get("pending_roster") or {}).get("slots") or []):
+                if str(slot.get("time") or "")[:10] == day:
+                    known.add(str(slot.get("message_id") or ""))
     current = {str(msg.get("message_id")): msg for msg in messages}
     reasons = {}
     for mid in known:
@@ -59,7 +60,11 @@ def plan_roster(record, registry, chat_id, day, now_text, limit):
     slots = deepcopy(pending.get("slots", record.get("slots") or []))
     retired = set(pending.get("withdrawn_message_ids", record.get("withdrawn_message_ids") or []))
     capacity = pending.get("capacity", record.get("roster_capacity", record.get("count", len(slots))))
-    original = deepcopy(slots)
+    # Existing published order becomes the permanent numbering on upgrade.
+    for position, slot in enumerate(slots, 1):
+        slot.setdefault("position", position)
+    vacancies = {int(position): str(mid) for position, mid in
+                 (pending.get("vacant_positions", record.get("vacant_positions")) or {}).items()}
     if now_text[:10] == day and now_text[11:16] < "19:00":
         ledger = registry.get("confirmed_withdrawals") or {}
         confirmations = (ledger.get("groups") or {}).get(group_for_chat(chat_id)) or {}
@@ -73,9 +78,15 @@ def plan_roster(record, registry, chat_id, day, now_text, limit):
                     continue
                 if stamp[:10] == day and stamp[11:16] < "19:00" and stamp <= now_text:
                     retired.add(mid)
+                    vacancies[slot["position"]] = mid
             slots = [slot for slot in slots if str(slot.get("message_id") or "") not in retired]
         target = min(capacity, limit) if limit else capacity
         if retired and len(slots) < target:
+            occupied = {slot["position"] for slot in slots}
+            # Pre-upgrade reduced rosters had no saved vacancy metadata.
+            for position in range(1, capacity + 1):
+                if position not in occupied:
+                    vacancies.setdefault(position, "")
             used_messages = {str(slot.get("message_id") or "") for slot in slots} | retired
             used_posts = {str(slot.get("post_id") or "") for slot in slots}
             rows = eligible_rows(registry, chat_ids_for_group(group_for_chat(chat_id)), day)
@@ -87,12 +98,14 @@ def plan_roster(record, registry, chat_id, day, now_text, limit):
                 bound = freeze_links([row["url"]], registry, chat_ids_for_group(group_for_chat(chat_id)), day)[0]
                 if bound.get("message_id") != mid:
                     continue
+                position = min(vacancies)
+                bound.update(position=position, is_replacement=True,
+                             replaced_message_id=vacancies.pop(position), admitted_at=now_text)
                 slots.append(bound)
                 used_messages.add(mid)
                 used_posts.add(row["post_id"])
                 if len(slots) >= target:
                     break
-        if slots != original:
-            slots.sort(key=lambda s: (s.get("admission_time") or s.get("time", ""),
-                                      int(s.get("message_id") or 0), s["url"]), reverse=True)
-    return {"slots": slots, "capacity": capacity, "withdrawn_message_ids": sorted(retired)}
+    slots.sort(key=lambda slot: slot["position"])
+    return {"slots": slots, "capacity": capacity, "withdrawn_message_ids": sorted(retired),
+            "vacant_positions": {str(position): mid for position, mid in sorted(vacancies.items())}}

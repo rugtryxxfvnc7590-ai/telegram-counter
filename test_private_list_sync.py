@@ -88,7 +88,7 @@ class PrivateListSyncTest(unittest.TestCase):
         self.assertIn(f"1 {before}\n\n", text)
         self.assertNotIn("waiting", text)
         self.assertEqual(self.record()["count"], 2)
-        self.assertEqual(len(saved), 1)
+        self.assertEqual(len(saved), 2)  # Public roster and acknowledged private edit are persisted separately.
         self.send.assert_not_called()
         self.assertEqual(self.deliver()["群一"], "already_sent")
         self.edit.assert_called_once()
@@ -109,7 +109,9 @@ class PrivateListSyncTest(unittest.TestCase):
         self.assertEqual(self.record()["trigger"], "19:00")
         self.change()
         self.deliver(late)
-        self.assertEqual(self.record()["links"][-1], "https://x.com/alice/status/404")
+        self.assertEqual(self.record()["links"][1], "https://x.com/alice/status/404")
+        self.assertEqual([slot["position"] for slot in self.record()["slots"]], [1, 2, 3])
+        self.assertEqual(self.record()["links"][2], "https://x.com/waiting/status/303")
 
     def test_all_three_groups_same_rule_but_isolated(self):
         for group in GROUPS:
@@ -182,7 +184,7 @@ class PrivateListSyncTest(unittest.TestCase):
         saved = []
         self.assertEqual(self.deliver(save_callback=lambda: saved.append(True))["群一"], "edit_failed")
         self.assertEqual(self.record(), old)
-        self.assertEqual(saved, [])
+        self.assertEqual(saved, [True])  # Public roster remains current while private delivery retries.
         self.edit.return_value = (True, "")
         self.assertEqual(self.deliver()["群一"], "edited")
         self.send.assert_not_called()

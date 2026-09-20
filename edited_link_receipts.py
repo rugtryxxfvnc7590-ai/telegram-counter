@@ -29,7 +29,7 @@ def _published_slots(state, group, day, owner=None):
     links = [slot["url"] for slot in slots]
     indices = [i for i, slot in enumerate(slots, 1) if slot.get("edited")]
     if (len(slots) != record.get("count") or links != record.get("links")
-            or record.get("text") != format_daily_list_message(group, day, links, indices)):
+            or record.get("text") != format_daily_list_message(group, day, links, indices, slots=slots)):
         return []
     return slots
 

@@ -30,9 +30,10 @@ class WithdrawalListTest(unittest.TestCase):
         self.remove()
         self.deliver()
         r = self.record()
-        self.assertEqual([s["handle"] for s in r["slots"]], ["waiting", "bob"])
+        self.assertEqual([s["handle"] for s in r["slots"]], ["bob", "waiting"])
         self.assertEqual(r["count"], 2)
-        self.assertIn("1 https://x.com/waiting/status/303\n\n2 ", r["text"])
+        self.assertIn("候补2 https://x.com/waiting/status/303", r["text"])
+        self.assertEqual([slot["position"] for slot in r["slots"]], [1, 2])
         self.assertEqual(self.edit.call_args.args[:2], (fixtures.OWNER, 900))
         self.send.assert_not_called()
         self.assertNotIn("pending_roster", r)
@@ -66,7 +67,7 @@ class WithdrawalListTest(unittest.TestCase):
         self.assertIn("共 1 条", self.record()["text"])
         self.registry["post_entries"][GROUPS["群一"]]["404"] = fixtures.entry("later", 404, 4, 3)
         self.deliver()
-        self.assertEqual([s["handle"] for s in self.record()["slots"]], ["later", "bob"])
+        self.assertEqual([s["handle"] for s in self.record()["slots"]], ["bob", "later"])
         self.assertEqual(self.record()["count"], 2)
 
     def test_confirmed_at_19_does_not_change_roster(self):
@@ -84,7 +85,7 @@ class WithdrawalListTest(unittest.TestCase):
         now = NOW.replace(hour=18, minute=59, second=59)
         self.remove(now=now)
         self.deliver(now)
-        self.assertEqual(self.record()["slots"][0]["handle"], "waiting")
+        self.assertEqual(self.record()["slots"][-1]["handle"], "waiting")
 
     def test_no_new_refill_after_cutoff(self):
         self.registry["post_entries"][GROUPS["群一"]].pop("303")
@@ -104,10 +105,10 @@ class WithdrawalListTest(unittest.TestCase):
         r = self.record()
         self.assertEqual({k: r[k] for k in old}, old)
         self.assertIn("pending_roster", r)
-        self.assertIn("pending_roster", saved[0])
+        self.assertTrue(any("pending_roster" in record for record in saved))
         self.edit.return_value = (True, "")
         self.deliver(NOW.replace(hour=19))
-        self.assertEqual([s["handle"] for s in r["slots"]], ["waiting", "bob"])
+        self.assertEqual([s["handle"] for s in r["slots"]], ["bob", "waiting"])
         self.assertNotIn("pending_roster", r)
         self.send.assert_not_called()
 
@@ -120,7 +121,7 @@ class WithdrawalListTest(unittest.TestCase):
         self.remove(post="303")
         self.edit.return_value = (True, "")
         self.deliver()
-        self.assertEqual([s["handle"] for s in self.record()["slots"]], ["next", "bob"])
+        self.assertEqual([s["handle"] for s in self.record()["slots"]], ["bob", "next"])
 
     def test_processing_crossing_19_stops_new_refills_in_remaining_groups(self):
         before = NOW.replace(hour=18, minute=59, second=59)
@@ -133,7 +134,7 @@ class WithdrawalListTest(unittest.TestCase):
                 return next(cls.ticks)
         with patch("main.datetime", Clock):
             self.deliver(now=None)
-        self.assertEqual(self.record("群一")["slots"][0]["handle"], "waiting")
+        self.assertEqual(self.record("群一")["slots"][-1]["handle"], "waiting")
         self.assertEqual(self.record("群二")["slots"][-1]["handle"], "alice")
         self.edit.assert_called_once()
 
@@ -158,7 +159,7 @@ class WithdrawalListTest(unittest.TestCase):
         bucket["309"] = fixtures.entry("good", 309, 9, 4)
         self.remove()
         self.deliver()
-        self.assertEqual([s["handle"] for s in self.record()["slots"]], ["good", "bob"])
+        self.assertEqual([s["handle"] for s in self.record()["slots"]], ["bob", "good"])
 
     def test_multiple_withdrawals_and_identical_timestamps_follow_message_order(self):
         bucket = self.registry["post_entries"][GROUPS["群一"]]
@@ -167,7 +168,7 @@ class WithdrawalListTest(unittest.TestCase):
         self.remove()
         self.remove(post="202")
         self.deliver()
-        self.assertEqual([s["handle"] for s in self.record()["slots"]], ["fourth", "waiting"])
+        self.assertEqual([s["handle"] for s in self.record()["slots"]], ["waiting", "fourth"])
 
     def test_each_group_independent_even_with_same_message_id(self):
         for group in GROUPS:
@@ -175,7 +176,7 @@ class WithdrawalListTest(unittest.TestCase):
                 self.remove(group)
                 self.deliver()
                 self.assertEqual(self.edit.call_args.args[2].split("（")[0], group)
-                self.assertEqual(self.record(group)["slots"][0]["handle"], "waiting")
+                self.assertEqual(self.record(group)["slots"][-1]["handle"], "waiting")
         self.assertEqual(self.edit.call_count, 3)
 
     def test_increased_limit_does_not_expand_original_roster(self):
@@ -191,7 +192,7 @@ class WithdrawalListTest(unittest.TestCase):
         self.deliver()
         self.edit.assert_not_called()
 
-    def test_edited_marker_survives_renumbering(self):
+    def test_edited_marker_survives_replacement_without_renumbering(self):
         self.change()
         self.deliver()
         self.remove(post="202")
@@ -202,7 +203,7 @@ class WithdrawalListTest(unittest.TestCase):
         self.state["owner_daily_lists"]["groups"].pop("群一")
         self.remove()
         self.deliver()
-        self.assertEqual(self.record()["slots"][0]["handle"], "waiting")
+        self.assertEqual(self.record()["slots"][-1]["handle"], "waiting")
         self.send.assert_called_once()
 
 
@@ -226,21 +227,21 @@ class SnapshotWithdrawalTest(unittest.TestCase):
         accepted, _ = admitted_rows(self.registry, main.expand_chat_id(GROUPS["群一"]), 2, DAY)
         self.assertEqual([r["post_id"] for r in accepted], ["202", "303"])
         self.deliver()
-        self.assertEqual(self.record()["slots"][0]["handle"], "waiting")
+        self.assertEqual(self.record()["slots"][-1]["handle"], "waiting")
 
     def test_remove_all_post_links_but_keep_message_is_withdrawal(self):
         messages = self.messages()
         messages[0]["text"] = "不参加了 https://x.com/Alice"
         snapshot.replace_group_snapshot(self.registry, self.state, GROUPS["群一"], messages, DAY, now=NOW)
         self.deliver()
-        self.assertEqual(self.record()["slots"][0]["handle"], "waiting")
+        self.assertEqual(self.record()["slots"][-1]["handle"], "waiting")
 
     def test_bot_already_pruned_entry_snapshot_uses_private_original_message_id(self):
         messages = [m for m in self.messages() if m["message_id"] != 1]
         self.registry["post_entries"][GROUPS["群一"]].pop("101")
         snapshot.replace_group_snapshot(self.registry, self.state, GROUPS["群一"], messages, DAY, now=NOW)
         self.deliver()
-        self.assertEqual(self.record()["slots"][0]["handle"], "waiting")
+        self.assertEqual(self.record()["slots"][-1]["handle"], "waiting")
 
     def test_parser_failure_keeps_whole_snapshot_untouched(self):
         messages = self.messages()

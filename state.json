@@ -89,7 +89,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-20",
-    "run_at": "2026-09-20 18:45:31",
+    "run_at": "2026-09-20 19:00:44",
     "completed_groups": [
       "群一",
       "群二",
@@ -97,20 +97,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35505937921:1",
-        "checked_at": "2026-09-20 18:45:31",
+        "run_key": "35506615326:1",
+        "checked_at": "2026-09-20 19:00:45",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35505937921:1",
-        "checked_at": "2026-09-20 18:45:32",
+        "run_key": "35506615326:1",
+        "checked_at": "2026-09-20 19:00:45",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35505937921:1",
-        "checked_at": "2026-09-20 18:45:32",
+        "run_key": "35506615326:1",
+        "checked_at": "2026-09-20 19:00:45",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -937,6 +937,101 @@
         "roster_capacity": 30,
         "withdrawn_message_ids": [],
         "vacant_positions": {}
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-09-20 19:00:47",
+        "count": 6,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [
+          "https://x.com/miyaaiqiya11/status/2101264484866441641",
+          "https://x.com/tuturc88/status/2101263648425759106",
+          "https://x.com/zoylin00005/status/2100874421779238971",
+          "https://x.com/maojio513/status/2101121597306286472",
+          "https://x.com/zhuguang9859/status/2101100724507836506",
+          "https://x.com/catdog852/status/2101199395421380770"
+        ],
+        "slots": [
+          {
+            "handle": "miyaaiqiya11",
+            "post_id": "2101264484866441641",
+            "original_post_id": "2101264484866441641",
+            "url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+            "edited": false,
+            "position": 1,
+            "message_id": "74229",
+            "tg_user_id": "7998831093",
+            "time": "2026-09-20 15:18:37",
+            "admission_time": "2026-09-20 15:18:37"
+          },
+          {
+            "handle": "tuturc88",
+            "post_id": "2101263648425759106",
+            "original_post_id": "2101263648425759106",
+            "url": "https://x.com/tuturc88/status/2101263648425759106",
+            "edited": false,
+            "position": 2,
+            "message_id": "74228",
+            "tg_user_id": "7657752636",
+            "time": "2026-09-20 15:12:51",
+            "admission_time": "2026-09-20 15:12:51"
+          },
+          {
+            "handle": "zoylin00005",
+            "post_id": "2100874421779238971",
+            "original_post_id": "2100874421779238971",
+            "url": "https://x.com/zoylin00005/status/2100874421779238971",
+            "edited": false,
+            "position": 3,
+            "message_id": "74227",
+            "tg_user_id": "5396435834",
+            "time": "2026-09-20 11:08:29",
+            "admission_time": "2026-09-20 11:08:29"
+          },
+          {
+            "handle": "maojio513",
+            "post_id": "2101121597306286472",
+            "original_post_id": "2101121597306286472",
+            "url": "https://x.com/maojio513/status/2101121597306286472",
+            "edited": false,
+            "position": 4,
+            "message_id": "74226",
+            "tg_user_id": "6711450768",
+            "time": "2026-09-20 10:51:05",
+            "admission_time": "2026-09-20 10:51:05"
+          },
+          {
+            "handle": "zhuguang9859",
+            "post_id": "2101100724507836506",
+            "original_post_id": "2101100724507836506",
+            "url": "https://x.com/zhuguang9859/status/2101100724507836506",
+            "edited": false,
+            "position": 5,
+            "message_id": "74225",
+            "tg_user_id": "8281002968",
+            "time": "2026-09-20 03:43:46",
+            "admission_time": "2026-09-20 03:43:46"
+          },
+          {
+            "handle": "catdog852",
+            "post_id": "2101199395421380770",
+            "original_post_id": "2101199395421380770",
+            "url": "https://x.com/catdog852/status/2101199395421380770",
+            "edited": false,
+            "position": 6,
+            "message_id": "74224",
+            "tg_user_id": "5452100710",
+            "time": "2026-09-20 00:12:19",
+            "admission_time": "2026-09-20 00:12:19"
+          }
+        ],
+        "message_id": 2858,
+        "owner_chat_id": "8614747348",
+        "text": "群二（9月20日）互推名单，共 6 条\n\n1 https://x.com/miyaaiqiya11/status/2101264484866441641\n\n2 https://x.com/tuturc88/status/2101263648425759106\n\n3 https://x.com/zoylin00005/status/2100874421779238971\n\n4 https://x.com/maojio513/status/2101121597306286472\n\n5 https://x.com/zhuguang9859/status/2101100724507836506\n\n6 https://x.com/catdog852/status/2101199395421380770",
+        "roster_capacity": 6,
+        "vacant_positions": {},
+        "withdrawn_message_ids": []
       }
     }
   },

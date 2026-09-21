@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "offset": 364615884,
+  "offset": 364615887,
   "groups": {
     "-1003891628675": {
       "count": 31,
@@ -39,7 +39,7 @@
       ]
     },
     "-1003218974409": {
-      "count": 9,
+      "count": 11,
       "message_ids": [
         "74238",
         "74240",
@@ -49,14 +49,16 @@
         "74247",
         "74252",
         "74259",
-        "74263"
+        "74263",
+        "74264",
+        "74265"
       ],
       "reply_keys": [
         "74252:low_followers"
       ]
     },
     "-1003739822194": {
-      "count": 33,
+      "count": 34,
       "message_ids": [
         "2459",
         "2460",
@@ -90,13 +92,14 @@
         "2490",
         "2492",
         "2494",
-        "2496"
+        "2496",
+        "2498"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-21",
-    "run_at": "2026-09-21 11:15:37",
+    "run_at": "2026-09-21 11:30:36",
     "completed_groups": [
       "群一",
       "群二",
@@ -104,20 +107,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35556898471:1",
-        "checked_at": "2026-09-21 11:15:38",
+        "run_key": "35557733011:1",
+        "checked_at": "2026-09-21 11:30:37",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35556898471:1",
-        "checked_at": "2026-09-21 11:15:38",
+        "run_key": "35557733011:1",
+        "checked_at": "2026-09-21 11:30:38",
         "bot_user_id": 8755020155,
         "confirmed_replies": 1
       },
       "群三": {
-        "run_key": "35556898471:1",
-        "checked_at": "2026-09-21 11:15:38",
+        "run_key": "35557733011:1",
+        "checked_at": "2026-09-21 11:30:38",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -990,6 +993,13 @@
           "count": 33,
           "limit": 30,
           "sent_at": "2026-09-21 11:00:48"
+        },
+        "2498": {
+          "message_id": 2498,
+          "rule": "limit_overflow",
+          "count": 34,
+          "limit": 30,
+          "sent_at": "2026-09-21 11:30:42"
         }
       }
     }
@@ -1514,15 +1524,39 @@
             "tg_user_id": "8244653896",
             "time": "2026-09-21 10:56:53",
             "admission_time": "2026-09-21 10:56:53"
+          },
+          {
+            "handle": "yzlzp77",
+            "post_id": "2085158793932071149",
+            "original_post_id": "2085158793932071149",
+            "url": "https://x.com/yzlzp77/status/2085158793932071149",
+            "edited": false,
+            "position": 9,
+            "message_id": "74264",
+            "tg_user_id": "7382134028",
+            "time": "2026-09-21 11:19:56",
+            "admission_time": "2026-09-21 11:19:56"
+          },
+          {
+            "handle": "zoylin00005",
+            "post_id": "2097556720080073014",
+            "original_post_id": "2097556720080073014",
+            "url": "https://x.com/zoylin00005/status/2097556720080073014",
+            "edited": false,
+            "position": 10,
+            "message_id": "74265",
+            "tg_user_id": "5396435834",
+            "time": "2026-09-21 11:27:41",
+            "admission_time": "2026-09-21 11:27:41"
           }
         ],
-        "capacity": 8,
+        "capacity": 10,
         "withdrawn_message_ids": [
           "74244"
         ],
         "vacant_positions": {},
-        "roster_capacity": 8,
-        "count": 8
+        "roster_capacity": 10,
+        "count": 10
       },
       "群三": {
         "slots": [

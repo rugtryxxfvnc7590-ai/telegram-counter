@@ -7231,6 +7231,10 @@
           {
             "source": "status_legacy",
             "count": 8625
+          },
+          {
+            "source": "profile_v2",
+            "count": 8625
           }
         ],
         "check_followers_count": 20882,
@@ -7479,6 +7483,10 @@
           },
           {
             "source": "status_legacy",
+            "count": 8625
+          },
+          {
+            "source": "profile_v2",
             "count": 8625
           }
         ],
@@ -13324,6 +13332,190 @@
         "admission_time": "2026-09-22 06:56:08",
         "admission_locked": true,
         "daily_list_rank": 25,
+        "daily_list_status": "accepted"
+      },
+      "lulu7778u": {
+        "x_handle": "lulu7778u",
+        "check_handle": "lulu7778u",
+        "dual_link": false,
+        "promo_handle": "lulu7778u",
+        "tg_username": "ckck7779",
+        "tg_user_id": 8230308431,
+        "tg_name": "Ck 9",
+        "link": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+        "message_text": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+            "handle": "lulu7778u",
+            "post_id": "2101875528521388415",
+            "role": "promo",
+            "author_name": "Ck-8",
+            "followers_count": 62,
+            "followers_text": "62",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 62
+              },
+              {
+                "source": "status_legacy",
+                "count": 62
+              },
+              {
+                "source": "profile_v2",
+                "count": 62
+              }
+            ],
+            "tweet_text": "之前的大号炸了 新号重启\n认准唯一tg \n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 55,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+            "post_id": "2101875528521388415",
+            "handle": "lulu7778u",
+            "source_time": "2026-09-22 07:30:18",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Ck-8",
+        "promo_name": "Ck-8",
+        "followers_count": 62,
+        "followers_text": "62",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 62
+          },
+          {
+            "source": "status_legacy",
+            "count": 62
+          },
+          {
+            "source": "profile_v2",
+            "count": 62
+          }
+        ],
+        "check_followers_count": 62,
+        "check_followers_text": "62",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 62
+          },
+          {
+            "source": "status_legacy",
+            "count": 62
+          },
+          {
+            "source": "profile_v2",
+            "count": 62
+          }
+        ],
+        "tweet_text": "之前的大号炸了 新号重启\n认准唯一tg \n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 55,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+        "check_url": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+        "promo_post_id": "2101875528521388415",
+        "check_post_id": "2101875528521388415",
+        "chat_id": "-1003739822194",
+        "message_id": 3080,
+        "time": "2026-09-22 07:30:18",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 62,
+        "qualified_followers_text": "62",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-22 07:30:18",
+        "admission_locked": false,
+        "daily_list_rank": 26,
         "daily_list_status": "accepted"
       }
     }
@@ -20559,6 +20751,10 @@
           {
             "source": "status_legacy",
             "count": 8625
+          },
+          {
+            "source": "profile_v2",
+            "count": 8625
           }
         ],
         "check_followers_count": 20882,
@@ -25740,6 +25936,190 @@
         "admission_time": "2026-09-22 06:56:08",
         "admission_locked": true,
         "daily_list_rank": 25,
+        "daily_list_status": "accepted"
+      },
+      "2101875528521388415": {
+        "x_handle": "lulu7778u",
+        "check_handle": "lulu7778u",
+        "dual_link": false,
+        "promo_handle": "lulu7778u",
+        "tg_username": "ckck7779",
+        "tg_user_id": 8230308431,
+        "tg_name": "Ck 9",
+        "link": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+        "message_text": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+            "handle": "lulu7778u",
+            "post_id": "2101875528521388415",
+            "role": "promo",
+            "author_name": "Ck-8",
+            "followers_count": 62,
+            "followers_text": "62",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 62
+              },
+              {
+                "source": "status_legacy",
+                "count": 62
+              },
+              {
+                "source": "profile_v2",
+                "count": 62
+              }
+            ],
+            "tweet_text": "之前的大号炸了 新号重启\n认准唯一tg \n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 55,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 55,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+            "post_id": "2101875528521388415",
+            "handle": "lulu7778u",
+            "source_time": "2026-09-22 07:30:18",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Ck-8",
+        "promo_name": "Ck-8",
+        "followers_count": 62,
+        "followers_text": "62",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 62
+          },
+          {
+            "source": "status_legacy",
+            "count": 62
+          },
+          {
+            "source": "profile_v2",
+            "count": 62
+          }
+        ],
+        "check_followers_count": 62,
+        "check_followers_text": "62",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 62
+          },
+          {
+            "source": "status_legacy",
+            "count": 62
+          },
+          {
+            "source": "profile_v2",
+            "count": 62
+          }
+        ],
+        "tweet_text": "之前的大号炸了 新号重启\n认准唯一tg \n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 55,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 55,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+        "check_url": "https://x.com/lulu7778u/status/2101875528521388415?s=46",
+        "promo_post_id": "2101875528521388415",
+        "check_post_id": "2101875528521388415",
+        "chat_id": "-1003739822194",
+        "message_id": 3080,
+        "time": "2026-09-22 07:30:18",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 62,
+        "qualified_followers_text": "62",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-22 07:30:18",
+        "admission_locked": false,
+        "daily_list_rank": 26,
         "daily_list_status": "accepted"
       }
     }

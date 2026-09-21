@@ -7192,7 +7192,7 @@
         ],
         "x_name": "幸运鹅🦢",
         "promo_name": "幸运鹅🦢",
-        "followers_count": 3255,
+        "followers_count": 3281,
         "followers_text": "3.2K",
         "followers_sources": [
           "status_v2",
@@ -7604,6 +7604,22 @@
           {
             "source": "profile_v2",
             "count": 3255
+          },
+          {
+            "source": "status_v2",
+            "count": 3281
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3281
+          },
+          {
+            "source": "status_legacy",
+            "count": 3281
+          },
+          {
+            "source": "profile_v2",
+            "count": 3281
           }
         ],
         "check_followers_count": 2585,
@@ -7677,7 +7693,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 3255,
+        "qualified_followers_count": 3281,
         "qualified_followers_text": "3.2K",
         "qualified_followers_sources": [
           "status_v2",
@@ -7812,7 +7828,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 18111,
+        "followers_count": 18114,
         "followers_text": "1.8W",
         "followers_sources": [
           "status_v2",
@@ -8112,6 +8128,22 @@
           {
             "source": "status_legacy",
             "count": 18111
+          },
+          {
+            "source": "status_v2",
+            "count": 18114
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 18114
+          },
+          {
+            "source": "status_legacy",
+            "count": 18114
+          },
+          {
+            "source": "profile_v2",
+            "count": 18114
           }
         ],
         "check_followers_count": 193986,
@@ -8309,7 +8341,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 18111,
+        "followers_count": 18114,
         "followers_text": "1.8W",
         "followers_sources": [
           "status_v2",
@@ -8609,6 +8641,22 @@
           {
             "source": "status_legacy",
             "count": 18111
+          },
+          {
+            "source": "status_v2",
+            "count": 18114
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 18114
+          },
+          {
+            "source": "status_legacy",
+            "count": 18114
+          },
+          {
+            "source": "profile_v2",
+            "count": 18114
           }
         ],
         "check_followers_count": 193986,
@@ -12351,35 +12399,46 @@
             "post_id": "2101714675100680406",
             "role": "promo",
             "author_name": "小u",
-            "followers_count": 9830,
-            "followers_text": "9.8K",
+            "followers_count": 10031,
+            "followers_text": "1W",
             "followers_sources": [
+              "status_v2",
               "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
+                "source": "status_v2",
+                "count": 10031
+              },
+              {
                 "source": "status_legacy_i",
-                "count": 9829
+                "count": 10031
               },
               {
                 "source": "status_legacy",
-                "count": 9830
+                "count": 10031
               },
               {
                 "source": "profile_v2",
-                "count": 9830
+                "count": 10031
               }
             ],
             "tweet_text": "Wataa\n所有人感受\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
             "tweet_text_sources": [
+              "status_v2",
               "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
             ],
             "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
               {
                 "source": "status_legacy_i",
                 "length": 45,
@@ -12401,13 +12460,13 @@
                 "required_mentions_count": 3
               }
             ],
-            "tweet_text_primary_source": "status_legacy_i",
+            "tweet_text_primary_source": "status_v2",
             "required_mentions_count": 3
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
             "url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
             "post_id": "2101714675100680406",
             "handle": "showu3u",
@@ -12417,56 +12476,72 @@
         ],
         "x_name": "小u",
         "promo_name": "小u",
-        "followers_count": 9830,
-        "followers_text": "9.8K",
+        "followers_count": 10031,
+        "followers_text": "1W",
         "followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
+            "source": "status_v2",
+            "count": 10031
+          },
+          {
             "source": "status_legacy_i",
-            "count": 9829
+            "count": 10031
           },
           {
             "source": "status_legacy",
-            "count": 9830
+            "count": 10031
           },
           {
             "source": "profile_v2",
-            "count": 9830
+            "count": 10031
           }
         ],
-        "check_followers_count": 9830,
-        "check_followers_text": "9.8K",
+        "check_followers_count": 10031,
+        "check_followers_text": "1W",
         "check_followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
+            "source": "status_v2",
+            "count": 10031
+          },
+          {
             "source": "status_legacy_i",
-            "count": 9829
+            "count": 10031
           },
           {
             "source": "status_legacy",
-            "count": 9830
+            "count": 10031
           },
           {
             "source": "profile_v2",
-            "count": 9830
+            "count": 10031
           }
         ],
         "tweet_text": "Wataa\n所有人感受\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
         "tweet_text_sources": [
+          "status_v2",
           "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
         ],
         "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
           {
             "source": "status_legacy_i",
             "length": 45,
@@ -12488,7 +12563,7 @@
             "required_mentions_count": 3
           }
         ],
-        "tweet_text_primary_source": "status_legacy_i",
+        "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
         "promo_url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
@@ -12500,12 +12575,13 @@
         "time": "2026-09-21 00:46:59",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-21 15:32:43",
         "followers_min": 0,
-        "qualified_followers_count": 9830,
-        "qualified_followers_text": "9.8K",
+        "qualified_followers_count": 10031,
+        "qualified_followers_text": "1W",
         "qualified_followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
@@ -23671,7 +23747,7 @@
         ],
         "x_name": "幸运鹅🦢",
         "promo_name": "幸运鹅🦢",
-        "followers_count": 3255,
+        "followers_count": 3281,
         "followers_text": "3.2K",
         "followers_sources": [
           "status_v2",
@@ -24083,6 +24159,22 @@
           {
             "source": "profile_v2",
             "count": 3255
+          },
+          {
+            "source": "status_v2",
+            "count": 3281
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3281
+          },
+          {
+            "source": "status_legacy",
+            "count": 3281
+          },
+          {
+            "source": "profile_v2",
+            "count": 3281
           }
         ],
         "check_followers_count": 2585,
@@ -24156,7 +24248,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 3255,
+        "qualified_followers_count": 3281,
         "qualified_followers_text": "3.2K",
         "qualified_followers_sources": [
           "status_v2",
@@ -24291,7 +24383,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 18111,
+        "followers_count": 18114,
         "followers_text": "1.8W",
         "followers_sources": [
           "status_v2",
@@ -24591,6 +24683,22 @@
           {
             "source": "status_legacy",
             "count": 18111
+          },
+          {
+            "source": "status_v2",
+            "count": 18114
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 18114
+          },
+          {
+            "source": "status_legacy",
+            "count": 18114
+          },
+          {
+            "source": "profile_v2",
+            "count": 18114
           }
         ],
         "check_followers_count": 193986,
@@ -28333,35 +28441,46 @@
             "post_id": "2101714675100680406",
             "role": "promo",
             "author_name": "小u",
-            "followers_count": 9830,
-            "followers_text": "9.8K",
+            "followers_count": 10031,
+            "followers_text": "1W",
             "followers_sources": [
+              "status_v2",
               "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
+                "source": "status_v2",
+                "count": 10031
+              },
+              {
                 "source": "status_legacy_i",
-                "count": 9829
+                "count": 10031
               },
               {
                 "source": "status_legacy",
-                "count": 9830
+                "count": 10031
               },
               {
                 "source": "profile_v2",
-                "count": 9830
+                "count": 10031
               }
             ],
             "tweet_text": "Wataa\n所有人感受\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
             "tweet_text_sources": [
+              "status_v2",
               "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
             ],
             "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
               {
                 "source": "status_legacy_i",
                 "length": 45,
@@ -28383,13 +28502,13 @@
                 "required_mentions_count": 3
               }
             ],
-            "tweet_text_primary_source": "status_legacy_i",
+            "tweet_text_primary_source": "status_v2",
             "required_mentions_count": 3
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
             "url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
             "post_id": "2101714675100680406",
             "handle": "showu3u",
@@ -28399,56 +28518,72 @@
         ],
         "x_name": "小u",
         "promo_name": "小u",
-        "followers_count": 9830,
-        "followers_text": "9.8K",
+        "followers_count": 10031,
+        "followers_text": "1W",
         "followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
+            "source": "status_v2",
+            "count": 10031
+          },
+          {
             "source": "status_legacy_i",
-            "count": 9829
+            "count": 10031
           },
           {
             "source": "status_legacy",
-            "count": 9830
+            "count": 10031
           },
           {
             "source": "profile_v2",
-            "count": 9830
+            "count": 10031
           }
         ],
-        "check_followers_count": 9830,
-        "check_followers_text": "9.8K",
+        "check_followers_count": 10031,
+        "check_followers_text": "1W",
         "check_followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
+            "source": "status_v2",
+            "count": 10031
+          },
+          {
             "source": "status_legacy_i",
-            "count": 9829
+            "count": 10031
           },
           {
             "source": "status_legacy",
-            "count": 9830
+            "count": 10031
           },
           {
             "source": "profile_v2",
-            "count": 9830
+            "count": 10031
           }
         ],
         "tweet_text": "Wataa\n所有人感受\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
         "tweet_text_sources": [
+          "status_v2",
           "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
         ],
         "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
           {
             "source": "status_legacy_i",
             "length": 45,
@@ -28470,7 +28605,7 @@
             "required_mentions_count": 3
           }
         ],
-        "tweet_text_primary_source": "status_legacy_i",
+        "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
         "promo_url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
@@ -28482,12 +28617,13 @@
         "time": "2026-09-21 00:46:59",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-21 15:32:43",
         "followers_min": 0,
-        "qualified_followers_count": 9830,
-        "qualified_followers_text": "9.8K",
+        "qualified_followers_count": 10031,
+        "qualified_followers_text": "1W",
         "qualified_followers_sources": [
+          "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"

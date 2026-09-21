@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "offset": 364616529,
+  "offset": 364616531,
   "groups": {
     "-1003891628675": {
       "count": 33,
@@ -41,13 +41,14 @@
       ]
     },
     "-1003218974409": {
-      "count": 1,
+      "count": 2,
       "message_ids": [
-        "74291"
+        "74291",
+        "74292"
       ]
     },
     "-1003739822194": {
-      "count": 17,
+      "count": 18,
       "message_ids": [
         "3042",
         "3043",
@@ -65,13 +66,14 @@
         "3059",
         "3060",
         "3061",
-        "3064"
+        "3064",
+        "3065"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-22",
-    "run_at": "2026-09-22 01:15:26",
+    "run_at": "2026-09-22 01:30:33",
     "completed_groups": [
       "群一",
       "群二",
@@ -79,20 +81,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35630812238:1",
-        "checked_at": "2026-09-22 01:15:27",
+        "run_key": "35632424293:1",
+        "checked_at": "2026-09-22 01:30:34",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35630812238:1",
-        "checked_at": "2026-09-22 01:15:27",
+        "run_key": "35632424293:1",
+        "checked_at": "2026-09-22 01:30:35",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35630812238:1",
-        "checked_at": "2026-09-22 01:15:27",
+        "run_key": "35632424293:1",
+        "checked_at": "2026-09-22 01:30:35",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -957,13 +959,25 @@
             "tg_user_id": "8244653896",
             "time": "2026-09-22 00:11:04",
             "admission_time": "2026-09-22 00:11:19"
+          },
+          {
+            "handle": "tuturc88",
+            "post_id": "2101263648425759106",
+            "original_post_id": "2101263648425759106",
+            "url": "https://x.com/tuturc88/status/2101263648425759106",
+            "edited": false,
+            "position": 2,
+            "message_id": "74292",
+            "tg_user_id": "7657752636",
+            "time": "2026-09-22 01:15:27",
+            "admission_time": "2026-09-22 01:15:27"
           }
         ],
-        "capacity": 1,
+        "capacity": 2,
         "withdrawn_message_ids": [],
         "vacant_positions": {},
-        "roster_capacity": 1,
-        "count": 1,
+        "roster_capacity": 2,
+        "count": 2,
         "admission_limit": 30
       },
       "群三": {
@@ -1171,13 +1185,25 @@
             "tg_user_id": "7506919035",
             "time": "2026-09-22 01:11:27",
             "admission_time": "2026-09-22 01:11:27"
+          },
+          {
+            "handle": "tuturc88",
+            "post_id": "2101263648425759106",
+            "original_post_id": "2101263648425759106",
+            "url": "https://x.com/tuturc88/status/2101263648425759106",
+            "edited": false,
+            "position": 18,
+            "message_id": "3065",
+            "tg_user_id": "7657752636",
+            "time": "2026-09-22 01:15:33",
+            "admission_time": "2026-09-22 01:15:33"
           }
         ],
-        "capacity": 17,
+        "capacity": 18,
         "withdrawn_message_ids": [],
         "vacant_positions": {},
-        "roster_capacity": 17,
-        "count": 17,
+        "roster_capacity": 18,
+        "count": 18,
         "admission_limit": 30
       }
     }

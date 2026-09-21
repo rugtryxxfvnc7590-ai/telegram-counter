@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "offset": 364615873,
+  "offset": 364615879,
   "groups": {
     "-1003891628675": {
       "count": 31,
@@ -46,9 +46,9 @@
         "74241",
         "74242",
         "74243",
-        "74244",
         "74247",
-        "74252"
+        "74252",
+        "74259"
       ],
       "reply_keys": [
         "74252:low_followers"
@@ -94,7 +94,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-21",
-    "run_at": "2026-09-21 10:30:33",
+    "run_at": "2026-09-21 10:45:27",
     "completed_groups": [
       "群一",
       "群二",
@@ -102,20 +102,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35554386025:1",
-        "checked_at": "2026-09-21 10:30:34",
+        "run_key": "35555203536:1",
+        "checked_at": "2026-09-21 10:45:28",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35554386025:1",
-        "checked_at": "2026-09-21 10:30:34",
+        "run_key": "35555203536:1",
+        "checked_at": "2026-09-21 10:45:29",
         "bot_user_id": 8755020155,
-        "confirmed_replies": 0
+        "confirmed_replies": 1
       },
       "群三": {
-        "run_key": "35554386025:1",
-        "checked_at": "2026-09-21 10:30:34",
+        "run_key": "35555203536:1",
+        "checked_at": "2026-09-21 10:45:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -1004,7 +1004,11 @@
           "rule": "low_followers",
           "attempts": 1,
           "attempted_at": "2026-09-21 10:30:37",
-          "text": "粉丝数量低于最低互推标准，该链接不予互推！"
+          "text": "粉丝数量低于最低互推标准，该链接不予互推！",
+          "confirmation": "telegram_history",
+          "bot_user_id": 8755020155,
+          "telegram_reply_message_id": 74253,
+          "sent_at": "2026-09-21 10:30:37"
         }
       },
       "群三": {}
@@ -1014,7 +1018,16 @@
     "date": "2026-09-21",
     "groups": {
       "群一": {},
-      "群二": {},
+      "群二": {
+        "74259": {
+          "status": "sent",
+          "position": 6,
+          "text": "已成功加入今日互推名单内，请记得转推",
+          "attempts": 1,
+          "attempted_at": "2026-09-21T10:45:33.447916+08:00",
+          "sent_at": "2026-09-21T10:45:33.447916+08:00"
+        }
+      },
       "群三": {}
     }
   },
@@ -1453,16 +1466,19 @@
             "admission_time": "2026-09-21 08:59:41"
           },
           {
-            "handle": "xiaochen000007",
-            "post_id": "2096145336901550438",
-            "original_post_id": "2096145336901550438",
-            "url": "https://x.com/xiaochen000007/status/2096145336901550438",
+            "handle": "xiaowang0000001",
+            "post_id": "2093625385972093276",
+            "original_post_id": "2093625385972093276",
+            "url": "https://x.com/xiaowang0000001/status/2093625385972093276",
             "edited": false,
             "position": 6,
-            "message_id": "74244",
+            "message_id": "74259",
             "tg_user_id": "5718822279",
-            "time": "2026-09-21 09:00:04",
-            "admission_time": "2026-09-21 09:00:04"
+            "time": "2026-09-21 10:31:47",
+            "admission_time": "2026-09-21 10:31:47",
+            "is_replacement": true,
+            "replaced_message_id": "74244",
+            "admitted_at": "2026-09-21 10:45:33"
           },
           {
             "handle": "maojio513",
@@ -1478,7 +1494,9 @@
           }
         ],
         "capacity": 7,
-        "withdrawn_message_ids": [],
+        "withdrawn_message_ids": [
+          "74244"
+        ],
         "vacant_positions": {},
         "roster_capacity": 7,
         "count": 7

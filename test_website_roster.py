@@ -99,7 +99,26 @@ class DailyRosterTest(unittest.TestCase):
         refresh_daily_rosters(registry, state, LIMITS, NOW)
         roster = state["daily_rosters"]["groups"]["群一"]
         self.assertEqual([s["message_id"] for s in roster["slots"]], ["1", "4", "3"])
-        self.assertTrue(roster["slots"][1]["is_replacement"])
+        self.assertFalse(roster["slots"][1]["is_replacement"])
+
+    def test_under_limit_refill_never_sends_candidate_admission_reply(self):
+        registry, state = fixture(7)
+        withdraw(registry, state, 6)
+        registry["post_entries"][CID]["1008"] = entry(8)
+        refresh_daily_rosters(registry, state, LIMITS, NOW)
+        roster = state["daily_rosters"]["groups"]["群一"]
+        replacement = next(slot for slot in roster["slots"] if slot["message_id"] == "8")
+        self.assertFalse(replacement["is_replacement"])
+        sender = Mock(return_value=True)
+        process_replacement_replies(state, NOW, send_reply=sender)
+        sender.assert_not_called()
+        # Previously persisted false labels also cannot send, then get corrected.
+        replacement["is_replacement"] = True
+        process_replacement_replies(state, NOW, send_reply=sender)
+        sender.assert_not_called()
+        refresh_daily_rosters(registry, state, LIMITS, NOW)
+        self.assertFalse(next(s for s in state["daily_rosters"]["groups"]["群一"]["slots"]
+                              if s["message_id"] == "8")["is_replacement"])
 
     def test_freeze_and_stale_snapshot_preserve_roster(self):
         registry, state = fixture()

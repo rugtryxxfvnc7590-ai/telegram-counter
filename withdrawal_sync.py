@@ -60,6 +60,12 @@ def plan_roster(record, registry, chat_id, day, now_text, limit):
     slots = deepcopy(pending.get("slots", record.get("slots") or []))
     retired = set(pending.get("withdrawn_message_ids", record.get("withdrawn_message_ids") or []))
     capacity = pending.get("capacity", record.get("roster_capacity", record.get("count", len(slots))))
+    full_roster = bool(limit and capacity >= limit)
+    # An empty numbered slot before capacity was reached is not a waitlist.
+    if not full_roster:
+        for slot in slots:
+            if slot.get("is_replacement"):
+                slot["is_replacement"] = False
     # Existing published order becomes the permanent numbering on upgrade.
     for position, slot in enumerate(slots, 1):
         slot.setdefault("position", position)
@@ -99,7 +105,7 @@ def plan_roster(record, registry, chat_id, day, now_text, limit):
                 if bound.get("message_id") != mid:
                     continue
                 position = min(vacancies)
-                bound.update(position=position, is_replacement=True,
+                bound.update(position=position, is_replacement=full_roster,
                              replaced_message_id=vacancies.pop(position), admitted_at=now_text)
                 slots.append(bound)
                 used_messages.add(mid)

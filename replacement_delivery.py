@@ -59,6 +59,9 @@ def process_replacement_replies(state, now=None, rules=None, save_callback=None,
         chat_id = GROUP_CHAT_IDS.get(group)
         if not chat_id or not main.reply_rule_enabled(rules, RULE, chat_id):
             continue
+        limit = roster.get("admission_limit", main.load_daily_limits().get(group, 0))
+        if not limit or int(roster.get("roster_capacity") or roster.get("capacity") or 0) < limit:
+            continue
         if not history_is_current(state, group, now):
             results[group] = "awaiting_history"
             continue

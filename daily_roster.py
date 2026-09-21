@@ -60,7 +60,7 @@ def refresh_daily_rosters(registry, state, limits, now=None, save_callback=None)
                 used_posts.add(bound["post_id"])
         plan["capacity"] = max(plan["capacity"], len(slots) + len(plan["vacant_positions"]))
         plan["slots"] = sorted(slots, key=lambda slot: slot["position"])
-        current = dict(plan, roster_capacity=plan["capacity"], count=len(slots))
+        current = dict(plan, roster_capacity=plan["capacity"], count=len(slots), admission_limit=limit)
         if current != previous:
             ledger["groups"][group] = current
             if save_callback:

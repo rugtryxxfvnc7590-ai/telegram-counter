@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "offset": 364615905,
+  "offset": 364615906,
   "groups": {
     "-1003891628675": {
       "count": 31,
@@ -39,7 +39,7 @@
       ]
     },
     "-1003218974409": {
-      "count": 11,
+      "count": 12,
       "message_ids": [
         "74238",
         "74240",
@@ -51,7 +51,8 @@
         "74259",
         "74263",
         "74264",
-        "74265"
+        "74265",
+        "74280"
       ],
       "reply_keys": [
         "74252:low_followers"
@@ -99,7 +100,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-21",
-    "run_at": "2026-09-21 14:45:40",
+    "run_at": "2026-09-21 15:01:52",
     "completed_groups": [
       "群一",
       "群二",
@@ -107,20 +108,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35569820430:1",
-        "checked_at": "2026-09-21 14:45:41",
+        "run_key": "35570907155:1",
+        "checked_at": "2026-09-21 15:01:53",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35569820430:1",
-        "checked_at": "2026-09-21 14:45:42",
+        "run_key": "35570907155:1",
+        "checked_at": "2026-09-21 15:01:53",
         "bot_user_id": 8755020155,
         "confirmed_replies": 1
       },
       "群三": {
-        "run_key": "35569820430:1",
-        "checked_at": "2026-09-21 14:45:42",
+        "run_key": "35570907155:1",
+        "checked_at": "2026-09-21 15:01:53",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -1570,15 +1571,27 @@
             "tg_user_id": "5396435834",
             "time": "2026-09-21 11:27:41",
             "admission_time": "2026-09-21 11:27:41"
+          },
+          {
+            "handle": "daji2277",
+            "post_id": "2099863689960800719",
+            "original_post_id": "2099863689960800719",
+            "url": "https://x.com/daji2277/status/2099863689960800719",
+            "edited": false,
+            "position": 11,
+            "message_id": "74280",
+            "tg_user_id": "5691581815",
+            "time": "2026-09-21 14:50:15",
+            "admission_time": "2026-09-21 14:50:15"
           }
         ],
-        "capacity": 10,
+        "capacity": 11,
         "withdrawn_message_ids": [
           "74244"
         ],
         "vacant_positions": {},
-        "roster_capacity": 10,
-        "count": 10,
+        "roster_capacity": 11,
+        "count": 11,
         "admission_limit": 30
       },
       "群三": {
@@ -1964,10 +1977,10 @@
         "acknowledged_at": "2026-09-21T14:01:01.180977+08:00"
       },
       "群二": {
-        "digest": "0086d731c1dcd6fab126b69797fb9ddd27f365e4630f0d0c979a514b2e579089",
-        "sourceRevision": 1,
+        "digest": "92d75f703898dfb5e2d55ad22188347c56b3c8d1d60601e246d662d7b006336c",
+        "sourceRevision": 2,
         "acknowledged": true,
-        "acknowledged_at": "2026-09-21T14:01:01.588763+08:00"
+        "acknowledged_at": "2026-09-21T15:01:57.623214+08:00"
       },
       "群三": {
         "digest": "d8e7341efc8e1a86f5fcae0cfe79632742a76aaf68681d517819bbf5043b3247",

@@ -7184,8 +7184,8 @@
         ],
         "x_name": "幸运鹅🦢",
         "promo_name": "幸运鹅🦢",
-        "followers_count": 2795,
-        "followers_text": "2.7K",
+        "followers_count": 2818,
+        "followers_text": "2.8K",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -7344,6 +7344,22 @@
           {
             "source": "profile_v2",
             "count": 2795
+          },
+          {
+            "source": "status_v2",
+            "count": 2818
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 2818
+          },
+          {
+            "source": "status_legacy",
+            "count": 2818
+          },
+          {
+            "source": "profile_v2",
+            "count": 2818
           }
         ],
         "check_followers_count": 2585,
@@ -7417,8 +7433,8 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 2795,
-        "qualified_followers_text": "2.7K",
+        "qualified_followers_count": 2818,
+        "qualified_followers_text": "2.8K",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -7552,7 +7568,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 18072,
+        "followers_count": 18076,
         "followers_text": "1.8W",
         "followers_sources": [
           "status_v2",
@@ -7656,6 +7672,22 @@
           {
             "source": "profile_v2",
             "count": 18072
+          },
+          {
+            "source": "status_v2",
+            "count": 18076
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 18076
+          },
+          {
+            "source": "status_legacy",
+            "count": 18076
+          },
+          {
+            "source": "profile_v2",
+            "count": 18076
           }
         ],
         "check_followers_count": 193986,
@@ -7853,7 +7885,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 18072,
+        "followers_count": 18076,
         "followers_text": "1.8W",
         "followers_sources": [
           "status_v2",
@@ -7957,6 +7989,22 @@
           {
             "source": "profile_v2",
             "count": 18072
+          },
+          {
+            "source": "status_v2",
+            "count": 18076
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 18076
+          },
+          {
+            "source": "status_legacy",
+            "count": 18076
+          },
+          {
+            "source": "profile_v2",
+            "count": 18076
           }
         ],
         "check_followers_count": 193986,
@@ -8865,52 +8913,74 @@
         "tg_username": "dajiejieUU",
         "tg_user_id": 8244388416,
         "tg_name": "Miaaaaa",
-        "link": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
-        "message_text": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+        "link": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
+        "message_text": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+            "url": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
             "handle": "dajiejieuuya",
-            "post_id": "2100450694360965456",
+            "post_id": "2101889327320223748",
             "role": "promo",
             "author_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
-            "followers_count": 7017,
-            "followers_text": "7K",
+            "followers_count": 7107,
+            "followers_text": "7.1K",
             "followers_sources": [
               "status_v2",
+              "status_legacy_i",
+              "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 7017
+                "count": 7107
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 7107
+              },
+              {
+                "source": "status_legacy",
+                "count": 7107
               },
               {
                 "source": "profile_v2",
-                "count": 7017
+                "count": 7107
               }
             ],
-            "tweet_text": "停车场现抓一只小狗清理足底\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
+            "tweet_text": "取悦姐姐的是小狗灵活柔软的舌头～\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
+              "status_legacy_i",
               "vx_status_v2",
-              "vx_status_i"
+              "vx_status_i",
+              "status_legacy"
             ],
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 48,
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 51,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 48,
+                "length": 51,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 48,
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 51,
                 "required_mentions_count": 3
               }
             ],
@@ -8920,7 +8990,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
+            "post_id": "2101889327320223748",
+            "handle": "dajiejieuuya",
+            "source_time": "2026-09-21 00:00:17",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
             "post_id": "2100450694360965456",
             "handle": "dajiejieuuya",
@@ -8930,80 +9008,114 @@
         ],
         "x_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
         "promo_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
-        "followers_count": 7017,
-        "followers_text": "7K",
+        "followers_count": 7107,
+        "followers_text": "7.1K",
         "followers_sources": [
           "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 7017
+            "count": 7107
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7107
+          },
+          {
+            "source": "status_legacy",
+            "count": 7107
           },
           {
             "source": "profile_v2",
-            "count": 7017
+            "count": 7107
           }
         ],
-        "check_followers_count": 7017,
-        "check_followers_text": "7K",
+        "check_followers_count": 7107,
+        "check_followers_text": "7.1K",
         "check_followers_sources": [
           "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 7017
+            "count": 7107
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7107
+          },
+          {
+            "source": "status_legacy",
+            "count": 7107
           },
           {
             "source": "profile_v2",
-            "count": 7017
+            "count": 7107
           }
         ],
-        "tweet_text": "停车场现抓一只小狗清理足底\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
+        "tweet_text": "取悦姐姐的是小狗灵活柔软的舌头～\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
+          "status_legacy_i",
           "vx_status_v2",
-          "vx_status_i"
+          "vx_status_i",
+          "status_legacy"
         ],
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 48,
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 51,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 48,
+            "length": 51,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 48,
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 51,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
-        "check_url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
-        "promo_post_id": "2100450694360965456",
-        "check_post_id": "2100450694360965456",
+        "promo_url": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
+        "check_url": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
+        "promo_post_id": "2101889327320223748",
+        "check_post_id": "2101889327320223748",
         "chat_id": "-1003739822194",
         "message_id": 2460,
         "time": "2026-09-21 00:00:17",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-21 12:21:54",
         "followers_min": 0,
-        "qualified_followers_count": 7017,
-        "qualified_followers_text": "7K",
+        "qualified_followers_count": 7107,
+        "qualified_followers_text": "7.1K",
         "qualified_followers_sources": [
           "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "mutual_eligible": true,
@@ -22735,8 +22847,8 @@
         ],
         "x_name": "幸运鹅🦢",
         "promo_name": "幸运鹅🦢",
-        "followers_count": 2795,
-        "followers_text": "2.7K",
+        "followers_count": 2818,
+        "followers_text": "2.8K",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -22895,6 +23007,22 @@
           {
             "source": "profile_v2",
             "count": 2795
+          },
+          {
+            "source": "status_v2",
+            "count": 2818
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 2818
+          },
+          {
+            "source": "status_legacy",
+            "count": 2818
+          },
+          {
+            "source": "profile_v2",
+            "count": 2818
           }
         ],
         "check_followers_count": 2585,
@@ -22968,8 +23096,8 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 20000,
-        "qualified_followers_count": 2795,
-        "qualified_followers_text": "2.7K",
+        "qualified_followers_count": 2818,
+        "qualified_followers_text": "2.8K",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -23103,7 +23231,7 @@
         ],
         "x_name": "小王的侦探事务所",
         "promo_name": "小王的侦探事务所",
-        "followers_count": 18072,
+        "followers_count": 18076,
         "followers_text": "1.8W",
         "followers_sources": [
           "status_v2",
@@ -23207,6 +23335,22 @@
           {
             "source": "profile_v2",
             "count": 18072
+          },
+          {
+            "source": "status_v2",
+            "count": 18076
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 18076
+          },
+          {
+            "source": "status_legacy",
+            "count": 18076
+          },
+          {
+            "source": "profile_v2",
+            "count": 18076
           }
         ],
         "check_followers_count": 193986,
@@ -24107,7 +24251,7 @@
         "daily_list_rank": 1,
         "daily_list_status": "accepted"
       },
-      "2100450694360965456": {
+      "2101889327320223748": {
         "x_handle": "dajiejieuuya",
         "check_handle": "dajiejieuuya",
         "dual_link": false,
@@ -24115,52 +24259,74 @@
         "tg_username": "dajiejieUU",
         "tg_user_id": 8244388416,
         "tg_name": "Miaaaaa",
-        "link": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
-        "message_text": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+        "link": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
+        "message_text": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
+            "url": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
             "handle": "dajiejieuuya",
-            "post_id": "2100450694360965456",
+            "post_id": "2101889327320223748",
             "role": "promo",
             "author_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
-            "followers_count": 7017,
-            "followers_text": "7K",
+            "followers_count": 7107,
+            "followers_text": "7.1K",
             "followers_sources": [
               "status_v2",
+              "status_legacy_i",
+              "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 7017
+                "count": 7107
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 7107
+              },
+              {
+                "source": "status_legacy",
+                "count": 7107
               },
               {
                 "source": "profile_v2",
-                "count": 7017
+                "count": 7107
               }
             ],
-            "tweet_text": "停车场现抓一只小狗清理足底\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
+            "tweet_text": "取悦姐姐的是小狗灵活柔软的舌头～\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
+              "status_legacy_i",
               "vx_status_v2",
-              "vx_status_i"
+              "vx_status_i",
+              "status_legacy"
             ],
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 48,
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 51,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 48,
+                "length": 51,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 48,
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 51,
                 "required_mentions_count": 3
               }
             ],
@@ -24170,7 +24336,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
+            "post_id": "2101889327320223748",
+            "handle": "dajiejieuuya",
+            "source_time": "2026-09-21 00:00:17",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
             "post_id": "2100450694360965456",
             "handle": "dajiejieuuya",
@@ -24180,80 +24354,114 @@
         ],
         "x_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
         "promo_name": "大姐姐UU呀 🧚🏻⸝⸝⋆",
-        "followers_count": 7017,
-        "followers_text": "7K",
+        "followers_count": 7107,
+        "followers_text": "7.1K",
         "followers_sources": [
           "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 7017
+            "count": 7107
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7107
+          },
+          {
+            "source": "status_legacy",
+            "count": 7107
           },
           {
             "source": "profile_v2",
-            "count": 7017
+            "count": 7107
           }
         ],
-        "check_followers_count": 7017,
-        "check_followers_text": "7K",
+        "check_followers_count": 7107,
+        "check_followers_text": "7.1K",
         "check_followers_sources": [
           "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 7017
+            "count": 7107
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7107
+          },
+          {
+            "source": "status_legacy",
+            "count": 7107
           },
           {
             "source": "profile_v2",
-            "count": 7017
+            "count": 7107
           }
         ],
-        "tweet_text": "停车场现抓一只小狗清理足底\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
+        "tweet_text": "取悦姐姐的是小狗灵活柔软的舌头～\n\n@ToBulaer\n @ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
+          "status_legacy_i",
           "vx_status_v2",
-          "vx_status_i"
+          "vx_status_i",
+          "status_legacy"
         ],
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 48,
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 51,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 48,
+            "length": 51,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 48,
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 51,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
-        "check_url": "https://x.com/dajiejieuuya/status/2100450694360965456?s=46",
-        "promo_post_id": "2100450694360965456",
-        "check_post_id": "2100450694360965456",
+        "promo_url": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
+        "check_url": "https://x.com/dajiejieuuya/status/2101889327320223748?s=46",
+        "promo_post_id": "2101889327320223748",
+        "check_post_id": "2101889327320223748",
         "chat_id": "-1003739822194",
         "message_id": 2460,
         "time": "2026-09-21 00:00:17",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-21 12:21:54",
         "followers_min": 0,
-        "qualified_followers_count": 7017,
-        "qualified_followers_text": "7K",
+        "qualified_followers_count": 7107,
+        "qualified_followers_text": "7.1K",
         "qualified_followers_sources": [
           "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "mutual_eligible": true,

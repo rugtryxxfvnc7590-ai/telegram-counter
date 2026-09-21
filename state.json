@@ -1,9 +1,9 @@
 {
   "date": "2026-09-22",
-  "offset": 364616516,
+  "offset": 364616521,
   "groups": {
     "-1003891628675": {
-      "count": 32,
+      "count": 33,
       "message_ids": [
         "8091",
         "8092",
@@ -36,7 +36,8 @@
         "8121",
         "8122",
         "8123",
-        "8124"
+        "8124",
+        "8128"
       ]
     },
     "-1003218974409": {
@@ -46,7 +47,7 @@
       ]
     },
     "-1003739822194": {
-      "count": 9,
+      "count": 13,
       "message_ids": [
         "3042",
         "3043",
@@ -56,13 +57,17 @@
         "3047",
         "3050",
         "3051",
-        "3052"
+        "3052",
+        "3053",
+        "3054",
+        "3055",
+        "3056"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-22",
-    "run_at": "2026-09-22 00:15:57",
+    "run_at": "2026-09-22 00:30:44",
     "completed_groups": [
       "群一",
       "群二",
@@ -70,20 +75,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35624405353:1",
-        "checked_at": "2026-09-22 00:15:58",
+        "run_key": "35626016596:1",
+        "checked_at": "2026-09-22 00:30:45",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35624405353:1",
-        "checked_at": "2026-09-22 00:15:58",
+        "run_key": "35626016596:1",
+        "checked_at": "2026-09-22 00:30:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35624405353:1",
-        "checked_at": "2026-09-22 00:15:59",
+        "run_key": "35626016596:1",
+        "checked_at": "2026-09-22 00:30:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -525,6 +530,13 @@
           "count": 32,
           "limit": 30,
           "sent_at": "2026-09-22 00:16:00"
+        },
+        "8128": {
+          "message_id": 8128,
+          "rule": "limit_excess_1",
+          "count": 33,
+          "limit": 30,
+          "sent_at": "2026-09-22 00:30:48"
         }
       },
       "群二": {},
@@ -1059,13 +1071,61 @@
             "tg_user_id": "8244653896",
             "time": "2026-09-22 00:10:23",
             "admission_time": "2026-09-22 00:10:46"
+          },
+          {
+            "handle": "obdiedie",
+            "post_id": "2101281976829595768",
+            "original_post_id": "2101281976829595768",
+            "url": "https://x.com/obdiedie/status/2101281976829595768",
+            "edited": false,
+            "position": 10,
+            "message_id": "3053",
+            "tg_user_id": "7446354632",
+            "time": "2026-09-22 00:16:41",
+            "admission_time": "2026-09-22 00:16:41"
+          },
+          {
+            "handle": "showu3u",
+            "post_id": "2101714675100680406",
+            "original_post_id": "2101714675100680406",
+            "url": "https://x.com/showu3u/status/2101714675100680406",
+            "edited": false,
+            "position": 11,
+            "message_id": "3054",
+            "tg_user_id": "5344912406",
+            "time": "2026-09-22 00:17:40",
+            "admission_time": "2026-09-22 00:17:40"
+          },
+          {
+            "handle": "maojio513",
+            "post_id": "2101877017520353576",
+            "original_post_id": "2101877017520353576",
+            "url": "https://x.com/maojio513/status/2101877017520353576",
+            "edited": false,
+            "position": 12,
+            "message_id": "3055",
+            "tg_user_id": "6711450768",
+            "time": "2026-09-22 00:18:33",
+            "admission_time": "2026-09-22 00:18:33"
+          },
+          {
+            "handle": "rogueyuyinqi",
+            "post_id": "2101885277300216276",
+            "original_post_id": "2101885277300216276",
+            "url": "https://x.com/rogueyuyinqi/status/2101885277300216276",
+            "edited": false,
+            "position": 13,
+            "message_id": "3056",
+            "tg_user_id": "8690119616",
+            "time": "2026-09-22 00:30:00",
+            "admission_time": "2026-09-22 00:30:00"
           }
         ],
-        "capacity": 9,
+        "capacity": 13,
         "withdrawn_message_ids": [],
         "vacant_positions": {},
-        "roster_capacity": 9,
-        "count": 9,
+        "roster_capacity": 13,
+        "count": 13,
         "admission_limit": 30
       }
     }

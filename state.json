@@ -99,7 +99,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-21",
-    "run_at": "2026-09-21 13:45:26",
+    "run_at": "2026-09-21 14:00:54",
     "completed_groups": [
       "群一",
       "群二",
@@ -107,20 +107,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35565729646:1",
-        "checked_at": "2026-09-21 13:45:27",
+        "run_key": "35566633590:1",
+        "checked_at": "2026-09-21 14:00:55",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35565729646:1",
-        "checked_at": "2026-09-21 13:45:28",
+        "run_key": "35566633590:1",
+        "checked_at": "2026-09-21 14:00:56",
         "bot_user_id": 8755020155,
         "confirmed_replies": 1
       },
       "群三": {
-        "run_key": "35565729646:1",
-        "checked_at": "2026-09-21 13:45:28",
+        "run_key": "35566633590:1",
+        "checked_at": "2026-09-21 14:00:56",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -1955,25 +1955,25 @@
     }
   },
   "website_sync": {
-    "date": "2026-09-20",
+    "date": "2026-09-21",
     "groups": {
       "群一": {
-        "digest": "842733aeb3c2e1dfce0e547e43e5a8fb3bd59fff3c3e563206e644afe1b158f3",
+        "digest": "9b593c35c45bb4093ed3d06785396a6f52c4eb810bf4bf8122397f63d91d524a",
         "sourceRevision": 1,
         "acknowledged": true,
-        "acknowledged_at": "2026-09-20T16:45:35.323541+08:00"
+        "acknowledged_at": "2026-09-21T14:01:01.180977+08:00"
       },
       "群二": {
-        "digest": "4a1a81e706b88f8ade0ce6fcaa04dcd84b0175042bedfbe0984b57fc49c586c1",
+        "digest": "0086d731c1dcd6fab126b69797fb9ddd27f365e4630f0d0c979a514b2e579089",
         "sourceRevision": 1,
         "acknowledged": true,
-        "acknowledged_at": "2026-09-20T16:45:35.653479+08:00"
+        "acknowledged_at": "2026-09-21T14:01:01.588763+08:00"
       },
       "群三": {
-        "digest": "65a89c7388cb4df21d8a19d9fada58cf5c874c60e8df9923051ebf908130c5fc",
+        "digest": "d8e7341efc8e1a86f5fcae0cfe79632742a76aaf68681d517819bbf5043b3247",
         "sourceRevision": 1,
         "acknowledged": true,
-        "acknowledged_at": "2026-09-20T16:45:35.893875+08:00"
+        "acknowledged_at": "2026-09-21T14:01:01.858041+08:00"
       }
     }
   }

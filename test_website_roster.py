@@ -85,21 +85,21 @@ class DailyRosterTest(unittest.TestCase):
         self.assertIn("候补26 https://x.com/person31/status/1031", text)
         self.assertTrue(roster_items(after)[25]["isReplacement"])
 
-    def test_early_arrivals_append_without_reordering_or_making_false_vacancies(self):
+    def test_early_arrivals_are_newest_first_without_false_vacancies(self):
         registry, state = fixture(0)
         for n in (1, 2, 3):
             registry["post_entries"][CID][str(1000+n)] = entry(n)
             refresh_daily_rosters(registry, state, LIMITS, NOW)
         roster = state["daily_rosters"]["groups"]["群一"]
-        self.assertEqual([s["message_id"] for s in roster["slots"]], ["1", "2", "3"])
+        self.assertEqual([s["message_id"] for s in roster["slots"]], ["3", "2", "1"])
         self.assertEqual(roster["vacant_positions"], {})
         withdraw(registry, state, 2)
         self.assertEqual(roster_items(state["daily_rosters"]["groups"]["群一"])[1]["url"], None)
         registry["post_entries"][CID]["1004"] = entry(4)
         refresh_daily_rosters(registry, state, LIMITS, NOW)
         roster = state["daily_rosters"]["groups"]["群一"]
-        self.assertEqual([s["message_id"] for s in roster["slots"]], ["1", "4", "3"])
-        self.assertFalse(roster["slots"][1]["is_replacement"])
+        self.assertEqual([s["message_id"] for s in roster["slots"]], ["4", "3", "1"])
+        self.assertFalse(roster["slots"][0]["is_replacement"])
 
     def test_under_limit_refill_never_sends_candidate_admission_reply(self):
         registry, state = fixture(7)
@@ -153,12 +153,12 @@ class DailyRosterTest(unittest.TestCase):
             result = main.send_daily_lists_to_owner(registry, state, now=NOW.replace(hour=19), limits=LIMITS)
         self.assertEqual(result["群一"], "sent")
         slots = state["owner_daily_lists"]["groups"]["群一"]["slots"]
-        self.assertEqual([s["message_id"] for s in slots], ["3", "2", "1", "4"])
+        self.assertEqual([s["message_id"] for s in slots], ["4", "3", "2", "1"])
         self.assertEqual([s["position"] for s in slots], [1, 2, 3, 4])
-        self.assertEqual(slots[:3], before["groups"]["群一"]["slots"])
+        self.assertEqual([s["url"] for s in slots[1:]], [s["url"] for s in before["groups"]["群一"]["slots"]])
         self.assertEqual(state["daily_rosters"], before)
         text = sender.call_args.args[1]
-        self.assertIn("4 https://x.com/person4/status/1004", text)
+        self.assertIn("1 https://x.com/person4/status/1004", text)
         self.assertNotIn("status/1005", text)
         website = Mock()
         self.assertEqual(sync_website(state, NOW.replace(hour=19), secret="test", post=website), {})

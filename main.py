@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 from daily_capacity import (
     admitted_rows, capacity_template, group_for_chat, normalize_daily_limits,
 )
-from private_list_sync import edited_slots, freeze_links
+from private_list_sync import edited_slots, freeze_links, order_roster_slots
 from edited_link_receipts import defer_edited_link_reply, _published_slots
 from admission_order import set_admission_time
 from withdrawal_sync import plan_roster
@@ -417,6 +417,7 @@ def _sync_sent_owner_list(registry, record, group, chat_id, owner, day, now, rep
     plan = ({key: shared_roster[key] for key in ("slots", "capacity", "withdrawn_message_ids", "vacant_positions")}
             if shared_roster is not None and now[11:16] < "19:00"
             else plan_roster(dict(record, slots=slots), registry, chat_id, day, now, limit))
+    plan["slots"] = order_roster_slots(plan["slots"], plan["vacant_positions"])
     roster_changed = ([(s.get("position"), s.get("message_id")) for s in plan["slots"]]
                       != [(s.get("position"), s.get("message_id")) for s in slots]
                       or plan["withdrawn_message_ids"] != record.get("withdrawn_message_ids", [])

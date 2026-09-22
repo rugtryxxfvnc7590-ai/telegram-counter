@@ -8,6 +8,7 @@ from daily_capacity import stamp_admission
 from violation_delivery import process_violation_replies
 from replacement_delivery import process_replacement_replies
 from website_sync import sync_website
+from cutoff_delivery import process_cutoff_announcements
 
 
 def main():
@@ -26,6 +27,7 @@ def main():
         save_callback=lambda: save_state(state),
         replace_legacy_groups=legacy_reissue_groups(),
     )
+    process_cutoff_announcements(registry, state, save_callback=lambda: save_state(state))
     process_edited_link_receipts(
         registry, state, send_reply=send_capacity_reply,
         owner_chat_id=os.getenv("TELEGRAM_OWNER_CHAT_ID", ""),

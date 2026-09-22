@@ -6,6 +6,28 @@ import re
 POST_URL = re.compile(r"https?://(?:www\.)?(?:x|twitter)\.com/([A-Za-z0-9_]+)/status/(\d+)(?:[?#].*)?$", re.I)
 
 
+def order_roster_slots(slots, vacant_positions=None):
+    """Newest admissions first; genuine replacements and vacant numbers stay fixed."""
+    ordered = deepcopy(slots)
+    normal = [slot for slot in ordered if not slot.get("is_replacement")]
+    try:
+        for slot in normal:
+            datetime.strptime(slot.get("admission_time") or slot["time"], "%Y-%m-%d %H:%M:%S")
+            int(slot["message_id"])
+        positions = sorted(int(slot["position"]) for slot in normal)
+    except (KeyError, TypeError, ValueError):
+        return ordered
+    reserved = {int(position) for position in (vacant_positions or {})}
+    reserved.update(int(slot["position"]) for slot in ordered if slot.get("is_replacement"))
+    if reserved.intersection(positions) or len(set(positions)) != len(positions):
+        return ordered
+    normal.sort(key=lambda slot: (slot.get("admission_time") or slot["time"],
+                                 int(slot["message_id"]), -int(slot["position"])), reverse=True)
+    for position, slot in zip(positions, normal):
+        slot["position"] = position
+    return sorted(ordered, key=lambda slot: int(slot["position"]))
+
+
 def post_identity(url):
     match = POST_URL.fullmatch(str(url or "").strip())
     return (match[1].lower(), match[2]) if match else ("", "")

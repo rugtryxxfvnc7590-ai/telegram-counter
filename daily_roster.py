@@ -2,7 +2,7 @@
 from copy import deepcopy
 
 from daily_capacity import GROUP_CHAT_IDS, admitted_rows, chat_ids_for_group, eligible_rows
-from private_list_sync import edited_slots, freeze_links
+from private_list_sync import edited_slots, freeze_links, order_roster_slots
 from withdrawal_sync import beijing_now, plan_roster
 
 
@@ -35,8 +35,7 @@ def refresh_daily_rosters(registry, state, limits, now=None, save_callback=None)
             seed = {"slots": slots, "count": len(slots), "roster_capacity": len(slots)}
         plan = plan_roster(seed, registry, chat_id, day, now_text, limit)
         slots = edited_slots(plan["slots"], registry, ids, day, now_text)
-        # Before the first owner delivery, admit new arrivals up to the configured
-        # capacity. Already published positions never move as more people join.
+        # Before the first owner delivery, admit arrivals without changing membership.
         if not owner.get("sent"):
             occupied = {slot["position"] for slot in slots}
             used_messages = {slot.get("message_id") for slot in slots} | set(plan["withdrawn_message_ids"])
@@ -59,7 +58,7 @@ def refresh_daily_rosters(registry, state, limits, now=None, save_callback=None)
                 used_messages.add(bound["message_id"])
                 used_posts.add(bound["post_id"])
         plan["capacity"] = max(plan["capacity"], len(slots) + len(plan["vacant_positions"]))
-        plan["slots"] = sorted(slots, key=lambda slot: slot["position"])
+        plan["slots"] = order_roster_slots(slots, plan["vacant_positions"])
         current = dict(plan, roster_capacity=plan["capacity"], count=len(slots), admission_limit=limit)
         if current != previous:
             ledger["groups"][group] = current

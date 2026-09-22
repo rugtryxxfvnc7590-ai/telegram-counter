@@ -107,11 +107,12 @@ class PrivateListSyncTest(unittest.TestCase):
         late = datetime(2026, 9, 12, 19, tzinfo=main.BEIJING)
         self.deliver(late)
         self.assertEqual(self.record()["trigger"], "19:00")
+        self.assertEqual([s["message_id"] for s in self.record()["slots"]], ["3", "2", "1"])
         self.change()
         self.deliver(late)
-        self.assertEqual(self.record()["links"][1], "https://x.com/alice/status/404")
+        self.assertEqual(self.record()["links"][2], "https://x.com/alice/status/404")
         self.assertEqual([slot["position"] for slot in self.record()["slots"]], [1, 2, 3])
-        self.assertEqual(self.record()["links"][2], "https://x.com/waiting/status/303")
+        self.assertEqual(self.record()["links"][0], "https://x.com/waiting/status/303")
 
     def test_all_three_groups_same_rule_but_isolated(self):
         for group in GROUPS:

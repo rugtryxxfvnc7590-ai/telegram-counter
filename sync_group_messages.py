@@ -233,6 +233,7 @@ async def async_main():
     from main import load_reply_rules
     from violation_delivery import recover_violation_replies, verified_reply_bot_id
     from replacement_delivery import recover_replacement_replies
+    from cutoff_delivery import load_cutoff_rules, recover_cutoff_announcements
 
     if not deletion_sync_enabled():
         print("今日群消息补齐：未配置 Telegram 用户会话，跳过。")
@@ -256,6 +257,7 @@ async def async_main():
     }
     bot_id = verified_reply_bot_id()
     reply_rules = load_reply_rules()
+    cutoff_rules = load_cutoff_rules()
     api_id = int(_env_value("TELEGRAM_API_ID"))
     client = TelegramClient(StringSession(_string_session()), api_id, _env_value("TELEGRAM_API_HASH"))
 
@@ -268,6 +270,7 @@ async def async_main():
                 matched = replace_group_snapshot(registry, state, chat_id, messages, day, now=datetime.now(BEIJING))
                 recover_violation_replies(state, chat_id, messages, bot_id, reply_rules, now=datetime.now(BEIJING))
                 recover_replacement_replies(state, chat_id, messages, bot_id, reply_rules, now=datetime.now(BEIJING))
+                recover_cutoff_announcements(state, chat_id, messages, bot_id, cutoff_rules, now=datetime.now(BEIJING))
             except Exception as exc:
                 print(f"今日群消息补齐：群 {chat_id} 核查失败，保留原数据：{exc}")
                 continue

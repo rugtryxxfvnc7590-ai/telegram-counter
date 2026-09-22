@@ -7407,7 +7407,7 @@
         ],
         "x_name": "小姨接在线",
         "promo_name": "小姨接在线",
-        "followers_count": 8632,
+        "followers_count": 8633,
         "followers_text": "8.6K",
         "followers_sources": [
           "status_v2",
@@ -7543,6 +7543,22 @@
           {
             "source": "status_legacy",
             "count": 8632
+          },
+          {
+            "source": "status_v2",
+            "count": 8633
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8633
+          },
+          {
+            "source": "status_legacy",
+            "count": 8633
+          },
+          {
+            "source": "profile_v2",
+            "count": 8633
           }
         ],
         "check_followers_count": 20882,
@@ -7740,7 +7756,7 @@
         ],
         "x_name": "小姨接在线",
         "promo_name": "小姨接在线",
-        "followers_count": 8632,
+        "followers_count": 8633,
         "followers_text": "8.6K",
         "followers_sources": [
           "status_v2",
@@ -7876,6 +7892,22 @@
           {
             "source": "status_legacy",
             "count": 8632
+          },
+          {
+            "source": "status_v2",
+            "count": 8633
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8633
+          },
+          {
+            "source": "status_legacy",
+            "count": 8633
+          },
+          {
+            "source": "profile_v2",
+            "count": 8633
           }
         ],
         "check_followers_count": 20882,
@@ -15837,6 +15869,191 @@
         "admission_locked": false,
         "daily_list_rank": 32,
         "daily_list_status": "waitlist"
+      },
+      "dtirthyani": {
+        "x_handle": "dtirthyani",
+        "check_handle": "dtirthyani",
+        "dual_link": false,
+        "promo_handle": "dtirthyani",
+        "tg_username": "sev7en_77s",
+        "tg_user_id": 8828486336,
+        "tg_name": "sev7en",
+        "link": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+        "message_text": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+            "handle": "dtirthyani",
+            "post_id": "2102346347668189534",
+            "role": "promo",
+            "author_name": "懒懒🍂（接1v1）",
+            "followers_count": 1843,
+            "followers_text": "1.8K",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 1843
+              },
+              {
+                "source": "status_legacy",
+                "count": 1843
+              },
+              {
+                "source": "profile_v2",
+                "count": 1843
+              }
+            ],
+            "tweet_text": "尝过的宝宝都说好哈哈哈。\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+            "post_id": "2102346347668189534",
+            "handle": "dtirthyani",
+            "source_time": "2026-09-22 19:33:34",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "懒懒🍂（接1v1）",
+        "promo_name": "懒懒🍂（接1v1）",
+        "followers_count": 1843,
+        "followers_text": "1.8K",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 1843
+          },
+          {
+            "source": "status_legacy",
+            "count": 1843
+          },
+          {
+            "source": "profile_v2",
+            "count": 1843
+          }
+        ],
+        "check_followers_count": 1843,
+        "check_followers_text": "1.8K",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 1843
+          },
+          {
+            "source": "status_legacy",
+            "count": 1843
+          },
+          {
+            "source": "profile_v2",
+            "count": 1843
+          }
+        ],
+        "tweet_text": "尝过的宝宝都说好哈哈哈。\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+        "check_url": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+        "promo_post_id": "2102346347668189534",
+        "check_post_id": "2102346347668189534",
+        "chat_id": "-1003739822194",
+        "message_id": 3109,
+        "time": "2026-09-22 19:33:34",
+        "after_cutoff": true,
+        "cutoff_time": "19:00",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1843,
+        "qualified_followers_text": "1.8K",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": false,
+        "eligibility_text": "❌超时链接",
+        "ineligible_reason": "after_cutoff",
+        "admission_time": "2026-09-22 19:33:34",
+        "admission_locked": false,
+        "daily_list_rank": 0,
+        "daily_list_status": "ineligible"
       }
     }
   },
@@ -23247,7 +23464,7 @@
         ],
         "x_name": "小姨接在线",
         "promo_name": "小姨接在线",
-        "followers_count": 8632,
+        "followers_count": 8633,
         "followers_text": "8.6K",
         "followers_sources": [
           "status_v2",
@@ -23383,6 +23600,22 @@
           {
             "source": "status_legacy",
             "count": 8632
+          },
+          {
+            "source": "status_v2",
+            "count": 8633
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8633
+          },
+          {
+            "source": "status_legacy",
+            "count": 8633
+          },
+          {
+            "source": "profile_v2",
+            "count": 8633
           }
         ],
         "check_followers_count": 20882,
@@ -30681,6 +30914,191 @@
         "admission_locked": false,
         "daily_list_rank": 32,
         "daily_list_status": "waitlist"
+      },
+      "2102346347668189534": {
+        "x_handle": "dtirthyani",
+        "check_handle": "dtirthyani",
+        "dual_link": false,
+        "promo_handle": "dtirthyani",
+        "tg_username": "sev7en_77s",
+        "tg_user_id": 8828486336,
+        "tg_name": "sev7en",
+        "link": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+        "message_text": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+            "handle": "dtirthyani",
+            "post_id": "2102346347668189534",
+            "role": "promo",
+            "author_name": "懒懒🍂（接1v1）",
+            "followers_count": 1843,
+            "followers_text": "1.8K",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 1843
+              },
+              {
+                "source": "status_legacy",
+                "count": 1843
+              },
+              {
+                "source": "profile_v2",
+                "count": 1843
+              }
+            ],
+            "tweet_text": "尝过的宝宝都说好哈哈哈。\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+            "post_id": "2102346347668189534",
+            "handle": "dtirthyani",
+            "source_time": "2026-09-22 19:33:34",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "懒懒🍂（接1v1）",
+        "promo_name": "懒懒🍂（接1v1）",
+        "followers_count": 1843,
+        "followers_text": "1.8K",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 1843
+          },
+          {
+            "source": "status_legacy",
+            "count": 1843
+          },
+          {
+            "source": "profile_v2",
+            "count": 1843
+          }
+        ],
+        "check_followers_count": 1843,
+        "check_followers_text": "1.8K",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 1843
+          },
+          {
+            "source": "status_legacy",
+            "count": 1843
+          },
+          {
+            "source": "profile_v2",
+            "count": 1843
+          }
+        ],
+        "tweet_text": "尝过的宝宝都说好哈哈哈。\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+        "check_url": "https://x.com/dtirthyani/status/2102346347668189534?s=46",
+        "promo_post_id": "2102346347668189534",
+        "check_post_id": "2102346347668189534",
+        "chat_id": "-1003739822194",
+        "message_id": 3109,
+        "time": "2026-09-22 19:33:34",
+        "after_cutoff": true,
+        "cutoff_time": "19:00",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1843,
+        "qualified_followers_text": "1.8K",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": false,
+        "eligibility_text": "❌超时链接",
+        "ineligible_reason": "after_cutoff",
+        "admission_time": "2026-09-22 19:33:34",
+        "admission_locked": false,
+        "daily_list_rank": 0,
+        "daily_list_status": "ineligible"
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "offset": 364616549,
+  "offset": 364616567,
   "groups": {
     "-1003891628675": {
       "count": 33,
@@ -49,7 +49,7 @@
       ]
     },
     "-1003739822194": {
-      "count": 27,
+      "count": 29,
       "message_ids": [
         "3042",
         "3043",
@@ -77,13 +77,15 @@
         "3078",
         "3079",
         "3080",
-        "3081"
+        "3081",
+        "3098",
+        "3099"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-22",
-    "run_at": "2026-09-22 08:00:48",
+    "run_at": "2026-09-22 08:15:35",
     "completed_groups": [
       "群一",
       "群二",
@@ -91,20 +93,20 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35670078589:1",
-        "checked_at": "2026-09-22 08:00:49",
+        "run_key": "35671167499:1",
+        "checked_at": "2026-09-22 08:15:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35670078589:1",
-        "checked_at": "2026-09-22 08:00:49",
+        "run_key": "35671167499:1",
+        "checked_at": "2026-09-22 08:15:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35670078589:1",
-        "checked_at": "2026-09-22 08:00:50",
+        "run_key": "35671167499:1",
+        "checked_at": "2026-09-22 08:15:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
@@ -1327,13 +1329,37 @@
             "tg_user_id": "7348226714",
             "time": "2026-09-22 07:50:16",
             "admission_time": "2026-09-22 07:50:16"
+          },
+          {
+            "handle": "bo13581",
+            "post_id": "2100743609029206324",
+            "original_post_id": "2100743609029206324",
+            "url": "https://x.com/bo13581/status/2100743609029206324",
+            "edited": false,
+            "position": 28,
+            "message_id": "3098",
+            "tg_user_id": "7628179593",
+            "time": "2026-09-22 08:11:04",
+            "admission_time": "2026-09-22 08:11:04"
+          },
+          {
+            "handle": "bibo8891",
+            "post_id": "2101798794384089519",
+            "original_post_id": "2101798794384089519",
+            "url": "https://x.com/bibo8891/status/2101798794384089519",
+            "edited": false,
+            "position": 29,
+            "message_id": "3099",
+            "tg_user_id": "7261659842",
+            "time": "2026-09-22 08:12:16",
+            "admission_time": "2026-09-22 08:12:16"
           }
         ],
-        "capacity": 27,
+        "capacity": 29,
         "withdrawn_message_ids": [],
         "vacant_positions": {},
-        "roster_capacity": 27,
-        "count": 27,
+        "roster_capacity": 29,
+        "count": 29,
         "admission_limit": 30
       }
     }

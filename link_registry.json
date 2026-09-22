@@ -7179,7 +7179,7 @@
         ],
         "x_name": "小姨接在线",
         "promo_name": "小姨接在线",
-        "followers_count": 8625,
+        "followers_count": 8626,
         "followers_text": "8.6K",
         "followers_sources": [
           "status_v2",
@@ -7235,6 +7235,22 @@
           {
             "source": "profile_v2",
             "count": 8625
+          },
+          {
+            "source": "status_v2",
+            "count": 8626
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8626
+          },
+          {
+            "source": "status_legacy",
+            "count": 8626
+          },
+          {
+            "source": "profile_v2",
+            "count": 8626
           }
         ],
         "check_followers_count": 20882,
@@ -7432,7 +7448,7 @@
         ],
         "x_name": "小姨接在线",
         "promo_name": "小姨接在线",
-        "followers_count": 8625,
+        "followers_count": 8626,
         "followers_text": "8.6K",
         "followers_sources": [
           "status_v2",
@@ -7488,6 +7504,22 @@
           {
             "source": "profile_v2",
             "count": 8625
+          },
+          {
+            "source": "status_v2",
+            "count": 8626
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8626
+          },
+          {
+            "source": "status_legacy",
+            "count": 8626
+          },
+          {
+            "source": "profile_v2",
+            "count": 8626
           }
         ],
         "check_followers_count": 20882,
@@ -7564,6 +7596,190 @@
         "admission_time": "2026-09-22 02:36:07",
         "admission_locked": true,
         "daily_list_rank": 3,
+        "daily_list_status": "accepted"
+      },
+      "miyaaiqiya11": {
+        "x_handle": "miyaaiqiya11",
+        "check_handle": "miyaaiqiya11",
+        "dual_link": false,
+        "promo_handle": "miyaaiqiya11",
+        "tg_username": "miyamiao",
+        "tg_user_id": 7998831093,
+        "tg_name": "mi ya",
+        "link": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "message_text": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+            "handle": "miyaaiqiya11",
+            "post_id": "2101264484866441641",
+            "role": "promo",
+            "author_name": "米娅🐱（只回🚪）",
+            "followers_count": 20995,
+            "followers_text": "2W",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 20995
+              },
+              {
+                "source": "status_legacy",
+                "count": 20995
+              },
+              {
+                "source": "profile_v2",
+                "count": 20995
+              }
+            ],
+            "tweet_text": "提出这种要求就要做好相应的觉悟哦～乖乖的交在白丝脚上吧\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 62,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+            "post_id": "2101264484866441641",
+            "handle": "miyaaiqiya11",
+            "source_time": "2026-09-22 08:46:57",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "米娅🐱（只回🚪）",
+        "promo_name": "米娅🐱（只回🚪）",
+        "followers_count": 20995,
+        "followers_text": "2W",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 20995
+          },
+          {
+            "source": "status_legacy",
+            "count": 20995
+          },
+          {
+            "source": "profile_v2",
+            "count": 20995
+          }
+        ],
+        "check_followers_count": 20995,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 20995
+          },
+          {
+            "source": "status_legacy",
+            "count": 20995
+          },
+          {
+            "source": "profile_v2",
+            "count": 20995
+          }
+        ],
+        "tweet_text": "提出这种要求就要做好相应的觉悟哦～乖乖的交在白丝脚上吧\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 62,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "check_url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "promo_post_id": "2101264484866441641",
+        "check_post_id": "2101264484866441641",
+        "chat_id": "-1003218974409",
+        "message_id": 74294,
+        "time": "2026-09-22 08:46:57",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 20995,
+        "qualified_followers_text": "2W",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-22 08:46:57",
+        "admission_locked": false,
+        "daily_list_rank": 4,
         "daily_list_status": "accepted"
       }
     },
@@ -14124,6 +14340,190 @@
         "admission_time": "2026-09-22 08:12:16",
         "admission_locked": true,
         "daily_list_rank": 29,
+        "daily_list_status": "accepted"
+      },
+      "miyaaiqiya11": {
+        "x_handle": "miyaaiqiya11",
+        "check_handle": "miyaaiqiya11",
+        "dual_link": false,
+        "promo_handle": "miyaaiqiya11",
+        "tg_username": "miyamiao",
+        "tg_user_id": 7998831093,
+        "tg_name": "mi ya",
+        "link": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "message_text": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+            "handle": "miyaaiqiya11",
+            "post_id": "2101264484866441641",
+            "role": "promo",
+            "author_name": "米娅🐱（只回🚪）",
+            "followers_count": 20995,
+            "followers_text": "2W",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 20995
+              },
+              {
+                "source": "status_legacy",
+                "count": 20995
+              },
+              {
+                "source": "profile_v2",
+                "count": 20995
+              }
+            ],
+            "tweet_text": "提出这种要求就要做好相应的觉悟哦～乖乖的交在白丝脚上吧\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 62,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+            "post_id": "2101264484866441641",
+            "handle": "miyaaiqiya11",
+            "source_time": "2026-09-22 08:46:48",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "米娅🐱（只回🚪）",
+        "promo_name": "米娅🐱（只回🚪）",
+        "followers_count": 20995,
+        "followers_text": "2W",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 20995
+          },
+          {
+            "source": "status_legacy",
+            "count": 20995
+          },
+          {
+            "source": "profile_v2",
+            "count": 20995
+          }
+        ],
+        "check_followers_count": 20995,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 20995
+          },
+          {
+            "source": "status_legacy",
+            "count": 20995
+          },
+          {
+            "source": "profile_v2",
+            "count": 20995
+          }
+        ],
+        "tweet_text": "提出这种要求就要做好相应的觉悟哦～乖乖的交在白丝脚上吧\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 62,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "check_url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "promo_post_id": "2101264484866441641",
+        "check_post_id": "2101264484866441641",
+        "chat_id": "-1003739822194",
+        "message_id": 3100,
+        "time": "2026-09-22 08:46:48",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 20995,
+        "qualified_followers_text": "2W",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-22 08:46:48",
+        "admission_locked": false,
+        "daily_list_rank": 30,
         "daily_list_status": "accepted"
       }
     }
@@ -21307,7 +21707,7 @@
         ],
         "x_name": "小姨接在线",
         "promo_name": "小姨接在线",
-        "followers_count": 8625,
+        "followers_count": 8626,
         "followers_text": "8.6K",
         "followers_sources": [
           "status_v2",
@@ -21363,6 +21763,22 @@
           {
             "source": "profile_v2",
             "count": 8625
+          },
+          {
+            "source": "status_v2",
+            "count": 8626
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8626
+          },
+          {
+            "source": "status_legacy",
+            "count": 8626
+          },
+          {
+            "source": "profile_v2",
+            "count": 8626
           }
         ],
         "check_followers_count": 20882,
@@ -21439,6 +21855,190 @@
         "admission_time": "2026-09-22 02:36:07",
         "admission_locked": true,
         "daily_list_rank": 3,
+        "daily_list_status": "accepted"
+      },
+      "2101264484866441641": {
+        "x_handle": "miyaaiqiya11",
+        "check_handle": "miyaaiqiya11",
+        "dual_link": false,
+        "promo_handle": "miyaaiqiya11",
+        "tg_username": "miyamiao",
+        "tg_user_id": 7998831093,
+        "tg_name": "mi ya",
+        "link": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "message_text": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+            "handle": "miyaaiqiya11",
+            "post_id": "2101264484866441641",
+            "role": "promo",
+            "author_name": "米娅🐱（只回🚪）",
+            "followers_count": 20995,
+            "followers_text": "2W",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 20995
+              },
+              {
+                "source": "status_legacy",
+                "count": 20995
+              },
+              {
+                "source": "profile_v2",
+                "count": 20995
+              }
+            ],
+            "tweet_text": "提出这种要求就要做好相应的觉悟哦～乖乖的交在白丝脚上吧\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 62,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+            "post_id": "2101264484866441641",
+            "handle": "miyaaiqiya11",
+            "source_time": "2026-09-22 08:46:57",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "米娅🐱（只回🚪）",
+        "promo_name": "米娅🐱（只回🚪）",
+        "followers_count": 20995,
+        "followers_text": "2W",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 20995
+          },
+          {
+            "source": "status_legacy",
+            "count": 20995
+          },
+          {
+            "source": "profile_v2",
+            "count": 20995
+          }
+        ],
+        "check_followers_count": 20995,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 20995
+          },
+          {
+            "source": "status_legacy",
+            "count": 20995
+          },
+          {
+            "source": "profile_v2",
+            "count": 20995
+          }
+        ],
+        "tweet_text": "提出这种要求就要做好相应的觉悟哦～乖乖的交在白丝脚上吧\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 62,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "check_url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "promo_post_id": "2101264484866441641",
+        "check_post_id": "2101264484866441641",
+        "chat_id": "-1003218974409",
+        "message_id": 74294,
+        "time": "2026-09-22 08:46:57",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 20995,
+        "qualified_followers_text": "2W",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-22 08:46:57",
+        "admission_locked": false,
+        "daily_list_rank": 4,
         "daily_list_status": "accepted"
       }
     },
@@ -27336,6 +27936,190 @@
         "admission_time": "2026-09-22 08:12:16",
         "admission_locked": true,
         "daily_list_rank": 29,
+        "daily_list_status": "accepted"
+      },
+      "2101264484866441641": {
+        "x_handle": "miyaaiqiya11",
+        "check_handle": "miyaaiqiya11",
+        "dual_link": false,
+        "promo_handle": "miyaaiqiya11",
+        "tg_username": "miyamiao",
+        "tg_user_id": 7998831093,
+        "tg_name": "mi ya",
+        "link": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "message_text": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+            "handle": "miyaaiqiya11",
+            "post_id": "2101264484866441641",
+            "role": "promo",
+            "author_name": "米娅🐱（只回🚪）",
+            "followers_count": 20995,
+            "followers_text": "2W",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 20995
+              },
+              {
+                "source": "status_legacy",
+                "count": 20995
+              },
+              {
+                "source": "profile_v2",
+                "count": 20995
+              }
+            ],
+            "tweet_text": "提出这种要求就要做好相应的觉悟哦～乖乖的交在白丝脚上吧\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 62,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+            "post_id": "2101264484866441641",
+            "handle": "miyaaiqiya11",
+            "source_time": "2026-09-22 08:46:48",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "米娅🐱（只回🚪）",
+        "promo_name": "米娅🐱（只回🚪）",
+        "followers_count": 20995,
+        "followers_text": "2W",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 20995
+          },
+          {
+            "source": "status_legacy",
+            "count": 20995
+          },
+          {
+            "source": "profile_v2",
+            "count": 20995
+          }
+        ],
+        "check_followers_count": 20995,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 20995
+          },
+          {
+            "source": "status_legacy",
+            "count": 20995
+          },
+          {
+            "source": "profile_v2",
+            "count": 20995
+          }
+        ],
+        "tweet_text": "提出这种要求就要做好相应的觉悟哦～乖乖的交在白丝脚上吧\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 62,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "check_url": "https://x.com/miyaaiqiya11/status/2101264484866441641",
+        "promo_post_id": "2101264484866441641",
+        "check_post_id": "2101264484866441641",
+        "chat_id": "-1003739822194",
+        "message_id": 3100,
+        "time": "2026-09-22 08:46:48",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 20995,
+        "qualified_followers_text": "2W",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-22 08:46:48",
+        "admission_locked": false,
+        "daily_list_rank": 30,
         "daily_list_status": "accepted"
       }
     }

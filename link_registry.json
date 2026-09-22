@@ -10,33 +10,61 @@
         "tg_username": "meehutao69",
         "tg_user_id": 8569786982,
         "tg_name": "🎀米胡桃MeeHutao",
-        "link": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
-        "message_text": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
+        "link": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
+        "message_text": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
+            "url": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
             "handle": "meehutaotv",
             "post_id": "2078450964516986883",
             "role": "promo",
             "author_name": "米胡桃MeeHutao",
-            "followers_count": 100638,
+            "followers_count": 100897,
             "followers_text": "10W",
             "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
+                "source": "status_v2",
+                "count": 100897
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 100897
+              },
+              {
+                "source": "status_legacy",
+                "count": 100897
+              },
+              {
                 "source": "profile_v2",
-                "count": 100638
+                "count": 100897
               }
             ],
             "tweet_text": "偷录给开拓者的自慰视频…坏女孩模式全开❤️\n昔涟：“嗯啊…！要去了…在你面前高潮…好羞耻…但好爽…”\n\n#星穹铁道 #昔连 #cosplayㅤㅤㅤㅤㅤㅤㅤ \n@ToBulaer @KawasawaSen\n@BulmaList @ToBuerma",
             "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
               "vx_status_v2",
-              "vx_status_i"
+              "vx_status_i",
+              "status_legacy"
             ],
             "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 122,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 122,
+                "required_mentions_count": 4
+              },
               {
                 "source": "vx_status_v2",
                 "length": 122,
@@ -46,15 +74,28 @@
                 "source": "vx_status_i",
                 "length": 122,
                 "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 122,
+                "required_mentions_count": 4
               }
             ],
-            "tweet_text_primary_source": "vx_status_v2",
+            "tweet_text_primary_source": "status_v2",
             "required_mentions_count": 4
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
+            "post_id": "2078450964516986883",
+            "handle": "meehutaotv",
+            "source_time": "2026-09-23 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
             "post_id": "2078450964516986883",
             "handle": "meehutaotv",
@@ -64,34 +105,77 @@
         ],
         "x_name": "米胡桃MeeHutao",
         "promo_name": "米胡桃MeeHutao",
-        "followers_count": 100638,
+        "followers_count": 100897,
         "followers_text": "10W",
         "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
+            "source": "status_v2",
+            "count": 100897
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 100897
+          },
+          {
+            "source": "status_legacy",
+            "count": 100897
+          },
+          {
             "source": "profile_v2",
-            "count": 100638
+            "count": 100897
           }
         ],
-        "check_followers_count": 100638,
+        "check_followers_count": 100897,
         "check_followers_text": "10W",
         "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
+            "source": "status_v2",
+            "count": 100897
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 100897
+          },
+          {
+            "source": "status_legacy",
+            "count": 100897
+          },
+          {
             "source": "profile_v2",
-            "count": 100638
+            "count": 100897
           }
         ],
         "tweet_text": "偷录给开拓者的自慰视频…坏女孩模式全开❤️\n昔涟：“嗯啊…！要去了…在你面前高潮…好羞耻…但好爽…”\n\n#星穹铁道 #昔连 #cosplayㅤㅤㅤㅤㅤㅤㅤ \n@ToBulaer @KawasawaSen\n@BulmaList @ToBuerma",
         "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
           "vx_status_v2",
-          "vx_status_i"
+          "vx_status_i",
+          "status_legacy"
         ],
         "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 122,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 122,
+            "required_mentions_count": 4
+          },
           {
             "source": "vx_status_v2",
             "length": 122,
@@ -101,13 +185,18 @@
             "source": "vx_status_i",
             "length": 122,
             "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 122,
+            "required_mentions_count": 4
           }
         ],
-        "tweet_text_primary_source": "vx_status_v2",
+        "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 4,
         "content_eligible": true,
-        "promo_url": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
-        "check_url": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
+        "promo_url": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
+        "check_url": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
         "promo_post_id": "2078450964516986883",
         "check_post_id": "2078450964516986883",
         "chat_id": "-1003891628675",
@@ -115,12 +204,15 @@
         "time": "2026-09-23 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-23 01:16:09",
         "followers_min": 100000,
-        "qualified_followers_count": 100638,
+        "qualified_followers_count": 100897,
         "qualified_followers_text": "10W",
         "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "mutual_eligible": true,
@@ -10556,7 +10648,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-23 01:08:11",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 21,
         "daily_list_status": "accepted"
       }
@@ -10572,33 +10664,61 @@
         "tg_username": "meehutao69",
         "tg_user_id": 8569786982,
         "tg_name": "🎀米胡桃MeeHutao",
-        "link": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
-        "message_text": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
+        "link": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
+        "message_text": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
+            "url": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
             "handle": "meehutaotv",
             "post_id": "2078450964516986883",
             "role": "promo",
             "author_name": "米胡桃MeeHutao",
-            "followers_count": 100638,
+            "followers_count": 100897,
             "followers_text": "10W",
             "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
+                "source": "status_v2",
+                "count": 100897
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 100897
+              },
+              {
+                "source": "status_legacy",
+                "count": 100897
+              },
+              {
                 "source": "profile_v2",
-                "count": 100638
+                "count": 100897
               }
             ],
             "tweet_text": "偷录给开拓者的自慰视频…坏女孩模式全开❤️\n昔涟：“嗯啊…！要去了…在你面前高潮…好羞耻…但好爽…”\n\n#星穹铁道 #昔连 #cosplayㅤㅤㅤㅤㅤㅤㅤ \n@ToBulaer @KawasawaSen\n@BulmaList @ToBuerma",
             "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
               "vx_status_v2",
-              "vx_status_i"
+              "vx_status_i",
+              "status_legacy"
             ],
             "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 122,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 122,
+                "required_mentions_count": 4
+              },
               {
                 "source": "vx_status_v2",
                 "length": 122,
@@ -10608,15 +10728,28 @@
                 "source": "vx_status_i",
                 "length": 122,
                 "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 122,
+                "required_mentions_count": 4
               }
             ],
-            "tweet_text_primary_source": "vx_status_v2",
+            "tweet_text_primary_source": "status_v2",
             "required_mentions_count": 4
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
+            "post_id": "2078450964516986883",
+            "handle": "meehutaotv",
+            "source_time": "2026-09-23 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
             "post_id": "2078450964516986883",
             "handle": "meehutaotv",
@@ -10626,34 +10759,77 @@
         ],
         "x_name": "米胡桃MeeHutao",
         "promo_name": "米胡桃MeeHutao",
-        "followers_count": 100638,
+        "followers_count": 100897,
         "followers_text": "10W",
         "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
+            "source": "status_v2",
+            "count": 100897
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 100897
+          },
+          {
+            "source": "status_legacy",
+            "count": 100897
+          },
+          {
             "source": "profile_v2",
-            "count": 100638
+            "count": 100897
           }
         ],
-        "check_followers_count": 100638,
+        "check_followers_count": 100897,
         "check_followers_text": "10W",
         "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
+            "source": "status_v2",
+            "count": 100897
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 100897
+          },
+          {
+            "source": "status_legacy",
+            "count": 100897
+          },
+          {
             "source": "profile_v2",
-            "count": 100638
+            "count": 100897
           }
         ],
         "tweet_text": "偷录给开拓者的自慰视频…坏女孩模式全开❤️\n昔涟：“嗯啊…！要去了…在你面前高潮…好羞耻…但好爽…”\n\n#星穹铁道 #昔连 #cosplayㅤㅤㅤㅤㅤㅤㅤ \n@ToBulaer @KawasawaSen\n@BulmaList @ToBuerma",
         "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
           "vx_status_v2",
-          "vx_status_i"
+          "vx_status_i",
+          "status_legacy"
         ],
         "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 122,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 122,
+            "required_mentions_count": 4
+          },
           {
             "source": "vx_status_v2",
             "length": 122,
@@ -10663,13 +10839,18 @@
             "source": "vx_status_i",
             "length": 122,
             "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 122,
+            "required_mentions_count": 4
           }
         ],
-        "tweet_text_primary_source": "vx_status_v2",
+        "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 4,
         "content_eligible": true,
-        "promo_url": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
-        "check_url": "https://x.com/meehutaotv/status/2078450964516986883?s=46&t=7ZD2O1lOitwCpQF5C04hsg",
+        "promo_url": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
+        "check_url": "https://x.com/meehutaotv/status/2078450964516986883?s=46",
         "promo_post_id": "2078450964516986883",
         "check_post_id": "2078450964516986883",
         "chat_id": "-1003891628675",
@@ -10677,12 +10858,15 @@
         "time": "2026-09-23 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-23 01:16:09",
         "followers_min": 100000,
-        "qualified_followers_count": 100638,
+        "qualified_followers_count": 100897,
         "qualified_followers_text": "10W",
         "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
           "profile_v2"
         ],
         "mutual_eligible": true,
@@ -20920,7 +21104,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-23 01:08:11",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 21,
         "daily_list_status": "accepted"
       }

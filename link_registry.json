@@ -7017,6 +7017,162 @@
         "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted"
+      },
+      "bibo8893": {
+        "x_handle": "bibo8893",
+        "check_handle": "bibo8893",
+        "dual_link": false,
+        "promo_handle": "bibo8893",
+        "tg_username": "yu15786",
+        "tg_user_id": 7261659842,
+        "tg_name": "余欢",
+        "link": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+        "message_text": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+            "handle": "bibo8893",
+            "post_id": "2102208727956992295",
+            "role": "promo",
+            "author_name": "知更鸟",
+            "followers_count": 21250,
+            "followers_text": "2.1W",
+            "followers_sources": [
+              "status_v2",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 21250
+              },
+              {
+                "source": "profile_v2",
+                "count": 21250
+              }
+            ],
+            "tweet_text": "早上就吃热乎乎的面包吧？里面还有奶油味的馅                                                                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 138,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 138,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 138,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+            "post_id": "2102208727956992295",
+            "handle": "bibo8893",
+            "source_time": "2026-09-23 07:20:44",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "知更鸟",
+        "promo_name": "知更鸟",
+        "followers_count": 21250,
+        "followers_text": "2.1W",
+        "followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 21250
+          },
+          {
+            "source": "profile_v2",
+            "count": 21250
+          }
+        ],
+        "check_followers_count": 21250,
+        "check_followers_text": "2.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 21250
+          },
+          {
+            "source": "profile_v2",
+            "count": 21250
+          }
+        ],
+        "tweet_text": "早上就吃热乎乎的面包吧？里面还有奶油味的馅                                                                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 138,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 138,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 138,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+        "check_url": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+        "promo_post_id": "2102208727956992295",
+        "check_post_id": "2102208727956992295",
+        "chat_id": "-1003218974409",
+        "message_id": 74307,
+        "time": "2026-09-23 07:20:44",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 21250,
+        "qualified_followers_text": "2.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-23 07:20:44",
+        "admission_locked": false,
+        "daily_list_rank": 5,
+        "daily_list_status": "accepted"
       }
     },
     "-1003739822194": {
@@ -20498,6 +20654,162 @@
         "admission_time": "2026-09-23 03:20:21",
         "admission_locked": true,
         "daily_list_rank": 4,
+        "daily_list_status": "accepted"
+      },
+      "2102208727956992295": {
+        "x_handle": "bibo8893",
+        "check_handle": "bibo8893",
+        "dual_link": false,
+        "promo_handle": "bibo8893",
+        "tg_username": "yu15786",
+        "tg_user_id": 7261659842,
+        "tg_name": "余欢",
+        "link": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+        "message_text": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+            "handle": "bibo8893",
+            "post_id": "2102208727956992295",
+            "role": "promo",
+            "author_name": "知更鸟",
+            "followers_count": 21250,
+            "followers_text": "2.1W",
+            "followers_sources": [
+              "status_v2",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 21250
+              },
+              {
+                "source": "profile_v2",
+                "count": 21250
+              }
+            ],
+            "tweet_text": "早上就吃热乎乎的面包吧？里面还有奶油味的馅                                                                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 138,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 138,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 138,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+            "post_id": "2102208727956992295",
+            "handle": "bibo8893",
+            "source_time": "2026-09-23 07:20:44",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "知更鸟",
+        "promo_name": "知更鸟",
+        "followers_count": 21250,
+        "followers_text": "2.1W",
+        "followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 21250
+          },
+          {
+            "source": "profile_v2",
+            "count": 21250
+          }
+        ],
+        "check_followers_count": 21250,
+        "check_followers_text": "2.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 21250
+          },
+          {
+            "source": "profile_v2",
+            "count": 21250
+          }
+        ],
+        "tweet_text": "早上就吃热乎乎的面包吧？里面还有奶油味的馅                                                                                    @ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 138,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 138,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 138,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+        "check_url": "https://x.com/bibo8893/status/2102208727956992295?s=46",
+        "promo_post_id": "2102208727956992295",
+        "check_post_id": "2102208727956992295",
+        "chat_id": "-1003218974409",
+        "message_id": 74307,
+        "time": "2026-09-23 07:20:44",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 20000,
+        "qualified_followers_count": 21250,
+        "qualified_followers_text": "2.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-23 07:20:44",
+        "admission_locked": false,
+        "daily_list_rank": 5,
         "daily_list_status": "accepted"
       }
     },

@@ -9268,7 +9268,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:16:30",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
         "daily_list_status": "accepted"
       },
@@ -9489,7 +9489,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:16:30",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
         "daily_list_status": "accepted"
       },
@@ -9645,7 +9645,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:19:27",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 10,
         "daily_list_status": "accepted"
       },
@@ -9857,7 +9857,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:20:10",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
         "daily_list_status": "accepted"
       },
@@ -10069,7 +10069,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:21:08",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 12,
         "daily_list_status": "accepted"
       },
@@ -10253,7 +10253,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:22:36",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 13,
         "daily_list_status": "accepted"
       },
@@ -10465,8 +10465,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:27:03",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 14,
+        "daily_list_status": "accepted"
+      },
+      "xujiaoxp": {
+        "x_handle": "xujiaoxp",
+        "check_handle": "xujiaoxp",
+        "dual_link": false,
+        "promo_handle": "xujiaoxp",
+        "tg_username": "xujiaoking",
+        "tg_user_id": 5396435834,
+        "tg_name": "虚焦大王.-",
+        "link": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+        "message_text": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+            "handle": "xujiaoxp",
+            "post_id": "2102592207450706226",
+            "role": "promo",
+            "author_name": "Y7",
+            "followers_count": 1249,
+            "followers_text": "1.2K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1249
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1249
+              },
+              {
+                "source": "status_legacy",
+                "count": 1249
+              },
+              {
+                "source": "profile_v2",
+                "count": 1249
+              }
+            ],
+            "tweet_text": "吃上漂亮饭了@fufuhuli \n\n📮：\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 56,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 56,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 56,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 56,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 56,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+            "post_id": "2102592207450706226",
+            "handle": "xujiaoxp",
+            "source_time": "2026-09-24 00:33:48",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Y7",
+        "promo_name": "Y7",
+        "followers_count": 1249,
+        "followers_text": "1.2K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1249
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1249
+          },
+          {
+            "source": "status_legacy",
+            "count": 1249
+          },
+          {
+            "source": "profile_v2",
+            "count": 1249
+          }
+        ],
+        "check_followers_count": 1249,
+        "check_followers_text": "1.2K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1249
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1249
+          },
+          {
+            "source": "status_legacy",
+            "count": 1249
+          },
+          {
+            "source": "profile_v2",
+            "count": 1249
+          }
+        ],
+        "tweet_text": "吃上漂亮饭了@fufuhuli \n\n📮：\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 56,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 56,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 56,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 56,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 56,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+        "check_url": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+        "promo_post_id": "2102592207450706226",
+        "check_post_id": "2102592207450706226",
+        "chat_id": "-1003739822194",
+        "message_id": 3198,
+        "time": "2026-09-24 00:33:48",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1249,
+        "qualified_followers_text": "1.2K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:33:48",
+        "admission_locked": false,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted"
       }
     }
@@ -19923,7 +20135,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:16:30",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
         "daily_list_status": "accepted"
       },
@@ -20079,7 +20291,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:19:27",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 10,
         "daily_list_status": "accepted"
       },
@@ -20291,7 +20503,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:20:10",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
         "daily_list_status": "accepted"
       },
@@ -20503,7 +20715,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:21:08",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 12,
         "daily_list_status": "accepted"
       },
@@ -20687,7 +20899,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:22:36",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 13,
         "daily_list_status": "accepted"
       },
@@ -20899,8 +21111,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:27:03",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 14,
+        "daily_list_status": "accepted"
+      },
+      "2102592207450706226": {
+        "x_handle": "xujiaoxp",
+        "check_handle": "xujiaoxp",
+        "dual_link": false,
+        "promo_handle": "xujiaoxp",
+        "tg_username": "xujiaoking",
+        "tg_user_id": 5396435834,
+        "tg_name": "虚焦大王.-",
+        "link": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+        "message_text": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+            "handle": "xujiaoxp",
+            "post_id": "2102592207450706226",
+            "role": "promo",
+            "author_name": "Y7",
+            "followers_count": 1249,
+            "followers_text": "1.2K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1249
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1249
+              },
+              {
+                "source": "status_legacy",
+                "count": 1249
+              },
+              {
+                "source": "profile_v2",
+                "count": 1249
+              }
+            ],
+            "tweet_text": "吃上漂亮饭了@fufuhuli \n\n📮：\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 56,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 56,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 56,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 56,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 56,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+            "post_id": "2102592207450706226",
+            "handle": "xujiaoxp",
+            "source_time": "2026-09-24 00:33:48",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Y7",
+        "promo_name": "Y7",
+        "followers_count": 1249,
+        "followers_text": "1.2K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1249
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1249
+          },
+          {
+            "source": "status_legacy",
+            "count": 1249
+          },
+          {
+            "source": "profile_v2",
+            "count": 1249
+          }
+        ],
+        "check_followers_count": 1249,
+        "check_followers_text": "1.2K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1249
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1249
+          },
+          {
+            "source": "status_legacy",
+            "count": 1249
+          },
+          {
+            "source": "profile_v2",
+            "count": 1249
+          }
+        ],
+        "tweet_text": "吃上漂亮饭了@fufuhuli \n\n📮：\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 56,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 56,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 56,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 56,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 56,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+        "check_url": "https://x.com/xujiaoxp/status/2102592207450706226?s=46",
+        "promo_post_id": "2102592207450706226",
+        "check_post_id": "2102592207450706226",
+        "chat_id": "-1003739822194",
+        "message_id": 3198,
+        "time": "2026-09-24 00:33:48",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1249,
+        "qualified_followers_text": "1.2K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:33:48",
+        "admission_locked": false,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted"
       }
     }

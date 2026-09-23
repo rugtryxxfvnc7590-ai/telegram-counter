@@ -11223,6 +11223,18 @@
           {
             "source": "profile_v2",
             "count": 6103
+          },
+          {
+            "source": "status_legacy",
+            "count": 6103
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 6104
+          },
+          {
+            "source": "profile_v2",
+            "count": 6104
           }
         ],
         "check_followers_count": 6125,
@@ -12976,7 +12988,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 04:17:39",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 26,
         "daily_list_status": "accepted"
       }
@@ -24008,6 +24020,18 @@
           {
             "source": "profile_v2",
             "count": 6103
+          },
+          {
+            "source": "status_legacy",
+            "count": 6103
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 6104
+          },
+          {
+            "source": "profile_v2",
+            "count": 6104
           }
         ],
         "check_followers_count": 6125,
@@ -25761,7 +25785,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 04:17:39",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 26,
         "daily_list_status": "accepted"
       }

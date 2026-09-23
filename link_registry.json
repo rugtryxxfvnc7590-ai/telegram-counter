@@ -11015,7 +11015,7 @@
         ],
         "x_name": "幸运鹅🦢",
         "promo_name": "幸运鹅🦢",
-        "followers_count": 6135,
+        "followers_count": 6137,
         "followers_text": "6.1K",
         "followers_sources": [
           "status_v2",
@@ -11115,6 +11115,26 @@
           {
             "source": "status_v2",
             "count": 6135
+          },
+          {
+            "source": "status_v2",
+            "count": 6136
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 6136
+          },
+          {
+            "source": "status_legacy",
+            "count": 6136
+          },
+          {
+            "source": "profile_v2",
+            "count": 6136
+          },
+          {
+            "source": "profile_v2",
+            "count": 6137
           }
         ],
         "check_followers_count": 6125,
@@ -11193,7 +11213,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 6135,
+        "qualified_followers_count": 6137,
         "qualified_followers_text": "6.1K",
         "qualified_followers_sources": [
           "status_v2",
@@ -11960,448 +11980,6 @@
         "daily_list_rank": 21,
         "daily_list_status": "accepted"
       },
-      "kwonhm0611": {
-        "x_handle": "kwonhm0611",
-        "check_handle": "guoguo11122",
-        "dual_link": true,
-        "promo_handle": "kwonhm0611",
-        "tg_username": "Guoguoqq",
-        "tg_user_id": 8243332573,
-        "tg_name": "GuoGuo💞",
-        "link": "https://x.com/kwonhm0611/status/2102328511214309791?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
-        "message_text": "https://x.com/kwonhm0611/status/2102328511214309791?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/kwonhm0611/status/2102328511214309791?s=46",
-            "handle": "kwonhm0611",
-            "post_id": "2102328511214309791",
-            "role": "promo",
-            "author_name": "在线视频— （接11",
-            "followers_count": 826,
-            "followers_text": "826",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 826
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 826
-              },
-              {
-                "source": "status_legacy",
-                "count": 826
-              },
-              {
-                "source": "profile_v2",
-                "count": 826
-              }
-            ],
-            "tweet_text": "-\n\n攒了一口袋的晴天～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 47,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          },
-          {
-            "order": 2,
-            "url": "https://x.com/guoguo11122?s=21",
-            "handle": "guoguo11122",
-            "post_id": "",
-            "role": "check",
-            "author_name": "Guoguo💞",
-            "followers_count": 35556,
-            "followers_text": "3.5W",
-            "followers_sources": [
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "profile_v2",
-                "count": 35556
-              }
-            ],
-            "tweet_text": "",
-            "tweet_text_sources": [],
-            "tweet_text_observations": [],
-            "tweet_text_primary_source": "",
-            "required_mentions_count": 0
-          }
-        ],
-        "link_options": [
-          {
-            "label": "编辑后",
-            "url": "https://x.com/kwonhm0611/status/2102328511214309791?s=46",
-            "post_id": "2102328511214309791",
-            "handle": "kwonhm0611",
-            "source_time": "2026-09-24 01:49:55",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "在线视频— （接11",
-        "promo_name": "在线视频— （接11",
-        "followers_count": 826,
-        "followers_text": "826",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 826
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 826
-          },
-          {
-            "source": "status_legacy",
-            "count": 826
-          },
-          {
-            "source": "profile_v2",
-            "count": 826
-          }
-        ],
-        "check_followers_count": 35556,
-        "check_followers_text": "3.5W",
-        "check_followers_sources": [
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "profile_v2",
-            "count": 35556
-          }
-        ],
-        "tweet_text": "-\n\n攒了一口袋的晴天～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 47,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/kwonhm0611/status/2102328511214309791?s=46",
-        "check_url": "https://x.com/guoguo11122?s=21",
-        "promo_post_id": "2102328511214309791",
-        "check_post_id": "",
-        "chat_id": "-1003739822194",
-        "message_id": 3208,
-        "time": "2026-09-24 01:49:55",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": true,
-        "edit_time": "2026-09-24 01:53:55",
-        "followers_min": 0,
-        "qualified_followers_count": 35556,
-        "qualified_followers_text": "3.5W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-09-24 01:53:55",
-        "admission_locked": true,
-        "daily_list_rank": 23,
-        "daily_list_status": "accepted"
-      },
-      "guoguo11122": {
-        "x_handle": "guoguo11122",
-        "check_handle": "guoguo11122",
-        "dual_link": true,
-        "promo_handle": "kwonhm0611",
-        "tg_username": "Guoguoqq",
-        "tg_user_id": 8243332573,
-        "tg_name": "GuoGuo💞",
-        "link": "https://x.com/kwonhm0611/status/2102328511214309791?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
-        "message_text": "https://x.com/kwonhm0611/status/2102328511214309791?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/kwonhm0611/status/2102328511214309791?s=46",
-            "handle": "kwonhm0611",
-            "post_id": "2102328511214309791",
-            "role": "promo",
-            "author_name": "在线视频— （接11",
-            "followers_count": 826,
-            "followers_text": "826",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 826
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 826
-              },
-              {
-                "source": "status_legacy",
-                "count": 826
-              },
-              {
-                "source": "profile_v2",
-                "count": 826
-              }
-            ],
-            "tweet_text": "-\n\n攒了一口袋的晴天～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 47,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          },
-          {
-            "order": 2,
-            "url": "https://x.com/guoguo11122?s=21",
-            "handle": "guoguo11122",
-            "post_id": "",
-            "role": "check",
-            "author_name": "Guoguo💞",
-            "followers_count": 35556,
-            "followers_text": "3.5W",
-            "followers_sources": [
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "profile_v2",
-                "count": 35556
-              }
-            ],
-            "tweet_text": "",
-            "tweet_text_sources": [],
-            "tweet_text_observations": [],
-            "tweet_text_primary_source": "",
-            "required_mentions_count": 0
-          }
-        ],
-        "link_options": [
-          {
-            "label": "编辑后",
-            "url": "https://x.com/kwonhm0611/status/2102328511214309791?s=46",
-            "post_id": "2102328511214309791",
-            "handle": "kwonhm0611",
-            "source_time": "2026-09-24 01:49:55",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "在线视频— （接11",
-        "promo_name": "在线视频— （接11",
-        "followers_count": 826,
-        "followers_text": "826",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 826
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 826
-          },
-          {
-            "source": "status_legacy",
-            "count": 826
-          },
-          {
-            "source": "profile_v2",
-            "count": 826
-          }
-        ],
-        "check_followers_count": 35556,
-        "check_followers_text": "3.5W",
-        "check_followers_sources": [
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "profile_v2",
-            "count": 35556
-          }
-        ],
-        "tweet_text": "-\n\n攒了一口袋的晴天～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 47,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/kwonhm0611/status/2102328511214309791?s=46",
-        "check_url": "https://x.com/guoguo11122?s=21",
-        "promo_post_id": "2102328511214309791",
-        "check_post_id": "",
-        "chat_id": "-1003739822194",
-        "message_id": 3208,
-        "time": "2026-09-24 01:49:55",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": true,
-        "edit_time": "2026-09-24 01:53:55",
-        "followers_min": 0,
-        "qualified_followers_count": 35556,
-        "qualified_followers_text": "3.5W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-09-24 01:53:55",
-        "admission_locked": true,
-        "daily_list_rank": 23,
-        "daily_list_status": "accepted"
-      },
       "unniya18": {
         "x_handle": "unniya18",
         "check_handle": "unniya18",
@@ -12823,7 +12401,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 02:03:11",
         "admission_locked": true,
-        "daily_list_rank": 24,
+        "daily_list_rank": 23,
         "daily_list_status": "accepted"
       },
       "qiqitu777_": {
@@ -13035,7 +12613,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 02:05:20",
         "admission_locked": true,
-        "daily_list_rank": 25,
+        "daily_list_rank": 24,
         "daily_list_status": "accepted"
       }
     }
@@ -23858,7 +23436,7 @@
         ],
         "x_name": "幸运鹅🦢",
         "promo_name": "幸运鹅🦢",
-        "followers_count": 6135,
+        "followers_count": 6137,
         "followers_text": "6.1K",
         "followers_sources": [
           "status_v2",
@@ -23958,6 +23536,26 @@
           {
             "source": "status_v2",
             "count": 6135
+          },
+          {
+            "source": "status_v2",
+            "count": 6136
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 6136
+          },
+          {
+            "source": "status_legacy",
+            "count": 6136
+          },
+          {
+            "source": "profile_v2",
+            "count": 6136
+          },
+          {
+            "source": "profile_v2",
+            "count": 6137
           }
         ],
         "check_followers_count": 6125,
@@ -24036,7 +23634,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 6135,
+        "qualified_followers_count": 6137,
         "qualified_followers_text": "6.1K",
         "qualified_followers_sources": [
           "status_v2",
@@ -24803,227 +24401,6 @@
         "daily_list_rank": 21,
         "daily_list_status": "accepted"
       },
-      "2102328511214309791": {
-        "x_handle": "kwonhm0611",
-        "check_handle": "guoguo11122",
-        "dual_link": true,
-        "promo_handle": "kwonhm0611",
-        "tg_username": "Guoguoqq",
-        "tg_user_id": 8243332573,
-        "tg_name": "GuoGuo💞",
-        "link": "https://x.com/kwonhm0611/status/2102328511214309791?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
-        "message_text": "https://x.com/kwonhm0611/status/2102328511214309791?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/kwonhm0611/status/2102328511214309791?s=46",
-            "handle": "kwonhm0611",
-            "post_id": "2102328511214309791",
-            "role": "promo",
-            "author_name": "在线视频— （接11",
-            "followers_count": 826,
-            "followers_text": "826",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 826
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 826
-              },
-              {
-                "source": "status_legacy",
-                "count": 826
-              },
-              {
-                "source": "profile_v2",
-                "count": 826
-              }
-            ],
-            "tweet_text": "-\n\n攒了一口袋的晴天～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 47,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 47,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          },
-          {
-            "order": 2,
-            "url": "https://x.com/guoguo11122?s=21",
-            "handle": "guoguo11122",
-            "post_id": "",
-            "role": "check",
-            "author_name": "Guoguo💞",
-            "followers_count": 35556,
-            "followers_text": "3.5W",
-            "followers_sources": [
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "profile_v2",
-                "count": 35556
-              }
-            ],
-            "tweet_text": "",
-            "tweet_text_sources": [],
-            "tweet_text_observations": [],
-            "tweet_text_primary_source": "",
-            "required_mentions_count": 0
-          }
-        ],
-        "link_options": [
-          {
-            "label": "编辑后",
-            "url": "https://x.com/kwonhm0611/status/2102328511214309791?s=46",
-            "post_id": "2102328511214309791",
-            "handle": "kwonhm0611",
-            "source_time": "2026-09-24 01:49:55",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "在线视频— （接11",
-        "promo_name": "在线视频— （接11",
-        "followers_count": 826,
-        "followers_text": "826",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 826
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 826
-          },
-          {
-            "source": "status_legacy",
-            "count": 826
-          },
-          {
-            "source": "profile_v2",
-            "count": 826
-          }
-        ],
-        "check_followers_count": 35556,
-        "check_followers_text": "3.5W",
-        "check_followers_sources": [
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "profile_v2",
-            "count": 35556
-          }
-        ],
-        "tweet_text": "-\n\n攒了一口袋的晴天～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 47,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 47,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/kwonhm0611/status/2102328511214309791?s=46",
-        "check_url": "https://x.com/guoguo11122?s=21",
-        "promo_post_id": "2102328511214309791",
-        "check_post_id": "",
-        "chat_id": "-1003739822194",
-        "message_id": 3208,
-        "time": "2026-09-24 01:49:55",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": true,
-        "edit_time": "2026-09-24 01:53:55",
-        "followers_min": 0,
-        "qualified_followers_count": 35556,
-        "qualified_followers_text": "3.5W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-09-24 01:53:55",
-        "admission_locked": true,
-        "daily_list_rank": 23,
-        "daily_list_status": "accepted"
-      },
       "2102701054370681143": {
         "x_handle": "unniya18",
         "check_handle": "unniya18",
@@ -25445,7 +24822,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 02:03:11",
         "admission_locked": true,
-        "daily_list_rank": 24,
+        "daily_list_rank": 23,
         "daily_list_status": "accepted"
       },
       "2087748200904212525": {
@@ -25657,7 +25034,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 02:05:20",
         "admission_locked": true,
-        "daily_list_rank": 25,
+        "daily_list_rank": 24,
         "daily_list_status": "accepted"
       }
     }
@@ -25666,5 +25043,16 @@
     "群一": 30,
     "群二": 30,
     "群三": 30
+  },
+  "confirmed_withdrawals": {
+    "date": "2026-09-24",
+    "groups": {
+      "群三": {
+        "3208": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-09-24 03:15:40"
+        }
+      }
+    }
   }
 }

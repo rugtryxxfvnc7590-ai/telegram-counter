@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "offset": 364616707,
+  "offset": 364616708,
   "groups": {
     "-1003891628675": {
       "count": 35,
@@ -92,7 +92,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-23",
-    "run_at": "2026-09-23 09:00:46",
+    "run_at": "2026-09-23 09:15:26",
     "completed_groups": [
       "群一",
       "群二",
@@ -100,40 +100,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35804477162:1",
-        "checked_at": "2026-09-23 09:00:48",
+        "run_key": "35805524097:1",
+        "checked_at": "2026-09-23 09:15:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35804477162:1",
-        "checked_at": "2026-09-23 09:00:48",
+        "run_key": "35805524097:1",
+        "checked_at": "2026-09-23 09:15:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35804477162:1",
-        "checked_at": "2026-09-23 09:00:48",
+        "run_key": "35805524097:1",
+        "checked_at": "2026-09-23 09:15:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "35804477162:1",
-        "checked_at": "2026-09-23 09:00:48",
+        "run_key": "35805524097:1",
+        "checked_at": "2026-09-23 09:15:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "35804477162:1",
-        "checked_at": "2026-09-23 09:00:48",
+        "run_key": "35805524097:1",
+        "checked_at": "2026-09-23 09:15:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "35804477162:1",
-        "checked_at": "2026-09-23 09:00:48",
+        "run_key": "35805524097:1",
+        "checked_at": "2026-09-23 09:15:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -154,7 +154,7 @@
           "https://x.com/joragyyy/status/2102363645208572193",
           "https://x.com/caochangqing111/status/2101797240310218931",
           "https://x.com/youmeier/status/2100900967680250232",
-          "https://x.com/lris_intj/status/2101565968505884837",
+          "https://x.com/lris_intj/status/2102564042653192518",
           "https://x.com/asecresm/status/2099713234018369767",
           "https://x.com/xiaochen000007/status/2100473377173774410",
           "https://x.com/bob7078/status/2102403034290827454",
@@ -243,15 +243,16 @@
           },
           {
             "handle": "lris_intj",
-            "post_id": "2101565968505884837",
+            "post_id": "2102564042653192518",
             "original_post_id": "2101565968505884837",
-            "url": "https://x.com/lris_intj/status/2101565968505884837",
-            "edited": false,
+            "url": "https://x.com/lris_intj/status/2102564042653192518",
+            "edited": true,
             "position": 6,
             "message_id": "8187",
             "tg_user_id": "2103607030",
             "time": "2026-09-23 00:01:09",
-            "admission_time": "2026-09-23 00:01:09"
+            "admission_time": "2026-09-23 00:01:09",
+            "edit_time": "2026-09-23 09:04:33"
           },
           {
             "handle": "asecresm",
@@ -547,13 +548,13 @@
         ],
         "message_id": 2903,
         "owner_chat_id": "8614747348",
-        "text": "群一（9月23日）互推名单，共 30 条\n\n1 https://x.com/hanzuzong3/status/2099829887867781257\n\n2 https://x.com/xye9518/status/2100414726937182714\n\n3 https://x.com/joragyyy/status/2102363645208572193\n\n4 https://x.com/caochangqing111/status/2101797240310218931\n\n5 https://x.com/youmeier/status/2100900967680250232\n\n6 https://x.com/lris_intj/status/2101565968505884837\n\n7 https://x.com/asecresm/status/2099713234018369767\n\n8 https://x.com/xiaochen000007/status/2100473377173774410\n\n9 https://x.com/bob7078/status/2102403034290827454\n\n10 https://x.com/sleepsbg/status/2100942159671402648\n\n11 https://x.com/xiuchiluchu910/status/2102267608825278868\n\n12 https://x.com/snd99x/status/2102045781826187447\n\n13 https://x.com/shixiaotaone/status/2101913206080061927\n\n候补14 https://x.com/yuci33/status/2074493931082182842\n\n15 https://x.com/alpha_l_lucky/status/2102425246670503977\n\n16 https://x.com/uudajiejie/status/2101905643942846964\n\n17 https://x.com/lovvy222/status/2090039904856342705\n\n18 https://x.com/xiaoqiaots/status/2102399403185377582\n\n19 https://x.com/nancyyzp/status/2102261793863135244\n\n20 https://x.com/jxzeroc/status/2099867020091347357\n\n21 https://x.com/hong14868/status/2101570905025527809\n\n22 https://x.com/lazypiggy850/status/2085284595612971360\n\n23 https://x.com/laibeinaixiba/status/2089558662457282900\n\n24 https://x.com/qbln9999/status/2102422076531589424\n\n25 https://x.com/shixiaotaon/status/2101586826083582349\n\n26 https://x.com/tiaotiaosheep/status/2101158756575068282\n\n27 https://x.com/jingyeshiwu/status/2090067086542573783\n\n28 https://x.com/libalababy/status/2064316540456218871\n\n29 https://x.com/svj798ds/status/2101310345826689414\n\n30 https://x.com/meehutaotv/status/2078450964516986883",
+        "text": "群一（9月23日）互推名单，共 30 条\n\n1 https://x.com/hanzuzong3/status/2099829887867781257\n\n2 https://x.com/xye9518/status/2100414726937182714\n\n3 https://x.com/joragyyy/status/2102363645208572193\n\n4 https://x.com/caochangqing111/status/2101797240310218931\n\n5 https://x.com/youmeier/status/2100900967680250232\n\n已编辑 6 https://x.com/lris_intj/status/2102564042653192518\n\n7 https://x.com/asecresm/status/2099713234018369767\n\n8 https://x.com/xiaochen000007/status/2100473377173774410\n\n9 https://x.com/bob7078/status/2102403034290827454\n\n10 https://x.com/sleepsbg/status/2100942159671402648\n\n11 https://x.com/xiuchiluchu910/status/2102267608825278868\n\n12 https://x.com/snd99x/status/2102045781826187447\n\n13 https://x.com/shixiaotaone/status/2101913206080061927\n\n候补14 https://x.com/yuci33/status/2074493931082182842\n\n15 https://x.com/alpha_l_lucky/status/2102425246670503977\n\n16 https://x.com/uudajiejie/status/2101905643942846964\n\n17 https://x.com/lovvy222/status/2090039904856342705\n\n18 https://x.com/xiaoqiaots/status/2102399403185377582\n\n19 https://x.com/nancyyzp/status/2102261793863135244\n\n20 https://x.com/jxzeroc/status/2099867020091347357\n\n21 https://x.com/hong14868/status/2101570905025527809\n\n22 https://x.com/lazypiggy850/status/2085284595612971360\n\n23 https://x.com/laibeinaixiba/status/2089558662457282900\n\n24 https://x.com/qbln9999/status/2102422076531589424\n\n25 https://x.com/shixiaotaon/status/2101586826083582349\n\n26 https://x.com/tiaotiaosheep/status/2101158756575068282\n\n27 https://x.com/jingyeshiwu/status/2090067086542573783\n\n28 https://x.com/libalababy/status/2064316540456218871\n\n29 https://x.com/svj798ds/status/2101310345826689414\n\n30 https://x.com/meehutaotv/status/2078450964516986883",
         "roster_capacity": 30,
         "vacant_positions": {},
         "withdrawn_message_ids": [
           "8179"
         ],
-        "updated_at": "2026-09-23 00:16:46"
+        "updated_at": "2026-09-23 09:15:31"
       },
       "群三": {
         "sent": true,
@@ -1047,7 +1048,15 @@
   "edited_link_receipts": {
     "date": "2026-09-23",
     "groups": {
-      "群一": {},
+      "群一": {
+        "8187": {
+          "key": "8187:2102564042653192518:2026-09-23 09:04:33:synced",
+          "post_id": "2102564042653192518",
+          "outcome": "synced",
+          "retained_post_id": "2102564042653192518",
+          "sent_at": "2026-09-23 09:15:32"
+        }
+      },
       "群二": {},
       "群三": {}
     }
@@ -1146,15 +1155,16 @@
           },
           {
             "handle": "lris_intj",
-            "post_id": "2101565968505884837",
+            "post_id": "2102564042653192518",
             "original_post_id": "2101565968505884837",
-            "url": "https://x.com/lris_intj/status/2101565968505884837",
-            "edited": false,
+            "url": "https://x.com/lris_intj/status/2102564042653192518",
+            "edited": true,
             "position": 6,
             "message_id": "8187",
             "tg_user_id": "2103607030",
             "time": "2026-09-23 00:01:09",
-            "admission_time": "2026-09-23 00:01:09"
+            "admission_time": "2026-09-23 00:01:09",
+            "edit_time": "2026-09-23 09:04:33"
           },
           {
             "handle": "asecresm",

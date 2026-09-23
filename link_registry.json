@@ -2078,12 +2078,13 @@
         ],
         "x_name": "甜妻派对（原创）",
         "promo_name": "甜妻派对（原创）",
-        "followers_count": 107864,
+        "followers_count": 107891,
         "followers_text": "10.7W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -2117,6 +2118,18 @@
           {
             "source": "status_legacy",
             "count": 107864
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 107891
+          },
+          {
+            "source": "status_legacy",
+            "count": 107891
+          },
+          {
+            "source": "profile_v2",
+            "count": 107891
           }
         ],
         "check_followers_count": 107838,
@@ -2190,12 +2203,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 107864,
+        "qualified_followers_count": 107891,
         "qualified_followers_text": "10.7W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -5404,12 +5418,13 @@
         ],
         "x_name": "胖头鱼(视频号)",
         "promo_name": "胖头鱼(视频号)",
-        "followers_count": 176860,
+        "followers_count": 176868,
         "followers_text": "17.6W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -5435,6 +5450,22 @@
           {
             "source": "status_legacy",
             "count": 176860
+          },
+          {
+            "source": "status_v2",
+            "count": 176868
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 176868
+          },
+          {
+            "source": "status_legacy",
+            "count": 176868
+          },
+          {
+            "source": "profile_v2",
+            "count": 176868
           }
         ],
         "check_followers_count": 176859,
@@ -5508,12 +5539,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 176860,
+        "qualified_followers_count": 176868,
         "qualified_followers_text": "17.6W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -5601,12 +5633,13 @@
         ],
         "x_name": "小林的涩涩日常",
         "promo_name": "小林的涩涩日常",
-        "followers_count": 156868,
+        "followers_count": 156869,
         "followers_text": "15.6W",
         "followers_sources": [
           "status_legacy_i",
           "status_legacy",
-          "status_v2"
+          "status_v2",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -5620,6 +5653,22 @@
           {
             "source": "status_v2",
             "count": 156868
+          },
+          {
+            "source": "status_v2",
+            "count": 156869
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 156869
+          },
+          {
+            "source": "status_legacy",
+            "count": 156869
+          },
+          {
+            "source": "profile_v2",
+            "count": 156869
           }
         ],
         "check_followers_count": 156868,
@@ -5688,12 +5737,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 156868,
+        "qualified_followers_count": 156869,
         "qualified_followers_text": "15.6W",
         "qualified_followers_sources": [
           "status_legacy_i",
           "status_legacy",
-          "status_v2"
+          "status_v2",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -5910,7 +5960,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:01:49",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 29,
         "daily_list_status": "accepted"
       },
@@ -6122,221 +6172,9 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:02:01",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 30,
         "daily_list_status": "accepted"
-      },
-      "caochangqing111": {
-        "x_handle": "caochangqing111",
-        "check_handle": "caochangqing111",
-        "dual_link": false,
-        "promo_handle": "caochangqing111",
-        "tg_username": "caoguanzi99",
-        "tg_user_id": 7176578641,
-        "tg_name": "曹长卿",
-        "link": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-        "message_text": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-            "handle": "caochangqing111",
-            "post_id": "2101797240310218931",
-            "role": "promo",
-            "author_name": "曹长卿唯一大号 支持任何验证",
-            "followers_count": 360365,
-            "followers_text": "36W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 360365
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 360365
-              },
-              {
-                "source": "status_legacy",
-                "count": 360365
-              },
-              {
-                "source": "profile_v2",
-                "count": 360365
-              }
-            ],
-            "tweet_text": "#曹长卿  #足模姐姐  夏树 \n台球桌上足交\n视频更新在单独群组和SVIP\n@ToBuerma            @ToBulaer \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 83,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 83,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 83,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 83,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 83,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-            "post_id": "2101797240310218931",
-            "handle": "caochangqing111",
-            "source_time": "2026-09-24 00:02:10",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "曹长卿唯一大号 支持任何验证",
-        "promo_name": "曹长卿唯一大号 支持任何验证",
-        "followers_count": 360365,
-        "followers_text": "36W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 360365
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 360365
-          },
-          {
-            "source": "status_legacy",
-            "count": 360365
-          },
-          {
-            "source": "profile_v2",
-            "count": 360365
-          }
-        ],
-        "check_followers_count": 360365,
-        "check_followers_text": "36W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 360365
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 360365
-          },
-          {
-            "source": "status_legacy",
-            "count": 360365
-          },
-          {
-            "source": "profile_v2",
-            "count": 360365
-          }
-        ],
-        "tweet_text": "#曹长卿  #足模姐姐  夏树 \n台球桌上足交\n视频更新在单独群组和SVIP\n@ToBuerma            @ToBulaer \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 83,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 83,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 83,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 83,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 83,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-        "check_url": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-        "promo_post_id": "2101797240310218931",
-        "check_post_id": "2101797240310218931",
-        "chat_id": "-1003891628675",
-        "message_id": 8262,
-        "time": "2026-09-24 00:02:10",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 360365,
-        "qualified_followers_text": "36W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-09-24 00:02:10",
-        "admission_locked": false,
-        "daily_list_rank": 32,
-        "daily_list_status": "waitlist"
       },
       "asecresm": {
         "x_handle": "asecresm",
@@ -6417,12 +6255,13 @@
         ],
         "x_name": "云儿",
         "promo_name": "云儿",
-        "followers_count": 247555,
+        "followers_count": 247598,
         "followers_text": "24.7W",
         "followers_sources": [
           "status_v2",
           "status_legacy",
-          "status_legacy_i"
+          "status_legacy_i",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -6444,6 +6283,22 @@
           {
             "source": "status_legacy",
             "count": 247555
+          },
+          {
+            "source": "status_v2",
+            "count": 247596
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 247596
+          },
+          {
+            "source": "status_legacy",
+            "count": 247596
+          },
+          {
+            "source": "profile_v2",
+            "count": 247598
           }
         ],
         "check_followers_count": 247554,
@@ -6512,18 +6367,19 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 247555,
+        "qualified_followers_count": 247598,
         "qualified_followers_text": "24.7W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy",
-          "status_legacy_i"
+          "status_legacy_i",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:02:14",
         "admission_locked": false,
-        "daily_list_rank": 33,
+        "daily_list_rank": 32,
         "daily_list_status": "waitlist"
       },
       "xye918": {
@@ -6735,7 +6591,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:02:55",
         "admission_locked": false,
-        "daily_list_rank": 34,
+        "daily_list_rank": 33,
         "daily_list_status": "waitlist"
       },
       "qiobnxingcai": {
@@ -6947,7 +6803,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:03:23",
         "admission_locked": false,
-        "daily_list_rank": 35,
+        "daily_list_rank": 34,
         "daily_list_status": "waitlist"
       },
       "aksaks99999": {
@@ -7029,12 +6885,13 @@
         ],
         "x_name": "AKs",
         "promo_name": "AKs",
-        "followers_count": 196492,
+        "followers_count": 196503,
         "followers_text": "19.6W",
         "followers_sources": [
           "status_legacy_i",
           "status_legacy",
-          "status_v2"
+          "status_v2",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -7048,6 +6905,22 @@
           {
             "source": "status_v2",
             "count": 196492
+          },
+          {
+            "source": "status_v2",
+            "count": 196503
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 196503
+          },
+          {
+            "source": "status_legacy",
+            "count": 196503
+          },
+          {
+            "source": "profile_v2",
+            "count": 196503
           }
         ],
         "check_followers_count": 196492,
@@ -7116,18 +6989,19 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 196492,
+        "qualified_followers_count": 196503,
         "qualified_followers_text": "19.6W",
         "qualified_followers_sources": [
           "status_legacy_i",
           "status_legacy",
-          "status_v2"
+          "status_v2",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:03:52",
         "admission_locked": false,
-        "daily_list_rank": 36,
+        "daily_list_rank": 35,
         "daily_list_status": "waitlist"
       },
       "xye9518": {
@@ -7337,7 +7211,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:04:52",
         "admission_locked": false,
-        "daily_list_rank": 37,
+        "daily_list_rank": 36,
         "daily_list_status": "waitlist"
       },
       "xiaochen000007": {
@@ -7547,7 +7421,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:04:56",
         "admission_locked": false,
-        "daily_list_rank": 38,
+        "daily_list_rank": 37,
         "daily_list_status": "waitlist"
       }
     },
@@ -9173,8 +9047,1426 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:13:47",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
+        "daily_list_status": "accepted"
+      },
+      "xiaoyi3359": {
+        "x_handle": "xiaoyi3359",
+        "check_handle": "xyiyi66",
+        "dual_link": true,
+        "promo_handle": "xiaoyi3359",
+        "tg_username": "caiyi778",
+        "tg_user_id": 6711450768,
+        "tg_name": "颐",
+        "link": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "message_text": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20",
+            "handle": "xiaoyi3359",
+            "post_id": "2102775372941045855",
+            "role": "promo",
+            "author_name": "小姨接在线",
+            "followers_count": 8669,
+            "followers_text": "8.6K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 8669
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 8669
+              },
+              {
+                "source": "status_legacy",
+                "count": 8669
+              },
+              {
+                "source": "profile_v2",
+                "count": 8669
+              }
+            ],
+            "tweet_text": "淫水不停的往外流，在好的玩具也代替不了肉棒的温度.....\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 62,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/xyiyi66",
+            "handle": "xyiyi66",
+            "post_id": "",
+            "role": "check",
+            "author_name": "小姨•在线一对一",
+            "followers_count": 20878,
+            "followers_text": "2W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 20878
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20",
+            "post_id": "2102775372941045855",
+            "handle": "xiaoyi3359",
+            "source_time": "2026-09-24 00:16:30",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小姨接在线",
+        "promo_name": "小姨接在线",
+        "followers_count": 8669,
+        "followers_text": "8.6K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8669
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8669
+          },
+          {
+            "source": "status_legacy",
+            "count": 8669
+          },
+          {
+            "source": "profile_v2",
+            "count": 8669
+          }
+        ],
+        "check_followers_count": 20878,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 20878
+          }
+        ],
+        "tweet_text": "淫水不停的往外流，在好的玩具也代替不了肉棒的温度.....\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 62,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20",
+        "check_url": "https://x.com/xyiyi66",
+        "promo_post_id": "2102775372941045855",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 3192,
+        "time": "2026-09-24 00:16:30",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 20878,
+        "qualified_followers_text": "2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:16:30",
+        "admission_locked": false,
+        "daily_list_rank": 9,
+        "daily_list_status": "accepted"
+      },
+      "xyiyi66": {
+        "x_handle": "xyiyi66",
+        "check_handle": "xyiyi66",
+        "dual_link": true,
+        "promo_handle": "xiaoyi3359",
+        "tg_username": "caiyi778",
+        "tg_user_id": 6711450768,
+        "tg_name": "颐",
+        "link": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "message_text": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20",
+            "handle": "xiaoyi3359",
+            "post_id": "2102775372941045855",
+            "role": "promo",
+            "author_name": "小姨接在线",
+            "followers_count": 8669,
+            "followers_text": "8.6K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 8669
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 8669
+              },
+              {
+                "source": "status_legacy",
+                "count": 8669
+              },
+              {
+                "source": "profile_v2",
+                "count": 8669
+              }
+            ],
+            "tweet_text": "淫水不停的往外流，在好的玩具也代替不了肉棒的温度.....\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 62,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/xyiyi66",
+            "handle": "xyiyi66",
+            "post_id": "",
+            "role": "check",
+            "author_name": "小姨•在线一对一",
+            "followers_count": 20878,
+            "followers_text": "2W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 20878
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20",
+            "post_id": "2102775372941045855",
+            "handle": "xiaoyi3359",
+            "source_time": "2026-09-24 00:16:30",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小姨接在线",
+        "promo_name": "小姨接在线",
+        "followers_count": 8669,
+        "followers_text": "8.6K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8669
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8669
+          },
+          {
+            "source": "status_legacy",
+            "count": 8669
+          },
+          {
+            "source": "profile_v2",
+            "count": 8669
+          }
+        ],
+        "check_followers_count": 20878,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 20878
+          }
+        ],
+        "tweet_text": "淫水不停的往外流，在好的玩具也代替不了肉棒的温度.....\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 62,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20",
+        "check_url": "https://x.com/xyiyi66",
+        "promo_post_id": "2102775372941045855",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 3192,
+        "time": "2026-09-24 00:16:30",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 20878,
+        "qualified_followers_text": "2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:16:30",
+        "admission_locked": false,
+        "daily_list_rank": 9,
+        "daily_list_status": "accepted"
+      },
+      "violentdesil": {
+        "x_handle": "violentdesil",
+        "check_handle": "violentdesil",
+        "dual_link": false,
+        "promo_handle": "violentdesil",
+        "tg_username": "Violentdesi",
+        "tg_user_id": 8359725663,
+        "tg_name": "狩伐s",
+        "link": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+        "message_text": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+            "handle": "violentdesil",
+            "post_id": "2102745195850920311",
+            "role": "promo",
+            "author_name": "一只鱼",
+            "followers_count": 1514,
+            "followers_text": "1.5K",
+            "followers_sources": [
+              "status_v2",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1514
+              },
+              {
+                "source": "profile_v2",
+                "count": 1514
+              }
+            ],
+            "tweet_text": "电话doi给男友戴绿帽第一弹\n私信联系我的女粉想给男友带绿帽\n一边跟男友打电话一边粗暴深喉\n故意按她的头粗暴深喉发出声音\n注意听对白 刺激感拉满\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 110,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+            "post_id": "2102745195850920311",
+            "handle": "violentdesil",
+            "source_time": "2026-09-24 00:19:27",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "一只鱼",
+        "promo_name": "一只鱼",
+        "followers_count": 1514,
+        "followers_text": "1.5K",
+        "followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1514
+          },
+          {
+            "source": "profile_v2",
+            "count": 1514
+          }
+        ],
+        "check_followers_count": 1514,
+        "check_followers_text": "1.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1514
+          },
+          {
+            "source": "profile_v2",
+            "count": 1514
+          }
+        ],
+        "tweet_text": "电话doi给男友戴绿帽第一弹\n私信联系我的女粉想给男友带绿帽\n一边跟男友打电话一边粗暴深喉\n故意按她的头粗暴深喉发出声音\n注意听对白 刺激感拉满\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 110,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+        "check_url": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+        "promo_post_id": "2102745195850920311",
+        "check_post_id": "2102745195850920311",
+        "chat_id": "-1003739822194",
+        "message_id": 3193,
+        "time": "2026-09-24 00:19:27",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1514,
+        "qualified_followers_text": "1.5K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:19:27",
+        "admission_locked": false,
+        "daily_list_rank": 10,
+        "daily_list_status": "accepted"
+      },
+      "xinzhxinju1": {
+        "x_handle": "xinzhxinju1",
+        "check_handle": "xinzhxinju1",
+        "dual_link": false,
+        "promo_handle": "xinzhxinju1",
+        "tg_username": "Xinzhxinju1",
+        "tg_user_id": 8008858318,
+        "tg_name": "先知 先觉",
+        "link": "https://x.com/xinzhxinju1/status/2102744797349871716",
+        "message_text": "https://x.com/xinzhxinju1/status/2102744797349871716",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xinzhxinju1/status/2102744797349871716",
+            "handle": "xinzhxinju1",
+            "post_id": "2102744797349871716",
+            "role": "promo",
+            "author_name": "先知先觉",
+            "followers_count": 10571,
+            "followers_text": "1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 10571
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 10571
+              },
+              {
+                "source": "status_legacy",
+                "count": 10571
+              },
+              {
+                "source": "profile_v2",
+                "count": 10571
+              }
+            ],
+            "tweet_text": "不是说好不能做爱的嘛？为啥前妻主又骑上来啦？嘿嘿，看到后面你就明白了！后半部分调教内容纸飞机频道已发\n→https://t.me/xinzhxinju1bot\n长视频正在制作中，9月最新长视频：绿奴被TJ时的终极幻想即将上线！\n📮：\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 149,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 149,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 149,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 149,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 149,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xinzhxinju1/status/2102744797349871716",
+            "post_id": "2102744797349871716",
+            "handle": "xinzhxinju1",
+            "source_time": "2026-09-24 00:20:10",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "先知先觉",
+        "promo_name": "先知先觉",
+        "followers_count": 10571,
+        "followers_text": "1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10571
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10571
+          },
+          {
+            "source": "status_legacy",
+            "count": 10571
+          },
+          {
+            "source": "profile_v2",
+            "count": 10571
+          }
+        ],
+        "check_followers_count": 10571,
+        "check_followers_text": "1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10571
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10571
+          },
+          {
+            "source": "status_legacy",
+            "count": 10571
+          },
+          {
+            "source": "profile_v2",
+            "count": 10571
+          }
+        ],
+        "tweet_text": "不是说好不能做爱的嘛？为啥前妻主又骑上来啦？嘿嘿，看到后面你就明白了！后半部分调教内容纸飞机频道已发\n→https://t.me/xinzhxinju1bot\n长视频正在制作中，9月最新长视频：绿奴被TJ时的终极幻想即将上线！\n📮：\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 149,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 149,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 149,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 149,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 149,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xinzhxinju1/status/2102744797349871716",
+        "check_url": "https://x.com/xinzhxinju1/status/2102744797349871716",
+        "promo_post_id": "2102744797349871716",
+        "check_post_id": "2102744797349871716",
+        "chat_id": "-1003739822194",
+        "message_id": 3194,
+        "time": "2026-09-24 00:20:10",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 10571,
+        "qualified_followers_text": "1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:20:10",
+        "admission_locked": false,
+        "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "saza5277": {
+        "x_handle": "saza5277",
+        "check_handle": "saza5277",
+        "dual_link": false,
+        "promo_handle": "saza5277",
+        "tg_username": "saza3366",
+        "tg_user_id": 5562980398,
+        "tg_name": "啊 梓",
+        "link": "https://x.com/saza5277/status/2102732683814293797?s=20",
+        "message_text": "https://x.com/saza5277/status/2102732683814293797?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/saza5277/status/2102732683814293797?s=20",
+            "handle": "saza5277",
+            "post_id": "2102732683814293797",
+            "role": "promo",
+            "author_name": "是阿梓啊",
+            "followers_count": 9455,
+            "followers_text": "9.4K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 9455
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 9455
+              },
+              {
+                "source": "status_legacy",
+                "count": 9455
+              },
+              {
+                "source": "profile_v2",
+                "count": 9455
+              }
+            ],
+            "tweet_text": "单卖\n《意外觉醒的绿帽情节的丈夫联合外人给妻子下迷魂水》（完整版16分钟）\n\n💌  @ToBuerma            @ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 86,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/saza5277/status/2102732683814293797?s=20",
+            "post_id": "2102732683814293797",
+            "handle": "saza5277",
+            "source_time": "2026-09-24 00:21:08",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "是阿梓啊",
+        "promo_name": "是阿梓啊",
+        "followers_count": 9455,
+        "followers_text": "9.4K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 9455
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9455
+          },
+          {
+            "source": "status_legacy",
+            "count": 9455
+          },
+          {
+            "source": "profile_v2",
+            "count": 9455
+          }
+        ],
+        "check_followers_count": 9455,
+        "check_followers_text": "9.4K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 9455
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9455
+          },
+          {
+            "source": "status_legacy",
+            "count": 9455
+          },
+          {
+            "source": "profile_v2",
+            "count": 9455
+          }
+        ],
+        "tweet_text": "单卖\n《意外觉醒的绿帽情节的丈夫联合外人给妻子下迷魂水》（完整版16分钟）\n\n💌  @ToBuerma            @ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 86,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/saza5277/status/2102732683814293797?s=20",
+        "check_url": "https://x.com/saza5277/status/2102732683814293797?s=20",
+        "promo_post_id": "2102732683814293797",
+        "check_post_id": "2102732683814293797",
+        "chat_id": "-1003739822194",
+        "message_id": 3195,
+        "time": "2026-09-24 00:21:08",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 9455,
+        "qualified_followers_text": "9.4K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:21:08",
+        "admission_locked": false,
+        "daily_list_rank": 12,
+        "daily_list_status": "accepted"
+      },
+      "yjx267": {
+        "x_handle": "yjx267",
+        "check_handle": "yjx267",
+        "dual_link": false,
+        "promo_handle": "yjx267",
+        "tg_username": "YJX267",
+        "tg_user_id": 5675062801,
+        "tg_name": "源静香",
+        "link": "https://x.com/yjx267/status/2102717593350275376",
+        "message_text": "https://x.com/yjx267/status/2102717593350275376",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/yjx267/status/2102717593350275376",
+            "handle": "yjx267",
+            "post_id": "2102717593350275376",
+            "role": "promo",
+            "author_name": "源静香",
+            "followers_count": 15301,
+            "followers_text": "1.5W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 15301
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 15301
+              },
+              {
+                "source": "profile_v2",
+                "count": 15301
+              }
+            ],
+            "tweet_text": "还喜欢看什么尿尿姿势\n评论区见\n#放尿 #母狗 #野外 #露出\n\n📮：\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 68,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 68,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 68,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 68,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/yjx267/status/2102717593350275376",
+            "post_id": "2102717593350275376",
+            "handle": "yjx267",
+            "source_time": "2026-09-24 00:22:36",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "源静香",
+        "promo_name": "源静香",
+        "followers_count": 15301,
+        "followers_text": "1.5W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 15301
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 15301
+          },
+          {
+            "source": "profile_v2",
+            "count": 15301
+          }
+        ],
+        "check_followers_count": 15301,
+        "check_followers_text": "1.5W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 15301
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 15301
+          },
+          {
+            "source": "profile_v2",
+            "count": 15301
+          }
+        ],
+        "tweet_text": "还喜欢看什么尿尿姿势\n评论区见\n#放尿 #母狗 #野外 #露出\n\n📮：\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 68,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 68,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 68,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 68,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/yjx267/status/2102717593350275376",
+        "check_url": "https://x.com/yjx267/status/2102717593350275376",
+        "promo_post_id": "2102717593350275376",
+        "check_post_id": "2102717593350275376",
+        "chat_id": "-1003739822194",
+        "message_id": 3196,
+        "time": "2026-09-24 00:22:36",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 15301,
+        "qualified_followers_text": "1.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:22:36",
+        "admission_locked": false,
+        "daily_list_rank": 13,
+        "daily_list_status": "accepted"
+      },
+      "xiaoxianjiang11": {
+        "x_handle": "xiaoxianjiang11",
+        "check_handle": "xiaoxianjiang11",
+        "dual_link": false,
+        "promo_handle": "xiaoxianjiang11",
+        "tg_username": "xiaoxianjiang",
+        "tg_user_id": 7174784840,
+        "tg_name": "小仙酱 ✈️",
+        "link": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+        "message_text": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+            "handle": "xiaoxianjiang11",
+            "post_id": "2102796825531199592",
+            "role": "promo",
+            "author_name": "小仙爱吃酱",
+            "followers_count": 1021,
+            "followers_text": "1K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1021
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1021
+              },
+              {
+                "source": "status_legacy",
+                "count": 1021
+              },
+              {
+                "source": "profile_v2",
+                "count": 1021
+              }
+            ],
+            "tweet_text": "哥哥说要把他最顶的姿势拍出来\n真的快不行了我\n\n📮：@ToBulaer @ToBuerma  @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 59,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 59,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 59,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 59,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 59,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+            "post_id": "2102796825531199592",
+            "handle": "xiaoxianjiang11",
+            "source_time": "2026-09-24 00:27:03",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小仙爱吃酱",
+        "promo_name": "小仙爱吃酱",
+        "followers_count": 1021,
+        "followers_text": "1K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1021
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1021
+          },
+          {
+            "source": "status_legacy",
+            "count": 1021
+          },
+          {
+            "source": "profile_v2",
+            "count": 1021
+          }
+        ],
+        "check_followers_count": 1021,
+        "check_followers_text": "1K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1021
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1021
+          },
+          {
+            "source": "status_legacy",
+            "count": 1021
+          },
+          {
+            "source": "profile_v2",
+            "count": 1021
+          }
+        ],
+        "tweet_text": "哥哥说要把他最顶的姿势拍出来\n真的快不行了我\n\n📮：@ToBulaer @ToBuerma  @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 59,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 59,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 59,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 59,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 59,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+        "check_url": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+        "promo_post_id": "2102796825531199592",
+        "check_post_id": "2102796825531199592",
+        "chat_id": "-1003739822194",
+        "message_id": 3197,
+        "time": "2026-09-24 00:27:03",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1021,
+        "qualified_followers_text": "1K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:27:03",
+        "admission_locked": false,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted"
       }
     }
@@ -11257,12 +12549,13 @@
         ],
         "x_name": "甜妻派对（原创）",
         "promo_name": "甜妻派对（原创）",
-        "followers_count": 107864,
+        "followers_count": 107891,
         "followers_text": "10.7W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -11296,6 +12589,18 @@
           {
             "source": "status_legacy",
             "count": 107864
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 107891
+          },
+          {
+            "source": "status_legacy",
+            "count": 107891
+          },
+          {
+            "source": "profile_v2",
+            "count": 107891
           }
         ],
         "check_followers_count": 107838,
@@ -11369,12 +12674,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 107864,
+        "qualified_followers_count": 107891,
         "qualified_followers_text": "10.7W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -14583,12 +15889,13 @@
         ],
         "x_name": "胖头鱼(视频号)",
         "promo_name": "胖头鱼(视频号)",
-        "followers_count": 176860,
+        "followers_count": 176868,
         "followers_text": "17.6W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -14614,6 +15921,22 @@
           {
             "source": "status_legacy",
             "count": 176860
+          },
+          {
+            "source": "status_v2",
+            "count": 176868
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 176868
+          },
+          {
+            "source": "status_legacy",
+            "count": 176868
+          },
+          {
+            "source": "profile_v2",
+            "count": 176868
           }
         ],
         "check_followers_count": 176859,
@@ -14687,12 +16010,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 176860,
+        "qualified_followers_count": 176868,
         "qualified_followers_text": "17.6W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -14780,12 +16104,13 @@
         ],
         "x_name": "小林的涩涩日常",
         "promo_name": "小林的涩涩日常",
-        "followers_count": 156868,
+        "followers_count": 156869,
         "followers_text": "15.6W",
         "followers_sources": [
           "status_legacy_i",
           "status_legacy",
-          "status_v2"
+          "status_v2",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -14799,6 +16124,22 @@
           {
             "source": "status_v2",
             "count": 156868
+          },
+          {
+            "source": "status_v2",
+            "count": 156869
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 156869
+          },
+          {
+            "source": "status_legacy",
+            "count": 156869
+          },
+          {
+            "source": "profile_v2",
+            "count": 156869
           }
         ],
         "check_followers_count": 156868,
@@ -14867,12 +16208,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 156868,
+        "qualified_followers_count": 156869,
         "qualified_followers_text": "15.6W",
         "qualified_followers_sources": [
           "status_legacy_i",
           "status_legacy",
-          "status_v2"
+          "status_v2",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -15089,7 +16431,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:01:49",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 29,
         "daily_list_status": "accepted"
       },
@@ -15301,7 +16643,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:02:01",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 30,
         "daily_list_status": "accepted"
       },
@@ -15489,218 +16831,6 @@
         "daily_list_rank": 31,
         "daily_list_status": "waitlist"
       },
-      "2101797240310218931": {
-        "x_handle": "caochangqing111",
-        "check_handle": "caochangqing111",
-        "dual_link": false,
-        "promo_handle": "caochangqing111",
-        "tg_username": "caoguanzi99",
-        "tg_user_id": 7176578641,
-        "tg_name": "曹长卿",
-        "link": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-        "message_text": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-            "handle": "caochangqing111",
-            "post_id": "2101797240310218931",
-            "role": "promo",
-            "author_name": "曹长卿唯一大号 支持任何验证",
-            "followers_count": 360365,
-            "followers_text": "36W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 360365
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 360365
-              },
-              {
-                "source": "status_legacy",
-                "count": 360365
-              },
-              {
-                "source": "profile_v2",
-                "count": 360365
-              }
-            ],
-            "tweet_text": "#曹长卿  #足模姐姐  夏树 \n台球桌上足交\n视频更新在单独群组和SVIP\n@ToBuerma            @ToBulaer \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 83,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 83,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 83,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 83,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 83,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-            "post_id": "2101797240310218931",
-            "handle": "caochangqing111",
-            "source_time": "2026-09-24 00:02:10",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "曹长卿唯一大号 支持任何验证",
-        "promo_name": "曹长卿唯一大号 支持任何验证",
-        "followers_count": 360365,
-        "followers_text": "36W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 360365
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 360365
-          },
-          {
-            "source": "status_legacy",
-            "count": 360365
-          },
-          {
-            "source": "profile_v2",
-            "count": 360365
-          }
-        ],
-        "check_followers_count": 360365,
-        "check_followers_text": "36W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 360365
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 360365
-          },
-          {
-            "source": "status_legacy",
-            "count": 360365
-          },
-          {
-            "source": "profile_v2",
-            "count": 360365
-          }
-        ],
-        "tweet_text": "#曹长卿  #足模姐姐  夏树 \n台球桌上足交\n视频更新在单独群组和SVIP\n@ToBuerma            @ToBulaer \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 83,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 83,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 83,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 83,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 83,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-        "check_url": "https://x.com/caochangqing111/status/2101797240310218931?s=20",
-        "promo_post_id": "2101797240310218931",
-        "check_post_id": "2101797240310218931",
-        "chat_id": "-1003891628675",
-        "message_id": 8262,
-        "time": "2026-09-24 00:02:10",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 360365,
-        "qualified_followers_text": "36W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-09-24 00:02:10",
-        "admission_locked": false,
-        "daily_list_rank": 32,
-        "daily_list_status": "waitlist"
-      },
       "2100580089813778932": {
         "x_handle": "asecresm",
         "check_handle": "asecresm",
@@ -15780,12 +16910,13 @@
         ],
         "x_name": "云儿",
         "promo_name": "云儿",
-        "followers_count": 247555,
+        "followers_count": 247598,
         "followers_text": "24.7W",
         "followers_sources": [
           "status_v2",
           "status_legacy",
-          "status_legacy_i"
+          "status_legacy_i",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -15807,6 +16938,22 @@
           {
             "source": "status_legacy",
             "count": 247555
+          },
+          {
+            "source": "status_v2",
+            "count": 247596
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 247596
+          },
+          {
+            "source": "status_legacy",
+            "count": 247596
+          },
+          {
+            "source": "profile_v2",
+            "count": 247598
           }
         ],
         "check_followers_count": 247554,
@@ -15875,18 +17022,19 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 247555,
+        "qualified_followers_count": 247598,
         "qualified_followers_text": "24.7W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy",
-          "status_legacy_i"
+          "status_legacy_i",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:02:14",
         "admission_locked": false,
-        "daily_list_rank": 33,
+        "daily_list_rank": 32,
         "daily_list_status": "waitlist"
       },
       "2102705623007678602": {
@@ -16098,7 +17246,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:02:55",
         "admission_locked": false,
-        "daily_list_rank": 34,
+        "daily_list_rank": 33,
         "daily_list_status": "waitlist"
       },
       "2101959689596743815": {
@@ -16310,7 +17458,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:03:23",
         "admission_locked": false,
-        "daily_list_rank": 35,
+        "daily_list_rank": 34,
         "daily_list_status": "waitlist"
       },
       "2101602852980318419": {
@@ -16392,12 +17540,13 @@
         ],
         "x_name": "AKs",
         "promo_name": "AKs",
-        "followers_count": 196492,
+        "followers_count": 196503,
         "followers_text": "19.6W",
         "followers_sources": [
           "status_legacy_i",
           "status_legacy",
-          "status_v2"
+          "status_v2",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -16411,6 +17560,22 @@
           {
             "source": "status_v2",
             "count": 196492
+          },
+          {
+            "source": "status_v2",
+            "count": 196503
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 196503
+          },
+          {
+            "source": "status_legacy",
+            "count": 196503
+          },
+          {
+            "source": "profile_v2",
+            "count": 196503
           }
         ],
         "check_followers_count": 196492,
@@ -16479,18 +17644,19 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 196492,
+        "qualified_followers_count": 196503,
         "qualified_followers_text": "19.6W",
         "qualified_followers_sources": [
           "status_legacy_i",
           "status_legacy",
-          "status_v2"
+          "status_v2",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:03:52",
         "admission_locked": false,
-        "daily_list_rank": 36,
+        "daily_list_rank": 35,
         "daily_list_status": "waitlist"
       },
       "2102709004120006767": {
@@ -16700,7 +17866,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:04:52",
         "admission_locked": false,
-        "daily_list_rank": 37,
+        "daily_list_rank": 36,
         "daily_list_status": "waitlist"
       },
       "2102612614669082969": {
@@ -16910,7 +18076,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:04:56",
         "admission_locked": false,
-        "daily_list_rank": 38,
+        "daily_list_rank": 37,
         "daily_list_status": "waitlist"
       }
     },
@@ -18536,8 +19702,1205 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:13:47",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
+        "daily_list_status": "accepted"
+      },
+      "2102775372941045855": {
+        "x_handle": "xiaoyi3359",
+        "check_handle": "xyiyi66",
+        "dual_link": true,
+        "promo_handle": "xiaoyi3359",
+        "tg_username": "caiyi778",
+        "tg_user_id": 6711450768,
+        "tg_name": "颐",
+        "link": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "message_text": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20\n转推上面 回推下面 \nhttps://x.com/xyiyi66",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20",
+            "handle": "xiaoyi3359",
+            "post_id": "2102775372941045855",
+            "role": "promo",
+            "author_name": "小姨接在线",
+            "followers_count": 8669,
+            "followers_text": "8.6K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 8669
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 8669
+              },
+              {
+                "source": "status_legacy",
+                "count": 8669
+              },
+              {
+                "source": "profile_v2",
+                "count": 8669
+              }
+            ],
+            "tweet_text": "淫水不停的往外流，在好的玩具也代替不了肉棒的温度.....\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 62,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/xyiyi66",
+            "handle": "xyiyi66",
+            "post_id": "",
+            "role": "check",
+            "author_name": "小姨•在线一对一",
+            "followers_count": 20878,
+            "followers_text": "2W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 20878
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20",
+            "post_id": "2102775372941045855",
+            "handle": "xiaoyi3359",
+            "source_time": "2026-09-24 00:16:30",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小姨接在线",
+        "promo_name": "小姨接在线",
+        "followers_count": 8669,
+        "followers_text": "8.6K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8669
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8669
+          },
+          {
+            "source": "status_legacy",
+            "count": 8669
+          },
+          {
+            "source": "profile_v2",
+            "count": 8669
+          }
+        ],
+        "check_followers_count": 20878,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 20878
+          }
+        ],
+        "tweet_text": "淫水不停的往外流，在好的玩具也代替不了肉棒的温度.....\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 62,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaoyi3359/status/2102775372941045855?s=20",
+        "check_url": "https://x.com/xyiyi66",
+        "promo_post_id": "2102775372941045855",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 3192,
+        "time": "2026-09-24 00:16:30",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 20878,
+        "qualified_followers_text": "2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:16:30",
+        "admission_locked": false,
+        "daily_list_rank": 9,
+        "daily_list_status": "accepted"
+      },
+      "2102745195850920311": {
+        "x_handle": "violentdesil",
+        "check_handle": "violentdesil",
+        "dual_link": false,
+        "promo_handle": "violentdesil",
+        "tg_username": "Violentdesi",
+        "tg_user_id": 8359725663,
+        "tg_name": "狩伐s",
+        "link": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+        "message_text": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+            "handle": "violentdesil",
+            "post_id": "2102745195850920311",
+            "role": "promo",
+            "author_name": "一只鱼",
+            "followers_count": 1514,
+            "followers_text": "1.5K",
+            "followers_sources": [
+              "status_v2",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1514
+              },
+              {
+                "source": "profile_v2",
+                "count": 1514
+              }
+            ],
+            "tweet_text": "电话doi给男友戴绿帽第一弹\n私信联系我的女粉想给男友带绿帽\n一边跟男友打电话一边粗暴深喉\n故意按她的头粗暴深喉发出声音\n注意听对白 刺激感拉满\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 110,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 110,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+            "post_id": "2102745195850920311",
+            "handle": "violentdesil",
+            "source_time": "2026-09-24 00:19:27",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "一只鱼",
+        "promo_name": "一只鱼",
+        "followers_count": 1514,
+        "followers_text": "1.5K",
+        "followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1514
+          },
+          {
+            "source": "profile_v2",
+            "count": 1514
+          }
+        ],
+        "check_followers_count": 1514,
+        "check_followers_text": "1.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1514
+          },
+          {
+            "source": "profile_v2",
+            "count": 1514
+          }
+        ],
+        "tweet_text": "电话doi给男友戴绿帽第一弹\n私信联系我的女粉想给男友带绿帽\n一边跟男友打电话一边粗暴深喉\n故意按她的头粗暴深喉发出声音\n注意听对白 刺激感拉满\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 110,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 110,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+        "check_url": "https://x.com/violentdesil/status/2102745195850920311?s=46",
+        "promo_post_id": "2102745195850920311",
+        "check_post_id": "2102745195850920311",
+        "chat_id": "-1003739822194",
+        "message_id": 3193,
+        "time": "2026-09-24 00:19:27",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1514,
+        "qualified_followers_text": "1.5K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:19:27",
+        "admission_locked": false,
+        "daily_list_rank": 10,
+        "daily_list_status": "accepted"
+      },
+      "2102744797349871716": {
+        "x_handle": "xinzhxinju1",
+        "check_handle": "xinzhxinju1",
+        "dual_link": false,
+        "promo_handle": "xinzhxinju1",
+        "tg_username": "Xinzhxinju1",
+        "tg_user_id": 8008858318,
+        "tg_name": "先知 先觉",
+        "link": "https://x.com/xinzhxinju1/status/2102744797349871716",
+        "message_text": "https://x.com/xinzhxinju1/status/2102744797349871716",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xinzhxinju1/status/2102744797349871716",
+            "handle": "xinzhxinju1",
+            "post_id": "2102744797349871716",
+            "role": "promo",
+            "author_name": "先知先觉",
+            "followers_count": 10571,
+            "followers_text": "1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 10571
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 10571
+              },
+              {
+                "source": "status_legacy",
+                "count": 10571
+              },
+              {
+                "source": "profile_v2",
+                "count": 10571
+              }
+            ],
+            "tweet_text": "不是说好不能做爱的嘛？为啥前妻主又骑上来啦？嘿嘿，看到后面你就明白了！后半部分调教内容纸飞机频道已发\n→https://t.me/xinzhxinju1bot\n长视频正在制作中，9月最新长视频：绿奴被TJ时的终极幻想即将上线！\n📮：\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 149,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 149,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 149,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 149,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 149,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xinzhxinju1/status/2102744797349871716",
+            "post_id": "2102744797349871716",
+            "handle": "xinzhxinju1",
+            "source_time": "2026-09-24 00:20:10",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "先知先觉",
+        "promo_name": "先知先觉",
+        "followers_count": 10571,
+        "followers_text": "1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10571
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10571
+          },
+          {
+            "source": "status_legacy",
+            "count": 10571
+          },
+          {
+            "source": "profile_v2",
+            "count": 10571
+          }
+        ],
+        "check_followers_count": 10571,
+        "check_followers_text": "1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 10571
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 10571
+          },
+          {
+            "source": "status_legacy",
+            "count": 10571
+          },
+          {
+            "source": "profile_v2",
+            "count": 10571
+          }
+        ],
+        "tweet_text": "不是说好不能做爱的嘛？为啥前妻主又骑上来啦？嘿嘿，看到后面你就明白了！后半部分调教内容纸飞机频道已发\n→https://t.me/xinzhxinju1bot\n长视频正在制作中，9月最新长视频：绿奴被TJ时的终极幻想即将上线！\n📮：\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 149,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 149,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 149,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 149,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 149,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xinzhxinju1/status/2102744797349871716",
+        "check_url": "https://x.com/xinzhxinju1/status/2102744797349871716",
+        "promo_post_id": "2102744797349871716",
+        "check_post_id": "2102744797349871716",
+        "chat_id": "-1003739822194",
+        "message_id": 3194,
+        "time": "2026-09-24 00:20:10",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 10571,
+        "qualified_followers_text": "1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:20:10",
+        "admission_locked": false,
+        "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "2102732683814293797": {
+        "x_handle": "saza5277",
+        "check_handle": "saza5277",
+        "dual_link": false,
+        "promo_handle": "saza5277",
+        "tg_username": "saza3366",
+        "tg_user_id": 5562980398,
+        "tg_name": "啊 梓",
+        "link": "https://x.com/saza5277/status/2102732683814293797?s=20",
+        "message_text": "https://x.com/saza5277/status/2102732683814293797?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/saza5277/status/2102732683814293797?s=20",
+            "handle": "saza5277",
+            "post_id": "2102732683814293797",
+            "role": "promo",
+            "author_name": "是阿梓啊",
+            "followers_count": 9455,
+            "followers_text": "9.4K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 9455
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 9455
+              },
+              {
+                "source": "status_legacy",
+                "count": 9455
+              },
+              {
+                "source": "profile_v2",
+                "count": 9455
+              }
+            ],
+            "tweet_text": "单卖\n《意外觉醒的绿帽情节的丈夫联合外人给妻子下迷魂水》（完整版16分钟）\n\n💌  @ToBuerma            @ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 86,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 86,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/saza5277/status/2102732683814293797?s=20",
+            "post_id": "2102732683814293797",
+            "handle": "saza5277",
+            "source_time": "2026-09-24 00:21:08",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "是阿梓啊",
+        "promo_name": "是阿梓啊",
+        "followers_count": 9455,
+        "followers_text": "9.4K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 9455
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9455
+          },
+          {
+            "source": "status_legacy",
+            "count": 9455
+          },
+          {
+            "source": "profile_v2",
+            "count": 9455
+          }
+        ],
+        "check_followers_count": 9455,
+        "check_followers_text": "9.4K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 9455
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 9455
+          },
+          {
+            "source": "status_legacy",
+            "count": 9455
+          },
+          {
+            "source": "profile_v2",
+            "count": 9455
+          }
+        ],
+        "tweet_text": "单卖\n《意外觉醒的绿帽情节的丈夫联合外人给妻子下迷魂水》（完整版16分钟）\n\n💌  @ToBuerma            @ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 86,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 86,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/saza5277/status/2102732683814293797?s=20",
+        "check_url": "https://x.com/saza5277/status/2102732683814293797?s=20",
+        "promo_post_id": "2102732683814293797",
+        "check_post_id": "2102732683814293797",
+        "chat_id": "-1003739822194",
+        "message_id": 3195,
+        "time": "2026-09-24 00:21:08",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 9455,
+        "qualified_followers_text": "9.4K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:21:08",
+        "admission_locked": false,
+        "daily_list_rank": 12,
+        "daily_list_status": "accepted"
+      },
+      "2102717593350275376": {
+        "x_handle": "yjx267",
+        "check_handle": "yjx267",
+        "dual_link": false,
+        "promo_handle": "yjx267",
+        "tg_username": "YJX267",
+        "tg_user_id": 5675062801,
+        "tg_name": "源静香",
+        "link": "https://x.com/yjx267/status/2102717593350275376",
+        "message_text": "https://x.com/yjx267/status/2102717593350275376",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/yjx267/status/2102717593350275376",
+            "handle": "yjx267",
+            "post_id": "2102717593350275376",
+            "role": "promo",
+            "author_name": "源静香",
+            "followers_count": 15301,
+            "followers_text": "1.5W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 15301
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 15301
+              },
+              {
+                "source": "profile_v2",
+                "count": 15301
+              }
+            ],
+            "tweet_text": "还喜欢看什么尿尿姿势\n评论区见\n#放尿 #母狗 #野外 #露出\n\n📮：\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 68,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 68,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 68,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 68,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/yjx267/status/2102717593350275376",
+            "post_id": "2102717593350275376",
+            "handle": "yjx267",
+            "source_time": "2026-09-24 00:22:36",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "源静香",
+        "promo_name": "源静香",
+        "followers_count": 15301,
+        "followers_text": "1.5W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 15301
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 15301
+          },
+          {
+            "source": "profile_v2",
+            "count": 15301
+          }
+        ],
+        "check_followers_count": 15301,
+        "check_followers_text": "1.5W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 15301
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 15301
+          },
+          {
+            "source": "profile_v2",
+            "count": 15301
+          }
+        ],
+        "tweet_text": "还喜欢看什么尿尿姿势\n评论区见\n#放尿 #母狗 #野外 #露出\n\n📮：\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 68,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 68,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 68,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 68,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/yjx267/status/2102717593350275376",
+        "check_url": "https://x.com/yjx267/status/2102717593350275376",
+        "promo_post_id": "2102717593350275376",
+        "check_post_id": "2102717593350275376",
+        "chat_id": "-1003739822194",
+        "message_id": 3196,
+        "time": "2026-09-24 00:22:36",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 15301,
+        "qualified_followers_text": "1.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:22:36",
+        "admission_locked": false,
+        "daily_list_rank": 13,
+        "daily_list_status": "accepted"
+      },
+      "2102796825531199592": {
+        "x_handle": "xiaoxianjiang11",
+        "check_handle": "xiaoxianjiang11",
+        "dual_link": false,
+        "promo_handle": "xiaoxianjiang11",
+        "tg_username": "xiaoxianjiang",
+        "tg_user_id": 7174784840,
+        "tg_name": "小仙酱 ✈️",
+        "link": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+        "message_text": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+            "handle": "xiaoxianjiang11",
+            "post_id": "2102796825531199592",
+            "role": "promo",
+            "author_name": "小仙爱吃酱",
+            "followers_count": 1021,
+            "followers_text": "1K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1021
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1021
+              },
+              {
+                "source": "status_legacy",
+                "count": 1021
+              },
+              {
+                "source": "profile_v2",
+                "count": 1021
+              }
+            ],
+            "tweet_text": "哥哥说要把他最顶的姿势拍出来\n真的快不行了我\n\n📮：@ToBulaer @ToBuerma  @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 59,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 59,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 59,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 59,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 59,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+            "post_id": "2102796825531199592",
+            "handle": "xiaoxianjiang11",
+            "source_time": "2026-09-24 00:27:03",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小仙爱吃酱",
+        "promo_name": "小仙爱吃酱",
+        "followers_count": 1021,
+        "followers_text": "1K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1021
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1021
+          },
+          {
+            "source": "status_legacy",
+            "count": 1021
+          },
+          {
+            "source": "profile_v2",
+            "count": 1021
+          }
+        ],
+        "check_followers_count": 1021,
+        "check_followers_text": "1K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1021
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1021
+          },
+          {
+            "source": "status_legacy",
+            "count": 1021
+          },
+          {
+            "source": "profile_v2",
+            "count": 1021
+          }
+        ],
+        "tweet_text": "哥哥说要把他最顶的姿势拍出来\n真的快不行了我\n\n📮：@ToBulaer @ToBuerma  @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 59,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 59,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 59,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 59,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 59,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+        "check_url": "https://x.com/xiaoxianjiang11/status/2102796825531199592?s=46",
+        "promo_post_id": "2102796825531199592",
+        "check_post_id": "2102796825531199592",
+        "chat_id": "-1003739822194",
+        "message_id": 3197,
+        "time": "2026-09-24 00:27:03",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1021,
+        "qualified_followers_text": "1K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 00:27:03",
+        "admission_locked": false,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted"
       }
     }
@@ -18554,6 +20917,10 @@
         "8267": {
           "reason": "message_deleted_in_complete_snapshot",
           "confirmed_at": "2026-09-24 00:16:11"
+        },
+        "8262": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-09-24 00:30:55"
         }
       }
     }

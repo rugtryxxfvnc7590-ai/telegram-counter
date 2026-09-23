@@ -6049,7 +6049,7 @@
         ],
         "x_name": "曹长卿唯一大号 支持任何验证",
         "promo_name": "曹长卿唯一大号 支持任何验证",
-        "followers_count": 360698,
+        "followers_count": 360723,
         "followers_text": "36W",
         "followers_sources": [
           "status_v2",
@@ -6073,6 +6073,22 @@
           {
             "source": "profile_v2",
             "count": 360698
+          },
+          {
+            "source": "status_v2",
+            "count": 360723
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 360723
+          },
+          {
+            "source": "status_legacy",
+            "count": 360723
+          },
+          {
+            "source": "profile_v2",
+            "count": 360715
           }
         ],
         "check_followers_count": 360698,
@@ -6101,11 +6117,13 @@
             "count": 360698
           }
         ],
-        "tweet_text": "热巴   5   \n这个回眸直接给到夯   然后就是一顿无情连坐 \n我这次回归打算一直做下去  也不会出任何问题  由于x封号太严重 我给我和热巴买了域名  一会发帖都会标记在视频上  无论怎么样都可以找到我\n这次回归我会收一些徒弟  这边现在有几个素人我将带领她们勇闯原创博主圈  感谢大家支持",
+        "tweet_text": "热巴   5   \n这个回眸直接给到夯   然后就是一顿无情连坐 \n我这次回归打算一直做下去  也不会出任何问题  由于x封号太严重 我给我和热巴买了域名  一会发帖都会标记在视频上  无论怎么样都可以找到我\n这次回归我会收一些徒弟  这边现在有几个素人我将带领她们勇闯原创博主圈  感谢大家支持\n此账号已过川泽森 布尔玛原创认证 \n@ToBulaer\n@ToBuerma\n@KawasawaSen\n@BulmaList",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -6122,11 +6140,21 @@
             "source": "status_legacy",
             "length": 148,
             "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 210,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 210,
+            "required_mentions_count": 4
           }
         ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 0,
-        "content_eligible": null,
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
         "promo_url": "https://x.com/caochangqing111/status/2040667645729497247?s=20",
         "check_url": "https://x.com/caochangqing111/status/2040667645729497247?s=20",
         "promo_post_id": "2040667645729497247",
@@ -6139,7 +6167,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 360698,
+        "qualified_followers_count": 360723,
         "qualified_followers_text": "36W",
         "qualified_followers_sources": [
           "status_v2",
@@ -6148,7 +6176,7 @@
           "profile_v2"
         ],
         "mutual_eligible": true,
-        "eligibility_text": "待确认",
+        "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:02:10",
         "admission_locked": false,
         "daily_list_rank": 31,
@@ -7177,7 +7205,7 @@
         ],
         "x_name": "小陈和小王的日常",
         "promo_name": "小陈和小王的日常",
-        "followers_count": 197677,
+        "followers_count": 197685,
         "followers_text": "19.7W",
         "followers_sources": [
           "status_v2",
@@ -7201,6 +7229,22 @@
           {
             "source": "profile_v2",
             "count": 197677
+          },
+          {
+            "source": "status_v2",
+            "count": 197685
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 197685
+          },
+          {
+            "source": "status_legacy",
+            "count": 197685
+          },
+          {
+            "source": "profile_v2",
+            "count": 197685
           }
         ],
         "check_followers_count": 197677,
@@ -7229,11 +7273,13 @@
             "count": 197677
           }
         ],
-        "tweet_text": "小陈和学姐剧情大制作：\n        本期剧情主题为《职场》，小陈和学姐换上职业装成为某公司hr ，面试刚出社会的单纯大学生……\n          ps：本预告属于剧情片头开场 剧情部分预告将在中秋更新\n\n完整版剧情分为上下两部 总共60分钟 此部为小陈svip独享剧情大制作\n\n👧@XiaoChen000007",
+        "tweet_text": "小陈和学姐剧情大制作：\n        本期剧情主题为《职场》，小陈和学姐换上职业装成为某公司hr ，面试刚出社会的单纯大学生……\n          ps：本预告属于剧情片头开场 剧情部分预告将在中秋更新\n\n完整版剧情分为上下两部 总共60分钟 此部为小陈svip独享剧情大制作\n\n👧@XiaoChen000007 \n       @Xiaochenxuejie \n\n投稿：\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -7250,11 +7296,21 @@
             "source": "status_legacy",
             "length": 158,
             "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 223,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 223,
+            "required_mentions_count": 3
           }
         ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 0,
-        "content_eligible": null,
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
         "promo_url": "https://x.com/xiaochen000007/status/2102612614669082969?s=46",
         "check_url": "https://x.com/xiaochen000007/status/2102612614669082969?s=46",
         "promo_post_id": "2102612614669082969",
@@ -7267,7 +7323,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 197677,
+        "qualified_followers_count": 197685,
         "qualified_followers_text": "19.7W",
         "qualified_followers_sources": [
           "status_v2",
@@ -7276,7 +7332,7 @@
           "profile_v2"
         ],
         "mutual_eligible": true,
-        "eligibility_text": "待确认",
+        "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:04:56",
         "admission_locked": false,
         "daily_list_rank": 37,
@@ -10959,7 +11015,7 @@
         ],
         "x_name": "幸运鹅🦢",
         "promo_name": "幸运鹅🦢",
-        "followers_count": 6125,
+        "followers_count": 6128,
         "followers_text": "6.1K",
         "followers_sources": [
           "status_v2",
@@ -10983,6 +11039,22 @@
           {
             "source": "profile_v2",
             "count": 6125
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 6128
+          },
+          {
+            "source": "profile_v2",
+            "count": 6128
+          },
+          {
+            "source": "status_v2",
+            "count": 6128
+          },
+          {
+            "source": "status_legacy",
+            "count": 6128
           }
         ],
         "check_followers_count": 6125,
@@ -11015,7 +11087,9 @@
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -11030,6 +11104,16 @@
           },
           {
             "source": "status_legacy",
+            "length": 52,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 52,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_i",
             "length": 52,
             "required_mentions_count": 0
           }
@@ -11049,7 +11133,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 6125,
+        "qualified_followers_count": 6128,
         "qualified_followers_text": "6.1K",
         "qualified_followers_sources": [
           "status_v2",
@@ -12033,7 +12117,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 01:53:55",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 23,
         "daily_list_status": "accepted"
       },
@@ -12254,7 +12338,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 01:53:55",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 23,
         "daily_list_status": "accepted"
       },
@@ -12466,8 +12550,432 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 01:52:32",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 22,
+        "daily_list_status": "accepted"
+      },
+      "sweetyou02": {
+        "x_handle": "sweetyou02",
+        "check_handle": "sweetyou02",
+        "dual_link": false,
+        "promo_handle": "sweetyou02",
+        "tg_username": "catdog851",
+        "tg_user_id": 5452100710,
+        "tg_name": "葡萄 吃不饱",
+        "link": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+        "message_text": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+            "handle": "sweetyou02",
+            "post_id": "2102821002871013657",
+            "role": "promo",
+            "author_name": "欧尼太太",
+            "followers_count": 7081,
+            "followers_text": "7K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 7081
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 7081
+              },
+              {
+                "source": "status_legacy",
+                "count": 7081
+              },
+              {
+                "source": "profile_v2",
+                "count": 7081
+              }
+            ],
+            "tweet_text": "隔丝操真的好爽啊🥹\n\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 43,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 43,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 43,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 43,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 43,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+            "post_id": "2102821002871013657",
+            "handle": "sweetyou02",
+            "source_time": "2026-09-24 02:03:11",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "欧尼太太",
+        "promo_name": "欧尼太太",
+        "followers_count": 7081,
+        "followers_text": "7K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7081
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7081
+          },
+          {
+            "source": "status_legacy",
+            "count": 7081
+          },
+          {
+            "source": "profile_v2",
+            "count": 7081
+          }
+        ],
+        "check_followers_count": 7081,
+        "check_followers_text": "7K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7081
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7081
+          },
+          {
+            "source": "status_legacy",
+            "count": 7081
+          },
+          {
+            "source": "profile_v2",
+            "count": 7081
+          }
+        ],
+        "tweet_text": "隔丝操真的好爽啊🥹\n\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 43,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 43,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 43,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 43,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 43,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+        "check_url": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+        "promo_post_id": "2102821002871013657",
+        "check_post_id": "2102821002871013657",
+        "chat_id": "-1003739822194",
+        "message_id": 3210,
+        "time": "2026-09-24 02:03:11",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 7081,
+        "qualified_followers_text": "7K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 02:03:11",
+        "admission_locked": false,
+        "daily_list_rank": 24,
+        "daily_list_status": "accepted"
+      },
+      "qiqitu777_": {
+        "x_handle": "qiqitu777_",
+        "check_handle": "qiqitu777_",
+        "dual_link": false,
+        "promo_handle": "qiqitu777_",
+        "tg_username": "qiqitu233",
+        "tg_user_id": 8531774368,
+        "tg_name": "妻妻兔🐰",
+        "link": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+        "message_text": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+            "handle": "qiqitu777_",
+            "post_id": "2087748200904212525",
+            "role": "promo",
+            "author_name": "妻妻兔🐰",
+            "followers_count": 8741,
+            "followers_text": "8.7K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 8741
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 8741
+              },
+              {
+                "source": "status_legacy",
+                "count": 8741
+              },
+              {
+                "source": "profile_v2",
+                "count": 8741
+              }
+            ],
+            "tweet_text": "妻妻🐰被195入珠体育生单男爆操，主动足交口交，骚起来像母狗一样，小骚逼都被干肿了😥#NTR\n\n@ToBuerma         @ToBulaer \n@KawasawaSen    @BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 103,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 103,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 103,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 103,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 103,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+            "post_id": "2087748200904212525",
+            "handle": "qiqitu777_",
+            "source_time": "2026-09-24 02:05:20",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "妻妻兔🐰",
+        "promo_name": "妻妻兔🐰",
+        "followers_count": 8741,
+        "followers_text": "8.7K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8741
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8741
+          },
+          {
+            "source": "status_legacy",
+            "count": 8741
+          },
+          {
+            "source": "profile_v2",
+            "count": 8741
+          }
+        ],
+        "check_followers_count": 8741,
+        "check_followers_text": "8.7K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8741
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8741
+          },
+          {
+            "source": "status_legacy",
+            "count": 8741
+          },
+          {
+            "source": "profile_v2",
+            "count": 8741
+          }
+        ],
+        "tweet_text": "妻妻🐰被195入珠体育生单男爆操，主动足交口交，骚起来像母狗一样，小骚逼都被干肿了😥#NTR\n\n@ToBuerma         @ToBulaer \n@KawasawaSen    @BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 103,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 103,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 103,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 103,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 103,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+        "check_url": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+        "promo_post_id": "2087748200904212525",
+        "check_post_id": "2087748200904212525",
+        "chat_id": "-1003739822194",
+        "message_id": 3211,
+        "time": "2026-09-24 02:05:20",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 8741,
+        "qualified_followers_text": "8.7K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 02:05:20",
+        "admission_locked": false,
+        "daily_list_rank": 25,
         "daily_list_status": "accepted"
       }
     }
@@ -18521,7 +19029,7 @@
         ],
         "x_name": "曹长卿唯一大号 支持任何验证",
         "promo_name": "曹长卿唯一大号 支持任何验证",
-        "followers_count": 360698,
+        "followers_count": 360723,
         "followers_text": "36W",
         "followers_sources": [
           "status_v2",
@@ -18545,6 +19053,22 @@
           {
             "source": "profile_v2",
             "count": 360698
+          },
+          {
+            "source": "status_v2",
+            "count": 360723
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 360723
+          },
+          {
+            "source": "status_legacy",
+            "count": 360723
+          },
+          {
+            "source": "profile_v2",
+            "count": 360715
           }
         ],
         "check_followers_count": 360698,
@@ -18573,11 +19097,13 @@
             "count": 360698
           }
         ],
-        "tweet_text": "热巴   5   \n这个回眸直接给到夯   然后就是一顿无情连坐 \n我这次回归打算一直做下去  也不会出任何问题  由于x封号太严重 我给我和热巴买了域名  一会发帖都会标记在视频上  无论怎么样都可以找到我\n这次回归我会收一些徒弟  这边现在有几个素人我将带领她们勇闯原创博主圈  感谢大家支持",
+        "tweet_text": "热巴   5   \n这个回眸直接给到夯   然后就是一顿无情连坐 \n我这次回归打算一直做下去  也不会出任何问题  由于x封号太严重 我给我和热巴买了域名  一会发帖都会标记在视频上  无论怎么样都可以找到我\n这次回归我会收一些徒弟  这边现在有几个素人我将带领她们勇闯原创博主圈  感谢大家支持\n此账号已过川泽森 布尔玛原创认证 \n@ToBulaer\n@ToBuerma\n@KawasawaSen\n@BulmaList",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -18594,11 +19120,21 @@
             "source": "status_legacy",
             "length": 148,
             "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 210,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 210,
+            "required_mentions_count": 4
           }
         ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 0,
-        "content_eligible": null,
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
         "promo_url": "https://x.com/caochangqing111/status/2040667645729497247?s=20",
         "check_url": "https://x.com/caochangqing111/status/2040667645729497247?s=20",
         "promo_post_id": "2040667645729497247",
@@ -18611,7 +19147,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 360698,
+        "qualified_followers_count": 360723,
         "qualified_followers_text": "36W",
         "qualified_followers_sources": [
           "status_v2",
@@ -18620,7 +19156,7 @@
           "profile_v2"
         ],
         "mutual_eligible": true,
-        "eligibility_text": "待确认",
+        "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:02:10",
         "admission_locked": false,
         "daily_list_rank": 31,
@@ -19649,7 +20185,7 @@
         ],
         "x_name": "小陈和小王的日常",
         "promo_name": "小陈和小王的日常",
-        "followers_count": 197677,
+        "followers_count": 197685,
         "followers_text": "19.7W",
         "followers_sources": [
           "status_v2",
@@ -19673,6 +20209,22 @@
           {
             "source": "profile_v2",
             "count": 197677
+          },
+          {
+            "source": "status_v2",
+            "count": 197685
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 197685
+          },
+          {
+            "source": "status_legacy",
+            "count": 197685
+          },
+          {
+            "source": "profile_v2",
+            "count": 197685
           }
         ],
         "check_followers_count": 197677,
@@ -19701,11 +20253,13 @@
             "count": 197677
           }
         ],
-        "tweet_text": "小陈和学姐剧情大制作：\n        本期剧情主题为《职场》，小陈和学姐换上职业装成为某公司hr ，面试刚出社会的单纯大学生……\n          ps：本预告属于剧情片头开场 剧情部分预告将在中秋更新\n\n完整版剧情分为上下两部 总共60分钟 此部为小陈svip独享剧情大制作\n\n👧@XiaoChen000007",
+        "tweet_text": "小陈和学姐剧情大制作：\n        本期剧情主题为《职场》，小陈和学姐换上职业装成为某公司hr ，面试刚出社会的单纯大学生……\n          ps：本预告属于剧情片头开场 剧情部分预告将在中秋更新\n\n完整版剧情分为上下两部 总共60分钟 此部为小陈svip独享剧情大制作\n\n👧@XiaoChen000007 \n       @Xiaochenxuejie \n\n投稿：\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -19722,11 +20276,21 @@
             "source": "status_legacy",
             "length": 158,
             "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 223,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 223,
+            "required_mentions_count": 3
           }
         ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 0,
-        "content_eligible": null,
+        "tweet_text_primary_source": "vx_status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
         "promo_url": "https://x.com/xiaochen000007/status/2102612614669082969?s=46",
         "check_url": "https://x.com/xiaochen000007/status/2102612614669082969?s=46",
         "promo_post_id": "2102612614669082969",
@@ -19739,7 +20303,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 197677,
+        "qualified_followers_count": 197685,
         "qualified_followers_text": "19.7W",
         "qualified_followers_sources": [
           "status_v2",
@@ -19748,7 +20312,7 @@
           "profile_v2"
         ],
         "mutual_eligible": true,
-        "eligibility_text": "待确认",
+        "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 00:04:56",
         "admission_locked": false,
         "daily_list_rank": 37,
@@ -23234,7 +23798,7 @@
         ],
         "x_name": "幸运鹅🦢",
         "promo_name": "幸运鹅🦢",
-        "followers_count": 6125,
+        "followers_count": 6128,
         "followers_text": "6.1K",
         "followers_sources": [
           "status_v2",
@@ -23258,6 +23822,22 @@
           {
             "source": "profile_v2",
             "count": 6125
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 6128
+          },
+          {
+            "source": "profile_v2",
+            "count": 6128
+          },
+          {
+            "source": "status_v2",
+            "count": 6128
+          },
+          {
+            "source": "status_legacy",
+            "count": 6128
           }
         ],
         "check_followers_count": 6125,
@@ -23290,7 +23870,9 @@
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "vx_status_v2",
+          "vx_status_i"
         ],
         "tweet_text_observations": [
           {
@@ -23305,6 +23887,16 @@
           },
           {
             "source": "status_legacy",
+            "length": 52,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 52,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_i",
             "length": 52,
             "required_mentions_count": 0
           }
@@ -23324,7 +23916,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 6125,
+        "qualified_followers_count": 6128,
         "qualified_followers_text": "6.1K",
         "qualified_followers_sources": [
           "status_v2",
@@ -24308,7 +24900,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 01:53:55",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 23,
         "daily_list_status": "accepted"
       },
@@ -24520,8 +25112,432 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-24 01:52:32",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 22,
+        "daily_list_status": "accepted"
+      },
+      "2102821002871013657": {
+        "x_handle": "sweetyou02",
+        "check_handle": "sweetyou02",
+        "dual_link": false,
+        "promo_handle": "sweetyou02",
+        "tg_username": "catdog851",
+        "tg_user_id": 5452100710,
+        "tg_name": "葡萄 吃不饱",
+        "link": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+        "message_text": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+            "handle": "sweetyou02",
+            "post_id": "2102821002871013657",
+            "role": "promo",
+            "author_name": "欧尼太太",
+            "followers_count": 7081,
+            "followers_text": "7K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 7081
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 7081
+              },
+              {
+                "source": "status_legacy",
+                "count": 7081
+              },
+              {
+                "source": "profile_v2",
+                "count": 7081
+              }
+            ],
+            "tweet_text": "隔丝操真的好爽啊🥹\n\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 43,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 43,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 43,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 43,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 43,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+            "post_id": "2102821002871013657",
+            "handle": "sweetyou02",
+            "source_time": "2026-09-24 02:03:11",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "欧尼太太",
+        "promo_name": "欧尼太太",
+        "followers_count": 7081,
+        "followers_text": "7K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7081
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7081
+          },
+          {
+            "source": "status_legacy",
+            "count": 7081
+          },
+          {
+            "source": "profile_v2",
+            "count": 7081
+          }
+        ],
+        "check_followers_count": 7081,
+        "check_followers_text": "7K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7081
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7081
+          },
+          {
+            "source": "status_legacy",
+            "count": 7081
+          },
+          {
+            "source": "profile_v2",
+            "count": 7081
+          }
+        ],
+        "tweet_text": "隔丝操真的好爽啊🥹\n\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 43,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 43,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 43,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 43,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 43,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+        "check_url": "https://x.com/sweetyou02/status/2102821002871013657?s=46",
+        "promo_post_id": "2102821002871013657",
+        "check_post_id": "2102821002871013657",
+        "chat_id": "-1003739822194",
+        "message_id": 3210,
+        "time": "2026-09-24 02:03:11",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 7081,
+        "qualified_followers_text": "7K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 02:03:11",
+        "admission_locked": false,
+        "daily_list_rank": 24,
+        "daily_list_status": "accepted"
+      },
+      "2087748200904212525": {
+        "x_handle": "qiqitu777_",
+        "check_handle": "qiqitu777_",
+        "dual_link": false,
+        "promo_handle": "qiqitu777_",
+        "tg_username": "qiqitu233",
+        "tg_user_id": 8531774368,
+        "tg_name": "妻妻兔🐰",
+        "link": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+        "message_text": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+            "handle": "qiqitu777_",
+            "post_id": "2087748200904212525",
+            "role": "promo",
+            "author_name": "妻妻兔🐰",
+            "followers_count": 8741,
+            "followers_text": "8.7K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 8741
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 8741
+              },
+              {
+                "source": "status_legacy",
+                "count": 8741
+              },
+              {
+                "source": "profile_v2",
+                "count": 8741
+              }
+            ],
+            "tweet_text": "妻妻🐰被195入珠体育生单男爆操，主动足交口交，骚起来像母狗一样，小骚逼都被干肿了😥#NTR\n\n@ToBuerma         @ToBulaer \n@KawasawaSen    @BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 103,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 103,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 103,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 103,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 103,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+            "post_id": "2087748200904212525",
+            "handle": "qiqitu777_",
+            "source_time": "2026-09-24 02:05:20",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "妻妻兔🐰",
+        "promo_name": "妻妻兔🐰",
+        "followers_count": 8741,
+        "followers_text": "8.7K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8741
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8741
+          },
+          {
+            "source": "status_legacy",
+            "count": 8741
+          },
+          {
+            "source": "profile_v2",
+            "count": 8741
+          }
+        ],
+        "check_followers_count": 8741,
+        "check_followers_text": "8.7K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 8741
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 8741
+          },
+          {
+            "source": "status_legacy",
+            "count": 8741
+          },
+          {
+            "source": "profile_v2",
+            "count": 8741
+          }
+        ],
+        "tweet_text": "妻妻🐰被195入珠体育生单男爆操，主动足交口交，骚起来像母狗一样，小骚逼都被干肿了😥#NTR\n\n@ToBuerma         @ToBulaer \n@KawasawaSen    @BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 103,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 103,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 103,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 103,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 103,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+        "check_url": "https://x.com/qiqitu777_/status/2087748200904212525?s=46",
+        "promo_post_id": "2087748200904212525",
+        "check_post_id": "2087748200904212525",
+        "chat_id": "-1003739822194",
+        "message_id": 3211,
+        "time": "2026-09-24 02:05:20",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 8741,
+        "qualified_followers_text": "8.7K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 02:05:20",
+        "admission_locked": false,
+        "daily_list_rank": 25,
         "daily_list_status": "accepted"
       }
     }

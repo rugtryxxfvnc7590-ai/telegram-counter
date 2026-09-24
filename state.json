@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "offset": 364616932,
+  "offset": 364616937,
   "groups": {
     "-1003891628675": {
       "count": 37,
@@ -94,7 +94,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-24",
-    "run_at": "2026-09-24 22:30:44",
+    "run_at": "2026-09-24 22:39:21",
     "completed_groups": [
       "群一",
       "群二",
@@ -102,40 +102,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36013284149:1",
-        "checked_at": "2026-09-24 22:30:45",
+        "run_key": "36014299198:1",
+        "checked_at": "2026-09-24 22:39:22",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36013284149:1",
-        "checked_at": "2026-09-24 22:30:45",
+        "run_key": "36014299198:1",
+        "checked_at": "2026-09-24 22:39:23",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36013284149:1",
-        "checked_at": "2026-09-24 22:30:45",
+        "run_key": "36014299198:1",
+        "checked_at": "2026-09-24 22:39:23",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36013284149:1",
-        "checked_at": "2026-09-24 22:30:45",
+        "run_key": "36014299198:1",
+        "checked_at": "2026-09-24 22:39:22",
         "bot_user_id": 8755020155,
         "confirmed": 1
       },
       "群二": {
-        "run_key": "36013284149:1",
-        "checked_at": "2026-09-24 22:30:45",
+        "run_key": "36014299198:1",
+        "checked_at": "2026-09-24 22:39:23",
         "bot_user_id": 8755020155,
         "confirmed": 1
       },
       "群三": {
-        "run_key": "36013284149:1",
-        "checked_at": "2026-09-24 22:30:45",
+        "run_key": "36014299198:1",
+        "checked_at": "2026-09-24 22:39:23",
         "bot_user_id": 8755020155,
         "confirmed": 1
       }
@@ -2125,10 +2125,10 @@
         "acknowledged_at": "2026-09-24T18:45:48.111189+08:00"
       },
       "群三": {
-        "digest": "ffb71c3c8712ea7aa7d02d6c7db88e009b2689efe8e56c259e908fa06560f4c3",
-        "sourceRevision": 2,
+        "digest": "4e01676e565d1fa8cfefd5280320ddec0bb41744305a9cdc863c087ce9774a7c",
+        "sourceRevision": 3,
         "acknowledged": true,
-        "acknowledged_at": "2026-09-24T16:15:39.096789+08:00"
+        "acknowledged_at": "2026-09-24T22:39:31.916361+08:00"
       }
     }
   },
@@ -2173,6 +2173,31 @@
         "sent_at": "2026-09-24 19:01:08",
         "message_id": 3233,
         "confirmation": "telegram_history"
+      }
+    }
+  },
+  "website_deletions": {
+    "date": "2026-09-24",
+    "groups": {
+      "群三": {
+        "3193": {
+          "position": 21,
+          "account": "violentdesil",
+          "postId": "2102745195850920311",
+          "confirmed_at": "2026-09-24 22:39:23"
+        },
+        "3187": {
+          "position": 25,
+          "account": "rogueyuyinqi",
+          "postId": "2101885277300216276",
+          "confirmed_at": "2026-09-24 22:39:23"
+        },
+        "3185": {
+          "position": 27,
+          "account": "chiirouoo",
+          "postId": "2102084568677527811",
+          "confirmed_at": "2026-09-24 22:39:23"
+        }
       }
     }
   }

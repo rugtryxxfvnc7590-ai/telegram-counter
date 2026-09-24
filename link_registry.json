@@ -7480,7 +7480,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 01:05:48",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted"
       }
@@ -9858,8 +9858,588 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 01:03:20",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "lulu7778u": {
+        "x_handle": "lulu7778u",
+        "check_handle": "lulu7778u",
+        "dual_link": false,
+        "promo_handle": "lulu7778u",
+        "tg_username": "ckck7779",
+        "tg_user_id": 8230308431,
+        "tg_name": "Ck 9",
+        "link": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+        "message_text": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+            "handle": "lulu7778u",
+            "post_id": "2103171883181215770",
+            "role": "promo",
+            "author_name": "Ck-8",
+            "followers_count": 627,
+            "followers_text": "627",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 627
+              },
+              {
+                "source": "status_legacy",
+                "count": 627
+              },
+              {
+                "source": "profile_v2",
+                "count": 627
+              }
+            ],
+            "tweet_text": "红底高跟开档黑丝 \n新号重启 ck-8\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 54,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 54,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 54,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 54,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+            "post_id": "2103171883181215770",
+            "handle": "lulu7778u",
+            "source_time": "2026-09-25 01:17:42",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Ck-8",
+        "promo_name": "Ck-8",
+        "followers_count": 627,
+        "followers_text": "627",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 627
+          },
+          {
+            "source": "status_legacy",
+            "count": 627
+          },
+          {
+            "source": "profile_v2",
+            "count": 627
+          }
+        ],
+        "check_followers_count": 627,
+        "check_followers_text": "627",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 627
+          },
+          {
+            "source": "status_legacy",
+            "count": 627
+          },
+          {
+            "source": "profile_v2",
+            "count": 627
+          }
+        ],
+        "tweet_text": "红底高跟开档黑丝 \n新号重启 ck-8\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 54,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 54,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 54,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 54,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+        "check_url": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+        "promo_post_id": "2103171883181215770",
+        "check_post_id": "2103171883181215770",
+        "chat_id": "-1003739822194",
+        "message_id": 3336,
+        "time": "2026-09-25 01:17:42",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 627,
+        "qualified_followers_text": "627",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 01:17:42",
+        "admission_locked": false,
+        "daily_list_rank": 12,
+        "daily_list_status": "accepted"
+      },
+      "xinxinjjj": {
+        "x_handle": "xinxinjjj",
+        "check_handle": "xinxinjjj",
+        "dual_link": false,
+        "promo_handle": "xinxinjjj",
+        "tg_username": "",
+        "tg_user_id": 1437992083,
+        "tg_name": "恋足巡视员 机器人",
+        "link": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+        "message_text": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+            "handle": "xinxinjjj",
+            "post_id": "2103085447077601389",
+            "role": "promo",
+            "author_name": "恋鞋巡视员",
+            "followers_count": 12111,
+            "followers_text": "1.2W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 12111
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 12111
+              },
+              {
+                "source": "status_legacy",
+                "count": 12111
+              },
+              {
+                "source": "profile_v2",
+                "count": 12111
+              }
+            ],
+            "tweet_text": "谁懂这种 铆钉平底鞋的 S伤力！\n\n一起等电梯的极品翘臀女主，但凡身后站着是“公交痴汉”分分钟被打了好吧！身材太诱惑😍😍\n#恋鞋癖 #铆钉鞋 #平底鞋 #鞋控 #船袜\n#完整版原创群（主页入） \n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 135,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 135,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 135,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 135,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 135,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+            "post_id": "2103085447077601389",
+            "handle": "xinxinjjj",
+            "source_time": "2026-09-25 01:28:26",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "恋鞋巡视员",
+        "promo_name": "恋鞋巡视员",
+        "followers_count": 12111,
+        "followers_text": "1.2W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 12111
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12111
+          },
+          {
+            "source": "status_legacy",
+            "count": 12111
+          },
+          {
+            "source": "profile_v2",
+            "count": 12111
+          }
+        ],
+        "check_followers_count": 12111,
+        "check_followers_text": "1.2W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 12111
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12111
+          },
+          {
+            "source": "status_legacy",
+            "count": 12111
+          },
+          {
+            "source": "profile_v2",
+            "count": 12111
+          }
+        ],
+        "tweet_text": "谁懂这种 铆钉平底鞋的 S伤力！\n\n一起等电梯的极品翘臀女主，但凡身后站着是“公交痴汉”分分钟被打了好吧！身材太诱惑😍😍\n#恋鞋癖 #铆钉鞋 #平底鞋 #鞋控 #船袜\n#完整版原创群（主页入） \n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 135,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 135,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 135,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 135,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 135,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+        "check_url": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+        "promo_post_id": "2103085447077601389",
+        "check_post_id": "2103085447077601389",
+        "chat_id": "-1003739822194",
+        "message_id": 3337,
+        "time": "2026-09-25 01:28:26",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 12111,
+        "qualified_followers_text": "1.2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 01:28:26",
+        "admission_locked": false,
+        "daily_list_rank": 13,
+        "daily_list_status": "accepted"
+      },
+      "cocoluhk": {
+        "x_handle": "cocoluhk",
+        "check_handle": "cocoluhk",
+        "dual_link": false,
+        "promo_handle": "cocoluhk",
+        "tg_username": "HKcocoLU",
+        "tg_user_id": 5820965161,
+        "tg_name": "coco",
+        "link": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "message_text": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+            "handle": "cocoluhk",
+            "post_id": "2101317347458072713",
+            "role": "promo",
+            "author_name": "coco在深圳",
+            "followers_count": 5516,
+            "followers_text": "5.5K",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 5516
+              },
+              {
+                "source": "status_legacy",
+                "count": 5516
+              },
+              {
+                "source": "profile_v2",
+                "count": 5516
+              }
+            ],
+            "tweet_text": "当快要来高潮的时候，被公司财务总监一个紧急来电给打扰了，你说对方会听到我的铃铛响吗？\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 76,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 76,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 76,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 76,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+            "post_id": "2101317347458072713",
+            "handle": "cocoluhk",
+            "source_time": "2026-09-25 01:28:42",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "coco在深圳",
+        "promo_name": "coco在深圳",
+        "followers_count": 5516,
+        "followers_text": "5.5K",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 5516
+          },
+          {
+            "source": "status_legacy",
+            "count": 5516
+          },
+          {
+            "source": "profile_v2",
+            "count": 5516
+          }
+        ],
+        "check_followers_count": 5516,
+        "check_followers_text": "5.5K",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 5516
+          },
+          {
+            "source": "status_legacy",
+            "count": 5516
+          },
+          {
+            "source": "profile_v2",
+            "count": 5516
+          }
+        ],
+        "tweet_text": "当快要来高潮的时候，被公司财务总监一个紧急来电给打扰了，你说对方会听到我的铃铛响吗？\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 76,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 76,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 76,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 76,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "check_url": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "promo_post_id": "2101317347458072713",
+        "check_post_id": "2101317347458072713",
+        "chat_id": "-1003739822194",
+        "message_id": 3338,
+        "time": "2026-09-25 01:28:42",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 5516,
+        "qualified_followers_text": "5.5K",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 01:28:42",
+        "admission_locked": false,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted"
       }
     }
@@ -17556,7 +18136,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 01:05:48",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted"
       }
@@ -19736,8 +20316,588 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 01:03:20",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "2103171883181215770": {
+        "x_handle": "lulu7778u",
+        "check_handle": "lulu7778u",
+        "dual_link": false,
+        "promo_handle": "lulu7778u",
+        "tg_username": "ckck7779",
+        "tg_user_id": 8230308431,
+        "tg_name": "Ck 9",
+        "link": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+        "message_text": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+            "handle": "lulu7778u",
+            "post_id": "2103171883181215770",
+            "role": "promo",
+            "author_name": "Ck-8",
+            "followers_count": 627,
+            "followers_text": "627",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 627
+              },
+              {
+                "source": "status_legacy",
+                "count": 627
+              },
+              {
+                "source": "profile_v2",
+                "count": 627
+              }
+            ],
+            "tweet_text": "红底高跟开档黑丝 \n新号重启 ck-8\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 54,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 54,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 54,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 54,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+            "post_id": "2103171883181215770",
+            "handle": "lulu7778u",
+            "source_time": "2026-09-25 01:17:42",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Ck-8",
+        "promo_name": "Ck-8",
+        "followers_count": 627,
+        "followers_text": "627",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 627
+          },
+          {
+            "source": "status_legacy",
+            "count": 627
+          },
+          {
+            "source": "profile_v2",
+            "count": 627
+          }
+        ],
+        "check_followers_count": 627,
+        "check_followers_text": "627",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 627
+          },
+          {
+            "source": "status_legacy",
+            "count": 627
+          },
+          {
+            "source": "profile_v2",
+            "count": 627
+          }
+        ],
+        "tweet_text": "红底高跟开档黑丝 \n新号重启 ck-8\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 54,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 54,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 54,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 54,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+        "check_url": "https://x.com/lulu7778u/status/2103171883181215770?s=46",
+        "promo_post_id": "2103171883181215770",
+        "check_post_id": "2103171883181215770",
+        "chat_id": "-1003739822194",
+        "message_id": 3336,
+        "time": "2026-09-25 01:17:42",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 627,
+        "qualified_followers_text": "627",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 01:17:42",
+        "admission_locked": false,
+        "daily_list_rank": 12,
+        "daily_list_status": "accepted"
+      },
+      "2103085447077601389": {
+        "x_handle": "xinxinjjj",
+        "check_handle": "xinxinjjj",
+        "dual_link": false,
+        "promo_handle": "xinxinjjj",
+        "tg_username": "",
+        "tg_user_id": 1437992083,
+        "tg_name": "恋足巡视员 机器人",
+        "link": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+        "message_text": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+            "handle": "xinxinjjj",
+            "post_id": "2103085447077601389",
+            "role": "promo",
+            "author_name": "恋鞋巡视员",
+            "followers_count": 12111,
+            "followers_text": "1.2W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 12111
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 12111
+              },
+              {
+                "source": "status_legacy",
+                "count": 12111
+              },
+              {
+                "source": "profile_v2",
+                "count": 12111
+              }
+            ],
+            "tweet_text": "谁懂这种 铆钉平底鞋的 S伤力！\n\n一起等电梯的极品翘臀女主，但凡身后站着是“公交痴汉”分分钟被打了好吧！身材太诱惑😍😍\n#恋鞋癖 #铆钉鞋 #平底鞋 #鞋控 #船袜\n#完整版原创群（主页入） \n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 135,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 135,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 135,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 135,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 135,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+            "post_id": "2103085447077601389",
+            "handle": "xinxinjjj",
+            "source_time": "2026-09-25 01:28:26",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "恋鞋巡视员",
+        "promo_name": "恋鞋巡视员",
+        "followers_count": 12111,
+        "followers_text": "1.2W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 12111
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12111
+          },
+          {
+            "source": "status_legacy",
+            "count": 12111
+          },
+          {
+            "source": "profile_v2",
+            "count": 12111
+          }
+        ],
+        "check_followers_count": 12111,
+        "check_followers_text": "1.2W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 12111
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12111
+          },
+          {
+            "source": "status_legacy",
+            "count": 12111
+          },
+          {
+            "source": "profile_v2",
+            "count": 12111
+          }
+        ],
+        "tweet_text": "谁懂这种 铆钉平底鞋的 S伤力！\n\n一起等电梯的极品翘臀女主，但凡身后站着是“公交痴汉”分分钟被打了好吧！身材太诱惑😍😍\n#恋鞋癖 #铆钉鞋 #平底鞋 #鞋控 #船袜\n#完整版原创群（主页入） \n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 135,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 135,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 135,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 135,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 135,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+        "check_url": "https://x.com/xinxinjjj/status/2103085447077601389?s=46",
+        "promo_post_id": "2103085447077601389",
+        "check_post_id": "2103085447077601389",
+        "chat_id": "-1003739822194",
+        "message_id": 3337,
+        "time": "2026-09-25 01:28:26",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 12111,
+        "qualified_followers_text": "1.2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 01:28:26",
+        "admission_locked": false,
+        "daily_list_rank": 13,
+        "daily_list_status": "accepted"
+      },
+      "2101317347458072713": {
+        "x_handle": "cocoluhk",
+        "check_handle": "cocoluhk",
+        "dual_link": false,
+        "promo_handle": "cocoluhk",
+        "tg_username": "HKcocoLU",
+        "tg_user_id": 5820965161,
+        "tg_name": "coco",
+        "link": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "message_text": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+            "handle": "cocoluhk",
+            "post_id": "2101317347458072713",
+            "role": "promo",
+            "author_name": "coco在深圳",
+            "followers_count": 5516,
+            "followers_text": "5.5K",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 5516
+              },
+              {
+                "source": "status_legacy",
+                "count": 5516
+              },
+              {
+                "source": "profile_v2",
+                "count": 5516
+              }
+            ],
+            "tweet_text": "当快要来高潮的时候，被公司财务总监一个紧急来电给打扰了，你说对方会听到我的铃铛响吗？\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 76,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 76,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 76,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 76,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+            "post_id": "2101317347458072713",
+            "handle": "cocoluhk",
+            "source_time": "2026-09-25 01:28:42",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "coco在深圳",
+        "promo_name": "coco在深圳",
+        "followers_count": 5516,
+        "followers_text": "5.5K",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 5516
+          },
+          {
+            "source": "status_legacy",
+            "count": 5516
+          },
+          {
+            "source": "profile_v2",
+            "count": 5516
+          }
+        ],
+        "check_followers_count": 5516,
+        "check_followers_text": "5.5K",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 5516
+          },
+          {
+            "source": "status_legacy",
+            "count": 5516
+          },
+          {
+            "source": "profile_v2",
+            "count": 5516
+          }
+        ],
+        "tweet_text": "当快要来高潮的时候，被公司财务总监一个紧急来电给打扰了，你说对方会听到我的铃铛响吗？\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 76,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 76,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 76,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 76,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "check_url": "https://x.com/cocoluhk/status/2101317347458072713?s=46&t=sz2NG8vTzBri5tpq7e8T8w",
+        "promo_post_id": "2101317347458072713",
+        "check_post_id": "2101317347458072713",
+        "chat_id": "-1003739822194",
+        "message_id": 3338,
+        "time": "2026-09-25 01:28:42",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 5516,
+        "qualified_followers_text": "5.5K",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 01:28:42",
+        "admission_locked": false,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted"
       }
     }

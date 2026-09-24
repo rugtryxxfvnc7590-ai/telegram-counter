@@ -97,7 +97,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-24",
-    "run_at": "2026-09-24 18:45:39",
+    "run_at": "2026-09-24 19:00:58",
     "completed_groups": [
       "群一",
       "群二",
@@ -105,40 +105,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "35989041333:1",
-        "checked_at": "2026-09-24 18:45:41",
+        "run_key": "35990487989:1",
+        "checked_at": "2026-09-24 19:00:59",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "35989041333:1",
-        "checked_at": "2026-09-24 18:45:41",
+        "run_key": "35990487989:1",
+        "checked_at": "2026-09-24 19:00:59",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "35989041333:1",
-        "checked_at": "2026-09-24 18:45:41",
+        "run_key": "35990487989:1",
+        "checked_at": "2026-09-24 19:00:59",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "35989041333:1",
-        "checked_at": "2026-09-24 18:45:41",
+        "run_key": "35990487989:1",
+        "checked_at": "2026-09-24 19:00:59",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "35989041333:1",
-        "checked_at": "2026-09-24 18:45:41",
+        "run_key": "35990487989:1",
+        "checked_at": "2026-09-24 19:00:59",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "35989041333:1",
-        "checked_at": "2026-09-24 18:45:41",
+        "run_key": "35990487989:1",
+        "checked_at": "2026-09-24 19:00:59",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -974,6 +974,132 @@
           "3208"
         ],
         "updated_at": "2026-09-24 16:15:37"
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-09-24 19:01:05",
+        "count": 8,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [
+          "https://x.com/zoylin00005/status/2103058705382355217",
+          "https://x.com/baoyisi66/status/2102726585698996261",
+          "https://x.com/asecresm/status/2102939850148020534",
+          "https://x.com/maojio513/status/2101505185663361510",
+          "https://x.com/dunrk12x/status/2102916564131700855",
+          "https://x.com/bibo8893/status/2102208727956992295",
+          "https://x.com/catdog852/status/2102740434602905797",
+          "https://x.com/zhuguang9859/status/2102341383969505603"
+        ],
+        "slots": [
+          {
+            "handle": "zoylin00005",
+            "post_id": "2103058705382355217",
+            "original_post_id": "2103058705382355217",
+            "url": "https://x.com/zoylin00005/status/2103058705382355217",
+            "edited": false,
+            "position": 1,
+            "message_id": "74336",
+            "tg_user_id": "5396435834",
+            "time": "2026-09-24 18:35:15",
+            "admission_time": "2026-09-24 18:35:15"
+          },
+          {
+            "handle": "baoyisi66",
+            "post_id": "2102726585698996261",
+            "original_post_id": "2102726585698996261",
+            "url": "https://x.com/baoyisi66/status/2102726585698996261",
+            "edited": false,
+            "position": 2,
+            "message_id": "74335",
+            "tg_user_id": "8435650273",
+            "time": "2026-09-24 18:31:22",
+            "admission_time": "2026-09-24 18:31:22",
+            "is_replacement": false,
+            "replaced_message_id": "74329",
+            "admitted_at": "2026-09-24 18:45:48"
+          },
+          {
+            "handle": "asecresm",
+            "post_id": "2102939850148020534",
+            "original_post_id": "2102939850148020534",
+            "url": "https://x.com/asecresm/status/2102939850148020534",
+            "edited": false,
+            "position": 3,
+            "message_id": "74334",
+            "tg_user_id": "8548890215",
+            "time": "2026-09-24 13:51:11",
+            "admission_time": "2026-09-24 13:51:11"
+          },
+          {
+            "handle": "maojio513",
+            "post_id": "2101505185663361510",
+            "original_post_id": "2101505185663361510",
+            "url": "https://x.com/maojio513/status/2101505185663361510",
+            "edited": false,
+            "position": 4,
+            "message_id": "74333",
+            "tg_user_id": "6711450768",
+            "time": "2026-09-24 09:29:36",
+            "admission_time": "2026-09-24 09:29:36"
+          },
+          {
+            "handle": "dunrk12x",
+            "post_id": "2102916564131700855",
+            "original_post_id": "2102916564131700855",
+            "url": "https://x.com/dunrk12x/status/2102916564131700855",
+            "edited": false,
+            "position": 5,
+            "message_id": "74330",
+            "tg_user_id": "8244653896",
+            "time": "2026-09-24 08:23:45",
+            "admission_time": "2026-09-24 08:26:26"
+          },
+          {
+            "handle": "bibo8893",
+            "post_id": "2102208727956992295",
+            "original_post_id": "2102208727956992295",
+            "url": "https://x.com/bibo8893/status/2102208727956992295",
+            "edited": false,
+            "position": 6,
+            "message_id": "74328",
+            "tg_user_id": "7261659842",
+            "time": "2026-09-24 07:12:12",
+            "admission_time": "2026-09-24 07:12:12"
+          },
+          {
+            "handle": "catdog852",
+            "post_id": "2102740434602905797",
+            "original_post_id": "2102740434602905797",
+            "url": "https://x.com/catdog852/status/2102740434602905797",
+            "edited": false,
+            "position": 7,
+            "message_id": "74327",
+            "tg_user_id": "5452100710",
+            "time": "2026-09-24 01:35:55",
+            "admission_time": "2026-09-24 01:35:55"
+          },
+          {
+            "handle": "zhuguang9859",
+            "post_id": "2102341383969505603",
+            "original_post_id": "2102341383969505603",
+            "url": "https://x.com/zhuguang9859/status/2102341383969505603",
+            "edited": false,
+            "position": 8,
+            "message_id": "74326",
+            "tg_user_id": "8281002968",
+            "time": "2026-09-24 01:22:40",
+            "admission_time": "2026-09-24 01:22:40"
+          }
+        ],
+        "message_id": 2988,
+        "owner_chat_id": "8614747348",
+        "text": "群二（9月24日）互推名单，共 8 条\n\n1 https://x.com/zoylin00005/status/2103058705382355217\n\n2 https://x.com/baoyisi66/status/2102726585698996261\n\n3 https://x.com/asecresm/status/2102939850148020534\n\n4 https://x.com/maojio513/status/2101505185663361510\n\n5 https://x.com/dunrk12x/status/2102916564131700855\n\n6 https://x.com/bibo8893/status/2102208727956992295\n\n7 https://x.com/catdog852/status/2102740434602905797\n\n8 https://x.com/zhuguang9859/status/2102341383969505603",
+        "roster_capacity": 8,
+        "vacant_positions": {},
+        "withdrawn_message_ids": [
+          "74329"
+        ]
       }
     }
   },
@@ -2011,6 +2137,43 @@
   },
   "cutoff_announcements": {
     "date": "2026-09-24",
-    "groups": {}
+    "groups": {
+      "群一": {
+        "status": "sent",
+        "text": "群一（9月24日）截止此条为最后一条（含此条），共 30条 \r\n\r\n野推过的撤销， 再次刷新主页开始转，完毕后核对主页转发数量是否与截止数量 一致 \r\n\r\n✅[点击此主页转发互推 ](https://x.com/zukongjia88)\r\n\r\n1️⃣分段时间转发、务必停留互推人主页（播放视频或浏览图片评论区）避免因刷屏转发机器人行为导致封号 \r\n2️⃣统一19：00转发根据个人时间安排可自行选择提前转）最迟于1：00必须转发完毕！ 截止时间后检查各位主页，欢迎监督举！",
+        "count": 30,
+        "count_basis": "admitted_roster",
+        "chat_id": "-1003891628675",
+        "reply_to_message_id": 8260,
+        "attempts": 1,
+        "attempted_at": "2026-09-24 19:01:06",
+        "sent_at": "2026-09-24 19:01:06",
+        "message_id": 8283
+      },
+      "群二": {
+        "status": "sent",
+        "text": "群二（9月24日）截止此条为最后一条（含此条），共 8条\r\n\r\n野推过的撤销， 再次刷新主页开始转，完毕后核对主页转发数量是否与截止数量 一致\r\n\r\n ✅[点击此主页转发互推 ](https://x.com/feimao2244?s=21)\r\n\r\n1️⃣分段时间转发、务必停留互推人主页（播放视频或浏览图片评论区）避免因刷屏转发机器人行为导致封号 \r\n2️⃣统一19：00转发（根据个人时间安排可自行选择提前转） 最迟于01：00必须转发完毕！ （每日01:00开始检查互推情况） 截止时间后检查各位主页，欢迎监督举！",
+        "count": 8,
+        "count_basis": "admitted_roster",
+        "chat_id": "-1003218974409",
+        "reply_to_message_id": 74336,
+        "attempts": 1,
+        "attempted_at": "2026-09-24 19:01:07",
+        "sent_at": "2026-09-24 19:01:07",
+        "message_id": 74337
+      },
+      "群三": {
+        "status": "sent",
+        "text": "群三（9月24日）截止此条为最后一条（含此条），共 30条\r\n\r\n 野推过的撤销， 再次刷新主页开始转，完毕后核对主页转发数量是否与截止数量 一致 \r\n\r\n✅[点击此主页转发互推](https://x.com/marseanin906771?s=21)\r\n\r\n 1️⃣分段时间转发、务必停留互推人主页（播放视频或浏览图片评论区）避免因刷屏转发机器人行为导致封号 \r\n2️⃣统一19：00转发（根据个人时间安排可自行选择提前转） 最迟于01：00必须转发完毕！ （每日01:00开始检查互推情况） 截止时间后检查各位主页，欢迎监督举！",
+        "count": 30,
+        "count_basis": "admitted_roster",
+        "chat_id": "-1003739822194",
+        "reply_to_message_id": 3217,
+        "attempts": 1,
+        "attempted_at": "2026-09-24 19:01:08",
+        "sent_at": "2026-09-24 19:01:08",
+        "message_id": 3233
+      }
+    }
   }
 }

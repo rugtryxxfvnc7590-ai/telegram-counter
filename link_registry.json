@@ -10042,7 +10042,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 01:17:42",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 12,
         "daily_list_status": "accepted"
       },
@@ -10254,7 +10254,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 01:28:26",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 13,
         "daily_list_status": "accepted"
       },
@@ -10438,8 +10438,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 01:28:42",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 14,
+        "daily_list_status": "accepted"
+      },
+      "aerolattic29965": {
+        "x_handle": "aerolattic29965",
+        "check_handle": "aerolattic29965",
+        "dual_link": false,
+        "promo_handle": "aerolattic29965",
+        "tg_username": "tefe858",
+        "tg_user_id": 1941523438,
+        "tg_name": "cute(只回复口令)",
+        "link": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+        "message_text": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+            "handle": "aerolattic29965",
+            "post_id": "2102890947315134652",
+            "role": "promo",
+            "author_name": "布偶",
+            "followers_count": 4990,
+            "followers_text": "4.9K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 4990
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 4990
+              },
+              {
+                "source": "status_legacy",
+                "count": 4990
+              },
+              {
+                "source": "profile_v2",
+                "count": 4990
+              }
+            ],
+            "tweet_text": "肥肥的大僻谷😝\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 41,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+            "post_id": "2102890947315134652",
+            "handle": "aerolattic29965",
+            "source_time": "2026-09-25 01:33:17",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "布偶",
+        "promo_name": "布偶",
+        "followers_count": 4990,
+        "followers_text": "4.9K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4990
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4990
+          },
+          {
+            "source": "status_legacy",
+            "count": 4990
+          },
+          {
+            "source": "profile_v2",
+            "count": 4990
+          }
+        ],
+        "check_followers_count": 4990,
+        "check_followers_text": "4.9K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4990
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4990
+          },
+          {
+            "source": "status_legacy",
+            "count": 4990
+          },
+          {
+            "source": "profile_v2",
+            "count": 4990
+          }
+        ],
+        "tweet_text": "肥肥的大僻谷😝\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 41,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+        "check_url": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+        "promo_post_id": "2102890947315134652",
+        "check_post_id": "2102890947315134652",
+        "chat_id": "-1003739822194",
+        "message_id": 3339,
+        "time": "2026-09-25 01:33:17",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 4990,
+        "qualified_followers_text": "4.9K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 01:33:17",
+        "admission_locked": false,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted"
       }
     }
@@ -20500,7 +20712,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 01:17:42",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 12,
         "daily_list_status": "accepted"
       },
@@ -20712,7 +20924,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 01:28:26",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 13,
         "daily_list_status": "accepted"
       },
@@ -20896,8 +21108,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 01:28:42",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 14,
+        "daily_list_status": "accepted"
+      },
+      "2102890947315134652": {
+        "x_handle": "aerolattic29965",
+        "check_handle": "aerolattic29965",
+        "dual_link": false,
+        "promo_handle": "aerolattic29965",
+        "tg_username": "tefe858",
+        "tg_user_id": 1941523438,
+        "tg_name": "cute(只回复口令)",
+        "link": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+        "message_text": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+            "handle": "aerolattic29965",
+            "post_id": "2102890947315134652",
+            "role": "promo",
+            "author_name": "布偶",
+            "followers_count": 4990,
+            "followers_text": "4.9K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 4990
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 4990
+              },
+              {
+                "source": "status_legacy",
+                "count": 4990
+              },
+              {
+                "source": "profile_v2",
+                "count": 4990
+              }
+            ],
+            "tweet_text": "肥肥的大僻谷😝\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 41,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 41,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+            "post_id": "2102890947315134652",
+            "handle": "aerolattic29965",
+            "source_time": "2026-09-25 01:33:17",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "布偶",
+        "promo_name": "布偶",
+        "followers_count": 4990,
+        "followers_text": "4.9K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4990
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4990
+          },
+          {
+            "source": "status_legacy",
+            "count": 4990
+          },
+          {
+            "source": "profile_v2",
+            "count": 4990
+          }
+        ],
+        "check_followers_count": 4990,
+        "check_followers_text": "4.9K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 4990
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 4990
+          },
+          {
+            "source": "status_legacy",
+            "count": 4990
+          },
+          {
+            "source": "profile_v2",
+            "count": 4990
+          }
+        ],
+        "tweet_text": "肥肥的大僻谷😝\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 41,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 41,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+        "check_url": "https://x.com/aerolattic29965/status/2102890947315134652?s=46",
+        "promo_post_id": "2102890947315134652",
+        "check_post_id": "2102890947315134652",
+        "chat_id": "-1003739822194",
+        "message_id": 3339,
+        "time": "2026-09-25 01:33:17",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 4990,
+        "qualified_followers_text": "4.9K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 01:33:17",
+        "admission_locked": false,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted"
       }
     }

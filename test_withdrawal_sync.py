@@ -78,7 +78,7 @@ class WithdrawalListTest(unittest.TestCase):
                 self.remove(now=late)
                 self.deliver(late)
                 self.edit.assert_not_called()
-                self.assertNotIn("confirmed_withdrawals", self.registry)
+                self.assertIn("confirmed_withdrawals", self.registry)
                 self.registry = registry
 
     def test_185959_allowed(self):
@@ -252,7 +252,7 @@ class SnapshotWithdrawalTest(unittest.TestCase):
                 snapshot.replace_group_snapshot(self.registry, self.state, GROUPS["群一"], messages, DAY, now=NOW)
         self.assertEqual((self.registry, self.state), before)
 
-    def test_snapshot_after_cutoff_no_withdrawal_evidence(self):
+    def test_snapshot_after_cutoff_keeps_evidence_without_editing_private_roster(self):
         messages = [m for m in self.messages() if m["message_id"] != 1]
         snapshot.replace_group_snapshot(self.registry, self.state, GROUPS["群一"], messages, DAY, now=NOW.replace(hour=19))
         self.deliver(NOW.replace(hour=19))

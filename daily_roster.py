@@ -4,6 +4,7 @@ from copy import deepcopy
 from daily_capacity import GROUP_CHAT_IDS, admitted_rows, chat_ids_for_group, eligible_rows
 from private_list_sync import edited_slots, freeze_links, order_roster_slots
 from withdrawal_sync import beijing_now, plan_roster
+from website_deletions import capture_website_deletions
 
 
 def refresh_daily_rosters(registry, state, limits, now=None, save_callback=None):
@@ -13,6 +14,7 @@ def refresh_daily_rosters(registry, state, limits, now=None, save_callback=None)
     snapshot = state.get("group_snapshot_sync") or {}
     if registry.get("date") != day or snapshot.get("date") != day:
         return {}
+    capture_website_deletions(registry, state, now)
     if now.hour >= 19:
         return ledger.get("groups", {}) if ledger.get("date") == day else {}
     if ledger.get("date") != day:
@@ -85,7 +87,8 @@ def final_owner_rosters(registry, state, limits, now=None):
     their positions; normal eligibility still excludes arrivals at/after 19:00.
     """
     now = beijing_now(now)
-    snapshot = dict(state, daily_rosters=deepcopy(state.get("daily_rosters") or {}))
+    snapshot = dict(state, daily_rosters=deepcopy(state.get("daily_rosters") or {}),
+                    website_deletions=deepcopy(state.get("website_deletions") or {}))
     cutoff = now.replace(hour=18, minute=59, second=59, microsecond=0)
     return refresh_daily_rosters(registry, snapshot, limits, now=cutoff)
 

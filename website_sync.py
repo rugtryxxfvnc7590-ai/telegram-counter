@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 
 import requests
 
-from daily_roster import roster_items
+from website_deletions import deleted_entries, website_items
 from withdrawal_sync import beijing_now
 
 DEFAULT_URL = "https://daily-links.guerridodominique142615.workers.dev"
@@ -32,7 +32,9 @@ def sync_website(state, now=None, save_callback=None, secret=None, origin=None, 
     now = beijing_now(now)
     day = now.strftime("%Y-%m-%d")
     source = state.get("daily_rosters") or {}
-    if not 14 <= now.hour < 19 or source.get("date") != day:
+    if source.get("date") != day:
+        return {}
+    if not 14 <= now.hour < 19 and not any(deleted_entries(state, group, day) for group in GROUPS):
         return {}
     secret = secret if secret is not None else os.getenv("WEBSITE_SYNC_SECRET", "")
     if not secret:
@@ -53,9 +55,20 @@ def sync_website(state, now=None, save_callback=None, secret=None, origin=None, 
         if record is None:
             continue
         send_time = beijing_now(fixed_now)
-        if not 14 <= send_time.hour < 19 or send_time.strftime("%Y-%m-%d") != day:
+        if send_time.strftime("%Y-%m-%d") != day:
             break
-        payload = {"date": day, "groupName": name, "items": roster_items(record)}
+        deletions = deleted_entries(state, group, day)
+        payload = {"date": day, "groupName": name}
+        if 14 <= send_time.hour < 19:
+            payload["items"] = website_items(record, deletions)
+        else:
+            if not deletions:
+                continue
+            # Frozen hours cannot introduce or replace a link, even if an
+            # admission snapshot changed while a request was in flight.
+            payload.update(mode="deletions", deletions=[
+                {key: entry[key] for key in ("position", "account", "postId")}
+                for _, entry in sorted(deletions.items())])
         digest = hashlib.sha256(encode_payload(payload)).hexdigest()
         previous = ledger["groups"].get(group) or {}
         if previous.get("digest") != digest:

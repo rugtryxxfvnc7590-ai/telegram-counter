@@ -18,7 +18,7 @@ def note_withdrawals(registry, chat_id, reasons, now=None):
     now = beijing_now(now)
     day = now.strftime("%Y-%m-%d")
     group = group_for_chat(chat_id)
-    if now.hour >= 19 or registry.get("date") != day or not group or not reasons:
+    if registry.get("date") != day or not group or not reasons:
         return
     ledger = registry.setdefault("confirmed_withdrawals", {})
     if ledger.get("date") != day:

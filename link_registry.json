@@ -5610,7 +5610,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:02:01",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 28,
         "daily_list_status": "accepted"
       },
@@ -5794,7 +5794,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:02:38",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 29,
         "daily_list_status": "accepted"
       },
@@ -5978,7 +5978,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:03:08",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 30,
         "daily_list_status": "accepted"
       },
@@ -6689,6 +6689,218 @@
         "admission_locked": false,
         "daily_list_rank": 34,
         "daily_list_status": "waitlist"
+      },
+      "lris_intj": {
+        "x_handle": "lris_intj",
+        "check_handle": "lris_intj",
+        "dual_link": false,
+        "promo_handle": "lris_intj",
+        "tg_username": "IRIS19930421",
+        "tg_user_id": 2103607030,
+        "tg_name": "吉光片羽",
+        "link": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+        "message_text": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+            "handle": "lris_intj",
+            "post_id": "2102564042653192518",
+            "role": "promo",
+            "author_name": "♱₊Ms. Rin❄︎˚↝",
+            "followers_count": 354004,
+            "followers_text": "35.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 354004
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 354004
+              },
+              {
+                "source": "status_legacy",
+                "count": 354004
+              },
+              {
+                "source": "profile_v2",
+                "count": 354004
+              }
+            ],
+            "tweet_text": "🤎🍞＃nsfw  #onlyfans  #iyaofans\n\n📬：@ToBulaer\n           @ToBuerma \n           @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 88,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 88,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 88,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 88,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 88,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+            "post_id": "2102564042653192518",
+            "handle": "lris_intj",
+            "source_time": "2026-09-25 00:16:29",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "♱₊Ms. Rin❄︎˚↝",
+        "promo_name": "♱₊Ms. Rin❄︎˚↝",
+        "followers_count": 354004,
+        "followers_text": "35.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 354004
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 354004
+          },
+          {
+            "source": "status_legacy",
+            "count": 354004
+          },
+          {
+            "source": "profile_v2",
+            "count": 354004
+          }
+        ],
+        "check_followers_count": 354004,
+        "check_followers_text": "35.4W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 354004
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 354004
+          },
+          {
+            "source": "status_legacy",
+            "count": 354004
+          },
+          {
+            "source": "profile_v2",
+            "count": 354004
+          }
+        ],
+        "tweet_text": "🤎🍞＃nsfw  #onlyfans  #iyaofans\n\n📬：@ToBulaer\n           @ToBuerma \n           @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 88,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 88,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 88,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 88,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 88,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+        "check_url": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+        "promo_post_id": "2102564042653192518",
+        "check_post_id": "2102564042653192518",
+        "chat_id": "-1003891628675",
+        "message_id": 8341,
+        "time": "2026-09-25 00:16:29",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 354004,
+        "qualified_followers_text": "35.4W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 00:16:29",
+        "admission_locked": false,
+        "daily_list_rank": 35,
+        "daily_list_status": "waitlist"
       }
     },
     "-1003218974409": {},
@@ -7113,7 +7325,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:04:16",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted"
       },
@@ -7297,7 +7509,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:06:01",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted"
       },
@@ -7481,7 +7693,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:10:35",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted"
       },
@@ -7693,8 +7905,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:11:01",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
+        "daily_list_status": "accepted"
+      },
+      "showu3u": {
+        "x_handle": "showu3u",
+        "check_handle": "showu3u",
+        "dual_link": false,
+        "promo_handle": "showu3u",
+        "tg_username": "beibei3064",
+        "tg_user_id": 5344912406,
+        "tg_name": "Betty",
+        "link": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "message_text": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+            "handle": "showu3u",
+            "post_id": "2101714675100680406",
+            "role": "promo",
+            "author_name": "小u",
+            "followers_count": 12175,
+            "followers_text": "1.2W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 12175
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 12175
+              },
+              {
+                "source": "status_legacy",
+                "count": 12175
+              },
+              {
+                "source": "profile_v2",
+                "count": 12175
+              }
+            ],
+            "tweet_text": "Wataa\n所有人感受\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+            "post_id": "2101714675100680406",
+            "handle": "showu3u",
+            "source_time": "2026-09-25 00:27:06",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小u",
+        "promo_name": "小u",
+        "followers_count": 12175,
+        "followers_text": "1.2W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 12175
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12175
+          },
+          {
+            "source": "status_legacy",
+            "count": 12175
+          },
+          {
+            "source": "profile_v2",
+            "count": 12175
+          }
+        ],
+        "check_followers_count": 12175,
+        "check_followers_text": "1.2W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 12175
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12175
+          },
+          {
+            "source": "status_legacy",
+            "count": 12175
+          },
+          {
+            "source": "profile_v2",
+            "count": 12175
+          }
+        ],
+        "tweet_text": "Wataa\n所有人感受\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "check_url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "promo_post_id": "2101714675100680406",
+        "check_post_id": "2101714675100680406",
+        "chat_id": "-1003739822194",
+        "message_id": 3328,
+        "time": "2026-09-25 00:27:06",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 12175,
+        "qualified_followers_text": "1.2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 00:27:06",
+        "admission_locked": false,
+        "daily_list_rank": 6,
         "daily_list_status": "accepted"
       }
     }
@@ -13521,7 +13945,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:02:01",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 28,
         "daily_list_status": "accepted"
       },
@@ -13705,7 +14129,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:02:38",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 29,
         "daily_list_status": "accepted"
       },
@@ -13889,7 +14313,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:03:08",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 30,
         "daily_list_status": "accepted"
       },
@@ -14600,6 +15024,218 @@
         "admission_locked": false,
         "daily_list_rank": 34,
         "daily_list_status": "waitlist"
+      },
+      "2102564042653192518": {
+        "x_handle": "lris_intj",
+        "check_handle": "lris_intj",
+        "dual_link": false,
+        "promo_handle": "lris_intj",
+        "tg_username": "IRIS19930421",
+        "tg_user_id": 2103607030,
+        "tg_name": "吉光片羽",
+        "link": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+        "message_text": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+            "handle": "lris_intj",
+            "post_id": "2102564042653192518",
+            "role": "promo",
+            "author_name": "♱₊Ms. Rin❄︎˚↝",
+            "followers_count": 354004,
+            "followers_text": "35.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 354004
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 354004
+              },
+              {
+                "source": "status_legacy",
+                "count": 354004
+              },
+              {
+                "source": "profile_v2",
+                "count": 354004
+              }
+            ],
+            "tweet_text": "🤎🍞＃nsfw  #onlyfans  #iyaofans\n\n📬：@ToBulaer\n           @ToBuerma \n           @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 88,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 88,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 88,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 88,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 88,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+            "post_id": "2102564042653192518",
+            "handle": "lris_intj",
+            "source_time": "2026-09-25 00:16:29",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "♱₊Ms. Rin❄︎˚↝",
+        "promo_name": "♱₊Ms. Rin❄︎˚↝",
+        "followers_count": 354004,
+        "followers_text": "35.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 354004
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 354004
+          },
+          {
+            "source": "status_legacy",
+            "count": 354004
+          },
+          {
+            "source": "profile_v2",
+            "count": 354004
+          }
+        ],
+        "check_followers_count": 354004,
+        "check_followers_text": "35.4W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 354004
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 354004
+          },
+          {
+            "source": "status_legacy",
+            "count": 354004
+          },
+          {
+            "source": "profile_v2",
+            "count": 354004
+          }
+        ],
+        "tweet_text": "🤎🍞＃nsfw  #onlyfans  #iyaofans\n\n📬：@ToBulaer\n           @ToBuerma \n           @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 88,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 88,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 88,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 88,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 88,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+        "check_url": "https://x.com/lris_intj/status/2102564042653192518?s=46",
+        "promo_post_id": "2102564042653192518",
+        "check_post_id": "2102564042653192518",
+        "chat_id": "-1003891628675",
+        "message_id": 8341,
+        "time": "2026-09-25 00:16:29",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 354004,
+        "qualified_followers_text": "35.4W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 00:16:29",
+        "admission_locked": false,
+        "daily_list_rank": 35,
+        "daily_list_status": "waitlist"
       }
     },
     "-1003218974409": {},
@@ -15024,7 +15660,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:04:16",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted"
       },
@@ -15208,7 +15844,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:06:01",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted"
       },
@@ -15392,7 +16028,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:10:35",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted"
       },
@@ -15604,8 +16240,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-25 00:11:01",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
+        "daily_list_status": "accepted"
+      },
+      "2101714675100680406": {
+        "x_handle": "showu3u",
+        "check_handle": "showu3u",
+        "dual_link": false,
+        "promo_handle": "showu3u",
+        "tg_username": "beibei3064",
+        "tg_user_id": 5344912406,
+        "tg_name": "Betty",
+        "link": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "message_text": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+            "handle": "showu3u",
+            "post_id": "2101714675100680406",
+            "role": "promo",
+            "author_name": "小u",
+            "followers_count": 12175,
+            "followers_text": "1.2W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 12175
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 12175
+              },
+              {
+                "source": "status_legacy",
+                "count": 12175
+              },
+              {
+                "source": "profile_v2",
+                "count": 12175
+              }
+            ],
+            "tweet_text": "Wataa\n所有人感受\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+            "post_id": "2101714675100680406",
+            "handle": "showu3u",
+            "source_time": "2026-09-25 00:27:06",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小u",
+        "promo_name": "小u",
+        "followers_count": 12175,
+        "followers_text": "1.2W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 12175
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12175
+          },
+          {
+            "source": "status_legacy",
+            "count": 12175
+          },
+          {
+            "source": "profile_v2",
+            "count": 12175
+          }
+        ],
+        "check_followers_count": 12175,
+        "check_followers_text": "1.2W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 12175
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 12175
+          },
+          {
+            "source": "status_legacy",
+            "count": 12175
+          },
+          {
+            "source": "profile_v2",
+            "count": 12175
+          }
+        ],
+        "tweet_text": "Wataa\n所有人感受\n\n@ToBuerma\n@ToBulaer\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "check_url": "https://x.com/showu3u/status/2101714675100680406?s=46&t=0FprZSyp7wAQiVt9Qrrb7Q",
+        "promo_post_id": "2101714675100680406",
+        "check_post_id": "2101714675100680406",
+        "chat_id": "-1003739822194",
+        "message_id": 3328,
+        "time": "2026-09-25 00:27:06",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 12175,
+        "qualified_followers_text": "1.2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-25 00:27:06",
+        "admission_locked": false,
+        "daily_list_rank": 6,
         "daily_list_status": "accepted"
       }
     }

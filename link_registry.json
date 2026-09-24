@@ -8047,7 +8047,7 @@
         ],
         "x_name": "布偶喵",
         "promo_name": "布偶喵",
-        "followers_count": 14046,
+        "followers_count": 14064,
         "followers_text": "1.4W",
         "followers_sources": [
           "status_v2",
@@ -8303,6 +8303,22 @@
           {
             "source": "profile_v2",
             "count": 14046
+          },
+          {
+            "source": "status_v2",
+            "count": 14064
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14064
+          },
+          {
+            "source": "status_legacy",
+            "count": 14064
+          },
+          {
+            "source": "profile_v2",
+            "count": 14064
           }
         ],
         "check_followers_count": 105347,
@@ -8500,7 +8516,7 @@
         ],
         "x_name": "布偶喵",
         "promo_name": "布偶喵",
-        "followers_count": 14046,
+        "followers_count": 14064,
         "followers_text": "1.4W",
         "followers_sources": [
           "status_v2",
@@ -8756,6 +8772,22 @@
           {
             "source": "profile_v2",
             "count": 14046
+          },
+          {
+            "source": "status_v2",
+            "count": 14064
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14064
+          },
+          {
+            "source": "status_legacy",
+            "count": 14064
+          },
+          {
+            "source": "profile_v2",
+            "count": 14064
           }
         ],
         "check_followers_count": 105347,
@@ -12915,7 +12947,7 @@
         ],
         "x_name": "幸运鹅🦢",
         "promo_name": "幸运鹅🦢",
-        "followers_count": 6164,
+        "followers_count": 6169,
         "followers_text": "6.1K",
         "followers_sources": [
           "status_v2",
@@ -13427,6 +13459,22 @@
           {
             "source": "profile_v2",
             "count": 6164
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 6169
+          },
+          {
+            "source": "status_legacy",
+            "count": 6169
+          },
+          {
+            "source": "profile_v2",
+            "count": 6169
+          },
+          {
+            "source": "status_v2",
+            "count": 6169
           }
         ],
         "check_followers_count": 6125,
@@ -13505,7 +13553,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 6164,
+        "qualified_followers_count": 6169,
         "qualified_followers_text": "6.1K",
         "qualified_followers_sources": [
           "status_v2",
@@ -16250,6 +16298,190 @@
         "admission_time": "2026-09-24 08:23:31",
         "admission_locked": false,
         "daily_list_rank": 31,
+        "daily_list_status": "waitlist"
+      },
+      "owouitot": {
+        "x_handle": "owouitot",
+        "check_handle": "owouitot",
+        "dual_link": false,
+        "promo_handle": "owouitot",
+        "tg_username": "Luvuui",
+        "tg_user_id": 7694305150,
+        "tg_name": "小猫抱",
+        "link": "https://x.com/owouitot/status/2102665517496750195?s=52",
+        "message_text": "https://x.com/owouitot/status/2102665517496750195?s=52",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/owouitot/status/2102665517496750195?s=52",
+            "handle": "owouitot",
+            "post_id": "2102665517496750195",
+            "role": "promo",
+            "author_name": "小哼哼",
+            "followers_count": 406,
+            "followers_text": "406",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 406
+              },
+              {
+                "source": "status_legacy",
+                "count": 406
+              },
+              {
+                "source": "profile_v2",
+                "count": 406
+              }
+            ],
+            "tweet_text": "👅👅\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 36,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 36,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 36,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 36,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/owouitot/status/2102665517496750195?s=52",
+            "post_id": "2102665517496750195",
+            "handle": "owouitot",
+            "source_time": "2026-09-24 10:42:06",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小哼哼",
+        "promo_name": "小哼哼",
+        "followers_count": 406,
+        "followers_text": "406",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 406
+          },
+          {
+            "source": "status_legacy",
+            "count": 406
+          },
+          {
+            "source": "profile_v2",
+            "count": 406
+          }
+        ],
+        "check_followers_count": 406,
+        "check_followers_text": "406",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 406
+          },
+          {
+            "source": "status_legacy",
+            "count": 406
+          },
+          {
+            "source": "profile_v2",
+            "count": 406
+          }
+        ],
+        "tweet_text": "👅👅\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 36,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 36,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 36,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 36,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/owouitot/status/2102665517496750195?s=52",
+        "check_url": "https://x.com/owouitot/status/2102665517496750195?s=52",
+        "promo_post_id": "2102665517496750195",
+        "check_post_id": "2102665517496750195",
+        "chat_id": "-1003739822194",
+        "message_id": 3223,
+        "time": "2026-09-24 10:42:06",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 406,
+        "qualified_followers_text": "406",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 10:42:06",
+        "admission_locked": false,
+        "daily_list_rank": 32,
         "daily_list_status": "waitlist"
       }
     }
@@ -24301,7 +24533,7 @@
         ],
         "x_name": "布偶喵",
         "promo_name": "布偶喵",
-        "followers_count": 14046,
+        "followers_count": 14064,
         "followers_text": "1.4W",
         "followers_sources": [
           "status_v2",
@@ -24557,6 +24789,22 @@
           {
             "source": "profile_v2",
             "count": 14046
+          },
+          {
+            "source": "status_v2",
+            "count": 14064
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14064
+          },
+          {
+            "source": "status_legacy",
+            "count": 14064
+          },
+          {
+            "source": "profile_v2",
+            "count": 14064
           }
         ],
         "check_followers_count": 105347,
@@ -28234,7 +28482,7 @@
         ],
         "x_name": "幸运鹅🦢",
         "promo_name": "幸运鹅🦢",
-        "followers_count": 6164,
+        "followers_count": 6169,
         "followers_text": "6.1K",
         "followers_sources": [
           "status_v2",
@@ -28746,6 +28994,22 @@
           {
             "source": "profile_v2",
             "count": 6164
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 6169
+          },
+          {
+            "source": "status_legacy",
+            "count": 6169
+          },
+          {
+            "source": "profile_v2",
+            "count": 6169
+          },
+          {
+            "source": "status_v2",
+            "count": 6169
           }
         ],
         "check_followers_count": 6125,
@@ -28824,7 +29088,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 0,
-        "qualified_followers_count": 6164,
+        "qualified_followers_count": 6169,
         "qualified_followers_text": "6.1K",
         "qualified_followers_sources": [
           "status_v2",
@@ -31569,6 +31833,190 @@
         "admission_time": "2026-09-24 08:23:31",
         "admission_locked": false,
         "daily_list_rank": 31,
+        "daily_list_status": "waitlist"
+      },
+      "2102665517496750195": {
+        "x_handle": "owouitot",
+        "check_handle": "owouitot",
+        "dual_link": false,
+        "promo_handle": "owouitot",
+        "tg_username": "Luvuui",
+        "tg_user_id": 7694305150,
+        "tg_name": "小猫抱",
+        "link": "https://x.com/owouitot/status/2102665517496750195?s=52",
+        "message_text": "https://x.com/owouitot/status/2102665517496750195?s=52",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/owouitot/status/2102665517496750195?s=52",
+            "handle": "owouitot",
+            "post_id": "2102665517496750195",
+            "role": "promo",
+            "author_name": "小哼哼",
+            "followers_count": 406,
+            "followers_text": "406",
+            "followers_sources": [
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_legacy_i",
+                "count": 406
+              },
+              {
+                "source": "status_legacy",
+                "count": 406
+              },
+              {
+                "source": "profile_v2",
+                "count": 406
+              }
+            ],
+            "tweet_text": "👅👅\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_legacy_i",
+                "length": 36,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 36,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 36,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 36,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_legacy_i",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/owouitot/status/2102665517496750195?s=52",
+            "post_id": "2102665517496750195",
+            "handle": "owouitot",
+            "source_time": "2026-09-24 10:42:06",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小哼哼",
+        "promo_name": "小哼哼",
+        "followers_count": 406,
+        "followers_text": "406",
+        "followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 406
+          },
+          {
+            "source": "status_legacy",
+            "count": 406
+          },
+          {
+            "source": "profile_v2",
+            "count": 406
+          }
+        ],
+        "check_followers_count": 406,
+        "check_followers_text": "406",
+        "check_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_legacy_i",
+            "count": 406
+          },
+          {
+            "source": "status_legacy",
+            "count": 406
+          },
+          {
+            "source": "profile_v2",
+            "count": 406
+          }
+        ],
+        "tweet_text": "👅👅\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_legacy_i",
+            "length": 36,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 36,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 36,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 36,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_legacy_i",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/owouitot/status/2102665517496750195?s=52",
+        "check_url": "https://x.com/owouitot/status/2102665517496750195?s=52",
+        "promo_post_id": "2102665517496750195",
+        "check_post_id": "2102665517496750195",
+        "chat_id": "-1003739822194",
+        "message_id": 3223,
+        "time": "2026-09-24 10:42:06",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 406,
+        "qualified_followers_text": "406",
+        "qualified_followers_sources": [
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 10:42:06",
+        "admission_locked": false,
+        "daily_list_rank": 32,
         "daily_list_status": "waitlist"
       }
     }

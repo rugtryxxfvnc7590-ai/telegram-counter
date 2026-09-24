@@ -8047,7 +8047,7 @@
         ],
         "x_name": "布偶喵",
         "promo_name": "布偶喵",
-        "followers_count": 13969,
+        "followers_count": 13976,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -8151,6 +8151,22 @@
           {
             "source": "profile_v2",
             "count": 13969
+          },
+          {
+            "source": "status_v2",
+            "count": 13976
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13976
+          },
+          {
+            "source": "status_legacy",
+            "count": 13976
+          },
+          {
+            "source": "profile_v2",
+            "count": 13976
           }
         ],
         "check_followers_count": 105347,
@@ -8348,7 +8364,7 @@
         ],
         "x_name": "布偶喵",
         "promo_name": "布偶喵",
-        "followers_count": 13969,
+        "followers_count": 13976,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -8452,6 +8468,22 @@
           {
             "source": "profile_v2",
             "count": 13969
+          },
+          {
+            "source": "status_v2",
+            "count": 13976
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13976
+          },
+          {
+            "source": "status_legacy",
+            "count": 13976
+          },
+          {
+            "source": "profile_v2",
+            "count": 13976
           }
         ],
         "check_followers_count": 105347,
@@ -8528,6 +8560,448 @@
         "admission_time": "2026-09-24 07:16:37",
         "admission_locked": true,
         "daily_list_rank": 4,
+        "daily_list_status": "accepted"
+      },
+      "dunrk12x": {
+        "x_handle": "dunrk12x",
+        "check_handle": "dunesq1vg",
+        "dual_link": true,
+        "promo_handle": "dunrk12x",
+        "tg_username": "Honolulu888",
+        "tg_user_id": 8244653896,
+        "tg_name": "上海盾儿",
+        "link": "推 https://x.com/dunrk12x/status/2102916564131700855?s=46\n回 https://x.com/dunesq1vg?s=11",
+        "message_text": "推 https://x.com/dunrk12x/status/2102916564131700855?s=46\n回 https://x.com/dunesq1vg?s=11",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+            "handle": "dunrk12x",
+            "post_id": "2102916564131700855",
+            "role": "promo",
+            "author_name": "🛡️盾儿",
+            "followers_count": 14629,
+            "followers_text": "1.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 14629
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 14629
+              },
+              {
+                "source": "status_legacy",
+                "count": 14629
+              },
+              {
+                "source": "profile_v2",
+                "count": 14629
+              }
+            ],
+            "tweet_text": "有时候人和人的距离只需要720P就足够了\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 85,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/dunesq1vg?s=11",
+            "handle": "dunesq1vg",
+            "post_id": "",
+            "role": "check",
+            "author_name": "盾盾",
+            "followers_count": 28134,
+            "followers_text": "2.8W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 28134
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "编辑后",
+            "url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+            "post_id": "2102916564131700855",
+            "handle": "dunrk12x",
+            "source_time": "2026-09-24 08:23:45",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "🛡️盾儿",
+        "promo_name": "🛡️盾儿",
+        "followers_count": 14629,
+        "followers_text": "1.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 14629
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14629
+          },
+          {
+            "source": "status_legacy",
+            "count": 14629
+          },
+          {
+            "source": "profile_v2",
+            "count": 14629
+          }
+        ],
+        "check_followers_count": 28134,
+        "check_followers_text": "2.8W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 28134
+          }
+        ],
+        "tweet_text": "有时候人和人的距离只需要720P就足够了\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 85,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+        "check_url": "https://x.com/dunesq1vg?s=11",
+        "promo_post_id": "2102916564131700855",
+        "check_post_id": "",
+        "chat_id": "-1003218974409",
+        "message_id": 74330,
+        "time": "2026-09-24 08:23:45",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": true,
+        "edit_time": "2026-09-24 08:26:26",
+        "followers_min": 20000,
+        "qualified_followers_count": 28134,
+        "qualified_followers_text": "2.8W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 08:26:26",
+        "admission_locked": false,
+        "daily_list_rank": 5,
+        "daily_list_status": "accepted"
+      },
+      "dunesq1vg": {
+        "x_handle": "dunesq1vg",
+        "check_handle": "dunesq1vg",
+        "dual_link": true,
+        "promo_handle": "dunrk12x",
+        "tg_username": "Honolulu888",
+        "tg_user_id": 8244653896,
+        "tg_name": "上海盾儿",
+        "link": "推 https://x.com/dunrk12x/status/2102916564131700855?s=46\n回 https://x.com/dunesq1vg?s=11",
+        "message_text": "推 https://x.com/dunrk12x/status/2102916564131700855?s=46\n回 https://x.com/dunesq1vg?s=11",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+            "handle": "dunrk12x",
+            "post_id": "2102916564131700855",
+            "role": "promo",
+            "author_name": "🛡️盾儿",
+            "followers_count": 14629,
+            "followers_text": "1.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 14629
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 14629
+              },
+              {
+                "source": "status_legacy",
+                "count": 14629
+              },
+              {
+                "source": "profile_v2",
+                "count": 14629
+              }
+            ],
+            "tweet_text": "有时候人和人的距离只需要720P就足够了\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 85,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/dunesq1vg?s=11",
+            "handle": "dunesq1vg",
+            "post_id": "",
+            "role": "check",
+            "author_name": "盾盾",
+            "followers_count": 28134,
+            "followers_text": "2.8W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 28134
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "编辑后",
+            "url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+            "post_id": "2102916564131700855",
+            "handle": "dunrk12x",
+            "source_time": "2026-09-24 08:23:45",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "🛡️盾儿",
+        "promo_name": "🛡️盾儿",
+        "followers_count": 14629,
+        "followers_text": "1.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 14629
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14629
+          },
+          {
+            "source": "status_legacy",
+            "count": 14629
+          },
+          {
+            "source": "profile_v2",
+            "count": 14629
+          }
+        ],
+        "check_followers_count": 28134,
+        "check_followers_text": "2.8W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 28134
+          }
+        ],
+        "tweet_text": "有时候人和人的距离只需要720P就足够了\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 85,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+        "check_url": "https://x.com/dunesq1vg?s=11",
+        "promo_post_id": "2102916564131700855",
+        "check_post_id": "",
+        "chat_id": "-1003218974409",
+        "message_id": 74330,
+        "time": "2026-09-24 08:23:45",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": true,
+        "edit_time": "2026-09-24 08:26:26",
+        "followers_min": 20000,
+        "qualified_followers_count": 28134,
+        "qualified_followers_text": "2.8W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 08:26:26",
+        "admission_locked": false,
+        "daily_list_rank": 5,
         "daily_list_status": "accepted"
       }
     },
@@ -12225,6 +12699,10 @@
           {
             "source": "profile_v2",
             "count": 6130
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 6135
           }
         ],
         "check_followers_count": 6125,
@@ -14838,14 +15316,14 @@
         "tg_username": "Honolulu888",
         "tg_user_id": 8244653896,
         "tg_name": "上海盾儿",
-        "link": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
-        "message_text": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+        "link": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+        "message_text": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+            "url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
             "handle": "dunrk12x",
-            "post_id": "2100757215019934117",
+            "post_id": "2102916564131700855",
             "role": "promo",
             "author_name": "🛡️盾儿",
             "followers_count": 14629,
@@ -14874,7 +15352,7 @@
                 "count": 14629
               }
             ],
-            "tweet_text": "清纯盾儿\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+            "tweet_text": "有时候人和人的距离只需要720P就足够了\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -14885,27 +15363,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 69,
+                "length": 85,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 69,
+                "length": 85,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 69,
+                "length": 85,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 69,
+                "length": 85,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 69,
+                "length": 85,
                 "required_mentions_count": 3
               }
             ],
@@ -14915,7 +15393,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+            "post_id": "2102916564131700855",
+            "handle": "dunrk12x",
+            "source_time": "2026-09-24 08:04:09",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
             "post_id": "2100757215019934117",
             "handle": "dunrk12x",
@@ -14977,7 +15463,7 @@
             "count": 14629
           }
         ],
-        "tweet_text": "清纯盾儿\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+        "tweet_text": "有时候人和人的距离只需要720P就足够了\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -14988,44 +15474,44 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 69,
+            "length": 85,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 69,
+            "length": 85,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 69,
+            "length": 85,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 69,
+            "length": 85,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 69,
+            "length": 85,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
-        "check_url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
-        "promo_post_id": "2100757215019934117",
-        "check_post_id": "2100757215019934117",
+        "promo_url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+        "check_url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+        "promo_post_id": "2102916564131700855",
+        "check_post_id": "2102916564131700855",
         "chat_id": "-1003739822194",
         "message_id": 3219,
         "time": "2026-09-24 08:04:09",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-24 08:23:31",
         "followers_min": 0,
         "qualified_followers_count": 14629,
         "qualified_followers_text": "1.4W",
@@ -15037,7 +15523,7 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
-        "admission_time": "2026-09-24 08:04:09",
+        "admission_time": "2026-09-24 08:23:31",
         "admission_locked": false,
         "daily_list_rank": 31,
         "daily_list_status": "waitlist"
@@ -23091,7 +23577,7 @@
         ],
         "x_name": "布偶喵",
         "promo_name": "布偶喵",
-        "followers_count": 13969,
+        "followers_count": 13976,
         "followers_text": "1.3W",
         "followers_sources": [
           "status_v2",
@@ -23195,6 +23681,22 @@
           {
             "source": "profile_v2",
             "count": 13969
+          },
+          {
+            "source": "status_v2",
+            "count": 13976
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13976
+          },
+          {
+            "source": "status_legacy",
+            "count": 13976
+          },
+          {
+            "source": "profile_v2",
+            "count": 13976
           }
         ],
         "check_followers_count": 105347,
@@ -23271,6 +23773,227 @@
         "admission_time": "2026-09-24 07:16:37",
         "admission_locked": true,
         "daily_list_rank": 4,
+        "daily_list_status": "accepted"
+      },
+      "2102916564131700855": {
+        "x_handle": "dunrk12x",
+        "check_handle": "dunesq1vg",
+        "dual_link": true,
+        "promo_handle": "dunrk12x",
+        "tg_username": "Honolulu888",
+        "tg_user_id": 8244653896,
+        "tg_name": "上海盾儿",
+        "link": "推 https://x.com/dunrk12x/status/2102916564131700855?s=46\n回 https://x.com/dunesq1vg?s=11",
+        "message_text": "推 https://x.com/dunrk12x/status/2102916564131700855?s=46\n回 https://x.com/dunesq1vg?s=11",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+            "handle": "dunrk12x",
+            "post_id": "2102916564131700855",
+            "role": "promo",
+            "author_name": "🛡️盾儿",
+            "followers_count": 14629,
+            "followers_text": "1.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 14629
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 14629
+              },
+              {
+                "source": "status_legacy",
+                "count": 14629
+              },
+              {
+                "source": "profile_v2",
+                "count": 14629
+              }
+            ],
+            "tweet_text": "有时候人和人的距离只需要720P就足够了\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 85,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/dunesq1vg?s=11",
+            "handle": "dunesq1vg",
+            "post_id": "",
+            "role": "check",
+            "author_name": "盾盾",
+            "followers_count": 28134,
+            "followers_text": "2.8W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 28134
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "编辑后",
+            "url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+            "post_id": "2102916564131700855",
+            "handle": "dunrk12x",
+            "source_time": "2026-09-24 08:23:45",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "🛡️盾儿",
+        "promo_name": "🛡️盾儿",
+        "followers_count": 14629,
+        "followers_text": "1.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 14629
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14629
+          },
+          {
+            "source": "status_legacy",
+            "count": 14629
+          },
+          {
+            "source": "profile_v2",
+            "count": 14629
+          }
+        ],
+        "check_followers_count": 28134,
+        "check_followers_text": "2.8W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 28134
+          }
+        ],
+        "tweet_text": "有时候人和人的距离只需要720P就足够了\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 85,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+        "check_url": "https://x.com/dunesq1vg?s=11",
+        "promo_post_id": "2102916564131700855",
+        "check_post_id": "",
+        "chat_id": "-1003218974409",
+        "message_id": 74330,
+        "time": "2026-09-24 08:23:45",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": true,
+        "edit_time": "2026-09-24 08:26:26",
+        "followers_min": 20000,
+        "qualified_followers_count": 28134,
+        "qualified_followers_text": "2.8W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-24 08:26:26",
+        "admission_locked": false,
+        "daily_list_rank": 5,
         "daily_list_status": "accepted"
       }
     },
@@ -26771,6 +27494,10 @@
           {
             "source": "profile_v2",
             "count": 6130
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 6135
           }
         ],
         "check_followers_count": 6125,
@@ -29376,7 +30103,7 @@
         "daily_list_rank": 30,
         "daily_list_status": "accepted"
       },
-      "2100757215019934117": {
+      "2102916564131700855": {
         "x_handle": "dunrk12x",
         "check_handle": "dunrk12x",
         "dual_link": false,
@@ -29384,14 +30111,14 @@
         "tg_username": "Honolulu888",
         "tg_user_id": 8244653896,
         "tg_name": "上海盾儿",
-        "link": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
-        "message_text": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+        "link": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+        "message_text": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
+            "url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
             "handle": "dunrk12x",
-            "post_id": "2100757215019934117",
+            "post_id": "2102916564131700855",
             "role": "promo",
             "author_name": "🛡️盾儿",
             "followers_count": 14629,
@@ -29420,7 +30147,7 @@
                 "count": 14629
               }
             ],
-            "tweet_text": "清纯盾儿\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+            "tweet_text": "有时候人和人的距离只需要720P就足够了\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -29431,27 +30158,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 69,
+                "length": 85,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 69,
+                "length": 85,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 69,
+                "length": 85,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 69,
+                "length": 85,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 69,
+                "length": 85,
                 "required_mentions_count": 3
               }
             ],
@@ -29461,7 +30188,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+            "post_id": "2102916564131700855",
+            "handle": "dunrk12x",
+            "source_time": "2026-09-24 08:04:09",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
             "post_id": "2100757215019934117",
             "handle": "dunrk12x",
@@ -29523,7 +30258,7 @@
             "count": 14629
           }
         ],
-        "tweet_text": "清纯盾儿\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
+        "tweet_text": "有时候人和人的距离只需要720P就足够了\n\n投稿：@ToBuerma\n              @ToBulaer\n              @KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -29534,44 +30269,44 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 69,
+            "length": 85,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 69,
+            "length": 85,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 69,
+            "length": 85,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 69,
+            "length": 85,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 69,
+            "length": 85,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
-        "check_url": "https://x.com/dunrk12x/status/2100757215019934117?s=46",
-        "promo_post_id": "2100757215019934117",
-        "check_post_id": "2100757215019934117",
+        "promo_url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+        "check_url": "https://x.com/dunrk12x/status/2102916564131700855?s=46",
+        "promo_post_id": "2102916564131700855",
+        "check_post_id": "2102916564131700855",
         "chat_id": "-1003739822194",
         "message_id": 3219,
         "time": "2026-09-24 08:04:09",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-24 08:23:31",
         "followers_min": 0,
         "qualified_followers_count": 14629,
         "qualified_followers_text": "1.4W",
@@ -29583,7 +30318,7 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
-        "admission_time": "2026-09-24 08:04:09",
+        "admission_time": "2026-09-24 08:23:31",
         "admission_locked": false,
         "daily_list_rank": 31,
         "daily_list_status": "waitlist"

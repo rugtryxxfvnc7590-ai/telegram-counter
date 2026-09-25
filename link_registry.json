@@ -5471,8 +5471,358 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-26 01:25:40",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
+        "daily_list_status": "accepted"
+      },
+      "ktanagere": {
+        "x_handle": "ktanagere",
+        "check_handle": "guoguo11122",
+        "dual_link": true,
+        "promo_handle": "ktanagere",
+        "tg_username": "Guoguoqq",
+        "tg_user_id": 8243332573,
+        "tg_name": "GuoGuo💞",
+        "link": "https://x.com/ktanagere/status/2103059122942079278?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "message_text": "https://x.com/ktanagere/status/2103059122942079278?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/ktanagere/status/2103059122942079278?s=46",
+            "handle": "ktanagere",
+            "post_id": "2103059122942079278",
+            "role": "promo",
+            "author_name": "1V1-在线视频",
+            "followers_count": 29,
+            "followers_text": "29",
+            "followers_sources": [
+              "status_v2",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 29
+              },
+              {
+                "source": "profile_v2",
+                "count": 29
+              }
+            ],
+            "tweet_text": "- 我追我自己的太阳。\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 46,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/guoguo11122?s=21",
+            "handle": "guoguo11122",
+            "post_id": "",
+            "role": "check",
+            "author_name": "Guoguo💞",
+            "followers_count": 35550,
+            "followers_text": "3.5W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 35550
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/ktanagere/status/2103059122942079278?s=46",
+            "post_id": "2103059122942079278",
+            "handle": "ktanagere",
+            "source_time": "2026-09-26 01:36:59",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "1V1-在线视频",
+        "promo_name": "1V1-在线视频",
+        "followers_count": 29,
+        "followers_text": "29",
+        "followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 29
+          },
+          {
+            "source": "profile_v2",
+            "count": 29
+          }
+        ],
+        "check_followers_count": 35550,
+        "check_followers_text": "3.5W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 35550
+          }
+        ],
+        "tweet_text": "- 我追我自己的太阳。\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 46,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/ktanagere/status/2103059122942079278?s=46",
+        "check_url": "https://x.com/guoguo11122?s=21",
+        "promo_post_id": "2103059122942079278",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 4611,
+        "time": "2026-09-26 01:36:59",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 35550,
+        "qualified_followers_text": "3.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-26 01:36:59",
+        "admission_locked": false,
+        "daily_list_rank": 3,
+        "daily_list_status": "accepted"
+      },
+      "guoguo11122": {
+        "x_handle": "guoguo11122",
+        "check_handle": "guoguo11122",
+        "dual_link": true,
+        "promo_handle": "ktanagere",
+        "tg_username": "Guoguoqq",
+        "tg_user_id": 8243332573,
+        "tg_name": "GuoGuo💞",
+        "link": "https://x.com/ktanagere/status/2103059122942079278?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "message_text": "https://x.com/ktanagere/status/2103059122942079278?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/ktanagere/status/2103059122942079278?s=46",
+            "handle": "ktanagere",
+            "post_id": "2103059122942079278",
+            "role": "promo",
+            "author_name": "1V1-在线视频",
+            "followers_count": 29,
+            "followers_text": "29",
+            "followers_sources": [
+              "status_v2",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 29
+              },
+              {
+                "source": "profile_v2",
+                "count": 29
+              }
+            ],
+            "tweet_text": "- 我追我自己的太阳。\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 46,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/guoguo11122?s=21",
+            "handle": "guoguo11122",
+            "post_id": "",
+            "role": "check",
+            "author_name": "Guoguo💞",
+            "followers_count": 35550,
+            "followers_text": "3.5W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 35550
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/ktanagere/status/2103059122942079278?s=46",
+            "post_id": "2103059122942079278",
+            "handle": "ktanagere",
+            "source_time": "2026-09-26 01:36:59",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "1V1-在线视频",
+        "promo_name": "1V1-在线视频",
+        "followers_count": 29,
+        "followers_text": "29",
+        "followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 29
+          },
+          {
+            "source": "profile_v2",
+            "count": 29
+          }
+        ],
+        "check_followers_count": 35550,
+        "check_followers_text": "3.5W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 35550
+          }
+        ],
+        "tweet_text": "- 我追我自己的太阳。\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 46,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/ktanagere/status/2103059122942079278?s=46",
+        "check_url": "https://x.com/guoguo11122?s=21",
+        "promo_post_id": "2103059122942079278",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 4611,
+        "time": "2026-09-26 01:36:59",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 35550,
+        "qualified_followers_text": "3.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-26 01:36:59",
+        "admission_locked": false,
+        "daily_list_rank": 3,
         "daily_list_status": "accepted"
       }
     }
@@ -11132,8 +11482,183 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-26 01:25:40",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
+        "daily_list_status": "accepted"
+      },
+      "2103059122942079278": {
+        "x_handle": "ktanagere",
+        "check_handle": "guoguo11122",
+        "dual_link": true,
+        "promo_handle": "ktanagere",
+        "tg_username": "Guoguoqq",
+        "tg_user_id": 8243332573,
+        "tg_name": "GuoGuo💞",
+        "link": "https://x.com/ktanagere/status/2103059122942079278?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "message_text": "https://x.com/ktanagere/status/2103059122942079278?s=46\n👆推这个号\n👇这个号回推\nhttps://x.com/guoguo11122?s=21",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/ktanagere/status/2103059122942079278?s=46",
+            "handle": "ktanagere",
+            "post_id": "2103059122942079278",
+            "role": "promo",
+            "author_name": "1V1-在线视频",
+            "followers_count": 29,
+            "followers_text": "29",
+            "followers_sources": [
+              "status_v2",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 29
+              },
+              {
+                "source": "profile_v2",
+                "count": 29
+              }
+            ],
+            "tweet_text": "- 我追我自己的太阳。\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "vx_status_v2",
+              "vx_status_i"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 46,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/guoguo11122?s=21",
+            "handle": "guoguo11122",
+            "post_id": "",
+            "role": "check",
+            "author_name": "Guoguo💞",
+            "followers_count": 35550,
+            "followers_text": "3.5W",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 35550
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/ktanagere/status/2103059122942079278?s=46",
+            "post_id": "2103059122942079278",
+            "handle": "ktanagere",
+            "source_time": "2026-09-26 01:36:59",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "1V1-在线视频",
+        "promo_name": "1V1-在线视频",
+        "followers_count": 29,
+        "followers_text": "29",
+        "followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 29
+          },
+          {
+            "source": "profile_v2",
+            "count": 29
+          }
+        ],
+        "check_followers_count": 35550,
+        "check_followers_text": "3.5W",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 35550
+          }
+        ],
+        "tweet_text": "- 我追我自己的太阳。\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "vx_status_v2",
+          "vx_status_i"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 46,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/ktanagere/status/2103059122942079278?s=46",
+        "check_url": "https://x.com/guoguo11122?s=21",
+        "promo_post_id": "2103059122942079278",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 4611,
+        "time": "2026-09-26 01:36:59",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 35550,
+        "qualified_followers_text": "3.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-26 01:36:59",
+        "admission_locked": false,
+        "daily_list_rank": 3,
         "daily_list_status": "accepted"
       }
     }

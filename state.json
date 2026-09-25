@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "offset": 364617917,
+  "offset": 364618017,
   "groups": {
     "-1003891628675": {
       "count": 34,
@@ -42,11 +42,10 @@
       ]
     },
     "-1003218974409": {
-      "count": 7,
+      "count": 6,
       "message_ids": [
         "74342",
         "74343",
-        "74344",
         "74348",
         "74352",
         "74353",
@@ -86,7 +85,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-25",
-    "run_at": "2026-09-25 17:04:56",
+    "run_at": "2026-09-25 17:15:31",
     "completed_groups": [
       "群一",
       "群二",
@@ -94,40 +93,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36116415773:1",
-        "checked_at": "2026-09-25 17:04:57",
+        "run_key": "36117388671:1",
+        "checked_at": "2026-09-25 17:15:32",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36116415773:1",
-        "checked_at": "2026-09-25 17:04:57",
+        "run_key": "36117388671:1",
+        "checked_at": "2026-09-25 17:15:33",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36116415773:1",
-        "checked_at": "2026-09-25 17:04:59",
+        "run_key": "36117388671:1",
+        "checked_at": "2026-09-25 17:15:34",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36116415773:1",
-        "checked_at": "2026-09-25 17:04:57",
+        "run_key": "36117388671:1",
+        "checked_at": "2026-09-25 17:15:32",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36116415773:1",
-        "checked_at": "2026-09-25 17:04:57",
+        "run_key": "36117388671:1",
+        "checked_at": "2026-09-25 17:15:33",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36116415773:1",
-        "checked_at": "2026-09-25 17:04:59",
+        "run_key": "36117388671:1",
+        "checked_at": "2026-09-25 17:15:34",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1471,18 +1470,6 @@
             "admission_time": "2026-09-25 02:22:12"
           },
           {
-            "handle": "baoyisi66",
-            "post_id": "2101291272199917755",
-            "original_post_id": "2101291272199917755",
-            "url": "https://x.com/baoyisi66/status/2101291272199917755",
-            "edited": false,
-            "position": 5,
-            "message_id": "74344",
-            "tg_user_id": "8435650273",
-            "time": "2026-09-25 01:05:48",
-            "admission_time": "2026-09-25 01:05:48"
-          },
-          {
             "handle": "xiaochen000007",
             "post_id": "2103165310442582350",
             "original_post_id": "2103165310442582350",
@@ -1508,10 +1495,14 @@
           }
         ],
         "capacity": 7,
-        "withdrawn_message_ids": [],
-        "vacant_positions": {},
+        "withdrawn_message_ids": [
+          "74344"
+        ],
+        "vacant_positions": {
+          "5": "74344"
+        },
         "roster_capacity": 7,
-        "count": 7,
+        "count": 6,
         "admission_limit": 30
       },
       "群三": {
@@ -1859,10 +1850,10 @@
         "acknowledged_at": "2026-09-25T16:30:38.755004+08:00"
       },
       "群二": {
-        "digest": "59b1569d4501e7f27a82bb15c0332dae38c65f2dda9896f340b486f20524b20d",
-        "sourceRevision": 2,
+        "digest": "0e66345be201c2cd3902462d04da4e677b6b193ad74cab6a304bcf9350a69c75",
+        "sourceRevision": 3,
         "acknowledged": true,
-        "acknowledged_at": "2026-09-25T15:30:39.397193+08:00"
+        "acknowledged_at": "2026-09-25T17:15:36.755948+08:00"
       }
     }
   },
@@ -1923,6 +1914,14 @@
           "account": "1tbsvip",
           "postId": "2100223183169388870",
           "confirmed_at": "2026-09-25 16:30:36"
+        }
+      },
+      "群二": {
+        "74344": {
+          "position": 5,
+          "account": "baoyisi66",
+          "postId": "2101291272199917755",
+          "confirmed_at": "2026-09-25 17:15:33"
         }
       }
     }

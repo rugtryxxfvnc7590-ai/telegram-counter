@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "offset": 364617385,
+  "offset": 364617485,
   "groups": {
     "-1003891628675": {
       "count": 34,
@@ -87,7 +87,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-25",
-    "run_at": "2026-09-25 15:30:36",
+    "run_at": "2026-09-25 15:45:26",
     "completed_groups": [
       "群一",
       "群二",
@@ -95,40 +95,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36107965618:1",
-        "checked_at": "2026-09-25 15:30:37",
+        "run_key": "36109249538:1",
+        "checked_at": "2026-09-25 15:45:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36107965618:1",
-        "checked_at": "2026-09-25 15:30:37",
+        "run_key": "36109249538:1",
+        "checked_at": "2026-09-25 15:45:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36107965618:1",
-        "checked_at": "2026-09-25 15:30:37",
+        "run_key": "36109249538:1",
+        "checked_at": "2026-09-25 15:45:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36107965618:1",
-        "checked_at": "2026-09-25 15:30:37",
+        "run_key": "36109249538:1",
+        "checked_at": "2026-09-25 15:45:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36107965618:1",
-        "checked_at": "2026-09-25 15:30:37",
+        "run_key": "36109249538:1",
+        "checked_at": "2026-09-25 15:45:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36107965618:1",
-        "checked_at": "2026-09-25 15:30:37",
+        "run_key": "36109249538:1",
+        "checked_at": "2026-09-25 15:45:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -145,7 +145,7 @@
         "limit": 30,
         "links": [
           "https://x.com/asecresm/status/2100123909492547675",
-          "https://x.com/sluttytatia404/status/2085998515126435961",
+          "https://x.com/sluttytatia404/status/2103382424155783316",
           "https://x.com/aksaks99999/status/2101602852980318419",
           "https://x.com/xye918/status/2102705623007678602",
           "https://x.com/jxzeroc/status/2058578193712664778",
@@ -190,15 +190,16 @@
           },
           {
             "handle": "sluttytatia404",
-            "post_id": "2085998515126435961",
+            "post_id": "2103382424155783316",
             "original_post_id": "2085998515126435961",
-            "url": "https://x.com/sluttytatia404/status/2085998515126435961",
-            "edited": false,
+            "url": "https://x.com/sluttytatia404/status/2103382424155783316",
+            "edited": true,
             "position": 2,
             "message_id": "8318",
             "tg_user_id": "6253811123",
             "time": "2026-09-25 00:02:38",
-            "admission_time": "2026-09-25 00:02:38"
+            "admission_time": "2026-09-25 00:02:38",
+            "edit_time": "2026-09-25 15:38:23"
           },
           {
             "handle": "aksaks99999",
@@ -543,13 +544,13 @@
         ],
         "message_id": 2989,
         "owner_chat_id": "8614747348",
-        "text": "群一（9月25日）互推名单，共 30 条\n\n1 https://x.com/asecresm/status/2100123909492547675\n\n2 https://x.com/sluttytatia404/status/2085998515126435961\n\n候补3 https://x.com/aksaks99999/status/2101602852980318419\n\n4 https://x.com/xye918/status/2102705623007678602\n\n5 https://x.com/jxzeroc/status/2058578193712664778\n\n6 https://x.com/caochangqing111/status/2040667645729497247\n\n7 https://x.com/wdqhc999/status/2102293669705609584\n\n8 https://x.com/youmeier/status/2102749302737223751\n\n9 https://x.com/tianqipaidui/status/2038562798788358643\n\n10 https://x.com/xiao16877/status/2095810357793378554\n\n11 https://x.com/shixiaotaone/status/2101913206080061927\n\n12 https://x.com/laibeinaixiba/status/2089558662457282900\n\n13 https://x.com/guilin010/status/2103143332063191102\n\n14 https://x.com/dsang1874/status/2101312429162713286\n\n15 https://x.com/jiojioyishujia1/status/2103002445484040536\n\n16 https://x.com/jingyeshiwu/status/2087531241788633464\n\n17 https://x.com/hanzuzong3/status/2093003370718187644\n\n18 https://x.com/xiuchiluchu910/status/2102267608825278868\n\n19 https://x.com/uudajiejie/status/2101905643942846964\n\n20 https://x.com/shixiaotaon/status/2103018770776371415\n\n21 https://x.com/svj798ds/status/2072597703176155609\n\n22 https://x.com/libalababy/status/2065764390931181744\n\n23 https://x.com/sleepsbg/status/2100942159671402648\n\n24 https://x.com/qbln9999/status/2103139132834975828\n\n25 https://x.com/bob7078/status/2102403034290827454\n\n26 https://x.com/tiaotiaosheep/status/2101158756575068282\n\n已编辑 27 https://x.com/hong14868/status/2103358224032481484\n\n28 https://x.com/nancyyzp/status/2102261793863135244\n\n29 https://x.com/snd99x/status/2078045255614759185\n\n30 https://x.com/meehutaotv/status/2073015146494976080",
+        "text": "群一（9月25日）互推名单，共 30 条\n\n1 https://x.com/asecresm/status/2100123909492547675\n\n已编辑 2 https://x.com/sluttytatia404/status/2103382424155783316\n\n候补3 https://x.com/aksaks99999/status/2101602852980318419\n\n4 https://x.com/xye918/status/2102705623007678602\n\n5 https://x.com/jxzeroc/status/2058578193712664778\n\n6 https://x.com/caochangqing111/status/2040667645729497247\n\n7 https://x.com/wdqhc999/status/2102293669705609584\n\n8 https://x.com/youmeier/status/2102749302737223751\n\n9 https://x.com/tianqipaidui/status/2038562798788358643\n\n10 https://x.com/xiao16877/status/2095810357793378554\n\n11 https://x.com/shixiaotaone/status/2101913206080061927\n\n12 https://x.com/laibeinaixiba/status/2089558662457282900\n\n13 https://x.com/guilin010/status/2103143332063191102\n\n14 https://x.com/dsang1874/status/2101312429162713286\n\n15 https://x.com/jiojioyishujia1/status/2103002445484040536\n\n16 https://x.com/jingyeshiwu/status/2087531241788633464\n\n17 https://x.com/hanzuzong3/status/2093003370718187644\n\n18 https://x.com/xiuchiluchu910/status/2102267608825278868\n\n19 https://x.com/uudajiejie/status/2101905643942846964\n\n20 https://x.com/shixiaotaon/status/2103018770776371415\n\n21 https://x.com/svj798ds/status/2072597703176155609\n\n22 https://x.com/libalababy/status/2065764390931181744\n\n23 https://x.com/sleepsbg/status/2100942159671402648\n\n24 https://x.com/qbln9999/status/2103139132834975828\n\n25 https://x.com/bob7078/status/2102403034290827454\n\n26 https://x.com/tiaotiaosheep/status/2101158756575068282\n\n已编辑 27 https://x.com/hong14868/status/2103358224032481484\n\n28 https://x.com/nancyyzp/status/2102261793863135244\n\n29 https://x.com/snd99x/status/2078045255614759185\n\n30 https://x.com/meehutaotv/status/2073015146494976080",
         "roster_capacity": 30,
         "vacant_positions": {},
         "withdrawn_message_ids": [
           "8317"
         ],
-        "updated_at": "2026-09-25 13:45:30"
+        "updated_at": "2026-09-25 15:45:31"
       },
       "群三": {
         "sent": true,
@@ -1000,6 +1001,13 @@
           "outcome": "synced",
           "retained_post_id": "2103358224032481484",
           "sent_at": "2026-09-25 13:45:31"
+        },
+        "8318": {
+          "key": "8318:2103382424155783316:2026-09-25 15:38:23:synced",
+          "post_id": "2103382424155783316",
+          "outcome": "synced",
+          "retained_post_id": "2103382424155783316",
+          "sent_at": "2026-09-25 15:45:32"
         }
       },
       "群二": {},
@@ -1063,15 +1071,16 @@
           },
           {
             "handle": "sluttytatia404",
-            "post_id": "2085998515126435961",
+            "post_id": "2103382424155783316",
             "original_post_id": "2085998515126435961",
-            "url": "https://x.com/sluttytatia404/status/2085998515126435961",
-            "edited": false,
+            "url": "https://x.com/sluttytatia404/status/2103382424155783316",
+            "edited": true,
             "position": 2,
             "message_id": "8318",
             "tg_user_id": "6253811123",
             "time": "2026-09-25 00:02:38",
-            "admission_time": "2026-09-25 00:02:38"
+            "admission_time": "2026-09-25 00:02:38",
+            "edit_time": "2026-09-25 15:38:23"
           },
           {
             "handle": "aksaks99999",
@@ -1860,10 +1869,10 @@
     "date": "2026-09-25",
     "groups": {
       "群一": {
-        "digest": "4cf2fc7ec75982d2a4f1c5f751c3422e5a14d86a84c2d636be952ddc3c6b4a93",
-        "sourceRevision": 2,
+        "digest": "185298c2315d644b798b06a34e1a87997bc1a01e24bfcc61c257e18b384f2774",
+        "sourceRevision": 3,
         "acknowledged": true,
-        "acknowledged_at": "2026-09-25T14:01:10.113752+08:00"
+        "acknowledged_at": "2026-09-25T15:45:33.149536+08:00"
       },
       "群三": {
         "digest": "c46891903ab0c192b9886f54c7ce225733cde77fb40705f95d0acb527d5dc120",

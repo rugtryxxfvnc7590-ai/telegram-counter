@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "offset": 364617121,
+  "offset": 364617185,
   "groups": {
     "-1003891628675": {
       "count": 34,
@@ -86,7 +86,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-25",
-    "run_at": "2026-09-25 14:45:23",
+    "run_at": "2026-09-25 15:00:44",
     "completed_groups": [
       "群一",
       "群二",
@@ -94,40 +94,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36104293442:1",
-        "checked_at": "2026-09-25 14:45:24",
+        "run_key": "36105489094:1",
+        "checked_at": "2026-09-25 15:00:45",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36104293442:1",
-        "checked_at": "2026-09-25 14:45:24",
+        "run_key": "36105489094:1",
+        "checked_at": "2026-09-25 15:00:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36104293442:1",
-        "checked_at": "2026-09-25 14:45:24",
+        "run_key": "36105489094:1",
+        "checked_at": "2026-09-25 15:00:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36104293442:1",
-        "checked_at": "2026-09-25 14:45:24",
+        "run_key": "36105489094:1",
+        "checked_at": "2026-09-25 15:00:45",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36104293442:1",
-        "checked_at": "2026-09-25 14:45:24",
+        "run_key": "36105489094:1",
+        "checked_at": "2026-09-25 15:00:46",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36104293442:1",
-        "checked_at": "2026-09-25 14:45:24",
+        "run_key": "36105489094:1",
+        "checked_at": "2026-09-25 15:00:46",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1036,7 +1036,9 @@
           "text": "已成功加入今日互推名单内，请记得转推",
           "attempts": 1,
           "attempted_at": "2026-09-25T14:45:26.686402+08:00",
-          "sent_at": "2026-09-25T14:45:26.686402+08:00"
+          "sent_at": "2026-09-25T14:45:27+08:00",
+          "confirmation": "telegram_history",
+          "telegram_reply_message_id": 3415
         }
       }
     }

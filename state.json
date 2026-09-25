@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "offset": 364617054,
+  "offset": 364617055,
   "groups": {
     "-1003891628675": {
       "count": 34,
@@ -73,13 +73,13 @@
         "3344",
         "3345",
         "3346",
-        "3348"
+        "3349"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-25",
-    "run_at": "2026-09-25 08:15:47",
+    "run_at": "2026-09-25 08:30:37",
     "completed_groups": [
       "群一",
       "群二",
@@ -87,40 +87,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36076670750:1",
-        "checked_at": "2026-09-25 08:15:48",
+        "run_key": "36077832671:1",
+        "checked_at": "2026-09-25 08:30:39",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36076670750:1",
-        "checked_at": "2026-09-25 08:15:48",
+        "run_key": "36077832671:1",
+        "checked_at": "2026-09-25 08:30:39",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36076670750:1",
-        "checked_at": "2026-09-25 08:15:49",
+        "run_key": "36077832671:1",
+        "checked_at": "2026-09-25 08:30:40",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36076670750:1",
-        "checked_at": "2026-09-25 08:15:48",
+        "run_key": "36077832671:1",
+        "checked_at": "2026-09-25 08:30:39",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36076670750:1",
-        "checked_at": "2026-09-25 08:15:48",
+        "run_key": "36077832671:1",
+        "checked_at": "2026-09-25 08:30:39",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36076670750:1",
-        "checked_at": "2026-09-25 08:15:49",
+        "run_key": "36077832671:1",
+        "checked_at": "2026-09-25 08:30:40",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1070,15 +1070,18 @@
         "slots": [
           {
             "handle": "daimitvt",
-            "post_id": "2103268989795438703",
-            "original_post_id": "2103268989795438703",
-            "url": "https://x.com/daimitvt/status/2103268989795438703",
+            "post_id": "2103277007601799582",
+            "original_post_id": "2103277007601799582",
+            "url": "https://x.com/daimitvt/status/2103277007601799582",
             "edited": false,
             "position": 1,
-            "message_id": "3348",
+            "message_id": "3349",
             "tg_user_id": "6555223935",
-            "time": "2026-09-25 07:43:19",
-            "admission_time": "2026-09-25 07:43:19"
+            "time": "2026-09-25 08:16:26",
+            "admission_time": "2026-09-25 08:16:26",
+            "is_replacement": false,
+            "replaced_message_id": "3348",
+            "admitted_at": "2026-09-25 08:30:42"
           },
           {
             "handle": "bibo8891",
@@ -1322,7 +1325,9 @@
           }
         ],
         "capacity": 21,
-        "withdrawn_message_ids": [],
+        "withdrawn_message_ids": [
+          "3348"
+        ],
         "vacant_positions": {},
         "roster_capacity": 21,
         "count": 21,
@@ -1335,6 +1340,11 @@
     "groups": {
       "群一": {
         "digest": "d526518b067be2ad17978f7df3bd1adf9c6f934287ec11c9e4ecfbf87dab335a",
+        "sourceRevision": 1,
+        "last_error": "http_409"
+      },
+      "群三": {
+        "digest": "2600d7a9003d96c8d2d6e35ce7a0bfa649fbe289dc353712802be734b3b65e06",
         "sourceRevision": 1,
         "last_error": "http_409"
       }
@@ -1353,6 +1363,14 @@
           "account": "caochangqing111",
           "postId": "2101797240310218931",
           "confirmed_at": "2026-09-25 02:15:31"
+        }
+      },
+      "群三": {
+        "3348": {
+          "position": 1,
+          "account": "daimitvt",
+          "postId": "2103268989795438703",
+          "confirmed_at": "2026-09-25 08:30:40"
         }
       }
     }

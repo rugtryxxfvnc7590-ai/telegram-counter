@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "offset": 364618391,
+  "offset": 364618392,
   "groups": {
     "-1003891628675": {
       "count": 30,
@@ -42,16 +42,15 @@
       "message_ids": []
     },
     "-1003739822194": {
-      "count": 2,
+      "count": 1,
       "message_ids": [
-        "4595",
         "4598"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-26",
-    "run_at": "2026-09-26 00:30:34",
+    "run_at": "2026-09-26 00:45:24",
     "completed_groups": [
       "群一",
       "群二",
@@ -59,40 +58,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36161177912:1",
-        "checked_at": "2026-09-26 00:30:35",
+        "run_key": "36162745429:1",
+        "checked_at": "2026-09-26 00:45:25",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36161177912:1",
-        "checked_at": "2026-09-26 00:30:35",
+        "run_key": "36162745429:1",
+        "checked_at": "2026-09-26 00:45:25",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36161177912:1",
-        "checked_at": "2026-09-26 00:30:35",
+        "run_key": "36162745429:1",
+        "checked_at": "2026-09-26 00:45:26",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36161177912:1",
-        "checked_at": "2026-09-26 00:30:35",
+        "run_key": "36162745429:1",
+        "checked_at": "2026-09-26 00:45:25",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36161177912:1",
-        "checked_at": "2026-09-26 00:30:35",
+        "run_key": "36162745429:1",
+        "checked_at": "2026-09-26 00:45:25",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36161177912:1",
-        "checked_at": "2026-09-26 00:30:35",
+        "run_key": "36162745429:1",
+        "checked_at": "2026-09-26 00:45:26",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -945,49 +944,28 @@
             "tg_user_id": "8690119616",
             "time": "2026-09-26 00:08:20",
             "admission_time": "2026-09-26 00:08:20"
-          },
-          {
-            "handle": "jninizt",
-            "post_id": "2103411063425556811",
-            "original_post_id": "2103411063425556811",
-            "url": "https://x.com/jninizt/status/2103411063425556811",
-            "edited": false,
-            "position": 2,
-            "message_id": "4595",
-            "tg_user_id": "8244653896",
-            "time": "2026-09-26 00:01:07",
-            "admission_time": "2026-09-26 00:01:07"
           }
         ],
         "capacity": 2,
-        "withdrawn_message_ids": [],
-        "vacant_positions": {},
+        "withdrawn_message_ids": [
+          "4595"
+        ],
+        "vacant_positions": {
+          "2": "4595"
+        },
         "roster_capacity": 2,
-        "count": 2,
+        "count": 1,
         "admission_limit": 30
       }
     }
   },
   "website_sync": {
-    "date": "2026-09-25",
+    "date": "2026-09-26",
     "groups": {
-      "群一": {
-        "digest": "165bb3a101df51cf0abdc148dbcc447f073d882c2aab88c45090cc7f2190d379",
-        "sourceRevision": 5,
-        "acknowledged": true,
-        "acknowledged_at": "2026-09-25T21:15:32.283339+08:00"
-      },
       "群三": {
-        "digest": "b9dd30b76817d687c44a1e405e364ec4bcb87edd7dc84be8d68cb9d16cb686f3",
-        "sourceRevision": 5,
-        "acknowledged": true,
-        "acknowledged_at": "2026-09-25T19:00:48.780233+08:00"
-      },
-      "群二": {
-        "digest": "c918350c17faa869b113e9f090fa9be81f5e2e4cc7ba4a622f0f86a2478d0426",
-        "sourceRevision": 4,
-        "acknowledged": true,
-        "acknowledged_at": "2026-09-25T19:00:48.516168+08:00"
+        "digest": "3ccd343dff61b214da0a2d55f7c6157e6f701f3dffee8fe3804ddd2ec00dfb58",
+        "sourceRevision": 1,
+        "last_error": "http_409"
       }
     }
   },
@@ -997,6 +975,15 @@
   },
   "website_deletions": {
     "date": "2026-09-26",
-    "groups": {}
+    "groups": {
+      "群三": {
+        "4595": {
+          "position": 2,
+          "account": "jninizt",
+          "postId": "2103411063425556811",
+          "confirmed_at": "2026-09-26 00:45:26"
+        }
+      }
+    }
   }
 }

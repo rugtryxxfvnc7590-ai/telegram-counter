@@ -5484,30 +5484,36 @@
             "post_id": "2103382424155783316",
             "role": "promo",
             "author_name": "Tatia",
-            "followers_count": 140392,
+            "followers_count": 140402,
             "followers_text": "14W",
             "followers_sources": [
               "status_v2",
+              "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 140392
+                "count": 140402
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 140402
               },
               {
                 "source": "status_legacy",
-                "count": 140392
+                "count": 140402
               },
               {
                 "source": "profile_v2",
-                "count": 140392
+                "count": 140402
               }
             ],
             "tweet_text": "想内射你一万次\n#我清纯的骚逼老婆 \n\n中秋快乐，点赞收藏加评论区羞辱意淫抽奖送完整版六分钟\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
+              "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
@@ -5515,6 +5521,11 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
+                "length": 80,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
                 "length": 80,
                 "required_mentions_count": 3
               },
@@ -5546,63 +5557,66 @@
             "handle": "sluttytatia404",
             "source_time": "2026-09-25 00:02:38",
             "edit_time": ""
-          },
-          {
-            "label": "编辑前",
-            "url": "https://x.com/sluttytatia404/status/2085998515126435961?s=46&t=r4B_cwlIG7F-_HYrIKoIow",
-            "post_id": "2085998515126435961",
-            "handle": "sluttytatia404",
-            "source_time": "2026-09-25 00:02:38",
-            "edit_time": ""
           }
         ],
         "x_name": "Tatia",
         "promo_name": "Tatia",
-        "followers_count": 140392,
+        "followers_count": 140402,
         "followers_text": "14W",
         "followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 140392
+            "count": 140402
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 140402
           },
           {
             "source": "status_legacy",
-            "count": 140392
+            "count": 140402
           },
           {
             "source": "profile_v2",
-            "count": 140392
+            "count": 140402
           }
         ],
-        "check_followers_count": 140392,
+        "check_followers_count": 140402,
         "check_followers_text": "14W",
         "check_followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 140392
+            "count": 140402
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 140402
           },
           {
             "source": "status_legacy",
-            "count": 140392
+            "count": 140402
           },
           {
             "source": "profile_v2",
-            "count": 140392
+            "count": 140402
           }
         ],
         "tweet_text": "想内射你一万次\n#我清纯的骚逼老婆 \n\n中秋快乐，点赞收藏加评论区羞辱意淫抽奖送完整版六分钟\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
+          "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
@@ -5610,6 +5624,11 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
+            "length": 80,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
             "length": 80,
             "required_mentions_count": 3
           },
@@ -5644,10 +5663,11 @@
         "edited": true,
         "edit_time": "2026-09-25 15:38:23",
         "followers_min": 100000,
-        "qualified_followers_count": 140392,
+        "qualified_followers_count": 140402,
         "qualified_followers_text": "14W",
         "qualified_followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
@@ -19116,30 +19136,36 @@
             "post_id": "2103382424155783316",
             "role": "promo",
             "author_name": "Tatia",
-            "followers_count": 140392,
+            "followers_count": 140402,
             "followers_text": "14W",
             "followers_sources": [
               "status_v2",
+              "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 140392
+                "count": 140402
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 140402
               },
               {
                 "source": "status_legacy",
-                "count": 140392
+                "count": 140402
               },
               {
                 "source": "profile_v2",
-                "count": 140392
+                "count": 140402
               }
             ],
             "tweet_text": "想内射你一万次\n#我清纯的骚逼老婆 \n\n中秋快乐，点赞收藏加评论区羞辱意淫抽奖送完整版六分钟\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
+              "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
@@ -19147,6 +19173,11 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
+                "length": 80,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
                 "length": 80,
                 "required_mentions_count": 3
               },
@@ -19178,63 +19209,66 @@
             "handle": "sluttytatia404",
             "source_time": "2026-09-25 00:02:38",
             "edit_time": ""
-          },
-          {
-            "label": "编辑前",
-            "url": "https://x.com/sluttytatia404/status/2085998515126435961?s=46&t=r4B_cwlIG7F-_HYrIKoIow",
-            "post_id": "2085998515126435961",
-            "handle": "sluttytatia404",
-            "source_time": "2026-09-25 00:02:38",
-            "edit_time": ""
           }
         ],
         "x_name": "Tatia",
         "promo_name": "Tatia",
-        "followers_count": 140392,
+        "followers_count": 140402,
         "followers_text": "14W",
         "followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 140392
+            "count": 140402
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 140402
           },
           {
             "source": "status_legacy",
-            "count": 140392
+            "count": 140402
           },
           {
             "source": "profile_v2",
-            "count": 140392
+            "count": 140402
           }
         ],
-        "check_followers_count": 140392,
+        "check_followers_count": 140402,
         "check_followers_text": "14W",
         "check_followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 140392
+            "count": 140402
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 140402
           },
           {
             "source": "status_legacy",
-            "count": 140392
+            "count": 140402
           },
           {
             "source": "profile_v2",
-            "count": 140392
+            "count": 140402
           }
         ],
         "tweet_text": "想内射你一万次\n#我清纯的骚逼老婆 \n\n中秋快乐，点赞收藏加评论区羞辱意淫抽奖送完整版六分钟\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
+          "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
@@ -19242,6 +19276,11 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
+            "length": 80,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
             "length": 80,
             "required_mentions_count": 3
           },
@@ -19276,10 +19315,11 @@
         "edited": true,
         "edit_time": "2026-09-25 15:38:23",
         "followers_min": 100000,
-        "qualified_followers_count": 140392,
+        "qualified_followers_count": 140402,
         "qualified_followers_text": "14W",
         "qualified_followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],

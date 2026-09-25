@@ -546,6 +546,7 @@ class LinkParsingTest(unittest.TestCase):
             "followers_count": 1135,
             "followers_text": "1.1K",
             "followers_sources": ["status_legacy_i"],
+            "tweet_text": "@ToBulaer @BulmaList",
         }]
         msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
         registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}

@@ -617,7 +617,9 @@ def tweet_text_may_be_truncated(text, sources=None):
     raw = _normalize_mention_text(text).strip()
     if not raw:
         return True
-    if "…" in raw or raw.endswith("...") or raw.endswith("…"):
+    # An ellipsis inside otherwise complete text is punctuation, not evidence
+    # that the end of the post is missing.
+    if raw.endswith(("...", "…")):
         return True
     # 真机确认：X 的 Show more 可以把尾部账号折叠掉，而 Fx/Vx 接口仍把
     # 折叠前正文标成完整来源。长正文未读到指定账号时必须按不确定处理，
@@ -1081,14 +1083,15 @@ def update_eligibility_fields(entry, chat_id):
         entry["mutual_eligible"] = False
         entry["eligibility_text"] = " / ".join(labels)
         entry["ineligible_reason"] = ",".join(reasons)
+    elif entry.get("content_eligible") is not True:
+        # Keep unknown text available for retry, but never admit it as passed.
+        entry["mutual_eligible"] = None
+        entry["eligibility_text"] = "待确认"
+        entry.pop("ineligible_reason", None)
     elif followers is not None and followers < minimum:
         entry["mutual_eligible"] = True
         entry["eligibility_text"] = "待确认"
         entry["ineligible_reason"] = "followers_low_unconfirmed"
-    elif entry.get("content_eligible") is None:
-        entry["mutual_eligible"] = True
-        entry["eligibility_text"] = "待确认"
-        entry.pop("ineligible_reason", None)
     elif followers is None and minimum > 0:
         entry["mutual_eligible"] = True
         entry["eligibility_text"] = "待确认"

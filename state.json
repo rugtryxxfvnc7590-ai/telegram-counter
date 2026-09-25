@@ -85,7 +85,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-25",
-    "run_at": "2026-09-25 19:00:40",
+    "run_at": "2026-09-25 19:15:33",
     "completed_groups": [
       "群一",
       "群二",
@@ -93,42 +93,42 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36127031217:1",
-        "checked_at": "2026-09-25 19:00:41",
+        "run_key": "36128367578:1",
+        "checked_at": "2026-09-25 19:15:34",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36127031217:1",
-        "checked_at": "2026-09-25 19:00:41",
+        "run_key": "36128367578:1",
+        "checked_at": "2026-09-25 19:15:34",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36127031217:1",
-        "checked_at": "2026-09-25 19:00:42",
+        "run_key": "36128367578:1",
+        "checked_at": "2026-09-25 19:15:35",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36127031217:1",
-        "checked_at": "2026-09-25 19:00:41",
+        "run_key": "36128367578:1",
+        "checked_at": "2026-09-25 19:15:34",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       },
       "群二": {
-        "run_key": "36127031217:1",
-        "checked_at": "2026-09-25 19:00:41",
+        "run_key": "36128367578:1",
+        "checked_at": "2026-09-25 19:15:34",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       },
       "群三": {
-        "run_key": "36127031217:1",
-        "checked_at": "2026-09-25 19:00:42",
+        "run_key": "36128367578:1",
+        "checked_at": "2026-09-25 19:15:35",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       }
     }
   },
@@ -1969,7 +1969,8 @@
         "attempts": 1,
         "attempted_at": "2026-09-25 19:00:44",
         "sent_at": "2026-09-25 19:00:44",
-        "message_id": 8347
+        "message_id": 8347,
+        "confirmation": "telegram_history"
       },
       "群二": {
         "status": "sent",
@@ -1980,8 +1981,9 @@
         "reply_to_message_id": 74354,
         "attempts": 1,
         "attempted_at": "2026-09-25 19:00:45",
-        "sent_at": "2026-09-25 19:00:45",
-        "message_id": 74355
+        "sent_at": "2026-09-25 19:00:46",
+        "message_id": 74355,
+        "confirmation": "telegram_history"
       },
       "群三": {
         "status": "sent",
@@ -1992,8 +1994,9 @@
         "reply_to_message_id": 3361,
         "attempts": 1,
         "attempted_at": "2026-09-25 19:00:46",
-        "sent_at": "2026-09-25 19:00:46",
-        "message_id": 4428
+        "sent_at": "2026-09-25 19:00:47",
+        "message_id": 4428,
+        "confirmation": "telegram_history"
       }
     }
   },

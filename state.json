@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "offset": 364618479,
+  "offset": 364618480,
   "groups": {
     "-1003891628675": {
       "count": 30,
@@ -46,18 +46,19 @@
       ]
     },
     "-1003739822194": {
-      "count": 4,
+      "count": 5,
       "message_ids": [
         "4609",
         "4611",
         "4619",
-        "4620"
+        "4620",
+        "4679"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-09-26",
-    "run_at": "2026-09-26 16:00:43",
+    "run_at": "2026-09-26 16:15:25",
     "completed_groups": [
       "群一",
       "群二",
@@ -65,40 +66,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36228475819:1",
-        "checked_at": "2026-09-26 16:00:44",
+        "run_key": "36229218620:1",
+        "checked_at": "2026-09-26 16:15:26",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36228475819:1",
-        "checked_at": "2026-09-26 16:00:45",
+        "run_key": "36229218620:1",
+        "checked_at": "2026-09-26 16:15:26",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36228475819:1",
-        "checked_at": "2026-09-26 16:00:45",
+        "run_key": "36229218620:1",
+        "checked_at": "2026-09-26 16:15:26",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36228475819:1",
-        "checked_at": "2026-09-26 16:00:44",
+        "run_key": "36229218620:1",
+        "checked_at": "2026-09-26 16:15:26",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36228475819:1",
-        "checked_at": "2026-09-26 16:00:45",
+        "run_key": "36229218620:1",
+        "checked_at": "2026-09-26 16:15:26",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36228475819:1",
-        "checked_at": "2026-09-26 16:00:45",
+        "run_key": "36229218620:1",
+        "checked_at": "2026-09-26 16:15:26",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -989,12 +990,27 @@
       "群三": {
         "slots": [
           {
+            "handle": "katrina13nk7",
+            "post_id": "2101182151131877740",
+            "original_post_id": "2101182151131877740",
+            "url": "https://x.com/katrina13nk7/status/2101182151131877740",
+            "edited": false,
+            "position": 1,
+            "message_id": "4679",
+            "tg_user_id": "1572413012",
+            "time": "2026-09-26 16:07:01",
+            "admission_time": "2026-09-26 16:07:01",
+            "is_replacement": false,
+            "replaced_message_id": "4598",
+            "admitted_at": "2026-09-26 16:15:28"
+          },
+          {
             "handle": "zhuguang9859",
             "post_id": "2103597042115518891",
             "original_post_id": "2103597042115518891",
             "url": "https://x.com/zhuguang9859/status/2103597042115518891",
             "edited": false,
-            "position": 1,
+            "position": 2,
             "message_id": "4620",
             "tg_user_id": "8281002968",
             "time": "2026-09-26 05:30:33",
@@ -1006,7 +1022,7 @@
             "original_post_id": "2103577369990885384",
             "url": "https://x.com/cicimo_oo/status/2103577369990885384",
             "edited": false,
-            "position": 2,
+            "position": 3,
             "message_id": "4619",
             "tg_user_id": "7348226714",
             "time": "2026-09-26 04:09:06",
@@ -1018,7 +1034,7 @@
             "original_post_id": "2103059122942079278",
             "url": "https://x.com/ktanagere/status/2103059122942079278",
             "edited": false,
-            "position": 3,
+            "position": 4,
             "message_id": "4611",
             "tg_user_id": "8243332573",
             "time": "2026-09-26 01:36:59",
@@ -1030,7 +1046,7 @@
             "original_post_id": "2103531086341165100",
             "url": "https://x.com/xiaomanoio/status/2103531086341165100",
             "edited": false,
-            "position": 4,
+            "position": 5,
             "message_id": "4609",
             "tg_user_id": "6874033725",
             "time": "2026-09-26 01:25:40",
@@ -1045,11 +1061,9 @@
           "4595",
           "4598"
         ],
-        "vacant_positions": {
-          "5": "4598"
-        },
+        "vacant_positions": {},
         "roster_capacity": 5,
-        "count": 4,
+        "count": 5,
         "admission_limit": 30
       }
     }
@@ -1058,10 +1072,10 @@
     "date": "2026-09-26",
     "groups": {
       "群三": {
-        "digest": "b6f5945a9075a85eab1e797fc7723ab94a060e01fe3c6bcaf95a5d5b2ac55bc6",
-        "sourceRevision": 3,
+        "digest": "66751be80b6e534e8605665020bb0738dc7917d58b55ab29b6c498643f927882",
+        "sourceRevision": 4,
         "acknowledged": true,
-        "acknowledged_at": "2026-09-26T14:00:51.065844+08:00"
+        "acknowledged_at": "2026-09-26T16:15:28.184730+08:00"
       },
       "群一": {
         "digest": "3b829a7a21a76ca77b5ff762f62434110169e07434ae2b976517ffd78dfaaac2",

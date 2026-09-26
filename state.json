@@ -51,7 +51,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-27",
-    "run_at": "2026-09-27 04:45:22",
+    "run_at": "2026-09-27 05:00:48",
     "completed_groups": [
       "群一",
       "群二",
@@ -59,40 +59,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36270598470:1",
-        "checked_at": "2026-09-27 04:45:23",
+        "run_key": "36271436640:1",
+        "checked_at": "2026-09-27 05:00:48",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36270598470:1",
-        "checked_at": "2026-09-27 04:45:23",
+        "run_key": "36271436640:1",
+        "checked_at": "2026-09-27 05:00:49",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36270598470:1",
-        "checked_at": "2026-09-27 04:45:23",
+        "run_key": "36271436640:1",
+        "checked_at": "2026-09-27 05:00:49",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36270598470:1",
-        "checked_at": "2026-09-27 04:45:23",
+        "run_key": "36271436640:1",
+        "checked_at": "2026-09-27 05:00:48",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36270598470:1",
-        "checked_at": "2026-09-27 04:45:23",
+        "run_key": "36271436640:1",
+        "checked_at": "2026-09-27 05:00:49",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36270598470:1",
-        "checked_at": "2026-09-27 04:45:23",
+        "run_key": "36271436640:1",
+        "checked_at": "2026-09-27 05:00:49",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }

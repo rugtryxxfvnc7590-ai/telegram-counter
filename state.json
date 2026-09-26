@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "offset": 364618499,
+  "offset": 364618501,
   "groups": {
     "-1003891628675": {
       "count": 30,
@@ -58,7 +58,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-26",
-    "run_at": "2026-09-26 20:00:41",
+    "run_at": "2026-09-26 20:15:28",
     "completed_groups": [
       "群一",
       "群二",
@@ -66,40 +66,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36240562684:1",
-        "checked_at": "2026-09-26 20:00:42",
+        "run_key": "36241329990:1",
+        "checked_at": "2026-09-26 20:15:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36240562684:1",
-        "checked_at": "2026-09-26 20:00:42",
+        "run_key": "36241329990:1",
+        "checked_at": "2026-09-26 20:15:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36240562684:1",
-        "checked_at": "2026-09-26 20:00:42",
+        "run_key": "36241329990:1",
+        "checked_at": "2026-09-26 20:15:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36240562684:1",
-        "checked_at": "2026-09-26 20:00:42",
+        "run_key": "36241329990:1",
+        "checked_at": "2026-09-26 20:15:29",
         "bot_user_id": 8755020155,
         "confirmed": 1
       },
       "群二": {
-        "run_key": "36240562684:1",
-        "checked_at": "2026-09-26 20:00:42",
+        "run_key": "36241329990:1",
+        "checked_at": "2026-09-26 20:15:30",
         "bot_user_id": 8755020155,
         "confirmed": 1
       },
       "群三": {
-        "run_key": "36240562684:1",
-        "checked_at": "2026-09-26 20:00:42",
+        "run_key": "36241329990:1",
+        "checked_at": "2026-09-26 20:15:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1284,8 +1284,8 @@
         "count_basis": "admitted_roster",
         "chat_id": "-1003739822194",
         "reply_to_message_id": 4679,
-        "attempts": 5,
-        "attempted_at": "2026-09-26 20:00:44",
+        "attempts": 6,
+        "attempted_at": "2026-09-26 20:15:32",
         "error": "telegram_400"
       }
     }

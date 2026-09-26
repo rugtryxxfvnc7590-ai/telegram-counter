@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "offset": 364618434,
+  "offset": 364618462,
   "groups": {
     "-1003891628675": {
       "count": 30,
@@ -44,9 +44,8 @@
       ]
     },
     "-1003739822194": {
-      "count": 5,
+      "count": 4,
       "message_ids": [
-        "4598",
         "4609",
         "4611",
         "4619",
@@ -56,7 +55,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-26",
-    "run_at": "2026-09-26 10:00:36",
+    "run_at": "2026-09-26 10:15:25",
     "completed_groups": [
       "群一",
       "群二",
@@ -64,40 +63,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36210290482:1",
-        "checked_at": "2026-09-26 10:00:37",
+        "run_key": "36211090177:1",
+        "checked_at": "2026-09-26 10:15:27",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36210290482:1",
-        "checked_at": "2026-09-26 10:00:37",
+        "run_key": "36211090177:1",
+        "checked_at": "2026-09-26 10:15:27",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36210290482:1",
-        "checked_at": "2026-09-26 10:00:37",
+        "run_key": "36211090177:1",
+        "checked_at": "2026-09-26 10:15:27",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36210290482:1",
-        "checked_at": "2026-09-26 10:00:37",
+        "run_key": "36211090177:1",
+        "checked_at": "2026-09-26 10:15:27",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36210290482:1",
-        "checked_at": "2026-09-26 10:00:37",
+        "run_key": "36211090177:1",
+        "checked_at": "2026-09-26 10:15:27",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36210290482:1",
-        "checked_at": "2026-09-26 10:00:37",
+        "run_key": "36211090177:1",
+        "checked_at": "2026-09-26 10:15:27",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1002,27 +1001,18 @@
             "is_replacement": false,
             "replaced_message_id": "4595",
             "admitted_at": "2026-09-26 01:31:01"
-          },
-          {
-            "handle": "rogueyu0791",
-            "post_id": "2103480715946217514",
-            "original_post_id": "2103480715946217514",
-            "url": "https://x.com/rogueyu0791/status/2103480715946217514",
-            "edited": false,
-            "position": 5,
-            "message_id": "4598",
-            "tg_user_id": "8690119616",
-            "time": "2026-09-26 00:08:20",
-            "admission_time": "2026-09-26 00:08:20"
           }
         ],
         "capacity": 5,
         "withdrawn_message_ids": [
-          "4595"
+          "4595",
+          "4598"
         ],
-        "vacant_positions": {},
+        "vacant_positions": {
+          "5": "4598"
+        },
         "roster_capacity": 5,
-        "count": 5,
+        "count": 4,
         "admission_limit": 30
       }
     }
@@ -1031,8 +1021,8 @@
     "date": "2026-09-26",
     "groups": {
       "群三": {
-        "digest": "3ccd343dff61b214da0a2d55f7c6157e6f701f3dffee8fe3804ddd2ec00dfb58",
-        "sourceRevision": 1,
+        "digest": "a7714a7dda39500aa100e64a8e75d5c795b188b52b507b1b55ee1a32371422bd",
+        "sourceRevision": 2,
         "last_error": "http_409"
       }
     }
@@ -1050,6 +1040,12 @@
           "account": "jninizt",
           "postId": "2103411063425556811",
           "confirmed_at": "2026-09-26 00:45:26"
+        },
+        "4598": {
+          "position": 5,
+          "account": "rogueyu0791",
+          "postId": "2103480715946217514",
+          "confirmed_at": "2026-09-26 10:15:27"
         }
       }
     }

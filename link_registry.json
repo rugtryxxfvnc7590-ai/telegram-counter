@@ -2510,40 +2510,46 @@
         "tg_username": "SND99X",
         "tg_user_id": 8520118213,
         "tg_name": "九九🍊【认准ID错一个字母都是假号】",
-        "link": "https://x.com/snd99x/status/2103035725356867783?s=46",
-        "message_text": "https://x.com/snd99x/status/2103035725356867783?s=46",
+        "link": "https://x.com/snd99x/status/2103776595630817601?s=46",
+        "message_text": "https://x.com/snd99x/status/2103776595630817601?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/snd99x/status/2103035725356867783?s=46",
+            "url": "https://x.com/snd99x/status/2103776595630817601?s=46",
             "handle": "snd99x",
-            "post_id": "2103035725356867783",
+            "post_id": "2103776595630817601",
             "role": "promo",
             "author_name": "九九橙🍊",
-            "followers_count": 244083,
-            "followers_text": "24.4W",
+            "followers_count": 247341,
+            "followers_text": "24.7W",
             "followers_sources": [
               "status_v2",
+              "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 244083
+                "count": 247341
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 247341
               },
               {
                 "source": "status_legacy",
-                "count": 244083
+                "count": 247341
               },
               {
                 "source": "profile_v2",
-                "count": 244083
+                "count": 247341
               }
             ],
-            "tweet_text": "你这个骚鸡巴～踩死你🦶🏻\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text": "都掰开啦～还不赶紧的🙈\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
+              "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
@@ -2551,22 +2557,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 47,
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 47,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 47,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 47,
+                "length": 46,
                 "required_mentions_count": 3
               }
             ],
@@ -2576,7 +2587,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/snd99x/status/2103776595630817601?s=46",
+            "post_id": "2103776595630817601",
+            "handle": "snd99x",
+            "source_time": "2026-09-26 00:00:06",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/snd99x/status/2103035725356867783?s=46",
             "post_id": "2103035725356867783",
             "handle": "snd99x",
@@ -2586,51 +2605,62 @@
         ],
         "x_name": "九九橙🍊",
         "promo_name": "九九橙🍊",
-        "followers_count": 244083,
-        "followers_text": "24.4W",
+        "followers_count": 247341,
+        "followers_text": "24.7W",
         "followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 244083
+            "count": 247341
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 247341
           },
           {
             "source": "status_legacy",
-            "count": 244083
+            "count": 247341
           },
           {
             "source": "profile_v2",
-            "count": 244083
+            "count": 247341
           }
         ],
-        "check_followers_count": 244083,
-        "check_followers_text": "24.4W",
+        "check_followers_count": 247341,
+        "check_followers_text": "24.7W",
         "check_followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 244083
+            "count": 247341
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 247341
           },
           {
             "source": "status_legacy",
-            "count": 244083
+            "count": 247341
           },
           {
             "source": "profile_v2",
-            "count": 244083
+            "count": 247341
           }
         ],
-        "tweet_text": "你这个骚鸡巴～踩死你🦶🏻\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text": "都掰开啦～还不赶紧的🙈\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
+          "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
@@ -2638,44 +2668,50 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 47,
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 47,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 47,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 47,
+            "length": 46,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/snd99x/status/2103035725356867783?s=46",
-        "check_url": "https://x.com/snd99x/status/2103035725356867783?s=46",
-        "promo_post_id": "2103035725356867783",
-        "check_post_id": "2103035725356867783",
+        "promo_url": "https://x.com/snd99x/status/2103776595630817601?s=46",
+        "check_url": "https://x.com/snd99x/status/2103776595630817601?s=46",
+        "promo_post_id": "2103776595630817601",
+        "check_post_id": "2103776595630817601",
         "chat_id": "-1003891628675",
         "message_id": 8372,
         "time": "2026-09-26 00:00:06",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-26 17:25:12",
         "followers_min": 100000,
-        "qualified_followers_count": 244083,
-        "qualified_followers_text": "24.4W",
+        "qualified_followers_count": 247341,
+        "qualified_followers_text": "24.7W",
         "qualified_followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
@@ -9638,7 +9674,7 @@
         "daily_list_rank": 14,
         "daily_list_status": "accepted"
       },
-      "2103035725356867783": {
+      "2103776595630817601": {
         "x_handle": "snd99x",
         "check_handle": "snd99x",
         "dual_link": false,
@@ -9646,40 +9682,46 @@
         "tg_username": "SND99X",
         "tg_user_id": 8520118213,
         "tg_name": "九九🍊【认准ID错一个字母都是假号】",
-        "link": "https://x.com/snd99x/status/2103035725356867783?s=46",
-        "message_text": "https://x.com/snd99x/status/2103035725356867783?s=46",
+        "link": "https://x.com/snd99x/status/2103776595630817601?s=46",
+        "message_text": "https://x.com/snd99x/status/2103776595630817601?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/snd99x/status/2103035725356867783?s=46",
+            "url": "https://x.com/snd99x/status/2103776595630817601?s=46",
             "handle": "snd99x",
-            "post_id": "2103035725356867783",
+            "post_id": "2103776595630817601",
             "role": "promo",
             "author_name": "九九橙🍊",
-            "followers_count": 244083,
-            "followers_text": "24.4W",
+            "followers_count": 247341,
+            "followers_text": "24.7W",
             "followers_sources": [
               "status_v2",
+              "status_legacy_i",
               "status_legacy",
               "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 244083
+                "count": 247341
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 247341
               },
               {
                 "source": "status_legacy",
-                "count": 244083
+                "count": 247341
               },
               {
                 "source": "profile_v2",
-                "count": 244083
+                "count": 247341
               }
             ],
-            "tweet_text": "你这个骚鸡巴～踩死你🦶🏻\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text": "都掰开啦～还不赶紧的🙈\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
+              "status_legacy_i",
               "vx_status_v2",
               "vx_status_i",
               "status_legacy"
@@ -9687,22 +9729,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 47,
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 47,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 47,
+                "length": 46,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 47,
+                "length": 46,
                 "required_mentions_count": 3
               }
             ],
@@ -9712,7 +9759,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/snd99x/status/2103776595630817601?s=46",
+            "post_id": "2103776595630817601",
+            "handle": "snd99x",
+            "source_time": "2026-09-26 00:00:06",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/snd99x/status/2103035725356867783?s=46",
             "post_id": "2103035725356867783",
             "handle": "snd99x",
@@ -9722,51 +9777,62 @@
         ],
         "x_name": "九九橙🍊",
         "promo_name": "九九橙🍊",
-        "followers_count": 244083,
-        "followers_text": "24.4W",
+        "followers_count": 247341,
+        "followers_text": "24.7W",
         "followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 244083
+            "count": 247341
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 247341
           },
           {
             "source": "status_legacy",
-            "count": 244083
+            "count": 247341
           },
           {
             "source": "profile_v2",
-            "count": 244083
+            "count": 247341
           }
         ],
-        "check_followers_count": 244083,
-        "check_followers_text": "24.4W",
+        "check_followers_count": 247341,
+        "check_followers_text": "24.7W",
         "check_followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 244083
+            "count": 247341
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 247341
           },
           {
             "source": "status_legacy",
-            "count": 244083
+            "count": 247341
           },
           {
             "source": "profile_v2",
-            "count": 244083
+            "count": 247341
           }
         ],
-        "tweet_text": "你这个骚鸡巴～踩死你🦶🏻\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text": "都掰开啦～还不赶紧的🙈\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
+          "status_legacy_i",
           "vx_status_v2",
           "vx_status_i",
           "status_legacy"
@@ -9774,44 +9840,50 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 47,
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 47,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 47,
+            "length": 46,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 47,
+            "length": 46,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/snd99x/status/2103035725356867783?s=46",
-        "check_url": "https://x.com/snd99x/status/2103035725356867783?s=46",
-        "promo_post_id": "2103035725356867783",
-        "check_post_id": "2103035725356867783",
+        "promo_url": "https://x.com/snd99x/status/2103776595630817601?s=46",
+        "check_url": "https://x.com/snd99x/status/2103776595630817601?s=46",
+        "promo_post_id": "2103776595630817601",
+        "check_post_id": "2103776595630817601",
         "chat_id": "-1003891628675",
         "message_id": 8372,
         "time": "2026-09-26 00:00:06",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-09-26 17:25:12",
         "followers_min": 100000,
-        "qualified_followers_count": 244083,
-        "qualified_followers_text": "24.4W",
+        "qualified_followers_count": 247341,
+        "qualified_followers_text": "24.7W",
         "qualified_followers_sources": [
           "status_v2",
+          "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],

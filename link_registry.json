@@ -6629,7 +6629,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-28 00:02:19",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -6843,11 +6843,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-28 00:03:03",
-        "admission_locked": false,
-        "daily_list_rank": 35,
+        "admission_locked": true,
+        "daily_list_rank": 36,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 5
+        "daily_list_batch_position": 6
       },
       "qiobnxingcai": {
         "x_handle": "qiobnxingcai",
@@ -7057,11 +7057,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-28 00:03:29",
-        "admission_locked": false,
-        "daily_list_rank": 34,
+        "admission_locked": true,
+        "daily_list_rank": 35,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 4
+        "daily_list_batch_position": 5
       },
       "guilin010": {
         "x_handle": "guilin010",
@@ -7271,11 +7271,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-28 00:04:04",
-        "admission_locked": false,
-        "daily_list_rank": 33,
+        "admission_locked": true,
+        "daily_list_rank": 34,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 3
+        "daily_list_batch_position": 4
       },
       "kuqiqiii_owo": {
         "x_handle": "kuqiqiii_owo",
@@ -7485,6 +7485,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-28 00:08:59",
+        "admission_locked": true,
+        "daily_list_rank": 33,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
+        "daily_list_batch_position": 3
+      },
+      "thelol1pop99": {
+        "x_handle": "thelol1pop99",
+        "check_handle": "thelol1pop99",
+        "dual_link": false,
+        "promo_handle": "thelol1pop99",
+        "tg_username": "LollyDoll88",
+        "tg_user_id": 1770606411,
+        "tg_name": "L",
+        "link": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+        "message_text": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+            "handle": "thelol1pop99",
+            "post_id": "2103275392744259859",
+            "role": "promo",
+            "author_name": "Loliiiiipop99💛棒棒糖🍭",
+            "followers_count": 181185,
+            "followers_text": "18.1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 181185
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 181185
+              },
+              {
+                "source": "status_legacy",
+                "count": 181185
+              },
+              {
+                "source": "profile_v2",
+                "count": 181185
+              }
+            ],
+            "tweet_text": "Happy mid autumn festival - 祝大家中秋节快乐 \n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 71,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 71,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 71,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 71,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 71,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+            "post_id": "2103275392744259859",
+            "handle": "thelol1pop99",
+            "source_time": "2026-09-28 00:19:23",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Loliiiiipop99💛棒棒糖🍭",
+        "promo_name": "Loliiiiipop99💛棒棒糖🍭",
+        "followers_count": 181185,
+        "followers_text": "18.1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 181185
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 181185
+          },
+          {
+            "source": "status_legacy",
+            "count": 181185
+          },
+          {
+            "source": "profile_v2",
+            "count": 181185
+          }
+        ],
+        "check_followers_count": 181185,
+        "check_followers_text": "18.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 181185
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 181185
+          },
+          {
+            "source": "status_legacy",
+            "count": 181185
+          },
+          {
+            "source": "profile_v2",
+            "count": 181185
+          }
+        ],
+        "tweet_text": "Happy mid autumn festival - 祝大家中秋节快乐 \n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 71,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 71,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 71,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 71,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 71,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+        "check_url": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+        "promo_post_id": "2103275392744259859",
+        "check_post_id": "2103275392744259859",
+        "chat_id": "-1003891628675",
+        "message_id": 8658,
+        "time": "2026-09-28 00:19:23",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 181185,
+        "qualified_followers_text": "18.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-28 00:19:23",
         "admission_locked": false,
         "daily_list_rank": 32,
         "daily_list_status": "accepted",
@@ -14338,7 +14552,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-28 00:02:19",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -14552,11 +14766,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-28 00:03:03",
-        "admission_locked": false,
-        "daily_list_rank": 35,
+        "admission_locked": true,
+        "daily_list_rank": 36,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 5
+        "daily_list_batch_position": 6
       },
       "2102690685795090720": {
         "x_handle": "qiobnxingcai",
@@ -14766,11 +14980,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-28 00:03:29",
-        "admission_locked": false,
-        "daily_list_rank": 34,
+        "admission_locked": true,
+        "daily_list_rank": 35,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 4
+        "daily_list_batch_position": 5
       },
       "2086458707223941186": {
         "x_handle": "guilin010",
@@ -14980,11 +15194,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-28 00:04:04",
-        "admission_locked": false,
-        "daily_list_rank": 33,
+        "admission_locked": true,
+        "daily_list_rank": 34,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 3
+        "daily_list_batch_position": 4
       },
       "2085162590792003932": {
         "x_handle": "kuqiqiii_owo",
@@ -15194,6 +15408,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-09-28 00:08:59",
+        "admission_locked": true,
+        "daily_list_rank": 33,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
+        "daily_list_batch_position": 3
+      },
+      "2103275392744259859": {
+        "x_handle": "thelol1pop99",
+        "check_handle": "thelol1pop99",
+        "dual_link": false,
+        "promo_handle": "thelol1pop99",
+        "tg_username": "LollyDoll88",
+        "tg_user_id": 1770606411,
+        "tg_name": "L",
+        "link": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+        "message_text": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+            "handle": "thelol1pop99",
+            "post_id": "2103275392744259859",
+            "role": "promo",
+            "author_name": "Loliiiiipop99💛棒棒糖🍭",
+            "followers_count": 181185,
+            "followers_text": "18.1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 181185
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 181185
+              },
+              {
+                "source": "status_legacy",
+                "count": 181185
+              },
+              {
+                "source": "profile_v2",
+                "count": 181185
+              }
+            ],
+            "tweet_text": "Happy mid autumn festival - 祝大家中秋节快乐 \n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 71,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 71,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 71,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 71,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 71,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+            "post_id": "2103275392744259859",
+            "handle": "thelol1pop99",
+            "source_time": "2026-09-28 00:19:23",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Loliiiiipop99💛棒棒糖🍭",
+        "promo_name": "Loliiiiipop99💛棒棒糖🍭",
+        "followers_count": 181185,
+        "followers_text": "18.1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 181185
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 181185
+          },
+          {
+            "source": "status_legacy",
+            "count": 181185
+          },
+          {
+            "source": "profile_v2",
+            "count": 181185
+          }
+        ],
+        "check_followers_count": 181185,
+        "check_followers_text": "18.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 181185
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 181185
+          },
+          {
+            "source": "status_legacy",
+            "count": 181185
+          },
+          {
+            "source": "profile_v2",
+            "count": 181185
+          }
+        ],
+        "tweet_text": "Happy mid autumn festival - 祝大家中秋节快乐 \n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 71,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 71,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 71,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 71,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 71,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+        "check_url": "https://x.com/thelol1pop99/status/2103275392744259859?s=46",
+        "promo_post_id": "2103275392744259859",
+        "check_post_id": "2103275392744259859",
+        "chat_id": "-1003891628675",
+        "message_id": 8658,
+        "time": "2026-09-28 00:19:23",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 181185,
+        "qualified_followers_text": "18.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-09-28 00:19:23",
         "admission_locked": false,
         "daily_list_rank": 32,
         "daily_list_status": "accepted",
@@ -15698,12 +16126,27 @@
                 "admitted_at": "2026-09-28 00:15:44"
               },
               {
+                "handle": "thelol1pop99",
+                "post_id": "2103275392744259859",
+                "original_post_id": "2103275392744259859",
+                "url": "https://x.com/thelol1pop99/status/2103275392744259859",
+                "edited": false,
+                "position": 2,
+                "message_id": "8658",
+                "tg_user_id": "1770606411",
+                "time": "2026-09-28 00:19:23",
+                "admission_time": "2026-09-28 00:19:23",
+                "list_id": "B",
+                "display_name": "Loliiiiipop99💛棒棒糖🍭",
+                "admitted_at": "2026-09-28 00:30:32"
+              },
+              {
                 "handle": "kuqiqiii_owo",
                 "post_id": "2085162590792003932",
                 "original_post_id": "2085162590792003932",
                 "url": "https://x.com/kuqiqiii_owo/status/2085162590792003932",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "8630",
                 "tg_user_id": "6629255893",
                 "time": "2026-09-28 00:08:59",
@@ -15718,7 +16161,7 @@
                 "original_post_id": "2086458707223941186",
                 "url": "https://x.com/guilin010/status/2086458707223941186",
                 "edited": false,
-                "position": 3,
+                "position": 4,
                 "message_id": "8629",
                 "tg_user_id": "7182472764",
                 "time": "2026-09-28 00:04:04",
@@ -15733,7 +16176,7 @@
                 "original_post_id": "2102690685795090720",
                 "url": "https://x.com/qiobnxingcai/status/2102690685795090720",
                 "edited": false,
-                "position": 4,
+                "position": 5,
                 "message_id": "8628",
                 "tg_user_id": "6256006328",
                 "time": "2026-09-28 00:03:29",
@@ -15748,7 +16191,7 @@
                 "original_post_id": "2101602852980318419",
                 "url": "https://x.com/aksaks99999/status/2101602852980318419",
                 "edited": false,
-                "position": 5,
+                "position": 6,
                 "message_id": "8627",
                 "tg_user_id": "5829845216",
                 "time": "2026-09-28 00:03:03",
@@ -15759,9 +16202,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 5,
-            "count": 5,
-            "roster_capacity": 5,
+            "capacity": 6,
+            "count": 6,
+            "roster_capacity": 6,
             "withdrawn_message_ids": [
               "8603"
             ]
@@ -15803,7 +16246,8 @@
           "aksaks99999": "B",
           "qiobnxingcai": "B",
           "guilin010": "B",
-          "kuqiqiii_owo": "B"
+          "kuqiqiii_owo": "B",
+          "thelol1pop99": "B"
         },
         "withdrawn_message_ids": [
           "8603"
@@ -16308,12 +16752,28 @@
             "list_position": 1
           },
           {
+            "handle": "thelol1pop99",
+            "post_id": "2103275392744259859",
+            "original_post_id": "2103275392744259859",
+            "url": "https://x.com/thelol1pop99/status/2103275392744259859",
+            "edited": false,
+            "position": 32,
+            "message_id": "8658",
+            "tg_user_id": "1770606411",
+            "time": "2026-09-28 00:19:23",
+            "admission_time": "2026-09-28 00:19:23",
+            "list_id": "B",
+            "display_name": "Loliiiiipop99💛棒棒糖🍭",
+            "admitted_at": "2026-09-28 00:30:32",
+            "list_position": 2
+          },
+          {
             "handle": "kuqiqiii_owo",
             "post_id": "2085162590792003932",
             "original_post_id": "2085162590792003932",
             "url": "https://x.com/kuqiqiii_owo/status/2085162590792003932",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "8630",
             "tg_user_id": "6629255893",
             "time": "2026-09-28 00:08:59",
@@ -16321,7 +16781,7 @@
             "list_id": "B",
             "display_name": "小兔绵绵🐰",
             "admitted_at": "2026-09-28 00:15:44",
-            "list_position": 2
+            "list_position": 3
           },
           {
             "handle": "guilin010",
@@ -16329,7 +16789,7 @@
             "original_post_id": "2086458707223941186",
             "url": "https://x.com/guilin010/status/2086458707223941186",
             "edited": false,
-            "position": 33,
+            "position": 34,
             "message_id": "8629",
             "tg_user_id": "7182472764",
             "time": "2026-09-28 00:04:04",
@@ -16337,7 +16797,7 @@
             "list_id": "B",
             "display_name": "小林的涩涩日常",
             "admitted_at": "2026-09-28 00:15:44",
-            "list_position": 3
+            "list_position": 4
           },
           {
             "handle": "qiobnxingcai",
@@ -16345,7 +16805,7 @@
             "original_post_id": "2102690685795090720",
             "url": "https://x.com/qiobnxingcai/status/2102690685795090720",
             "edited": false,
-            "position": 34,
+            "position": 35,
             "message_id": "8628",
             "tg_user_id": "6256006328",
             "time": "2026-09-28 00:03:29",
@@ -16353,7 +16813,7 @@
             "list_id": "B",
             "display_name": "桥本香菜",
             "admitted_at": "2026-09-28 00:15:44",
-            "list_position": 4
+            "list_position": 5
           },
           {
             "handle": "aksaks99999",
@@ -16361,7 +16821,7 @@
             "original_post_id": "2101602852980318419",
             "url": "https://x.com/aksaks99999/status/2101602852980318419",
             "edited": false,
-            "position": 35,
+            "position": 36,
             "message_id": "8627",
             "tg_user_id": "5829845216",
             "time": "2026-09-28 00:03:03",
@@ -16369,11 +16829,11 @@
             "list_id": "B",
             "display_name": "AKs",
             "admitted_at": "2026-09-28 00:15:44",
-            "list_position": 5
+            "list_position": 6
           }
         ],
         "vacant_positions": {},
-        "count": 35,
+        "count": 36,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

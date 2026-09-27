@@ -1,9 +1,9 @@
 {
   "date": "2026-09-28",
-  "offset": 364618786,
+  "offset": 364618812,
   "groups": {
     "-1003891628675": {
-      "count": 32,
+      "count": 36,
       "message_ids": [
         "8571",
         "8572",
@@ -36,7 +36,11 @@
         "8600",
         "8601",
         "8602",
-        "8603"
+        "8625",
+        "8627",
+        "8628",
+        "8629",
+        "8630"
       ]
     },
     "-1003218974409": {
@@ -50,7 +54,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-28",
-    "run_at": "2026-09-28 00:01:36",
+    "run_at": "2026-09-28 00:15:41",
     "completed_groups": [
       "群一",
       "群二",
@@ -58,40 +62,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36331610575:1",
-        "checked_at": "2026-09-28 00:01:50",
+        "run_key": "36332538949:1",
+        "checked_at": "2026-09-28 00:15:42",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36331610575:1",
-        "checked_at": "2026-09-28 00:01:51",
+        "run_key": "36332538949:1",
+        "checked_at": "2026-09-28 00:15:42",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36331610575:1",
-        "checked_at": "2026-09-28 00:01:51",
+        "run_key": "36332538949:1",
+        "checked_at": "2026-09-28 00:15:42",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36331610575:1",
-        "checked_at": "2026-09-28 00:01:50",
+        "run_key": "36332538949:1",
+        "checked_at": "2026-09-28 00:15:42",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36331610575:1",
-        "checked_at": "2026-09-28 00:01:51",
+        "run_key": "36332538949:1",
+        "checked_at": "2026-09-28 00:15:42",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36331610575:1",
-        "checked_at": "2026-09-28 00:01:51",
+        "run_key": "36332538949:1",
+        "checked_at": "2026-09-28 00:15:42",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1106,26 +1110,90 @@
           "B": {
             "slots": [
               {
-                "handle": "libalababy",
-                "post_id": "2072221244645315072",
-                "original_post_id": "2072221244645315072",
-                "url": "https://x.com/libalababy/status/2072221244645315072",
+                "handle": "xiuchiluchu910",
+                "post_id": "2092121798523445696",
+                "original_post_id": "2092121798523445696",
+                "url": "https://x.com/xiuchiluchu910/status/2092121798523445696",
                 "edited": false,
                 "position": 1,
-                "message_id": "8603",
-                "tg_user_id": "6556831747",
-                "time": "2026-09-28 00:01:35",
-                "admission_time": "2026-09-28 00:01:35",
+                "message_id": "8625",
+                "tg_user_id": "6250828223",
+                "time": "2026-09-28 00:02:19",
+                "admission_time": "2026-09-28 00:02:19",
+                "is_replacement": true,
+                "replaced_message_id": "8603",
                 "list_id": "B",
-                "display_name": "黎吧啦ෆ",
-                "admitted_at": "2026-09-28 00:01:52"
+                "display_name": "露老师",
+                "admitted_at": "2026-09-28 00:15:44"
+              },
+              {
+                "handle": "kuqiqiii_owo",
+                "post_id": "2085162590792003932",
+                "original_post_id": "2085162590792003932",
+                "url": "https://x.com/kuqiqiii_owo/status/2085162590792003932",
+                "edited": false,
+                "position": 2,
+                "message_id": "8630",
+                "tg_user_id": "6629255893",
+                "time": "2026-09-28 00:08:59",
+                "admission_time": "2026-09-28 00:08:59",
+                "list_id": "B",
+                "display_name": "小兔绵绵🐰",
+                "admitted_at": "2026-09-28 00:15:44"
+              },
+              {
+                "handle": "guilin010",
+                "post_id": "2086458707223941186",
+                "original_post_id": "2086458707223941186",
+                "url": "https://x.com/guilin010/status/2086458707223941186",
+                "edited": false,
+                "position": 3,
+                "message_id": "8629",
+                "tg_user_id": "7182472764",
+                "time": "2026-09-28 00:04:04",
+                "admission_time": "2026-09-28 00:04:04",
+                "list_id": "B",
+                "display_name": "小林的涩涩日常",
+                "admitted_at": "2026-09-28 00:15:44"
+              },
+              {
+                "handle": "qiobnxingcai",
+                "post_id": "2102690685795090720",
+                "original_post_id": "2102690685795090720",
+                "url": "https://x.com/qiobnxingcai/status/2102690685795090720",
+                "edited": false,
+                "position": 4,
+                "message_id": "8628",
+                "tg_user_id": "6256006328",
+                "time": "2026-09-28 00:03:29",
+                "admission_time": "2026-09-28 00:03:29",
+                "list_id": "B",
+                "display_name": "桥本香菜",
+                "admitted_at": "2026-09-28 00:15:44"
+              },
+              {
+                "handle": "aksaks99999",
+                "post_id": "2101602852980318419",
+                "original_post_id": "2101602852980318419",
+                "url": "https://x.com/aksaks99999/status/2101602852980318419",
+                "edited": false,
+                "position": 5,
+                "message_id": "8627",
+                "tg_user_id": "5829845216",
+                "time": "2026-09-28 00:03:03",
+                "admission_time": "2026-09-28 00:03:03",
+                "list_id": "B",
+                "display_name": "AKs",
+                "admitted_at": "2026-09-28 00:15:44"
               }
             ],
             "vacant_positions": {},
-            "capacity": 1,
-            "count": 1,
-            "roster_capacity": 1,
-            "withdrawn_message_ids": []
+            "capacity": 5,
+            "count": 5,
+            "roster_capacity": 5,
+            "withdrawn_message_ids": [
+              "8603"
+            ]
           }
         },
         "assigned_accounts": {
@@ -1159,9 +1227,16 @@
           "caochangqing111": "A",
           "asecresm": "A",
           "xye918": "A",
-          "libalababy": "B"
+          "libalababy": "B",
+          "xiuchiluchu910": "B",
+          "aksaks99999": "B",
+          "qiobnxingcai": "B",
+          "guilin010": "B",
+          "kuqiqiii_owo": "B"
         },
-        "withdrawn_message_ids": [],
+        "withdrawn_message_ids": [
+          "8603"
+        ],
         "slots": [
           {
             "handle": "xye918",
@@ -1644,24 +1719,90 @@
             "list_position": 30
           },
           {
-            "handle": "libalababy",
-            "post_id": "2072221244645315072",
-            "original_post_id": "2072221244645315072",
-            "url": "https://x.com/libalababy/status/2072221244645315072",
+            "handle": "xiuchiluchu910",
+            "post_id": "2092121798523445696",
+            "original_post_id": "2092121798523445696",
+            "url": "https://x.com/xiuchiluchu910/status/2092121798523445696",
             "edited": false,
             "position": 31,
-            "message_id": "8603",
-            "tg_user_id": "6556831747",
-            "time": "2026-09-28 00:01:35",
-            "admission_time": "2026-09-28 00:01:35",
+            "message_id": "8625",
+            "tg_user_id": "6250828223",
+            "time": "2026-09-28 00:02:19",
+            "admission_time": "2026-09-28 00:02:19",
+            "is_replacement": true,
+            "replaced_message_id": "8603",
             "list_id": "B",
-            "display_name": "黎吧啦ෆ",
-            "admitted_at": "2026-09-28 00:01:52",
+            "display_name": "露老师",
+            "admitted_at": "2026-09-28 00:15:44",
             "list_position": 1
+          },
+          {
+            "handle": "kuqiqiii_owo",
+            "post_id": "2085162590792003932",
+            "original_post_id": "2085162590792003932",
+            "url": "https://x.com/kuqiqiii_owo/status/2085162590792003932",
+            "edited": false,
+            "position": 32,
+            "message_id": "8630",
+            "tg_user_id": "6629255893",
+            "time": "2026-09-28 00:08:59",
+            "admission_time": "2026-09-28 00:08:59",
+            "list_id": "B",
+            "display_name": "小兔绵绵🐰",
+            "admitted_at": "2026-09-28 00:15:44",
+            "list_position": 2
+          },
+          {
+            "handle": "guilin010",
+            "post_id": "2086458707223941186",
+            "original_post_id": "2086458707223941186",
+            "url": "https://x.com/guilin010/status/2086458707223941186",
+            "edited": false,
+            "position": 33,
+            "message_id": "8629",
+            "tg_user_id": "7182472764",
+            "time": "2026-09-28 00:04:04",
+            "admission_time": "2026-09-28 00:04:04",
+            "list_id": "B",
+            "display_name": "小林的涩涩日常",
+            "admitted_at": "2026-09-28 00:15:44",
+            "list_position": 3
+          },
+          {
+            "handle": "qiobnxingcai",
+            "post_id": "2102690685795090720",
+            "original_post_id": "2102690685795090720",
+            "url": "https://x.com/qiobnxingcai/status/2102690685795090720",
+            "edited": false,
+            "position": 34,
+            "message_id": "8628",
+            "tg_user_id": "6256006328",
+            "time": "2026-09-28 00:03:29",
+            "admission_time": "2026-09-28 00:03:29",
+            "list_id": "B",
+            "display_name": "桥本香菜",
+            "admitted_at": "2026-09-28 00:15:44",
+            "list_position": 4
+          },
+          {
+            "handle": "aksaks99999",
+            "post_id": "2101602852980318419",
+            "original_post_id": "2101602852980318419",
+            "url": "https://x.com/aksaks99999/status/2101602852980318419",
+            "edited": false,
+            "position": 35,
+            "message_id": "8627",
+            "tg_user_id": "5829845216",
+            "time": "2026-09-28 00:03:03",
+            "admission_time": "2026-09-28 00:03:03",
+            "list_id": "B",
+            "display_name": "AKs",
+            "admitted_at": "2026-09-28 00:15:44",
+            "list_position": 5
           }
         ],
         "vacant_positions": {},
-        "count": 31,
+        "count": 35,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1690,10 +1831,10 @@
     "date": "2026-09-28",
     "groups": {
       "群一": {
-        "digest": "4a4d7ddf724e652127065e4d7e4c758b8434c9b3544b8a9be0958caa43cd40d9",
-        "sourceRevision": 1,
+        "digest": "ae299766685056d352f8dbf70107360d41c891a1f3ea18a058868775d32e9982",
+        "sourceRevision": 2,
         "acknowledged": true,
-        "acknowledged_at": "2026-09-28T00:01:53.335612+08:00"
+        "acknowledged_at": "2026-09-28T00:15:44.819875+08:00"
       }
     }
   },
@@ -1702,8 +1843,17 @@
     "groups": {}
   },
   "website_deletions": {
-    "date": "2026-09-27",
-    "groups": {}
+    "date": "2026-09-28",
+    "groups": {
+      "群一": {
+        "8603": {
+          "position": 31,
+          "account": "libalababy",
+          "postId": "2072221244645315072",
+          "confirmed_at": "2026-09-28 00:15:42"
+        }
+      }
+    }
   },
   "batch_notices": {
     "date": "2026-09-28",
@@ -1711,91 +1861,146 @@
       "群一": {
         "8602": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8601": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8600": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8599": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8598": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8597": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8596": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8595": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8594": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8593": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8592": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8590": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8589": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8588": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8587": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8586": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8585": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8584": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8582": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8581": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8580": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
         },
         "8572": {
           "list_id": "A",
-          "sent_at": "2026-09-28T00:01:53.676212+08:00"
+          "confirmation": "telegram_history"
+        },
+        "8579": {
+          "list_id": "A",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8578": {
+          "list_id": "A",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8577": {
+          "list_id": "A",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8576": {
+          "list_id": "A",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8575": {
+          "list_id": "A",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8574": {
+          "list_id": "A",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8573": {
+          "list_id": "A",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8571": {
+          "list_id": "A",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8625": {
+          "list_id": "B",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8630": {
+          "list_id": "B",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8629": {
+          "list_id": "B",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8628": {
+          "list_id": "B",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "8627": {
+          "list_id": "B",
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
+        },
+        "full_A": {
+          "sent_at": "2026-09-28T00:15:45.812509+08:00"
         }
       }
     }

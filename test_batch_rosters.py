@@ -220,8 +220,8 @@ class BatchRosterTests(unittest.TestCase):
         process_cutoff_announcements(reg,state,now,rules,send_reply=sender)
         self.assertEqual(sender.call_count,1)
 
-    def test_individual_notices_wait_for_website_ack_once_before19(self):
-        reg,state=fixture(2)
+    def test_only_A_last_and_B_first_notices_once_before19(self):
+        reg,state=fixture(61)
         roster(reg,state)
         sender=Mock(return_value=True)
         process_batch_notices(reg,state,NOW,send_reply=sender)
@@ -229,19 +229,56 @@ class BatchRosterTests(unittest.TestCase):
         acknowledge_website(state)
         process_batch_notices(reg,state,NOW,send_reply=sender)
         self.assertEqual(sender.call_count,2)
-        for call in sender.call_args_list:
-            self.assertEqual(call.args[0],CID)
-            self.assertIn("A名单",call.args[2])
+        self.assertEqual([call.args[1] for call in sender.call_args_list],[30,31])
+        self.assertIn("A名单已满",sender.call_args_list[0].args[2])
+        self.assertIn("B名单从这条消息开始",sender.call_args_list[1].args[2])
         process_batch_notices(reg,state,NOW,send_reply=sender)
         process_batch_notices(reg,state,NOW.replace(hour=19),send_reply=sender)
         self.assertEqual(sender.call_count,2)
 
-    def test_stale_website_ack_does_not_send_new_member_notice(self):
-        reg,state=fixture(1)
+    def test_no_individual_notices_and_no_member_private_messages(self):
+        reg,state=fixture(29)
         roster(reg,state)
         acknowledge_website(state)
-        extra,_=fixture(2)
-        reg["post_entries"][CID]["10002"]=extra["post_entries"][CID]["10002"]
+        sender=Mock()
+        with patch.object(main,"_send_private_message") as private:
+            process_batch_notices(reg,state,NOW,send_reply=sender)
+        sender.assert_not_called()
+        private.assert_not_called()
+
+    def test_boundaries_use_admission_time_not_display_number_or_message_order(self):
+        from batch_rosters import first_batch_message
+        from cutoff_delivery import reply_target
+        slots=[{"message_id":"2","position":1,"time":f"{DAY} 01:00:00","admission_time":f"{DAY} 03:00:00"},
+               {"message_id":"90","position":2,"time":f"{DAY} 02:00:00"}]
+        self.assertEqual(first_batch_message(slots,DAY),90)
+        self.assertEqual(reply_target(slots,DAY),2)
+
+    def test_upgrade_does_not_repeat_already_notified_B_starter(self):
+        reg,state=fixture(32)
+        roster(reg,state)
+        acknowledge_website(state)
+        state["batch_notices"]={"date":DAY,"groups":{"群一":{"full_A":{},"31":{"list_id":"B"}}}}
+        sender=Mock()
+        process_batch_notices(reg,state,NOW,send_reply=sender)
+        sender.assert_not_called()
+        self.assertEqual(state["batch_notices"]["groups"]["群一"]["start_B"]["message_id"],31)
+
+    def test_recover_new_boundary_notice_only_from_our_bot(self):
+        from batch_rosters import batch_start_notice, recover_batch_notices
+        reg,state=fixture(31)
+        roster(reg,state)
+        message={"from":{"id":123,"is_bot":True},"date":int(NOW.timestamp()),
+                 "reply_to_message_id":31,"text":batch_start_notice("群一",DAY)}
+        recover_batch_notices(state,CID,[message],123,NOW)
+        self.assertEqual(state["batch_notices"]["groups"]["群一"]["start_B"]["message_id"],31)
+
+    def test_stale_website_ack_does_not_send_new_member_notice(self):
+        reg,state=fixture(30)
+        roster(reg,state)
+        acknowledge_website(state)
+        extra,_=fixture(31)
+        reg["post_entries"][CID]["10031"]=extra["post_entries"][CID]["10031"]
         roster(reg,state)
         sender=Mock()
         process_batch_notices(reg,state,NOW,send_reply=sender)

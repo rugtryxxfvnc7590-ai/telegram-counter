@@ -155,6 +155,26 @@ def full_notice(group, day, label, count):
     return f"{group}（{day}）{label}名单已满，共{count}人。\n仅需互推本名单，不要跨名单转发。\n{batch_url(group, day, label)}"
 
 
+def first_batch_message(slots, day):
+    candidates = []
+    for slot in slots:
+        stamp = str(slot.get("admission_time") or slot.get("time") or "")
+        mid = str(slot.get("message_id") or "")
+        try:
+            when = datetime.strptime(stamp, "%Y-%m-%d %H:%M:%S")
+        except ValueError:
+            continue
+        if when.strftime("%Y-%m-%d") == day and when.hour < 19 and mid.isdigit() and int(mid) > 0:
+            candidates.append((stamp, int(mid)))
+    return min(candidates)[1] if candidates else None
+
+
+def batch_start_notice(group, day):
+    return (f"{group}（{day}）B名单从这条消息开始。\n"
+            "已入选B名单的成员只需互推B名单，不需要转A名单。\n"
+            f"网站每日北京时间14:00开始公示：{batch_url(group, day, 'B')}")
+
+
 DEFAULT_BATCH_CUTOFF = ("群一（{date_label}）今日互推已截止\n\n{batch_lines}\n\n"
     "请先打开名单，输入自己的X用户名或昵称，确认属于哪一份名单。\n\n"
     "1. 只需转发自己所属名单内其他成员的帖子，不同名单之间不要求互推。请勿按群一主页全部转发。\n"
@@ -194,6 +214,8 @@ def recover_batch_notices(state, chat_id, messages, bot_id, now=None):
                 or datetime.fromtimestamp(int(message.get("date") or 0), now.tzinfo).strftime("%Y-%m-%d") != day):
             continue
         text, mid = message.get("text", ""), message.get("reply_to_message_id")
+        if mid and text == batch_start_notice(group, day):
+            sent["start_B"] = {"confirmation": "telegram_history", "message_id": int(mid)}
         for i in range(10):
             label = chr(65 + i)
             if mid and text == admission_notice(group, day, label):
@@ -282,28 +304,28 @@ def process_batch_notices(registry, state, now=None, save_callback=None, send_re
             continue
         chat_id = next(cid for cid in chat_ids_for_group(group) if cid.startswith("-100"))
         sent = ledger["groups"].setdefault(group, {})
-        for slot in record["slots"]:
-            if beijing_now(fixed_now).strftime("%Y-%m-%d") != day or beijing_now(fixed_now).hour >= 19:
-                return results
-            mid, label = str(slot.get("message_id") or ""), slot["list_id"]
-            if not mid.isdigit() or mid in sent:
-                continue
-            text = admission_notice(group, day, label)
-            if send_reply(chat_id, int(mid), text):
-                sent[mid] = {"list_id": label, "sent_at": now.isoformat()}
-                if save_callback:
-                    save_callback()
-                results[mid] = "sent"
         from cutoff_delivery import reply_target
-        for label, batch in record["batches"].items():
-            if beijing_now(fixed_now).strftime("%Y-%m-%d") != day or beijing_now(fixed_now).hour >= 19:
-                return results
-            key = "full_" + label
-            target = reply_target(batch["slots"], day)
-            if key in sent or len(batch["slots"]) < record["batch_policy"]["size"] or not target:
-                continue
-            if send_reply(chat_id, target, full_notice(group, day, label, len(batch["slots"]))):
-                sent[key] = {"sent_at": now.isoformat()}
+        notices = []
+        batch_a = record["batches"].get("A") or {}
+        slots_a = batch_a.get("slots") or []
+        if len(slots_a) >= record["batch_policy"]["size"]:
+            notices.append(("full_A", reply_target(slots_a, day), full_notice(group, day, "A", len(slots_a))))
+        first_b = first_batch_message((record["batches"].get("B") or {}).get("slots") or [], day)
+        if first_b:
+            # Do not send a second reply to the B starter already notified by v3.15.0.
+            if (sent.get(str(first_b)) or {}).get("list_id") == "B" and "start_B" not in sent:
+                sent["start_B"] = {"message_id": first_b, "confirmation": "previous_member_notice"}
                 if save_callback:
                     save_callback()
+            notices.append(("start_B", first_b, batch_start_notice(group, day)))
+        for key, target, text in notices:
+            if beijing_now(fixed_now).strftime("%Y-%m-%d") != day or beijing_now(fixed_now).hour >= 19:
+                return results
+            if key in sent or not target:
+                continue
+            if send_reply(chat_id, target, text):
+                sent[key] = {"sent_at": now.isoformat(), "message_id": target}
+                if save_callback:
+                    save_callback()
+                results[key] = "sent"
     return results

@@ -271,6 +271,8 @@ async def async_main():
                 recover_violation_replies(state, chat_id, messages, bot_id, reply_rules, now=datetime.now(BEIJING))
                 recover_replacement_replies(state, chat_id, messages, bot_id, reply_rules, now=datetime.now(BEIJING))
                 recover_cutoff_announcements(state, chat_id, messages, bot_id, cutoff_rules, now=datetime.now(BEIJING))
+                from batch_rosters import recover_batch_notices
+                recover_batch_notices(state, chat_id, messages, bot_id, now=datetime.now(BEIJING))
             except Exception as exc:
                 print(f"今日群消息补齐：群 {chat_id} 核查失败，保留原数据：{exc}")
                 continue

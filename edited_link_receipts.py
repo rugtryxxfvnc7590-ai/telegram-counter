@@ -21,6 +21,17 @@ def _published_slots(state, group, day, owner=None):
 
     delivery = state.get("owner_daily_lists") or {}
     record = (delivery.get("groups") or {}).get(group) or {}
+    if record.get("batches") and delivery.get("date") == day:
+        from batch_rosters import format_batch_message
+        result = []
+        for label, batch in record["batches"].items():
+            slots = batch.get("slots") or []
+            if (batch.get("sent") and batch.get("message_id")
+                    and str(batch.get("owner_chat_id") or "").isdigit()
+                    and (owner is None or batch.get("owner_chat_id") == owner)
+                    and batch.get("text") == format_batch_message(group, day, label, slots)):
+                result.extend(slots)
+        return result
     if (delivery.get("date") != day or not record.get("sent") or not record.get("message_id")
             or not str(record.get("owner_chat_id") or "").isdigit()
             or (owner is not None and record.get("owner_chat_id") != owner)):

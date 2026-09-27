@@ -275,6 +275,10 @@ def _single_group_registry(registry, chat_id):
     }
     if "daily_list_limits" in registry:
         data["daily_list_limits"] = registry["daily_list_limits"]
+    batches = registry.get("batch_rosters") or {}
+    group = group_for_chat(chat_id)
+    if group in (batches.get("groups") or {}):
+        data["batch_rosters"] = {"date": batches["date"], "groups": {group: batches["groups"][group]}}
     return data
 
 
@@ -496,6 +500,17 @@ def send_daily_lists_to_owner(registry, state, now=None, save_callback=None, lim
     results = {}
 
     for group_label, chat_id in canonical_group_chat_ids():
+        if (rosters.get(group_label) or {}).get("batches"):
+            if group_label not in snapshot_groups or registry.get("date") != day:
+                results[group_label] = "waiting_for_snapshot"
+                continue
+            from batch_rosters import send_batch_lists
+            batch_record = rosters[group_label]
+            # The cutoff snapshot also becomes the authoritative checker input.
+            state.setdefault("daily_rosters", {"date": day, "groups": {}})["groups"][group_label] = batch_record
+            results[group_label] = send_batch_lists(registry, state, group_label, batch_record,
+                                                   owner_chat_id, now, save_callback)
+            continue
         record = sent_groups.get(group_label) or {}
         if record.get("sent"):
             if group_label not in snapshot_groups or registry.get("date") != day:

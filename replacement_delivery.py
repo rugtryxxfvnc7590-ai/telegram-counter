@@ -56,6 +56,9 @@ def process_replacement_replies(state, now=None, rules=None, save_callback=None,
     send_reply = send_reply or send_capacity_reply
     results = {}
     for group, roster in (source.get("groups") or {}).items():
+        if roster.get("batches"):
+            # The batch admission receipt already names the candidate's exact list.
+            continue
         chat_id = GROUP_CHAT_IDS.get(group)
         if not chat_id or not main.reply_rule_enabled(rules, RULE, chat_id):
             continue

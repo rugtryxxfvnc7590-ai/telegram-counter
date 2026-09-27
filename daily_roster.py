@@ -16,6 +16,22 @@ def refresh_daily_rosters(registry, state, limits, now=None, save_callback=None)
         return {}
     capture_website_deletions(registry, state, now)
     if now.hour >= 19:
+        from batch_rosters import batch_policy, refresh_batch_roster
+        for group in snapshot.get("completed_groups", []):
+            previous = (ledger.get("groups") or {}).get(group) if ledger.get("date") == day else None
+            policy = (previous or {}).get("batch_policy") or batch_policy(group, day)
+            if not policy:
+                continue
+            if ledger.get("date") != day:
+                ledger = {"date": day, "groups": {}}
+                state["daily_rosters"] = ledger
+            if not (previous or {}).get("cutoff_finalized"):
+                previous = refresh_batch_roster(previous, registry, group, day, day + " 18:59:59", policy)
+            current = refresh_batch_roster(previous, registry, group, day, now_text, policy)
+            current["cutoff_finalized"] = True
+            ledger["groups"][group] = current
+            if save_callback:
+                save_callback()
         return ledger.get("groups", {}) if ledger.get("date") == day else {}
     if ledger.get("date") != day:
         ledger = {"date": day, "groups": {}}
@@ -26,6 +42,15 @@ def refresh_daily_rosters(registry, state, limits, now=None, save_callback=None)
             continue
         owner = ((owners.get("groups") or {}).get(group) or {}) if owners.get("date") == day else {}
         previous = ledger["groups"].get(group)
+        from batch_rosters import batch_policy, refresh_batch_roster
+        policy = (previous or {}).get("batch_policy") or batch_policy(group, day)
+        if policy:
+            current = refresh_batch_roster(previous, registry, group, day, now_text, policy)
+            if current != previous:
+                ledger["groups"][group] = current
+                if save_callback:
+                    save_callback()
+            continue
         seed = deepcopy(previous if previous is not None else owner if owner.get("sent") else None)
         ids = chat_ids_for_group(group)
         limit = limits[group]
@@ -72,9 +97,16 @@ def refresh_daily_rosters(registry, state, limits, now=None, save_callback=None)
 def roster_items(record):
     items = [{"position": slot["position"], "url": slot["url"],
               "note": "已编辑" if slot.get("edited") else "",
-              "isReplacement": bool(slot.get("is_replacement"))} for slot in record.get("slots", [])]
+              "isReplacement": bool(slot.get("is_replacement")),
+              **({"listId": slot["list_id"], "listPosition": slot["list_position"],
+                  "displayName": slot.get("display_name", "")} if slot.get("list_id") else {})}
+             for slot in record.get("slots", [])]
     for position in (record.get("vacant_positions") or {}):
-        items.append({"position": int(position), "url": None, "note": "等待候补", "isReplacement": False})
+        item = {"position": int(position), "url": None, "note": "等待候补", "isReplacement": False}
+        if record.get("batches"):
+            size = record["batch_policy"]["size"]
+            item.update(listId=chr(65 + (int(position) - 1) // size), listPosition=(int(position) - 1) % size + 1)
+        items.append(item)
     return sorted(items, key=lambda item: item["position"])
 
 

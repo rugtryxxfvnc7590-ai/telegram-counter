@@ -9,6 +9,7 @@ from violation_delivery import process_violation_replies
 from replacement_delivery import process_replacement_replies
 from website_sync import sync_website
 from cutoff_delivery import process_cutoff_announcements
+from batch_rosters import export_batch_rosters, process_batch_notices
 
 
 def main():
@@ -35,6 +36,9 @@ def main():
     )
     process_replacement_replies(state, save_callback=lambda: save_state(state))
     sync_website(state, save_callback=lambda: save_state(state))
+    export_batch_rosters(registry, state)
+    save_registry(registry)
+    process_batch_notices(registry, state, save_callback=lambda: save_state(state))
     process_capacity_replies(registry, state, limits=limits, save_callback=lambda: save_state(state))
     process_violation_replies(registry, state, save_callback=lambda: save_state(state))
     save_state(state)

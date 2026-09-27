@@ -42,6 +42,10 @@ def process_capacity_replies(registry, state, now=None, limits=None, rules=None,
         delivery.update({"date": day, "groups": {}})
     results = {}
     for group, chat_id in main.canonical_group_chat_ids():
+        batch_record = ((state.get("daily_rosters") or {}).get("groups") or {}).get(group) or {}
+        if batch_record.get("batches"):
+            # A/B admission notices replace the old "first 30 only" response.
+            limits[group] = batch_record["admission_limit"]
         if group not in completed or not limits[group]:
             continue
         published_messages = {str(slot.get("message_id")) for slot in _published_slots(state, group, day)
@@ -54,8 +58,21 @@ def process_capacity_replies(registry, state, now=None, limits=None, rules=None,
         legacy_keys = set()
         for cid in chat_ids_for_group(group):
             legacy_keys.update(((state.get("groups") or {}).get(cid) or {}).get("reply_keys") or [])
-        for rank, row in enumerate(eligible_rows(registry, chat_ids_for_group(group), day), 1):
+        rows = eligible_rows(registry, chat_ids_for_group(group), day)
+        start_rank = 1
+        if batch_record.get("batches"):
+            assigned = set(batch_record.get("assigned_accounts") or {})
+            unassigned, seen = [], set()
+            for row in rows:
+                handle = str(row["entry"].get("promo_handle") or "").lower().lstrip("@")
+                if handle and handle not in assigned and handle not in seen:
+                    seen.add(handle)
+                    unassigned.append(row)
+            rows, start_rank = unassigned, limits[group] + 1
+        for rank, row in enumerate(rows, start_rank):
             rule = capacity_rule_for_rank(rank, limits[group])
+            if batch_record.get("batches") and (rank <= limits[group] or now.hour >= 19):
+                continue
             message_id = row["message_id"]
             if not rule or not message_id:
                 continue

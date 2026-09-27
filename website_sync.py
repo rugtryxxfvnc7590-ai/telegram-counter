@@ -34,7 +34,8 @@ def sync_website(state, now=None, save_callback=None, secret=None, origin=None, 
     source = state.get("daily_rosters") or {}
     if source.get("date") != day:
         return {}
-    if not 14 <= now.hour < 19 and not any(deleted_entries(state, group, day) for group in GROUPS):
+    has_batches = any(record.get("batches") for record in source.get("groups", {}).values())
+    if not has_batches and not 14 <= now.hour < 19 and not any(deleted_entries(state, group, day) for group in GROUPS):
         return {}
     secret = secret if secret is not None else os.getenv("WEBSITE_SYNC_SECRET", "")
     if not secret:
@@ -59,7 +60,9 @@ def sync_website(state, now=None, save_callback=None, secret=None, origin=None, 
             break
         deletions = deleted_entries(state, group, day)
         payload = {"date": day, "groupName": name}
-        if 14 <= send_time.hour < 19:
+        if record.get("batches"):
+            payload.update(items=website_items(record, deletions), batchPolicy=record["batch_policy"])
+        elif 14 <= send_time.hour < 19:
             payload["items"] = website_items(record, deletions)
         else:
             if not deletions:

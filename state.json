@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "offset": 364618588,
+  "offset": 364618590,
   "groups": {
     "-1003891628675": {
       "count": 34,
@@ -52,7 +52,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-27",
-    "run_at": "2026-09-27 19:00:46",
+    "run_at": "2026-09-27 19:15:23",
     "completed_groups": [
       "群一",
       "群二",
@@ -60,40 +60,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36314332813:1",
-        "checked_at": "2026-09-27 19:00:47",
+        "run_key": "36315127778:1",
+        "checked_at": "2026-09-27 19:15:24",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36314332813:1",
-        "checked_at": "2026-09-27 19:00:47",
+        "run_key": "36315127778:1",
+        "checked_at": "2026-09-27 19:15:24",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36314332813:1",
-        "checked_at": "2026-09-27 19:00:47",
+        "run_key": "36315127778:1",
+        "checked_at": "2026-09-27 19:15:25",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36314332813:1",
-        "checked_at": "2026-09-27 19:00:47",
+        "run_key": "36315127778:1",
+        "checked_at": "2026-09-27 19:15:24",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       },
       "群二": {
-        "run_key": "36314332813:1",
-        "checked_at": "2026-09-27 19:00:47",
+        "run_key": "36315127778:1",
+        "checked_at": "2026-09-27 19:15:24",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36314332813:1",
-        "checked_at": "2026-09-27 19:00:47",
+        "run_key": "36315127778:1",
+        "checked_at": "2026-09-27 19:15:25",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1065,7 +1065,8 @@
         "attempts": 1,
         "attempted_at": "2026-09-27 19:00:50",
         "sent_at": "2026-09-27 19:00:50",
-        "message_id": 8450
+        "message_id": 8450,
+        "confirmation": "telegram_history"
       }
     }
   },

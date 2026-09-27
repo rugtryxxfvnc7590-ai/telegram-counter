@@ -1,9 +1,9 @@
 {
   "date": "2026-09-28",
-  "offset": 364618818,
+  "offset": 364618819,
   "groups": {
     "-1003891628675": {
-      "count": 37,
+      "count": 38,
       "message_ids": [
         "8571",
         "8572",
@@ -41,7 +41,8 @@
         "8628",
         "8629",
         "8630",
-        "8658"
+        "8658",
+        "8661"
       ]
     },
     "-1003218974409": {
@@ -55,7 +56,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-28",
-    "run_at": "2026-09-28 00:30:30",
+    "run_at": "2026-09-28 00:45:30",
     "completed_groups": [
       "群一",
       "群二",
@@ -63,40 +64,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36333478473:1",
-        "checked_at": "2026-09-28 00:30:30",
+        "run_key": "36334390096:1",
+        "checked_at": "2026-09-28 00:45:32",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36333478473:1",
-        "checked_at": "2026-09-28 00:30:31",
+        "run_key": "36334390096:1",
+        "checked_at": "2026-09-28 00:45:32",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36333478473:1",
-        "checked_at": "2026-09-28 00:30:31",
+        "run_key": "36334390096:1",
+        "checked_at": "2026-09-28 00:45:32",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36333478473:1",
-        "checked_at": "2026-09-28 00:30:30",
+        "run_key": "36334390096:1",
+        "checked_at": "2026-09-28 00:45:32",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36333478473:1",
-        "checked_at": "2026-09-28 00:30:31",
+        "run_key": "36334390096:1",
+        "checked_at": "2026-09-28 00:45:32",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36333478473:1",
-        "checked_at": "2026-09-28 00:30:31",
+        "run_key": "36334390096:1",
+        "checked_at": "2026-09-28 00:45:32",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1128,12 +1129,27 @@
                 "admitted_at": "2026-09-28 00:15:44"
               },
               {
+                "handle": "dsang1874",
+                "post_id": "2104248244742353230",
+                "original_post_id": "2104248244742353230",
+                "url": "https://x.com/dsang1874/status/2104248244742353230",
+                "edited": false,
+                "position": 2,
+                "message_id": "8661",
+                "tg_user_id": "6978925122",
+                "time": "2026-09-28 00:42:08",
+                "admission_time": "2026-09-28 00:42:08",
+                "list_id": "B",
+                "display_name": "吊SANG📷",
+                "admitted_at": "2026-09-28 00:45:34"
+              },
+              {
                 "handle": "thelol1pop99",
                 "post_id": "2103275392744259859",
                 "original_post_id": "2103275392744259859",
                 "url": "https://x.com/thelol1pop99/status/2103275392744259859",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "8658",
                 "tg_user_id": "1770606411",
                 "time": "2026-09-28 00:19:23",
@@ -1148,7 +1164,7 @@
                 "original_post_id": "2085162590792003932",
                 "url": "https://x.com/kuqiqiii_owo/status/2085162590792003932",
                 "edited": false,
-                "position": 3,
+                "position": 4,
                 "message_id": "8630",
                 "tg_user_id": "6629255893",
                 "time": "2026-09-28 00:08:59",
@@ -1163,7 +1179,7 @@
                 "original_post_id": "2086458707223941186",
                 "url": "https://x.com/guilin010/status/2086458707223941186",
                 "edited": false,
-                "position": 4,
+                "position": 5,
                 "message_id": "8629",
                 "tg_user_id": "7182472764",
                 "time": "2026-09-28 00:04:04",
@@ -1178,7 +1194,7 @@
                 "original_post_id": "2102690685795090720",
                 "url": "https://x.com/qiobnxingcai/status/2102690685795090720",
                 "edited": false,
-                "position": 5,
+                "position": 6,
                 "message_id": "8628",
                 "tg_user_id": "6256006328",
                 "time": "2026-09-28 00:03:29",
@@ -1193,7 +1209,7 @@
                 "original_post_id": "2101602852980318419",
                 "url": "https://x.com/aksaks99999/status/2101602852980318419",
                 "edited": false,
-                "position": 6,
+                "position": 7,
                 "message_id": "8627",
                 "tg_user_id": "5829845216",
                 "time": "2026-09-28 00:03:03",
@@ -1204,9 +1220,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 6,
-            "count": 6,
-            "roster_capacity": 6,
+            "capacity": 7,
+            "count": 7,
+            "roster_capacity": 7,
             "withdrawn_message_ids": [
               "8603"
             ]
@@ -1249,7 +1265,8 @@
           "qiobnxingcai": "B",
           "guilin010": "B",
           "kuqiqiii_owo": "B",
-          "thelol1pop99": "B"
+          "thelol1pop99": "B",
+          "dsang1874": "B"
         },
         "withdrawn_message_ids": [
           "8603"
@@ -1754,12 +1771,28 @@
             "list_position": 1
           },
           {
+            "handle": "dsang1874",
+            "post_id": "2104248244742353230",
+            "original_post_id": "2104248244742353230",
+            "url": "https://x.com/dsang1874/status/2104248244742353230",
+            "edited": false,
+            "position": 32,
+            "message_id": "8661",
+            "tg_user_id": "6978925122",
+            "time": "2026-09-28 00:42:08",
+            "admission_time": "2026-09-28 00:42:08",
+            "list_id": "B",
+            "display_name": "吊SANG📷",
+            "admitted_at": "2026-09-28 00:45:34",
+            "list_position": 2
+          },
+          {
             "handle": "thelol1pop99",
             "post_id": "2103275392744259859",
             "original_post_id": "2103275392744259859",
             "url": "https://x.com/thelol1pop99/status/2103275392744259859",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "8658",
             "tg_user_id": "1770606411",
             "time": "2026-09-28 00:19:23",
@@ -1767,7 +1800,7 @@
             "list_id": "B",
             "display_name": "Loliiiiipop99💛棒棒糖🍭",
             "admitted_at": "2026-09-28 00:30:32",
-            "list_position": 2
+            "list_position": 3
           },
           {
             "handle": "kuqiqiii_owo",
@@ -1775,7 +1808,7 @@
             "original_post_id": "2085162590792003932",
             "url": "https://x.com/kuqiqiii_owo/status/2085162590792003932",
             "edited": false,
-            "position": 33,
+            "position": 34,
             "message_id": "8630",
             "tg_user_id": "6629255893",
             "time": "2026-09-28 00:08:59",
@@ -1783,7 +1816,7 @@
             "list_id": "B",
             "display_name": "小兔绵绵🐰",
             "admitted_at": "2026-09-28 00:15:44",
-            "list_position": 3
+            "list_position": 4
           },
           {
             "handle": "guilin010",
@@ -1791,7 +1824,7 @@
             "original_post_id": "2086458707223941186",
             "url": "https://x.com/guilin010/status/2086458707223941186",
             "edited": false,
-            "position": 34,
+            "position": 35,
             "message_id": "8629",
             "tg_user_id": "7182472764",
             "time": "2026-09-28 00:04:04",
@@ -1799,7 +1832,7 @@
             "list_id": "B",
             "display_name": "小林的涩涩日常",
             "admitted_at": "2026-09-28 00:15:44",
-            "list_position": 4
+            "list_position": 5
           },
           {
             "handle": "qiobnxingcai",
@@ -1807,7 +1840,7 @@
             "original_post_id": "2102690685795090720",
             "url": "https://x.com/qiobnxingcai/status/2102690685795090720",
             "edited": false,
-            "position": 35,
+            "position": 36,
             "message_id": "8628",
             "tg_user_id": "6256006328",
             "time": "2026-09-28 00:03:29",
@@ -1815,7 +1848,7 @@
             "list_id": "B",
             "display_name": "桥本香菜",
             "admitted_at": "2026-09-28 00:15:44",
-            "list_position": 5
+            "list_position": 6
           },
           {
             "handle": "aksaks99999",
@@ -1823,7 +1856,7 @@
             "original_post_id": "2101602852980318419",
             "url": "https://x.com/aksaks99999/status/2101602852980318419",
             "edited": false,
-            "position": 36,
+            "position": 37,
             "message_id": "8627",
             "tg_user_id": "5829845216",
             "time": "2026-09-28 00:03:03",
@@ -1831,11 +1864,11 @@
             "list_id": "B",
             "display_name": "AKs",
             "admitted_at": "2026-09-28 00:15:44",
-            "list_position": 6
+            "list_position": 7
           }
         ],
         "vacant_positions": {},
-        "count": 36,
+        "count": 37,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1864,10 +1897,10 @@
     "date": "2026-09-28",
     "groups": {
       "群一": {
-        "digest": "361e4065ec9693202b8ad19318c28fdf0f6c8ee3c813e486296f59a89d19c7eb",
-        "sourceRevision": 3,
+        "digest": "86e4fcb8d11fde3842389c2adad6e3b99fff06730e78a300b9b82a8a8a8fd14c",
+        "sourceRevision": 4,
         "acknowledged": true,
-        "acknowledged_at": "2026-09-28T00:30:32.512574+08:00"
+        "acknowledged_at": "2026-09-28T00:45:34.437144+08:00"
       }
     }
   },
@@ -2037,7 +2070,11 @@
         },
         "8658": {
           "list_id": "B",
-          "sent_at": "2026-09-28T00:30:33.263456+08:00"
+          "confirmation": "telegram_history"
+        },
+        "8661": {
+          "list_id": "B",
+          "sent_at": "2026-09-28T00:45:34.815396+08:00"
         }
       }
     }

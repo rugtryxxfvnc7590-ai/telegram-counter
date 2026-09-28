@@ -72,20 +72,26 @@ def recover_cutoff_announcements(state, chat_id, messages, bot_id, rules=None, n
     rules = rules if rules is not None else load_cutoff_rules()
     record = _ledger(state, day).get(group) or {}
     known = set()
-    if record.get("text") and record.get("reply_to_message_id"):
-        known.add((int(record["reply_to_message_id"]), _plain_text(record["text"])))
+    if record.get("text"):
+        old_target = record.get("reply_to_message_id")
+        known.add((int(old_target) if old_target else None, _plain_text(record["text"])))
     batch_record = ((state.get("daily_rosters") or {}).get("groups") or {}).get(group) or {}
     if batch_record.get("batches"):
         from batch_rosters import batch_cutoff_text
+        batch_text = _plain_text(batch_cutoff_text(group, day, batch_record))
+        known.add((None, batch_text))
         batch_target = reply_target(batch_record.get("slots") or [], day)
         if batch_target:
-            known.add((batch_target, _plain_text(batch_cutoff_text(group, day, batch_record))))
+            known.add((batch_target, batch_text))
     slots = _published_slots(state, group, day)
     target = reply_target(slots, day)
     template = (rules.get(group) or {}).get("text")
-    if template and target:
+    if template and slots:
         try:
-            known.add((target, _plain_text(render_cutoff_text(template, day, len(slots)))))
+            text = _plain_text(render_cutoff_text(template, day, len(slots)))
+            known.add((None, text))
+            if target:
+                known.add((target, text))
         except ValueError:
             pass
     history_pattern = None
@@ -115,11 +121,15 @@ def recover_cutoff_announcements(state, chat_id, messages, bot_id, rules=None, n
         pair = (message.get("reply_to_message_id"), str(message.get("text") or "").replace("\r\n", "\n").strip())
         match = history_pattern.fullmatch(pair[1]) if history_pattern else None
         recovered_count = int(match["count"]) if match else None
-        if pair not in known and not (pair[0] in originals and recovered_count and recovered_count <= 500):
+        # Accept standalone announcements and legacy replies, so an upgrade or
+        # a lost state commit cannot cause another announcement that day.
+        if pair not in known and not ((pair[0] is None or pair[0] in originals)
+                                      and recovered_count and recovered_count <= 500):
             continue
         _ledger(state, day)[group] = {
             **record, "status": "sent", "confirmation": "telegram_history",
             "message_id": int(message["message_id"]), "reply_to_message_id": pair[0],
+            "delivery_mode": "standalone" if pair[0] is None else "reply",
             "sent_at": stamp.strftime("%Y-%m-%d %H:%M:%S"),
             "count": recovered_count if recovered_count is not None else len(slots),
         }
@@ -145,15 +155,14 @@ def _history_checked(state, group, now):
             and timedelta(0) <= now - checked_at <= timedelta(minutes=5))
 
 
-def send_cutoff_reply(chat_id, reply_to, text):
+def send_cutoff_message(chat_id, text):
     if not main.BOT_TOKEN:
         return False, {"error": "missing_bot_token"}
     try:
         response = main.requests.post(
             f"https://api.telegram.org/bot{main.BOT_TOKEN}/sendMessage",
             json={"chat_id": chat_id, "text": text, "parse_mode": "Markdown",
-                  "disable_web_page_preview": True, "reply_to_message_id": reply_to,
-                  "allow_sending_without_reply": False}, timeout=15,
+                  "disable_web_page_preview": True}, timeout=15,
         )
         data = response.json()
         mid = (data.get("result") or {}).get("message_id")
@@ -164,7 +173,7 @@ def send_cutoff_reply(chat_id, reply_to, text):
         return False, {"error": type(exc).__name__}
 
 
-def process_cutoff_announcements(registry, state, now=None, rules=None, send_reply=None, save_callback=None):
+def process_cutoff_announcements(registry, state, now=None, rules=None, send_message=None, save_callback=None):
     fixed_now = now
     now = beijing_now(now)
     day = now.strftime("%Y-%m-%d")
@@ -172,7 +181,7 @@ def process_cutoff_announcements(registry, state, now=None, rules=None, send_rep
         print("群内截止公告：未到北京时间19:00或今日登记未就绪，不发送。")
         return {}
     rules = rules if rules is not None else load_cutoff_rules()
-    send_reply = send_reply or send_cutoff_reply
+    send_message = send_message or send_cutoff_message
     records = _ledger(state, day)
     results = {}
     for group, chat_id in main.canonical_group_chat_ids():
@@ -191,9 +200,8 @@ def process_cutoff_announcements(registry, state, now=None, rules=None, send_rep
             results[group] = "awaiting_history"
             continue
         slots = _published_slots(state, group, day)
-        target = reply_target(slots, day)
         owner_record = ((state.get("owner_daily_lists") or {}).get("groups") or {}).get(group) or {}
-        if not slots or not target or owner_record.get("pending_roster"):
+        if not slots or owner_record.get("pending_roster"):
             results[group] = "awaiting_published_roster"
             continue
         try:
@@ -212,13 +220,13 @@ def process_cutoff_announcements(registry, state, now=None, rules=None, send_rep
             continue
         pending = {"status": "pending", "text": text, "count": len(slots),
                    "count_basis": "admitted_roster", "chat_id": chat_id,
-                   "reply_to_message_id": target, "attempts": int(previous.get("attempts") or 0) + 1,
+                   "delivery_mode": "standalone", "attempts": int(previous.get("attempts") or 0) + 1,
                    "attempted_at": send_time.strftime("%Y-%m-%d %H:%M:%S")}
         records[group] = pending
         if save_callback:
             save_callback()
         try:
-            ok, detail = send_reply(chat_id, target, text)
+            ok, detail = send_message(chat_id, text)
         except Exception as exc:
             ok, detail = False, {"error": type(exc).__name__}
         if ok:

@@ -200,7 +200,7 @@ class BatchRosterTests(unittest.TestCase):
         process_batch_notices(reg,state,NOW,send_reply=sender)
         sender.assert_not_called()
 
-    def test_cutoff_navigation_and_reply_target_no_duplicate(self):
+    def test_cutoff_navigation_standalone_no_duplicate(self):
         from cutoff_delivery import process_cutoff_announcements
         reg,state=fixture(31)
         now=NOW.replace(hour=19)
@@ -210,15 +210,32 @@ class BatchRosterTests(unittest.TestCase):
             "run_key":receipt_run_key(),"checked_at":f"{DAY} 19:00:00","bot_user_id":123}}
         sender=Mock(return_value=(True,{"message_id":1000}))
         rules={"群一":{"enabled":True,"text":"旧模板"}}
-        result=process_cutoff_announcements(reg,state,now,rules,send_reply=sender)
+        result=process_cutoff_announcements(reg,state,now,rules,send_message=sender)
         self.assertEqual(result["群一"],"sent")
-        self.assertEqual(sender.call_args.args[:2],(CID,31))
-        text=sender.call_args.args[2]
+        self.assertEqual(sender.call_args.args[0],CID)
+        self.assertEqual(len(sender.call_args.args),2)
+        text=sender.call_args.args[1]
         self.assertIn("A名单：30人",text)
         self.assertIn("B名单：1人",text)
         self.assertIn("&list=B",text)
-        process_cutoff_announcements(reg,state,now,rules,send_reply=sender)
+        process_cutoff_announcements(reg,state,now,rules,send_message=sender)
         self.assertEqual(sender.call_count,1)
+
+    def test_standalone_batch_announcement_recovered_from_history(self):
+        from cutoff_delivery import recover_cutoff_announcements, _plain_text
+        from batch_rosters import batch_cutoff_text
+        reg,state=fixture(31)
+        roster(reg,state)
+        now=NOW.replace(hour=19)
+        message={"message_id":1000,"date":int(now.timestamp()),
+                 "from":{"id":123,"is_bot":True},
+                 "text":_plain_text(batch_cutoff_text("群一",DAY,state["daily_rosters"]["groups"]["群一"]))}
+        rules={"群一":{"enabled":True,"text":"旧模板"}}
+        self.assertEqual(recover_cutoff_announcements(state,CID,[message],123,rules,now),1)
+        record=state["cutoff_announcements"]["groups"]["群一"]
+        self.assertEqual(record["status"],"sent")
+        self.assertEqual(record["delivery_mode"],"standalone")
+        self.assertEqual(record["message_id"],1000)
 
     def test_only_A_last_and_B_first_notices_once_before19(self):
         reg,state=fixture(61)

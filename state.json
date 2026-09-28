@@ -57,7 +57,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-28",
-    "run_at": "2026-09-28 18:45:38",
+    "run_at": "2026-09-28 19:00:49",
     "completed_groups": [
       "群一",
       "群二",
@@ -65,40 +65,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36411554418:1",
-        "checked_at": "2026-09-28 18:45:39",
+        "run_key": "36413043582:1",
+        "checked_at": "2026-09-28 19:00:50",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36411554418:1",
-        "checked_at": "2026-09-28 18:45:40",
+        "run_key": "36413043582:1",
+        "checked_at": "2026-09-28 19:00:50",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36411554418:1",
-        "checked_at": "2026-09-28 18:45:40",
+        "run_key": "36413043582:1",
+        "checked_at": "2026-09-28 19:00:51",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36411554418:1",
-        "checked_at": "2026-09-28 18:45:39",
+        "run_key": "36413043582:1",
+        "checked_at": "2026-09-28 19:00:50",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36411554418:1",
-        "checked_at": "2026-09-28 18:45:40",
+        "run_key": "36413043582:1",
+        "checked_at": "2026-09-28 19:00:50",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36411554418:1",
-        "checked_at": "2026-09-28 18:45:40",
+        "run_key": "36413043582:1",
+        "checked_at": "2026-09-28 19:00:51",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -608,8 +608,189 @@
               "https://x.com/tiaotiaosheep/status/2101158756575068282"
             ],
             "updated_at": "2026-09-28 17:45:28"
+          },
+          "B": {
+            "slots": [
+              {
+                "handle": "xiuchiluchu910",
+                "post_id": "2092121798523445696",
+                "original_post_id": "2092121798523445696",
+                "url": "https://x.com/xiuchiluchu910/status/2092121798523445696",
+                "edited": false,
+                "position": 1,
+                "message_id": "8625",
+                "tg_user_id": "6250828223",
+                "time": "2026-09-28 00:02:19",
+                "admission_time": "2026-09-28 00:02:19",
+                "is_replacement": true,
+                "replaced_message_id": "8603",
+                "list_id": "B",
+                "display_name": "露老师",
+                "admitted_at": "2026-09-28 00:15:44"
+              },
+              {
+                "handle": "xiaochen000007",
+                "post_id": "2104128611662037283",
+                "original_post_id": "2104128611662037283",
+                "url": "https://x.com/xiaochen000007/status/2104128611662037283",
+                "edited": false,
+                "position": 2,
+                "message_id": "8665",
+                "tg_user_id": "5718822279",
+                "time": "2026-09-28 04:21:01",
+                "admission_time": "2026-09-28 04:21:01",
+                "list_id": "B",
+                "display_name": "小陈和小王的日常",
+                "admitted_at": "2026-09-28 04:30:35"
+              },
+              {
+                "handle": "dsang1874",
+                "post_id": "2104248244742353230",
+                "original_post_id": "2104248244742353230",
+                "url": "https://x.com/dsang1874/status/2104248244742353230",
+                "edited": false,
+                "position": 3,
+                "message_id": "8661",
+                "tg_user_id": "6978925122",
+                "time": "2026-09-28 00:42:08",
+                "admission_time": "2026-09-28 00:42:08",
+                "list_id": "B",
+                "display_name": "吊SANG📷",
+                "admitted_at": "2026-09-28 00:45:34"
+              },
+              {
+                "handle": "thelol1pop99",
+                "post_id": "2103275392744259859",
+                "original_post_id": "2103275392744259859",
+                "url": "https://x.com/thelol1pop99/status/2103275392744259859",
+                "edited": false,
+                "position": 4,
+                "message_id": "8658",
+                "tg_user_id": "1770606411",
+                "time": "2026-09-28 00:19:23",
+                "admission_time": "2026-09-28 00:19:23",
+                "list_id": "B",
+                "display_name": "Loliiiiipop99💛棒棒糖🍭",
+                "admitted_at": "2026-09-28 00:30:32"
+              },
+              {
+                "handle": "shoojeenn",
+                "post_id": "2103459710762438800",
+                "original_post_id": "2103459710762438800",
+                "url": "https://x.com/shoojeenn/status/2103459710762438800",
+                "edited": false,
+                "position": 5,
+                "message_id": "8676",
+                "tg_user_id": "7633123845",
+                "time": "2026-09-28 17:10:12",
+                "admission_time": "2026-09-28 17:10:12",
+                "is_replacement": true,
+                "replaced_message_id": "8630",
+                "list_id": "B",
+                "display_name": "姝姬娘娘Shoo Jee🌟",
+                "admitted_at": "2026-09-28 17:15:29"
+              },
+              {
+                "handle": "guilin010",
+                "post_id": "2086458707223941186",
+                "original_post_id": "2086458707223941186",
+                "url": "https://x.com/guilin010/status/2086458707223941186",
+                "edited": false,
+                "position": 6,
+                "message_id": "8629",
+                "tg_user_id": "7182472764",
+                "time": "2026-09-28 00:04:04",
+                "admission_time": "2026-09-28 00:04:04",
+                "list_id": "B",
+                "display_name": "小林的涩涩日常",
+                "admitted_at": "2026-09-28 00:15:44"
+              },
+              {
+                "handle": "qiobnxingcai",
+                "post_id": "2102690685795090720",
+                "original_post_id": "2102690685795090720",
+                "url": "https://x.com/qiobnxingcai/status/2102690685795090720",
+                "edited": false,
+                "position": 7,
+                "message_id": "8628",
+                "tg_user_id": "6256006328",
+                "time": "2026-09-28 00:03:29",
+                "admission_time": "2026-09-28 00:03:29",
+                "list_id": "B",
+                "display_name": "桥本香菜",
+                "admitted_at": "2026-09-28 00:15:44"
+              },
+              {
+                "handle": "aksaks99999",
+                "post_id": "2101602852980318419",
+                "original_post_id": "2101602852980318419",
+                "url": "https://x.com/aksaks99999/status/2101602852980318419",
+                "edited": false,
+                "position": 8,
+                "message_id": "8627",
+                "tg_user_id": "5829845216",
+                "time": "2026-09-28 00:03:03",
+                "admission_time": "2026-09-28 00:03:03",
+                "list_id": "B",
+                "display_name": "AKs",
+                "admitted_at": "2026-09-28 00:15:44"
+              }
+            ],
+            "vacant_positions": {},
+            "capacity": 8,
+            "count": 8,
+            "roster_capacity": 8,
+            "withdrawn_message_ids": [
+              "8603",
+              "8630"
+            ],
+            "sent": true,
+            "message_id": 3033,
+            "owner_chat_id": "8614747348",
+            "text": "群一·B名单（9月28日）互推名单，共 8 条\n\n候补1 https://x.com/xiuchiluchu910/status/2092121798523445696\n\n2 https://x.com/xiaochen000007/status/2104128611662037283\n\n3 https://x.com/dsang1874/status/2104248244742353230\n\n4 https://x.com/thelol1pop99/status/2103275392744259859\n\n候补5 https://x.com/shoojeenn/status/2103459710762438800\n\n6 https://x.com/guilin010/status/2086458707223941186\n\n7 https://x.com/qiobnxingcai/status/2102690685795090720\n\n8 https://x.com/aksaks99999/status/2101602852980318419\n\n仅需互推B名单内其他成员，不需要转其他名单。\nhttps://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-09-28&list=B",
+            "links": [
+              "https://x.com/xiuchiluchu910/status/2092121798523445696",
+              "https://x.com/xiaochen000007/status/2104128611662037283",
+              "https://x.com/dsang1874/status/2104248244742353230",
+              "https://x.com/thelol1pop99/status/2103275392744259859",
+              "https://x.com/shoojeenn/status/2103459710762438800",
+              "https://x.com/guilin010/status/2086458707223941186",
+              "https://x.com/qiobnxingcai/status/2102690685795090720",
+              "https://x.com/aksaks99999/status/2101602852980318419"
+            ],
+            "updated_at": "2026-09-28 19:00:52"
           }
         }
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-09-28 19:00:52",
+        "count": 0,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [],
+        "slots": [],
+        "message_id": 3034,
+        "owner_chat_id": "8614747348",
+        "text": "群二（9月28日）互推名单，共 0 条\n\n今日没有合格互推链接",
+        "roster_capacity": 0,
+        "vacant_positions": {},
+        "withdrawn_message_ids": []
+      },
+      "群三": {
+        "sent": true,
+        "sent_at": "2026-09-28 19:00:52",
+        "count": 0,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [],
+        "slots": [],
+        "message_id": 3035,
+        "owner_chat_id": "8614747348",
+        "text": "群三（9月28日）互推名单，共 0 条\n\n今日没有合格互推链接",
+        "roster_capacity": 0,
+        "vacant_positions": {},
+        "withdrawn_message_ids": []
       }
     }
   },
@@ -1952,7 +2133,8 @@
         "count": 38,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60
+        "admission_limit": 60,
+        "cutoff_finalized": true
       },
       "群二": {
         "slots": [],
@@ -1999,7 +2181,20 @@
   },
   "cutoff_announcements": {
     "date": "2026-09-28",
-    "groups": {}
+    "groups": {
+      "群一": {
+        "status": "sent",
+        "text": "群一（9月28日）今日互推已截止\n\nA名单：30人\n[点击查看A名单](https://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-09-28&list=A)\n\nB名单：8人\n[点击查看B名单](https://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-09-28&list=B)\n\n请先打开名单，输入自己的X用户名或昵称，确认属于哪一份名单。\n\n1. 只需转发自己所属名单内其他成员的帖子，不同名单之间不要求互推。请勿按群一主页全部转发。\n2. 旧帖、野推按群规则撤销。转发完成后，请按自己的名单逐条核对，不要把自己那条也算作需要转发的帖子。\n3. 可根据时间安排提前或分段完成，最迟于次日北京时间01:00转发完毕。届时按各自名单检查互推情况。\n\n当天换帖及删除情况以这份名单页面的最新内容为准。请勿混推或漏推，欢迎相互监督。",
+        "count": 38,
+        "count_basis": "admitted_roster",
+        "chat_id": "-1003891628675",
+        "delivery_mode": "standalone",
+        "attempts": 1,
+        "attempted_at": "2026-09-28 19:00:53",
+        "sent_at": "2026-09-28 19:00:53",
+        "message_id": 8684
+      }
+    }
   },
   "website_deletions": {
     "date": "2026-09-28",

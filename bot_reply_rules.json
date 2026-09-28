@@ -33,7 +33,7 @@
     },
     "replacement_admitted": {
       "label": "候补成功入选",
-      "enabled": true,
+      "enabled": false,
       "groups": [
         "群一",
         "群二",
@@ -43,7 +43,7 @@
     },
     "limit_overflow": {
       "label": "超过上限的链接",
-      "enabled": true,
+      "enabled": false,
       "groups": [
         "群一",
         "群二",
@@ -53,7 +53,7 @@
     },
     "limit_excess_1": {
       "label": "候选第1阶段（上限 +3）",
-      "enabled": true,
+      "enabled": false,
       "groups": [
         "群一",
         "群二",
@@ -63,7 +63,7 @@
     },
     "limit_excess_2": {
       "label": "候选第2阶段（上限 +6）",
-      "enabled": true,
+      "enabled": false,
       "groups": [
         "群一",
         "群二",
@@ -73,7 +73,7 @@
     },
     "limit_excess_3": {
       "label": "候选第3阶段（上限 +9 起，每3条）",
-      "enabled": true,
+      "enabled": false,
       "groups": [
         "群一",
         "群二",
@@ -105,5 +105,5 @@
     }
   },
   "source": "小猫互推控制台",
-  "updated_at": "2026-09-28 12:15:08"
+  "updated_at": "2026-09-28 15:01:27"
 }

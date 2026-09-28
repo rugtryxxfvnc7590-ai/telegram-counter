@@ -3,7 +3,7 @@
   "offset": 364618828,
   "groups": {
     "-1003891628675": {
-      "count": 39,
+      "count": 38,
       "message_ids": [
         "8571",
         "8572",
@@ -40,7 +40,6 @@
         "8627",
         "8628",
         "8629",
-        "8630",
         "8658",
         "8661",
         "8665"
@@ -57,7 +56,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-28",
-    "run_at": "2026-09-28 14:30:42",
+    "run_at": "2026-09-28 14:45:33",
     "completed_groups": [
       "群一",
       "群二",
@@ -65,40 +64,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36386798743:1",
-        "checked_at": "2026-09-28 14:30:42",
+        "run_key": "36388017105:1",
+        "checked_at": "2026-09-28 14:45:33",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36386798743:1",
-        "checked_at": "2026-09-28 14:30:42",
+        "run_key": "36388017105:1",
+        "checked_at": "2026-09-28 14:45:34",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36386798743:1",
-        "checked_at": "2026-09-28 14:30:43",
+        "run_key": "36388017105:1",
+        "checked_at": "2026-09-28 14:45:34",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36386798743:1",
-        "checked_at": "2026-09-28 14:30:42",
+        "run_key": "36388017105:1",
+        "checked_at": "2026-09-28 14:45:33",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36386798743:1",
-        "checked_at": "2026-09-28 14:30:42",
+        "run_key": "36388017105:1",
+        "checked_at": "2026-09-28 14:45:34",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36386798743:1",
-        "checked_at": "2026-09-28 14:30:43",
+        "run_key": "36388017105:1",
+        "checked_at": "2026-09-28 14:45:34",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1185,21 +1184,6 @@
                 "admitted_at": "2026-09-28 00:30:32"
               },
               {
-                "handle": "kuqiqiii_owo",
-                "post_id": "2085162590792003932",
-                "original_post_id": "2085162590792003932",
-                "url": "https://x.com/kuqiqiii_owo/status/2085162590792003932",
-                "edited": false,
-                "position": 5,
-                "message_id": "8630",
-                "tg_user_id": "6629255893",
-                "time": "2026-09-28 00:08:59",
-                "admission_time": "2026-09-28 00:08:59",
-                "list_id": "B",
-                "display_name": "小兔绵绵🐰",
-                "admitted_at": "2026-09-28 00:15:44"
-              },
-              {
                 "handle": "guilin010",
                 "post_id": "2086458707223941186",
                 "original_post_id": "2086458707223941186",
@@ -1245,12 +1229,15 @@
                 "admitted_at": "2026-09-28 00:15:44"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "5": "8630"
+            },
             "capacity": 8,
-            "count": 8,
+            "count": 7,
             "roster_capacity": 8,
             "withdrawn_message_ids": [
-              "8603"
+              "8603",
+              "8630"
             ]
           }
         },
@@ -1296,7 +1283,8 @@
           "xiaochen000007": "B"
         },
         "withdrawn_message_ids": [
-          "8603"
+          "8603",
+          "8630"
         ],
         "slots": [
           {
@@ -1847,22 +1835,6 @@
             "list_position": 4
           },
           {
-            "handle": "kuqiqiii_owo",
-            "post_id": "2085162590792003932",
-            "original_post_id": "2085162590792003932",
-            "url": "https://x.com/kuqiqiii_owo/status/2085162590792003932",
-            "edited": false,
-            "position": 35,
-            "message_id": "8630",
-            "tg_user_id": "6629255893",
-            "time": "2026-09-28 00:08:59",
-            "admission_time": "2026-09-28 00:08:59",
-            "list_id": "B",
-            "display_name": "小兔绵绵🐰",
-            "admitted_at": "2026-09-28 00:15:44",
-            "list_position": 5
-          },
-          {
             "handle": "guilin010",
             "post_id": "2086458707223941186",
             "original_post_id": "2086458707223941186",
@@ -1911,8 +1883,10 @@
             "list_position": 8
           }
         ],
-        "vacant_positions": {},
-        "count": 38,
+        "vacant_positions": {
+          "35": "8630"
+        },
+        "count": 37,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1941,10 +1915,10 @@
     "date": "2026-09-28",
     "groups": {
       "群一": {
-        "digest": "28184e4ae83a5fa99c7195fd8fb087f73922a93b709777d01d13344ce466a3bb",
-        "sourceRevision": 6,
+        "digest": "8dede5e10f600ff3ba60148195a2c253bc4ac54cb65f94b9a6279b02ee5432c2",
+        "sourceRevision": 7,
         "acknowledged": true,
-        "acknowledged_at": "2026-09-28T13:00:45.103011+08:00"
+        "acknowledged_at": "2026-09-28T14:45:35.668858+08:00"
       },
       "群二": {
         "digest": "d52992c6d4fa061b7545486d1262b3199fa3129ee03d05c2e91d1a29fe09277d",
@@ -1973,6 +1947,12 @@
           "account": "libalababy",
           "postId": "2072221244645315072",
           "confirmed_at": "2026-09-28 00:15:42"
+        },
+        "8630": {
+          "position": 35,
+          "account": "kuqiqiii_owo",
+          "postId": "2085162590792003932",
+          "confirmed_at": "2026-09-28 14:45:33"
         }
       }
     }

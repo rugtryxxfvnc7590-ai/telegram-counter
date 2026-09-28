@@ -246,10 +246,14 @@ class WebsiteSyncTest(unittest.TestCase):
 
 class ReplacementReplyTest(unittest.TestCase):
     def setUp(self):
+        # Dashboard switches must not decide whether a test fixture can send.
+        self.rules = deepcopy(main.DEFAULT_REPLY_RULES)
+        rule_loader = patch.object(main, "load_reply_rules", side_effect=lambda: deepcopy(self.rules))
+        rule_loader.start()
+        self.addCleanup(rule_loader.stop)
         self.registry, self.state = fixture()
         withdraw(self.registry, self.state, 5)
         self.sender = Mock(return_value=True)
-        self.rules = main.load_reply_rules()
 
     def process(self, **kwargs):
         return process_replacement_replies(self.state, now=NOW, rules=self.rules,

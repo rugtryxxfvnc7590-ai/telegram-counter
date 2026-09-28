@@ -238,21 +238,36 @@ class BatchRosterTests(unittest.TestCase):
         self.assertEqual(record["delivery_mode"],"standalone")
         self.assertEqual(record["message_id"],1000)
 
-    def test_only_A_last_and_B_first_notices_once_before19(self):
-        reg,state=fixture(61)
+    def test_A_last_and_B_first_notices_cancelled_at_all_boundaries(self):
+        for count in (29,30,31,60,61):
+            with self.subTest(count=count):
+                reg,state=fixture(count)
+                roster(reg,state)
+                acknowledge_website(state)
+                before_reg,before_state=deepcopy(reg),deepcopy(state)
+                sender,save=Mock(return_value=True),Mock()
+                for hour in (0,12,18,19,23):
+                    for _ in range(2):
+                        self.assertEqual(process_batch_notices(reg,state,NOW.replace(hour=hour),
+                            send_reply=sender,save_callback=save),{})
+                sender.assert_not_called()
+                save.assert_not_called()
+                self.assertEqual(reg,before_reg)
+                self.assertEqual(state,before_state)
+
+    def test_cancelled_boundary_notices_do_not_retry_or_send_default_messages(self):
+        reg,state=fixture(31)
         roster(reg,state)
-        sender=Mock(return_value=True)
-        process_batch_notices(reg,state,NOW,send_reply=sender)
-        sender.assert_not_called()
         acknowledge_website(state)
-        process_batch_notices(reg,state,NOW,send_reply=sender)
-        self.assertEqual(sender.call_count,2)
-        self.assertEqual([call.args[1] for call in sender.call_args_list],[30,31])
-        self.assertIn("A名单已满",sender.call_args_list[0].args[2])
-        self.assertIn("B名单从这条消息开始",sender.call_args_list[1].args[2])
-        process_batch_notices(reg,state,NOW,send_reply=sender)
-        process_batch_notices(reg,state,NOW.replace(hour=19),send_reply=sender)
-        self.assertEqual(sender.call_count,2)
+        state["batch_notices"]={"date":DAY,"groups":{"群一":{}}}
+        before=deepcopy(state)
+        with patch("capacity_delivery.send_capacity_reply") as reply, \
+                patch.object(main,"_send_private_message") as private:
+            for _ in range(10):
+                self.assertEqual(process_batch_notices(reg,state,NOW),{})
+        reply.assert_not_called()
+        private.assert_not_called()
+        self.assertEqual(state,before)
 
     def test_no_individual_notices_and_no_member_private_messages(self):
         reg,state=fixture(29)
@@ -277,10 +292,11 @@ class BatchRosterTests(unittest.TestCase):
         roster(reg,state)
         acknowledge_website(state)
         state["batch_notices"]={"date":DAY,"groups":{"群一":{"full_A":{},"31":{"list_id":"B"}}}}
+        before=deepcopy(state)
         sender=Mock()
         process_batch_notices(reg,state,NOW,send_reply=sender)
         sender.assert_not_called()
-        self.assertEqual(state["batch_notices"]["groups"]["群一"]["start_B"]["message_id"],31)
+        self.assertEqual(state,before)
 
     def test_recover_new_boundary_notice_only_from_our_bot(self):
         from batch_rosters import batch_start_notice, recover_batch_notices

@@ -267,65 +267,6 @@ def send_batch_lists(registry, state, group, record, owner, now, save_callback=N
 
 
 def process_batch_notices(registry, state, now=None, save_callback=None, send_reply=None):
-    from withdrawal_sync import beijing_now
-    from capacity_delivery import send_capacity_reply
-    from violation_delivery import history_is_current
-    fixed_now = now
-    now = beijing_now(now)
-    day = now.strftime("%Y-%m-%d")
-    if now.hour >= 19:
-        return {}
-    daily = state.get("daily_rosters") or {}
-    if daily.get("date") != day or registry.get("date") != day:
-        return {}
-    send_reply = send_reply or send_capacity_reply
-    ledger = state.setdefault("batch_notices", {})
-    if ledger.get("date") != day:
-        ledger.clear()
-        ledger.update(date=day, groups={})
-    results = {}
-    for group, record in daily.get("groups", {}).items():
-        if not record.get("batches"):
-            continue
-        if not history_is_current(state, group, now):
-            continue
-        # Do not direct members to a page that has not acknowledged this roster.
-        web = state.get("website_sync") or {}
-        ack = web.get("groups", {}).get(group) or {}
-        if web.get("date") != day or not ack.get("acknowledged"):
-            continue
-        from website_sync import encode_payload, GROUPS
-        from website_deletions import website_items, deleted_entries
-        import hashlib
-        expected = {"date": day, "groupName": GROUPS[group][1],
-                    "items": website_items(record, deleted_entries(state, group, day)),
-                    "batchPolicy": record["batch_policy"]}
-        if ack.get("digest") != hashlib.sha256(encode_payload(expected)).hexdigest():
-            continue
-        chat_id = next(cid for cid in chat_ids_for_group(group) if cid.startswith("-100"))
-        sent = ledger["groups"].setdefault(group, {})
-        from cutoff_delivery import reply_target
-        notices = []
-        batch_a = record["batches"].get("A") or {}
-        slots_a = batch_a.get("slots") or []
-        if len(slots_a) >= record["batch_policy"]["size"]:
-            notices.append(("full_A", reply_target(slots_a, day), full_notice(group, day, "A", len(slots_a))))
-        first_b = first_batch_message((record["batches"].get("B") or {}).get("slots") or [], day)
-        if first_b:
-            # Do not send a second reply to the B starter already notified by v3.15.0.
-            if (sent.get(str(first_b)) or {}).get("list_id") == "B" and "start_B" not in sent:
-                sent["start_B"] = {"message_id": first_b, "confirmation": "previous_member_notice"}
-                if save_callback:
-                    save_callback()
-            notices.append(("start_B", first_b, batch_start_notice(group, day)))
-        for key, target, text in notices:
-            if beijing_now(fixed_now).strftime("%Y-%m-%d") != day or beijing_now(fixed_now).hour >= 19:
-                return results
-            if key in sent or not target:
-                continue
-            if send_reply(chat_id, target, text):
-                sent[key] = {"sent_at": now.isoformat(), "message_id": target}
-                if save_callback:
-                    save_callback()
-                results[key] = "sent"
-    return results
+    # A-full/B-start replies were cancelled. Keep the existing caller harmless,
+    # including old unsent notices, without altering rosters or delivery history.
+    return {}

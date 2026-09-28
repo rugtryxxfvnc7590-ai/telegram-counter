@@ -214,6 +214,7 @@ class BatchRosterTests(unittest.TestCase):
         self.assertEqual(result["群一"],"sent")
         self.assertEqual(sender.call_args.args[0],CID)
         self.assertEqual(len(sender.call_args.args),2)
+        self.assertIsNone(sender.call_args.kwargs["reply_to"])
         text=sender.call_args.args[1]
         self.assertIn("A名单：30人",text)
         self.assertIn("B名单：1人",text)

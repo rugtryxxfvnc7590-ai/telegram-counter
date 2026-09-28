@@ -89,7 +89,8 @@ def recover_cutoff_announcements(state, chat_id, messages, bot_id, rules=None, n
     if template and slots:
         try:
             text = _plain_text(render_cutoff_text(template, day, len(slots)))
-            known.add((None, text))
+            if group == "群一":
+                known.add((None, text))
             if target:
                 known.add((target, text))
         except ValueError:
@@ -123,7 +124,7 @@ def recover_cutoff_announcements(state, chat_id, messages, bot_id, rules=None, n
         recovered_count = int(match["count"]) if match else None
         # Accept standalone announcements and legacy replies, so an upgrade or
         # a lost state commit cannot cause another announcement that day.
-        if pair not in known and not ((pair[0] is None or pair[0] in originals)
+        if pair not in known and not (((group == "群一" and pair[0] is None) or pair[0] in originals)
                                       and recovered_count and recovered_count <= 500):
             continue
         _ledger(state, day)[group] = {
@@ -155,14 +156,17 @@ def _history_checked(state, group, now):
             and timedelta(0) <= now - checked_at <= timedelta(minutes=5))
 
 
-def send_cutoff_message(chat_id, text):
+def send_cutoff_message(chat_id, text, reply_to=None):
     if not main.BOT_TOKEN:
         return False, {"error": "missing_bot_token"}
+    payload = {"chat_id": chat_id, "text": text, "parse_mode": "Markdown",
+               "disable_web_page_preview": True}
+    if reply_to is not None:
+        payload.update(reply_to_message_id=reply_to, allow_sending_without_reply=False)
     try:
         response = main.requests.post(
             f"https://api.telegram.org/bot{main.BOT_TOKEN}/sendMessage",
-            json={"chat_id": chat_id, "text": text, "parse_mode": "Markdown",
-                  "disable_web_page_preview": True}, timeout=15,
+            json=payload, timeout=15,
         )
         data = response.json()
         mid = (data.get("result") or {}).get("message_id")
@@ -200,8 +204,9 @@ def process_cutoff_announcements(registry, state, now=None, rules=None, send_mes
             results[group] = "awaiting_history"
             continue
         slots = _published_slots(state, group, day)
+        target = None if group == "群一" else reply_target(slots, day)
         owner_record = ((state.get("owner_daily_lists") or {}).get("groups") or {}).get(group) or {}
-        if not slots or owner_record.get("pending_roster"):
+        if not slots or (group != "群一" and not target) or owner_record.get("pending_roster"):
             results[group] = "awaiting_published_roster"
             continue
         try:
@@ -220,13 +225,15 @@ def process_cutoff_announcements(registry, state, now=None, rules=None, send_mes
             continue
         pending = {"status": "pending", "text": text, "count": len(slots),
                    "count_basis": "admitted_roster", "chat_id": chat_id,
-                   "delivery_mode": "standalone", "attempts": int(previous.get("attempts") or 0) + 1,
+                   "delivery_mode": "standalone" if group == "群一" else "reply",
+                   **({"reply_to_message_id": target} if target is not None else {}),
+                   "attempts": int(previous.get("attempts") or 0) + 1,
                    "attempted_at": send_time.strftime("%Y-%m-%d %H:%M:%S")}
         records[group] = pending
         if save_callback:
             save_callback()
         try:
-            ok, detail = send_message(chat_id, text)
+            ok, detail = send_message(chat_id, text, reply_to=target)
         except Exception as exc:
             ok, detail = False, {"error": type(exc).__name__}
         if ok:

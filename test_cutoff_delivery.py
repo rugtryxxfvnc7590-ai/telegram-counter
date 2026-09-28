@@ -57,11 +57,15 @@ class CloudCutoffTests(unittest.TestCase):
         for call in self.sender.call_args_list:
             self.assertIn(call.args[0], GROUPS.values())
             self.assertEqual(len(call.args), 2)
+            self.assertEqual(call.kwargs["reply_to"], None if call.args[0] == GROUPS["群一"] else 20)
             self.assertIn("共2条", call.args[1])
             self.assertIn("https://x.com/example", call.args[1])
-        for record in self.state["cutoff_announcements"]["groups"].values():
-            self.assertEqual(record["delivery_mode"], "standalone")
-            self.assertNotIn("reply_to_message_id", record)
+        for group, record in self.state["cutoff_announcements"]["groups"].items():
+            self.assertEqual(record["delivery_mode"], "standalone" if group == "群一" else "reply")
+            if group == "群一":
+                self.assertNotIn("reply_to_message_id", record)
+            else:
+                self.assertEqual(record["reply_to_message_id"], 20)
 
     def test_before_19_and_next_day_do_not_send_previous_day(self):
         for now in (NOW.replace(hour=18, minute=59, second=59), NOW.replace(day=23, hour=0)):
@@ -97,6 +101,27 @@ class CloudCutoffTests(unittest.TestCase):
             "群一": {"status": "sent", "reply_to_message_id": 20, "message_id": 880}}}
         self.assertEqual(self.run_cutoff()["群一"], "already_sent")
         self.assertEqual(self.sender.call_count, 2)
+
+    def test_group_two_and_three_missing_target_do_not_send_standalone(self):
+        for group in ("群二", "群三"):
+            for slot in self.state["owner_daily_lists"]["groups"][group]["slots"]:
+                slot.pop("message_id")
+                slot.pop("time")
+        result = self.run_cutoff()
+        self.assertEqual(result["群一"], "sent")
+        self.assertEqual(result["群二"], "awaiting_published_roster")
+        self.assertEqual(result["群三"], "awaiting_published_roster")
+        self.assertEqual(self.sender.call_count, 1)
+
+    def test_group_two_and_three_failed_reply_retries_with_original_target(self):
+        self.sender.side_effect = [(True, {"message_id": 1}), (False, {"error": "missing_reply"}),
+                                  (False, {"error": "offline"}), (True, {"message_id": 2}),
+                                  (True, {"message_id": 3})]
+        self.assertEqual(self.run_cutoff()["群二"], "failed")
+        self.assertEqual(self.run_cutoff()["群三"], "sent")
+        for call in self.sender.call_args_list:
+            if call.args[0] in (GROUPS["群二"], GROUPS["群三"]):
+                self.assertEqual(call.kwargs["reply_to"], 20)
 
     def test_failed_legacy_reply_retries_as_standalone(self):
         self.state["cutoff_announcements"] = {"date": DAY, "groups": {
@@ -195,6 +220,15 @@ class CloudCutoffTests(unittest.TestCase):
             self.assertEqual(recover_cutoff_announcements(self.state, GROUPS["群一"],
                 [{**message, **changes}], 123, self.rules, NOW), 0)
 
+    def test_group_two_and_three_still_require_actual_reply_in_history(self):
+        standalone = self.history_message()
+        standalone.pop("reply_to_message_id")
+        for group in ("群二", "群三"):
+            self.assertEqual(recover_cutoff_announcements(self.state, GROUPS[group],
+                [standalone], 123, self.rules, NOW), 0)
+            self.assertEqual(recover_cutoff_announcements(self.state, GROUPS[group],
+                [self.history_message()], 123, self.rules, NOW), 1)
+
     def test_history_count_placeholders_must_agree(self):
         template = "{date_label}截止{success_count}条，再次核对{success_count}条"
         self.rules["群一"]["text"] = template
@@ -227,6 +261,17 @@ class CloudCutoffTests(unittest.TestCase):
             ok, detail = send_cutoff_message(GROUPS["群一"], TEMPLATE)
         self.assertFalse(ok)
         self.assertNotIn("test-private-token", str(detail))
+
+    def test_group_two_and_three_api_payload_keeps_strict_reply(self):
+        post = Mock(return_value=SimpleNamespace(status_code=200,
+                    json=lambda: {"ok": True, "result": {"message_id": 99}}))
+        with patch.object(main, "BOT_TOKEN", "test"), patch.object(main.requests, "post", post, create=True):
+            for group in ("群二", "群三"):
+                self.assertTrue(send_cutoff_message(GROUPS[group], TEMPLATE, reply_to=20)[0])
+                self.assertEqual(post.call_args.kwargs["json"], {
+                    "chat_id": GROUPS[group], "text": TEMPLATE, "parse_mode": "Markdown",
+                    "disable_web_page_preview": True, "reply_to_message_id": 20,
+                    "allow_sending_without_reply": False})
 
 
 if __name__ == "__main__":

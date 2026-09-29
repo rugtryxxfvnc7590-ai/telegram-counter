@@ -78,11 +78,16 @@ def recover_cutoff_announcements(state, chat_id, messages, bot_id, rules=None, n
     batch_record = ((state.get("daily_rosters") or {}).get("groups") or {}).get(group) or {}
     if batch_record.get("batches"):
         from batch_rosters import batch_cutoff_text
-        batch_text = _plain_text(batch_cutoff_text(group, day, batch_record))
-        known.add((None, batch_text))
-        batch_target = reply_target(batch_record.get("slots") or [], day)
-        if batch_target:
-            known.add((batch_target, batch_text))
+        # Old A/B templates are only for recovering past receipts, never for
+        # composing new announcements instead of the dashboard's chosen text.
+        try:
+            batch_text = _plain_text(batch_cutoff_text(group, day, batch_record))
+            known.add((None, batch_text))
+            batch_target = reply_target(batch_record.get("slots") or [], day)
+            if batch_target:
+                known.add((batch_target, batch_text))
+        except ValueError:
+            pass
     slots = _published_slots(state, group, day)
     target = reply_target(slots, day)
     template = (rules.get(group) or {}).get("text")
@@ -212,14 +217,11 @@ def process_cutoff_announcements(registry, state, now=None, rules=None, send_mes
         try:
             batch_record = ((state.get("daily_rosters") or {}).get("groups") or {}).get(group) or {}
             if batch_record.get("batches"):
-                from batch_rosters import batch_cutoff_text
                 expected = {(slot.get("message_id"), slot["url"]) for slot in batch_record["slots"]}
                 if expected != {(slot.get("message_id"), slot["url"]) for slot in slots}:
                     results[group] = "awaiting_published_roster"
                     continue
-                text = batch_cutoff_text(group, day, batch_record)
-            else:
-                text = render_cutoff_text(rule["text"], day, len(slots))
+            text = render_cutoff_text(rule["text"], day, len(slots))
         except ValueError:
             results[group] = "invalid_template"
             continue

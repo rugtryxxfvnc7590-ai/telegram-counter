@@ -200,27 +200,66 @@ class BatchRosterTests(unittest.TestCase):
         process_batch_notices(reg,state,NOW,send_reply=sender)
         sender.assert_not_called()
 
-    def test_cutoff_navigation_standalone_no_duplicate(self):
-        from cutoff_delivery import process_cutoff_announcements
+    def cutoff_fixture(self):
         reg,state=fixture(31)
         now=NOW.replace(hour=19)
         with patch.dict("os.environ", {"TELEGRAM_OWNER_CHAT_ID":"12345"}), patch.object(main,"_send_private_message",return_value=(True,{"message_id":999})):
             main.send_daily_lists_to_owner(reg,state,now,limits=LIMITS)
         state["group_snapshot_sync"]["cutoff_receipt_groups"]={"群一":{
             "run_key":receipt_run_key(),"checked_at":f"{DAY} 19:00:00","bot_user_id":123}}
+        return reg,state,now
+
+    def test_cutoff_uses_dashboard_text_standalone_no_duplicate(self):
+        from cutoff_delivery import process_cutoff_announcements
+        reg,state,now=self.cutoff_fixture()
         sender=Mock(return_value=(True,{"message_id":1000}))
-        rules={"群一":{"enabled":True,"text":"旧模板"}}
+        template="自定义群一（{date_label}）收录{success_count}条\r\n\r\n[我的主页](https://x.com/example)"
+        rules={"群一":{"enabled":True,"text":template}}
         result=process_cutoff_announcements(reg,state,now,rules,send_message=sender)
         self.assertEqual(result["群一"],"sent")
         self.assertEqual(sender.call_args.args[0],CID)
         self.assertEqual(len(sender.call_args.args),2)
         self.assertIsNone(sender.call_args.kwargs["reply_to"])
         text=sender.call_args.args[1]
-        self.assertIn("A名单：30人",text)
-        self.assertIn("B名单：1人",text)
-        self.assertIn("&list=B",text)
+        self.assertEqual(text,"自定义群一（9月28日）收录31条\r\n\r\n[我的主页](https://x.com/example)")
+        self.assertNotIn("点击查看A名单",text)
+        self.assertNotIn("点击查看B名单",text)
         process_cutoff_announcements(reg,state,now,rules,send_message=sender)
         self.assertEqual(sender.call_count,1)
+
+    def test_cutoff_keeps_exact_dashboard_text_without_count_placeholder(self):
+        from cutoff_delivery import process_cutoff_announcements
+        reg,state,now=self.cutoff_fixture()
+        template="群一（{date_label}）今日互推收录已截止\r\n\r\n[保留此链接](https://x.com/example?s=21)\n我的自定义规则。"
+        sender=Mock(return_value=(True,{"message_id":1000}))
+        with patch("batch_rosters.batch_cutoff_text",side_effect=AssertionError("Must not override dashboard text")):
+            result=process_cutoff_announcements(reg,state,now,{"群一":{"enabled":True,"text":template}},send_message=sender)
+        self.assertEqual(result["群一"],"sent")
+        self.assertEqual(sender.call_args.args[1],template.replace("{date_label}","9月28日"))
+
+    def test_batch_cutoff_never_falls_back_when_custom_rule_disabled_or_invalid(self):
+        from cutoff_delivery import process_cutoff_announcements
+        reg,state,now=self.cutoff_fixture()
+        for rule,expected in (({"enabled":False,"text":"自定义"},"disabled"),
+                              ({"enabled":True,"text":""},"disabled"),
+                              ({"enabled":True,"text":"{bad_field}"},"invalid_template")):
+            sender=Mock()
+            result=process_cutoff_announcements(reg,deepcopy(state),now,{"群一":rule},send_message=sender)
+            self.assertEqual(result["群一"],expected)
+            sender.assert_not_called()
+
+    def test_custom_batch_cutoff_recovers_without_valid_legacy_template(self):
+        from cutoff_delivery import recover_cutoff_announcements, process_cutoff_announcements, _plain_text
+        reg,state,now=self.cutoff_fixture()
+        template="群一（{date_label}）我的自定义公告\n[我的主页](https://x.com/example)"
+        rules={"群一":{"enabled":True,"text":template}}
+        message={"message_id":1000,"date":int(now.timestamp()),"from":{"id":123,"is_bot":True},
+                 "text":_plain_text(template.replace("{date_label}","9月28日"))}
+        with patch("batch_rosters.batch_cutoff_text",side_effect=ValueError("Old config is invalid")):
+            self.assertEqual(recover_cutoff_announcements(state,CID,[message],123,rules,now),1)
+        sender=Mock()
+        self.assertEqual(process_cutoff_announcements(reg,state,now,rules,send_message=sender)["群一"],"already_sent")
+        sender.assert_not_called()
 
     def test_standalone_batch_announcement_recovered_from_history(self):
         from cutoff_delivery import recover_cutoff_announcements, _plain_text

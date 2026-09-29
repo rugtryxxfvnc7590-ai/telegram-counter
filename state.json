@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "offset": 364619110,
+  "offset": 364619112,
   "groups": {
     "-1003891628675": {
       "count": 40,
@@ -58,7 +58,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-29",
-    "run_at": "2026-09-29 19:00:43",
+    "run_at": "2026-09-29 19:15:28",
     "completed_groups": [
       "群一",
       "群二",
@@ -66,40 +66,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36559053853:1",
-        "checked_at": "2026-09-29 19:00:44",
+        "run_key": "36560578559:1",
+        "checked_at": "2026-09-29 19:15:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36559053853:1",
-        "checked_at": "2026-09-29 19:00:45",
+        "run_key": "36560578559:1",
+        "checked_at": "2026-09-29 19:15:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36559053853:1",
-        "checked_at": "2026-09-29 19:00:45",
+        "run_key": "36560578559:1",
+        "checked_at": "2026-09-29 19:15:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36559053853:1",
-        "checked_at": "2026-09-29 19:00:44",
+        "run_key": "36560578559:1",
+        "checked_at": "2026-09-29 19:15:30",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       },
       "群二": {
-        "run_key": "36559053853:1",
-        "checked_at": "2026-09-29 19:00:45",
+        "run_key": "36560578559:1",
+        "checked_at": "2026-09-29 19:15:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36559053853:1",
-        "checked_at": "2026-09-29 19:00:45",
+        "run_key": "36560578559:1",
+        "checked_at": "2026-09-29 19:15:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -2245,8 +2245,10 @@
         "delivery_mode": "standalone",
         "attempts": 1,
         "attempted_at": "2026-09-29 19:00:48",
-        "sent_at": "2026-09-29 19:00:48",
-        "message_id": 8740
+        "sent_at": "2026-09-29 19:00:49",
+        "message_id": 8740,
+        "confirmation": "telegram_history",
+        "reply_to_message_id": null
       }
     }
   },

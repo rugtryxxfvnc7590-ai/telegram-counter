@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "offset": 364619195,
+  "offset": 364619199,
   "groups": {
     "-1003891628675": {
       "count": 39,
@@ -57,7 +57,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-30",
-    "run_at": "2026-09-30 18:45:21",
+    "run_at": "2026-09-30 19:00:37",
     "completed_groups": [
       "群一",
       "群二",
@@ -65,40 +65,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36704317999:1",
-        "checked_at": "2026-09-30 18:45:22",
+        "run_key": "36705852317:1",
+        "checked_at": "2026-09-30 19:00:38",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36704317999:1",
-        "checked_at": "2026-09-30 18:45:22",
+        "run_key": "36705852317:1",
+        "checked_at": "2026-09-30 19:00:38",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36704317999:1",
-        "checked_at": "2026-09-30 18:45:22",
+        "run_key": "36705852317:1",
+        "checked_at": "2026-09-30 19:00:38",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36704317999:1",
-        "checked_at": "2026-09-30 18:45:22",
+        "run_key": "36705852317:1",
+        "checked_at": "2026-09-30 19:00:38",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "36704317999:1",
-        "checked_at": "2026-09-30 18:45:22",
+        "run_key": "36705852317:1",
+        "checked_at": "2026-09-30 19:00:38",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36704317999:1",
-        "checked_at": "2026-09-30 18:45:22",
+        "run_key": "36705852317:1",
+        "checked_at": "2026-09-30 19:00:38",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -610,8 +610,199 @@
               "https://x.com/tiaotiaosheep/status/2101158756575068282"
             ],
             "updated_at": "2026-09-30 18:15:29"
+          },
+          "B": {
+            "slots": [
+              {
+                "handle": "tianqipaidui",
+                "post_id": "2034586318882414816",
+                "original_post_id": "2034586318882414816",
+                "url": "https://x.com/tianqipaidui/status/2034586318882414816",
+                "edited": false,
+                "position": 1,
+                "message_id": "8795",
+                "tg_user_id": "6295128065",
+                "time": "2026-09-30 17:19:20",
+                "admission_time": "2026-09-30 17:19:20",
+                "list_id": "B",
+                "display_name": "甜妻派对（原创）",
+                "admitted_at": "2026-09-30 17:30:41"
+              },
+              {
+                "handle": "chairlfen_cn",
+                "post_id": "2105216353858650271",
+                "original_post_id": "2105216353858650271",
+                "url": "https://x.com/chairlfen_cn/status/2105216353858650271",
+                "edited": false,
+                "position": 2,
+                "message_id": "8794",
+                "tg_user_id": "1853744305",
+                "time": "2026-09-30 16:43:04",
+                "admission_time": "2026-09-30 16:43:04",
+                "list_id": "B",
+                "display_name": "周慕云（chairlfen）",
+                "admitted_at": "2026-09-30 16:45:37"
+              },
+              {
+                "handle": "12_wheat",
+                "post_id": "2105180514156269720",
+                "original_post_id": "2105180514156269720",
+                "url": "https://x.com/12_wheat/status/2105180514156269720",
+                "edited": false,
+                "position": 3,
+                "message_id": "8793",
+                "tg_user_id": "7019696899",
+                "time": "2026-09-30 14:19:24",
+                "admission_time": "2026-09-30 14:19:24",
+                "list_id": "B",
+                "display_name": "12K",
+                "admitted_at": "2026-09-30 14:30:39"
+              },
+              {
+                "handle": "qinxian8023",
+                "post_id": "1843994899403976912",
+                "original_post_id": "1843994899403976912",
+                "url": "https://x.com/qinxian8023/status/1843994899403976912",
+                "edited": false,
+                "position": 4,
+                "message_id": "8792",
+                "tg_user_id": "1264616126",
+                "time": "2026-09-30 13:51:09",
+                "admission_time": "2026-09-30 13:51:09",
+                "list_id": "B",
+                "display_name": "宇宙的琴弦",
+                "admitted_at": "2026-09-30 14:01:16"
+              },
+              {
+                "handle": "uudajiejie",
+                "post_id": "2104435453839683859",
+                "original_post_id": "2104435453839683859",
+                "url": "https://x.com/uudajiejie/status/2104435453839683859",
+                "edited": false,
+                "position": 5,
+                "message_id": "8788",
+                "tg_user_id": "8244388416",
+                "time": "2026-09-30 07:27:39",
+                "admission_time": "2026-09-30 07:27:39",
+                "list_id": "B",
+                "display_name": "UU大姐姐",
+                "admitted_at": "2026-09-30 07:30:37"
+              },
+              {
+                "handle": "qbln9999",
+                "post_id": "2087533026809180203",
+                "original_post_id": "2087533026809180203",
+                "url": "https://x.com/qbln9999/status/2087533026809180203",
+                "edited": false,
+                "position": 6,
+                "message_id": "8784",
+                "tg_user_id": "8514857368",
+                "time": "2026-09-30 01:34:53",
+                "admission_time": "2026-09-30 01:34:53",
+                "list_id": "B",
+                "display_name": "桥本玲奈",
+                "admitted_at": "2026-09-30 01:45:33"
+              },
+              {
+                "handle": "shixiaotaone",
+                "post_id": "2103685805558599984",
+                "original_post_id": "2103685805558599984",
+                "url": "https://x.com/shixiaotaone/status/2103685805558599984",
+                "edited": false,
+                "position": 7,
+                "message_id": "8781",
+                "tg_user_id": "5275613873",
+                "time": "2026-09-30 00:06:33",
+                "admission_time": "2026-09-30 00:06:33",
+                "list_id": "B",
+                "display_name": "小桃",
+                "admitted_at": "2026-09-30 00:15:46"
+              },
+              {
+                "handle": "shixiaotaon",
+                "post_id": "2104482448511996277",
+                "original_post_id": "2104482448511996277",
+                "url": "https://x.com/shixiaotaon/status/2104482448511996277",
+                "edited": false,
+                "position": 8,
+                "message_id": "8780",
+                "tg_user_id": "5275613873",
+                "time": "2026-09-30 00:06:17",
+                "admission_time": "2026-09-30 00:06:17",
+                "list_id": "B",
+                "display_name": "小小桃",
+                "admitted_at": "2026-09-30 00:15:46"
+              },
+              {
+                "handle": "xiaochen000007",
+                "post_id": "2105207256023482759",
+                "original_post_id": "2104128611662037283",
+                "url": "https://x.com/xiaochen000007/status/2105207256023482759",
+                "edited": true,
+                "position": 9,
+                "message_id": "8779",
+                "tg_user_id": "5718822279",
+                "time": "2026-09-30 00:05:46",
+                "admission_time": "2026-09-30 00:05:46",
+                "list_id": "B",
+                "display_name": "小陈和小王的日常",
+                "admitted_at": "2026-09-30 00:15:46",
+                "edit_time": "2026-09-30 16:06:29"
+              }
+            ],
+            "vacant_positions": {},
+            "capacity": 9,
+            "count": 9,
+            "roster_capacity": 9,
+            "withdrawn_message_ids": [],
+            "sent": true,
+            "message_id": 3070,
+            "owner_chat_id": "8614747348",
+            "text": "群一·B名单（9月30日）互推名单，共 9 条\n\n1 https://x.com/tianqipaidui/status/2034586318882414816\n\n2 https://x.com/chairlfen_cn/status/2105216353858650271\n\n3 https://x.com/12_wheat/status/2105180514156269720\n\n4 https://x.com/qinxian8023/status/1843994899403976912\n\n5 https://x.com/uudajiejie/status/2104435453839683859\n\n6 https://x.com/qbln9999/status/2087533026809180203\n\n7 https://x.com/shixiaotaone/status/2103685805558599984\n\n8 https://x.com/shixiaotaon/status/2104482448511996277\n\n已编辑 9 https://x.com/xiaochen000007/status/2105207256023482759\n\n仅需互推B名单内其他成员，不需要转其他名单。\nhttps://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-09-30&list=B",
+            "links": [
+              "https://x.com/tianqipaidui/status/2034586318882414816",
+              "https://x.com/chairlfen_cn/status/2105216353858650271",
+              "https://x.com/12_wheat/status/2105180514156269720",
+              "https://x.com/qinxian8023/status/1843994899403976912",
+              "https://x.com/uudajiejie/status/2104435453839683859",
+              "https://x.com/qbln9999/status/2087533026809180203",
+              "https://x.com/shixiaotaone/status/2103685805558599984",
+              "https://x.com/shixiaotaon/status/2104482448511996277",
+              "https://x.com/xiaochen000007/status/2105207256023482759"
+            ],
+            "updated_at": "2026-09-30 19:00:40"
           }
         }
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-09-30 19:00:40",
+        "count": 0,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [],
+        "slots": [],
+        "message_id": 3071,
+        "owner_chat_id": "8614747348",
+        "text": "群二（9月30日）互推名单，共 0 条\n\n今日没有合格互推链接",
+        "roster_capacity": 0,
+        "vacant_positions": {},
+        "withdrawn_message_ids": []
+      },
+      "群三": {
+        "sent": true,
+        "sent_at": "2026-09-30 19:00:40",
+        "count": 0,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [],
+        "slots": [],
+        "message_id": 3072,
+        "owner_chat_id": "8614747348",
+        "text": "群三（9月30日）互推名单，共 0 条\n\n今日没有合格互推链接",
+        "roster_capacity": 0,
+        "vacant_positions": {},
+        "withdrawn_message_ids": []
       }
     }
   },
@@ -1990,7 +2181,8 @@
         "count": 39,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60
+        "admission_limit": 60,
+        "cutoff_finalized": true
       },
       "群二": {
         "slots": [],
@@ -2037,7 +2229,20 @@
   },
   "cutoff_announcements": {
     "date": "2026-09-30",
-    "groups": {}
+    "groups": {
+      "群一": {
+        "status": "sent",
+        "text": "群一（9月30日）今日互推收录已截止\r\n\r\n野推过的撤销， 再次刷新主页开始转，完毕后核对主页转发数量是否与截止数量 一致 \r\n\r\n✅[点击此主页转发互推 ](https://x.com/zukongjia88)\r\n\r\n请先打开主页内的网站，搜索自己的X用户名或昵称，确认属于A名单还是B名单。\r\n\r\n1️⃣分段时间转发、务必停留互推人主页（播放视频或浏览图片评论区）避免因刷屏转发机器人行为导致封号 \r\n2️⃣统一19：00转发根据个人时间安排可自行选择提前转）最迟于1：00必须转发完毕！ 截止时间后检查各位主页，欢迎监督举！\r\n3️⃣只需转发自己所属名单内其他成员的帖子，不同名单之间不要求互推。不要按群一主页全部转发，避免混推。",
+        "count": 39,
+        "count_basis": "admitted_roster",
+        "chat_id": "-1003891628675",
+        "delivery_mode": "standalone",
+        "attempts": 1,
+        "attempted_at": "2026-09-30 19:00:41",
+        "sent_at": "2026-09-30 19:00:41",
+        "message_id": 8797
+      }
+    }
   },
   "website_deletions": {
     "date": "2026-09-30",

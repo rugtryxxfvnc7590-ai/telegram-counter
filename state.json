@@ -57,7 +57,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-09-30",
-    "run_at": "2026-09-30 19:00:37",
+    "run_at": "2026-09-30 19:15:35",
     "completed_groups": [
       "群一",
       "群二",
@@ -65,40 +65,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36705852317:1",
-        "checked_at": "2026-09-30 19:00:38",
+        "run_key": "36707385043:1",
+        "checked_at": "2026-09-30 19:15:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36705852317:1",
-        "checked_at": "2026-09-30 19:00:38",
+        "run_key": "36707385043:1",
+        "checked_at": "2026-09-30 19:15:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36705852317:1",
-        "checked_at": "2026-09-30 19:00:38",
+        "run_key": "36707385043:1",
+        "checked_at": "2026-09-30 19:15:37",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36705852317:1",
-        "checked_at": "2026-09-30 19:00:38",
+        "run_key": "36707385043:1",
+        "checked_at": "2026-09-30 19:15:36",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       },
       "群二": {
-        "run_key": "36705852317:1",
-        "checked_at": "2026-09-30 19:00:38",
+        "run_key": "36707385043:1",
+        "checked_at": "2026-09-30 19:15:36",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36705852317:1",
-        "checked_at": "2026-09-30 19:00:38",
+        "run_key": "36707385043:1",
+        "checked_at": "2026-09-30 19:15:37",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -2240,7 +2240,9 @@
         "attempts": 1,
         "attempted_at": "2026-09-30 19:00:41",
         "sent_at": "2026-09-30 19:00:41",
-        "message_id": 8797
+        "message_id": 8797,
+        "confirmation": "telegram_history",
+        "reply_to_message_id": null
       }
     }
   },

@@ -10,6 +10,8 @@ from replacement_delivery import process_replacement_replies
 from website_sync import sync_website
 from cutoff_delivery import process_cutoff_announcements
 from batch_rosters import export_batch_rosters, process_batch_notices
+from daily_roster import refresh_daily_rosters
+from manual_roster_order import sync_manual_roster_order
 
 
 def main():
@@ -21,6 +23,9 @@ def main():
     if registry.get("date") == datetime.now(BEIJING).strftime("%Y-%m-%d"):
         stamp_admission(registry, limits)
         save_registry(registry)
+    refresh_daily_rosters(registry, state, limits, save_callback=lambda: save_state(state))
+    order_result = sync_manual_roster_order(state, save_callback=lambda: save_state(state))
+    print(f"管理员名单调序：{order_result}。")
     results = send_daily_lists_to_owner(
         registry,
         state,

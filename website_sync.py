@@ -61,7 +61,18 @@ def sync_website(state, now=None, save_callback=None, secret=None, origin=None, 
         deletions = deleted_entries(state, group, day)
         payload = {"date": day, "groupName": name}
         if record.get("batches"):
+            if record.get("manual_order_revision"):
+                delivered = ((state.get("owner_daily_lists") or {}).get("groups") or {}).get(group) or {}
+                def identities(slots):
+                    return [(s["position"], s["post_id"], s["url"]) for s in slots]
+                # Keep public grouping unchanged until existing private lists agree.
+                if any(sent.get("sent") and identities(sent.get("slots") or []) != identities(record["batches"][label]["slots"])
+                       for label, sent in (delivered.get("batches") or {}).items() if label in record["batches"]):
+                    results[group] = "awaiting_order_private_edit"
+                    continue
             payload.update(items=website_items(record, deletions), batchPolicy=record["batch_policy"])
+            if record.get("manual_order_revision"):
+                payload["manualOrderRevision"] = record["manual_order_revision"]
         elif 14 <= send_time.hour < 19:
             payload["items"] = website_items(record, deletions)
         else:
@@ -93,6 +104,8 @@ def sync_website(state, now=None, save_callback=None, secret=None, origin=None, 
             data = response.json()
             if response.status_code == 200 and data.get("status") in {"updated", "unchanged"}:
                 previous.update(acknowledged=True, acknowledged_at=send_time.isoformat())
+                if record.get("manual_order_revision"):
+                    previous["manual_order_revision"] = record["manual_order_revision"]
                 previous.pop("last_error", None)
                 outcome = data["status"]
             elif response.status_code == 423:

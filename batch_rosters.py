@@ -105,7 +105,10 @@ def refresh_batch_roster(previous, registry, group, day, now_text, policy):
             used_posts.add(row["post_id"])
     for label, batch in result["batches"].items():
         batch["capacity"] = max(batch["capacity"], len(batch["slots"]) + len(batch["vacant_positions"]))
-        batch["slots"] = order_roster_slots(batch["slots"], batch["vacant_positions"])
+        pinned = [slot for slot in batch["slots"] if slot.get("manual_position")]
+        reserved = dict(batch["vacant_positions"], **{str(slot["position"]): "manual" for slot in pinned})
+        normal = order_roster_slots([slot for slot in batch["slots"] if not slot.get("manual_position")], reserved)
+        batch["slots"] = sorted(normal + pinned, key=lambda slot: slot["position"])
         batch.update(count=len(batch["slots"]), roster_capacity=batch["capacity"],
                      withdrawn_message_ids=batch.get("withdrawn_message_ids", []))
     result["withdrawn_message_ids"] = sorted(retired)
@@ -123,7 +126,19 @@ def export_batch_rosters(registry, state):
     day = registry.get("date")
     if daily.get("date") != day:
         return
-    groups = {group: deepcopy(record) for group, record in daily.get("groups", {}).items() if record.get("batches")}
+    groups = {}
+    for group, record in daily.get("groups", {}).items():
+        if not record.get("batches"):
+            continue
+        sync = state.get("website_sync") or {}
+        receipt = (sync.get("groups") or {}).get(group) or {}
+        if record.get("manual_order_revision") and (sync.get("date") != day or not receipt.get("acknowledged")
+                or receipt.get("manual_order_revision") != record["manual_order_revision"]):
+            previous = registry.get("batch_rosters") or {}
+            if previous.get("date") == day and group in (previous.get("groups") or {}):
+                groups[group] = deepcopy(previous["groups"][group])
+            continue
+        groups[group] = deepcopy(record)
     if groups:
         registry["batch_rosters"] = {"date": day, "groups": groups}
         for group, record in groups.items():

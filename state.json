@@ -60,7 +60,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-01",
-    "run_at": "2026-10-01 19:00:52",
+    "run_at": "2026-10-01 19:15:35",
     "completed_groups": [
       "群一",
       "群二",
@@ -68,40 +68,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36852640968:1",
-        "checked_at": "2026-10-01 19:00:54",
+        "run_key": "36854194068:1",
+        "checked_at": "2026-10-01 19:15:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36852640968:1",
-        "checked_at": "2026-10-01 19:00:54",
+        "run_key": "36854194068:1",
+        "checked_at": "2026-10-01 19:15:37",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36852640968:1",
-        "checked_at": "2026-10-01 19:00:54",
+        "run_key": "36854194068:1",
+        "checked_at": "2026-10-01 19:15:37",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36852640968:1",
-        "checked_at": "2026-10-01 19:00:54",
+        "run_key": "36854194068:1",
+        "checked_at": "2026-10-01 19:15:36",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       },
       "群二": {
-        "run_key": "36852640968:1",
-        "checked_at": "2026-10-01 19:00:54",
+        "run_key": "36854194068:1",
+        "checked_at": "2026-10-01 19:15:37",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36852640968:1",
-        "checked_at": "2026-10-01 19:00:54",
+        "run_key": "36854194068:1",
+        "checked_at": "2026-10-01 19:15:37",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -2305,8 +2305,10 @@
         "delivery_mode": "standalone",
         "attempts": 1,
         "attempted_at": "2026-10-01 19:00:57",
-        "sent_at": "2026-10-01 19:00:57",
-        "message_id": 8852
+        "sent_at": "2026-10-01 19:00:58",
+        "message_id": 8852,
+        "confirmation": "telegram_history",
+        "reply_to_message_id": null
       }
     }
   },

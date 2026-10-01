@@ -3,7 +3,7 @@
   "offset": 364619282,
   "groups": {
     "-1003891628675": {
-      "count": 42,
+      "count": 41,
       "message_ids": [
         "8805",
         "8806",
@@ -27,7 +27,6 @@
         "8824",
         "8825",
         "8826",
-        "8827",
         "8828",
         "8829",
         "8830",
@@ -60,7 +59,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-01",
-    "run_at": "2026-10-01 19:15:35",
+    "run_at": "2026-10-01 19:30:51",
     "completed_groups": [
       "群一",
       "群二",
@@ -68,40 +67,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "36854194068:1",
-        "checked_at": "2026-10-01 19:15:36",
+        "run_key": "36855774491:1",
+        "checked_at": "2026-10-01 19:30:53",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "36854194068:1",
-        "checked_at": "2026-10-01 19:15:37",
+        "run_key": "36855774491:1",
+        "checked_at": "2026-10-01 19:30:53",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "36854194068:1",
-        "checked_at": "2026-10-01 19:15:37",
+        "run_key": "36855774491:1",
+        "checked_at": "2026-10-01 19:30:53",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "36854194068:1",
-        "checked_at": "2026-10-01 19:15:36",
+        "run_key": "36855774491:1",
+        "checked_at": "2026-10-01 19:30:53",
         "bot_user_id": 8755020155,
         "confirmed": 1
       },
       "群二": {
-        "run_key": "36854194068:1",
-        "checked_at": "2026-10-01 19:15:37",
+        "run_key": "36855774491:1",
+        "checked_at": "2026-10-01 19:30:53",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "36854194068:1",
-        "checked_at": "2026-10-01 19:15:37",
+        "run_key": "36855774491:1",
+        "checked_at": "2026-10-01 19:30:53",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -232,21 +231,6 @@
                 "admission_time": "2026-10-01 00:00:14",
                 "list_id": "A",
                 "display_name": "曹长卿唯一大号 支持任何验证",
-                "admitted_at": "2026-10-01 00:01:41"
-              },
-              {
-                "handle": "clares5a",
-                "post_id": "2099566436322885989",
-                "original_post_id": "2099566436322885989",
-                "url": "https://x.com/clares5a/status/2099566436322885989",
-                "edited": false,
-                "position": 9,
-                "message_id": "8827",
-                "tg_user_id": "7664740669",
-                "time": "2026-10-01 00:00:11",
-                "admission_time": "2026-10-01 00:00:11",
-                "list_id": "A",
-                "display_name": "Clare-S（杭州）",
                 "admitted_at": "2026-10-01 00:01:41"
               },
               {
@@ -568,15 +552,19 @@
                 "admitted_at": "2026-10-01 00:01:41"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "9": "8827"
+            },
             "capacity": 30,
-            "count": 30,
+            "count": 29,
             "roster_capacity": 30,
-            "withdrawn_message_ids": [],
+            "withdrawn_message_ids": [
+              "8827"
+            ],
             "sent": true,
             "message_id": 3073,
             "owner_chat_id": "8614747348",
-            "text": "群一·A名单（10月1日）互推名单，共 30 条\n\n1 https://x.com/xye918/status/2105137696280887507\n\n2 https://x.com/asecresm/status/2105154163718135908\n\n3 https://x.com/guilin010/status/2058911613701501103\n\n4 https://x.com/pty0808/status/2104579743534416252\n\n5 https://x.com/uudajiejie/status/2104435453839683859\n\n6 https://x.com/xiaoqiaots/status/2104871678815924682\n\n7 https://x.com/youmeier/status/2105239138090074327\n\n8 https://x.com/caochangqing111/status/2104991322851672146\n\n9 https://x.com/clares5a/status/2099566436322885989\n\n已编辑 10 https://x.com/lris_intj/status/2105476751140831573\n\n11 https://x.com/shixiaotaone/status/2103685805558599984\n\n12 https://x.com/sluttytatia404/status/2103382424155783316\n\n13 https://x.com/xiao16877/status/2104998758153060637\n\n14 https://x.com/hanzuzong3/status/2104168103353745456\n\n15 https://x.com/laibeinaixiba/status/2089558662457282900\n\n16 https://x.com/jxzeroc/status/2104965565446324656\n\n17 https://x.com/jiojioyishujia1/status/2105237317095129421\n\n已编辑 18 https://x.com/shixiaotaon/status/2105545748297269550\n\n19 https://x.com/libalababy/status/2075882865607516593\n\n20 https://x.com/wdqhctt/status/2095806437121560944\n\n21 https://x.com/bob7078/status/2104224745214652650\n\n22 https://x.com/svj798ds/status/2093700203945631785\n\n23 https://x.com/qbln9999/status/2105325666497712285\n\n24 https://x.com/wdqhc999/status/2101264264417996856\n\n25 https://x.com/hong14868/status/2104488683504292257\n\n26 https://x.com/nancyyzp/status/2105170220403061117\n\n27 https://x.com/meehutaotv/status/2080632277495918931\n\n28 https://x.com/xiuchiluchu910/status/2104798790167466401\n\n已编辑 29 https://x.com/tiaotiaosheep/status/2102691523167228117\n\n30 https://x.com/snd99x/status/2099488798354923577\n\n仅需互推A名单内其他成员，不需要转其他名单。\nhttps://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-10-01&list=A",
+            "text": "群一·A名单（10月1日）互推名单，共 29 条\n\n1 https://x.com/xye918/status/2105137696280887507\n\n2 https://x.com/asecresm/status/2105154163718135908\n\n3 https://x.com/guilin010/status/2058911613701501103\n\n4 https://x.com/pty0808/status/2104579743534416252\n\n5 https://x.com/uudajiejie/status/2104435453839683859\n\n6 https://x.com/xiaoqiaots/status/2104871678815924682\n\n7 https://x.com/youmeier/status/2105239138090074327\n\n8 https://x.com/caochangqing111/status/2104991322851672146\n\n已编辑 10 https://x.com/lris_intj/status/2105476751140831573\n\n11 https://x.com/shixiaotaone/status/2103685805558599984\n\n12 https://x.com/sluttytatia404/status/2103382424155783316\n\n13 https://x.com/xiao16877/status/2104998758153060637\n\n14 https://x.com/hanzuzong3/status/2104168103353745456\n\n15 https://x.com/laibeinaixiba/status/2089558662457282900\n\n16 https://x.com/jxzeroc/status/2104965565446324656\n\n17 https://x.com/jiojioyishujia1/status/2105237317095129421\n\n已编辑 18 https://x.com/shixiaotaon/status/2105545748297269550\n\n19 https://x.com/libalababy/status/2075882865607516593\n\n20 https://x.com/wdqhctt/status/2095806437121560944\n\n21 https://x.com/bob7078/status/2104224745214652650\n\n22 https://x.com/svj798ds/status/2093700203945631785\n\n23 https://x.com/qbln9999/status/2105325666497712285\n\n24 https://x.com/wdqhc999/status/2101264264417996856\n\n25 https://x.com/hong14868/status/2104488683504292257\n\n26 https://x.com/nancyyzp/status/2105170220403061117\n\n27 https://x.com/meehutaotv/status/2080632277495918931\n\n28 https://x.com/xiuchiluchu910/status/2104798790167466401\n\n已编辑 29 https://x.com/tiaotiaosheep/status/2102691523167228117\n\n30 https://x.com/snd99x/status/2099488798354923577\n\n仅需互推A名单内其他成员，不需要转其他名单。\nhttps://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-10-01&list=A",
             "links": [
               "https://x.com/xye918/status/2105137696280887507",
               "https://x.com/asecresm/status/2105154163718135908",
@@ -586,7 +574,6 @@
               "https://x.com/xiaoqiaots/status/2104871678815924682",
               "https://x.com/youmeier/status/2105239138090074327",
               "https://x.com/caochangqing111/status/2104991322851672146",
-              "https://x.com/clares5a/status/2099566436322885989",
               "https://x.com/lris_intj/status/2105476751140831573",
               "https://x.com/shixiaotaone/status/2103685805558599984",
               "https://x.com/sluttytatia404/status/2103382424155783316",
@@ -609,7 +596,7 @@
               "https://x.com/tiaotiaosheep/status/2102691523167228117",
               "https://x.com/snd99x/status/2099488798354923577"
             ],
-            "updated_at": "2026-10-01 15:45:33"
+            "updated_at": "2026-10-01 19:30:55"
           },
           "B": {
             "slots": [
@@ -1024,21 +1011,6 @@
                 "admitted_at": "2026-10-01 00:01:41"
               },
               {
-                "handle": "clares5a",
-                "post_id": "2099566436322885989",
-                "original_post_id": "2099566436322885989",
-                "url": "https://x.com/clares5a/status/2099566436322885989",
-                "edited": false,
-                "position": 9,
-                "message_id": "8827",
-                "tg_user_id": "7664740669",
-                "time": "2026-10-01 00:00:11",
-                "admission_time": "2026-10-01 00:00:11",
-                "list_id": "A",
-                "display_name": "Clare-S（杭州）",
-                "admitted_at": "2026-10-01 00:01:41"
-              },
-              {
                 "handle": "lris_intj",
                 "post_id": "2105476751140831573",
                 "original_post_id": "2102564042653192518",
@@ -1357,11 +1329,15 @@
                 "admitted_at": "2026-10-01 00:01:41"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "9": "8827"
+            },
             "capacity": 30,
-            "count": 30,
+            "count": 29,
             "roster_capacity": 30,
-            "withdrawn_message_ids": []
+            "withdrawn_message_ids": [
+              "8827"
+            ]
           },
           "B": {
             "slots": [
@@ -1581,7 +1557,9 @@
           "12_wheat": "B",
           "qinxian8023": "B"
         },
-        "withdrawn_message_ids": [],
+        "withdrawn_message_ids": [
+          "8827"
+        ],
         "slots": [
           {
             "handle": "xye918",
@@ -1710,22 +1688,6 @@
             "display_name": "曹长卿唯一大号 支持任何验证",
             "admitted_at": "2026-10-01 00:01:41",
             "list_position": 8
-          },
-          {
-            "handle": "clares5a",
-            "post_id": "2099566436322885989",
-            "original_post_id": "2099566436322885989",
-            "url": "https://x.com/clares5a/status/2099566436322885989",
-            "edited": false,
-            "position": 9,
-            "message_id": "8827",
-            "tg_user_id": "7664740669",
-            "time": "2026-10-01 00:00:11",
-            "admission_time": "2026-10-01 00:00:11",
-            "list_id": "A",
-            "display_name": "Clare-S（杭州）",
-            "admitted_at": "2026-10-01 00:01:41",
-            "list_position": 9
           },
           {
             "handle": "lris_intj",
@@ -2243,8 +2205,10 @@
             "list_position": 11
           }
         ],
-        "vacant_positions": {},
-        "count": 41,
+        "vacant_positions": {
+          "9": "8827"
+        },
+        "count": 40,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60,
@@ -2274,10 +2238,10 @@
     "date": "2026-10-01",
     "groups": {
       "群一": {
-        "digest": "20d8e61fcdb64bcea29a5f23c808eee99721023b4b7fc0eeb076349744069453",
-        "sourceRevision": 9,
+        "digest": "aa1281a9601a1f0779eb5444c0ec50e1710a73555b66521807bef82cb2adada9",
+        "sourceRevision": 10,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-01T17:45:32.959555+08:00"
+        "acknowledged_at": "2026-10-01T19:30:56.167744+08:00"
       },
       "群二": {
         "digest": "c37ac9f8a3bf7e2c00d9110203e5f709d11d230f74bc6427719bd9db2a8983ce",
@@ -2314,7 +2278,16 @@
   },
   "website_deletions": {
     "date": "2026-10-01",
-    "groups": {}
+    "groups": {
+      "群一": {
+        "8827": {
+          "position": 9,
+          "account": "clares5a",
+          "postId": "2099566436322885989",
+          "confirmed_at": "2026-10-01 19:30:53"
+        }
+      }
+    }
   },
   "batch_notices": {
     "date": "2026-10-01",

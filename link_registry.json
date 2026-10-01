@@ -4734,220 +4734,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 10
       },
-      "clares5a": {
-        "x_handle": "clares5a",
-        "check_handle": "clares5a",
-        "dual_link": false,
-        "promo_handle": "clares5a",
-        "tg_username": "kezhensama123",
-        "tg_user_id": 7664740669,
-        "tg_name": "Clare-S",
-        "link": "https://x.com/clares5a/status/2099566436322885989?s=52",
-        "message_text": "https://x.com/clares5a/status/2099566436322885989?s=52",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/clares5a/status/2099566436322885989?s=52",
-            "handle": "clares5a",
-            "post_id": "2099566436322885989",
-            "role": "promo",
-            "author_name": "Clare-S（杭州）",
-            "followers_count": 115844,
-            "followers_text": "11.5W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 115843
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 115843
-              },
-              {
-                "source": "status_legacy",
-                "count": 115843
-              },
-              {
-                "source": "profile_v2",
-                "count": 115844
-              }
-            ],
-            "tweet_text": "卷毛小狗榨汁机\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 45,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/clares5a/status/2099566436322885989?s=52",
-            "post_id": "2099566436322885989",
-            "handle": "clares5a",
-            "source_time": "2026-10-01 00:04:22",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "Clare-S（杭州）",
-        "promo_name": "Clare-S（杭州）",
-        "followers_count": 115844,
-        "followers_text": "11.5W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 115843
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 115843
-          },
-          {
-            "source": "status_legacy",
-            "count": 115843
-          },
-          {
-            "source": "profile_v2",
-            "count": 115844
-          }
-        ],
-        "check_followers_count": 115844,
-        "check_followers_text": "11.5W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 115843
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 115843
-          },
-          {
-            "source": "status_legacy",
-            "count": 115843
-          },
-          {
-            "source": "profile_v2",
-            "count": 115844
-          }
-        ],
-        "tweet_text": "卷毛小狗榨汁机\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 45,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/clares5a/status/2099566436322885989?s=52",
-        "check_url": "https://x.com/clares5a/status/2099566436322885989?s=52",
-        "promo_post_id": "2099566436322885989",
-        "check_post_id": "2099566436322885989",
-        "chat_id": "-1003891628675",
-        "message_id": 8837,
-        "time": "2026-10-01 00:04:22",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 115844,
-        "qualified_followers_text": "11.5W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-01 00:04:22",
-        "admission_locked": false,
-        "daily_list_rank": 9,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 9
-      },
       "uudajiejie": {
         "x_handle": "uudajiejie",
         "check_handle": "uudajiejie",
@@ -6175,6 +5961,220 @@
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
         "daily_list_batch_position": 1
+      },
+      "clares5a": {
+        "x_handle": "clares5a",
+        "check_handle": "clares5a",
+        "dual_link": false,
+        "promo_handle": "clares5a",
+        "tg_username": "kezhensama123",
+        "tg_user_id": 7664740669,
+        "tg_name": "Clare-S",
+        "link": "https://x.com/clares5a/status/2099566436322885989?s=52",
+        "message_text": "https://x.com/clares5a/status/2099566436322885989?s=52",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/clares5a/status/2099566436322885989?s=52",
+            "handle": "clares5a",
+            "post_id": "2099566436322885989",
+            "role": "promo",
+            "author_name": "Clare-S（杭州）",
+            "followers_count": 115844,
+            "followers_text": "11.5W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 115843
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 115843
+              },
+              {
+                "source": "status_legacy",
+                "count": 115843
+              },
+              {
+                "source": "profile_v2",
+                "count": 115844
+              }
+            ],
+            "tweet_text": "卷毛小狗榨汁机\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/clares5a/status/2099566436322885989?s=52",
+            "post_id": "2099566436322885989",
+            "handle": "clares5a",
+            "source_time": "2026-10-01 00:04:22",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Clare-S（杭州）",
+        "promo_name": "Clare-S（杭州）",
+        "followers_count": 115844,
+        "followers_text": "11.5W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 115843
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 115843
+          },
+          {
+            "source": "status_legacy",
+            "count": 115843
+          },
+          {
+            "source": "profile_v2",
+            "count": 115844
+          }
+        ],
+        "check_followers_count": 115844,
+        "check_followers_text": "11.5W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 115843
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 115843
+          },
+          {
+            "source": "status_legacy",
+            "count": 115843
+          },
+          {
+            "source": "profile_v2",
+            "count": 115844
+          }
+        ],
+        "tweet_text": "卷毛小狗榨汁机\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/clares5a/status/2099566436322885989?s=52",
+        "check_url": "https://x.com/clares5a/status/2099566436322885989?s=52",
+        "promo_post_id": "2099566436322885989",
+        "check_post_id": "2099566436322885989",
+        "chat_id": "-1003891628675",
+        "message_id": 8837,
+        "time": "2026-10-01 00:04:22",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 115844,
+        "qualified_followers_text": "11.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-01 00:04:22",
+        "admission_locked": false,
+        "daily_list_rank": 30,
+        "daily_list_status": "waitlist",
+        "daily_list_batch": "",
+        "daily_list_batch_position": 9
       },
       "xye9518": {
         "x_handle": "xye9518",
@@ -13268,220 +13268,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 10
       },
-      "2099566436322885989": {
-        "x_handle": "clares5a",
-        "check_handle": "clares5a",
-        "dual_link": false,
-        "promo_handle": "clares5a",
-        "tg_username": "kezhensama123",
-        "tg_user_id": 7664740669,
-        "tg_name": "Clare-S",
-        "link": "https://x.com/clares5a/status/2099566436322885989?s=52",
-        "message_text": "https://x.com/clares5a/status/2099566436322885989?s=52",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/clares5a/status/2099566436322885989?s=52",
-            "handle": "clares5a",
-            "post_id": "2099566436322885989",
-            "role": "promo",
-            "author_name": "Clare-S（杭州）",
-            "followers_count": 115844,
-            "followers_text": "11.5W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 115843
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 115843
-              },
-              {
-                "source": "status_legacy",
-                "count": 115843
-              },
-              {
-                "source": "profile_v2",
-                "count": 115844
-              }
-            ],
-            "tweet_text": "卷毛小狗榨汁机\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 45,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/clares5a/status/2099566436322885989?s=52",
-            "post_id": "2099566436322885989",
-            "handle": "clares5a",
-            "source_time": "2026-10-01 00:04:22",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "Clare-S（杭州）",
-        "promo_name": "Clare-S（杭州）",
-        "followers_count": 115844,
-        "followers_text": "11.5W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 115843
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 115843
-          },
-          {
-            "source": "status_legacy",
-            "count": 115843
-          },
-          {
-            "source": "profile_v2",
-            "count": 115844
-          }
-        ],
-        "check_followers_count": 115844,
-        "check_followers_text": "11.5W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 115843
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 115843
-          },
-          {
-            "source": "status_legacy",
-            "count": 115843
-          },
-          {
-            "source": "profile_v2",
-            "count": 115844
-          }
-        ],
-        "tweet_text": "卷毛小狗榨汁机\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 45,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/clares5a/status/2099566436322885989?s=52",
-        "check_url": "https://x.com/clares5a/status/2099566436322885989?s=52",
-        "promo_post_id": "2099566436322885989",
-        "check_post_id": "2099566436322885989",
-        "chat_id": "-1003891628675",
-        "message_id": 8837,
-        "time": "2026-10-01 00:04:22",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 115844,
-        "qualified_followers_text": "11.5W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-01 00:04:22",
-        "admission_locked": false,
-        "daily_list_rank": 9,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 9
-      },
       "2104991322851672146": {
         "x_handle": "caochangqing111",
         "check_handle": "caochangqing111",
@@ -14923,6 +14709,220 @@
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
         "daily_list_batch_position": 1
+      },
+      "2099566436322885989": {
+        "x_handle": "clares5a",
+        "check_handle": "clares5a",
+        "dual_link": false,
+        "promo_handle": "clares5a",
+        "tg_username": "kezhensama123",
+        "tg_user_id": 7664740669,
+        "tg_name": "Clare-S",
+        "link": "https://x.com/clares5a/status/2099566436322885989?s=52",
+        "message_text": "https://x.com/clares5a/status/2099566436322885989?s=52",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/clares5a/status/2099566436322885989?s=52",
+            "handle": "clares5a",
+            "post_id": "2099566436322885989",
+            "role": "promo",
+            "author_name": "Clare-S（杭州）",
+            "followers_count": 115844,
+            "followers_text": "11.5W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 115843
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 115843
+              },
+              {
+                "source": "status_legacy",
+                "count": 115843
+              },
+              {
+                "source": "profile_v2",
+                "count": 115844
+              }
+            ],
+            "tweet_text": "卷毛小狗榨汁机\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/clares5a/status/2099566436322885989?s=52",
+            "post_id": "2099566436322885989",
+            "handle": "clares5a",
+            "source_time": "2026-10-01 00:04:22",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Clare-S（杭州）",
+        "promo_name": "Clare-S（杭州）",
+        "followers_count": 115844,
+        "followers_text": "11.5W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 115843
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 115843
+          },
+          {
+            "source": "status_legacy",
+            "count": 115843
+          },
+          {
+            "source": "profile_v2",
+            "count": 115844
+          }
+        ],
+        "check_followers_count": 115844,
+        "check_followers_text": "11.5W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 115843
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 115843
+          },
+          {
+            "source": "status_legacy",
+            "count": 115843
+          },
+          {
+            "source": "profile_v2",
+            "count": 115844
+          }
+        ],
+        "tweet_text": "卷毛小狗榨汁机\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/clares5a/status/2099566436322885989?s=52",
+        "check_url": "https://x.com/clares5a/status/2099566436322885989?s=52",
+        "promo_post_id": "2099566436322885989",
+        "check_post_id": "2099566436322885989",
+        "chat_id": "-1003891628675",
+        "message_id": 8837,
+        "time": "2026-10-01 00:04:22",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 115844,
+        "qualified_followers_text": "11.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-01 00:04:22",
+        "admission_locked": false,
+        "daily_list_rank": 30,
+        "daily_list_status": "waitlist",
+        "daily_list_batch": "",
+        "daily_list_batch_position": 9
       },
       "2105134376715727068": {
         "x_handle": "xye9518",
@@ -17420,21 +17420,6 @@
                 "admitted_at": "2026-10-01 00:01:41"
               },
               {
-                "handle": "clares5a",
-                "post_id": "2099566436322885989",
-                "original_post_id": "2099566436322885989",
-                "url": "https://x.com/clares5a/status/2099566436322885989",
-                "edited": false,
-                "position": 9,
-                "message_id": "8827",
-                "tg_user_id": "7664740669",
-                "time": "2026-10-01 00:00:11",
-                "admission_time": "2026-10-01 00:00:11",
-                "list_id": "A",
-                "display_name": "Clare-S（杭州）",
-                "admitted_at": "2026-10-01 00:01:41"
-              },
-              {
                 "handle": "lris_intj",
                 "post_id": "2105476751140831573",
                 "original_post_id": "2102564042653192518",
@@ -17753,11 +17738,15 @@
                 "admitted_at": "2026-10-01 00:01:41"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "9": "8827"
+            },
             "capacity": 30,
-            "count": 30,
+            "count": 29,
             "roster_capacity": 30,
-            "withdrawn_message_ids": []
+            "withdrawn_message_ids": [
+              "8827"
+            ]
           },
           "B": {
             "slots": [
@@ -17977,7 +17966,9 @@
           "12_wheat": "B",
           "qinxian8023": "B"
         },
-        "withdrawn_message_ids": [],
+        "withdrawn_message_ids": [
+          "8827"
+        ],
         "slots": [
           {
             "handle": "xye918",
@@ -18106,22 +18097,6 @@
             "display_name": "曹长卿唯一大号 支持任何验证",
             "admitted_at": "2026-10-01 00:01:41",
             "list_position": 8
-          },
-          {
-            "handle": "clares5a",
-            "post_id": "2099566436322885989",
-            "original_post_id": "2099566436322885989",
-            "url": "https://x.com/clares5a/status/2099566436322885989",
-            "edited": false,
-            "position": 9,
-            "message_id": "8827",
-            "tg_user_id": "7664740669",
-            "time": "2026-10-01 00:00:11",
-            "admission_time": "2026-10-01 00:00:11",
-            "list_id": "A",
-            "display_name": "Clare-S（杭州）",
-            "admitted_at": "2026-10-01 00:01:41",
-            "list_position": 9
           },
           {
             "handle": "lris_intj",
@@ -18639,8 +18614,10 @@
             "list_position": 11
           }
         ],
-        "vacant_positions": {},
-        "count": 41,
+        "vacant_positions": {
+          "9": "8827"
+        },
+        "count": 40,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60,
@@ -18655,6 +18632,10 @@
         "8836": {
           "reason": "message_deleted_in_complete_snapshot",
           "confirmed_at": "2026-10-01 00:15:32"
+        },
+        "8827": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-10-01 19:30:53"
         }
       }
     }

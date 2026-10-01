@@ -5105,7 +5105,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:01:28",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5319,7 +5319,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:02:14",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5415,12 +5415,13 @@
         ],
         "x_name": "AKs",
         "promo_name": "AKs",
-        "followers_count": 205791,
+        "followers_count": 205810,
         "followers_text": "20.5W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -5446,6 +5447,30 @@
           {
             "source": "status_legacy",
             "count": 205791
+          },
+          {
+            "source": "status_v2",
+            "count": 205810
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 205806
+          },
+          {
+            "source": "status_legacy",
+            "count": 205810
+          },
+          {
+            "source": "status_v2",
+            "count": 205806
+          },
+          {
+            "source": "status_legacy",
+            "count": 205806
+          },
+          {
+            "source": "profile_v2",
+            "count": 205806
           }
         ],
         "check_followers_count": 205790,
@@ -5519,17 +5544,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 205791,
+        "qualified_followers_count": 205810,
         "qualified_followers_text": "20.5W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:02:29",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5745,7 +5771,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:02:36",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5949,7 +5975,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:04:00",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -6163,7 +6189,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:04:08",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -6367,7 +6393,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:04:46",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -6581,7 +6607,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:05:39",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 32,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -6795,7 +6821,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:05:52",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -12126,7 +12152,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:01:28",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12340,7 +12366,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:02:14",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12436,12 +12462,13 @@
         ],
         "x_name": "AKs",
         "promo_name": "AKs",
-        "followers_count": 205791,
+        "followers_count": 205810,
         "followers_text": "20.5W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -12467,6 +12494,30 @@
           {
             "source": "status_legacy",
             "count": 205791
+          },
+          {
+            "source": "status_v2",
+            "count": 205810
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 205806
+          },
+          {
+            "source": "status_legacy",
+            "count": 205810
+          },
+          {
+            "source": "status_v2",
+            "count": 205806
+          },
+          {
+            "source": "status_legacy",
+            "count": 205806
+          },
+          {
+            "source": "profile_v2",
+            "count": 205806
           }
         ],
         "check_followers_count": 205790,
@@ -12540,17 +12591,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 205791,
+        "qualified_followers_count": 205810,
         "qualified_followers_text": "20.5W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:02:29",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12766,7 +12818,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:02:36",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12970,7 +13022,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:04:00",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -13184,7 +13236,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:04:08",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -13388,7 +13440,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:04:46",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -13602,7 +13654,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:05:39",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 32,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -13816,7 +13868,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-02 00:05:52",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",

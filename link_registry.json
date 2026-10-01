@@ -2586,17 +2586,17 @@
         "tg_username": "shixiaotaone",
         "tg_user_id": 5275613873,
         "tg_name": "是小桃呢",
-        "link": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
-        "message_text": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
+        "link": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
+        "message_text": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
+            "url": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
             "handle": "shixiaotaon",
-            "post_id": "2104482448511996277",
+            "post_id": "2105545748297269550",
             "role": "promo",
             "author_name": "小小桃",
-            "followers_count": 580235,
+            "followers_count": 580625,
             "followers_text": "58W",
             "followers_sources": [
               "status_v2",
@@ -2607,22 +2607,22 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 580235
+                "count": 580625
               },
               {
                 "source": "status_legacy_i",
-                "count": 580235
+                "count": 580625
               },
               {
                 "source": "status_legacy",
-                "count": 580235
+                "count": 580625
               },
               {
                 "source": "profile_v2",
-                "count": 580235
+                "count": 580625
               }
             ],
-            "tweet_text": "坏女人被…\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text": "汪汪汪…\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -2633,27 +2633,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 39,
+                "length": 38,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 39,
+                "length": 38,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 39,
+                "length": 38,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 39,
+                "length": 38,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 39,
+                "length": 38,
                 "required_mentions_count": 3
               }
             ],
@@ -2663,7 +2663,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
+            "post_id": "2105545748297269550",
+            "handle": "shixiaotaon",
+            "source_time": "2026-10-01 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
             "post_id": "2104482448511996277",
             "handle": "shixiaotaon",
@@ -2673,7 +2681,7 @@
         ],
         "x_name": "小小桃",
         "promo_name": "小小桃",
-        "followers_count": 580235,
+        "followers_count": 580625,
         "followers_text": "58W",
         "followers_sources": [
           "status_v2",
@@ -2684,22 +2692,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "status_legacy_i",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "status_legacy",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "profile_v2",
-            "count": 580235
+            "count": 580625
           }
         ],
-        "check_followers_count": 580235,
+        "check_followers_count": 580625,
         "check_followers_text": "58W",
         "check_followers_sources": [
           "status_v2",
@@ -2710,22 +2718,22 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "status_legacy_i",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "status_legacy",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "profile_v2",
-            "count": 580235
+            "count": 580625
           }
         ],
-        "tweet_text": "坏女人被…\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text": "汪汪汪…\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -2736,46 +2744,46 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 39,
+            "length": 38,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 39,
+            "length": 38,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 39,
+            "length": 38,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 39,
+            "length": 38,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 39,
+            "length": 38,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
-        "check_url": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
-        "promo_post_id": "2104482448511996277",
-        "check_post_id": "2104482448511996277",
+        "promo_url": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
+        "check_url": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
+        "promo_post_id": "2105545748297269550",
+        "check_post_id": "2105545748297269550",
         "chat_id": "-1003891628675",
         "message_id": 8817,
         "time": "2026-10-01 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-01 15:39:13",
         "followers_min": 100000,
-        "qualified_followers_count": 580235,
+        "qualified_followers_count": 580625,
         "qualified_followers_text": "58W",
         "qualified_followers_sources": [
           "status_v2",
@@ -10890,7 +10898,7 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 19
       },
-      "2104482448511996277": {
+      "2105545748297269550": {
         "x_handle": "shixiaotaon",
         "check_handle": "shixiaotaon",
         "dual_link": false,
@@ -10898,17 +10906,17 @@
         "tg_username": "shixiaotaone",
         "tg_user_id": 5275613873,
         "tg_name": "是小桃呢",
-        "link": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
-        "message_text": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
+        "link": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
+        "message_text": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
+            "url": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
             "handle": "shixiaotaon",
-            "post_id": "2104482448511996277",
+            "post_id": "2105545748297269550",
             "role": "promo",
             "author_name": "小小桃",
-            "followers_count": 580235,
+            "followers_count": 580625,
             "followers_text": "58W",
             "followers_sources": [
               "status_v2",
@@ -10919,22 +10927,22 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 580235
+                "count": 580625
               },
               {
                 "source": "status_legacy_i",
-                "count": 580235
+                "count": 580625
               },
               {
                 "source": "status_legacy",
-                "count": 580235
+                "count": 580625
               },
               {
                 "source": "profile_v2",
-                "count": 580235
+                "count": 580625
               }
             ],
-            "tweet_text": "坏女人被…\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text": "汪汪汪…\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -10945,27 +10953,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 39,
+                "length": 38,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 39,
+                "length": 38,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 39,
+                "length": 38,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 39,
+                "length": 38,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 39,
+                "length": 38,
                 "required_mentions_count": 3
               }
             ],
@@ -10975,7 +10983,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
+            "post_id": "2105545748297269550",
+            "handle": "shixiaotaon",
+            "source_time": "2026-10-01 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
             "post_id": "2104482448511996277",
             "handle": "shixiaotaon",
@@ -10985,7 +11001,7 @@
         ],
         "x_name": "小小桃",
         "promo_name": "小小桃",
-        "followers_count": 580235,
+        "followers_count": 580625,
         "followers_text": "58W",
         "followers_sources": [
           "status_v2",
@@ -10996,22 +11012,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "status_legacy_i",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "status_legacy",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "profile_v2",
-            "count": 580235
+            "count": 580625
           }
         ],
-        "check_followers_count": 580235,
+        "check_followers_count": 580625,
         "check_followers_text": "58W",
         "check_followers_sources": [
           "status_v2",
@@ -11022,22 +11038,22 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "status_legacy_i",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "status_legacy",
-            "count": 580235
+            "count": 580625
           },
           {
             "source": "profile_v2",
-            "count": 580235
+            "count": 580625
           }
         ],
-        "tweet_text": "坏女人被…\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text": "汪汪汪…\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -11048,46 +11064,46 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 39,
+            "length": 38,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 39,
+            "length": 38,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 39,
+            "length": 38,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 39,
+            "length": 38,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 39,
+            "length": 38,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
-        "check_url": "https://x.com/shixiaotaon/status/2104482448511996277?s=20",
-        "promo_post_id": "2104482448511996277",
-        "check_post_id": "2104482448511996277",
+        "promo_url": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
+        "check_url": "https://x.com/shixiaotaon/status/2105545748297269550?s=46",
+        "promo_post_id": "2105545748297269550",
+        "check_post_id": "2105545748297269550",
         "chat_id": "-1003891628675",
         "message_id": 8817,
         "time": "2026-10-01 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-01 15:39:13",
         "followers_min": 100000,
-        "qualified_followers_count": 580235,
+        "qualified_followers_count": 580625,
         "qualified_followers_text": "58W",
         "qualified_followers_sources": [
           "status_v2",
@@ -17113,10 +17129,10 @@
               },
               {
                 "handle": "shixiaotaon",
-                "post_id": "2104482448511996277",
+                "post_id": "2105545748297269550",
                 "original_post_id": "2104482448511996277",
-                "url": "https://x.com/shixiaotaon/status/2104482448511996277",
-                "edited": false,
+                "url": "https://x.com/shixiaotaon/status/2105545748297269550",
+                "edited": true,
                 "position": 18,
                 "message_id": "8817",
                 "tg_user_id": "5275613873",
@@ -17124,7 +17140,8 @@
                 "admission_time": "2026-10-01 00:00:00",
                 "list_id": "A",
                 "display_name": "小小桃",
-                "admitted_at": "2026-10-01 00:01:41"
+                "admitted_at": "2026-10-01 00:01:41",
+                "edit_time": "2026-10-01 15:39:13"
               },
               {
                 "handle": "libalababy",
@@ -17793,10 +17810,10 @@
           },
           {
             "handle": "shixiaotaon",
-            "post_id": "2104482448511996277",
+            "post_id": "2105545748297269550",
             "original_post_id": "2104482448511996277",
-            "url": "https://x.com/shixiaotaon/status/2104482448511996277",
-            "edited": false,
+            "url": "https://x.com/shixiaotaon/status/2105545748297269550",
+            "edited": true,
             "position": 18,
             "message_id": "8817",
             "tg_user_id": "5275613873",
@@ -17805,6 +17822,7 @@
             "list_id": "A",
             "display_name": "小小桃",
             "admitted_at": "2026-10-01 00:01:41",
+            "edit_time": "2026-10-01 15:39:13",
             "list_position": 18
           },
           {

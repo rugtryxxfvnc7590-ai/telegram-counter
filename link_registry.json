@@ -4272,38 +4272,43 @@
         "tg_username": "Jcit001",
         "tg_user_id": 5927788237,
         "tg_name": "感情大师",
-        "link": "https://x.com/xiao16877/status/2104179744808087638?s=46",
-        "message_text": "https://x.com/xiao16877/status/2104179744808087638?s=46",
+        "link": "https://x.com/xiao16877/status/2105604452749279423?s=46",
+        "message_text": "https://x.com/xiao16877/status/2105604452749279423?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/xiao16877/status/2104179744808087638?s=46",
+            "url": "https://x.com/xiao16877/status/2105604452749279423?s=46",
             "handle": "xiao16877",
-            "post_id": "2104179744808087638",
+            "post_id": "2105604452749279423",
             "role": "promo",
             "author_name": "南京米娅",
-            "followers_count": 146232,
+            "followers_count": 146764,
             "followers_text": "14.6W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 146232
+                "count": 146764
               },
               {
                 "source": "status_legacy_i",
-                "count": 146232
+                "count": 146764
               },
               {
                 "source": "status_legacy",
-                "count": 146232
+                "count": 146764
+              },
+              {
+                "source": "profile_v2",
+                "count": 146764
               }
             ],
-            "tweet_text": "给你套起来吧~\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text": "开着外面的风景被我法～\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -4314,27 +4319,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 44,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 44,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 44,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 44,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 44,
+                "length": 48,
                 "required_mentions_count": 3
               }
             ],
@@ -4344,7 +4349,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/xiao16877/status/2105604452749279423?s=46",
+            "post_id": "2105604452749279423",
+            "handle": "xiao16877",
+            "source_time": "2026-10-02 00:00:36",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/xiao16877/status/2104179744808087638?s=46",
             "post_id": "2104179744808087638",
             "handle": "xiao16877",
@@ -4354,7 +4367,7 @@
         ],
         "x_name": "南京米娅",
         "promo_name": "南京米娅",
-        "followers_count": 146232,
+        "followers_count": 146764,
         "followers_text": "14.6W",
         "followers_sources": [
           "status_v2",
@@ -4365,43 +4378,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 146232
+            "count": 146764
           },
           {
             "source": "status_legacy_i",
-            "count": 146232
+            "count": 146764
           },
           {
             "source": "status_legacy",
-            "count": 146232
+            "count": 146764
           },
           {
             "source": "profile_v2",
-            "count": 146232
+            "count": 146764
           }
         ],
-        "check_followers_count": 146232,
+        "check_followers_count": 146764,
         "check_followers_text": "14.6W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 146232
+            "count": 146764
           },
           {
             "source": "status_legacy_i",
-            "count": 146232
+            "count": 146764
           },
           {
             "source": "status_legacy",
-            "count": 146232
+            "count": 146764
+          },
+          {
+            "source": "profile_v2",
+            "count": 146764
           }
         ],
-        "tweet_text": "给你套起来吧~\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text": "开着外面的风景被我法～\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -4412,46 +4430,46 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 44,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 44,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 44,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 44,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 44,
+            "length": 48,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/xiao16877/status/2104179744808087638?s=46",
-        "check_url": "https://x.com/xiao16877/status/2104179744808087638?s=46",
-        "promo_post_id": "2104179744808087638",
-        "check_post_id": "2104179744808087638",
+        "promo_url": "https://x.com/xiao16877/status/2105604452749279423?s=46",
+        "check_url": "https://x.com/xiao16877/status/2105604452749279423?s=46",
+        "promo_post_id": "2105604452749279423",
+        "check_post_id": "2105604452749279423",
         "chat_id": "-1003891628675",
         "message_id": 8880,
         "time": "2026-10-02 00:00:36",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-02 14:32:30",
         "followers_min": 100000,
-        "qualified_followers_count": 146232,
+        "qualified_followers_count": 146764,
         "qualified_followers_text": "14.6W",
         "qualified_followers_sources": [
           "status_v2",
@@ -11956,7 +11974,7 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 11
       },
-      "2104179744808087638": {
+      "2105604452749279423": {
         "x_handle": "xiao16877",
         "check_handle": "xiao16877",
         "dual_link": false,
@@ -11964,38 +11982,43 @@
         "tg_username": "Jcit001",
         "tg_user_id": 5927788237,
         "tg_name": "感情大师",
-        "link": "https://x.com/xiao16877/status/2104179744808087638?s=46",
-        "message_text": "https://x.com/xiao16877/status/2104179744808087638?s=46",
+        "link": "https://x.com/xiao16877/status/2105604452749279423?s=46",
+        "message_text": "https://x.com/xiao16877/status/2105604452749279423?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/xiao16877/status/2104179744808087638?s=46",
+            "url": "https://x.com/xiao16877/status/2105604452749279423?s=46",
             "handle": "xiao16877",
-            "post_id": "2104179744808087638",
+            "post_id": "2105604452749279423",
             "role": "promo",
             "author_name": "南京米娅",
-            "followers_count": 146232,
+            "followers_count": 146764,
             "followers_text": "14.6W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 146232
+                "count": 146764
               },
               {
                 "source": "status_legacy_i",
-                "count": 146232
+                "count": 146764
               },
               {
                 "source": "status_legacy",
-                "count": 146232
+                "count": 146764
+              },
+              {
+                "source": "profile_v2",
+                "count": 146764
               }
             ],
-            "tweet_text": "给你套起来吧~\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text": "开着外面的风景被我法～\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -12006,27 +12029,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 44,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 44,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 44,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 44,
+                "length": 48,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 44,
+                "length": 48,
                 "required_mentions_count": 3
               }
             ],
@@ -12036,7 +12059,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/xiao16877/status/2105604452749279423?s=46",
+            "post_id": "2105604452749279423",
+            "handle": "xiao16877",
+            "source_time": "2026-10-02 00:00:36",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/xiao16877/status/2104179744808087638?s=46",
             "post_id": "2104179744808087638",
             "handle": "xiao16877",
@@ -12046,7 +12077,7 @@
         ],
         "x_name": "南京米娅",
         "promo_name": "南京米娅",
-        "followers_count": 146232,
+        "followers_count": 146764,
         "followers_text": "14.6W",
         "followers_sources": [
           "status_v2",
@@ -12057,43 +12088,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 146232
+            "count": 146764
           },
           {
             "source": "status_legacy_i",
-            "count": 146232
+            "count": 146764
           },
           {
             "source": "status_legacy",
-            "count": 146232
+            "count": 146764
           },
           {
             "source": "profile_v2",
-            "count": 146232
+            "count": 146764
           }
         ],
-        "check_followers_count": 146232,
+        "check_followers_count": 146764,
         "check_followers_text": "14.6W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 146232
+            "count": 146764
           },
           {
             "source": "status_legacy_i",
-            "count": 146232
+            "count": 146764
           },
           {
             "source": "status_legacy",
-            "count": 146232
+            "count": 146764
+          },
+          {
+            "source": "profile_v2",
+            "count": 146764
           }
         ],
-        "tweet_text": "给你套起来吧~\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text": "开着外面的风景被我法～\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -12104,46 +12140,46 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 44,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 44,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 44,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 44,
+            "length": 48,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 44,
+            "length": 48,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/xiao16877/status/2104179744808087638?s=46",
-        "check_url": "https://x.com/xiao16877/status/2104179744808087638?s=46",
-        "promo_post_id": "2104179744808087638",
-        "check_post_id": "2104179744808087638",
+        "promo_url": "https://x.com/xiao16877/status/2105604452749279423?s=46",
+        "check_url": "https://x.com/xiao16877/status/2105604452749279423?s=46",
+        "promo_post_id": "2105604452749279423",
+        "check_post_id": "2105604452749279423",
         "chat_id": "-1003891628675",
         "message_id": 8880,
         "time": "2026-10-02 00:00:36",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-02 14:32:30",
         "followers_min": 100000,
-        "qualified_followers_count": 146232,
+        "qualified_followers_count": 146764,
         "qualified_followers_text": "14.6W",
         "qualified_followers_sources": [
           "status_v2",
@@ -15322,10 +15358,10 @@
               },
               {
                 "handle": "xiao16877",
-                "post_id": "2104179744808087638",
+                "post_id": "2105604452749279423",
                 "original_post_id": "2104179744808087638",
-                "url": "https://x.com/xiao16877/status/2104179744808087638",
-                "edited": false,
+                "url": "https://x.com/xiao16877/status/2105604452749279423",
+                "edited": true,
                 "position": 10,
                 "message_id": "8880",
                 "tg_user_id": "5927788237",
@@ -15333,7 +15369,8 @@
                 "admission_time": "2026-10-02 00:00:36",
                 "list_id": "A",
                 "display_name": "南京米娅",
-                "admitted_at": "2026-10-02 00:01:40"
+                "admitted_at": "2026-10-02 00:01:40",
+                "edit_time": "2026-10-02 14:32:30"
               },
               {
                 "handle": "lris_intj",
@@ -15929,10 +15966,10 @@
           },
           {
             "handle": "xiao16877",
-            "post_id": "2104179744808087638",
+            "post_id": "2105604452749279423",
             "original_post_id": "2104179744808087638",
-            "url": "https://x.com/xiao16877/status/2104179744808087638",
-            "edited": false,
+            "url": "https://x.com/xiao16877/status/2105604452749279423",
+            "edited": true,
             "position": 10,
             "message_id": "8880",
             "tg_user_id": "5927788237",
@@ -15941,6 +15978,7 @@
             "list_id": "A",
             "display_name": "南京米娅",
             "admitted_at": "2026-10-02 00:01:40",
+            "edit_time": "2026-10-02 14:32:30",
             "list_position": 10
           },
           {

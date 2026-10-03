@@ -16466,7 +16466,8 @@
         "count": 35,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60
+        "admission_limit": 60,
+        "cutoff_finalized": true
       }
     }
   },

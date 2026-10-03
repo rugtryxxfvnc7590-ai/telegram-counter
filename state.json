@@ -54,7 +54,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-03",
-    "run_at": "2026-10-03 18:45:34",
+    "run_at": "2026-10-03 19:00:53",
     "completed_groups": [
       "群一",
       "群二",
@@ -62,40 +62,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37117435692:1",
-        "checked_at": "2026-10-03 18:45:35",
+        "run_key": "37118246612:1",
+        "checked_at": "2026-10-03 19:00:54",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37117435692:1",
-        "checked_at": "2026-10-03 18:45:35",
+        "run_key": "37118246612:1",
+        "checked_at": "2026-10-03 19:00:54",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37117435692:1",
-        "checked_at": "2026-10-03 18:45:35",
+        "run_key": "37118246612:1",
+        "checked_at": "2026-10-03 19:00:54",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37117435692:1",
-        "checked_at": "2026-10-03 18:45:35",
+        "run_key": "37118246612:1",
+        "checked_at": "2026-10-03 19:00:54",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37117435692:1",
-        "checked_at": "2026-10-03 18:45:35",
+        "run_key": "37118246612:1",
+        "checked_at": "2026-10-03 19:00:54",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37117435692:1",
-        "checked_at": "2026-10-03 18:45:35",
+        "run_key": "37118246612:1",
+        "checked_at": "2026-10-03 19:00:54",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -603,8 +603,139 @@
               "https://x.com/snd99x/status/2098329473385197995"
             ],
             "updated_at": "2026-10-03 14:00:44"
+          },
+          "B": {
+            "slots": [
+              {
+                "handle": "xiaochen000007",
+                "post_id": "2105207256023482759",
+                "original_post_id": "2105207256023482759",
+                "url": "https://x.com/xiaochen000007/status/2105207256023482759",
+                "edited": false,
+                "position": 2,
+                "message_id": "8947",
+                "tg_user_id": "5718822279",
+                "time": "2026-10-03 10:31:11",
+                "admission_time": "2026-10-03 10:31:11",
+                "list_id": "B",
+                "display_name": "小陈和小王的日常",
+                "admitted_at": "2026-10-03 10:45:37"
+              },
+              {
+                "handle": "uudajiejie",
+                "post_id": "2106286909081481297",
+                "original_post_id": "2104435453839683859",
+                "url": "https://x.com/uudajiejie/status/2106286909081481297",
+                "edited": true,
+                "position": 3,
+                "message_id": "8945",
+                "tg_user_id": "8244388416",
+                "time": "2026-10-03 02:36:01",
+                "admission_time": "2026-10-03 02:36:01",
+                "list_id": "B",
+                "display_name": "UU大姐姐",
+                "admitted_at": "2026-10-03 02:45:27",
+                "edit_time": "2026-10-03 15:36:02"
+              },
+              {
+                "handle": "abaodz1",
+                "post_id": "2105716454834508182",
+                "original_post_id": "2105716454834508182",
+                "url": "https://x.com/abaodz1/status/2105716454834508182",
+                "edited": false,
+                "position": 4,
+                "message_id": "8942",
+                "tg_user_id": "7326484468",
+                "time": "2026-10-03 00:16:03",
+                "admission_time": "2026-10-03 00:16:03",
+                "list_id": "B",
+                "display_name": "家有e妻（原创）",
+                "admitted_at": "2026-10-03 00:30:39"
+              },
+              {
+                "handle": "aksaks99999",
+                "post_id": "2101602852980318419",
+                "original_post_id": "2101602852980318419",
+                "url": "https://x.com/aksaks99999/status/2101602852980318419",
+                "edited": false,
+                "position": 5,
+                "message_id": "8941",
+                "tg_user_id": "5829845216",
+                "time": "2026-10-03 00:04:48",
+                "admission_time": "2026-10-03 00:04:48",
+                "list_id": "B",
+                "display_name": "AKs",
+                "admitted_at": "2026-10-03 00:15:52"
+              },
+              {
+                "handle": "asecresm",
+                "post_id": "2100123909492547675",
+                "original_post_id": "2100123909492547675",
+                "url": "https://x.com/asecresm/status/2100123909492547675",
+                "edited": false,
+                "position": 6,
+                "message_id": "8940",
+                "tg_user_id": "8548890215",
+                "time": "2026-10-03 00:04:41",
+                "admission_time": "2026-10-03 00:04:41",
+                "list_id": "B",
+                "display_name": "云儿",
+                "admitted_at": "2026-10-03 00:15:52"
+              }
+            ],
+            "vacant_positions": {
+              "1": "8949"
+            },
+            "capacity": 6,
+            "count": 5,
+            "roster_capacity": 6,
+            "withdrawn_message_ids": [
+              "8949"
+            ],
+            "sent": true,
+            "message_id": 3146,
+            "owner_chat_id": "8614747348",
+            "text": "群一·B名单（10月3日）互推名单，共 5 条\n\n2 https://x.com/xiaochen000007/status/2105207256023482759\n\n已编辑 3 https://x.com/uudajiejie/status/2106286909081481297\n\n4 https://x.com/abaodz1/status/2105716454834508182\n\n5 https://x.com/aksaks99999/status/2101602852980318419\n\n6 https://x.com/asecresm/status/2100123909492547675\n\n仅需互推B名单内其他成员，不需要转其他名单。\nhttps://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-10-03&list=B",
+            "links": [
+              "https://x.com/xiaochen000007/status/2105207256023482759",
+              "https://x.com/uudajiejie/status/2106286909081481297",
+              "https://x.com/abaodz1/status/2105716454834508182",
+              "https://x.com/aksaks99999/status/2101602852980318419",
+              "https://x.com/asecresm/status/2100123909492547675"
+            ],
+            "updated_at": "2026-10-03 19:00:56"
           }
         }
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-10-03 19:00:56",
+        "count": 0,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [],
+        "slots": [],
+        "message_id": 3147,
+        "owner_chat_id": "8614747348",
+        "text": "群二（10月3日）互推名单，共 0 条\n\n今日没有合格互推链接",
+        "roster_capacity": 0,
+        "vacant_positions": {},
+        "withdrawn_message_ids": []
+      },
+      "群三": {
+        "sent": true,
+        "sent_at": "2026-10-03 19:00:56",
+        "count": 0,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [],
+        "slots": [],
+        "message_id": 3148,
+        "owner_chat_id": "8614747348",
+        "text": "群三（10月3日）互推名单，共 0 条\n\n今日没有合格互推链接",
+        "roster_capacity": 0,
+        "vacant_positions": {},
+        "withdrawn_message_ids": []
       }
     }
   },
@@ -1828,7 +1959,8 @@
         "count": 35,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60
+        "admission_limit": 60,
+        "cutoff_finalized": true
       },
       "群二": {
         "slots": [],
@@ -1875,7 +2007,20 @@
   },
   "cutoff_announcements": {
     "date": "2026-10-03",
-    "groups": {}
+    "groups": {
+      "群一": {
+        "status": "sent",
+        "text": "群一（10月3日）今日互推收录已截止\r\n\r\n野推过的撤销， 再次刷新主页开始转，完毕后核对主页转发数量是否与截止数量 一致 \r\n\r\n✅[点击此主页转发互推 ](https://x.com/zukongjia88)\r\n\r\n请先打开主页内的网站，搜索自己的X用户名或昵称，确认属于A名单还是B名单。\r\n\r\n1️⃣分段时间转发、务必停留互推人主页（播放视频或浏览图片评论区）避免因刷屏转发机器人行为导致封号 \r\n2️⃣统一19：00转发根据个人时间安排可自行选择提前转）最迟于1：00必须转发完毕！ 截止时间后检查各位主页，欢迎监督举！\r\n3️⃣只需转发自己所属名单内其他成员的帖子，不同名单之间不要求互推。不要按群一主页全部转发，避免混推。",
+        "count": 35,
+        "count_basis": "admitted_roster",
+        "chat_id": "-1003891628675",
+        "delivery_mode": "standalone",
+        "attempts": 1,
+        "attempted_at": "2026-10-03 19:00:57",
+        "sent_at": "2026-10-03 19:00:57",
+        "message_id": 8951
+      }
+    }
   },
   "website_deletions": {
     "date": "2026-10-03",

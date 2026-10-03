@@ -7409,7 +7409,7 @@
             "url": "https://x.com/hb_bno/status/1991463359703920644?s=46",
             "post_id": "1991463359703920644",
             "handle": "hb_bno",
-            "source_time": "2026-10-03 14:58:27",
+            "source_time": "2026-10-03 16:06:51",
             "edit_time": ""
           }
         ],
@@ -7510,8 +7510,8 @@
         "promo_post_id": "1991463359703920644",
         "check_post_id": "1991463359703920644",
         "chat_id": "-1003891628675",
-        "message_id": 8949,
-        "time": "2026-10-03 14:58:27",
+        "message_id": 8950,
+        "time": "2026-10-03 16:06:51",
         "after_cutoff": false,
         "cutoff_time": "",
         "edited": false,
@@ -7527,12 +7527,11 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
-        "admission_time": "2026-10-03 14:58:27",
-        "admission_locked": true,
-        "daily_list_rank": 31,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "B",
-        "daily_list_batch_position": 1
+        "admission_time": "2026-10-03 16:06:51",
+        "admission_locked": false,
+        "daily_list_rank": 36,
+        "daily_list_status": "waitlist",
+        "daily_list_batch": ""
       }
     },
     "-1003218974409": {},
@@ -15161,7 +15160,7 @@
             "url": "https://x.com/hb_bno/status/1991463359703920644?s=46",
             "post_id": "1991463359703920644",
             "handle": "hb_bno",
-            "source_time": "2026-10-03 14:58:27",
+            "source_time": "2026-10-03 16:06:51",
             "edit_time": ""
           }
         ],
@@ -15262,8 +15261,8 @@
         "promo_post_id": "1991463359703920644",
         "check_post_id": "1991463359703920644",
         "chat_id": "-1003891628675",
-        "message_id": 8949,
-        "time": "2026-10-03 14:58:27",
+        "message_id": 8950,
+        "time": "2026-10-03 16:06:51",
         "after_cutoff": false,
         "cutoff_time": "",
         "edited": false,
@@ -15279,12 +15278,11 @@
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
-        "admission_time": "2026-10-03 14:58:27",
-        "admission_locked": true,
-        "daily_list_rank": 31,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "B",
-        "daily_list_batch_position": 1
+        "admission_time": "2026-10-03 16:06:51",
+        "admission_locked": false,
+        "daily_list_rank": 36,
+        "daily_list_status": "waitlist",
+        "daily_list_batch": ""
       }
     },
     "-1003218974409": {},
@@ -15769,21 +15767,6 @@
           "B": {
             "slots": [
               {
-                "handle": "hb_bno",
-                "post_id": "1991463359703920644",
-                "original_post_id": "1991463359703920644",
-                "url": "https://x.com/hb_bno/status/1991463359703920644",
-                "edited": false,
-                "position": 1,
-                "message_id": "8949",
-                "tg_user_id": "7390418880",
-                "time": "2026-10-03 14:58:27",
-                "admission_time": "2026-10-03 14:58:27",
-                "list_id": "B",
-                "display_name": "𝐊𝐫𝐢𝐬𝐭𝐢𝐧𝐚",
-                "admitted_at": "2026-10-03 15:00:42"
-              },
-              {
                 "handle": "xiaochen000007",
                 "post_id": "2105207256023482759",
                 "original_post_id": "2105207256023482759",
@@ -15860,11 +15843,15 @@
                 "admitted_at": "2026-10-03 00:15:52"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "1": "8949"
+            },
             "capacity": 6,
-            "count": 6,
+            "count": 5,
             "roster_capacity": 6,
-            "withdrawn_message_ids": []
+            "withdrawn_message_ids": [
+              "8949"
+            ]
           }
         },
         "assigned_accounts": {
@@ -15905,7 +15892,9 @@
           "xiaochen000007": "B",
           "hb_bno": "B"
         },
-        "withdrawn_message_ids": [],
+        "withdrawn_message_ids": [
+          "8949"
+        ],
         "slots": [
           {
             "handle": "xye9518",
@@ -16390,22 +16379,6 @@
             "list_position": 30
           },
           {
-            "handle": "hb_bno",
-            "post_id": "1991463359703920644",
-            "original_post_id": "1991463359703920644",
-            "url": "https://x.com/hb_bno/status/1991463359703920644",
-            "edited": false,
-            "position": 31,
-            "message_id": "8949",
-            "tg_user_id": "7390418880",
-            "time": "2026-10-03 14:58:27",
-            "admission_time": "2026-10-03 14:58:27",
-            "list_id": "B",
-            "display_name": "𝐊𝐫𝐢𝐬𝐭𝐢𝐧𝐚",
-            "admitted_at": "2026-10-03 15:00:42",
-            "list_position": 1
-          },
-          {
             "handle": "xiaochen000007",
             "post_id": "2105207256023482759",
             "original_post_id": "2105207256023482759",
@@ -16487,8 +16460,10 @@
             "list_position": 6
           }
         ],
-        "vacant_positions": {},
-        "count": 36,
+        "vacant_positions": {
+          "31": "8949"
+        },
+        "count": 35,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -16502,6 +16477,10 @@
         "8931": {
           "reason": "message_deleted_in_complete_snapshot",
           "confirmed_at": "2026-10-03 00:15:45"
+        },
+        "8949": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-10-03 16:15:28"
         }
       }
     }

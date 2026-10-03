@@ -4526,25 +4526,30 @@
             "post_id": "2105682394372350349",
             "role": "promo",
             "author_name": "桥本香菜",
-            "followers_count": 631714,
-            "followers_text": "63.1W",
+            "followers_count": 633172,
+            "followers_text": "63.3W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 631714
+                "count": 633172
               },
               {
                 "source": "status_legacy_i",
-                "count": 631714
+                "count": 633172
               },
               {
                 "source": "status_legacy",
-                "count": 631714
+                "count": 633172
+              },
+              {
+                "source": "profile_v2",
+                "count": 633172
               }
             ],
             "tweet_text": "菜菜的成人玩具測評第一期它來啦\n本期加入了更多的玩具元素 🤔\n視頻只是選取極少的畫面 觀看完整版注意⬇️我的評論區喔\n忽然非常想知道你們平時有沒有玩✈️杯\n要不要下次來做個測評呢?😈\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
@@ -4588,18 +4593,18 @@
         ],
         "link_options": [
           {
-            "label": "编辑后",
+            "label": "当前",
             "url": "https://x.com/qiobnxingcai/status/2105682394372350349?s=20",
             "post_id": "2105682394372350349",
             "handle": "qiobnxingcai",
-            "source_time": "2026-10-03 00:01:03",
+            "source_time": "2026-10-03 23:05:56",
             "edit_time": ""
           }
         ],
         "x_name": "桥本香菜",
         "promo_name": "桥本香菜",
-        "followers_count": 631737,
-        "followers_text": "63.1W",
+        "followers_count": 633172,
+        "followers_text": "63.3W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -4609,64 +4614,45 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 631714
+            "count": 633172
           },
           {
             "source": "status_legacy_i",
-            "count": 631714
+            "count": 633172
           },
           {
             "source": "status_legacy",
-            "count": 631714
-          },
-          {
-            "source": "status_v2",
-            "count": 631715
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 631715
-          },
-          {
-            "source": "status_legacy",
-            "count": 631715
-          },
-          {
-            "source": "status_v2",
-            "count": 631737
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 631737
-          },
-          {
-            "source": "status_legacy",
-            "count": 631737
+            "count": 633172
           },
           {
             "source": "profile_v2",
-            "count": 631737
+            "count": 633172
           }
         ],
-        "check_followers_count": 631714,
-        "check_followers_text": "63.1W",
+        "check_followers_count": 633172,
+        "check_followers_text": "63.3W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 631714
+            "count": 633172
           },
           {
             "source": "status_legacy_i",
-            "count": 631714
+            "count": 633172
           },
           {
             "source": "status_legacy",
-            "count": 631714
+            "count": 633172
+          },
+          {
+            "source": "profile_v2",
+            "count": 633172
           }
         ],
         "tweet_text": "菜菜的成人玩具測評第一期它來啦\n本期加入了更多的玩具元素 🤔\n視頻只是選取極少的畫面 觀看完整版注意⬇️我的評論區喔\n忽然非常想知道你們平時有沒有玩✈️杯\n要不要下次來做個測評呢?😈\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
@@ -4712,25 +4698,26 @@
         "promo_post_id": "2105682394372350349",
         "check_post_id": "2105682394372350349",
         "chat_id": "-1003891628675",
-        "message_id": 8932,
-        "time": "2026-10-03 00:01:03",
-        "after_cutoff": false,
-        "cutoff_time": "",
+        "message_id": 8952,
+        "time": "2026-10-03 23:05:56",
+        "after_cutoff": true,
+        "cutoff_time": "19:00",
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 631737,
-        "qualified_followers_text": "63.1W",
+        "qualified_followers_count": 633172,
+        "qualified_followers_text": "63.3W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-03 00:01:03",
-        "admission_locked": true,
+        "mutual_eligible": false,
+        "eligibility_text": "❌超时链接",
+        "ineligible_reason": "after_cutoff",
+        "admission_time": "2026-10-03 23:05:56",
+        "admission_locked": false,
         "daily_list_rank": 8,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -7529,7 +7516,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-03 16:06:51",
         "admission_locked": false,
-        "daily_list_rank": 36,
+        "daily_list_rank": 35,
         "daily_list_status": "waitlist",
         "daily_list_batch": ""
       }
@@ -12277,25 +12264,30 @@
             "post_id": "2105682394372350349",
             "role": "promo",
             "author_name": "桥本香菜",
-            "followers_count": 631714,
-            "followers_text": "63.1W",
+            "followers_count": 633172,
+            "followers_text": "63.3W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 631714
+                "count": 633172
               },
               {
                 "source": "status_legacy_i",
-                "count": 631714
+                "count": 633172
               },
               {
                 "source": "status_legacy",
-                "count": 631714
+                "count": 633172
+              },
+              {
+                "source": "profile_v2",
+                "count": 633172
               }
             ],
             "tweet_text": "菜菜的成人玩具測評第一期它來啦\n本期加入了更多的玩具元素 🤔\n視頻只是選取極少的畫面 觀看完整版注意⬇️我的評論區喔\n忽然非常想知道你們平時有沒有玩✈️杯\n要不要下次來做個測評呢?😈\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
@@ -12339,18 +12331,18 @@
         ],
         "link_options": [
           {
-            "label": "编辑后",
+            "label": "当前",
             "url": "https://x.com/qiobnxingcai/status/2105682394372350349?s=20",
             "post_id": "2105682394372350349",
             "handle": "qiobnxingcai",
-            "source_time": "2026-10-03 00:01:03",
+            "source_time": "2026-10-03 23:05:56",
             "edit_time": ""
           }
         ],
         "x_name": "桥本香菜",
         "promo_name": "桥本香菜",
-        "followers_count": 631737,
-        "followers_text": "63.1W",
+        "followers_count": 633172,
+        "followers_text": "63.3W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -12360,64 +12352,45 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 631714
+            "count": 633172
           },
           {
             "source": "status_legacy_i",
-            "count": 631714
+            "count": 633172
           },
           {
             "source": "status_legacy",
-            "count": 631714
-          },
-          {
-            "source": "status_v2",
-            "count": 631715
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 631715
-          },
-          {
-            "source": "status_legacy",
-            "count": 631715
-          },
-          {
-            "source": "status_v2",
-            "count": 631737
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 631737
-          },
-          {
-            "source": "status_legacy",
-            "count": 631737
+            "count": 633172
           },
           {
             "source": "profile_v2",
-            "count": 631737
+            "count": 633172
           }
         ],
-        "check_followers_count": 631714,
-        "check_followers_text": "63.1W",
+        "check_followers_count": 633172,
+        "check_followers_text": "63.3W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 631714
+            "count": 633172
           },
           {
             "source": "status_legacy_i",
-            "count": 631714
+            "count": 633172
           },
           {
             "source": "status_legacy",
-            "count": 631714
+            "count": 633172
+          },
+          {
+            "source": "profile_v2",
+            "count": 633172
           }
         ],
         "tweet_text": "菜菜的成人玩具測評第一期它來啦\n本期加入了更多的玩具元素 🤔\n視頻只是選取極少的畫面 觀看完整版注意⬇️我的評論區喔\n忽然非常想知道你們平時有沒有玩✈️杯\n要不要下次來做個測評呢?😈\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
@@ -12463,25 +12436,26 @@
         "promo_post_id": "2105682394372350349",
         "check_post_id": "2105682394372350349",
         "chat_id": "-1003891628675",
-        "message_id": 8932,
-        "time": "2026-10-03 00:01:03",
-        "after_cutoff": false,
-        "cutoff_time": "",
+        "message_id": 8952,
+        "time": "2026-10-03 23:05:56",
+        "after_cutoff": true,
+        "cutoff_time": "19:00",
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 631737,
-        "qualified_followers_text": "63.1W",
+        "qualified_followers_count": 633172,
+        "qualified_followers_text": "63.3W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
           "status_legacy",
           "profile_v2"
         ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-03 00:01:03",
-        "admission_locked": true,
+        "mutual_eligible": false,
+        "eligibility_text": "❌超时链接",
+        "ineligible_reason": "after_cutoff",
+        "admission_time": "2026-10-03 23:05:56",
+        "admission_locked": false,
         "daily_list_rank": 8,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -15280,7 +15254,7 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-03 16:06:51",
         "admission_locked": false,
-        "daily_list_rank": 36,
+        "daily_list_rank": 35,
         "daily_list_status": "waitlist",
         "daily_list_batch": ""
       }

@@ -4142,12 +4142,13 @@
         ],
         "x_name": "曹长卿唯一大号 支持任何验证",
         "promo_name": "曹长卿唯一大号 支持任何验证",
-        "followers_count": 382100,
+        "followers_count": 382140,
         "followers_text": "38.2W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -4229,6 +4230,22 @@
           {
             "source": "status_legacy",
             "count": 382100
+          },
+          {
+            "source": "status_v2",
+            "count": 382140
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 382140
+          },
+          {
+            "source": "status_legacy",
+            "count": 382140
+          },
+          {
+            "source": "profile_v2",
+            "count": 382140
           }
         ],
         "check_followers_count": 381937,
@@ -4302,12 +4319,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 382100,
+        "qualified_followers_count": 382140,
         "qualified_followers_text": "38.2W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -11253,12 +11271,13 @@
         ],
         "x_name": "曹长卿唯一大号 支持任何验证",
         "promo_name": "曹长卿唯一大号 支持任何验证",
-        "followers_count": 382100,
+        "followers_count": 382140,
         "followers_text": "38.2W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -11340,6 +11359,22 @@
           {
             "source": "status_legacy",
             "count": 382100
+          },
+          {
+            "source": "status_v2",
+            "count": 382140
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 382140
+          },
+          {
+            "source": "status_legacy",
+            "count": 382140
+          },
+          {
+            "source": "profile_v2",
+            "count": 382140
           }
         ],
         "check_followers_count": 381937,
@@ -11413,12 +11448,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 382100,
+        "qualified_followers_count": 382140,
         "qualified_followers_text": "38.2W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",

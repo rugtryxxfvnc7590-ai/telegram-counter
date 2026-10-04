@@ -10,38 +10,43 @@
         "tg_username": "tiaotiaosheep",
         "tg_user_id": 8265355415,
         "tg_name": "tty",
-        "link": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
-        "message_text": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
+        "link": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
+        "message_text": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
+            "url": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
             "handle": "tiaotiaosheep",
-            "post_id": "2101158756575068282",
+            "post_id": "2106536072532693365",
             "role": "promo",
             "author_name": "跳跳羊💃",
-            "followers_count": 772119,
+            "followers_count": 772849,
             "followers_text": "77.2W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 772119
+                "count": 772849
               },
               {
                 "source": "status_legacy_i",
-                "count": 772119
+                "count": 772849
               },
               {
                 "source": "status_legacy",
-                "count": 772119
+                "count": 772849
+              },
+              {
+                "source": "profile_v2",
+                "count": 772849
               }
             ],
-            "tweet_text": "近期爆款作品超长预览合集🔥\n——————————————\n💌@ToBulaer @ToBuerma \n💌@KawasawaSen",
+            "tweet_text": "端庄又色情的暗黑版空姐～\n先森，请问您要喝水吗😋\n——————————————\n💌@ToBulaer @ToBuerma \n💌@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -52,27 +57,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 64,
+                "length": 75,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 64,
+                "length": 75,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 64,
+                "length": 75,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 64,
+                "length": 75,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 64,
+                "length": 75,
                 "required_mentions_count": 3
               }
             ],
@@ -82,7 +87,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
+            "post_id": "2106536072532693365",
+            "handle": "tiaotiaosheep",
+            "source_time": "2026-10-04 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
             "post_id": "2101158756575068282",
             "handle": "tiaotiaosheep",
@@ -92,7 +105,7 @@
         ],
         "x_name": "跳跳羊💃",
         "promo_name": "跳跳羊💃",
-        "followers_count": 772209,
+        "followers_count": 772849,
         "followers_text": "77.2W",
         "followers_sources": [
           "status_v2",
@@ -103,83 +116,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 772119
+            "count": 772849
           },
           {
             "source": "status_legacy_i",
-            "count": 772119
+            "count": 772849
           },
           {
             "source": "status_legacy",
-            "count": 772119
-          },
-          {
-            "source": "status_v2",
-            "count": 772122
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 772122
-          },
-          {
-            "source": "status_legacy",
-            "count": 772122
-          },
-          {
-            "source": "status_v2",
-            "count": 772164
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 772164
-          },
-          {
-            "source": "status_legacy",
-            "count": 772164
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 772139
-          },
-          {
-            "source": "status_v2",
-            "count": 772209
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 772209
-          },
-          {
-            "source": "status_legacy",
-            "count": 772209
+            "count": 772849
           },
           {
             "source": "profile_v2",
-            "count": 772209
+            "count": 772849
           }
         ],
-        "check_followers_count": 772119,
+        "check_followers_count": 772849,
         "check_followers_text": "77.2W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 772119
+            "count": 772849
           },
           {
             "source": "status_legacy_i",
-            "count": 772119
+            "count": 772849
           },
           {
             "source": "status_legacy",
-            "count": 772119
+            "count": 772849
+          },
+          {
+            "source": "profile_v2",
+            "count": 772849
           }
         ],
-        "tweet_text": "近期爆款作品超长预览合集🔥\n——————————————\n💌@ToBulaer @ToBuerma \n💌@KawasawaSen",
+        "tweet_text": "端庄又色情的暗黑版空姐～\n先森，请问您要喝水吗😋\n——————————————\n💌@ToBulaer @ToBuerma \n💌@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -190,46 +168,46 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 64,
+            "length": 75,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 64,
+            "length": 75,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 64,
+            "length": 75,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 64,
+            "length": 75,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 64,
+            "length": 75,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
-        "check_url": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
-        "promo_post_id": "2101158756575068282",
-        "check_post_id": "2101158756575068282",
+        "promo_url": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
+        "check_url": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
+        "promo_post_id": "2106536072532693365",
+        "check_post_id": "2106536072532693365",
         "chat_id": "-1003891628675",
         "message_id": 8954,
         "time": "2026-10-04 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-04 08:06:08",
         "followers_min": 100000,
-        "qualified_followers_count": 772209,
+        "qualified_followers_count": 772849,
         "qualified_followers_text": "77.2W",
         "qualified_followers_sources": [
           "status_v2",
@@ -5892,7 +5870,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 340723,
+        "followers_count": 340727,
         "followers_text": "34W",
         "followers_sources": [
           "status_v2",
@@ -6300,6 +6278,22 @@
           {
             "source": "profile_v2",
             "count": 340723
+          },
+          {
+            "source": "status_v2",
+            "count": 340727
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 340727
+          },
+          {
+            "source": "status_legacy",
+            "count": 340727
+          },
+          {
+            "source": "profile_v2",
+            "count": 340727
           }
         ],
         "check_followers_count": 340593,
@@ -6373,7 +6367,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 340723,
+        "qualified_followers_count": 340727,
         "qualified_followers_text": "34W",
         "qualified_followers_sources": [
           "status_v2",
@@ -6394,7 +6388,7 @@
   },
   "post_entries": {
     "-1003891628675": {
-      "2101158756575068282": {
+      "2106536072532693365": {
         "x_handle": "tiaotiaosheep",
         "check_handle": "tiaotiaosheep",
         "dual_link": false,
@@ -6402,38 +6396,43 @@
         "tg_username": "tiaotiaosheep",
         "tg_user_id": 8265355415,
         "tg_name": "tty",
-        "link": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
-        "message_text": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
+        "link": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
+        "message_text": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
+            "url": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
             "handle": "tiaotiaosheep",
-            "post_id": "2101158756575068282",
+            "post_id": "2106536072532693365",
             "role": "promo",
             "author_name": "跳跳羊💃",
-            "followers_count": 772119,
+            "followers_count": 772849,
             "followers_text": "77.2W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 772119
+                "count": 772849
               },
               {
                 "source": "status_legacy_i",
-                "count": 772119
+                "count": 772849
               },
               {
                 "source": "status_legacy",
-                "count": 772119
+                "count": 772849
+              },
+              {
+                "source": "profile_v2",
+                "count": 772849
               }
             ],
-            "tweet_text": "近期爆款作品超长预览合集🔥\n——————————————\n💌@ToBulaer @ToBuerma \n💌@KawasawaSen",
+            "tweet_text": "端庄又色情的暗黑版空姐～\n先森，请问您要喝水吗😋\n——————————————\n💌@ToBulaer @ToBuerma \n💌@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -6444,27 +6443,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 64,
+                "length": 75,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 64,
+                "length": 75,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 64,
+                "length": 75,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 64,
+                "length": 75,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 64,
+                "length": 75,
                 "required_mentions_count": 3
               }
             ],
@@ -6474,7 +6473,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
+            "post_id": "2106536072532693365",
+            "handle": "tiaotiaosheep",
+            "source_time": "2026-10-04 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
             "post_id": "2101158756575068282",
             "handle": "tiaotiaosheep",
@@ -6484,7 +6491,7 @@
         ],
         "x_name": "跳跳羊💃",
         "promo_name": "跳跳羊💃",
-        "followers_count": 772209,
+        "followers_count": 772849,
         "followers_text": "77.2W",
         "followers_sources": [
           "status_v2",
@@ -6495,83 +6502,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 772119
+            "count": 772849
           },
           {
             "source": "status_legacy_i",
-            "count": 772119
+            "count": 772849
           },
           {
             "source": "status_legacy",
-            "count": 772119
-          },
-          {
-            "source": "status_v2",
-            "count": 772122
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 772122
-          },
-          {
-            "source": "status_legacy",
-            "count": 772122
-          },
-          {
-            "source": "status_v2",
-            "count": 772164
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 772164
-          },
-          {
-            "source": "status_legacy",
-            "count": 772164
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 772139
-          },
-          {
-            "source": "status_v2",
-            "count": 772209
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 772209
-          },
-          {
-            "source": "status_legacy",
-            "count": 772209
+            "count": 772849
           },
           {
             "source": "profile_v2",
-            "count": 772209
+            "count": 772849
           }
         ],
-        "check_followers_count": 772119,
+        "check_followers_count": 772849,
         "check_followers_text": "77.2W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 772119
+            "count": 772849
           },
           {
             "source": "status_legacy_i",
-            "count": 772119
+            "count": 772849
           },
           {
             "source": "status_legacy",
-            "count": 772119
+            "count": 772849
+          },
+          {
+            "source": "profile_v2",
+            "count": 772849
           }
         ],
-        "tweet_text": "近期爆款作品超长预览合集🔥\n——————————————\n💌@ToBulaer @ToBuerma \n💌@KawasawaSen",
+        "tweet_text": "端庄又色情的暗黑版空姐～\n先森，请问您要喝水吗😋\n——————————————\n💌@ToBulaer @ToBuerma \n💌@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -6582,46 +6554,46 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 64,
+            "length": 75,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 64,
+            "length": 75,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 64,
+            "length": 75,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 64,
+            "length": 75,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 64,
+            "length": 75,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
-        "check_url": "https://x.com/tiaotiaosheep/status/2101158756575068282?s=46",
-        "promo_post_id": "2101158756575068282",
-        "check_post_id": "2101158756575068282",
+        "promo_url": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
+        "check_url": "https://x.com/tiaotiaosheep/status/2106536072532693365?s=46",
+        "promo_post_id": "2106536072532693365",
+        "check_post_id": "2106536072532693365",
         "chat_id": "-1003891628675",
         "message_id": 8954,
         "time": "2026-10-04 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-04 08:06:08",
         "followers_min": 100000,
-        "qualified_followers_count": 772209,
+        "qualified_followers_count": 772849,
         "qualified_followers_text": "77.2W",
         "qualified_followers_sources": [
           "status_v2",
@@ -12284,7 +12256,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 340723,
+        "followers_count": 340727,
         "followers_text": "34W",
         "followers_sources": [
           "status_v2",
@@ -12692,6 +12664,22 @@
           {
             "source": "profile_v2",
             "count": 340723
+          },
+          {
+            "source": "status_v2",
+            "count": 340727
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 340727
+          },
+          {
+            "source": "status_legacy",
+            "count": 340727
+          },
+          {
+            "source": "profile_v2",
+            "count": 340727
           }
         ],
         "check_followers_count": 340593,
@@ -12765,7 +12753,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 340723,
+        "qualified_followers_count": 340727,
         "qualified_followers_text": "34W",
         "qualified_followers_sources": [
           "status_v2",
@@ -13193,10 +13181,10 @@
               },
               {
                 "handle": "tiaotiaosheep",
-                "post_id": "2101158756575068282",
+                "post_id": "2106536072532693365",
                 "original_post_id": "2101158756575068282",
-                "url": "https://x.com/tiaotiaosheep/status/2101158756575068282",
-                "edited": false,
+                "url": "https://x.com/tiaotiaosheep/status/2106536072532693365",
+                "edited": true,
                 "position": 27,
                 "message_id": "8954",
                 "tg_user_id": "8265355415",
@@ -13204,7 +13192,8 @@
                 "admission_time": "2026-10-04 00:00:00",
                 "list_id": "A",
                 "display_name": "跳跳羊💃",
-                "admitted_at": "2026-10-04 00:01:32"
+                "admitted_at": "2026-10-04 00:01:32",
+                "edit_time": "2026-10-04 08:06:08"
               }
             ],
             "vacant_positions": {},
@@ -13671,10 +13660,10 @@
           },
           {
             "handle": "tiaotiaosheep",
-            "post_id": "2101158756575068282",
+            "post_id": "2106536072532693365",
             "original_post_id": "2101158756575068282",
-            "url": "https://x.com/tiaotiaosheep/status/2101158756575068282",
-            "edited": false,
+            "url": "https://x.com/tiaotiaosheep/status/2106536072532693365",
+            "edited": true,
             "position": 27,
             "message_id": "8954",
             "tg_user_id": "8265355415",
@@ -13683,6 +13672,7 @@
             "list_id": "A",
             "display_name": "跳跳羊💃",
             "admitted_at": "2026-10-04 00:01:32",
+            "edit_time": "2026-10-04 08:06:08",
             "list_position": 27
           }
         ],

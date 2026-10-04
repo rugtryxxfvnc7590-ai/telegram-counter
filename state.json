@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "offset": 364619507,
+  "offset": 364619508,
   "groups": {
     "-1003891628675": {
       "count": 28,
@@ -46,7 +46,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-04",
-    "run_at": "2026-10-04 08:00:49",
+    "run_at": "2026-10-04 08:10:27",
     "completed_groups": [
       "群一",
       "群二",
@@ -54,40 +54,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37163551434:1",
-        "checked_at": "2026-10-04 08:00:50",
+        "run_key": "37164096329:1",
+        "checked_at": "2026-10-04 08:10:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37163551434:1",
-        "checked_at": "2026-10-04 08:00:50",
+        "run_key": "37164096329:1",
+        "checked_at": "2026-10-04 08:10:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37163551434:1",
-        "checked_at": "2026-10-04 08:00:50",
+        "run_key": "37164096329:1",
+        "checked_at": "2026-10-04 08:10:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37163551434:1",
-        "checked_at": "2026-10-04 08:00:50",
+        "run_key": "37164096329:1",
+        "checked_at": "2026-10-04 08:10:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37163551434:1",
-        "checked_at": "2026-10-04 08:00:50",
+        "run_key": "37164096329:1",
+        "checked_at": "2026-10-04 08:10:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37163551434:1",
-        "checked_at": "2026-10-04 08:00:50",
+        "run_key": "37164096329:1",
+        "checked_at": "2026-10-04 08:10:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -537,10 +537,10 @@
               },
               {
                 "handle": "tiaotiaosheep",
-                "post_id": "2101158756575068282",
+                "post_id": "2106536072532693365",
                 "original_post_id": "2101158756575068282",
-                "url": "https://x.com/tiaotiaosheep/status/2101158756575068282",
-                "edited": false,
+                "url": "https://x.com/tiaotiaosheep/status/2106536072532693365",
+                "edited": true,
                 "position": 27,
                 "message_id": "8954",
                 "tg_user_id": "8265355415",
@@ -548,7 +548,8 @@
                 "admission_time": "2026-10-04 00:00:00",
                 "list_id": "A",
                 "display_name": "跳跳羊💃",
-                "admitted_at": "2026-10-04 00:01:32"
+                "admitted_at": "2026-10-04 00:01:32",
+                "edit_time": "2026-10-04 08:06:08"
               }
             ],
             "vacant_positions": {},
@@ -1015,10 +1016,10 @@
           },
           {
             "handle": "tiaotiaosheep",
-            "post_id": "2101158756575068282",
+            "post_id": "2106536072532693365",
             "original_post_id": "2101158756575068282",
-            "url": "https://x.com/tiaotiaosheep/status/2101158756575068282",
-            "edited": false,
+            "url": "https://x.com/tiaotiaosheep/status/2106536072532693365",
+            "edited": true,
             "position": 27,
             "message_id": "8954",
             "tg_user_id": "8265355415",
@@ -1027,6 +1028,7 @@
             "list_id": "A",
             "display_name": "跳跳羊💃",
             "admitted_at": "2026-10-04 00:01:32",
+            "edit_time": "2026-10-04 08:06:08",
             "list_position": 27
           }
         ],
@@ -1060,10 +1062,10 @@
     "date": "2026-10-04",
     "groups": {
       "群一": {
-        "digest": "991b348fc729207625cfde47cd2b29f7f9538b71f63d3ef2e893cb2c02f03c05",
-        "sourceRevision": 3,
+        "digest": "7dcb6642414319698838511f5c46b25ffc1790e9967d847f51c93d7c31ee96ca",
+        "sourceRevision": 4,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-04T01:45:30.865669+08:00"
+        "acknowledged_at": "2026-10-04T08:10:32.306912+08:00"
       }
     }
   },

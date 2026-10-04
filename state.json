@@ -1,9 +1,9 @@
 {
   "date": "2026-10-05",
-  "offset": 364619597,
+  "offset": 364619598,
   "groups": {
     "-1003891628675": {
-      "count": 35,
+      "count": 36,
       "message_ids": [
         "8999",
         "9000",
@@ -39,7 +39,8 @@
         "9032",
         "9033",
         "9034",
-        "9035"
+        "9035",
+        "9036"
       ]
     },
     "-1003218974409": {
@@ -53,7 +54,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-05",
-    "run_at": "2026-10-05 04:30:42",
+    "run_at": "2026-10-05 04:45:27",
     "completed_groups": [
       "群一",
       "群二",
@@ -61,40 +62,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37232343536:1",
-        "checked_at": "2026-10-05 04:30:43",
+        "run_key": "37233303741:1",
+        "checked_at": "2026-10-05 04:45:28",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37232343536:1",
-        "checked_at": "2026-10-05 04:30:44",
+        "run_key": "37233303741:1",
+        "checked_at": "2026-10-05 04:45:28",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37232343536:1",
-        "checked_at": "2026-10-05 04:30:44",
+        "run_key": "37233303741:1",
+        "checked_at": "2026-10-05 04:45:28",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37232343536:1",
-        "checked_at": "2026-10-05 04:30:43",
+        "run_key": "37233303741:1",
+        "checked_at": "2026-10-05 04:45:28",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37232343536:1",
-        "checked_at": "2026-10-05 04:30:44",
+        "run_key": "37233303741:1",
+        "checked_at": "2026-10-05 04:45:28",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37232343536:1",
-        "checked_at": "2026-10-05 04:30:44",
+        "run_key": "37233303741:1",
+        "checked_at": "2026-10-05 04:45:28",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1109,12 +1110,27 @@
           "B": {
             "slots": [
               {
+                "handle": "xiaochen000007",
+                "post_id": "2104128611662037283",
+                "original_post_id": "2104128611662037283",
+                "url": "https://x.com/xiaochen000007/status/2104128611662037283",
+                "edited": false,
+                "position": 1,
+                "message_id": "9036",
+                "tg_user_id": "5718822279",
+                "time": "2026-10-05 04:39:59",
+                "admission_time": "2026-10-05 04:39:59",
+                "list_id": "B",
+                "display_name": "小陈和小王的日常",
+                "admitted_at": "2026-10-05 04:45:30"
+              },
+              {
                 "handle": "wdqhc999",
                 "post_id": "2106716784535715860",
                 "original_post_id": "2106716784535715860",
                 "url": "https://x.com/wdqhc999/status/2106716784535715860",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9035",
                 "tg_user_id": "874072822",
                 "time": "2026-10-05 03:30:20",
@@ -1129,7 +1145,7 @@
                 "original_post_id": "2078083189478965321",
                 "url": "https://x.com/si_xiao47754/status/2078083189478965321",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9034",
                 "tg_user_id": "8345041924",
                 "time": "2026-10-05 01:32:01",
@@ -1144,7 +1160,7 @@
                 "original_post_id": "2106382900421959930",
                 "url": "https://x.com/joragyyy/status/2106382900421959930",
                 "edited": false,
-                "position": 3,
+                "position": 4,
                 "message_id": "9033",
                 "tg_user_id": "7996721954",
                 "time": "2026-10-05 00:18:20",
@@ -1159,7 +1175,7 @@
                 "original_post_id": "2105700094783943143",
                 "url": "https://x.com/bob7078/status/2105700094783943143",
                 "edited": false,
-                "position": 4,
+                "position": 5,
                 "message_id": "9032",
                 "tg_user_id": "1713467304",
                 "time": "2026-10-05 00:11:49",
@@ -1170,9 +1186,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 4,
-            "count": 4,
-            "roster_capacity": 4,
+            "capacity": 5,
+            "count": 5,
+            "roster_capacity": 5,
             "withdrawn_message_ids": []
           }
         },
@@ -1210,7 +1226,8 @@
           "bob7078": "B",
           "joragyyy": "B",
           "si_xiao47754": "B",
-          "wdqhc999": "B"
+          "wdqhc999": "B",
+          "xiaochen000007": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -1695,12 +1712,28 @@
             "list_position": 30
           },
           {
+            "handle": "xiaochen000007",
+            "post_id": "2104128611662037283",
+            "original_post_id": "2104128611662037283",
+            "url": "https://x.com/xiaochen000007/status/2104128611662037283",
+            "edited": false,
+            "position": 31,
+            "message_id": "9036",
+            "tg_user_id": "5718822279",
+            "time": "2026-10-05 04:39:59",
+            "admission_time": "2026-10-05 04:39:59",
+            "list_id": "B",
+            "display_name": "小陈和小王的日常",
+            "admitted_at": "2026-10-05 04:45:30",
+            "list_position": 1
+          },
+          {
             "handle": "wdqhc999",
             "post_id": "2106716784535715860",
             "original_post_id": "2106716784535715860",
             "url": "https://x.com/wdqhc999/status/2106716784535715860",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9035",
             "tg_user_id": "874072822",
             "time": "2026-10-05 03:30:20",
@@ -1708,7 +1741,7 @@
             "list_id": "B",
             "display_name": "我的枪好长啊",
             "admitted_at": "2026-10-05 03:30:40",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "si_xiao47754",
@@ -1716,7 +1749,7 @@
             "original_post_id": "2078083189478965321",
             "url": "https://x.com/si_xiao47754/status/2078083189478965321",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9034",
             "tg_user_id": "8345041924",
             "time": "2026-10-05 01:32:01",
@@ -1724,7 +1757,7 @@
             "list_id": "B",
             "display_name": "丝袜小淫妻",
             "admitted_at": "2026-10-05 01:45:29",
-            "list_position": 2
+            "list_position": 3
           },
           {
             "handle": "joragyyy",
@@ -1732,7 +1765,7 @@
             "original_post_id": "2106382900421959930",
             "url": "https://x.com/joragyyy/status/2106382900421959930",
             "edited": false,
-            "position": 33,
+            "position": 34,
             "message_id": "9033",
             "tg_user_id": "7996721954",
             "time": "2026-10-05 00:18:20",
@@ -1740,7 +1773,7 @@
             "list_id": "B",
             "display_name": "Yiiceing",
             "admitted_at": "2026-10-05 00:30:40",
-            "list_position": 3
+            "list_position": 4
           },
           {
             "handle": "bob7078",
@@ -1748,7 +1781,7 @@
             "original_post_id": "2105700094783943143",
             "url": "https://x.com/bob7078/status/2105700094783943143",
             "edited": false,
-            "position": 34,
+            "position": 35,
             "message_id": "9032",
             "tg_user_id": "1713467304",
             "time": "2026-10-05 00:11:49",
@@ -1756,11 +1789,11 @@
             "list_id": "B",
             "display_name": "D先生和C小姐",
             "admitted_at": "2026-10-05 00:15:58",
-            "list_position": 4
+            "list_position": 5
           }
         ],
         "vacant_positions": {},
-        "count": 34,
+        "count": 35,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1789,10 +1822,10 @@
     "date": "2026-10-05",
     "groups": {
       "群一": {
-        "digest": "381d35e138646de80ced0436a1ba7cbf922410a9240e79f895f9252d16185e79",
-        "sourceRevision": 5,
+        "digest": "cab573228e6572169b54c1831caac607fc25e822b277ac302e82eea8d74bdcb2",
+        "sourceRevision": 6,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-05T03:30:40.897828+08:00"
+        "acknowledged_at": "2026-10-05T04:45:30.600073+08:00"
       }
     }
   },

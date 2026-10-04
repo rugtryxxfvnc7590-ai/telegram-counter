@@ -232,38 +232,43 @@
         "tg_username": "SND99X",
         "tg_user_id": 8520118213,
         "tg_name": "九九🍊【认准ID错一个字母都是假号】",
-        "link": "https://x.com/snd99x/status/2105239779914965139?s=46",
-        "message_text": "https://x.com/snd99x/status/2105239779914965139?s=46",
+        "link": "https://x.com/snd99x/status/2106643425399644296?s=46",
+        "message_text": "https://x.com/snd99x/status/2106643425399644296?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/snd99x/status/2105239779914965139?s=46",
+            "url": "https://x.com/snd99x/status/2106643425399644296?s=46",
             "handle": "snd99x",
-            "post_id": "2105239779914965139",
+            "post_id": "2106643425399644296",
             "role": "promo",
             "author_name": "九九橙🍊",
-            "followers_count": 260838,
-            "followers_text": "26W",
+            "followers_count": 262189,
+            "followers_text": "26.2W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 260838
+                "count": 262189
               },
               {
                 "source": "status_legacy_i",
-                "count": 260838
+                "count": 262189
               },
               {
                 "source": "status_legacy",
-                "count": 260838
+                "count": 262189
+              },
+              {
+                "source": "profile_v2",
+                "count": 262189
               }
             ],
-            "tweet_text": "有时候do的时候真的会被顶出水，当时完全顾不上别的，脑子基本就是空的，身体什么反应自己都没太注意，等缓下来以后才发现，好像反应得有点明显了🙈现在回想起来还是觉得蛮有意思的，尤其是那种当下完全沉进去，结束以后才慢慢回过神的感觉，真的挺奇妙的～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text": "紫色氛围灯对爱爱时的情调影响还挺大的，感觉自己会更骚一点，也更容易投入进去，跟开大白灯的时候感觉差蛮多的，偶尔真的可以试试～\n\n唯一的缺点就是关灯后看什么都发绿，而且感觉自己像颗多肉哈哈😂\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -274,27 +279,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 155,
+                "length": 129,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 155,
+                "length": 129,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 155,
+                "length": 129,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 155,
+                "length": 129,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 155,
+                "length": 129,
                 "required_mentions_count": 3
               }
             ],
@@ -304,7 +309,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/snd99x/status/2106643425399644296?s=46",
+            "post_id": "2106643425399644296",
+            "handle": "snd99x",
+            "source_time": "2026-10-04 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/snd99x/status/2105239779914965139?s=46",
             "post_id": "2105239779914965139",
             "handle": "snd99x",
@@ -314,8 +327,8 @@
         ],
         "x_name": "九九橙🍊",
         "promo_name": "九九橙🍊",
-        "followers_count": 260895,
-        "followers_text": "26W",
+        "followers_count": 262189,
+        "followers_text": "26.2W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -325,67 +338,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 260838
+            "count": 262189
           },
           {
             "source": "status_legacy_i",
-            "count": 260838
+            "count": 262189
           },
           {
             "source": "status_legacy",
-            "count": 260838
-          },
-          {
-            "source": "status_v2",
-            "count": 260839
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 260839
-          },
-          {
-            "source": "status_legacy",
-            "count": 260839
-          },
-          {
-            "source": "status_v2",
-            "count": 260895
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 260895
-          },
-          {
-            "source": "status_legacy",
-            "count": 260895
+            "count": 262189
           },
           {
             "source": "profile_v2",
-            "count": 260895
+            "count": 262189
           }
         ],
-        "check_followers_count": 260838,
-        "check_followers_text": "26W",
+        "check_followers_count": 262189,
+        "check_followers_text": "26.2W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 260838
+            "count": 262189
           },
           {
             "source": "status_legacy_i",
-            "count": 260838
+            "count": 262189
           },
           {
             "source": "status_legacy",
-            "count": 260838
+            "count": 262189
+          },
+          {
+            "source": "profile_v2",
+            "count": 262189
           }
         ],
-        "tweet_text": "有时候do的时候真的会被顶出水，当时完全顾不上别的，脑子基本就是空的，身体什么反应自己都没太注意，等缓下来以后才发现，好像反应得有点明显了🙈现在回想起来还是觉得蛮有意思的，尤其是那种当下完全沉进去，结束以后才慢慢回过神的感觉，真的挺奇妙的～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text": "紫色氛围灯对爱爱时的情调影响还挺大的，感觉自己会更骚一点，也更容易投入进去，跟开大白灯的时候感觉差蛮多的，偶尔真的可以试试～\n\n唯一的缺点就是关灯后看什么都发绿，而且感觉自己像颗多肉哈哈😂\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -396,47 +390,47 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 155,
+            "length": 129,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 155,
+            "length": 129,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 155,
+            "length": 129,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 155,
+            "length": 129,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 155,
+            "length": 129,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/snd99x/status/2105239779914965139?s=46",
-        "check_url": "https://x.com/snd99x/status/2105239779914965139?s=46",
-        "promo_post_id": "2105239779914965139",
-        "check_post_id": "2105239779914965139",
+        "promo_url": "https://x.com/snd99x/status/2106643425399644296?s=46",
+        "check_url": "https://x.com/snd99x/status/2106643425399644296?s=46",
+        "promo_post_id": "2106643425399644296",
+        "check_post_id": "2106643425399644296",
         "chat_id": "-1003891628675",
         "message_id": 8955,
         "time": "2026-10-04 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-04 15:12:34",
         "followers_min": 100000,
-        "qualified_followers_count": 260895,
-        "qualified_followers_text": "26W",
+        "qualified_followers_count": 262189,
+        "qualified_followers_text": "26.2W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -5886,7 +5880,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 340912,
+        "followers_count": 340916,
         "followers_text": "34W",
         "followers_sources": [
           "status_v2",
@@ -6770,6 +6764,26 @@
           {
             "source": "profile_v2",
             "count": 340912
+          },
+          {
+            "source": "status_v2",
+            "count": 340916
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 340914
+          },
+          {
+            "source": "status_legacy",
+            "count": 340914
+          },
+          {
+            "source": "profile_v2",
+            "count": 340914
+          },
+          {
+            "source": "status_v2",
+            "count": 340914
           }
         ],
         "check_followers_count": 340593,
@@ -6848,7 +6862,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 340912,
+        "qualified_followers_count": 340916,
         "qualified_followers_text": "34W",
         "qualified_followers_sources": [
           "status_v2",
@@ -7947,7 +7961,7 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 30
       },
-      "2105239779914965139": {
+      "2106643425399644296": {
         "x_handle": "snd99x",
         "check_handle": "snd99x",
         "dual_link": false,
@@ -7955,38 +7969,43 @@
         "tg_username": "SND99X",
         "tg_user_id": 8520118213,
         "tg_name": "九九🍊【认准ID错一个字母都是假号】",
-        "link": "https://x.com/snd99x/status/2105239779914965139?s=46",
-        "message_text": "https://x.com/snd99x/status/2105239779914965139?s=46",
+        "link": "https://x.com/snd99x/status/2106643425399644296?s=46",
+        "message_text": "https://x.com/snd99x/status/2106643425399644296?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/snd99x/status/2105239779914965139?s=46",
+            "url": "https://x.com/snd99x/status/2106643425399644296?s=46",
             "handle": "snd99x",
-            "post_id": "2105239779914965139",
+            "post_id": "2106643425399644296",
             "role": "promo",
             "author_name": "九九橙🍊",
-            "followers_count": 260838,
-            "followers_text": "26W",
+            "followers_count": 262189,
+            "followers_text": "26.2W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 260838
+                "count": 262189
               },
               {
                 "source": "status_legacy_i",
-                "count": 260838
+                "count": 262189
               },
               {
                 "source": "status_legacy",
-                "count": 260838
+                "count": 262189
+              },
+              {
+                "source": "profile_v2",
+                "count": 262189
               }
             ],
-            "tweet_text": "有时候do的时候真的会被顶出水，当时完全顾不上别的，脑子基本就是空的，身体什么反应自己都没太注意，等缓下来以后才发现，好像反应得有点明显了🙈现在回想起来还是觉得蛮有意思的，尤其是那种当下完全沉进去，结束以后才慢慢回过神的感觉，真的挺奇妙的～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text": "紫色氛围灯对爱爱时的情调影响还挺大的，感觉自己会更骚一点，也更容易投入进去，跟开大白灯的时候感觉差蛮多的，偶尔真的可以试试～\n\n唯一的缺点就是关灯后看什么都发绿，而且感觉自己像颗多肉哈哈😂\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -7997,27 +8016,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 155,
+                "length": 129,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 155,
+                "length": 129,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 155,
+                "length": 129,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 155,
+                "length": 129,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 155,
+                "length": 129,
                 "required_mentions_count": 3
               }
             ],
@@ -8027,7 +8046,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/snd99x/status/2106643425399644296?s=46",
+            "post_id": "2106643425399644296",
+            "handle": "snd99x",
+            "source_time": "2026-10-04 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/snd99x/status/2105239779914965139?s=46",
             "post_id": "2105239779914965139",
             "handle": "snd99x",
@@ -8037,8 +8064,8 @@
         ],
         "x_name": "九九橙🍊",
         "promo_name": "九九橙🍊",
-        "followers_count": 260895,
-        "followers_text": "26W",
+        "followers_count": 262189,
+        "followers_text": "26.2W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -8048,67 +8075,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 260838
+            "count": 262189
           },
           {
             "source": "status_legacy_i",
-            "count": 260838
+            "count": 262189
           },
           {
             "source": "status_legacy",
-            "count": 260838
-          },
-          {
-            "source": "status_v2",
-            "count": 260839
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 260839
-          },
-          {
-            "source": "status_legacy",
-            "count": 260839
-          },
-          {
-            "source": "status_v2",
-            "count": 260895
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 260895
-          },
-          {
-            "source": "status_legacy",
-            "count": 260895
+            "count": 262189
           },
           {
             "source": "profile_v2",
-            "count": 260895
+            "count": 262189
           }
         ],
-        "check_followers_count": 260838,
-        "check_followers_text": "26W",
+        "check_followers_count": 262189,
+        "check_followers_text": "26.2W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 260838
+            "count": 262189
           },
           {
             "source": "status_legacy_i",
-            "count": 260838
+            "count": 262189
           },
           {
             "source": "status_legacy",
-            "count": 260838
+            "count": 262189
+          },
+          {
+            "source": "profile_v2",
+            "count": 262189
           }
         ],
-        "tweet_text": "有时候do的时候真的会被顶出水，当时完全顾不上别的，脑子基本就是空的，身体什么反应自己都没太注意，等缓下来以后才发现，好像反应得有点明显了🙈现在回想起来还是觉得蛮有意思的，尤其是那种当下完全沉进去，结束以后才慢慢回过神的感觉，真的挺奇妙的～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text": "紫色氛围灯对爱爱时的情调影响还挺大的，感觉自己会更骚一点，也更容易投入进去，跟开大白灯的时候感觉差蛮多的，偶尔真的可以试试～\n\n唯一的缺点就是关灯后看什么都发绿，而且感觉自己像颗多肉哈哈😂\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -8119,47 +8127,47 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 155,
+            "length": 129,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 155,
+            "length": 129,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 155,
+            "length": 129,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 155,
+            "length": 129,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 155,
+            "length": 129,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/snd99x/status/2105239779914965139?s=46",
-        "check_url": "https://x.com/snd99x/status/2105239779914965139?s=46",
-        "promo_post_id": "2105239779914965139",
-        "check_post_id": "2105239779914965139",
+        "promo_url": "https://x.com/snd99x/status/2106643425399644296?s=46",
+        "check_url": "https://x.com/snd99x/status/2106643425399644296?s=46",
+        "promo_post_id": "2106643425399644296",
+        "check_post_id": "2106643425399644296",
         "chat_id": "-1003891628675",
         "message_id": 8955,
         "time": "2026-10-04 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-04 15:12:34",
         "followers_min": 100000,
-        "qualified_followers_count": 260895,
-        "qualified_followers_text": "26W",
+        "qualified_followers_count": 262189,
+        "qualified_followers_text": "26.2W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -13609,7 +13617,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 340912,
+        "followers_count": 340916,
         "followers_text": "34W",
         "followers_sources": [
           "status_v2",
@@ -14493,6 +14501,26 @@
           {
             "source": "profile_v2",
             "count": 340912
+          },
+          {
+            "source": "status_v2",
+            "count": 340916
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 340914
+          },
+          {
+            "source": "status_legacy",
+            "count": 340914
+          },
+          {
+            "source": "profile_v2",
+            "count": 340914
+          },
+          {
+            "source": "status_v2",
+            "count": 340914
           }
         ],
         "check_followers_count": 340593,
@@ -14571,7 +14599,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 340912,
+        "qualified_followers_count": 340916,
         "qualified_followers_text": "34W",
         "qualified_followers_sources": [
           "status_v2",
@@ -15887,10 +15915,10 @@
               },
               {
                 "handle": "snd99x",
-                "post_id": "2105239779914965139",
+                "post_id": "2106643425399644296",
                 "original_post_id": "2105239779914965139",
-                "url": "https://x.com/snd99x/status/2105239779914965139",
-                "edited": false,
+                "url": "https://x.com/snd99x/status/2106643425399644296",
+                "edited": true,
                 "position": 29,
                 "message_id": "8955",
                 "tg_user_id": "8520118213",
@@ -15898,7 +15926,8 @@
                 "admission_time": "2026-10-04 00:00:00",
                 "list_id": "A",
                 "display_name": "九九橙🍊",
-                "admitted_at": "2026-10-04 00:01:32"
+                "admitted_at": "2026-10-04 00:01:32",
+                "edit_time": "2026-10-04 15:12:34"
               },
               {
                 "handle": "tiaotiaosheep",
@@ -16435,10 +16464,10 @@
           },
           {
             "handle": "snd99x",
-            "post_id": "2105239779914965139",
+            "post_id": "2106643425399644296",
             "original_post_id": "2105239779914965139",
-            "url": "https://x.com/snd99x/status/2105239779914965139",
-            "edited": false,
+            "url": "https://x.com/snd99x/status/2106643425399644296",
+            "edited": true,
             "position": 29,
             "message_id": "8955",
             "tg_user_id": "8520118213",
@@ -16447,6 +16476,7 @@
             "list_id": "A",
             "display_name": "九九橙🍊",
             "admitted_at": "2026-10-04 00:01:32",
+            "edit_time": "2026-10-04 15:12:34",
             "list_position": 29
           },
           {

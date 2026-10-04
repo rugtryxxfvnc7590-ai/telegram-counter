@@ -1,9 +1,9 @@
 {
   "date": "2026-10-04",
-  "offset": 364619521,
+  "offset": 364619525,
   "groups": {
     "-1003891628675": {
-      "count": 30,
+      "count": 32,
       "message_ids": [
         "8954",
         "8955",
@@ -34,7 +34,9 @@
         "8980",
         "8981",
         "8982",
-        "8983"
+        "8983",
+        "8984",
+        "8985"
       ]
     },
     "-1003218974409": {
@@ -48,7 +50,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-04",
-    "run_at": "2026-10-04 14:15:34",
+    "run_at": "2026-10-04 14:30:33",
     "completed_groups": [
       "群一",
       "群二",
@@ -56,40 +58,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37182256055:1",
-        "checked_at": "2026-10-04 14:15:35",
+        "run_key": "37182988486:1",
+        "checked_at": "2026-10-04 14:30:34",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37182256055:1",
-        "checked_at": "2026-10-04 14:15:35",
+        "run_key": "37182988486:1",
+        "checked_at": "2026-10-04 14:30:34",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37182256055:1",
-        "checked_at": "2026-10-04 14:15:35",
+        "run_key": "37182988486:1",
+        "checked_at": "2026-10-04 14:30:34",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37182256055:1",
-        "checked_at": "2026-10-04 14:15:35",
+        "run_key": "37182988486:1",
+        "checked_at": "2026-10-04 14:30:34",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37182256055:1",
-        "checked_at": "2026-10-04 14:15:35",
+        "run_key": "37182988486:1",
+        "checked_at": "2026-10-04 14:30:34",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37182256055:1",
-        "checked_at": "2026-10-04 14:15:35",
+        "run_key": "37182988486:1",
+        "checked_at": "2026-10-04 14:30:34",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -99,7 +101,507 @@
     "date": "2026-10-04",
     "groups": {
       "群一": {
-        "batches": {}
+        "batches": {
+          "A": {
+            "slots": [
+              {
+                "handle": "shixiaotaone",
+                "post_id": "2106627587212796200",
+                "original_post_id": "2106627587212796200",
+                "url": "https://x.com/shixiaotaone/status/2106627587212796200",
+                "edited": false,
+                "position": 1,
+                "message_id": "8984",
+                "tg_user_id": "5275613873",
+                "time": "2026-10-04 14:20:34",
+                "admission_time": "2026-10-04 14:20:34",
+                "list_id": "A",
+                "display_name": "小桃",
+                "admitted_at": "2026-10-04 14:30:36"
+              },
+              {
+                "handle": "shixiaotaon",
+                "post_id": "2104482448511996277",
+                "original_post_id": "2104482448511996277",
+                "url": "https://x.com/shixiaotaon/status/2104482448511996277",
+                "edited": false,
+                "position": 2,
+                "message_id": "8983",
+                "tg_user_id": "5275613873",
+                "time": "2026-10-04 13:49:43",
+                "admission_time": "2026-10-04 13:49:43",
+                "list_id": "A",
+                "display_name": "小小桃",
+                "admitted_at": "2026-10-04 14:00:42"
+              },
+              {
+                "handle": "sluttytatia404",
+                "post_id": "2105961262308040729",
+                "original_post_id": "2105961262308040729",
+                "url": "https://x.com/sluttytatia404/status/2105961262308040729",
+                "edited": false,
+                "position": 3,
+                "message_id": "8982",
+                "tg_user_id": "6253811123",
+                "time": "2026-10-04 11:06:53",
+                "admission_time": "2026-10-04 11:06:53",
+                "list_id": "A",
+                "display_name": "Tatia",
+                "admitted_at": "2026-10-04 11:15:27"
+              },
+              {
+                "handle": "joragyyy",
+                "post_id": "2106382900421959930",
+                "original_post_id": "2106382900421959930",
+                "url": "https://x.com/joragyyy/status/2106382900421959930",
+                "edited": false,
+                "position": 4,
+                "message_id": "8980",
+                "tg_user_id": "7996721954",
+                "time": "2026-10-04 01:39:29",
+                "admission_time": "2026-10-04 01:39:29",
+                "list_id": "A",
+                "display_name": "Yiiceing",
+                "admitted_at": "2026-10-04 01:45:30"
+              },
+              {
+                "handle": "xiaochen000007",
+                "post_id": "2104128611662037283",
+                "original_post_id": "2104128611662037283",
+                "url": "https://x.com/xiaochen000007/status/2104128611662037283",
+                "edited": false,
+                "position": 5,
+                "message_id": "8979",
+                "tg_user_id": "5718822279",
+                "time": "2026-10-04 00:11:38",
+                "admission_time": "2026-10-04 00:11:38",
+                "list_id": "A",
+                "display_name": "小陈和小王的日常",
+                "admitted_at": "2026-10-04 00:15:50"
+              },
+              {
+                "handle": "aksaks99999",
+                "post_id": "2101602852980318419",
+                "original_post_id": "2101602852980318419",
+                "url": "https://x.com/aksaks99999/status/2101602852980318419",
+                "edited": false,
+                "position": 6,
+                "message_id": "8978",
+                "tg_user_id": "5829845216",
+                "time": "2026-10-04 00:05:16",
+                "admission_time": "2026-10-04 00:05:16",
+                "list_id": "A",
+                "display_name": "AKs",
+                "admitted_at": "2026-10-04 00:15:50"
+              },
+              {
+                "handle": "jxzeroc",
+                "post_id": "2050643478854660558",
+                "original_post_id": "2050643478854660558",
+                "url": "https://x.com/jxzeroc/status/2050643478854660558",
+                "edited": false,
+                "position": 7,
+                "message_id": "8977",
+                "tg_user_id": "8482533988",
+                "time": "2026-10-04 00:04:53",
+                "admission_time": "2026-10-04 00:04:53",
+                "list_id": "A",
+                "display_name": "Jx",
+                "admitted_at": "2026-10-04 00:15:50"
+              },
+              {
+                "handle": "guilin010",
+                "post_id": "2104930975256059995",
+                "original_post_id": "2104930975256059995",
+                "url": "https://x.com/guilin010/status/2104930975256059995",
+                "edited": false,
+                "position": 8,
+                "message_id": "8976",
+                "tg_user_id": "7182472764",
+                "time": "2026-10-04 00:03:29",
+                "admission_time": "2026-10-04 00:03:29",
+                "list_id": "A",
+                "display_name": "小林的涩涩日常",
+                "admitted_at": "2026-10-04 00:15:50"
+              },
+              {
+                "handle": "youmeier",
+                "post_id": "2105239138090074327",
+                "original_post_id": "2105239138090074327",
+                "url": "https://x.com/youmeier/status/2105239138090074327",
+                "edited": false,
+                "position": 9,
+                "message_id": "8975",
+                "tg_user_id": "5997103908",
+                "time": "2026-10-04 00:03:16",
+                "admission_time": "2026-10-04 00:03:16",
+                "list_id": "A",
+                "display_name": "蜜桔摄影",
+                "admitted_at": "2026-10-04 00:15:50"
+              },
+              {
+                "handle": "pty0808",
+                "post_id": "2093389631358484486",
+                "original_post_id": "2093389631358484486",
+                "url": "https://x.com/pty0808/status/2093389631358484486",
+                "edited": false,
+                "position": 10,
+                "message_id": "8974",
+                "tg_user_id": "7750185920",
+                "time": "2026-10-04 00:03:03",
+                "admission_time": "2026-10-04 00:03:03",
+                "list_id": "A",
+                "display_name": "胖头鱼(视频号)",
+                "admitted_at": "2026-10-04 00:15:50"
+              },
+              {
+                "handle": "xiaoqiaots",
+                "post_id": "2106594815546884588",
+                "original_post_id": "2097176911688688066",
+                "url": "https://x.com/xiaoqiaots/status/2106594815546884588",
+                "edited": true,
+                "position": 11,
+                "message_id": "8973",
+                "tg_user_id": "7309057113",
+                "time": "2026-10-04 00:01:50",
+                "admission_time": "2026-10-04 00:01:50",
+                "list_id": "A",
+                "display_name": "乔乔",
+                "admitted_at": "2026-10-04 00:15:50",
+                "edit_time": "2026-10-04 12:24:57"
+              },
+              {
+                "handle": "clares5a",
+                "post_id": "2099566436322885989",
+                "original_post_id": "2099566436322885989",
+                "url": "https://x.com/clares5a/status/2099566436322885989",
+                "edited": false,
+                "position": 12,
+                "message_id": "8972",
+                "tg_user_id": "7664740669",
+                "time": "2026-10-04 00:01:14",
+                "admission_time": "2026-10-04 00:01:14",
+                "list_id": "A",
+                "display_name": "Clare-S（杭州）",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "caochangqing111",
+                "post_id": "2040667645729497247",
+                "original_post_id": "2040667645729497247",
+                "url": "https://x.com/caochangqing111/status/2040667645729497247",
+                "edited": false,
+                "position": 13,
+                "message_id": "8971",
+                "tg_user_id": "7176578641",
+                "time": "2026-10-04 00:01:01",
+                "admission_time": "2026-10-04 00:01:01",
+                "list_id": "A",
+                "display_name": "曹长卿唯一大号 支持任何验证",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "lris_intj",
+                "post_id": "2106179278597501404",
+                "original_post_id": "2106179278597501404",
+                "url": "https://x.com/lris_intj/status/2106179278597501404",
+                "edited": false,
+                "position": 14,
+                "message_id": "8970",
+                "tg_user_id": "2103607030",
+                "time": "2026-10-04 00:00:10",
+                "admission_time": "2026-10-04 00:00:10",
+                "list_id": "A",
+                "display_name": "♱₊Ms. Rin❄︎˚↝",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "hong14868",
+                "post_id": "2106260547415200040",
+                "original_post_id": "2106260547415200040",
+                "url": "https://x.com/hong14868/status/2106260547415200040",
+                "edited": false,
+                "position": 15,
+                "message_id": "8969",
+                "tg_user_id": "8412768331",
+                "time": "2026-10-04 00:00:08",
+                "admission_time": "2026-10-04 00:00:08",
+                "list_id": "A",
+                "display_name": "hong14868",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "hanzuzong3",
+                "post_id": "2104168103353745456",
+                "original_post_id": "2104168103353745456",
+                "url": "https://x.com/hanzuzong3/status/2104168103353745456",
+                "edited": false,
+                "position": 16,
+                "message_id": "8968",
+                "tg_user_id": "8743564681",
+                "time": "2026-10-04 00:00:02",
+                "admission_time": "2026-10-04 00:00:02",
+                "list_id": "A",
+                "display_name": "hanzuzong",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "wdqhc999",
+                "post_id": "2068273357527949353",
+                "original_post_id": "2068273357527949353",
+                "url": "https://x.com/wdqhc999/status/2068273357527949353",
+                "edited": false,
+                "position": 17,
+                "message_id": "8967",
+                "tg_user_id": "874072822",
+                "time": "2026-10-04 00:00:01",
+                "admission_time": "2026-10-04 00:00:01",
+                "list_id": "A",
+                "display_name": "我的枪好长啊",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "xiao16877",
+                "post_id": "2104998758153060637",
+                "original_post_id": "2104998758153060637",
+                "url": "https://x.com/xiao16877/status/2104998758153060637",
+                "edited": false,
+                "position": 18,
+                "message_id": "8966",
+                "tg_user_id": "5927788237",
+                "time": "2026-10-04 00:00:01",
+                "admission_time": "2026-10-04 00:00:01",
+                "list_id": "A",
+                "display_name": "南京米娅",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "laibeinaixiba",
+                "post_id": "2089558662457282900",
+                "original_post_id": "2089558662457282900",
+                "url": "https://x.com/laibeinaixiba/status/2089558662457282900",
+                "edited": false,
+                "position": 19,
+                "message_id": "8965",
+                "tg_user_id": "8442106479",
+                "time": "2026-10-04 00:00:01",
+                "admission_time": "2026-10-04 00:00:01",
+                "list_id": "A",
+                "display_name": "易鸣",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "lovvy222",
+                "post_id": "2084284587161891115",
+                "original_post_id": "2084284587161891115",
+                "url": "https://x.com/lovvy222/status/2084284587161891115",
+                "edited": false,
+                "position": 20,
+                "message_id": "8964",
+                "tg_user_id": "5509067363",
+                "time": "2026-10-04 00:00:01",
+                "admission_time": "2026-10-04 00:00:01",
+                "list_id": "A",
+                "display_name": "Lovvy",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "xiuchiluchu910",
+                "post_id": "2064942312153563183",
+                "original_post_id": "2064942312153563183",
+                "url": "https://x.com/xiuchiluchu910/status/2064942312153563183",
+                "edited": false,
+                "position": 21,
+                "message_id": "8963",
+                "tg_user_id": "6250828223",
+                "time": "2026-10-04 00:00:01",
+                "admission_time": "2026-10-04 00:00:01",
+                "list_id": "A",
+                "display_name": "露老师",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "svj798ds",
+                "post_id": "2008017967410553180",
+                "original_post_id": "2008017967410553180",
+                "url": "https://x.com/svj798ds/status/2008017967410553180",
+                "edited": false,
+                "position": 22,
+                "message_id": "8962",
+                "tg_user_id": "5493105308",
+                "time": "2026-10-04 00:00:00",
+                "admission_time": "2026-10-04 00:00:00",
+                "list_id": "A",
+                "display_name": "svj798ds",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "sleepsbg",
+                "post_id": "2104561123253231907",
+                "original_post_id": "2104561123253231907",
+                "url": "https://x.com/sleepsbg/status/2104561123253231907",
+                "edited": false,
+                "position": 23,
+                "message_id": "8961",
+                "tg_user_id": "957031490",
+                "time": "2026-10-04 00:00:00",
+                "admission_time": "2026-10-04 00:00:00",
+                "list_id": "A",
+                "display_name": "深情小K",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "uudajiejie",
+                "post_id": "2106286909081481297",
+                "original_post_id": "2106286909081481297",
+                "url": "https://x.com/uudajiejie/status/2106286909081481297",
+                "edited": false,
+                "position": 24,
+                "message_id": "8960",
+                "tg_user_id": "8244388416",
+                "time": "2026-10-04 00:00:00",
+                "admission_time": "2026-10-04 00:00:00",
+                "list_id": "A",
+                "display_name": "UU大姐姐",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "nancyyzp",
+                "post_id": "2097912009618866482",
+                "original_post_id": "2105170220403061117",
+                "url": "https://x.com/nancyyzp/status/2097912009618866482",
+                "edited": true,
+                "position": 25,
+                "message_id": "8959",
+                "tg_user_id": "7928308252",
+                "time": "2026-10-04 00:00:00",
+                "admission_time": "2026-10-04 00:00:00",
+                "list_id": "A",
+                "display_name": "nancyyzp",
+                "admitted_at": "2026-10-04 00:01:32",
+                "edit_time": "2026-10-04 12:21:44"
+              },
+              {
+                "handle": "lazypiggy850",
+                "post_id": "2104504127791444295",
+                "original_post_id": "2104504127791444295",
+                "url": "https://x.com/lazypiggy850/status/2104504127791444295",
+                "edited": false,
+                "position": 26,
+                "message_id": "8958",
+                "tg_user_id": "7745875882",
+                "time": "2026-10-04 00:00:00",
+                "admission_time": "2026-10-04 00:00:00",
+                "list_id": "A",
+                "display_name": "lazypiggy懶懶豬",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "meehutaotv",
+                "post_id": "2105992442554061105",
+                "original_post_id": "2105992442554061105",
+                "url": "https://x.com/meehutaotv/status/2105992442554061105",
+                "edited": false,
+                "position": 27,
+                "message_id": "8957",
+                "tg_user_id": "8569786982",
+                "time": "2026-10-04 00:00:00",
+                "admission_time": "2026-10-04 00:00:00",
+                "list_id": "A",
+                "display_name": "米胡桃MeeHutao",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "bob7078",
+                "post_id": "2105700094783943143",
+                "original_post_id": "2105700094783943143",
+                "url": "https://x.com/bob7078/status/2105700094783943143",
+                "edited": false,
+                "position": 28,
+                "message_id": "8956",
+                "tg_user_id": "1713467304",
+                "time": "2026-10-04 00:00:00",
+                "admission_time": "2026-10-04 00:00:00",
+                "list_id": "A",
+                "display_name": "D先生和C小姐",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "snd99x",
+                "post_id": "2105239779914965139",
+                "original_post_id": "2105239779914965139",
+                "url": "https://x.com/snd99x/status/2105239779914965139",
+                "edited": false,
+                "position": 29,
+                "message_id": "8955",
+                "tg_user_id": "8520118213",
+                "time": "2026-10-04 00:00:00",
+                "admission_time": "2026-10-04 00:00:00",
+                "list_id": "A",
+                "display_name": "九九橙🍊",
+                "admitted_at": "2026-10-04 00:01:32"
+              },
+              {
+                "handle": "tiaotiaosheep",
+                "post_id": "2106536072532693365",
+                "original_post_id": "2101158756575068282",
+                "url": "https://x.com/tiaotiaosheep/status/2106536072532693365",
+                "edited": true,
+                "position": 30,
+                "message_id": "8954",
+                "tg_user_id": "8265355415",
+                "time": "2026-10-04 00:00:00",
+                "admission_time": "2026-10-04 00:00:00",
+                "list_id": "A",
+                "display_name": "跳跳羊💃",
+                "admitted_at": "2026-10-04 00:01:32",
+                "edit_time": "2026-10-04 08:06:08"
+              }
+            ],
+            "vacant_positions": {},
+            "capacity": 30,
+            "count": 30,
+            "roster_capacity": 30,
+            "withdrawn_message_ids": [],
+            "sent": true,
+            "message_id": 3150,
+            "owner_chat_id": "8614747348",
+            "text": "群一·A名单（10月4日）互推名单，共 30 条\n\n1 https://x.com/shixiaotaone/status/2106627587212796200\n\n2 https://x.com/shixiaotaon/status/2104482448511996277\n\n3 https://x.com/sluttytatia404/status/2105961262308040729\n\n4 https://x.com/joragyyy/status/2106382900421959930\n\n5 https://x.com/xiaochen000007/status/2104128611662037283\n\n6 https://x.com/aksaks99999/status/2101602852980318419\n\n7 https://x.com/jxzeroc/status/2050643478854660558\n\n8 https://x.com/guilin010/status/2104930975256059995\n\n9 https://x.com/youmeier/status/2105239138090074327\n\n10 https://x.com/pty0808/status/2093389631358484486\n\n已编辑 11 https://x.com/xiaoqiaots/status/2106594815546884588\n\n12 https://x.com/clares5a/status/2099566436322885989\n\n13 https://x.com/caochangqing111/status/2040667645729497247\n\n14 https://x.com/lris_intj/status/2106179278597501404\n\n15 https://x.com/hong14868/status/2106260547415200040\n\n16 https://x.com/hanzuzong3/status/2104168103353745456\n\n17 https://x.com/wdqhc999/status/2068273357527949353\n\n18 https://x.com/xiao16877/status/2104998758153060637\n\n19 https://x.com/laibeinaixiba/status/2089558662457282900\n\n20 https://x.com/lovvy222/status/2084284587161891115\n\n21 https://x.com/xiuchiluchu910/status/2064942312153563183\n\n22 https://x.com/svj798ds/status/2008017967410553180\n\n23 https://x.com/sleepsbg/status/2104561123253231907\n\n24 https://x.com/uudajiejie/status/2106286909081481297\n\n已编辑 25 https://x.com/nancyyzp/status/2097912009618866482\n\n26 https://x.com/lazypiggy850/status/2104504127791444295\n\n27 https://x.com/meehutaotv/status/2105992442554061105\n\n28 https://x.com/bob7078/status/2105700094783943143\n\n29 https://x.com/snd99x/status/2105239779914965139\n\n已编辑 30 https://x.com/tiaotiaosheep/status/2106536072532693365\n\n仅需互推A名单内其他成员，不需要转其他名单。\nhttps://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-10-04&list=A",
+            "links": [
+              "https://x.com/shixiaotaone/status/2106627587212796200",
+              "https://x.com/shixiaotaon/status/2104482448511996277",
+              "https://x.com/sluttytatia404/status/2105961262308040729",
+              "https://x.com/joragyyy/status/2106382900421959930",
+              "https://x.com/xiaochen000007/status/2104128611662037283",
+              "https://x.com/aksaks99999/status/2101602852980318419",
+              "https://x.com/jxzeroc/status/2050643478854660558",
+              "https://x.com/guilin010/status/2104930975256059995",
+              "https://x.com/youmeier/status/2105239138090074327",
+              "https://x.com/pty0808/status/2093389631358484486",
+              "https://x.com/xiaoqiaots/status/2106594815546884588",
+              "https://x.com/clares5a/status/2099566436322885989",
+              "https://x.com/caochangqing111/status/2040667645729497247",
+              "https://x.com/lris_intj/status/2106179278597501404",
+              "https://x.com/hong14868/status/2106260547415200040",
+              "https://x.com/hanzuzong3/status/2104168103353745456",
+              "https://x.com/wdqhc999/status/2068273357527949353",
+              "https://x.com/xiao16877/status/2104998758153060637",
+              "https://x.com/laibeinaixiba/status/2089558662457282900",
+              "https://x.com/lovvy222/status/2084284587161891115",
+              "https://x.com/xiuchiluchu910/status/2064942312153563183",
+              "https://x.com/svj798ds/status/2008017967410553180",
+              "https://x.com/sleepsbg/status/2104561123253231907",
+              "https://x.com/uudajiejie/status/2106286909081481297",
+              "https://x.com/nancyyzp/status/2097912009618866482",
+              "https://x.com/lazypiggy850/status/2104504127791444295",
+              "https://x.com/meehutaotv/status/2105992442554061105",
+              "https://x.com/bob7078/status/2105700094783943143",
+              "https://x.com/snd99x/status/2105239779914965139",
+              "https://x.com/tiaotiaosheep/status/2106536072532693365"
+            ],
+            "updated_at": "2026-10-04 14:30:37"
+          }
+        }
       }
     }
   },
@@ -114,7 +616,29 @@
   "edited_link_receipts": {
     "date": "2026-10-04",
     "groups": {
-      "群一": {},
+      "群一": {
+        "8973": {
+          "key": "8973:2106594815546884588:2026-10-04 12:24:57:synced",
+          "post_id": "2106594815546884588",
+          "outcome": "synced",
+          "retained_post_id": "2106594815546884588",
+          "sent_at": "2026-10-04 14:30:37"
+        },
+        "8959": {
+          "key": "8959:2097912009618866482:2026-10-04 12:21:44:synced",
+          "post_id": "2097912009618866482",
+          "outcome": "synced",
+          "retained_post_id": "2097912009618866482",
+          "sent_at": "2026-10-04 14:30:38"
+        },
+        "8954": {
+          "key": "8954:2106536072532693365:2026-10-04 08:06:08:synced",
+          "post_id": "2106536072532693365",
+          "outcome": "synced",
+          "retained_post_id": "2106536072532693365",
+          "sent_at": "2026-10-04 14:30:39"
+        }
+      },
       "群二": {},
       "群三": {}
     }
@@ -148,12 +672,27 @@
           "A": {
             "slots": [
               {
+                "handle": "shixiaotaone",
+                "post_id": "2106627587212796200",
+                "original_post_id": "2106627587212796200",
+                "url": "https://x.com/shixiaotaone/status/2106627587212796200",
+                "edited": false,
+                "position": 1,
+                "message_id": "8984",
+                "tg_user_id": "5275613873",
+                "time": "2026-10-04 14:20:34",
+                "admission_time": "2026-10-04 14:20:34",
+                "list_id": "A",
+                "display_name": "小桃",
+                "admitted_at": "2026-10-04 14:30:36"
+              },
+              {
                 "handle": "shixiaotaon",
                 "post_id": "2104482448511996277",
                 "original_post_id": "2104482448511996277",
                 "url": "https://x.com/shixiaotaon/status/2104482448511996277",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "8983",
                 "tg_user_id": "5275613873",
                 "time": "2026-10-04 13:49:43",
@@ -168,7 +707,7 @@
                 "original_post_id": "2105961262308040729",
                 "url": "https://x.com/sluttytatia404/status/2105961262308040729",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "8982",
                 "tg_user_id": "6253811123",
                 "time": "2026-10-04 11:06:53",
@@ -183,7 +722,7 @@
                 "original_post_id": "2106382900421959930",
                 "url": "https://x.com/joragyyy/status/2106382900421959930",
                 "edited": false,
-                "position": 3,
+                "position": 4,
                 "message_id": "8980",
                 "tg_user_id": "7996721954",
                 "time": "2026-10-04 01:39:29",
@@ -198,7 +737,7 @@
                 "original_post_id": "2104128611662037283",
                 "url": "https://x.com/xiaochen000007/status/2104128611662037283",
                 "edited": false,
-                "position": 4,
+                "position": 5,
                 "message_id": "8979",
                 "tg_user_id": "5718822279",
                 "time": "2026-10-04 00:11:38",
@@ -213,7 +752,7 @@
                 "original_post_id": "2101602852980318419",
                 "url": "https://x.com/aksaks99999/status/2101602852980318419",
                 "edited": false,
-                "position": 5,
+                "position": 6,
                 "message_id": "8978",
                 "tg_user_id": "5829845216",
                 "time": "2026-10-04 00:05:16",
@@ -228,7 +767,7 @@
                 "original_post_id": "2050643478854660558",
                 "url": "https://x.com/jxzeroc/status/2050643478854660558",
                 "edited": false,
-                "position": 6,
+                "position": 7,
                 "message_id": "8977",
                 "tg_user_id": "8482533988",
                 "time": "2026-10-04 00:04:53",
@@ -243,7 +782,7 @@
                 "original_post_id": "2104930975256059995",
                 "url": "https://x.com/guilin010/status/2104930975256059995",
                 "edited": false,
-                "position": 7,
+                "position": 8,
                 "message_id": "8976",
                 "tg_user_id": "7182472764",
                 "time": "2026-10-04 00:03:29",
@@ -258,7 +797,7 @@
                 "original_post_id": "2105239138090074327",
                 "url": "https://x.com/youmeier/status/2105239138090074327",
                 "edited": false,
-                "position": 8,
+                "position": 9,
                 "message_id": "8975",
                 "tg_user_id": "5997103908",
                 "time": "2026-10-04 00:03:16",
@@ -273,7 +812,7 @@
                 "original_post_id": "2093389631358484486",
                 "url": "https://x.com/pty0808/status/2093389631358484486",
                 "edited": false,
-                "position": 9,
+                "position": 10,
                 "message_id": "8974",
                 "tg_user_id": "7750185920",
                 "time": "2026-10-04 00:03:03",
@@ -288,7 +827,7 @@
                 "original_post_id": "2097176911688688066",
                 "url": "https://x.com/xiaoqiaots/status/2106594815546884588",
                 "edited": true,
-                "position": 10,
+                "position": 11,
                 "message_id": "8973",
                 "tg_user_id": "7309057113",
                 "time": "2026-10-04 00:01:50",
@@ -304,7 +843,7 @@
                 "original_post_id": "2099566436322885989",
                 "url": "https://x.com/clares5a/status/2099566436322885989",
                 "edited": false,
-                "position": 11,
+                "position": 12,
                 "message_id": "8972",
                 "tg_user_id": "7664740669",
                 "time": "2026-10-04 00:01:14",
@@ -319,7 +858,7 @@
                 "original_post_id": "2040667645729497247",
                 "url": "https://x.com/caochangqing111/status/2040667645729497247",
                 "edited": false,
-                "position": 12,
+                "position": 13,
                 "message_id": "8971",
                 "tg_user_id": "7176578641",
                 "time": "2026-10-04 00:01:01",
@@ -334,7 +873,7 @@
                 "original_post_id": "2106179278597501404",
                 "url": "https://x.com/lris_intj/status/2106179278597501404",
                 "edited": false,
-                "position": 13,
+                "position": 14,
                 "message_id": "8970",
                 "tg_user_id": "2103607030",
                 "time": "2026-10-04 00:00:10",
@@ -349,7 +888,7 @@
                 "original_post_id": "2106260547415200040",
                 "url": "https://x.com/hong14868/status/2106260547415200040",
                 "edited": false,
-                "position": 14,
+                "position": 15,
                 "message_id": "8969",
                 "tg_user_id": "8412768331",
                 "time": "2026-10-04 00:00:08",
@@ -364,7 +903,7 @@
                 "original_post_id": "2104168103353745456",
                 "url": "https://x.com/hanzuzong3/status/2104168103353745456",
                 "edited": false,
-                "position": 15,
+                "position": 16,
                 "message_id": "8968",
                 "tg_user_id": "8743564681",
                 "time": "2026-10-04 00:00:02",
@@ -379,7 +918,7 @@
                 "original_post_id": "2068273357527949353",
                 "url": "https://x.com/wdqhc999/status/2068273357527949353",
                 "edited": false,
-                "position": 16,
+                "position": 17,
                 "message_id": "8967",
                 "tg_user_id": "874072822",
                 "time": "2026-10-04 00:00:01",
@@ -394,7 +933,7 @@
                 "original_post_id": "2104998758153060637",
                 "url": "https://x.com/xiao16877/status/2104998758153060637",
                 "edited": false,
-                "position": 17,
+                "position": 18,
                 "message_id": "8966",
                 "tg_user_id": "5927788237",
                 "time": "2026-10-04 00:00:01",
@@ -409,7 +948,7 @@
                 "original_post_id": "2089558662457282900",
                 "url": "https://x.com/laibeinaixiba/status/2089558662457282900",
                 "edited": false,
-                "position": 18,
+                "position": 19,
                 "message_id": "8965",
                 "tg_user_id": "8442106479",
                 "time": "2026-10-04 00:00:01",
@@ -424,7 +963,7 @@
                 "original_post_id": "2084284587161891115",
                 "url": "https://x.com/lovvy222/status/2084284587161891115",
                 "edited": false,
-                "position": 19,
+                "position": 20,
                 "message_id": "8964",
                 "tg_user_id": "5509067363",
                 "time": "2026-10-04 00:00:01",
@@ -439,7 +978,7 @@
                 "original_post_id": "2064942312153563183",
                 "url": "https://x.com/xiuchiluchu910/status/2064942312153563183",
                 "edited": false,
-                "position": 20,
+                "position": 21,
                 "message_id": "8963",
                 "tg_user_id": "6250828223",
                 "time": "2026-10-04 00:00:01",
@@ -454,7 +993,7 @@
                 "original_post_id": "2008017967410553180",
                 "url": "https://x.com/svj798ds/status/2008017967410553180",
                 "edited": false,
-                "position": 21,
+                "position": 22,
                 "message_id": "8962",
                 "tg_user_id": "5493105308",
                 "time": "2026-10-04 00:00:00",
@@ -469,7 +1008,7 @@
                 "original_post_id": "2104561123253231907",
                 "url": "https://x.com/sleepsbg/status/2104561123253231907",
                 "edited": false,
-                "position": 22,
+                "position": 23,
                 "message_id": "8961",
                 "tg_user_id": "957031490",
                 "time": "2026-10-04 00:00:00",
@@ -484,7 +1023,7 @@
                 "original_post_id": "2106286909081481297",
                 "url": "https://x.com/uudajiejie/status/2106286909081481297",
                 "edited": false,
-                "position": 23,
+                "position": 24,
                 "message_id": "8960",
                 "tg_user_id": "8244388416",
                 "time": "2026-10-04 00:00:00",
@@ -499,7 +1038,7 @@
                 "original_post_id": "2105170220403061117",
                 "url": "https://x.com/nancyyzp/status/2097912009618866482",
                 "edited": true,
-                "position": 24,
+                "position": 25,
                 "message_id": "8959",
                 "tg_user_id": "7928308252",
                 "time": "2026-10-04 00:00:00",
@@ -515,7 +1054,7 @@
                 "original_post_id": "2104504127791444295",
                 "url": "https://x.com/lazypiggy850/status/2104504127791444295",
                 "edited": false,
-                "position": 25,
+                "position": 26,
                 "message_id": "8958",
                 "tg_user_id": "7745875882",
                 "time": "2026-10-04 00:00:00",
@@ -530,7 +1069,7 @@
                 "original_post_id": "2105992442554061105",
                 "url": "https://x.com/meehutaotv/status/2105992442554061105",
                 "edited": false,
-                "position": 26,
+                "position": 27,
                 "message_id": "8957",
                 "tg_user_id": "8569786982",
                 "time": "2026-10-04 00:00:00",
@@ -545,7 +1084,7 @@
                 "original_post_id": "2105700094783943143",
                 "url": "https://x.com/bob7078/status/2105700094783943143",
                 "edited": false,
-                "position": 27,
+                "position": 28,
                 "message_id": "8956",
                 "tg_user_id": "1713467304",
                 "time": "2026-10-04 00:00:00",
@@ -560,7 +1099,7 @@
                 "original_post_id": "2105239779914965139",
                 "url": "https://x.com/snd99x/status/2105239779914965139",
                 "edited": false,
-                "position": 28,
+                "position": 29,
                 "message_id": "8955",
                 "tg_user_id": "8520118213",
                 "time": "2026-10-04 00:00:00",
@@ -575,7 +1114,7 @@
                 "original_post_id": "2101158756575068282",
                 "url": "https://x.com/tiaotiaosheep/status/2106536072532693365",
                 "edited": true,
-                "position": 29,
+                "position": 30,
                 "message_id": "8954",
                 "tg_user_id": "8265355415",
                 "time": "2026-10-04 00:00:00",
@@ -587,17 +1126,33 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 29,
-            "count": 29,
-            "roster_capacity": 29,
+            "capacity": 30,
+            "count": 30,
+            "roster_capacity": 30,
             "withdrawn_message_ids": []
           },
           "B": {
-            "slots": [],
+            "slots": [
+              {
+                "handle": "qinxian8023",
+                "post_id": "1843994899403976912",
+                "original_post_id": "1843994899403976912",
+                "url": "https://x.com/qinxian8023/status/1843994899403976912",
+                "edited": false,
+                "position": 1,
+                "message_id": "8985",
+                "tg_user_id": "1264616126",
+                "time": "2026-10-04 14:20:50",
+                "admission_time": "2026-10-04 14:20:50",
+                "list_id": "B",
+                "display_name": "宇宙的琴弦",
+                "admitted_at": "2026-10-04 14:30:36"
+              }
+            ],
             "vacant_positions": {},
-            "capacity": 0,
-            "count": 0,
-            "roster_capacity": 0,
+            "capacity": 1,
+            "count": 1,
+            "roster_capacity": 1,
             "withdrawn_message_ids": []
           }
         },
@@ -630,17 +1185,35 @@
           "xiaochen000007": "A",
           "joragyyy": "A",
           "sluttytatia404": "A",
-          "shixiaotaon": "A"
+          "shixiaotaon": "A",
+          "shixiaotaone": "A",
+          "qinxian8023": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
+          {
+            "handle": "shixiaotaone",
+            "post_id": "2106627587212796200",
+            "original_post_id": "2106627587212796200",
+            "url": "https://x.com/shixiaotaone/status/2106627587212796200",
+            "edited": false,
+            "position": 1,
+            "message_id": "8984",
+            "tg_user_id": "5275613873",
+            "time": "2026-10-04 14:20:34",
+            "admission_time": "2026-10-04 14:20:34",
+            "list_id": "A",
+            "display_name": "小桃",
+            "admitted_at": "2026-10-04 14:30:36",
+            "list_position": 1
+          },
           {
             "handle": "shixiaotaon",
             "post_id": "2104482448511996277",
             "original_post_id": "2104482448511996277",
             "url": "https://x.com/shixiaotaon/status/2104482448511996277",
             "edited": false,
-            "position": 1,
+            "position": 2,
             "message_id": "8983",
             "tg_user_id": "5275613873",
             "time": "2026-10-04 13:49:43",
@@ -648,7 +1221,7 @@
             "list_id": "A",
             "display_name": "小小桃",
             "admitted_at": "2026-10-04 14:00:42",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "sluttytatia404",
@@ -656,7 +1229,7 @@
             "original_post_id": "2105961262308040729",
             "url": "https://x.com/sluttytatia404/status/2105961262308040729",
             "edited": false,
-            "position": 2,
+            "position": 3,
             "message_id": "8982",
             "tg_user_id": "6253811123",
             "time": "2026-10-04 11:06:53",
@@ -664,7 +1237,7 @@
             "list_id": "A",
             "display_name": "Tatia",
             "admitted_at": "2026-10-04 11:15:27",
-            "list_position": 2
+            "list_position": 3
           },
           {
             "handle": "joragyyy",
@@ -672,7 +1245,7 @@
             "original_post_id": "2106382900421959930",
             "url": "https://x.com/joragyyy/status/2106382900421959930",
             "edited": false,
-            "position": 3,
+            "position": 4,
             "message_id": "8980",
             "tg_user_id": "7996721954",
             "time": "2026-10-04 01:39:29",
@@ -680,7 +1253,7 @@
             "list_id": "A",
             "display_name": "Yiiceing",
             "admitted_at": "2026-10-04 01:45:30",
-            "list_position": 3
+            "list_position": 4
           },
           {
             "handle": "xiaochen000007",
@@ -688,7 +1261,7 @@
             "original_post_id": "2104128611662037283",
             "url": "https://x.com/xiaochen000007/status/2104128611662037283",
             "edited": false,
-            "position": 4,
+            "position": 5,
             "message_id": "8979",
             "tg_user_id": "5718822279",
             "time": "2026-10-04 00:11:38",
@@ -696,7 +1269,7 @@
             "list_id": "A",
             "display_name": "小陈和小王的日常",
             "admitted_at": "2026-10-04 00:15:50",
-            "list_position": 4
+            "list_position": 5
           },
           {
             "handle": "aksaks99999",
@@ -704,7 +1277,7 @@
             "original_post_id": "2101602852980318419",
             "url": "https://x.com/aksaks99999/status/2101602852980318419",
             "edited": false,
-            "position": 5,
+            "position": 6,
             "message_id": "8978",
             "tg_user_id": "5829845216",
             "time": "2026-10-04 00:05:16",
@@ -712,7 +1285,7 @@
             "list_id": "A",
             "display_name": "AKs",
             "admitted_at": "2026-10-04 00:15:50",
-            "list_position": 5
+            "list_position": 6
           },
           {
             "handle": "jxzeroc",
@@ -720,7 +1293,7 @@
             "original_post_id": "2050643478854660558",
             "url": "https://x.com/jxzeroc/status/2050643478854660558",
             "edited": false,
-            "position": 6,
+            "position": 7,
             "message_id": "8977",
             "tg_user_id": "8482533988",
             "time": "2026-10-04 00:04:53",
@@ -728,7 +1301,7 @@
             "list_id": "A",
             "display_name": "Jx",
             "admitted_at": "2026-10-04 00:15:50",
-            "list_position": 6
+            "list_position": 7
           },
           {
             "handle": "guilin010",
@@ -736,7 +1309,7 @@
             "original_post_id": "2104930975256059995",
             "url": "https://x.com/guilin010/status/2104930975256059995",
             "edited": false,
-            "position": 7,
+            "position": 8,
             "message_id": "8976",
             "tg_user_id": "7182472764",
             "time": "2026-10-04 00:03:29",
@@ -744,7 +1317,7 @@
             "list_id": "A",
             "display_name": "小林的涩涩日常",
             "admitted_at": "2026-10-04 00:15:50",
-            "list_position": 7
+            "list_position": 8
           },
           {
             "handle": "youmeier",
@@ -752,7 +1325,7 @@
             "original_post_id": "2105239138090074327",
             "url": "https://x.com/youmeier/status/2105239138090074327",
             "edited": false,
-            "position": 8,
+            "position": 9,
             "message_id": "8975",
             "tg_user_id": "5997103908",
             "time": "2026-10-04 00:03:16",
@@ -760,7 +1333,7 @@
             "list_id": "A",
             "display_name": "蜜桔摄影",
             "admitted_at": "2026-10-04 00:15:50",
-            "list_position": 8
+            "list_position": 9
           },
           {
             "handle": "pty0808",
@@ -768,7 +1341,7 @@
             "original_post_id": "2093389631358484486",
             "url": "https://x.com/pty0808/status/2093389631358484486",
             "edited": false,
-            "position": 9,
+            "position": 10,
             "message_id": "8974",
             "tg_user_id": "7750185920",
             "time": "2026-10-04 00:03:03",
@@ -776,7 +1349,7 @@
             "list_id": "A",
             "display_name": "胖头鱼(视频号)",
             "admitted_at": "2026-10-04 00:15:50",
-            "list_position": 9
+            "list_position": 10
           },
           {
             "handle": "xiaoqiaots",
@@ -784,7 +1357,7 @@
             "original_post_id": "2097176911688688066",
             "url": "https://x.com/xiaoqiaots/status/2106594815546884588",
             "edited": true,
-            "position": 10,
+            "position": 11,
             "message_id": "8973",
             "tg_user_id": "7309057113",
             "time": "2026-10-04 00:01:50",
@@ -793,7 +1366,7 @@
             "display_name": "乔乔",
             "admitted_at": "2026-10-04 00:15:50",
             "edit_time": "2026-10-04 12:24:57",
-            "list_position": 10
+            "list_position": 11
           },
           {
             "handle": "clares5a",
@@ -801,7 +1374,7 @@
             "original_post_id": "2099566436322885989",
             "url": "https://x.com/clares5a/status/2099566436322885989",
             "edited": false,
-            "position": 11,
+            "position": 12,
             "message_id": "8972",
             "tg_user_id": "7664740669",
             "time": "2026-10-04 00:01:14",
@@ -809,7 +1382,7 @@
             "list_id": "A",
             "display_name": "Clare-S（杭州）",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 11
+            "list_position": 12
           },
           {
             "handle": "caochangqing111",
@@ -817,7 +1390,7 @@
             "original_post_id": "2040667645729497247",
             "url": "https://x.com/caochangqing111/status/2040667645729497247",
             "edited": false,
-            "position": 12,
+            "position": 13,
             "message_id": "8971",
             "tg_user_id": "7176578641",
             "time": "2026-10-04 00:01:01",
@@ -825,7 +1398,7 @@
             "list_id": "A",
             "display_name": "曹长卿唯一大号 支持任何验证",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 12
+            "list_position": 13
           },
           {
             "handle": "lris_intj",
@@ -833,7 +1406,7 @@
             "original_post_id": "2106179278597501404",
             "url": "https://x.com/lris_intj/status/2106179278597501404",
             "edited": false,
-            "position": 13,
+            "position": 14,
             "message_id": "8970",
             "tg_user_id": "2103607030",
             "time": "2026-10-04 00:00:10",
@@ -841,7 +1414,7 @@
             "list_id": "A",
             "display_name": "♱₊Ms. Rin❄︎˚↝",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 13
+            "list_position": 14
           },
           {
             "handle": "hong14868",
@@ -849,7 +1422,7 @@
             "original_post_id": "2106260547415200040",
             "url": "https://x.com/hong14868/status/2106260547415200040",
             "edited": false,
-            "position": 14,
+            "position": 15,
             "message_id": "8969",
             "tg_user_id": "8412768331",
             "time": "2026-10-04 00:00:08",
@@ -857,7 +1430,7 @@
             "list_id": "A",
             "display_name": "hong14868",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 14
+            "list_position": 15
           },
           {
             "handle": "hanzuzong3",
@@ -865,7 +1438,7 @@
             "original_post_id": "2104168103353745456",
             "url": "https://x.com/hanzuzong3/status/2104168103353745456",
             "edited": false,
-            "position": 15,
+            "position": 16,
             "message_id": "8968",
             "tg_user_id": "8743564681",
             "time": "2026-10-04 00:00:02",
@@ -873,7 +1446,7 @@
             "list_id": "A",
             "display_name": "hanzuzong",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 15
+            "list_position": 16
           },
           {
             "handle": "wdqhc999",
@@ -881,7 +1454,7 @@
             "original_post_id": "2068273357527949353",
             "url": "https://x.com/wdqhc999/status/2068273357527949353",
             "edited": false,
-            "position": 16,
+            "position": 17,
             "message_id": "8967",
             "tg_user_id": "874072822",
             "time": "2026-10-04 00:00:01",
@@ -889,7 +1462,7 @@
             "list_id": "A",
             "display_name": "我的枪好长啊",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 16
+            "list_position": 17
           },
           {
             "handle": "xiao16877",
@@ -897,7 +1470,7 @@
             "original_post_id": "2104998758153060637",
             "url": "https://x.com/xiao16877/status/2104998758153060637",
             "edited": false,
-            "position": 17,
+            "position": 18,
             "message_id": "8966",
             "tg_user_id": "5927788237",
             "time": "2026-10-04 00:00:01",
@@ -905,7 +1478,7 @@
             "list_id": "A",
             "display_name": "南京米娅",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 17
+            "list_position": 18
           },
           {
             "handle": "laibeinaixiba",
@@ -913,7 +1486,7 @@
             "original_post_id": "2089558662457282900",
             "url": "https://x.com/laibeinaixiba/status/2089558662457282900",
             "edited": false,
-            "position": 18,
+            "position": 19,
             "message_id": "8965",
             "tg_user_id": "8442106479",
             "time": "2026-10-04 00:00:01",
@@ -921,7 +1494,7 @@
             "list_id": "A",
             "display_name": "易鸣",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 18
+            "list_position": 19
           },
           {
             "handle": "lovvy222",
@@ -929,7 +1502,7 @@
             "original_post_id": "2084284587161891115",
             "url": "https://x.com/lovvy222/status/2084284587161891115",
             "edited": false,
-            "position": 19,
+            "position": 20,
             "message_id": "8964",
             "tg_user_id": "5509067363",
             "time": "2026-10-04 00:00:01",
@@ -937,7 +1510,7 @@
             "list_id": "A",
             "display_name": "Lovvy",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 19
+            "list_position": 20
           },
           {
             "handle": "xiuchiluchu910",
@@ -945,7 +1518,7 @@
             "original_post_id": "2064942312153563183",
             "url": "https://x.com/xiuchiluchu910/status/2064942312153563183",
             "edited": false,
-            "position": 20,
+            "position": 21,
             "message_id": "8963",
             "tg_user_id": "6250828223",
             "time": "2026-10-04 00:00:01",
@@ -953,7 +1526,7 @@
             "list_id": "A",
             "display_name": "露老师",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 20
+            "list_position": 21
           },
           {
             "handle": "svj798ds",
@@ -961,7 +1534,7 @@
             "original_post_id": "2008017967410553180",
             "url": "https://x.com/svj798ds/status/2008017967410553180",
             "edited": false,
-            "position": 21,
+            "position": 22,
             "message_id": "8962",
             "tg_user_id": "5493105308",
             "time": "2026-10-04 00:00:00",
@@ -969,7 +1542,7 @@
             "list_id": "A",
             "display_name": "svj798ds",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 21
+            "list_position": 22
           },
           {
             "handle": "sleepsbg",
@@ -977,7 +1550,7 @@
             "original_post_id": "2104561123253231907",
             "url": "https://x.com/sleepsbg/status/2104561123253231907",
             "edited": false,
-            "position": 22,
+            "position": 23,
             "message_id": "8961",
             "tg_user_id": "957031490",
             "time": "2026-10-04 00:00:00",
@@ -985,7 +1558,7 @@
             "list_id": "A",
             "display_name": "深情小K",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 22
+            "list_position": 23
           },
           {
             "handle": "uudajiejie",
@@ -993,7 +1566,7 @@
             "original_post_id": "2106286909081481297",
             "url": "https://x.com/uudajiejie/status/2106286909081481297",
             "edited": false,
-            "position": 23,
+            "position": 24,
             "message_id": "8960",
             "tg_user_id": "8244388416",
             "time": "2026-10-04 00:00:00",
@@ -1001,7 +1574,7 @@
             "list_id": "A",
             "display_name": "UU大姐姐",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 23
+            "list_position": 24
           },
           {
             "handle": "nancyyzp",
@@ -1009,7 +1582,7 @@
             "original_post_id": "2105170220403061117",
             "url": "https://x.com/nancyyzp/status/2097912009618866482",
             "edited": true,
-            "position": 24,
+            "position": 25,
             "message_id": "8959",
             "tg_user_id": "7928308252",
             "time": "2026-10-04 00:00:00",
@@ -1018,7 +1591,7 @@
             "display_name": "nancyyzp",
             "admitted_at": "2026-10-04 00:01:32",
             "edit_time": "2026-10-04 12:21:44",
-            "list_position": 24
+            "list_position": 25
           },
           {
             "handle": "lazypiggy850",
@@ -1026,7 +1599,7 @@
             "original_post_id": "2104504127791444295",
             "url": "https://x.com/lazypiggy850/status/2104504127791444295",
             "edited": false,
-            "position": 25,
+            "position": 26,
             "message_id": "8958",
             "tg_user_id": "7745875882",
             "time": "2026-10-04 00:00:00",
@@ -1034,7 +1607,7 @@
             "list_id": "A",
             "display_name": "lazypiggy懶懶豬",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 25
+            "list_position": 26
           },
           {
             "handle": "meehutaotv",
@@ -1042,7 +1615,7 @@
             "original_post_id": "2105992442554061105",
             "url": "https://x.com/meehutaotv/status/2105992442554061105",
             "edited": false,
-            "position": 26,
+            "position": 27,
             "message_id": "8957",
             "tg_user_id": "8569786982",
             "time": "2026-10-04 00:00:00",
@@ -1050,7 +1623,7 @@
             "list_id": "A",
             "display_name": "米胡桃MeeHutao",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 26
+            "list_position": 27
           },
           {
             "handle": "bob7078",
@@ -1058,7 +1631,7 @@
             "original_post_id": "2105700094783943143",
             "url": "https://x.com/bob7078/status/2105700094783943143",
             "edited": false,
-            "position": 27,
+            "position": 28,
             "message_id": "8956",
             "tg_user_id": "1713467304",
             "time": "2026-10-04 00:00:00",
@@ -1066,7 +1639,7 @@
             "list_id": "A",
             "display_name": "D先生和C小姐",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 27
+            "list_position": 28
           },
           {
             "handle": "snd99x",
@@ -1074,7 +1647,7 @@
             "original_post_id": "2105239779914965139",
             "url": "https://x.com/snd99x/status/2105239779914965139",
             "edited": false,
-            "position": 28,
+            "position": 29,
             "message_id": "8955",
             "tg_user_id": "8520118213",
             "time": "2026-10-04 00:00:00",
@@ -1082,7 +1655,7 @@
             "list_id": "A",
             "display_name": "九九橙🍊",
             "admitted_at": "2026-10-04 00:01:32",
-            "list_position": 28
+            "list_position": 29
           },
           {
             "handle": "tiaotiaosheep",
@@ -1090,7 +1663,7 @@
             "original_post_id": "2101158756575068282",
             "url": "https://x.com/tiaotiaosheep/status/2106536072532693365",
             "edited": true,
-            "position": 29,
+            "position": 30,
             "message_id": "8954",
             "tg_user_id": "8265355415",
             "time": "2026-10-04 00:00:00",
@@ -1099,11 +1672,27 @@
             "display_name": "跳跳羊💃",
             "admitted_at": "2026-10-04 00:01:32",
             "edit_time": "2026-10-04 08:06:08",
-            "list_position": 29
+            "list_position": 30
+          },
+          {
+            "handle": "qinxian8023",
+            "post_id": "1843994899403976912",
+            "original_post_id": "1843994899403976912",
+            "url": "https://x.com/qinxian8023/status/1843994899403976912",
+            "edited": false,
+            "position": 31,
+            "message_id": "8985",
+            "tg_user_id": "1264616126",
+            "time": "2026-10-04 14:20:50",
+            "admission_time": "2026-10-04 14:20:50",
+            "list_id": "B",
+            "display_name": "宇宙的琴弦",
+            "admitted_at": "2026-10-04 14:30:36",
+            "list_position": 1
           }
         ],
         "vacant_positions": {},
-        "count": 29,
+        "count": 31,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1132,10 +1721,10 @@
     "date": "2026-10-04",
     "groups": {
       "群一": {
-        "digest": "386d73cf39b2134959f93661332eb43f0e252bed616d8a831313409279d5da59",
-        "sourceRevision": 7,
+        "digest": "ed428ee83b250467dbe191498057db040ca765feeac5802d4fe185c80ee745f2",
+        "sourceRevision": 8,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-04T14:00:43.355862+08:00"
+        "acknowledged_at": "2026-10-04T14:30:40.912140+08:00"
       },
       "群二": {
         "digest": "3e3083f48de5fb0d7b4fb8b6d94c198363b122cbce80175acad631fa9c68d25f",

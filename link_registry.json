@@ -882,38 +882,43 @@
         "tg_username": "lazypiggy001",
         "tg_user_id": 7745875882,
         "tg_name": "LazyPiggy懶懶豬(定制下单请私信💕)",
-        "link": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
-        "message_text": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
+        "link": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
+        "message_text": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
+            "url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
             "handle": "lazypiggy850",
-            "post_id": "2104504127791444295",
+            "post_id": "2106678572702482551",
             "role": "promo",
             "author_name": "lazypiggy懶懶豬",
-            "followers_count": 405006,
-            "followers_text": "40.5W",
+            "followers_count": 407038,
+            "followers_text": "40.7W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 405006
+                "count": 407038
               },
               {
                 "source": "status_legacy_i",
-                "count": 405006
+                "count": 407038
               },
               {
                 "source": "status_legacy",
-                "count": 405006
+                "count": 407038
+              },
+              {
+                "source": "profile_v2",
+                "count": 407038
               }
             ],
-            "tweet_text": "又被灌满满了……\n被疯狂打桩哇呜～\n(已更新)\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text": "脚脚伸到你面前了～\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -924,27 +929,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 59,
+                "length": 45,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 59,
+                "length": 45,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 59,
+                "length": 45,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 59,
+                "length": 45,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 59,
+                "length": 45,
                 "required_mentions_count": 3
               }
             ],
@@ -954,7 +959,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
+            "post_id": "2106678572702482551",
+            "handle": "lazypiggy850",
+            "source_time": "2026-10-04 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
             "post_id": "2104504127791444295",
             "handle": "lazypiggy850",
@@ -964,8 +977,8 @@
         ],
         "x_name": "lazypiggy懶懶豬",
         "promo_name": "lazypiggy懶懶豬",
-        "followers_count": 405008,
-        "followers_text": "40.5W",
+        "followers_count": 407038,
+        "followers_text": "40.7W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -975,55 +988,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 405006
+            "count": 407038
           },
           {
             "source": "status_legacy_i",
-            "count": 405006
+            "count": 407038
           },
           {
             "source": "status_legacy",
-            "count": 405006
-          },
-          {
-            "source": "status_v2",
-            "count": 405008
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 405008
-          },
-          {
-            "source": "status_legacy",
-            "count": 405008
+            "count": 407038
           },
           {
             "source": "profile_v2",
-            "count": 405008
+            "count": 407038
           }
         ],
-        "check_followers_count": 405006,
-        "check_followers_text": "40.5W",
+        "check_followers_count": 407038,
+        "check_followers_text": "40.7W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 405006
+            "count": 407038
           },
           {
             "source": "status_legacy_i",
-            "count": 405006
+            "count": 407038
           },
           {
             "source": "status_legacy",
-            "count": 405006
+            "count": 407038
+          },
+          {
+            "source": "profile_v2",
+            "count": 407038
           }
         ],
-        "tweet_text": "又被灌满满了……\n被疯狂打桩哇呜～\n(已更新)\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text": "脚脚伸到你面前了～\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -1034,47 +1040,47 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 59,
+            "length": 45,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 59,
+            "length": 45,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 59,
+            "length": 45,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 59,
+            "length": 45,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 59,
+            "length": 45,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
-        "check_url": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
-        "promo_post_id": "2104504127791444295",
-        "check_post_id": "2104504127791444295",
+        "promo_url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
+        "check_url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
+        "promo_post_id": "2106678572702482551",
+        "check_post_id": "2106678572702482551",
         "chat_id": "-1003891628675",
         "message_id": 8958,
         "time": "2026-10-04 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-04 17:32:57",
         "followers_min": 100000,
-        "qualified_followers_count": 405008,
-        "qualified_followers_text": "40.5W",
+        "qualified_followers_count": 407038,
+        "qualified_followers_text": "40.7W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -5880,7 +5886,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 340968,
+        "followers_count": 340974,
         "followers_text": "34W",
         "followers_sources": [
           "status_v2",
@@ -6920,6 +6926,18 @@
           {
             "source": "profile_v2",
             "count": 340968
+          },
+          {
+            "source": "status_v2",
+            "count": 340974
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 340974
+          },
+          {
+            "source": "status_legacy",
+            "count": 340974
           }
         ],
         "check_followers_count": 340593,
@@ -6998,7 +7016,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 340968,
+        "qualified_followers_count": 340974,
         "qualified_followers_text": "34W",
         "qualified_followers_sources": [
           "status_v2",
@@ -8961,7 +8979,7 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 27
       },
-      "2104504127791444295": {
+      "2106678572702482551": {
         "x_handle": "lazypiggy850",
         "check_handle": "lazypiggy850",
         "dual_link": false,
@@ -8969,38 +8987,43 @@
         "tg_username": "lazypiggy001",
         "tg_user_id": 7745875882,
         "tg_name": "LazyPiggy懶懶豬(定制下单请私信💕)",
-        "link": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
-        "message_text": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
+        "link": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
+        "message_text": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
+            "url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
             "handle": "lazypiggy850",
-            "post_id": "2104504127791444295",
+            "post_id": "2106678572702482551",
             "role": "promo",
             "author_name": "lazypiggy懶懶豬",
-            "followers_count": 405006,
-            "followers_text": "40.5W",
+            "followers_count": 407038,
+            "followers_text": "40.7W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 405006
+                "count": 407038
               },
               {
                 "source": "status_legacy_i",
-                "count": 405006
+                "count": 407038
               },
               {
                 "source": "status_legacy",
-                "count": 405006
+                "count": 407038
+              },
+              {
+                "source": "profile_v2",
+                "count": 407038
               }
             ],
-            "tweet_text": "又被灌满满了……\n被疯狂打桩哇呜～\n(已更新)\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text": "脚脚伸到你面前了～\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -9011,27 +9034,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 59,
+                "length": 45,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 59,
+                "length": 45,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_v2",
-                "length": 59,
+                "length": 45,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_i",
-                "length": 59,
+                "length": 45,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 59,
+                "length": 45,
                 "required_mentions_count": 3
               }
             ],
@@ -9041,7 +9064,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
+            "post_id": "2106678572702482551",
+            "handle": "lazypiggy850",
+            "source_time": "2026-10-04 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
             "post_id": "2104504127791444295",
             "handle": "lazypiggy850",
@@ -9051,8 +9082,8 @@
         ],
         "x_name": "lazypiggy懶懶豬",
         "promo_name": "lazypiggy懶懶豬",
-        "followers_count": 405008,
-        "followers_text": "40.5W",
+        "followers_count": 407038,
+        "followers_text": "40.7W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -9062,55 +9093,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 405006
+            "count": 407038
           },
           {
             "source": "status_legacy_i",
-            "count": 405006
+            "count": 407038
           },
           {
             "source": "status_legacy",
-            "count": 405006
-          },
-          {
-            "source": "status_v2",
-            "count": 405008
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 405008
-          },
-          {
-            "source": "status_legacy",
-            "count": 405008
+            "count": 407038
           },
           {
             "source": "profile_v2",
-            "count": 405008
+            "count": 407038
           }
         ],
-        "check_followers_count": 405006,
-        "check_followers_text": "40.5W",
+        "check_followers_count": 407038,
+        "check_followers_text": "40.7W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 405006
+            "count": 407038
           },
           {
             "source": "status_legacy_i",
-            "count": 405006
+            "count": 407038
           },
           {
             "source": "status_legacy",
-            "count": 405006
+            "count": 407038
+          },
+          {
+            "source": "profile_v2",
+            "count": 407038
           }
         ],
-        "tweet_text": "又被灌满满了……\n被疯狂打桩哇呜～\n(已更新)\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text": "脚脚伸到你面前了～\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -9121,47 +9145,47 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 59,
+            "length": 45,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 59,
+            "length": 45,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_v2",
-            "length": 59,
+            "length": 45,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_i",
-            "length": 59,
+            "length": 45,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 59,
+            "length": 45,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
-        "check_url": "https://x.com/lazypiggy850/status/2104504127791444295?s=46",
-        "promo_post_id": "2104504127791444295",
-        "check_post_id": "2104504127791444295",
+        "promo_url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
+        "check_url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
+        "promo_post_id": "2106678572702482551",
+        "check_post_id": "2106678572702482551",
         "chat_id": "-1003891628675",
         "message_id": 8958,
         "time": "2026-10-04 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-04 17:32:57",
         "followers_min": 100000,
-        "qualified_followers_count": 405008,
-        "qualified_followers_text": "40.5W",
+        "qualified_followers_count": 407038,
+        "qualified_followers_text": "40.7W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -13967,7 +13991,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 340968,
+        "followers_count": 340974,
         "followers_text": "34W",
         "followers_sources": [
           "status_v2",
@@ -15007,6 +15031,18 @@
           {
             "source": "profile_v2",
             "count": 340968
+          },
+          {
+            "source": "status_v2",
+            "count": 340974
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 340974
+          },
+          {
+            "source": "status_legacy",
+            "count": 340974
           }
         ],
         "check_followers_count": 340593,
@@ -15085,7 +15121,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 340968,
+        "qualified_followers_count": 340974,
         "qualified_followers_text": "34W",
         "qualified_followers_sources": [
           "status_v2",
@@ -16570,10 +16606,10 @@
               },
               {
                 "handle": "lazypiggy850",
-                "post_id": "2104504127791444295",
+                "post_id": "2106678572702482551",
                 "original_post_id": "2104504127791444295",
-                "url": "https://x.com/lazypiggy850/status/2104504127791444295",
-                "edited": false,
+                "url": "https://x.com/lazypiggy850/status/2106678572702482551",
+                "edited": true,
                 "position": 26,
                 "message_id": "8958",
                 "tg_user_id": "7745875882",
@@ -16581,7 +16617,8 @@
                 "admission_time": "2026-10-04 00:00:00",
                 "list_id": "A",
                 "display_name": "lazypiggy懶懶豬",
-                "admitted_at": "2026-10-04 00:01:32"
+                "admitted_at": "2026-10-04 00:01:32",
+                "edit_time": "2026-10-04 17:32:57"
               },
               {
                 "handle": "meehutaotv",
@@ -17132,10 +17169,10 @@
           },
           {
             "handle": "lazypiggy850",
-            "post_id": "2104504127791444295",
+            "post_id": "2106678572702482551",
             "original_post_id": "2104504127791444295",
-            "url": "https://x.com/lazypiggy850/status/2104504127791444295",
-            "edited": false,
+            "url": "https://x.com/lazypiggy850/status/2106678572702482551",
+            "edited": true,
             "position": 26,
             "message_id": "8958",
             "tg_user_id": "7745875882",
@@ -17144,6 +17181,7 @@
             "list_id": "A",
             "display_name": "lazypiggy懶懶豬",
             "admitted_at": "2026-10-04 00:01:32",
+            "edit_time": "2026-10-04 17:32:57",
             "list_position": 26
           },
           {

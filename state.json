@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "offset": 364619516,
+  "offset": 364619518,
   "groups": {
     "-1003891628675": {
       "count": 29,
@@ -47,7 +47,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-04",
-    "run_at": "2026-10-04 12:15:22",
+    "run_at": "2026-10-04 12:30:35",
     "completed_groups": [
       "群一",
       "群二",
@@ -55,40 +55,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37176456827:1",
-        "checked_at": "2026-10-04 12:15:23",
+        "run_key": "37177187214:1",
+        "checked_at": "2026-10-04 12:30:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37176456827:1",
-        "checked_at": "2026-10-04 12:15:23",
+        "run_key": "37177187214:1",
+        "checked_at": "2026-10-04 12:30:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37176456827:1",
-        "checked_at": "2026-10-04 12:15:23",
+        "run_key": "37177187214:1",
+        "checked_at": "2026-10-04 12:30:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37176456827:1",
-        "checked_at": "2026-10-04 12:15:23",
+        "run_key": "37177187214:1",
+        "checked_at": "2026-10-04 12:30:36",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37176456827:1",
-        "checked_at": "2026-10-04 12:15:23",
+        "run_key": "37177187214:1",
+        "checked_at": "2026-10-04 12:30:36",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37176456827:1",
-        "checked_at": "2026-10-04 12:15:23",
+        "run_key": "37177187214:1",
+        "checked_at": "2026-10-04 12:30:36",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -268,10 +268,10 @@
               },
               {
                 "handle": "xiaoqiaots",
-                "post_id": "2097176911688688066",
+                "post_id": "2106594815546884588",
                 "original_post_id": "2097176911688688066",
-                "url": "https://x.com/xiaoqiaots/status/2097176911688688066",
-                "edited": false,
+                "url": "https://x.com/xiaoqiaots/status/2106594815546884588",
+                "edited": true,
                 "position": 9,
                 "message_id": "8973",
                 "tg_user_id": "7309057113",
@@ -279,7 +279,8 @@
                 "admission_time": "2026-10-04 00:01:50",
                 "list_id": "A",
                 "display_name": "乔乔",
-                "admitted_at": "2026-10-04 00:15:50"
+                "admitted_at": "2026-10-04 00:15:50",
+                "edit_time": "2026-10-04 12:24:57"
               },
               {
                 "handle": "clares5a",
@@ -478,10 +479,10 @@
               },
               {
                 "handle": "nancyyzp",
-                "post_id": "2105170220403061117",
+                "post_id": "2097912009618866482",
                 "original_post_id": "2105170220403061117",
-                "url": "https://x.com/nancyyzp/status/2105170220403061117",
-                "edited": false,
+                "url": "https://x.com/nancyyzp/status/2097912009618866482",
+                "edited": true,
                 "position": 23,
                 "message_id": "8959",
                 "tg_user_id": "7928308252",
@@ -489,7 +490,8 @@
                 "admission_time": "2026-10-04 00:00:00",
                 "list_id": "A",
                 "display_name": "nancyyzp",
-                "admitted_at": "2026-10-04 00:01:32"
+                "admitted_at": "2026-10-04 00:01:32",
+                "edit_time": "2026-10-04 12:21:44"
               },
               {
                 "handle": "lazypiggy850",
@@ -745,10 +747,10 @@
           },
           {
             "handle": "xiaoqiaots",
-            "post_id": "2097176911688688066",
+            "post_id": "2106594815546884588",
             "original_post_id": "2097176911688688066",
-            "url": "https://x.com/xiaoqiaots/status/2097176911688688066",
-            "edited": false,
+            "url": "https://x.com/xiaoqiaots/status/2106594815546884588",
+            "edited": true,
             "position": 9,
             "message_id": "8973",
             "tg_user_id": "7309057113",
@@ -757,6 +759,7 @@
             "list_id": "A",
             "display_name": "乔乔",
             "admitted_at": "2026-10-04 00:15:50",
+            "edit_time": "2026-10-04 12:24:57",
             "list_position": 9
           },
           {
@@ -969,10 +972,10 @@
           },
           {
             "handle": "nancyyzp",
-            "post_id": "2105170220403061117",
+            "post_id": "2097912009618866482",
             "original_post_id": "2105170220403061117",
-            "url": "https://x.com/nancyyzp/status/2105170220403061117",
-            "edited": false,
+            "url": "https://x.com/nancyyzp/status/2097912009618866482",
+            "edited": true,
             "position": 23,
             "message_id": "8959",
             "tg_user_id": "7928308252",
@@ -981,6 +984,7 @@
             "list_id": "A",
             "display_name": "nancyyzp",
             "admitted_at": "2026-10-04 00:01:32",
+            "edit_time": "2026-10-04 12:21:44",
             "list_position": 23
           },
           {
@@ -1095,10 +1099,10 @@
     "date": "2026-10-04",
     "groups": {
       "群一": {
-        "digest": "99edc0aaec9ab544e5dafdbb885918f3a85af0c29d246a1e366f04e637ebfd9f",
-        "sourceRevision": 5,
+        "digest": "7d4f07f8e7661ba0e990b0e8e1ebad94a857dec42642d4b8b17456ae8d6244bd",
+        "sourceRevision": 6,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-04T11:15:28.229373+08:00"
+        "acknowledged_at": "2026-10-04T12:30:38.918642+08:00"
       }
     }
   },

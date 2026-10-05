@@ -1376,12 +1376,13 @@
         ],
         "x_name": "Jx",
         "promo_name": "Jx",
-        "followers_count": 438943,
-        "followers_text": "43.8W",
+        "followers_count": 439000,
+        "followers_text": "43.9W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -1407,6 +1408,22 @@
           {
             "source": "status_legacy",
             "count": 438943
+          },
+          {
+            "source": "status_v2",
+            "count": 438987
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 439000
+          },
+          {
+            "source": "status_legacy",
+            "count": 438987
+          },
+          {
+            "source": "profile_v2",
+            "count": 438987
           }
         ],
         "check_followers_count": 438906,
@@ -1480,12 +1497,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 438943,
-        "qualified_followers_text": "43.8W",
+        "qualified_followers_count": 439000,
+        "qualified_followers_text": "43.9W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -6199,10 +6217,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:14:59",
         "admission_locked": true,
-        "daily_list_rank": 33,
+        "daily_list_rank": 34,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 3
+        "daily_list_batch_position": 4
       },
       "lris_intj": {
         "x_handle": "lris_intj",
@@ -6403,10 +6421,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:15:10",
         "admission_locked": true,
-        "daily_list_rank": 32,
+        "daily_list_rank": 33,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 2
+        "daily_list_batch_position": 3
       },
       "cattyllo023": {
         "x_handle": "cattyllo023",
@@ -6426,7 +6444,7 @@
             "post_id": "2090301936343945622",
             "role": "promo",
             "author_name": "奶酪",
-            "followers_count": 160068,
+            "followers_count": 160148,
             "followers_text": "16W",
             "followers_sources": [
               "status_v2",
@@ -6437,19 +6455,19 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 160067
+                "count": 160147
               },
               {
                 "source": "status_legacy_i",
-                "count": 160067
+                "count": 160148
               },
               {
                 "source": "status_legacy",
-                "count": 160067
+                "count": 160148
               },
               {
                 "source": "profile_v2",
-                "count": 160068
+                "count": 160148
               }
             ],
             "tweet_text": "这期是富哥定制版！\n定制内容：口爱姿势以及毒龙角度的定制\n这个姿势握着肉棒去舔屁眼很快就会释放呢\n服装也是定制内容（已经过允许发片段出来）\n@ToBuerma    @ToBulaer\n@KawasawaSen     @BulmaList",
@@ -6493,7 +6511,7 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
             "url": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
             "post_id": "2090301936343945622",
             "handle": "cattyllo023",
@@ -6503,7 +6521,7 @@
         ],
         "x_name": "奶酪",
         "promo_name": "奶酪",
-        "followers_count": 160068,
+        "followers_count": 160148,
         "followers_text": "16W",
         "followers_sources": [
           "status_v2",
@@ -6514,22 +6532,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 160067
+            "count": 160147
           },
           {
             "source": "status_legacy_i",
-            "count": 160067
+            "count": 160148
           },
           {
             "source": "status_legacy",
-            "count": 160067
+            "count": 160148
           },
           {
             "source": "profile_v2",
-            "count": 160068
+            "count": 160148
           }
         ],
-        "check_followers_count": 160068,
+        "check_followers_count": 160148,
         "check_followers_text": "16W",
         "check_followers_sources": [
           "status_v2",
@@ -6540,19 +6558,19 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 160067
+            "count": 160147
           },
           {
             "source": "status_legacy_i",
-            "count": 160067
+            "count": 160148
           },
           {
             "source": "status_legacy",
-            "count": 160067
+            "count": 160148
           },
           {
             "source": "profile_v2",
-            "count": 160068
+            "count": 160148
           }
         ],
         "tweet_text": "这期是富哥定制版！\n定制内容：口爱姿势以及毒龙角度的定制\n这个姿势握着肉棒去舔屁眼很快就会释放呢\n服装也是定制内容（已经过允许发片段出来）\n@ToBuerma    @ToBulaer\n@KawasawaSen     @BulmaList",
@@ -6605,7 +6623,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 160068,
+        "qualified_followers_count": 160148,
         "qualified_followers_text": "16W",
         "qualified_followers_sources": [
           "status_v2",
@@ -6616,6 +6634,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:30:38",
+        "admission_locked": true,
+        "daily_list_rank": 32,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
+        "daily_list_batch_position": 2
+      },
+      "joragyyy": {
+        "x_handle": "joragyyy",
+        "check_handle": "joragyyy",
+        "dual_link": false,
+        "promo_handle": "joragyyy",
+        "tg_username": "Yiiceing",
+        "tg_user_id": 7996721954,
+        "tg_name": "Yiiceing",
+        "link": "https://x.com/joragyyy/status/2106382900421959930",
+        "message_text": "https://x.com/joragyyy/status/2106382900421959930",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/joragyyy/status/2106382900421959930",
+            "handle": "joragyyy",
+            "post_id": "2106382900421959930",
+            "role": "promo",
+            "author_name": "Yiiceing",
+            "followers_count": 117776,
+            "followers_text": "11.7W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 117776
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 117776
+              },
+              {
+                "source": "status_legacy",
+                "count": 117776
+              },
+              {
+                "source": "profile_v2",
+                "count": 117776
+              }
+            ],
+            "tweet_text": "小小身材 大大屁股\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 44,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/joragyyy/status/2106382900421959930",
+            "post_id": "2106382900421959930",
+            "handle": "joragyyy",
+            "source_time": "2026-10-06 00:40:22",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Yiiceing",
+        "promo_name": "Yiiceing",
+        "followers_count": 117776,
+        "followers_text": "11.7W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 117776
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 117776
+          },
+          {
+            "source": "status_legacy",
+            "count": 117776
+          },
+          {
+            "source": "profile_v2",
+            "count": 117776
+          }
+        ],
+        "check_followers_count": 117776,
+        "check_followers_text": "11.7W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 117776
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 117776
+          },
+          {
+            "source": "status_legacy",
+            "count": 117776
+          },
+          {
+            "source": "profile_v2",
+            "count": 117776
+          }
+        ],
+        "tweet_text": "小小身材 大大屁股\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 44,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/joragyyy/status/2106382900421959930",
+        "check_url": "https://x.com/joragyyy/status/2106382900421959930",
+        "promo_post_id": "2106382900421959930",
+        "check_post_id": "2106382900421959930",
+        "chat_id": "-1003891628675",
+        "message_id": 9087,
+        "time": "2026-10-06 00:40:22",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 117776,
+        "qualified_followers_text": "11.7W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-06 00:40:22",
         "admission_locked": false,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
@@ -8216,12 +8448,13 @@
         ],
         "x_name": "Jx",
         "promo_name": "Jx",
-        "followers_count": 438943,
-        "followers_text": "43.8W",
+        "followers_count": 439000,
+        "followers_text": "43.9W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -8247,6 +8480,22 @@
           {
             "source": "status_legacy",
             "count": 438943
+          },
+          {
+            "source": "status_v2",
+            "count": 438987
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 439000
+          },
+          {
+            "source": "status_legacy",
+            "count": 438987
+          },
+          {
+            "source": "profile_v2",
+            "count": 438987
           }
         ],
         "check_followers_count": 438906,
@@ -8320,12 +8569,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 438943,
-        "qualified_followers_text": "43.8W",
+        "qualified_followers_count": 439000,
+        "qualified_followers_text": "43.9W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -13253,10 +13503,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:14:59",
         "admission_locked": true,
-        "daily_list_rank": 33,
+        "daily_list_rank": 34,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 3
+        "daily_list_batch_position": 4
       },
       "2106179278597501404": {
         "x_handle": "lris_intj",
@@ -13457,10 +13707,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:15:10",
         "admission_locked": true,
-        "daily_list_rank": 32,
+        "daily_list_rank": 33,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 2
+        "daily_list_batch_position": 3
       },
       "2090301936343945622": {
         "x_handle": "cattyllo023",
@@ -13480,7 +13730,7 @@
             "post_id": "2090301936343945622",
             "role": "promo",
             "author_name": "奶酪",
-            "followers_count": 160068,
+            "followers_count": 160148,
             "followers_text": "16W",
             "followers_sources": [
               "status_v2",
@@ -13491,19 +13741,19 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 160067
+                "count": 160147
               },
               {
                 "source": "status_legacy_i",
-                "count": 160067
+                "count": 160148
               },
               {
                 "source": "status_legacy",
-                "count": 160067
+                "count": 160148
               },
               {
                 "source": "profile_v2",
-                "count": 160068
+                "count": 160148
               }
             ],
             "tweet_text": "这期是富哥定制版！\n定制内容：口爱姿势以及毒龙角度的定制\n这个姿势握着肉棒去舔屁眼很快就会释放呢\n服装也是定制内容（已经过允许发片段出来）\n@ToBuerma    @ToBulaer\n@KawasawaSen     @BulmaList",
@@ -13547,7 +13797,7 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
             "url": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
             "post_id": "2090301936343945622",
             "handle": "cattyllo023",
@@ -13557,7 +13807,7 @@
         ],
         "x_name": "奶酪",
         "promo_name": "奶酪",
-        "followers_count": 160068,
+        "followers_count": 160148,
         "followers_text": "16W",
         "followers_sources": [
           "status_v2",
@@ -13568,22 +13818,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 160067
+            "count": 160147
           },
           {
             "source": "status_legacy_i",
-            "count": 160067
+            "count": 160148
           },
           {
             "source": "status_legacy",
-            "count": 160067
+            "count": 160148
           },
           {
             "source": "profile_v2",
-            "count": 160068
+            "count": 160148
           }
         ],
-        "check_followers_count": 160068,
+        "check_followers_count": 160148,
         "check_followers_text": "16W",
         "check_followers_sources": [
           "status_v2",
@@ -13594,19 +13844,19 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 160067
+            "count": 160147
           },
           {
             "source": "status_legacy_i",
-            "count": 160067
+            "count": 160148
           },
           {
             "source": "status_legacy",
-            "count": 160067
+            "count": 160148
           },
           {
             "source": "profile_v2",
-            "count": 160068
+            "count": 160148
           }
         ],
         "tweet_text": "这期是富哥定制版！\n定制内容：口爱姿势以及毒龙角度的定制\n这个姿势握着肉棒去舔屁眼很快就会释放呢\n服装也是定制内容（已经过允许发片段出来）\n@ToBuerma    @ToBulaer\n@KawasawaSen     @BulmaList",
@@ -13659,7 +13909,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 160068,
+        "qualified_followers_count": 160148,
         "qualified_followers_text": "16W",
         "qualified_followers_sources": [
           "status_v2",
@@ -13670,6 +13920,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:30:38",
+        "admission_locked": true,
+        "daily_list_rank": 32,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
+        "daily_list_batch_position": 2
+      },
+      "2106382900421959930": {
+        "x_handle": "joragyyy",
+        "check_handle": "joragyyy",
+        "dual_link": false,
+        "promo_handle": "joragyyy",
+        "tg_username": "Yiiceing",
+        "tg_user_id": 7996721954,
+        "tg_name": "Yiiceing",
+        "link": "https://x.com/joragyyy/status/2106382900421959930",
+        "message_text": "https://x.com/joragyyy/status/2106382900421959930",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/joragyyy/status/2106382900421959930",
+            "handle": "joragyyy",
+            "post_id": "2106382900421959930",
+            "role": "promo",
+            "author_name": "Yiiceing",
+            "followers_count": 117776,
+            "followers_text": "11.7W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 117776
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 117776
+              },
+              {
+                "source": "status_legacy",
+                "count": 117776
+              },
+              {
+                "source": "profile_v2",
+                "count": 117776
+              }
+            ],
+            "tweet_text": "小小身材 大大屁股\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 44,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/joragyyy/status/2106382900421959930",
+            "post_id": "2106382900421959930",
+            "handle": "joragyyy",
+            "source_time": "2026-10-06 00:40:22",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Yiiceing",
+        "promo_name": "Yiiceing",
+        "followers_count": 117776,
+        "followers_text": "11.7W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 117776
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 117776
+          },
+          {
+            "source": "status_legacy",
+            "count": 117776
+          },
+          {
+            "source": "profile_v2",
+            "count": 117776
+          }
+        ],
+        "check_followers_count": 117776,
+        "check_followers_text": "11.7W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 117776
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 117776
+          },
+          {
+            "source": "status_legacy",
+            "count": 117776
+          },
+          {
+            "source": "profile_v2",
+            "count": 117776
+          }
+        ],
+        "tweet_text": "小小身材 大大屁股\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 44,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/joragyyy/status/2106382900421959930",
+        "check_url": "https://x.com/joragyyy/status/2106382900421959930",
+        "promo_post_id": "2106382900421959930",
+        "check_post_id": "2106382900421959930",
+        "chat_id": "-1003891628675",
+        "message_id": 9087,
+        "time": "2026-10-06 00:40:22",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 117776,
+        "qualified_followers_text": "11.7W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-06 00:40:22",
         "admission_locked": false,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
@@ -14157,12 +14621,27 @@
           "B": {
             "slots": [
               {
+                "handle": "joragyyy",
+                "post_id": "2106382900421959930",
+                "original_post_id": "2106382900421959930",
+                "url": "https://x.com/joragyyy/status/2106382900421959930",
+                "edited": false,
+                "position": 1,
+                "message_id": "9087",
+                "tg_user_id": "7996721954",
+                "time": "2026-10-06 00:40:22",
+                "admission_time": "2026-10-06 00:40:22",
+                "list_id": "B",
+                "display_name": "Yiiceing",
+                "admitted_at": "2026-10-06 00:45:35"
+              },
+              {
                 "handle": "cattyllo023",
                 "post_id": "2090301936343945622",
                 "original_post_id": "2090301936343945622",
                 "url": "https://x.com/cattyllo023/status/2090301936343945622",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9086",
                 "tg_user_id": "7847834068",
                 "time": "2026-10-06 00:30:38",
@@ -14177,7 +14656,7 @@
                 "original_post_id": "2106179278597501404",
                 "url": "https://x.com/lris_intj/status/2106179278597501404",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9084",
                 "tg_user_id": "2103607030",
                 "time": "2026-10-06 00:15:10",
@@ -14192,7 +14671,7 @@
                 "original_post_id": "2104248244742353230",
                 "url": "https://x.com/dsang1874/status/2104248244742353230",
                 "edited": false,
-                "position": 3,
+                "position": 4,
                 "message_id": "9083",
                 "tg_user_id": "6978925122",
                 "time": "2026-10-06 00:14:59",
@@ -14203,9 +14682,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 3,
-            "count": 3,
-            "roster_capacity": 3,
+            "capacity": 4,
+            "count": 4,
+            "roster_capacity": 4,
             "withdrawn_message_ids": []
           }
         },
@@ -14242,7 +14721,8 @@
           "lazypiggy850": "A",
           "dsang1874": "B",
           "lris_intj": "B",
-          "cattyllo023": "B"
+          "cattyllo023": "B",
+          "joragyyy": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -14727,12 +15207,28 @@
             "list_position": 30
           },
           {
+            "handle": "joragyyy",
+            "post_id": "2106382900421959930",
+            "original_post_id": "2106382900421959930",
+            "url": "https://x.com/joragyyy/status/2106382900421959930",
+            "edited": false,
+            "position": 31,
+            "message_id": "9087",
+            "tg_user_id": "7996721954",
+            "time": "2026-10-06 00:40:22",
+            "admission_time": "2026-10-06 00:40:22",
+            "list_id": "B",
+            "display_name": "Yiiceing",
+            "admitted_at": "2026-10-06 00:45:35",
+            "list_position": 1
+          },
+          {
             "handle": "cattyllo023",
             "post_id": "2090301936343945622",
             "original_post_id": "2090301936343945622",
             "url": "https://x.com/cattyllo023/status/2090301936343945622",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9086",
             "tg_user_id": "7847834068",
             "time": "2026-10-06 00:30:38",
@@ -14740,7 +15236,7 @@
             "list_id": "B",
             "display_name": "奶酪",
             "admitted_at": "2026-10-06 00:30:45",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "lris_intj",
@@ -14748,7 +15244,7 @@
             "original_post_id": "2106179278597501404",
             "url": "https://x.com/lris_intj/status/2106179278597501404",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9084",
             "tg_user_id": "2103607030",
             "time": "2026-10-06 00:15:10",
@@ -14756,7 +15252,7 @@
             "list_id": "B",
             "display_name": "♱₊Ms. Rin❄︎˚↝",
             "admitted_at": "2026-10-06 00:16:55",
-            "list_position": 2
+            "list_position": 3
           },
           {
             "handle": "dsang1874",
@@ -14764,7 +15260,7 @@
             "original_post_id": "2104248244742353230",
             "url": "https://x.com/dsang1874/status/2104248244742353230",
             "edited": false,
-            "position": 33,
+            "position": 34,
             "message_id": "9083",
             "tg_user_id": "6978925122",
             "time": "2026-10-06 00:14:59",
@@ -14772,11 +15268,11 @@
             "list_id": "B",
             "display_name": "吊SANG📷",
             "admitted_at": "2026-10-06 00:16:55",
-            "list_position": 3
+            "list_position": 4
           }
         ],
         "vacant_positions": {},
-        "count": 33,
+        "count": 34,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

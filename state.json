@@ -58,7 +58,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-05",
-    "run_at": "2026-10-05 19:00:54",
+    "run_at": "2026-10-05 19:15:40",
     "completed_groups": [
       "群一",
       "群二",
@@ -66,40 +66,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37300156288:1",
-        "checked_at": "2026-10-05 19:00:56",
+        "run_key": "37301738923:1",
+        "checked_at": "2026-10-05 19:15:41",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37300156288:1",
-        "checked_at": "2026-10-05 19:00:56",
+        "run_key": "37301738923:1",
+        "checked_at": "2026-10-05 19:15:41",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37300156288:1",
-        "checked_at": "2026-10-05 19:00:56",
+        "run_key": "37301738923:1",
+        "checked_at": "2026-10-05 19:15:41",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37300156288:1",
-        "checked_at": "2026-10-05 19:00:56",
+        "run_key": "37301738923:1",
+        "checked_at": "2026-10-05 19:15:41",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       },
       "群二": {
-        "run_key": "37300156288:1",
-        "checked_at": "2026-10-05 19:00:56",
+        "run_key": "37301738923:1",
+        "checked_at": "2026-10-05 19:15:41",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37300156288:1",
-        "checked_at": "2026-10-05 19:00:56",
+        "run_key": "37301738923:1",
+        "checked_at": "2026-10-05 19:15:41",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -2200,8 +2200,10 @@
         "delivery_mode": "standalone",
         "attempts": 1,
         "attempted_at": "2026-10-05 19:00:59",
-        "sent_at": "2026-10-05 19:00:59",
-        "message_id": 9045
+        "sent_at": "2026-10-05 19:01:00",
+        "message_id": 9045,
+        "confirmation": "telegram_history",
+        "reply_to_message_id": null
       }
     }
   },

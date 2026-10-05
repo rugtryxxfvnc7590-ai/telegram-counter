@@ -226,38 +226,43 @@
         "tg_username": "nancyyzp",
         "tg_user_id": 7928308252,
         "tg_name": "Nancy",
-        "link": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
-        "message_text": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
+        "link": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
+        "message_text": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
+            "url": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
             "handle": "nancyyzp",
-            "post_id": "2100470256015663479",
+            "post_id": "2107004903411650628",
             "role": "promo",
             "author_name": "nancyyzp",
-            "followers_count": 298979,
-            "followers_text": "29.8W",
+            "followers_count": 299591,
+            "followers_text": "29.9W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 298979
+                "count": 299591
               },
               {
                 "source": "status_legacy_i",
-                "count": 298979
+                "count": 299591
               },
               {
                 "source": "status_legacy",
-                "count": 298979
+                "count": 299591
+              },
+              {
+                "source": "profile_v2",
+                "count": 299591
               }
             ],
-            "tweet_text": "💃\n更多内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
+            "tweet_text": "这么多人，看到怎么办\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -268,27 +273,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 42,
+                "length": 52,
                 "required_mentions_count": 2
               },
               {
                 "source": "status_legacy_i",
-                "length": 42,
+                "length": 52,
                 "required_mentions_count": 2
               },
               {
                 "source": "vx_status_v2",
-                "length": 42,
+                "length": 52,
                 "required_mentions_count": 2
               },
               {
                 "source": "vx_status_i",
-                "length": 42,
+                "length": 52,
                 "required_mentions_count": 2
               },
               {
                 "source": "status_legacy",
-                "length": 42,
+                "length": 52,
                 "required_mentions_count": 2
               }
             ],
@@ -298,7 +303,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
+            "post_id": "2107004903411650628",
+            "handle": "nancyyzp",
+            "source_time": "2026-10-05 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
             "post_id": "2100470256015663479",
             "handle": "nancyyzp",
@@ -308,8 +321,8 @@
         ],
         "x_name": "nancyyzp",
         "promo_name": "nancyyzp",
-        "followers_count": 298980,
-        "followers_text": "29.8W",
+        "followers_count": 299591,
+        "followers_text": "29.9W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -319,55 +332,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 298979
+            "count": 299591
           },
           {
             "source": "status_legacy_i",
-            "count": 298979
+            "count": 299591
           },
           {
             "source": "status_legacy",
-            "count": 298979
-          },
-          {
-            "source": "status_v2",
-            "count": 298980
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 298980
-          },
-          {
-            "source": "status_legacy",
-            "count": 298980
+            "count": 299591
           },
           {
             "source": "profile_v2",
-            "count": 298980
+            "count": 299591
           }
         ],
-        "check_followers_count": 298979,
-        "check_followers_text": "29.8W",
+        "check_followers_count": 299591,
+        "check_followers_text": "29.9W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 298979
+            "count": 299591
           },
           {
             "source": "status_legacy_i",
-            "count": 298979
+            "count": 299591
           },
           {
             "source": "status_legacy",
-            "count": 298979
+            "count": 299591
+          },
+          {
+            "source": "profile_v2",
+            "count": 299591
           }
         ],
-        "tweet_text": "💃\n更多内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
+        "tweet_text": "这么多人，看到怎么办\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -378,47 +384,47 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 42,
+            "length": 52,
             "required_mentions_count": 2
           },
           {
             "source": "status_legacy_i",
-            "length": 42,
+            "length": 52,
             "required_mentions_count": 2
           },
           {
             "source": "vx_status_v2",
-            "length": 42,
+            "length": 52,
             "required_mentions_count": 2
           },
           {
             "source": "vx_status_i",
-            "length": 42,
+            "length": 52,
             "required_mentions_count": 2
           },
           {
             "source": "status_legacy",
-            "length": 42,
+            "length": 52,
             "required_mentions_count": 2
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 2,
         "content_eligible": true,
-        "promo_url": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
-        "check_url": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
-        "promo_post_id": "2100470256015663479",
-        "check_post_id": "2100470256015663479",
+        "promo_url": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
+        "check_url": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
+        "promo_post_id": "2107004903411650628",
+        "check_post_id": "2107004903411650628",
         "chat_id": "-1003891628675",
         "message_id": 9000,
         "time": "2026-10-05 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-05 15:09:10",
         "followers_min": 100000,
-        "qualified_followers_count": 298980,
-        "qualified_followers_text": "29.8W",
+        "qualified_followers_count": 299591,
+        "qualified_followers_text": "29.9W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -8411,7 +8417,7 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 30
       },
-      "2100470256015663479": {
+      "2107004903411650628": {
         "x_handle": "nancyyzp",
         "check_handle": "nancyyzp",
         "dual_link": false,
@@ -8419,38 +8425,43 @@
         "tg_username": "nancyyzp",
         "tg_user_id": 7928308252,
         "tg_name": "Nancy",
-        "link": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
-        "message_text": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
+        "link": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
+        "message_text": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
+            "url": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
             "handle": "nancyyzp",
-            "post_id": "2100470256015663479",
+            "post_id": "2107004903411650628",
             "role": "promo",
             "author_name": "nancyyzp",
-            "followers_count": 298979,
-            "followers_text": "29.8W",
+            "followers_count": 299591,
+            "followers_text": "29.9W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 298979
+                "count": 299591
               },
               {
                 "source": "status_legacy_i",
-                "count": 298979
+                "count": 299591
               },
               {
                 "source": "status_legacy",
-                "count": 298979
+                "count": 299591
+              },
+              {
+                "source": "profile_v2",
+                "count": 299591
               }
             ],
-            "tweet_text": "💃\n更多内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
+            "tweet_text": "这么多人，看到怎么办\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -8461,27 +8472,27 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 42,
+                "length": 52,
                 "required_mentions_count": 2
               },
               {
                 "source": "status_legacy_i",
-                "length": 42,
+                "length": 52,
                 "required_mentions_count": 2
               },
               {
                 "source": "vx_status_v2",
-                "length": 42,
+                "length": 52,
                 "required_mentions_count": 2
               },
               {
                 "source": "vx_status_i",
-                "length": 42,
+                "length": 52,
                 "required_mentions_count": 2
               },
               {
                 "source": "status_legacy",
-                "length": 42,
+                "length": 52,
                 "required_mentions_count": 2
               }
             ],
@@ -8491,7 +8502,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
+            "post_id": "2107004903411650628",
+            "handle": "nancyyzp",
+            "source_time": "2026-10-05 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
             "post_id": "2100470256015663479",
             "handle": "nancyyzp",
@@ -8501,8 +8520,8 @@
         ],
         "x_name": "nancyyzp",
         "promo_name": "nancyyzp",
-        "followers_count": 298980,
-        "followers_text": "29.8W",
+        "followers_count": 299591,
+        "followers_text": "29.9W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -8512,55 +8531,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 298979
+            "count": 299591
           },
           {
             "source": "status_legacy_i",
-            "count": 298979
+            "count": 299591
           },
           {
             "source": "status_legacy",
-            "count": 298979
-          },
-          {
-            "source": "status_v2",
-            "count": 298980
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 298980
-          },
-          {
-            "source": "status_legacy",
-            "count": 298980
+            "count": 299591
           },
           {
             "source": "profile_v2",
-            "count": 298980
+            "count": 299591
           }
         ],
-        "check_followers_count": 298979,
-        "check_followers_text": "29.8W",
+        "check_followers_count": 299591,
+        "check_followers_text": "29.9W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 298979
+            "count": 299591
           },
           {
             "source": "status_legacy_i",
-            "count": 298979
+            "count": 299591
           },
           {
             "source": "status_legacy",
-            "count": 298979
+            "count": 299591
+          },
+          {
+            "source": "profile_v2",
+            "count": 299591
           }
         ],
-        "tweet_text": "💃\n更多内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
+        "tweet_text": "这么多人，看到怎么办\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -8571,47 +8583,47 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 42,
+            "length": 52,
             "required_mentions_count": 2
           },
           {
             "source": "status_legacy_i",
-            "length": 42,
+            "length": 52,
             "required_mentions_count": 2
           },
           {
             "source": "vx_status_v2",
-            "length": 42,
+            "length": 52,
             "required_mentions_count": 2
           },
           {
             "source": "vx_status_i",
-            "length": 42,
+            "length": 52,
             "required_mentions_count": 2
           },
           {
             "source": "status_legacy",
-            "length": 42,
+            "length": 52,
             "required_mentions_count": 2
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 2,
         "content_eligible": true,
-        "promo_url": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
-        "check_url": "https://x.com/nancyyzp/status/2100470256015663479?s=46",
-        "promo_post_id": "2100470256015663479",
-        "check_post_id": "2100470256015663479",
+        "promo_url": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
+        "check_url": "https://x.com/nancyyzp/status/2107004903411650628?s=46",
+        "promo_post_id": "2107004903411650628",
+        "check_post_id": "2107004903411650628",
         "chat_id": "-1003891628675",
         "message_id": 9000,
         "time": "2026-10-05 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-05 15:09:10",
         "followers_min": 100000,
-        "qualified_followers_count": 298980,
-        "qualified_followers_text": "29.8W",
+        "qualified_followers_count": 299591,
+        "qualified_followers_text": "29.9W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
@@ -17053,10 +17065,10 @@
               },
               {
                 "handle": "nancyyzp",
-                "post_id": "2100470256015663479",
+                "post_id": "2107004903411650628",
                 "original_post_id": "2100470256015663479",
-                "url": "https://x.com/nancyyzp/status/2100470256015663479",
-                "edited": false,
+                "url": "https://x.com/nancyyzp/status/2107004903411650628",
+                "edited": true,
                 "position": 29,
                 "message_id": "9000",
                 "tg_user_id": "7928308252",
@@ -17064,7 +17076,8 @@
                 "admission_time": "2026-10-05 00:00:00",
                 "list_id": "A",
                 "display_name": "nancyyzp",
-                "admitted_at": "2026-10-05 00:01:11"
+                "admitted_at": "2026-10-05 00:01:11",
+                "edit_time": "2026-10-05 15:09:10"
               },
               {
                 "handle": "xiuchiluchu910",
@@ -17711,10 +17724,10 @@
           },
           {
             "handle": "nancyyzp",
-            "post_id": "2100470256015663479",
+            "post_id": "2107004903411650628",
             "original_post_id": "2100470256015663479",
-            "url": "https://x.com/nancyyzp/status/2100470256015663479",
-            "edited": false,
+            "url": "https://x.com/nancyyzp/status/2107004903411650628",
+            "edited": true,
             "position": 29,
             "message_id": "9000",
             "tg_user_id": "7928308252",
@@ -17723,6 +17736,7 @@
             "list_id": "A",
             "display_name": "nancyyzp",
             "admitted_at": "2026-10-05 00:01:11",
+            "edit_time": "2026-10-05 15:09:10",
             "list_position": 29
           },
           {

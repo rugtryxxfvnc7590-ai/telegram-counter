@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "offset": 364619608,
+  "offset": 364619609,
   "groups": {
     "-1003891628675": {
       "count": 39,
@@ -57,7 +57,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-05",
-    "run_at": "2026-10-05 14:21:51",
+    "run_at": "2026-10-05 14:30:34",
     "completed_groups": [
       "群一",
       "群二",
@@ -65,40 +65,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37272016922:1",
-        "checked_at": "2026-10-05 14:21:52",
+        "run_key": "37272749652:1",
+        "checked_at": "2026-10-05 14:30:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37272016922:1",
-        "checked_at": "2026-10-05 14:21:52",
+        "run_key": "37272749652:1",
+        "checked_at": "2026-10-05 14:30:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37272016922:1",
-        "checked_at": "2026-10-05 14:21:52",
+        "run_key": "37272749652:1",
+        "checked_at": "2026-10-05 14:30:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37272016922:1",
-        "checked_at": "2026-10-05 14:21:52",
+        "run_key": "37272749652:1",
+        "checked_at": "2026-10-05 14:30:36",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37272016922:1",
-        "checked_at": "2026-10-05 14:21:52",
+        "run_key": "37272749652:1",
+        "checked_at": "2026-10-05 14:30:36",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37272016922:1",
-        "checked_at": "2026-10-05 14:21:52",
+        "run_key": "37272749652:1",
+        "checked_at": "2026-10-05 14:30:36",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1159,10 +1159,10 @@
               },
               {
                 "handle": "xiaochen000007",
-                "post_id": "2104128611662037283",
+                "post_id": "2106992726415974773",
                 "original_post_id": "2104128611662037283",
-                "url": "https://x.com/xiaochen000007/status/2104128611662037283",
-                "edited": false,
+                "url": "https://x.com/xiaochen000007/status/2106992726415974773",
+                "edited": true,
                 "position": 4,
                 "message_id": "9036",
                 "tg_user_id": "5718822279",
@@ -1170,7 +1170,8 @@
                 "admission_time": "2026-10-05 04:39:59",
                 "list_id": "B",
                 "display_name": "小陈和小王的日常",
-                "admitted_at": "2026-10-05 04:45:30"
+                "admitted_at": "2026-10-05 04:45:30",
+                "edit_time": "2026-10-05 14:25:47"
               },
               {
                 "handle": "wdqhc999",
@@ -1812,10 +1813,10 @@
           },
           {
             "handle": "xiaochen000007",
-            "post_id": "2104128611662037283",
+            "post_id": "2106992726415974773",
             "original_post_id": "2104128611662037283",
-            "url": "https://x.com/xiaochen000007/status/2104128611662037283",
-            "edited": false,
+            "url": "https://x.com/xiaochen000007/status/2106992726415974773",
+            "edited": true,
             "position": 34,
             "message_id": "9036",
             "tg_user_id": "5718822279",
@@ -1824,6 +1825,7 @@
             "list_id": "B",
             "display_name": "小陈和小王的日常",
             "admitted_at": "2026-10-05 04:45:30",
+            "edit_time": "2026-10-05 14:25:47",
             "list_position": 4
           },
           {
@@ -1921,10 +1923,10 @@
     "date": "2026-10-05",
     "groups": {
       "群一": {
-        "digest": "53d6553d515ae75f18e5ccfea2764a2f618a5297092076eb2c3341d10fe3e6a5",
-        "sourceRevision": 9,
+        "digest": "66ba8b363bea67831af1efc42a7bd7728feb814e9fdad9a521caf47fd281ceba",
+        "sourceRevision": 10,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-05T13:45:28.176415+08:00"
+        "acknowledged_at": "2026-10-05T14:30:38.607261+08:00"
       },
       "群二": {
         "digest": "48d4b5afc04f2a03c541be7d0eba5e2ef13769597bc7f6545cd695a26bc24b62",

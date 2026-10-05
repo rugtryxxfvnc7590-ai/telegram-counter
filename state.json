@@ -1,9 +1,9 @@
 {
   "date": "2026-10-06",
-  "offset": 364619863,
+  "offset": 364619864,
   "groups": {
     "-1003891628675": {
-      "count": 32,
+      "count": 33,
       "message_ids": [
         "9050",
         "9051",
@@ -36,7 +36,8 @@
         "9080",
         "9082",
         "9083",
-        "9084"
+        "9084",
+        "9086"
       ]
     },
     "-1003218974409": {
@@ -50,7 +51,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-06",
-    "run_at": "2026-10-06 00:16:49",
+    "run_at": "2026-10-06 00:30:39",
     "completed_groups": [
       "群一",
       "群二",
@@ -58,40 +59,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37339379974:1",
-        "checked_at": "2026-10-06 00:16:53",
+        "run_key": "37341335499:1",
+        "checked_at": "2026-10-06 00:30:42",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37339379974:1",
-        "checked_at": "2026-10-06 00:16:53",
+        "run_key": "37341335499:1",
+        "checked_at": "2026-10-06 00:30:42",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37339379974:1",
-        "checked_at": "2026-10-06 00:16:53",
+        "run_key": "37341335499:1",
+        "checked_at": "2026-10-06 00:30:42",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37339379974:1",
-        "checked_at": "2026-10-06 00:16:53",
+        "run_key": "37341335499:1",
+        "checked_at": "2026-10-06 00:30:42",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37339379974:1",
-        "checked_at": "2026-10-06 00:16:53",
+        "run_key": "37341335499:1",
+        "checked_at": "2026-10-06 00:30:42",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37339379974:1",
-        "checked_at": "2026-10-06 00:16:53",
+        "run_key": "37341335499:1",
+        "checked_at": "2026-10-06 00:30:42",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1106,12 +1107,27 @@
           "B": {
             "slots": [
               {
+                "handle": "cattyllo023",
+                "post_id": "2090301936343945622",
+                "original_post_id": "2090301936343945622",
+                "url": "https://x.com/cattyllo023/status/2090301936343945622",
+                "edited": false,
+                "position": 1,
+                "message_id": "9086",
+                "tg_user_id": "7847834068",
+                "time": "2026-10-06 00:30:38",
+                "admission_time": "2026-10-06 00:30:38",
+                "list_id": "B",
+                "display_name": "奶酪",
+                "admitted_at": "2026-10-06 00:30:45"
+              },
+              {
                 "handle": "lris_intj",
                 "post_id": "2106179278597501404",
                 "original_post_id": "2106179278597501404",
                 "url": "https://x.com/lris_intj/status/2106179278597501404",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9084",
                 "tg_user_id": "2103607030",
                 "time": "2026-10-06 00:15:10",
@@ -1126,7 +1142,7 @@
                 "original_post_id": "2104248244742353230",
                 "url": "https://x.com/dsang1874/status/2104248244742353230",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9083",
                 "tg_user_id": "6978925122",
                 "time": "2026-10-06 00:14:59",
@@ -1137,9 +1153,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 2,
-            "count": 2,
-            "roster_capacity": 2,
+            "capacity": 3,
+            "count": 3,
+            "roster_capacity": 3,
             "withdrawn_message_ids": []
           }
         },
@@ -1175,7 +1191,8 @@
           "xye9518": "A",
           "lazypiggy850": "A",
           "dsang1874": "B",
-          "lris_intj": "B"
+          "lris_intj": "B",
+          "cattyllo023": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -1660,12 +1677,28 @@
             "list_position": 30
           },
           {
+            "handle": "cattyllo023",
+            "post_id": "2090301936343945622",
+            "original_post_id": "2090301936343945622",
+            "url": "https://x.com/cattyllo023/status/2090301936343945622",
+            "edited": false,
+            "position": 31,
+            "message_id": "9086",
+            "tg_user_id": "7847834068",
+            "time": "2026-10-06 00:30:38",
+            "admission_time": "2026-10-06 00:30:38",
+            "list_id": "B",
+            "display_name": "奶酪",
+            "admitted_at": "2026-10-06 00:30:45",
+            "list_position": 1
+          },
+          {
             "handle": "lris_intj",
             "post_id": "2106179278597501404",
             "original_post_id": "2106179278597501404",
             "url": "https://x.com/lris_intj/status/2106179278597501404",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9084",
             "tg_user_id": "2103607030",
             "time": "2026-10-06 00:15:10",
@@ -1673,7 +1706,7 @@
             "list_id": "B",
             "display_name": "♱₊Ms. Rin❄︎˚↝",
             "admitted_at": "2026-10-06 00:16:55",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "dsang1874",
@@ -1681,7 +1714,7 @@
             "original_post_id": "2104248244742353230",
             "url": "https://x.com/dsang1874/status/2104248244742353230",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9083",
             "tg_user_id": "6978925122",
             "time": "2026-10-06 00:14:59",
@@ -1689,11 +1722,11 @@
             "list_id": "B",
             "display_name": "吊SANG📷",
             "admitted_at": "2026-10-06 00:16:55",
-            "list_position": 2
+            "list_position": 3
           }
         ],
         "vacant_positions": {},
-        "count": 32,
+        "count": 33,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1722,10 +1755,10 @@
     "date": "2026-10-06",
     "groups": {
       "群一": {
-        "digest": "6ca355774a7f19e8d22024a0ab1b38f251ba7c2683d6a82c3037b4aabf0d4761",
-        "sourceRevision": 2,
+        "digest": "e5045eabca9bf25d5b67d46a0441c84e9073450a316d8ba029c90f909f32c681",
+        "sourceRevision": 3,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-06T00:16:57.486365+08:00"
+        "acknowledged_at": "2026-10-06T00:30:46.003503+08:00"
       }
     }
   },

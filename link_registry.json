@@ -1376,7 +1376,7 @@
         ],
         "x_name": "Jx",
         "promo_name": "Jx",
-        "followers_count": 438906,
+        "followers_count": 438943,
         "followers_text": "43.8W",
         "followers_sources": [
           "status_v2",
@@ -1395,6 +1395,18 @@
           {
             "source": "status_legacy",
             "count": 438906
+          },
+          {
+            "source": "status_v2",
+            "count": 438943
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 438943
+          },
+          {
+            "source": "status_legacy",
+            "count": 438943
           }
         ],
         "check_followers_count": 438906,
@@ -1468,7 +1480,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 438906,
+        "qualified_followers_count": 438943,
         "qualified_followers_text": "43.8W",
         "qualified_followers_sources": [
           "status_v2",
@@ -4260,7 +4272,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:01:43",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4474,7 +4486,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:01:58",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4688,7 +4700,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:02:13",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4902,7 +4914,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:03:15",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5116,7 +5128,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:03:17",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5330,7 +5342,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:03:53",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5544,7 +5556,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:04:56",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5758,7 +5770,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:04:59",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5972,7 +5984,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:07:56",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -6186,11 +6198,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:14:59",
-        "admission_locked": false,
-        "daily_list_rank": 32,
+        "admission_locked": true,
+        "daily_list_rank": 33,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 2
+        "daily_list_batch_position": 3
       },
       "lris_intj": {
         "x_handle": "lris_intj",
@@ -6390,6 +6402,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:15:10",
+        "admission_locked": true,
+        "daily_list_rank": 32,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
+        "daily_list_batch_position": 2
+      },
+      "cattyllo023": {
+        "x_handle": "cattyllo023",
+        "check_handle": "cattyllo023",
+        "dual_link": false,
+        "promo_handle": "cattyllo023",
+        "tg_username": "cattyllo02342",
+        "tg_user_id": 7847834068,
+        "tg_name": "yaya(奶酪🧀）",
+        "link": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+        "message_text": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+            "handle": "cattyllo023",
+            "post_id": "2090301936343945622",
+            "role": "promo",
+            "author_name": "奶酪",
+            "followers_count": 160068,
+            "followers_text": "16W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 160067
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 160067
+              },
+              {
+                "source": "status_legacy",
+                "count": 160067
+              },
+              {
+                "source": "profile_v2",
+                "count": 160068
+              }
+            ],
+            "tweet_text": "这期是富哥定制版！\n定制内容：口爱姿势以及毒龙角度的定制\n这个姿势握着肉棒去舔屁眼很快就会释放呢\n服装也是定制内容（已经过允许发片段出来）\n@ToBuerma    @ToBulaer\n@KawasawaSen     @BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 120,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 120,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 120,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 120,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 120,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+            "post_id": "2090301936343945622",
+            "handle": "cattyllo023",
+            "source_time": "2026-10-06 00:30:38",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "奶酪",
+        "promo_name": "奶酪",
+        "followers_count": 160068,
+        "followers_text": "16W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 160067
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 160067
+          },
+          {
+            "source": "status_legacy",
+            "count": 160067
+          },
+          {
+            "source": "profile_v2",
+            "count": 160068
+          }
+        ],
+        "check_followers_count": 160068,
+        "check_followers_text": "16W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 160067
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 160067
+          },
+          {
+            "source": "status_legacy",
+            "count": 160067
+          },
+          {
+            "source": "profile_v2",
+            "count": 160068
+          }
+        ],
+        "tweet_text": "这期是富哥定制版！\n定制内容：口爱姿势以及毒龙角度的定制\n这个姿势握着肉棒去舔屁眼很快就会释放呢\n服装也是定制内容（已经过允许发片段出来）\n@ToBuerma    @ToBulaer\n@KawasawaSen     @BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 120,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 120,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 120,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 120,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 120,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+        "check_url": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+        "promo_post_id": "2090301936343945622",
+        "check_post_id": "2090301936343945622",
+        "chat_id": "-1003891628675",
+        "message_id": 9086,
+        "time": "2026-10-06 00:30:38",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 160068,
+        "qualified_followers_text": "16W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-06 00:30:38",
         "admission_locked": false,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
@@ -7990,7 +8216,7 @@
         ],
         "x_name": "Jx",
         "promo_name": "Jx",
-        "followers_count": 438906,
+        "followers_count": 438943,
         "followers_text": "43.8W",
         "followers_sources": [
           "status_v2",
@@ -8009,6 +8235,18 @@
           {
             "source": "status_legacy",
             "count": 438906
+          },
+          {
+            "source": "status_v2",
+            "count": 438943
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 438943
+          },
+          {
+            "source": "status_legacy",
+            "count": 438943
           }
         ],
         "check_followers_count": 438906,
@@ -8082,7 +8320,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 438906,
+        "qualified_followers_count": 438943,
         "qualified_followers_text": "43.8W",
         "qualified_followers_sources": [
           "status_v2",
@@ -11088,7 +11326,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:01:43",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11302,7 +11540,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:01:58",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11516,7 +11754,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:02:13",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11730,7 +11968,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:03:15",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11944,7 +12182,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:03:17",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12158,7 +12396,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:03:53",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12372,7 +12610,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:04:56",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12586,7 +12824,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:04:59",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12800,7 +13038,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:07:56",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -13014,11 +13252,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:14:59",
-        "admission_locked": false,
-        "daily_list_rank": 32,
+        "admission_locked": true,
+        "daily_list_rank": 33,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 2
+        "daily_list_batch_position": 3
       },
       "2106179278597501404": {
         "x_handle": "lris_intj",
@@ -13218,6 +13456,220 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:15:10",
+        "admission_locked": true,
+        "daily_list_rank": 32,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
+        "daily_list_batch_position": 2
+      },
+      "2090301936343945622": {
+        "x_handle": "cattyllo023",
+        "check_handle": "cattyllo023",
+        "dual_link": false,
+        "promo_handle": "cattyllo023",
+        "tg_username": "cattyllo02342",
+        "tg_user_id": 7847834068,
+        "tg_name": "yaya(奶酪🧀）",
+        "link": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+        "message_text": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+            "handle": "cattyllo023",
+            "post_id": "2090301936343945622",
+            "role": "promo",
+            "author_name": "奶酪",
+            "followers_count": 160068,
+            "followers_text": "16W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 160067
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 160067
+              },
+              {
+                "source": "status_legacy",
+                "count": 160067
+              },
+              {
+                "source": "profile_v2",
+                "count": 160068
+              }
+            ],
+            "tweet_text": "这期是富哥定制版！\n定制内容：口爱姿势以及毒龙角度的定制\n这个姿势握着肉棒去舔屁眼很快就会释放呢\n服装也是定制内容（已经过允许发片段出来）\n@ToBuerma    @ToBulaer\n@KawasawaSen     @BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 120,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 120,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 120,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_i",
+                "length": 120,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 120,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+            "post_id": "2090301936343945622",
+            "handle": "cattyllo023",
+            "source_time": "2026-10-06 00:30:38",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "奶酪",
+        "promo_name": "奶酪",
+        "followers_count": 160068,
+        "followers_text": "16W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 160067
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 160067
+          },
+          {
+            "source": "status_legacy",
+            "count": 160067
+          },
+          {
+            "source": "profile_v2",
+            "count": 160068
+          }
+        ],
+        "check_followers_count": 160068,
+        "check_followers_text": "16W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 160067
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 160067
+          },
+          {
+            "source": "status_legacy",
+            "count": 160067
+          },
+          {
+            "source": "profile_v2",
+            "count": 160068
+          }
+        ],
+        "tweet_text": "这期是富哥定制版！\n定制内容：口爱姿势以及毒龙角度的定制\n这个姿势握着肉棒去舔屁眼很快就会释放呢\n服装也是定制内容（已经过允许发片段出来）\n@ToBuerma    @ToBulaer\n@KawasawaSen     @BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 120,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 120,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 120,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_i",
+            "length": 120,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 120,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+        "check_url": "https://x.com/cattyllo023/status/2090301936343945622?s=20",
+        "promo_post_id": "2090301936343945622",
+        "check_post_id": "2090301936343945622",
+        "chat_id": "-1003891628675",
+        "message_id": 9086,
+        "time": "2026-10-06 00:30:38",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 160068,
+        "qualified_followers_text": "16W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-06 00:30:38",
         "admission_locked": false,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
@@ -13705,12 +14157,27 @@
           "B": {
             "slots": [
               {
+                "handle": "cattyllo023",
+                "post_id": "2090301936343945622",
+                "original_post_id": "2090301936343945622",
+                "url": "https://x.com/cattyllo023/status/2090301936343945622",
+                "edited": false,
+                "position": 1,
+                "message_id": "9086",
+                "tg_user_id": "7847834068",
+                "time": "2026-10-06 00:30:38",
+                "admission_time": "2026-10-06 00:30:38",
+                "list_id": "B",
+                "display_name": "奶酪",
+                "admitted_at": "2026-10-06 00:30:45"
+              },
+              {
                 "handle": "lris_intj",
                 "post_id": "2106179278597501404",
                 "original_post_id": "2106179278597501404",
                 "url": "https://x.com/lris_intj/status/2106179278597501404",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9084",
                 "tg_user_id": "2103607030",
                 "time": "2026-10-06 00:15:10",
@@ -13725,7 +14192,7 @@
                 "original_post_id": "2104248244742353230",
                 "url": "https://x.com/dsang1874/status/2104248244742353230",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9083",
                 "tg_user_id": "6978925122",
                 "time": "2026-10-06 00:14:59",
@@ -13736,9 +14203,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 2,
-            "count": 2,
-            "roster_capacity": 2,
+            "capacity": 3,
+            "count": 3,
+            "roster_capacity": 3,
             "withdrawn_message_ids": []
           }
         },
@@ -13774,7 +14241,8 @@
           "xye9518": "A",
           "lazypiggy850": "A",
           "dsang1874": "B",
-          "lris_intj": "B"
+          "lris_intj": "B",
+          "cattyllo023": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -14259,12 +14727,28 @@
             "list_position": 30
           },
           {
+            "handle": "cattyllo023",
+            "post_id": "2090301936343945622",
+            "original_post_id": "2090301936343945622",
+            "url": "https://x.com/cattyllo023/status/2090301936343945622",
+            "edited": false,
+            "position": 31,
+            "message_id": "9086",
+            "tg_user_id": "7847834068",
+            "time": "2026-10-06 00:30:38",
+            "admission_time": "2026-10-06 00:30:38",
+            "list_id": "B",
+            "display_name": "奶酪",
+            "admitted_at": "2026-10-06 00:30:45",
+            "list_position": 1
+          },
+          {
             "handle": "lris_intj",
             "post_id": "2106179278597501404",
             "original_post_id": "2106179278597501404",
             "url": "https://x.com/lris_intj/status/2106179278597501404",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9084",
             "tg_user_id": "2103607030",
             "time": "2026-10-06 00:15:10",
@@ -14272,7 +14756,7 @@
             "list_id": "B",
             "display_name": "♱₊Ms. Rin❄︎˚↝",
             "admitted_at": "2026-10-06 00:16:55",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "dsang1874",
@@ -14280,7 +14764,7 @@
             "original_post_id": "2104248244742353230",
             "url": "https://x.com/dsang1874/status/2104248244742353230",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9083",
             "tg_user_id": "6978925122",
             "time": "2026-10-06 00:14:59",
@@ -14288,11 +14772,11 @@
             "list_id": "B",
             "display_name": "吊SANG📷",
             "admitted_at": "2026-10-06 00:16:55",
-            "list_position": 2
+            "list_position": 3
           }
         ],
         "vacant_positions": {},
-        "count": 32,
+        "count": 33,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

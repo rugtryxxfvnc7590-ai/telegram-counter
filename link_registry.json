@@ -5810,220 +5810,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 2
       },
-      "lazypiggy850": {
-        "x_handle": "lazypiggy850",
-        "check_handle": "lazypiggy850",
-        "dual_link": false,
-        "promo_handle": "lazypiggy850",
-        "tg_username": "lazypiggy001",
-        "tg_user_id": 7745875882,
-        "tg_name": "LazyPiggy懶懶豬(定制下单请私信💕)",
-        "link": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-        "message_text": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-            "handle": "lazypiggy850",
-            "post_id": "2106678572702482551",
-            "role": "promo",
-            "author_name": "lazypiggy懶懶豬",
-            "followers_count": 410604,
-            "followers_text": "41W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 410604
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 410603
-              },
-              {
-                "source": "status_legacy",
-                "count": 410604
-              },
-              {
-                "source": "profile_v2",
-                "count": 410604
-              }
-            ],
-            "tweet_text": "脚脚伸到你面前了～\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 45,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-            "post_id": "2106678572702482551",
-            "handle": "lazypiggy850",
-            "source_time": "2026-10-06 00:07:56",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "lazypiggy懶懶豬",
-        "promo_name": "lazypiggy懶懶豬",
-        "followers_count": 410604,
-        "followers_text": "41W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 410604
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 410603
-          },
-          {
-            "source": "status_legacy",
-            "count": 410604
-          },
-          {
-            "source": "profile_v2",
-            "count": 410604
-          }
-        ],
-        "check_followers_count": 410604,
-        "check_followers_text": "41W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 410604
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 410603
-          },
-          {
-            "source": "status_legacy",
-            "count": 410604
-          },
-          {
-            "source": "profile_v2",
-            "count": 410604
-          }
-        ],
-        "tweet_text": "脚脚伸到你面前了～\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 45,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-        "check_url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-        "promo_post_id": "2106678572702482551",
-        "check_post_id": "2106678572702482551",
-        "chat_id": "-1003891628675",
-        "message_id": 9082,
-        "time": "2026-10-06 00:07:56",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 410604,
-        "qualified_followers_text": "41W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-06 00:07:56",
-        "admission_locked": true,
-        "daily_list_rank": 1,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 1
-      },
       "dsang1874": {
         "x_handle": "dsang1874",
         "check_handle": "dsang1874",
@@ -6953,7 +6739,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 341846,
+        "followers_count": 341855,
         "followers_text": "34.1W",
         "followers_sources": [
           "status_v2",
@@ -7821,6 +7607,22 @@
           {
             "source": "profile_v2",
             "count": 341846
+          },
+          {
+            "source": "status_v2",
+            "count": 341855
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 341855
+          },
+          {
+            "source": "status_legacy",
+            "count": 341855
+          },
+          {
+            "source": "profile_v2",
+            "count": 341855
           }
         ],
         "check_followers_count": 341409,
@@ -7887,7 +7689,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 341846,
+        "qualified_followers_count": 341855,
         "qualified_followers_text": "34.1W",
         "qualified_followers_sources": [
           "status_v2",
@@ -14358,220 +14160,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 2
       },
-      "2106678572702482551": {
-        "x_handle": "lazypiggy850",
-        "check_handle": "lazypiggy850",
-        "dual_link": false,
-        "promo_handle": "lazypiggy850",
-        "tg_username": "lazypiggy001",
-        "tg_user_id": 7745875882,
-        "tg_name": "LazyPiggy懶懶豬(定制下单请私信💕)",
-        "link": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-        "message_text": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-            "handle": "lazypiggy850",
-            "post_id": "2106678572702482551",
-            "role": "promo",
-            "author_name": "lazypiggy懶懶豬",
-            "followers_count": 410604,
-            "followers_text": "41W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 410604
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 410603
-              },
-              {
-                "source": "status_legacy",
-                "count": 410604
-              },
-              {
-                "source": "profile_v2",
-                "count": 410604
-              }
-            ],
-            "tweet_text": "脚脚伸到你面前了～\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_v2",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_i",
-                "length": 45,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 45,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-            "post_id": "2106678572702482551",
-            "handle": "lazypiggy850",
-            "source_time": "2026-10-06 00:07:56",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "lazypiggy懶懶豬",
-        "promo_name": "lazypiggy懶懶豬",
-        "followers_count": 410604,
-        "followers_text": "41W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 410604
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 410603
-          },
-          {
-            "source": "status_legacy",
-            "count": 410604
-          },
-          {
-            "source": "profile_v2",
-            "count": 410604
-          }
-        ],
-        "check_followers_count": 410604,
-        "check_followers_text": "41W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 410604
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 410603
-          },
-          {
-            "source": "status_legacy",
-            "count": 410604
-          },
-          {
-            "source": "profile_v2",
-            "count": 410604
-          }
-        ],
-        "tweet_text": "脚脚伸到你面前了～\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_v2",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_i",
-            "length": 45,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 45,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-        "check_url": "https://x.com/lazypiggy850/status/2106678572702482551?s=46",
-        "promo_post_id": "2106678572702482551",
-        "check_post_id": "2106678572702482551",
-        "chat_id": "-1003891628675",
-        "message_id": 9082,
-        "time": "2026-10-06 00:07:56",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 410604,
-        "qualified_followers_text": "41W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-06 00:07:56",
-        "admission_locked": true,
-        "daily_list_rank": 1,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 1
-      },
       "2104248244742353230": {
         "x_handle": "dsang1874",
         "check_handle": "dsang1874",
@@ -15501,7 +15089,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 341846,
+        "followers_count": 341855,
         "followers_text": "34.1W",
         "followers_sources": [
           "status_v2",
@@ -16369,6 +15957,22 @@
           {
             "source": "profile_v2",
             "count": 341846
+          },
+          {
+            "source": "status_v2",
+            "count": 341855
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 341855
+          },
+          {
+            "source": "status_legacy",
+            "count": 341855
+          },
+          {
+            "source": "profile_v2",
+            "count": 341855
           }
         ],
         "check_followers_count": 341409,
@@ -16435,7 +16039,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 341846,
+        "qualified_followers_count": 341855,
         "qualified_followers_text": "34.1W",
         "qualified_followers_sources": [
           "status_v2",
@@ -16685,21 +16289,6 @@
         "batches": {
           "A": {
             "slots": [
-              {
-                "handle": "lazypiggy850",
-                "post_id": "2106678572702482551",
-                "original_post_id": "2106678572702482551",
-                "url": "https://x.com/lazypiggy850/status/2106678572702482551",
-                "edited": false,
-                "position": 1,
-                "message_id": "9082",
-                "tg_user_id": "7745875882",
-                "time": "2026-10-06 00:07:56",
-                "admission_time": "2026-10-06 00:07:56",
-                "list_id": "A",
-                "display_name": "lazypiggy懶懶豬",
-                "admitted_at": "2026-10-06 00:16:55"
-              },
               {
                 "handle": "xye9518",
                 "post_id": "2103305984307593628",
@@ -17138,11 +16727,15 @@
                 "admitted_at": "2026-10-06 00:01:19"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "1": "9082"
+            },
             "capacity": 30,
-            "count": 30,
+            "count": 29,
             "roster_capacity": 30,
-            "withdrawn_message_ids": []
+            "withdrawn_message_ids": [
+              "9082"
+            ]
           },
           "B": {
             "slots": [
@@ -17266,24 +16859,10 @@
           "joragyyy": "B",
           "qinxian8023": "B"
         },
-        "withdrawn_message_ids": [],
+        "withdrawn_message_ids": [
+          "9082"
+        ],
         "slots": [
-          {
-            "handle": "lazypiggy850",
-            "post_id": "2106678572702482551",
-            "original_post_id": "2106678572702482551",
-            "url": "https://x.com/lazypiggy850/status/2106678572702482551",
-            "edited": false,
-            "position": 1,
-            "message_id": "9082",
-            "tg_user_id": "7745875882",
-            "time": "2026-10-06 00:07:56",
-            "admission_time": "2026-10-06 00:07:56",
-            "list_id": "A",
-            "display_name": "lazypiggy懶懶豬",
-            "admitted_at": "2026-10-06 00:16:55",
-            "list_position": 1
-          },
           {
             "handle": "xye9518",
             "post_id": "2103305984307593628",
@@ -17831,8 +17410,10 @@
             "list_position": 5
           }
         ],
-        "vacant_positions": {},
-        "count": 35,
+        "vacant_positions": {
+          "1": "9082"
+        },
+        "count": 34,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -17854,6 +17435,10 @@
         "9081": {
           "reason": "message_deleted_in_complete_snapshot",
           "confirmed_at": "2026-10-06 00:16:51"
+        },
+        "9082": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-10-06 15:15:24"
         }
       }
     }

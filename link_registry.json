@@ -6459,10 +6459,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-07 00:50:00",
         "admission_locked": true,
-        "daily_list_rank": 32,
+        "daily_list_rank": 33,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 2
+        "daily_list_batch_position": 3
       },
       "abaodz1": {
         "x_handle": "abaodz1",
@@ -6663,6 +6663,220 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-07 01:56:02",
         "admission_locked": true,
+        "daily_list_rank": 32,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
+        "daily_list_batch_position": 2
+      },
+      "gangs66": {
+        "x_handle": "gangs66",
+        "check_handle": "gangs66",
+        "dual_link": false,
+        "promo_handle": "gangs66",
+        "tg_username": "SND990",
+        "tg_user_id": 8735723228,
+        "tg_name": ". .",
+        "link": "https://x.com/gangs66/status/2106990014924194066?s=46",
+        "message_text": "https://x.com/gangs66/status/2106990014924194066?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/gangs66/status/2106990014924194066?s=46",
+            "handle": "gangs66",
+            "post_id": "2106990014924194066",
+            "role": "promo",
+            "author_name": "千手綱",
+            "followers_count": 169663,
+            "followers_text": "16.9W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 169663
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 169663
+              },
+              {
+                "source": "status_legacy",
+                "count": 169663
+              },
+              {
+                "source": "profile_v2",
+                "count": 169663
+              }
+            ],
+            "tweet_text": "老是說想看脚脚，這一部滿足你們喔\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/gangs66/status/2106990014924194066?s=46",
+            "post_id": "2106990014924194066",
+            "handle": "gangs66",
+            "source_time": "2026-10-07 03:45:43",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "千手綱",
+        "promo_name": "千手綱",
+        "followers_count": 169663,
+        "followers_text": "16.9W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 169663
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 169663
+          },
+          {
+            "source": "status_legacy",
+            "count": 169663
+          },
+          {
+            "source": "profile_v2",
+            "count": 169663
+          }
+        ],
+        "check_followers_count": 169663,
+        "check_followers_text": "16.9W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 169663
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 169663
+          },
+          {
+            "source": "status_legacy",
+            "count": 169663
+          },
+          {
+            "source": "profile_v2",
+            "count": 169663
+          }
+        ],
+        "tweet_text": "老是說想看脚脚，這一部滿足你們喔\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/gangs66/status/2106990014924194066?s=46",
+        "check_url": "https://x.com/gangs66/status/2106990014924194066?s=46",
+        "promo_post_id": "2106990014924194066",
+        "check_post_id": "2106990014924194066",
+        "chat_id": "-1003891628675",
+        "message_id": 9140,
+        "time": "2026-10-07 03:45:43",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 169663,
+        "qualified_followers_text": "16.9W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-07 03:45:43",
+        "admission_locked": false,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -13219,7 +13433,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 342087,
+        "followers_count": 342089,
         "followers_text": "34.2W",
         "followers_sources": [
           "status_v2",
@@ -13471,6 +13685,22 @@
           {
             "source": "status_v2",
             "count": 342087
+          },
+          {
+            "source": "status_v2",
+            "count": 342089
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 342089
+          },
+          {
+            "source": "status_legacy",
+            "count": 342089
+          },
+          {
+            "source": "profile_v2",
+            "count": 342089
           }
         ],
         "check_followers_count": 342055,
@@ -13537,7 +13767,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 342087,
+        "qualified_followers_count": 342089,
         "qualified_followers_text": "34.2W",
         "qualified_followers_sources": [
           "status_v2",
@@ -13761,10 +13991,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-07 00:50:00",
         "admission_locked": true,
-        "daily_list_rank": 32,
+        "daily_list_rank": 33,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 2
+        "daily_list_batch_position": 3
       },
       "2107529929080680852": {
         "x_handle": "abaodz1",
@@ -13965,6 +14195,220 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-07 01:56:02",
         "admission_locked": true,
+        "daily_list_rank": 32,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
+        "daily_list_batch_position": 2
+      },
+      "2106990014924194066": {
+        "x_handle": "gangs66",
+        "check_handle": "gangs66",
+        "dual_link": false,
+        "promo_handle": "gangs66",
+        "tg_username": "SND990",
+        "tg_user_id": 8735723228,
+        "tg_name": ". .",
+        "link": "https://x.com/gangs66/status/2106990014924194066?s=46",
+        "message_text": "https://x.com/gangs66/status/2106990014924194066?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/gangs66/status/2106990014924194066?s=46",
+            "handle": "gangs66",
+            "post_id": "2106990014924194066",
+            "role": "promo",
+            "author_name": "千手綱",
+            "followers_count": 169663,
+            "followers_text": "16.9W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 169663
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 169663
+              },
+              {
+                "source": "status_legacy",
+                "count": 169663
+              },
+              {
+                "source": "profile_v2",
+                "count": 169663
+              }
+            ],
+            "tweet_text": "老是說想看脚脚，這一部滿足你們喔\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/gangs66/status/2106990014924194066?s=46",
+            "post_id": "2106990014924194066",
+            "handle": "gangs66",
+            "source_time": "2026-10-07 03:45:43",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "千手綱",
+        "promo_name": "千手綱",
+        "followers_count": 169663,
+        "followers_text": "16.9W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 169663
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 169663
+          },
+          {
+            "source": "status_legacy",
+            "count": 169663
+          },
+          {
+            "source": "profile_v2",
+            "count": 169663
+          }
+        ],
+        "check_followers_count": 169663,
+        "check_followers_text": "16.9W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 169663
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 169663
+          },
+          {
+            "source": "status_legacy",
+            "count": 169663
+          },
+          {
+            "source": "profile_v2",
+            "count": 169663
+          }
+        ],
+        "tweet_text": "老是說想看脚脚，這一部滿足你們喔\n\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/gangs66/status/2106990014924194066?s=46",
+        "check_url": "https://x.com/gangs66/status/2106990014924194066?s=46",
+        "promo_post_id": "2106990014924194066",
+        "check_post_id": "2106990014924194066",
+        "chat_id": "-1003891628675",
+        "message_id": 9140,
+        "time": "2026-10-07 03:45:43",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 169663,
+        "qualified_followers_text": "16.9W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-07 03:45:43",
+        "admission_locked": false,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -14451,12 +14895,27 @@
           "B": {
             "slots": [
               {
+                "handle": "gangs66",
+                "post_id": "2106990014924194066",
+                "original_post_id": "2106990014924194066",
+                "url": "https://x.com/gangs66/status/2106990014924194066",
+                "edited": false,
+                "position": 1,
+                "message_id": "9140",
+                "tg_user_id": "8735723228",
+                "time": "2026-10-07 03:45:43",
+                "admission_time": "2026-10-07 03:45:43",
+                "list_id": "B",
+                "display_name": "千手綱",
+                "admitted_at": "2026-10-07 04:00:47"
+              },
+              {
                 "handle": "abaodz1",
                 "post_id": "2107529929080680852",
                 "original_post_id": "2107529929080680852",
                 "url": "https://x.com/abaodz1/status/2107529929080680852",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9139",
                 "tg_user_id": "7326484468",
                 "time": "2026-10-07 01:56:02",
@@ -14471,7 +14930,7 @@
                 "original_post_id": "2106382900421959930",
                 "url": "https://x.com/joragyyy/status/2106382900421959930",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9138",
                 "tg_user_id": "7996721954",
                 "time": "2026-10-07 00:50:00",
@@ -14482,9 +14941,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 2,
-            "count": 2,
-            "roster_capacity": 2,
+            "capacity": 3,
+            "count": 3,
+            "roster_capacity": 3,
             "withdrawn_message_ids": []
           }
         },
@@ -14520,7 +14979,8 @@
           "sleepsbg": "A",
           "shoojeenn": "A",
           "joragyyy": "B",
-          "abaodz1": "B"
+          "abaodz1": "B",
+          "gangs66": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -15005,12 +15465,28 @@
             "list_position": 30
           },
           {
+            "handle": "gangs66",
+            "post_id": "2106990014924194066",
+            "original_post_id": "2106990014924194066",
+            "url": "https://x.com/gangs66/status/2106990014924194066",
+            "edited": false,
+            "position": 31,
+            "message_id": "9140",
+            "tg_user_id": "8735723228",
+            "time": "2026-10-07 03:45:43",
+            "admission_time": "2026-10-07 03:45:43",
+            "list_id": "B",
+            "display_name": "千手綱",
+            "admitted_at": "2026-10-07 04:00:47",
+            "list_position": 1
+          },
+          {
             "handle": "abaodz1",
             "post_id": "2107529929080680852",
             "original_post_id": "2107529929080680852",
             "url": "https://x.com/abaodz1/status/2107529929080680852",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9139",
             "tg_user_id": "7326484468",
             "time": "2026-10-07 01:56:02",
@@ -15018,7 +15494,7 @@
             "list_id": "B",
             "display_name": "家有e妻（原创）",
             "admitted_at": "2026-10-07 02:01:15",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "joragyyy",
@@ -15026,7 +15502,7 @@
             "original_post_id": "2106382900421959930",
             "url": "https://x.com/joragyyy/status/2106382900421959930",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9138",
             "tg_user_id": "7996721954",
             "time": "2026-10-07 00:50:00",
@@ -15034,11 +15510,11 @@
             "list_id": "B",
             "display_name": "Yiiceing",
             "admitted_at": "2026-10-07 01:01:04",
-            "list_position": 2
+            "list_position": 3
           }
         ],
         "vacant_positions": {},
-        "count": 32,
+        "count": 33,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

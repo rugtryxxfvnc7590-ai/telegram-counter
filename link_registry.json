@@ -6385,6 +6385,30 @@
           {
             "source": "profile_v2",
             "count": 342057
+          },
+          {
+            "source": "status_v2",
+            "count": 342049
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 342056
+          },
+          {
+            "source": "status_legacy",
+            "count": 342049
+          },
+          {
+            "source": "profile_v2",
+            "count": 342049
+          },
+          {
+            "source": "status_v2",
+            "count": 342056
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 342049
           }
         ],
         "check_followers_count": 342055,
@@ -6674,7 +6698,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-07 00:50:00",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -13283,6 +13307,30 @@
           {
             "source": "profile_v2",
             "count": 342057
+          },
+          {
+            "source": "status_v2",
+            "count": 342049
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 342056
+          },
+          {
+            "source": "status_legacy",
+            "count": 342049
+          },
+          {
+            "source": "profile_v2",
+            "count": 342049
+          },
+          {
+            "source": "status_v2",
+            "count": 342056
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 342049
           }
         ],
         "check_followers_count": 342055,
@@ -13572,7 +13620,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-07 00:50:00",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",

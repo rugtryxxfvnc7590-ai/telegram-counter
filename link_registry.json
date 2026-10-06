@@ -6019,10 +6019,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:14:59",
         "admission_locked": true,
-        "daily_list_rank": 35,
+        "daily_list_rank": 36,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 5
+        "daily_list_batch_position": 6
       },
       "lris_intj": {
         "x_handle": "lris_intj",
@@ -6223,10 +6223,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:15:10",
         "admission_locked": true,
-        "daily_list_rank": 34,
+        "daily_list_rank": 35,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 4
+        "daily_list_batch_position": 5
       },
       "cattyllo023": {
         "x_handle": "cattyllo023",
@@ -6437,10 +6437,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:30:38",
         "admission_locked": true,
-        "daily_list_rank": 33,
+        "daily_list_rank": 34,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 3
+        "daily_list_batch_position": 4
       },
       "joragyyy": {
         "x_handle": "joragyyy",
@@ -6651,10 +6651,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:40:22",
         "admission_locked": true,
-        "daily_list_rank": 32,
+        "daily_list_rank": 33,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 2
+        "daily_list_batch_position": 3
       },
       "abaodz1": {
         "x_handle": "abaodz1",
@@ -6739,7 +6739,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 341920,
+        "followers_count": 341924,
         "followers_text": "34.1W",
         "followers_sources": [
           "status_v2",
@@ -7751,6 +7751,18 @@
           {
             "source": "profile_v2",
             "count": 341920
+          },
+          {
+            "source": "status_v2",
+            "count": 341924
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 341924
+          },
+          {
+            "source": "status_legacy",
+            "count": 341924
           }
         ],
         "check_followers_count": 341409,
@@ -7817,7 +7829,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 341920,
+        "qualified_followers_count": 341924,
         "qualified_followers_text": "34.1W",
         "qualified_followers_sources": [
           "status_v2",
@@ -8041,10 +8053,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 13:43:30",
         "admission_locked": true,
-        "daily_list_rank": 31,
+        "daily_list_rank": 32,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 1
+        "daily_list_batch_position": 2
       },
       "lazypiggy850": {
         "x_handle": "lazypiggy850",
@@ -8471,6 +8483,220 @@
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
+        "daily_list_batch_position": 1
+      },
+      "12_wheat": {
+        "x_handle": "12_wheat",
+        "check_handle": "12_wheat",
+        "dual_link": false,
+        "promo_handle": "12_wheat",
+        "tg_username": "ItGets",
+        "tg_user_id": 7019696899,
+        "tg_name": "12K",
+        "link": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+        "message_text": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+            "handle": "12_wheat",
+            "post_id": "2105180514156269720",
+            "role": "promo",
+            "author_name": "12K",
+            "followers_count": 134753,
+            "followers_text": "13.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 134753
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 134753
+              },
+              {
+                "source": "status_legacy",
+                "count": 134753
+              },
+              {
+                "source": "profile_v2",
+                "count": 134753
+              }
+            ],
+            "tweet_text": "秋天第一次露出\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+            "post_id": "2105180514156269720",
+            "handle": "12_wheat",
+            "source_time": "2026-10-06 17:02:35",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "12K",
+        "promo_name": "12K",
+        "followers_count": 134753,
+        "followers_text": "13.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 134753
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 134753
+          },
+          {
+            "source": "status_legacy",
+            "count": 134753
+          },
+          {
+            "source": "profile_v2",
+            "count": 134753
+          }
+        ],
+        "check_followers_count": 134753,
+        "check_followers_text": "13.4W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 134753
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 134753
+          },
+          {
+            "source": "status_legacy",
+            "count": 134753
+          },
+          {
+            "source": "profile_v2",
+            "count": 134753
+          }
+        ],
+        "tweet_text": "秋天第一次露出\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+        "check_url": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+        "promo_post_id": "2105180514156269720",
+        "check_post_id": "2105180514156269720",
+        "chat_id": "-1003891628675",
+        "message_id": 9094,
+        "time": "2026-10-06 17:02:35",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 134753,
+        "qualified_followers_text": "13.4W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-06 17:02:35",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
         "daily_list_batch_position": 1
       }
     },
@@ -14924,10 +15150,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:14:59",
         "admission_locked": true,
-        "daily_list_rank": 35,
+        "daily_list_rank": 36,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 5
+        "daily_list_batch_position": 6
       },
       "2106179278597501404": {
         "x_handle": "lris_intj",
@@ -15128,10 +15354,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:15:10",
         "admission_locked": true,
-        "daily_list_rank": 34,
+        "daily_list_rank": 35,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 4
+        "daily_list_batch_position": 5
       },
       "2090301936343945622": {
         "x_handle": "cattyllo023",
@@ -15342,10 +15568,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:30:38",
         "admission_locked": true,
-        "daily_list_rank": 33,
+        "daily_list_rank": 34,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 3
+        "daily_list_batch_position": 4
       },
       "2106382900421959930": {
         "x_handle": "joragyyy",
@@ -15556,10 +15782,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 00:40:22",
         "admission_locked": true,
-        "daily_list_rank": 32,
+        "daily_list_rank": 33,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 2
+        "daily_list_batch_position": 3
       },
       "2107090090480820521": {
         "x_handle": "abaodz1",
@@ -15644,7 +15870,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 341920,
+        "followers_count": 341924,
         "followers_text": "34.1W",
         "followers_sources": [
           "status_v2",
@@ -16656,6 +16882,18 @@
           {
             "source": "profile_v2",
             "count": 341920
+          },
+          {
+            "source": "status_v2",
+            "count": 341924
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 341924
+          },
+          {
+            "source": "status_legacy",
+            "count": 341924
           }
         ],
         "check_followers_count": 341409,
@@ -16722,7 +16960,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 341920,
+        "qualified_followers_count": 341924,
         "qualified_followers_text": "34.1W",
         "qualified_followers_sources": [
           "status_v2",
@@ -16946,10 +17184,10 @@
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-06 13:43:30",
         "admission_locked": true,
-        "daily_list_rank": 31,
+        "daily_list_rank": 32,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
-        "daily_list_batch_position": 1
+        "daily_list_batch_position": 2
       },
       "2106678572702482551": {
         "x_handle": "lazypiggy850",
@@ -17376,6 +17614,220 @@
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
+        "daily_list_batch_position": 1
+      },
+      "2105180514156269720": {
+        "x_handle": "12_wheat",
+        "check_handle": "12_wheat",
+        "dual_link": false,
+        "promo_handle": "12_wheat",
+        "tg_username": "ItGets",
+        "tg_user_id": 7019696899,
+        "tg_name": "12K",
+        "link": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+        "message_text": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+            "handle": "12_wheat",
+            "post_id": "2105180514156269720",
+            "role": "promo",
+            "author_name": "12K",
+            "followers_count": 134753,
+            "followers_text": "13.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 134753
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 134753
+              },
+              {
+                "source": "status_legacy",
+                "count": 134753
+              },
+              {
+                "source": "profile_v2",
+                "count": 134753
+              }
+            ],
+            "tweet_text": "秋天第一次露出\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_v2",
+              "vx_status_i",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+            "post_id": "2105180514156269720",
+            "handle": "12_wheat",
+            "source_time": "2026-10-06 17:02:35",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "12K",
+        "promo_name": "12K",
+        "followers_count": 134753,
+        "followers_text": "13.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 134753
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 134753
+          },
+          {
+            "source": "status_legacy",
+            "count": 134753
+          },
+          {
+            "source": "profile_v2",
+            "count": 134753
+          }
+        ],
+        "check_followers_count": 134753,
+        "check_followers_text": "13.4W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 134753
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 134753
+          },
+          {
+            "source": "status_legacy",
+            "count": 134753
+          },
+          {
+            "source": "profile_v2",
+            "count": 134753
+          }
+        ],
+        "tweet_text": "秋天第一次露出\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_v2",
+          "vx_status_i",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+        "check_url": "https://x.com/12_wheat/status/2105180514156269720?s=46",
+        "promo_post_id": "2105180514156269720",
+        "check_post_id": "2105180514156269720",
+        "chat_id": "-1003891628675",
+        "message_id": 9094,
+        "time": "2026-10-06 17:02:35",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 134753,
+        "qualified_followers_text": "13.4W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-06 17:02:35",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
         "daily_list_batch_position": 1
       }
     },
@@ -17865,12 +18317,27 @@
           "B": {
             "slots": [
               {
+                "handle": "12_wheat",
+                "post_id": "2105180514156269720",
+                "original_post_id": "2105180514156269720",
+                "url": "https://x.com/12_wheat/status/2105180514156269720",
+                "edited": false,
+                "position": 1,
+                "message_id": "9094",
+                "tg_user_id": "7019696899",
+                "time": "2026-10-06 17:02:35",
+                "admission_time": "2026-10-06 17:02:35",
+                "list_id": "B",
+                "display_name": "12K",
+                "admitted_at": "2026-10-06 17:15:33"
+              },
+              {
                 "handle": "qinxian8023",
                 "post_id": "1843994899403976912",
                 "original_post_id": "1843994899403976912",
                 "url": "https://x.com/qinxian8023/status/1843994899403976912",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9089",
                 "tg_user_id": "1264616126",
                 "time": "2026-10-06 13:43:30",
@@ -17885,7 +18352,7 @@
                 "original_post_id": "2106382900421959930",
                 "url": "https://x.com/joragyyy/status/2106382900421959930",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9087",
                 "tg_user_id": "7996721954",
                 "time": "2026-10-06 00:40:22",
@@ -17900,7 +18367,7 @@
                 "original_post_id": "2090301936343945622",
                 "url": "https://x.com/cattyllo023/status/2090301936343945622",
                 "edited": false,
-                "position": 3,
+                "position": 4,
                 "message_id": "9086",
                 "tg_user_id": "7847834068",
                 "time": "2026-10-06 00:30:38",
@@ -17915,7 +18382,7 @@
                 "original_post_id": "2106179278597501404",
                 "url": "https://x.com/lris_intj/status/2106179278597501404",
                 "edited": false,
-                "position": 4,
+                "position": 5,
                 "message_id": "9084",
                 "tg_user_id": "2103607030",
                 "time": "2026-10-06 00:15:10",
@@ -17930,7 +18397,7 @@
                 "original_post_id": "2104248244742353230",
                 "url": "https://x.com/dsang1874/status/2104248244742353230",
                 "edited": false,
-                "position": 5,
+                "position": 6,
                 "message_id": "9083",
                 "tg_user_id": "6978925122",
                 "time": "2026-10-06 00:14:59",
@@ -17941,9 +18408,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 5,
-            "count": 5,
-            "roster_capacity": 5,
+            "capacity": 6,
+            "count": 6,
+            "roster_capacity": 6,
             "withdrawn_message_ids": []
           }
         },
@@ -17983,7 +18450,8 @@
           "cattyllo023": "B",
           "joragyyy": "B",
           "qinxian8023": "B",
-          "snd99x": "A"
+          "snd99x": "A",
+          "12_wheat": "B"
         },
         "withdrawn_message_ids": [
           "9082"
@@ -18474,12 +18942,28 @@
             "list_position": 30
           },
           {
+            "handle": "12_wheat",
+            "post_id": "2105180514156269720",
+            "original_post_id": "2105180514156269720",
+            "url": "https://x.com/12_wheat/status/2105180514156269720",
+            "edited": false,
+            "position": 31,
+            "message_id": "9094",
+            "tg_user_id": "7019696899",
+            "time": "2026-10-06 17:02:35",
+            "admission_time": "2026-10-06 17:02:35",
+            "list_id": "B",
+            "display_name": "12K",
+            "admitted_at": "2026-10-06 17:15:33",
+            "list_position": 1
+          },
+          {
             "handle": "qinxian8023",
             "post_id": "1843994899403976912",
             "original_post_id": "1843994899403976912",
             "url": "https://x.com/qinxian8023/status/1843994899403976912",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9089",
             "tg_user_id": "1264616126",
             "time": "2026-10-06 13:43:30",
@@ -18487,7 +18971,7 @@
             "list_id": "B",
             "display_name": "宇宙的琴弦",
             "admitted_at": "2026-10-06 13:45:33",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "joragyyy",
@@ -18495,7 +18979,7 @@
             "original_post_id": "2106382900421959930",
             "url": "https://x.com/joragyyy/status/2106382900421959930",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9087",
             "tg_user_id": "7996721954",
             "time": "2026-10-06 00:40:22",
@@ -18503,7 +18987,7 @@
             "list_id": "B",
             "display_name": "Yiiceing",
             "admitted_at": "2026-10-06 00:45:35",
-            "list_position": 2
+            "list_position": 3
           },
           {
             "handle": "cattyllo023",
@@ -18511,7 +18995,7 @@
             "original_post_id": "2090301936343945622",
             "url": "https://x.com/cattyllo023/status/2090301936343945622",
             "edited": false,
-            "position": 33,
+            "position": 34,
             "message_id": "9086",
             "tg_user_id": "7847834068",
             "time": "2026-10-06 00:30:38",
@@ -18519,7 +19003,7 @@
             "list_id": "B",
             "display_name": "奶酪",
             "admitted_at": "2026-10-06 00:30:45",
-            "list_position": 3
+            "list_position": 4
           },
           {
             "handle": "lris_intj",
@@ -18527,7 +19011,7 @@
             "original_post_id": "2106179278597501404",
             "url": "https://x.com/lris_intj/status/2106179278597501404",
             "edited": false,
-            "position": 34,
+            "position": 35,
             "message_id": "9084",
             "tg_user_id": "2103607030",
             "time": "2026-10-06 00:15:10",
@@ -18535,7 +19019,7 @@
             "list_id": "B",
             "display_name": "♱₊Ms. Rin❄︎˚↝",
             "admitted_at": "2026-10-06 00:16:55",
-            "list_position": 4
+            "list_position": 5
           },
           {
             "handle": "dsang1874",
@@ -18543,7 +19027,7 @@
             "original_post_id": "2104248244742353230",
             "url": "https://x.com/dsang1874/status/2104248244742353230",
             "edited": false,
-            "position": 35,
+            "position": 36,
             "message_id": "9083",
             "tg_user_id": "6978925122",
             "time": "2026-10-06 00:14:59",
@@ -18551,11 +19035,11 @@
             "list_id": "B",
             "display_name": "吊SANG📷",
             "admitted_at": "2026-10-06 00:16:55",
-            "list_position": 5
+            "list_position": 6
           }
         ],
         "vacant_positions": {},
-        "count": 35,
+        "count": 36,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

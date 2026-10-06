@@ -13219,7 +13219,7 @@
         ],
         "x_name": "家有e妻（原创）",
         "promo_name": "家有e妻（原创）",
-        "followers_count": 342082,
+        "followers_count": 342087,
         "followers_text": "34.2W",
         "followers_sources": [
           "status_v2",
@@ -13451,6 +13451,26 @@
           {
             "source": "status_legacy",
             "count": 342080
+          },
+          {
+            "source": "status_v2",
+            "count": 342085
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 342087
+          },
+          {
+            "source": "status_legacy",
+            "count": 342087
+          },
+          {
+            "source": "profile_v2",
+            "count": 342087
+          },
+          {
+            "source": "status_v2",
+            "count": 342087
           }
         ],
         "check_followers_count": 342055,
@@ -13517,7 +13537,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 342082,
+        "qualified_followers_count": 342087,
         "qualified_followers_text": "34.2W",
         "qualified_followers_sources": [
           "status_v2",

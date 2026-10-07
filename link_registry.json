@@ -4062,7 +4062,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:01:11",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4276,7 +4276,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:01:38",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 10,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4480,7 +4480,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:02:18",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4696,7 +4696,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:02:50",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4910,7 +4910,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:03:06",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5124,7 +5124,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:03:22",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5338,7 +5338,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:05:17",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5552,7 +5552,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:05:23",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5648,12 +5648,13 @@
         ],
         "x_name": "蜜桔摄影",
         "promo_name": "蜜桔摄影",
-        "followers_count": 215079,
+        "followers_count": 215081,
         "followers_text": "21.5W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -5667,6 +5668,22 @@
           {
             "source": "status_legacy",
             "count": 215079
+          },
+          {
+            "source": "status_v2",
+            "count": 215081
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 215081
+          },
+          {
+            "source": "status_legacy",
+            "count": 215081
+          },
+          {
+            "source": "profile_v2",
+            "count": 215081
           }
         ],
         "check_followers_count": 215079,
@@ -5740,17 +5757,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 215079,
+        "qualified_followers_count": 215081,
         "qualified_followers_text": "21.5W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:05:28",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5846,12 +5864,13 @@
         ],
         "x_name": "小鱼精品无码Av",
         "promo_name": "小鱼精品无码Av",
-        "followers_count": 384194,
+        "followers_count": 384276,
         "followers_text": "38.4W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -5877,6 +5896,22 @@
           {
             "source": "status_legacy",
             "count": 384194
+          },
+          {
+            "source": "status_v2",
+            "count": 384276
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 384276
+          },
+          {
+            "source": "status_legacy",
+            "count": 384276
+          },
+          {
+            "source": "profile_v2",
+            "count": 384276
           }
         ],
         "check_followers_count": 384191,
@@ -5950,17 +5985,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 384194,
+        "qualified_followers_count": 384276,
         "qualified_followers_text": "38.4W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:05:42",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -6174,7 +6210,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:06:24",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10246,7 +10282,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:01:11",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10460,7 +10496,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:01:38",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 10,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10664,7 +10700,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:02:18",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10880,7 +10916,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:02:50",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11094,7 +11130,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:03:06",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11308,7 +11344,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:03:22",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11522,7 +11558,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:05:17",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11736,7 +11772,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:05:23",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11832,12 +11868,13 @@
         ],
         "x_name": "蜜桔摄影",
         "promo_name": "蜜桔摄影",
-        "followers_count": 215079,
+        "followers_count": 215081,
         "followers_text": "21.5W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -11851,6 +11888,22 @@
           {
             "source": "status_legacy",
             "count": 215079
+          },
+          {
+            "source": "status_v2",
+            "count": 215081
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 215081
+          },
+          {
+            "source": "status_legacy",
+            "count": 215081
+          },
+          {
+            "source": "profile_v2",
+            "count": 215081
           }
         ],
         "check_followers_count": 215079,
@@ -11924,17 +11977,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 215079,
+        "qualified_followers_count": 215081,
         "qualified_followers_text": "21.5W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:05:28",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12030,12 +12084,13 @@
         ],
         "x_name": "小鱼精品无码Av",
         "promo_name": "小鱼精品无码Av",
-        "followers_count": 384194,
+        "followers_count": 384276,
         "followers_text": "38.4W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -12061,6 +12116,22 @@
           {
             "source": "status_legacy",
             "count": 384194
+          },
+          {
+            "source": "status_v2",
+            "count": 384276
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 384276
+          },
+          {
+            "source": "status_legacy",
+            "count": 384276
+          },
+          {
+            "source": "profile_v2",
+            "count": 384276
           }
         ],
         "check_followers_count": 384191,
@@ -12134,17 +12205,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 384194,
+        "qualified_followers_count": 384276,
         "qualified_followers_text": "38.4W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:05:42",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12358,7 +12430,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 00:06:24",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",

@@ -1,9 +1,9 @@
 {
   "date": "2026-10-08",
-  "offset": 364620061,
+  "offset": 364620064,
   "groups": {
     "-1003891628675": {
-      "count": 31,
+      "count": 32,
       "message_ids": [
         "9153",
         "9154",
@@ -35,7 +35,8 @@
         "9188",
         "9189",
         "9191",
-        "9194"
+        "9194",
+        "9208"
       ]
     },
     "-1003218974409": {
@@ -49,7 +50,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-08",
-    "run_at": "2026-10-08 02:00:50",
+    "run_at": "2026-10-08 02:15:34",
     "completed_groups": [
       "群一",
       "群二",
@@ -57,40 +58,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37663465406:1",
-        "checked_at": "2026-10-08 02:00:54",
+        "run_key": "37665386472:1",
+        "checked_at": "2026-10-08 02:15:37",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37663465406:1",
-        "checked_at": "2026-10-08 02:00:54",
+        "run_key": "37665386472:1",
+        "checked_at": "2026-10-08 02:15:38",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37663465406:1",
-        "checked_at": "2026-10-08 02:00:54",
+        "run_key": "37665386472:1",
+        "checked_at": "2026-10-08 02:15:38",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37663465406:1",
-        "checked_at": "2026-10-08 02:00:54",
+        "run_key": "37665386472:1",
+        "checked_at": "2026-10-08 02:15:37",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37663465406:1",
-        "checked_at": "2026-10-08 02:00:54",
+        "run_key": "37665386472:1",
+        "checked_at": "2026-10-08 02:15:38",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37663465406:1",
-        "checked_at": "2026-10-08 02:00:54",
+        "run_key": "37665386472:1",
+        "checked_at": "2026-10-08 02:15:38",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1103,11 +1104,27 @@
             "withdrawn_message_ids": []
           },
           "B": {
-            "slots": [],
+            "slots": [
+              {
+                "handle": "thelol1pop99",
+                "post_id": "2097890060808909041",
+                "original_post_id": "2097890060808909041",
+                "url": "https://x.com/thelol1pop99/status/2097890060808909041",
+                "edited": false,
+                "position": 1,
+                "message_id": "9208",
+                "tg_user_id": "1770606411",
+                "time": "2026-10-08 02:05:50",
+                "admission_time": "2026-10-08 02:05:50",
+                "list_id": "B",
+                "display_name": "Loliiiiipop99💛棒棒糖🍭",
+                "admitted_at": "2026-10-08 02:15:39"
+              }
+            ],
             "vacant_positions": {},
-            "capacity": 0,
-            "count": 0,
-            "roster_capacity": 0,
+            "capacity": 1,
+            "count": 1,
+            "roster_capacity": 1,
             "withdrawn_message_ids": []
           }
         },
@@ -1141,7 +1158,8 @@
           "youmeier": "A",
           "xye9518": "A",
           "guilin010": "A",
-          "lris_intj": "A"
+          "lris_intj": "A",
+          "thelol1pop99": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -1624,10 +1642,26 @@
             "display_name": "跳跳羊💃",
             "admitted_at": "2026-10-08 00:01:15",
             "list_position": 30
+          },
+          {
+            "handle": "thelol1pop99",
+            "post_id": "2097890060808909041",
+            "original_post_id": "2097890060808909041",
+            "url": "https://x.com/thelol1pop99/status/2097890060808909041",
+            "edited": false,
+            "position": 31,
+            "message_id": "9208",
+            "tg_user_id": "1770606411",
+            "time": "2026-10-08 02:05:50",
+            "admission_time": "2026-10-08 02:05:50",
+            "list_id": "B",
+            "display_name": "Loliiiiipop99💛棒棒糖🍭",
+            "admitted_at": "2026-10-08 02:15:39",
+            "list_position": 1
           }
         ],
         "vacant_positions": {},
-        "count": 30,
+        "count": 31,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1656,10 +1690,10 @@
     "date": "2026-10-08",
     "groups": {
       "群一": {
-        "digest": "1db3a2d2f17acaa7dd67b621171f18e206ae28cd73015fa9cae293bf8ef96c72",
-        "sourceRevision": 3,
+        "digest": "412cb4fcc004870b6ad6af28d4655a5d4715981dd6fea2a822b431de79a0fc3f",
+        "sourceRevision": 4,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-08T00:45:30.155441+08:00"
+        "acknowledged_at": "2026-10-08T02:15:40.046692+08:00"
       }
     }
   },

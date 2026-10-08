@@ -325,6 +325,7 @@ class LinkParsingTest(unittest.TestCase):
         def fake_get(url, timeout=8):
             if "api.vxtwitter.com" in url:
                 return FakeResp({
+                    "tweetID": "111",
                     "user_screen_name": "promoA",
                     "user_name": "小王",
                     "text": "短正文后面的完整内容 @KawasawaSen @BulmaList @ToBulaer @ToBuerma",
@@ -350,8 +351,8 @@ class LinkParsingTest(unittest.TestCase):
         entry = registry["entries"]["-1003218974409"]["promoa"]
         self.assertIn("@ToBulaer", entry["tweet_text"])
         self.assertEqual(entry["required_mentions_count"], 4)
-        self.assertIn("vx_status_v2", entry["tweet_text_sources"])
-        self.assertEqual(entry["tweet_text_primary_source"], "vx_status_v2")
+        self.assertIn("vx_status_author", entry["tweet_text_sources"])
+        self.assertEqual(entry["tweet_text_primary_source"], "vx_status_author")
         self.assertEqual(entry["followers_text"], "4W")
         self.assertEqual(entry["eligibility_text"], "✅合格")
 
@@ -423,6 +424,7 @@ class LinkParsingTest(unittest.TestCase):
         def fake_get(url, timeout=8):
             if "api.vxtwitter.com" in url:
                 return FakeResp({
+                    "tweetID": "2090012491149631529",
                     "user_screen_name": "xiaochen000007",
                     "user_name": "小陈和小王的日常",
                     "text": complete,
@@ -471,7 +473,7 @@ class LinkParsingTest(unittest.TestCase):
         self.assertEqual(entry["required_mentions_count"], 4)
         self.assertTrue(entry["content_eligible"])
         self.assertEqual(entry["eligibility_text"], "✅合格")
-        self.assertIn("vx_status_v2", entry["tweet_text_sources"])
+        self.assertIn("vx_status_author", entry["tweet_text_sources"])
 
     def test_backfill_registry_metadata_updates_old_entries(self):
         class FakeResp:

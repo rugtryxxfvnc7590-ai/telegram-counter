@@ -4,6 +4,7 @@ import requests
 import re
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
 from daily_capacity import (
@@ -30,7 +31,7 @@ GROUP_3_CHAT_ID_FALLBACK = "-1003739822194"
 LOW_FOLLOWER_REPLY_TEXT = "粉丝数量低于最低互推标准，该链接不予互推！"
 TARGET_MENTIONS = ("ToBulaer", "ToBuerma", "KawasawaSen", "BulmaList")
 INVALID_MENTIONS_REPLY_TEXT = "该链接违规，未@社区账号，不予互推"
-FULL_TWEET_TEXT_SOURCES = frozenset({"vx_status_v2", "vx_status_i"})
+FULL_TWEET_TEXT_SOURCES = frozenset({"vx_status_v2", "vx_status_i", "vx_status_author"})
 LONG_TEXT_UNCERTAIN_LENGTH = 120
 CUTOFF_HOUR = 19
 CUTOFF_ELIGIBILITY_TEXT = "❌超时链接"
@@ -810,10 +811,10 @@ def fetch_x_author_meta(url="", handle="", post_id=""):
     if post_id:
         endpoints.append(("status_v2", f"https://api.fxtwitter.com/2/status/{post_id}"))
         endpoints.append(("status_legacy_i", f"https://api.fxtwitter.com/i/status/{post_id}"))
-        endpoints.append(("vx_status_v2", f"https://api.vxtwitter.com/2/status/{post_id}"))
-        endpoints.append(("vx_status_i", f"https://api.vxtwitter.com/i/status/{post_id}"))
     if handle:
-        clean = handle.lstrip("@")
+        clean = handle.lstrip("@").lower()
+        if post_id and re.fullmatch(r"[A-Za-z0-9_]{1,15}", clean):
+            endpoints.append(("vx_status_author", f"https://api.vxtwitter.com/{clean}/status/{post_id}"))
         endpoints.append(("status_legacy", f"https://api.fxtwitter.com/{clean}/status/{post_id}")) if post_id else None
         endpoints.append(("profile_v2", f"https://api.fxtwitter.com/2/profile/{clean}?about_account=1"))
     meta = {}
@@ -832,10 +833,18 @@ def fetch_x_author_meta(url="", handle="", post_id=""):
             r = requests.get(endpoint, timeout=8)
             if r.status_code != 200:
                 continue
-            part = _author_meta_from_payload(r.json(), source=source)
+            payload = r.json()
+            if source == "vx_status_author":
+                expected_handle = urlsplit(endpoint).path.split("/")[1].lower()
+                if (str(payload.get("tweetID") or "") != str(post_id)
+                        or str(payload.get("user_screen_name") or "").lower() != expected_handle):
+                    continue
+            part = _author_meta_from_payload(payload, source=source)
             if part:
                 meta = _merge_author_meta(meta, part)
                 screen_name = part.get("screen_name")
+                if post_id and screen_name and re.fullmatch(r"[A-Za-z0-9_]{1,15}", screen_name):
+                    endpoints.append(("vx_status_author", f"https://api.vxtwitter.com/{screen_name.lower()}/status/{post_id}"))
                 if screen_name and not any(e[0] == "profile_v2" for e in endpoints):
                     endpoints.append(("profile_v2", f"https://api.fxtwitter.com/2/profile/{screen_name}?about_account=1"))
         except Exception as e:

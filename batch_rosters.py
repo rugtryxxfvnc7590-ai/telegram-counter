@@ -61,6 +61,7 @@ def refresh_batch_roster(previous, registry, group, day, now_text, policy):
     evidence = registry.get("confirmed_withdrawals") or {}
     removed = (evidence.get("groups") or {}).get(group, {}) if evidence.get("date") == day else {}
     retired = set(result.get("withdrawn_message_ids") or [])
+    requeued = set(result.get("requeued_message_ids") or [])
     before_cutoff = now_text[11:16] < "19:00" and not result.get("cutoff_finalized")
     for label, batch in result["batches"].items():
         retained = []
@@ -69,6 +70,7 @@ def refresh_batch_roster(previous, registry, group, day, now_text, policy):
             if stamp[:10] == day and stamp <= now_text:
                 mid = str(slot["message_id"])
                 batch["vacant_positions"][str(slot["position"])] = mid
+                batch.setdefault("vacant_accounts", {})[str(slot["position"])] = slot["handle"]
                 batch["withdrawn_message_ids"] = sorted(set(batch.get("withdrawn_message_ids") or []) | {mid})
                 retired.add(mid)
             else:
@@ -76,27 +78,63 @@ def refresh_batch_roster(previous, registry, group, day, now_text, policy):
         batch["slots"] = retained
         batch["slots"] = edited_slots(batch["slots"], registry, ids, day, now_text)
     if before_cutoff:
+        rows = [row for row in eligible_rows(registry, ids, day)
+                if row["time"] <= now_text and str(row["message_id"]) not in retired | requeued
+                and not removed.get(str(row["message_id"]))]
+        latest = {}
+        for row in rows:
+            handle = str(row["entry"].get("promo_handle") or "").lower().lstrip("@")
+            latest[handle] = row
+        # A new message rejoins the queue; an edit keeps its existing slot.
+        for batch in result["batches"].values():
+            retained = []
+            for slot in batch["slots"]:
+                row = latest.get(slot["handle"])
+                entry = (row or {}).get("entry") or {}
+                same_owner = bool(slot.get("tg_user_id")) and str(entry.get("tg_user_id") or "") == str(slot["tg_user_id"])
+                newer_message = row and (str(entry.get("time") or ""), int(row["message_id"])) > (
+                    str(slot.get("time") or ""), int(slot.get("message_id") or 0))
+                if row and same_owner and newer_message and str(row["message_id"]) != str(slot.get("message_id")):
+                    mid, position = str(slot["message_id"]), str(slot["position"])
+                    batch["vacant_positions"][position] = mid
+                    batch.setdefault("vacant_accounts", {})[position] = slot["handle"]
+                    requeued.add(mid)
+                else:
+                    retained.append(slot)
+            batch["slots"] = retained
+        rows = sorted(latest.values(), key=lambda row: (row["time"], row["message_id"], row["url"]))
+    # Rebuild from actual members, not tombstones left by a deleted message.
+    result["assigned_accounts"] = {slot["handle"].lower().lstrip("@"): label
+        for label, batch in result["batches"].items() for slot in batch["slots"]}
+    if before_cutoff:
         used_posts = {slot["post_id"] for batch in result["batches"].values() for slot in batch["slots"]}
         used_messages = {str(slot.get("message_id")) for batch in result["batches"].values() for slot in batch["slots"]}
-        for row in eligible_rows(registry, ids, day):
+        for row in rows:
             handle = str(row["entry"].get("promo_handle") or "").lower().lstrip("@")
             mid = str(row["message_id"])
-            if (not handle or handle in result["assigned_accounts"] or mid in retired or mid in used_messages
+            if (not handle or handle in result["assigned_accounts"] or mid in retired | requeued or mid in used_messages
                     or row["post_id"] in used_posts or row["time"] > now_text):
                 continue
-            available = next(((label, batch) for label, batch in sorted(result["batches"].items())
-                              if len(batch["slots"]) < size), None)
+            available = None
+            for label, batch in sorted(result["batches"].items()):
+                if len(batch["slots"]) >= size:
+                    continue
+                vacancies = [int(pos) for pos in batch["vacant_positions"]
+                             if batch.get("vacant_accounts", {}).get(pos) != handle]
+                occupied = {int(slot["position"]) for slot in batch["slots"]} | set(map(int, batch["vacant_positions"]))
+                position = min(vacancies, default=0) or next((pos for pos in range(1, size + 1) if pos not in occupied), 0)
+                if position:
+                    available = label, batch, position
+                    break
             if available is None:
-                break
-            label, batch = available
+                continue
+            label, batch, position = available
             bound = freeze_links([row["url"]], registry, ids, day)[0]
             if bound.get("message_id") != mid:
                 continue
-            if batch["vacant_positions"]:
-                position = min(map(int, batch["vacant_positions"]))
+            if str(position) in batch["vacant_positions"]:
                 bound.update(is_replacement=True, replaced_message_id=batch["vacant_positions"].pop(str(position)))
-            else:
-                position = max([slot["position"] for slot in batch["slots"]], default=0) + 1
+                batch.get("vacant_accounts", {}).pop(str(position), None)
             bound.update(position=position, list_id=label, display_name=str(row["entry"].get("x_name") or ""),
                          admitted_at=now_text)
             batch["slots"].append(bound)
@@ -112,6 +150,8 @@ def refresh_batch_roster(previous, registry, group, day, now_text, policy):
         batch.update(count=len(batch["slots"]), roster_capacity=batch["capacity"],
                      withdrawn_message_ids=batch.get("withdrawn_message_ids", []))
     result["withdrawn_message_ids"] = sorted(retired)
+    if requeued:
+        result["requeued_message_ids"] = sorted(requeued)
     result["slots"] = flatten_batches(result)
     result["vacant_positions"] = {str(index * size + int(pos)): mid
         for index, batch in enumerate(result["batches"].values()) for pos, mid in batch["vacant_positions"].items()}

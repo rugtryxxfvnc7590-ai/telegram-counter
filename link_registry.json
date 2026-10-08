@@ -4674,7 +4674,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:02:21",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4878,7 +4878,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:02:34",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5080,7 +5080,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:04:14",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5282,7 +5282,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:05:27",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5372,12 +5372,13 @@
         ],
         "x_name": "♱₊Ms. Rin❄︎˚↝",
         "promo_name": "♱₊Ms. Rin❄︎˚↝",
-        "followers_count": 365431,
+        "followers_count": 365454,
         "followers_text": "36.5W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -5403,6 +5404,22 @@
           {
             "source": "status_legacy",
             "count": 365431
+          },
+          {
+            "source": "status_v2",
+            "count": 365450
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 365454
+          },
+          {
+            "source": "status_legacy",
+            "count": 365450
+          },
+          {
+            "source": "profile_v2",
+            "count": 365450
           }
         ],
         "check_followers_count": 365430,
@@ -5470,17 +5487,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 365431,
+        "qualified_followers_count": 365454,
         "qualified_followers_text": "36.5W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:08:58",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10365,7 +10383,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:02:21",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10569,7 +10587,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:02:34",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10771,7 +10789,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:04:14",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10973,7 +10991,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:05:27",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11063,12 +11081,13 @@
         ],
         "x_name": "♱₊Ms. Rin❄︎˚↝",
         "promo_name": "♱₊Ms. Rin❄︎˚↝",
-        "followers_count": 365431,
+        "followers_count": 365454,
         "followers_text": "36.5W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -11094,6 +11113,22 @@
           {
             "source": "status_legacy",
             "count": 365431
+          },
+          {
+            "source": "status_v2",
+            "count": 365450
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 365454
+          },
+          {
+            "source": "status_legacy",
+            "count": 365450
+          },
+          {
+            "source": "profile_v2",
+            "count": 365450
           }
         ],
         "check_followers_count": 365430,
@@ -11161,17 +11196,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 365431,
+        "qualified_followers_count": 365454,
         "qualified_followers_text": "36.5W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:08:58",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",

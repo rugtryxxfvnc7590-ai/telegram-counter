@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "offset": 364620088,
+  "offset": 364620089,
   "groups": {
     "-1003891628675": {
       "count": 33,
@@ -36,8 +36,8 @@
         "9189",
         "9191",
         "9194",
-        "9208",
-        "9209"
+        "9209",
+        "9212"
       ]
     },
     "-1003218974409": {
@@ -51,7 +51,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-08",
-    "run_at": "2026-10-08 14:00:41",
+    "run_at": "2026-10-08 14:15:30",
     "completed_groups": [
       "群一",
       "群二",
@@ -59,40 +59,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37735258571:1",
-        "checked_at": "2026-10-08 14:00:44",
+        "run_key": "37736585535:1",
+        "checked_at": "2026-10-08 14:15:32",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37735258571:1",
-        "checked_at": "2026-10-08 14:00:44",
+        "run_key": "37736585535:1",
+        "checked_at": "2026-10-08 14:15:32",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37735258571:1",
-        "checked_at": "2026-10-08 14:00:44",
+        "run_key": "37736585535:1",
+        "checked_at": "2026-10-08 14:15:32",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37735258571:1",
-        "checked_at": "2026-10-08 14:00:44",
+        "run_key": "37736585535:1",
+        "checked_at": "2026-10-08 14:15:32",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37735258571:1",
-        "checked_at": "2026-10-08 14:00:44",
+        "run_key": "37736585535:1",
+        "checked_at": "2026-10-08 14:15:32",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37735258571:1",
-        "checked_at": "2026-10-08 14:00:44",
+        "run_key": "37736585535:1",
+        "checked_at": "2026-10-08 14:15:32",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1120,28 +1120,17 @@
                 "list_id": "B",
                 "display_name": "lazypiggy懶懶豬",
                 "admitted_at": "2026-10-08 05:00:53"
-              },
-              {
-                "handle": "thelol1pop99",
-                "post_id": "2097890060808909041",
-                "original_post_id": "2097890060808909041",
-                "url": "https://x.com/thelol1pop99/status/2097890060808909041",
-                "edited": false,
-                "position": 2,
-                "message_id": "9208",
-                "tg_user_id": "1770606411",
-                "time": "2026-10-08 02:05:50",
-                "admission_time": "2026-10-08 02:05:50",
-                "list_id": "B",
-                "display_name": "Loliiiiipop99💛棒棒糖🍭",
-                "admitted_at": "2026-10-08 02:15:39"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "2": "9208"
+            },
             "capacity": 2,
-            "count": 2,
+            "count": 1,
             "roster_capacity": 2,
-            "withdrawn_message_ids": []
+            "withdrawn_message_ids": [
+              "9208"
+            ]
           }
         },
         "assigned_accounts": {
@@ -1178,7 +1167,9 @@
           "thelol1pop99": "B",
           "lazypiggy850": "B"
         },
-        "withdrawn_message_ids": [],
+        "withdrawn_message_ids": [
+          "9208"
+        ],
         "slots": [
           {
             "handle": "lris_intj",
@@ -1675,26 +1666,12 @@
             "display_name": "lazypiggy懶懶豬",
             "admitted_at": "2026-10-08 05:00:53",
             "list_position": 1
-          },
-          {
-            "handle": "thelol1pop99",
-            "post_id": "2097890060808909041",
-            "original_post_id": "2097890060808909041",
-            "url": "https://x.com/thelol1pop99/status/2097890060808909041",
-            "edited": false,
-            "position": 32,
-            "message_id": "9208",
-            "tg_user_id": "1770606411",
-            "time": "2026-10-08 02:05:50",
-            "admission_time": "2026-10-08 02:05:50",
-            "list_id": "B",
-            "display_name": "Loliiiiipop99💛棒棒糖🍭",
-            "admitted_at": "2026-10-08 02:15:39",
-            "list_position": 2
           }
         ],
-        "vacant_positions": {},
-        "count": 32,
+        "vacant_positions": {
+          "32": "9208"
+        },
+        "count": 31,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1723,10 +1700,10 @@
     "date": "2026-10-08",
     "groups": {
       "群一": {
-        "digest": "d0fec47fb3ab8ca81f413a0903459b4497b6299eb28d77ac1943b5f00ef5ad0c",
-        "sourceRevision": 5,
+        "digest": "0b0e230df773c82c66486b551eb6c9af14c1191ec6f7211794cd2b55b128eb88",
+        "sourceRevision": 6,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-08T05:00:54.107046+08:00"
+        "acknowledged_at": "2026-10-08T14:15:35.718063+08:00"
       },
       "群二": {
         "digest": "40861654ea9b52ea78b551e85724eff7b6f2082ce4adfbafd43e524da1415f47",
@@ -1748,7 +1725,16 @@
   },
   "website_deletions": {
     "date": "2026-10-08",
-    "groups": {}
+    "groups": {
+      "群一": {
+        "9208": {
+          "position": 32,
+          "account": "thelol1pop99",
+          "postId": "2097890060808909041",
+          "confirmed_at": "2026-10-08 14:15:31"
+        }
+      }
+    }
   },
   "batch_notices": {
     "date": "2026-10-08",

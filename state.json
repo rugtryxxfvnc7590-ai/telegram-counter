@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "offset": 364620099,
+  "offset": 364620102,
   "groups": {
     "-1003891628675": {
       "count": 35,
@@ -53,7 +53,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-08",
-    "run_at": "2026-10-08 17:36:31",
+    "run_at": "2026-10-08 17:45:28",
     "completed_groups": [
       "群一",
       "群二",
@@ -61,40 +61,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37757762148:1",
-        "checked_at": "2026-10-08 17:36:33",
+        "run_key": "37758820276:1",
+        "checked_at": "2026-10-08 17:45:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37757762148:1",
-        "checked_at": "2026-10-08 17:36:33",
+        "run_key": "37758820276:1",
+        "checked_at": "2026-10-08 17:45:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37757762148:1",
-        "checked_at": "2026-10-08 17:36:34",
+        "run_key": "37758820276:1",
+        "checked_at": "2026-10-08 17:45:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37757762148:1",
-        "checked_at": "2026-10-08 17:36:33",
+        "run_key": "37758820276:1",
+        "checked_at": "2026-10-08 17:45:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37757762148:1",
-        "checked_at": "2026-10-08 17:36:33",
+        "run_key": "37758820276:1",
+        "checked_at": "2026-10-08 17:45:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37757762148:1",
-        "checked_at": "2026-10-08 17:36:34",
+        "run_key": "37758820276:1",
+        "checked_at": "2026-10-08 17:45:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -529,10 +529,10 @@
               },
               {
                 "handle": "snd99x",
-                "post_id": "2078045255614759185",
+                "post_id": "2108129279527842099",
                 "original_post_id": "2078045255614759185",
-                "url": "https://x.com/snd99x/status/2078045255614759185",
-                "edited": false,
+                "url": "https://x.com/snd99x/status/2108129279527842099",
+                "edited": true,
                 "position": 29,
                 "message_id": "9154",
                 "tg_user_id": "8520118213",
@@ -540,7 +540,8 @@
                 "admission_time": "2026-10-08 00:00:00",
                 "list_id": "A",
                 "display_name": "九九橙🍊",
-                "admitted_at": "2026-10-08 00:01:15"
+                "admitted_at": "2026-10-08 00:01:15",
+                "edit_time": "2026-10-08 17:38:01"
               },
               {
                 "handle": "tiaotiaosheep",
@@ -566,7 +567,7 @@
             "sent": true,
             "message_id": 3231,
             "owner_chat_id": "8614747348",
-            "text": "群一·A名单（10月8日）互推名单，共 30 条\n\n1 https://x.com/lris_intj/status/2106179278597501404\n\n2 https://x.com/guilin010/status/2092563672967344362\n\n3 https://x.com/xye9518/status/2107633821260870095\n\n4 https://x.com/youmeier/status/2106697228580716611\n\n5 https://x.com/qiobnxingcai/status/2107505956141855140\n\n6 https://x.com/aksaks99999/status/2101602852980318419\n\n7 https://x.com/asecresm/status/2107774768237961599\n\n8 https://x.com/xye918/status/2107742510084948109\n\n9 https://x.com/xiaochen000007/status/2106992726415974773\n\n10 https://x.com/abaodz1/status/2107529929080680852\n\n11 https://x.com/xiaoqiaots/status/2105647170460483909\n\n12 https://x.com/shixiaotaone/status/2106627587212796200\n\n13 https://x.com/shixiaotaon/status/2107019640039936328\n\n14 https://x.com/nancyyzp/status/2107004903411650628\n\n15 https://x.com/hong14868/status/2104488683504292257\n\n16 https://x.com/clares5a/status/2107498153360634356\n\n17 https://x.com/jxzeroc/status/2099867020091347357\n\n18 https://x.com/laibeinaixiba/status/2089558662457282900\n\n19 https://x.com/svj798ds/status/2103847061430972920\n\n20 https://x.com/xiao16877/status/2105604452749279423\n\n21 https://x.com/uudajiejie/status/2106286909081481297\n\n22 https://x.com/meehutaotv/status/2104180503066849671\n\n23 https://x.com/sleepsbg/status/2104561123253231907\n\n24 https://x.com/lovvy222/status/2062516264418132039\n\n25 https://x.com/hanzuzong3/status/2107826571797217361\n\n26 https://x.com/qbln9999/status/2087533026809180203\n\n27 https://x.com/bob7078/status/2107488732303831405\n\n28 https://x.com/xiuchiluchu910/status/2107361922207171069\n\n29 https://x.com/snd99x/status/2078045255614759185\n\n30 https://x.com/tiaotiaosheep/status/2106536072532693365\n\n仅需互推A名单内其他成员，不需要转其他名单。\nhttps://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-10-08&list=A",
+            "text": "群一·A名单（10月8日）互推名单，共 30 条\n\n1 https://x.com/lris_intj/status/2106179278597501404\n\n2 https://x.com/guilin010/status/2092563672967344362\n\n3 https://x.com/xye9518/status/2107633821260870095\n\n4 https://x.com/youmeier/status/2106697228580716611\n\n5 https://x.com/qiobnxingcai/status/2107505956141855140\n\n6 https://x.com/aksaks99999/status/2101602852980318419\n\n7 https://x.com/asecresm/status/2107774768237961599\n\n8 https://x.com/xye918/status/2107742510084948109\n\n9 https://x.com/xiaochen000007/status/2106992726415974773\n\n10 https://x.com/abaodz1/status/2107529929080680852\n\n11 https://x.com/xiaoqiaots/status/2105647170460483909\n\n12 https://x.com/shixiaotaone/status/2106627587212796200\n\n13 https://x.com/shixiaotaon/status/2107019640039936328\n\n14 https://x.com/nancyyzp/status/2107004903411650628\n\n15 https://x.com/hong14868/status/2104488683504292257\n\n16 https://x.com/clares5a/status/2107498153360634356\n\n17 https://x.com/jxzeroc/status/2099867020091347357\n\n18 https://x.com/laibeinaixiba/status/2089558662457282900\n\n19 https://x.com/svj798ds/status/2103847061430972920\n\n20 https://x.com/xiao16877/status/2105604452749279423\n\n21 https://x.com/uudajiejie/status/2106286909081481297\n\n22 https://x.com/meehutaotv/status/2104180503066849671\n\n23 https://x.com/sleepsbg/status/2104561123253231907\n\n24 https://x.com/lovvy222/status/2062516264418132039\n\n25 https://x.com/hanzuzong3/status/2107826571797217361\n\n26 https://x.com/qbln9999/status/2087533026809180203\n\n27 https://x.com/bob7078/status/2107488732303831405\n\n28 https://x.com/xiuchiluchu910/status/2107361922207171069\n\n已编辑 29 https://x.com/snd99x/status/2108129279527842099\n\n30 https://x.com/tiaotiaosheep/status/2106536072532693365\n\n仅需互推A名单内其他成员，不需要转其他名单。\nhttps://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-10-08&list=A",
             "links": [
               "https://x.com/lris_intj/status/2106179278597501404",
               "https://x.com/guilin010/status/2092563672967344362",
@@ -596,10 +597,10 @@
               "https://x.com/qbln9999/status/2087533026809180203",
               "https://x.com/bob7078/status/2107488732303831405",
               "https://x.com/xiuchiluchu910/status/2107361922207171069",
-              "https://x.com/snd99x/status/2078045255614759185",
+              "https://x.com/snd99x/status/2108129279527842099",
               "https://x.com/tiaotiaosheep/status/2106536072532693365"
             ],
-            "updated_at": "2026-10-08 00:45:29"
+            "updated_at": "2026-10-08 17:45:32"
           }
         }
       }
@@ -616,7 +617,15 @@
   "edited_link_receipts": {
     "date": "2026-10-08",
     "groups": {
-      "群一": {},
+      "群一": {
+        "9154": {
+          "key": "9154:2108129279527842099:2026-10-08 17:38:01:synced",
+          "post_id": "2108129279527842099",
+          "outcome": "synced",
+          "retained_post_id": "2108129279527842099",
+          "sent_at": "2026-10-08 17:45:33"
+        }
+      },
       "群二": {},
       "群三": {}
     }
@@ -1071,10 +1080,10 @@
               },
               {
                 "handle": "snd99x",
-                "post_id": "2078045255614759185",
+                "post_id": "2108129279527842099",
                 "original_post_id": "2078045255614759185",
-                "url": "https://x.com/snd99x/status/2078045255614759185",
-                "edited": false,
+                "url": "https://x.com/snd99x/status/2108129279527842099",
+                "edited": true,
                 "position": 29,
                 "message_id": "9154",
                 "tg_user_id": "8520118213",
@@ -1082,7 +1091,8 @@
                 "admission_time": "2026-10-08 00:00:00",
                 "list_id": "A",
                 "display_name": "九九橙🍊",
-                "admitted_at": "2026-10-08 00:01:15"
+                "admitted_at": "2026-10-08 00:01:15",
+                "edit_time": "2026-10-08 17:38:01"
               },
               {
                 "handle": "tiaotiaosheep",
@@ -1213,8 +1223,8 @@
           "tiaotiaosheep": "A",
           "qinxian8023": "B",
           "wdqhc999": "B",
-          "lazypiggy850": "B",
-          "thelol1pop99": "B"
+          "thelol1pop99": "B",
+          "lazypiggy850": "B"
         },
         "withdrawn_message_ids": [
           "9208"
@@ -1670,10 +1680,10 @@
           },
           {
             "handle": "snd99x",
-            "post_id": "2078045255614759185",
+            "post_id": "2108129279527842099",
             "original_post_id": "2078045255614759185",
-            "url": "https://x.com/snd99x/status/2078045255614759185",
-            "edited": false,
+            "url": "https://x.com/snd99x/status/2108129279527842099",
+            "edited": true,
             "position": 29,
             "message_id": "9154",
             "tg_user_id": "8520118213",
@@ -1682,6 +1692,7 @@
             "list_id": "A",
             "display_name": "九九橙🍊",
             "admitted_at": "2026-10-08 00:01:15",
+            "edit_time": "2026-10-08 17:38:01",
             "list_position": 29
           },
           {
@@ -1797,10 +1808,10 @@
     "date": "2026-10-08",
     "groups": {
       "群一": {
-        "digest": "ca7ccacc4c4105b9f6c8117444409a4fe5c86d9042cb57598a04c2b5ceb99148",
-        "sourceRevision": 8,
+        "digest": "792953ce194325bb14120c58d3ce8113f7487e1c0422901b0ad0b12f3e8dbc4f",
+        "sourceRevision": 9,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-08T17:30:41.337346+08:00"
+        "acknowledged_at": "2026-10-08T17:45:34.044929+08:00"
       },
       "群二": {
         "digest": "40861654ea9b52ea78b551e85724eff7b6f2082ce4adfbafd43e524da1415f47",

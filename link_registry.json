@@ -1076,17 +1076,17 @@
         "tg_username": "QBLN9999",
         "tg_user_id": 8514857368,
         "tg_name": "桥本玲奈",
-        "link": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
-        "message_text": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
+        "link": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
+        "message_text": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
+            "url": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
             "handle": "qbln9999",
-            "post_id": "2087533026809180203",
+            "post_id": "2108143686647418957",
             "role": "promo",
             "author_name": "桥本玲奈",
-            "followers_count": 166709,
+            "followers_count": 166707,
             "followers_text": "16.6W",
             "followers_sources": [
               "status_v2",
@@ -1097,63 +1097,65 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 166709
+                "count": 166707
               },
               {
                 "source": "status_legacy_i",
-                "count": 166709
+                "count": 166707
               },
               {
                 "source": "status_legacy",
-                "count": 166709
+                "count": 166707
               },
               {
                 "source": "profile_v2",
-                "count": 166709
+                "count": 166707
               }
             ],
-            "tweet_text": "黄瓜是个好东西，插了几下就喷了\n\n———————————————\n💌 @ToBulaer @ToBuerma\n💌 @KawasawaSen @BulmaList",
+            "tweet_text": "为什么不接奈奈电话，你和别人过去吧😡\n\n———————————————\n💌 @ToBulaer @ToBuerma\n💌 @KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
+              "vx_status_author",
               "status_legacy"
             ],
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 80,
-                "required_mentions_count": 4
+                "length": 72,
+                "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 80,
-                "required_mentions_count": 4
+                "length": 72,
+                "required_mentions_count": 3
               },
               {
-                "source": "vx_status_v2",
-                "length": 80,
-                "required_mentions_count": 4
-              },
-              {
-                "source": "vx_status_i",
-                "length": 80,
-                "required_mentions_count": 4
+                "source": "vx_status_author",
+                "length": 72,
+                "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 80,
-                "required_mentions_count": 4
+                "length": 72,
+                "required_mentions_count": 3
               }
             ],
             "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 4
+            "required_mentions_count": 3
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
+            "post_id": "2108143686647418957",
+            "handle": "qbln9999",
+            "source_time": "2026-10-08 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
             "post_id": "2087533026809180203",
             "handle": "qbln9999",
@@ -1163,7 +1165,7 @@
         ],
         "x_name": "桥本玲奈",
         "promo_name": "桥本玲奈",
-        "followers_count": 166709,
+        "followers_count": 166707,
         "followers_text": "16.6W",
         "followers_sources": [
           "status_v2",
@@ -1174,22 +1176,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "status_legacy_i",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "status_legacy",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "profile_v2",
-            "count": 166709
+            "count": 166707
           }
         ],
-        "check_followers_count": 166709,
+        "check_followers_count": 166707,
         "check_followers_text": "16.6W",
         "check_followers_sources": [
           "status_v2",
@@ -1200,72 +1202,66 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "status_legacy_i",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "status_legacy",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "profile_v2",
-            "count": 166709
+            "count": 166707
           }
         ],
-        "tweet_text": "黄瓜是个好东西，插了几下就喷了\n\n———————————————\n💌 @ToBulaer @ToBuerma\n💌 @KawasawaSen @BulmaList",
+        "tweet_text": "为什么不接奈奈电话，你和别人过去吧😡\n\n———————————————\n💌 @ToBulaer @ToBuerma\n💌 @KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
+          "vx_status_author",
           "status_legacy"
         ],
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 80,
-            "required_mentions_count": 4
+            "length": 72,
+            "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 80,
-            "required_mentions_count": 4
+            "length": 72,
+            "required_mentions_count": 3
           },
           {
-            "source": "vx_status_v2",
-            "length": 80,
-            "required_mentions_count": 4
-          },
-          {
-            "source": "vx_status_i",
-            "length": 80,
-            "required_mentions_count": 4
+            "source": "vx_status_author",
+            "length": 72,
+            "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 80,
-            "required_mentions_count": 4
+            "length": 72,
+            "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 4,
+        "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
-        "check_url": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
-        "promo_post_id": "2087533026809180203",
-        "check_post_id": "2087533026809180203",
+        "promo_url": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
+        "check_url": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
+        "promo_post_id": "2108143686647418957",
+        "check_post_id": "2108143686647418957",
         "chat_id": "-1003891628675",
         "message_id": 9158,
         "time": "2026-10-08 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-08 18:44:53",
         "followers_min": 100000,
-        "qualified_followers_count": 166709,
+        "qualified_followers_count": 166707,
         "qualified_followers_text": "16.6W",
         "qualified_followers_sources": [
           "status_v2",
@@ -7468,7 +7464,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 18:17:21",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -8546,7 +8542,7 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 27
       },
-      "2087533026809180203": {
+      "2108143686647418957": {
         "x_handle": "qbln9999",
         "check_handle": "qbln9999",
         "dual_link": false,
@@ -8554,17 +8550,17 @@
         "tg_username": "QBLN9999",
         "tg_user_id": 8514857368,
         "tg_name": "桥本玲奈",
-        "link": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
-        "message_text": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
+        "link": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
+        "message_text": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
+            "url": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
             "handle": "qbln9999",
-            "post_id": "2087533026809180203",
+            "post_id": "2108143686647418957",
             "role": "promo",
             "author_name": "桥本玲奈",
-            "followers_count": 166709,
+            "followers_count": 166707,
             "followers_text": "16.6W",
             "followers_sources": [
               "status_v2",
@@ -8575,63 +8571,65 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 166709
+                "count": 166707
               },
               {
                 "source": "status_legacy_i",
-                "count": 166709
+                "count": 166707
               },
               {
                 "source": "status_legacy",
-                "count": 166709
+                "count": 166707
               },
               {
                 "source": "profile_v2",
-                "count": 166709
+                "count": 166707
               }
             ],
-            "tweet_text": "黄瓜是个好东西，插了几下就喷了\n\n———————————————\n💌 @ToBulaer @ToBuerma\n💌 @KawasawaSen @BulmaList",
+            "tweet_text": "为什么不接奈奈电话，你和别人过去吧😡\n\n———————————————\n💌 @ToBulaer @ToBuerma\n💌 @KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
-              "vx_status_v2",
-              "vx_status_i",
+              "vx_status_author",
               "status_legacy"
             ],
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 80,
-                "required_mentions_count": 4
+                "length": 72,
+                "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 80,
-                "required_mentions_count": 4
+                "length": 72,
+                "required_mentions_count": 3
               },
               {
-                "source": "vx_status_v2",
-                "length": 80,
-                "required_mentions_count": 4
-              },
-              {
-                "source": "vx_status_i",
-                "length": 80,
-                "required_mentions_count": 4
+                "source": "vx_status_author",
+                "length": 72,
+                "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 80,
-                "required_mentions_count": 4
+                "length": 72,
+                "required_mentions_count": 3
               }
             ],
             "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 4
+            "required_mentions_count": 3
           }
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
+            "post_id": "2108143686647418957",
+            "handle": "qbln9999",
+            "source_time": "2026-10-08 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
             "post_id": "2087533026809180203",
             "handle": "qbln9999",
@@ -8641,7 +8639,7 @@
         ],
         "x_name": "桥本玲奈",
         "promo_name": "桥本玲奈",
-        "followers_count": 166709,
+        "followers_count": 166707,
         "followers_text": "16.6W",
         "followers_sources": [
           "status_v2",
@@ -8652,22 +8650,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "status_legacy_i",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "status_legacy",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "profile_v2",
-            "count": 166709
+            "count": 166707
           }
         ],
-        "check_followers_count": 166709,
+        "check_followers_count": 166707,
         "check_followers_text": "16.6W",
         "check_followers_sources": [
           "status_v2",
@@ -8678,72 +8676,66 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "status_legacy_i",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "status_legacy",
-            "count": 166709
+            "count": 166707
           },
           {
             "source": "profile_v2",
-            "count": 166709
+            "count": 166707
           }
         ],
-        "tweet_text": "黄瓜是个好东西，插了几下就喷了\n\n———————————————\n💌 @ToBulaer @ToBuerma\n💌 @KawasawaSen @BulmaList",
+        "tweet_text": "为什么不接奈奈电话，你和别人过去吧😡\n\n———————————————\n💌 @ToBulaer @ToBuerma\n💌 @KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
-          "vx_status_v2",
-          "vx_status_i",
+          "vx_status_author",
           "status_legacy"
         ],
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 80,
-            "required_mentions_count": 4
+            "length": 72,
+            "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 80,
-            "required_mentions_count": 4
+            "length": 72,
+            "required_mentions_count": 3
           },
           {
-            "source": "vx_status_v2",
-            "length": 80,
-            "required_mentions_count": 4
-          },
-          {
-            "source": "vx_status_i",
-            "length": 80,
-            "required_mentions_count": 4
+            "source": "vx_status_author",
+            "length": 72,
+            "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 80,
-            "required_mentions_count": 4
+            "length": 72,
+            "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 4,
+        "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
-        "check_url": "https://x.com/QBLN9999/status/2087533026809180203?s=20",
-        "promo_post_id": "2087533026809180203",
-        "check_post_id": "2087533026809180203",
+        "promo_url": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
+        "check_url": "https://x.com/QBLN9999/status/2108143686647418957?s=20",
+        "promo_post_id": "2108143686647418957",
+        "check_post_id": "2108143686647418957",
         "chat_id": "-1003891628675",
         "message_id": 9158,
         "time": "2026-10-08 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-08 18:44:53",
         "followers_min": 100000,
-        "qualified_followers_count": 166709,
+        "qualified_followers_count": 166707,
         "qualified_followers_text": "16.6W",
         "qualified_followers_sources": [
           "status_v2",
@@ -14946,7 +14938,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-08 18:17:21",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -15350,10 +15342,10 @@
               },
               {
                 "handle": "qbln9999",
-                "post_id": "2087533026809180203",
+                "post_id": "2108143686647418957",
                 "original_post_id": "2087533026809180203",
-                "url": "https://x.com/qbln9999/status/2087533026809180203",
-                "edited": false,
+                "url": "https://x.com/qbln9999/status/2108143686647418957",
+                "edited": true,
                 "position": 26,
                 "message_id": "9158",
                 "tg_user_id": "8514857368",
@@ -15361,7 +15353,8 @@
                 "admission_time": "2026-10-08 00:00:00",
                 "list_id": "A",
                 "display_name": "桥本玲奈",
-                "admitted_at": "2026-10-08 00:01:15"
+                "admitted_at": "2026-10-08 00:01:15",
+                "edit_time": "2026-10-08 18:44:53"
               },
               {
                 "handle": "bob7078",
@@ -15551,11 +15544,11 @@
           "xiuchiluchu910": "A",
           "snd99x": "A",
           "tiaotiaosheep": "A",
-          "qinxian8023": "B",
+          "tianqipaidui": "B",
           "wdqhc999": "B",
+          "qinxian8023": "B",
           "thelol1pop99": "B",
-          "lazypiggy850": "B",
-          "tianqipaidui": "B"
+          "lazypiggy850": "B"
         },
         "withdrawn_message_ids": [
           "9208"
@@ -15963,10 +15956,10 @@
           },
           {
             "handle": "qbln9999",
-            "post_id": "2087533026809180203",
+            "post_id": "2108143686647418957",
             "original_post_id": "2087533026809180203",
-            "url": "https://x.com/qbln9999/status/2087533026809180203",
-            "edited": false,
+            "url": "https://x.com/qbln9999/status/2108143686647418957",
+            "edited": true,
             "position": 26,
             "message_id": "9158",
             "tg_user_id": "8514857368",
@@ -15975,6 +15968,7 @@
             "list_id": "A",
             "display_name": "桥本玲奈",
             "admitted_at": "2026-10-08 00:01:15",
+            "edit_time": "2026-10-08 18:44:53",
             "list_position": 26
           },
           {

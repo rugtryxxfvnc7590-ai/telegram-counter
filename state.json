@@ -1,9 +1,9 @@
 {
   "date": "2026-10-09",
-  "offset": 364620155,
+  "offset": 364620156,
   "groups": {
     "-1003891628675": {
-      "count": 31,
+      "count": 32,
       "message_ids": [
         "9228",
         "9229",
@@ -35,7 +35,8 @@
         "9255",
         "9256",
         "9257",
-        "9258"
+        "9258",
+        "9263"
       ]
     },
     "-1003218974409": {
@@ -49,7 +50,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-09",
-    "run_at": "2026-10-09 07:15:38",
+    "run_at": "2026-10-09 07:30:34",
     "completed_groups": [
       "群一",
       "群二",
@@ -57,40 +58,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37858373812:1",
-        "checked_at": "2026-10-09 07:15:39",
+        "run_key": "37859796144:1",
+        "checked_at": "2026-10-09 07:30:35",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37858373812:1",
-        "checked_at": "2026-10-09 07:15:39",
+        "run_key": "37859796144:1",
+        "checked_at": "2026-10-09 07:30:35",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37858373812:1",
-        "checked_at": "2026-10-09 07:15:40",
+        "run_key": "37859796144:1",
+        "checked_at": "2026-10-09 07:30:35",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37858373812:1",
-        "checked_at": "2026-10-09 07:15:39",
+        "run_key": "37859796144:1",
+        "checked_at": "2026-10-09 07:30:35",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37858373812:1",
-        "checked_at": "2026-10-09 07:15:39",
+        "run_key": "37859796144:1",
+        "checked_at": "2026-10-09 07:30:35",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37858373812:1",
-        "checked_at": "2026-10-09 07:15:40",
+        "run_key": "37859796144:1",
+        "checked_at": "2026-10-09 07:30:35",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1113,11 +1114,27 @@
             "withdrawn_message_ids": []
           },
           "B": {
-            "slots": [],
+            "slots": [
+              {
+                "handle": "guilin010",
+                "post_id": "2102043955106054203",
+                "original_post_id": "2102043955106054203",
+                "url": "https://x.com/guilin010/status/2102043955106054203",
+                "edited": false,
+                "position": 1,
+                "message_id": "9263",
+                "tg_user_id": "7182472764",
+                "time": "2026-10-09 07:26:32",
+                "admission_time": "2026-10-09 07:26:32",
+                "list_id": "B",
+                "display_name": "小林的涩涩日常",
+                "admitted_at": "2026-10-09 07:30:36"
+              }
+            ],
             "vacant_positions": {},
-            "capacity": 0,
-            "count": 0,
-            "roster_capacity": 0,
+            "capacity": 1,
+            "count": 1,
+            "roster_capacity": 1,
             "withdrawn_message_ids": []
           }
         },
@@ -1151,7 +1168,8 @@
           "qbln9999": "A",
           "bob7078": "A",
           "meehutaotv": "A",
-          "snd99x": "A"
+          "snd99x": "A",
+          "guilin010": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -1635,10 +1653,26 @@
             "display_name": "九九橙🍊",
             "admitted_at": "2026-10-09 00:01:49",
             "list_position": 30
+          },
+          {
+            "handle": "guilin010",
+            "post_id": "2102043955106054203",
+            "original_post_id": "2102043955106054203",
+            "url": "https://x.com/guilin010/status/2102043955106054203",
+            "edited": false,
+            "position": 31,
+            "message_id": "9263",
+            "tg_user_id": "7182472764",
+            "time": "2026-10-09 07:26:32",
+            "admission_time": "2026-10-09 07:26:32",
+            "list_id": "B",
+            "display_name": "小林的涩涩日常",
+            "admitted_at": "2026-10-09 07:30:36",
+            "list_position": 1
           }
         ],
         "vacant_positions": {},
-        "count": 30,
+        "count": 31,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1667,10 +1701,10 @@
     "date": "2026-10-09",
     "groups": {
       "群一": {
-        "digest": "5b7d39247b0be09728a007173d4bc42aacc2d6e942e712a2cd9dc2a1f68fb579",
-        "sourceRevision": 6,
+        "digest": "671cce0ef8fd58609feaa6ee3fe9b2fb1856edf291df543c57d69cbc80c112ba",
+        "sourceRevision": 7,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-09T03:45:33.934225+08:00"
+        "acknowledged_at": "2026-10-09T07:30:37.361307+08:00"
       }
     }
   },

@@ -6113,6 +6113,208 @@
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
         "daily_list_batch_position": 1
+      },
+      "guilin010": {
+        "x_handle": "guilin010",
+        "check_handle": "guilin010",
+        "dual_link": false,
+        "promo_handle": "guilin010",
+        "tg_username": "Linxiaoting_828",
+        "tg_user_id": 7182472764,
+        "tg_name": "小林.",
+        "link": "https://x.com/guilin010/status/2102043955106054203?s=46",
+        "message_text": "https://x.com/guilin010/status/2102043955106054203?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/guilin010/status/2102043955106054203?s=46",
+            "handle": "guilin010",
+            "post_id": "2102043955106054203",
+            "role": "promo",
+            "author_name": "小林的涩涩日常",
+            "followers_count": 178728,
+            "followers_text": "17.8W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 178728
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 178728
+              },
+              {
+                "source": "status_legacy",
+                "count": 178728
+              },
+              {
+                "source": "profile_v2",
+                "count": 178728
+              }
+            ],
+            "tweet_text": "要轻一点啊！\n再这样下去会坏掉的！\n@ToBulaer @ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/guilin010/status/2102043955106054203?s=46",
+            "post_id": "2102043955106054203",
+            "handle": "guilin010",
+            "source_time": "2026-10-09 07:26:32",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小林的涩涩日常",
+        "promo_name": "小林的涩涩日常",
+        "followers_count": 178728,
+        "followers_text": "17.8W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 178728
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 178728
+          },
+          {
+            "source": "status_legacy",
+            "count": 178728
+          },
+          {
+            "source": "profile_v2",
+            "count": 178728
+          }
+        ],
+        "check_followers_count": 178728,
+        "check_followers_text": "17.8W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 178728
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 178728
+          },
+          {
+            "source": "status_legacy",
+            "count": 178728
+          },
+          {
+            "source": "profile_v2",
+            "count": 178728
+          }
+        ],
+        "tweet_text": "要轻一点啊！\n再这样下去会坏掉的！\n@ToBulaer @ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/guilin010/status/2102043955106054203?s=46",
+        "check_url": "https://x.com/guilin010/status/2102043955106054203?s=46",
+        "promo_post_id": "2102043955106054203",
+        "check_post_id": "2102043955106054203",
+        "chat_id": "-1003891628675",
+        "message_id": 9263,
+        "time": "2026-10-09 07:26:32",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 178728,
+        "qualified_followers_text": "17.8W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 07:26:32",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
+        "daily_list_batch_position": 1
       }
     },
     "-1003218974409": {},
@@ -12432,6 +12634,208 @@
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
         "daily_list_batch_position": 1
+      },
+      "2102043955106054203": {
+        "x_handle": "guilin010",
+        "check_handle": "guilin010",
+        "dual_link": false,
+        "promo_handle": "guilin010",
+        "tg_username": "Linxiaoting_828",
+        "tg_user_id": 7182472764,
+        "tg_name": "小林.",
+        "link": "https://x.com/guilin010/status/2102043955106054203?s=46",
+        "message_text": "https://x.com/guilin010/status/2102043955106054203?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/guilin010/status/2102043955106054203?s=46",
+            "handle": "guilin010",
+            "post_id": "2102043955106054203",
+            "role": "promo",
+            "author_name": "小林的涩涩日常",
+            "followers_count": 178728,
+            "followers_text": "17.8W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 178728
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 178728
+              },
+              {
+                "source": "status_legacy",
+                "count": 178728
+              },
+              {
+                "source": "profile_v2",
+                "count": 178728
+              }
+            ],
+            "tweet_text": "要轻一点啊！\n再这样下去会坏掉的！\n@ToBulaer @ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 50,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/guilin010/status/2102043955106054203?s=46",
+            "post_id": "2102043955106054203",
+            "handle": "guilin010",
+            "source_time": "2026-10-09 07:26:32",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小林的涩涩日常",
+        "promo_name": "小林的涩涩日常",
+        "followers_count": 178728,
+        "followers_text": "17.8W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 178728
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 178728
+          },
+          {
+            "source": "status_legacy",
+            "count": 178728
+          },
+          {
+            "source": "profile_v2",
+            "count": 178728
+          }
+        ],
+        "check_followers_count": 178728,
+        "check_followers_text": "17.8W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 178728
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 178728
+          },
+          {
+            "source": "status_legacy",
+            "count": 178728
+          },
+          {
+            "source": "profile_v2",
+            "count": 178728
+          }
+        ],
+        "tweet_text": "要轻一点啊！\n再这样下去会坏掉的！\n@ToBulaer @ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 50,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/guilin010/status/2102043955106054203?s=46",
+        "check_url": "https://x.com/guilin010/status/2102043955106054203?s=46",
+        "promo_post_id": "2102043955106054203",
+        "check_post_id": "2102043955106054203",
+        "chat_id": "-1003891628675",
+        "message_id": 9263,
+        "time": "2026-10-09 07:26:32",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 178728,
+        "qualified_followers_text": "17.8W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 07:26:32",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
+        "daily_list_batch_position": 1
       }
     },
     "-1003218974409": {},
@@ -12913,11 +13317,27 @@
             "withdrawn_message_ids": []
           },
           "B": {
-            "slots": [],
+            "slots": [
+              {
+                "handle": "guilin010",
+                "post_id": "2102043955106054203",
+                "original_post_id": "2102043955106054203",
+                "url": "https://x.com/guilin010/status/2102043955106054203",
+                "edited": false,
+                "position": 1,
+                "message_id": "9263",
+                "tg_user_id": "7182472764",
+                "time": "2026-10-09 07:26:32",
+                "admission_time": "2026-10-09 07:26:32",
+                "list_id": "B",
+                "display_name": "小林的涩涩日常",
+                "admitted_at": "2026-10-09 07:30:36"
+              }
+            ],
             "vacant_positions": {},
-            "capacity": 0,
-            "count": 0,
-            "roster_capacity": 0,
+            "capacity": 1,
+            "count": 1,
+            "roster_capacity": 1,
             "withdrawn_message_ids": []
           }
         },
@@ -12951,7 +13371,8 @@
           "qbln9999": "A",
           "bob7078": "A",
           "meehutaotv": "A",
-          "snd99x": "A"
+          "snd99x": "A",
+          "guilin010": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -13435,10 +13856,26 @@
             "display_name": "九九橙🍊",
             "admitted_at": "2026-10-09 00:01:49",
             "list_position": 30
+          },
+          {
+            "handle": "guilin010",
+            "post_id": "2102043955106054203",
+            "original_post_id": "2102043955106054203",
+            "url": "https://x.com/guilin010/status/2102043955106054203",
+            "edited": false,
+            "position": 31,
+            "message_id": "9263",
+            "tg_user_id": "7182472764",
+            "time": "2026-10-09 07:26:32",
+            "admission_time": "2026-10-09 07:26:32",
+            "list_id": "B",
+            "display_name": "小林的涩涩日常",
+            "admitted_at": "2026-10-09 07:30:36",
+            "list_position": 1
           }
         ],
         "vacant_positions": {},
-        "count": 30,
+        "count": 31,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

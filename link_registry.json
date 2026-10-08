@@ -86,12 +86,13 @@
         ],
         "x_name": "九九橙🍊",
         "promo_name": "九九橙🍊",
-        "followers_count": 269707,
+        "followers_count": 269765,
         "followers_text": "26.9W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -117,6 +118,22 @@
           {
             "source": "status_legacy",
             "count": 269707
+          },
+          {
+            "source": "status_v2",
+            "count": 269765
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 269765
+          },
+          {
+            "source": "status_legacy",
+            "count": 269765
+          },
+          {
+            "source": "profile_v2",
+            "count": 269765
           }
         ],
         "check_followers_count": 269705,
@@ -184,21 +201,22 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 269707,
+        "qualified_followers_count": 269765,
         "qualified_followers_text": "26.9W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 22,
+        "admission_locked": true,
+        "daily_list_rank": 27,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 22
+        "daily_list_batch_position": 27
       },
       "meehutaotv": {
         "x_handle": "meehutaotv",
@@ -396,11 +414,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 21,
+        "admission_locked": true,
+        "daily_list_rank": 26,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 21
+        "daily_list_batch_position": 26
       },
       "bob7078": {
         "x_handle": "bob7078",
@@ -598,11 +616,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 20,
+        "admission_locked": true,
+        "daily_list_rank": 25,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 20
+        "daily_list_batch_position": 25
       },
       "qbln9999": {
         "x_handle": "qbln9999",
@@ -800,11 +818,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 19,
+        "admission_locked": true,
+        "daily_list_rank": 24,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 19
+        "daily_list_batch_position": 24
       },
       "jxzeroc": {
         "x_handle": "jxzeroc",
@@ -1004,11 +1022,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 18,
+        "admission_locked": true,
+        "daily_list_rank": 23,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 18
+        "daily_list_batch_position": 23
       },
       "xiao16877": {
         "x_handle": "xiao16877",
@@ -1206,11 +1224,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 17,
+        "admission_locked": true,
+        "daily_list_rank": 22,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 17
+        "daily_list_batch_position": 22
       },
       "lazypiggy850": {
         "x_handle": "lazypiggy850",
@@ -1408,11 +1426,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 16,
+        "admission_locked": true,
+        "daily_list_rank": 21,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 16
+        "daily_list_batch_position": 21
       },
       "xiuchiluchu910": {
         "x_handle": "xiuchiluchu910",
@@ -1498,12 +1516,13 @@
         ],
         "x_name": "露老师",
         "promo_name": "露老师",
-        "followers_count": 632850,
+        "followers_count": 632899,
         "followers_text": "63.2W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -1529,6 +1548,22 @@
           {
             "source": "status_legacy",
             "count": 632850
+          },
+          {
+            "source": "status_v2",
+            "count": 632899
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 632899
+          },
+          {
+            "source": "status_legacy",
+            "count": 632899
+          },
+          {
+            "source": "profile_v2",
+            "count": 632899
           }
         ],
         "check_followers_count": 632847,
@@ -1596,21 +1631,22 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 632850,
+        "qualified_followers_count": 632899,
         "qualified_followers_text": "63.2W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 15,
+        "admission_locked": true,
+        "daily_list_rank": 20,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 15
+        "daily_list_batch_position": 20
       },
       "svj798ds": {
         "x_handle": "svj798ds",
@@ -1808,11 +1844,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 14,
+        "admission_locked": true,
+        "daily_list_rank": 19,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 14
+        "daily_list_batch_position": 19
       },
       "tiaotiaosheep": {
         "x_handle": "tiaotiaosheep",
@@ -2010,11 +2046,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 13,
+        "admission_locked": true,
+        "daily_list_rank": 18,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 13
+        "daily_list_batch_position": 18
       },
       "qiobnxingcai": {
         "x_handle": "qiobnxingcai",
@@ -2212,11 +2248,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:01",
-        "admission_locked": false,
-        "daily_list_rank": 12,
+        "admission_locked": true,
+        "daily_list_rank": 17,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 12
+        "daily_list_batch_position": 17
       },
       "libalababy": {
         "x_handle": "libalababy",
@@ -2414,11 +2450,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:01",
-        "admission_locked": false,
-        "daily_list_rank": 11,
+        "admission_locked": true,
+        "daily_list_rank": 16,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 11
+        "daily_list_batch_position": 16
       },
       "clares5a": {
         "x_handle": "clares5a",
@@ -2618,11 +2654,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:02",
-        "admission_locked": false,
-        "daily_list_rank": 10,
+        "admission_locked": true,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 10
+        "daily_list_batch_position": 15
       },
       "hong14868": {
         "x_handle": "hong14868",
@@ -2810,11 +2846,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:02",
-        "admission_locked": false,
-        "daily_list_rank": 9,
+        "admission_locked": true,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 9
+        "daily_list_batch_position": 14
       },
       "hanzuzong3": {
         "x_handle": "hanzuzong3",
@@ -3012,11 +3048,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:02",
-        "admission_locked": false,
-        "daily_list_rank": 8,
+        "admission_locked": true,
+        "daily_list_rank": 13,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 8
+        "daily_list_batch_position": 13
       },
       "chairlfen_cn": {
         "x_handle": "chairlfen_cn",
@@ -3214,11 +3250,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:03",
-        "admission_locked": false,
-        "daily_list_rank": 7,
+        "admission_locked": true,
+        "daily_list_rank": 12,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 7
+        "daily_list_batch_position": 12
       },
       "nancyyzp": {
         "x_handle": "nancyyzp",
@@ -3416,11 +3452,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:05",
-        "admission_locked": false,
-        "daily_list_rank": 6,
+        "admission_locked": true,
+        "daily_list_rank": 11,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 6
+        "daily_list_batch_position": 11
       },
       "uudajiejie": {
         "x_handle": "uudajiejie",
@@ -3618,11 +3654,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:26",
-        "admission_locked": false,
-        "daily_list_rank": 4,
+        "admission_locked": true,
+        "daily_list_rank": 9,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 4
+        "daily_list_batch_position": 9
       },
       "shixiaotaon": {
         "x_handle": "shixiaotaon",
@@ -3822,11 +3858,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:11",
-        "admission_locked": false,
-        "daily_list_rank": 5,
+        "admission_locked": true,
+        "daily_list_rank": 10,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 5
+        "daily_list_batch_position": 10
       },
       "xiaochen000007": {
         "x_handle": "xiaochen000007",
@@ -4024,11 +4060,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:36",
-        "admission_locked": false,
-        "daily_list_rank": 3,
+        "admission_locked": true,
+        "daily_list_rank": 8,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 3
+        "daily_list_batch_position": 8
       },
       "asecresm": {
         "x_handle": "asecresm",
@@ -4114,12 +4150,13 @@
         ],
         "x_name": "云儿",
         "promo_name": "云儿",
-        "followers_count": 260301,
+        "followers_count": 260319,
         "followers_text": "26W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -4133,6 +4170,26 @@
           {
             "source": "status_legacy",
             "count": 260301
+          },
+          {
+            "source": "status_v2",
+            "count": 260319
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 260303
+          },
+          {
+            "source": "status_legacy",
+            "count": 260303
+          },
+          {
+            "source": "status_v2",
+            "count": 260303
+          },
+          {
+            "source": "profile_v2",
+            "count": 260303
           }
         ],
         "check_followers_count": 260301,
@@ -4200,21 +4257,22 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 260301,
+        "qualified_followers_count": 260319,
         "qualified_followers_text": "26W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:42",
-        "admission_locked": false,
-        "daily_list_rank": 2,
+        "admission_locked": true,
+        "daily_list_rank": 7,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 2
+        "daily_list_batch_position": 7
       },
       "joragyyy": {
         "x_handle": "joragyyy",
@@ -4234,7 +4292,7 @@
             "post_id": "2106382900421959930",
             "role": "promo",
             "author_name": "Yiiceing",
-            "followers_count": 120802,
+            "followers_count": 120806,
             "followers_text": "12W",
             "followers_sources": [
               "status_v2",
@@ -4245,19 +4303,19 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 120802
+                "count": 120806
               },
               {
                 "source": "status_legacy_i",
-                "count": 120802
+                "count": 120806
               },
               {
                 "source": "status_legacy",
-                "count": 120802
+                "count": 120806
               },
               {
                 "source": "profile_v2",
-                "count": 120802
+                "count": 120806
               }
             ],
             "tweet_text": "小小身材 大大屁股\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
@@ -4295,7 +4353,7 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
             "url": "https://x.com/joragyyy/status/2106382900421959930",
             "post_id": "2106382900421959930",
             "handle": "joragyyy",
@@ -4305,7 +4363,7 @@
         ],
         "x_name": "Yiiceing",
         "promo_name": "Yiiceing",
-        "followers_count": 120802,
+        "followers_count": 120806,
         "followers_text": "12W",
         "followers_sources": [
           "status_v2",
@@ -4316,22 +4374,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "status_legacy_i",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "status_legacy",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "profile_v2",
-            "count": 120802
+            "count": 120806
           }
         ],
-        "check_followers_count": 120802,
+        "check_followers_count": 120806,
         "check_followers_text": "12W",
         "check_followers_sources": [
           "status_v2",
@@ -4342,19 +4400,19 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "status_legacy_i",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "status_legacy",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "profile_v2",
-            "count": 120802
+            "count": 120806
           }
         ],
         "tweet_text": "小小身材 大大屁股\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
@@ -4401,7 +4459,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 120802,
+        "qualified_followers_count": 120806,
         "qualified_followers_text": "12W",
         "qualified_followers_sources": [
           "status_v2",
@@ -4412,6 +4470,1016 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:49",
+        "admission_locked": true,
+        "daily_list_rank": 6,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 6
+      },
+      "aksaks99999": {
+        "x_handle": "aksaks99999",
+        "check_handle": "aksaks99999",
+        "dual_link": false,
+        "promo_handle": "aksaks99999",
+        "tg_username": "xgsyy88",
+        "tg_user_id": 5829845216,
+        "tg_name": "1",
+        "link": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+        "message_text": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+            "handle": "aksaks99999",
+            "post_id": "2101602852980318419",
+            "role": "promo",
+            "author_name": "AKs",
+            "followers_count": 213535,
+            "followers_text": "21.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 213535
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 213535
+              },
+              {
+                "source": "status_legacy",
+                "count": 213535
+              }
+            ],
+            "tweet_text": "#腿控 #白丝\n\n你们到底喜欢看腿、还是看脚？\n\n@ToBuerma @ToBulaer @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 57,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+            "post_id": "2101602852980318419",
+            "handle": "aksaks99999",
+            "source_time": "2026-10-09 00:02:21",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "AKs",
+        "promo_name": "AKs",
+        "followers_count": 213536,
+        "followers_text": "21.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 213535
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 213535
+          },
+          {
+            "source": "status_legacy",
+            "count": 213535
+          },
+          {
+            "source": "status_v2",
+            "count": 213536
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 213536
+          },
+          {
+            "source": "status_legacy",
+            "count": 213536
+          },
+          {
+            "source": "profile_v2",
+            "count": 213536
+          }
+        ],
+        "check_followers_count": 213535,
+        "check_followers_text": "21.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 213535
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 213535
+          },
+          {
+            "source": "status_legacy",
+            "count": 213535
+          }
+        ],
+        "tweet_text": "#腿控 #白丝\n\n你们到底喜欢看腿、还是看脚？\n\n@ToBuerma @ToBulaer @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 57,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+        "check_url": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+        "promo_post_id": "2101602852980318419",
+        "check_post_id": "2101602852980318419",
+        "chat_id": "-1003891628675",
+        "message_id": 9251,
+        "time": "2026-10-09 00:02:21",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 213536,
+        "qualified_followers_text": "21.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 00:02:21",
+        "admission_locked": false,
+        "daily_list_rank": 5,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 5
+      },
+      "xye918": {
+        "x_handle": "xye918",
+        "check_handle": "xye918",
+        "dual_link": false,
+        "promo_handle": "xye918",
+        "tg_username": "kau918",
+        "tg_user_id": 8565972608,
+        "tg_name": "Denise Welch",
+        "link": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+        "message_text": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+            "handle": "xye918",
+            "post_id": "2105813284494741542",
+            "role": "promo",
+            "author_name": "中文字幕av高清无码",
+            "followers_count": 358186,
+            "followers_text": "35.8W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 358186
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 358186
+              },
+              {
+                "source": "status_legacy",
+                "count": 358186
+              }
+            ],
+            "tweet_text": "河北彩花的真挚善意和关怀 关东巡演为粉丝门破处上门服务记录片\n【出演女优】：河北彩花\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 78,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+            "post_id": "2105813284494741542",
+            "handle": "xye918",
+            "source_time": "2026-10-09 00:02:34",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "中文字幕av高清无码",
+        "promo_name": "中文字幕av高清无码",
+        "followers_count": 358187,
+        "followers_text": "35.8W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 358186
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 358186
+          },
+          {
+            "source": "status_legacy",
+            "count": 358186
+          },
+          {
+            "source": "status_v2",
+            "count": 358187
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 358187
+          },
+          {
+            "source": "status_legacy",
+            "count": 358187
+          },
+          {
+            "source": "profile_v2",
+            "count": 358187
+          }
+        ],
+        "check_followers_count": 358186,
+        "check_followers_text": "35.8W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 358186
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 358186
+          },
+          {
+            "source": "status_legacy",
+            "count": 358186
+          }
+        ],
+        "tweet_text": "河北彩花的真挚善意和关怀 关东巡演为粉丝门破处上门服务记录片\n【出演女优】：河北彩花\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 78,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+        "check_url": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+        "promo_post_id": "2105813284494741542",
+        "check_post_id": "2105813284494741542",
+        "chat_id": "-1003891628675",
+        "message_id": 9252,
+        "time": "2026-10-09 00:02:34",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 358187,
+        "qualified_followers_text": "35.8W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 00:02:34",
+        "admission_locked": false,
+        "daily_list_rank": 4,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 4
+      },
+      "youmeier": {
+        "x_handle": "youmeier",
+        "check_handle": "youmeier",
+        "dual_link": false,
+        "promo_handle": "youmeier",
+        "tg_username": "MYSY888",
+        "tg_user_id": 5997103908,
+        "tg_name": "蜜桔 摄影",
+        "link": "https://x.com/youmeier/status/2108149178140626959?s=46",
+        "message_text": "https://x.com/youmeier/status/2108149178140626959?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/youmeier/status/2108149178140626959?s=46",
+            "handle": "youmeier",
+            "post_id": "2108149178140626959",
+            "role": "promo",
+            "author_name": "蜜桔摄影",
+            "followers_count": 215120,
+            "followers_text": "21.5W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 215120
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 215120
+              },
+              {
+                "source": "status_legacy",
+                "count": 215120
+              },
+              {
+                "source": "profile_v2",
+                "count": 215120
+              }
+            ],
+            "tweet_text": "极品人妻小m\n真空波点上衣 小皮裙 透视内内 开裆黑丝\n超爽口活👅  指J🤟🏻入体震动棒强制GC💦 口舌舔穴吃🐻GC💦 入体AV棒抽插强制GC💦  不知道GC了多少次 请看VCR🎞️\n「敏感内容🔞」\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 137,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 137,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 137,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 137,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/youmeier/status/2108149178140626959?s=46",
+            "post_id": "2108149178140626959",
+            "handle": "youmeier",
+            "source_time": "2026-10-09 00:04:14",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "蜜桔摄影",
+        "promo_name": "蜜桔摄影",
+        "followers_count": 215120,
+        "followers_text": "21.5W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 215120
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 215120
+          },
+          {
+            "source": "status_legacy",
+            "count": 215120
+          },
+          {
+            "source": "profile_v2",
+            "count": 215120
+          }
+        ],
+        "check_followers_count": 215120,
+        "check_followers_text": "21.5W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 215120
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 215120
+          },
+          {
+            "source": "status_legacy",
+            "count": 215120
+          },
+          {
+            "source": "profile_v2",
+            "count": 215120
+          }
+        ],
+        "tweet_text": "极品人妻小m\n真空波点上衣 小皮裙 透视内内 开裆黑丝\n超爽口活👅  指J🤟🏻入体震动棒强制GC💦 口舌舔穴吃🐻GC💦 入体AV棒抽插强制GC💦  不知道GC了多少次 请看VCR🎞️\n「敏感内容🔞」\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 137,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 137,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 137,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 137,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/youmeier/status/2108149178140626959?s=46",
+        "check_url": "https://x.com/youmeier/status/2108149178140626959?s=46",
+        "promo_post_id": "2108149178140626959",
+        "check_post_id": "2108149178140626959",
+        "chat_id": "-1003891628675",
+        "message_id": 9253,
+        "time": "2026-10-09 00:04:14",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 215120,
+        "qualified_followers_text": "21.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 00:04:14",
+        "admission_locked": false,
+        "daily_list_rank": 3,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 3
+      },
+      "xye9518": {
+        "x_handle": "xye9518",
+        "check_handle": "xye9518",
+        "dual_link": false,
+        "promo_handle": "xye9518",
+        "tg_username": "xye918",
+        "tg_user_id": 1129654552,
+        "tg_name": "小鱼",
+        "link": "https://x.com/xye9518/status/2102709004120006767?s=46",
+        "message_text": "https://x.com/xye9518/status/2102709004120006767?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xye9518/status/2102709004120006767?s=46",
+            "handle": "xye9518",
+            "post_id": "2102709004120006767",
+            "role": "promo",
+            "author_name": "小鱼精品无码Av",
+            "followers_count": 389233,
+            "followers_text": "38.9W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 389233
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 389233
+              },
+              {
+                "source": "status_legacy",
+                "count": 389233
+              },
+              {
+                "source": "profile_v2",
+                "count": 389233
+              }
+            ],
+            "tweet_text": "被性骚扰上司强制舌吻交合 矜持女职员一步步堕落 沉溺于唾液接吻性交的快感当中\n【出演女优】：榊原萌\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 85,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xye9518/status/2102709004120006767?s=46",
+            "post_id": "2102709004120006767",
+            "handle": "xye9518",
+            "source_time": "2026-10-09 00:05:27",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小鱼精品无码Av",
+        "promo_name": "小鱼精品无码Av",
+        "followers_count": 389233,
+        "followers_text": "38.9W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 389233
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 389233
+          },
+          {
+            "source": "status_legacy",
+            "count": 389233
+          },
+          {
+            "source": "profile_v2",
+            "count": 389233
+          }
+        ],
+        "check_followers_count": 389233,
+        "check_followers_text": "38.9W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 389233
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 389233
+          },
+          {
+            "source": "status_legacy",
+            "count": 389233
+          },
+          {
+            "source": "profile_v2",
+            "count": 389233
+          }
+        ],
+        "tweet_text": "被性骚扰上司强制舌吻交合 矜持女职员一步步堕落 沉溺于唾液接吻性交的快感当中\n【出演女优】：榊原萌\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 85,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xye9518/status/2102709004120006767?s=46",
+        "check_url": "https://x.com/xye9518/status/2102709004120006767?s=46",
+        "promo_post_id": "2102709004120006767",
+        "check_post_id": "2102709004120006767",
+        "chat_id": "-1003891628675",
+        "message_id": 9254,
+        "time": "2026-10-09 00:05:27",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 389233,
+        "qualified_followers_text": "38.9W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 00:05:27",
+        "admission_locked": false,
+        "daily_list_rank": 2,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 2
+      },
+      "lris_intj": {
+        "x_handle": "lris_intj",
+        "check_handle": "lris_intj",
+        "dual_link": false,
+        "promo_handle": "lris_intj",
+        "tg_username": "IRIS19930421",
+        "tg_user_id": 2103607030,
+        "tg_name": "吉光片羽",
+        "link": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+        "message_text": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+            "handle": "lris_intj",
+            "post_id": "2106179278597501404",
+            "role": "promo",
+            "author_name": "♱₊Ms. Rin❄︎˚↝",
+            "followers_count": 365430,
+            "followers_text": "36.5W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 365430
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 365430
+              },
+              {
+                "source": "status_legacy",
+                "count": 365430
+              }
+            ],
+            "tweet_text": "🤍₍^˶- ˕ -˵^₎  #nsfw\n\n📬：@ToBulaer\n           @ToBuerma \n           @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 78,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+            "post_id": "2106179278597501404",
+            "handle": "lris_intj",
+            "source_time": "2026-10-09 00:08:58",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "♱₊Ms. Rin❄︎˚↝",
+        "promo_name": "♱₊Ms. Rin❄︎˚↝",
+        "followers_count": 365431,
+        "followers_text": "36.5W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 365430
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 365430
+          },
+          {
+            "source": "status_legacy",
+            "count": 365430
+          },
+          {
+            "source": "status_v2",
+            "count": 365431
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 365431
+          },
+          {
+            "source": "status_legacy",
+            "count": 365431
+          }
+        ],
+        "check_followers_count": 365430,
+        "check_followers_text": "36.5W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 365430
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 365430
+          },
+          {
+            "source": "status_legacy",
+            "count": 365430
+          }
+        ],
+        "tweet_text": "🤍₍^˶- ˕ -˵^₎  #nsfw\n\n📬：@ToBulaer\n           @ToBuerma \n           @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 78,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+        "check_url": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+        "promo_post_id": "2106179278597501404",
+        "check_post_id": "2106179278597501404",
+        "chat_id": "-1003891628675",
+        "message_id": 9255,
+        "time": "2026-10-09 00:08:58",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 365431,
+        "qualified_followers_text": "36.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 00:08:58",
         "admission_locked": false,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
@@ -4508,12 +5576,13 @@
         ],
         "x_name": "九九橙🍊",
         "promo_name": "九九橙🍊",
-        "followers_count": 269707,
+        "followers_count": 269765,
         "followers_text": "26.9W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -4539,6 +5608,22 @@
           {
             "source": "status_legacy",
             "count": 269707
+          },
+          {
+            "source": "status_v2",
+            "count": 269765
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 269765
+          },
+          {
+            "source": "status_legacy",
+            "count": 269765
+          },
+          {
+            "source": "profile_v2",
+            "count": 269765
           }
         ],
         "check_followers_count": 269705,
@@ -4606,21 +5691,22 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 269707,
+        "qualified_followers_count": 269765,
         "qualified_followers_text": "26.9W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 22,
+        "admission_locked": true,
+        "daily_list_rank": 27,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 22
+        "daily_list_batch_position": 27
       },
       "2105630054701007159": {
         "x_handle": "meehutaotv",
@@ -4818,11 +5904,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 21,
+        "admission_locked": true,
+        "daily_list_rank": 26,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 21
+        "daily_list_batch_position": 26
       },
       "2107488732303831405": {
         "x_handle": "bob7078",
@@ -5020,11 +6106,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 20,
+        "admission_locked": true,
+        "daily_list_rank": 25,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 20
+        "daily_list_batch_position": 25
       },
       "2087533026809180203": {
         "x_handle": "qbln9999",
@@ -5222,11 +6308,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 19,
+        "admission_locked": true,
+        "daily_list_rank": 24,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 19
+        "daily_list_batch_position": 24
       },
       "2058578193712664778": {
         "x_handle": "jxzeroc",
@@ -5426,11 +6512,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 18,
+        "admission_locked": true,
+        "daily_list_rank": 23,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 18
+        "daily_list_batch_position": 23
       },
       "2098041563175874999": {
         "x_handle": "xiao16877",
@@ -5628,11 +6714,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 17,
+        "admission_locked": true,
+        "daily_list_rank": 22,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 17
+        "daily_list_batch_position": 22
       },
       "2106678572702482551": {
         "x_handle": "lazypiggy850",
@@ -5830,11 +6916,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 16,
+        "admission_locked": true,
+        "daily_list_rank": 21,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 16
+        "daily_list_batch_position": 21
       },
       "2092121798523445696": {
         "x_handle": "xiuchiluchu910",
@@ -5920,12 +7006,13 @@
         ],
         "x_name": "露老师",
         "promo_name": "露老师",
-        "followers_count": 632850,
+        "followers_count": 632899,
         "followers_text": "63.2W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -5951,6 +7038,22 @@
           {
             "source": "status_legacy",
             "count": 632850
+          },
+          {
+            "source": "status_v2",
+            "count": 632899
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 632899
+          },
+          {
+            "source": "status_legacy",
+            "count": 632899
+          },
+          {
+            "source": "profile_v2",
+            "count": 632899
           }
         ],
         "check_followers_count": 632847,
@@ -6018,21 +7121,22 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 632850,
+        "qualified_followers_count": 632899,
         "qualified_followers_text": "63.2W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 15,
+        "admission_locked": true,
+        "daily_list_rank": 20,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 15
+        "daily_list_batch_position": 20
       },
       "2103847061430972920": {
         "x_handle": "svj798ds",
@@ -6230,11 +7334,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 14,
+        "admission_locked": true,
+        "daily_list_rank": 19,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 14
+        "daily_list_batch_position": 19
       },
       "2101158756575068282": {
         "x_handle": "tiaotiaosheep",
@@ -6432,11 +7536,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:00",
-        "admission_locked": false,
-        "daily_list_rank": 13,
+        "admission_locked": true,
+        "daily_list_rank": 18,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 13
+        "daily_list_batch_position": 18
       },
       "2107505956141855140": {
         "x_handle": "qiobnxingcai",
@@ -6634,11 +7738,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:01",
-        "admission_locked": false,
-        "daily_list_rank": 12,
+        "admission_locked": true,
+        "daily_list_rank": 17,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 12
+        "daily_list_batch_position": 17
       },
       "2074342756693229627": {
         "x_handle": "libalababy",
@@ -6836,11 +7940,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:01",
-        "admission_locked": false,
-        "daily_list_rank": 11,
+        "admission_locked": true,
+        "daily_list_rank": 16,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 11
+        "daily_list_batch_position": 16
       },
       "2106685052856005037": {
         "x_handle": "clares5a",
@@ -7040,11 +8144,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:02",
-        "admission_locked": false,
-        "daily_list_rank": 10,
+        "admission_locked": true,
+        "daily_list_rank": 15,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 10
+        "daily_list_batch_position": 15
       },
       "2104488683504292257": {
         "x_handle": "hong14868",
@@ -7232,11 +8336,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:02",
-        "admission_locked": false,
-        "daily_list_rank": 9,
+        "admission_locked": true,
+        "daily_list_rank": 14,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 9
+        "daily_list_batch_position": 14
       },
       "2107826571797217361": {
         "x_handle": "hanzuzong3",
@@ -7434,11 +8538,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:02",
-        "admission_locked": false,
-        "daily_list_rank": 8,
+        "admission_locked": true,
+        "daily_list_rank": 13,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 8
+        "daily_list_batch_position": 13
       },
       "2107019640039936328": {
         "x_handle": "shixiaotaon",
@@ -7837,11 +8941,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:03",
-        "admission_locked": false,
-        "daily_list_rank": 7,
+        "admission_locked": true,
+        "daily_list_rank": 12,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 7
+        "daily_list_batch_position": 12
       },
       "2107004903411650628": {
         "x_handle": "nancyyzp",
@@ -8039,11 +9143,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:05",
-        "admission_locked": false,
-        "daily_list_rank": 6,
+        "admission_locked": true,
+        "daily_list_rank": 11,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 6
+        "daily_list_batch_position": 11
       },
       "2106286909081481297": {
         "x_handle": "uudajiejie",
@@ -8241,11 +9345,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:26",
-        "admission_locked": false,
-        "daily_list_rank": 4,
+        "admission_locked": true,
+        "daily_list_rank": 9,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 4
+        "daily_list_batch_position": 9
       },
       "2108041960422515008": {
         "x_handle": "shixiaotaon",
@@ -8445,11 +9549,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:11",
-        "admission_locked": false,
-        "daily_list_rank": 5,
+        "admission_locked": true,
+        "daily_list_rank": 10,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 5
+        "daily_list_batch_position": 10
       },
       "2106992726415974773": {
         "x_handle": "xiaochen000007",
@@ -8647,11 +9751,11 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:36",
-        "admission_locked": false,
-        "daily_list_rank": 3,
+        "admission_locked": true,
+        "daily_list_rank": 8,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 3
+        "daily_list_batch_position": 8
       },
       "2107774768237961599": {
         "x_handle": "asecresm",
@@ -8737,12 +9841,13 @@
         ],
         "x_name": "云儿",
         "promo_name": "云儿",
-        "followers_count": 260301,
+        "followers_count": 260319,
         "followers_text": "26W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -8756,6 +9861,26 @@
           {
             "source": "status_legacy",
             "count": 260301
+          },
+          {
+            "source": "status_v2",
+            "count": 260319
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 260303
+          },
+          {
+            "source": "status_legacy",
+            "count": 260303
+          },
+          {
+            "source": "status_v2",
+            "count": 260303
+          },
+          {
+            "source": "profile_v2",
+            "count": 260303
           }
         ],
         "check_followers_count": 260301,
@@ -8823,21 +9948,22 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 260301,
+        "qualified_followers_count": 260319,
         "qualified_followers_text": "26W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:42",
-        "admission_locked": false,
-        "daily_list_rank": 2,
+        "admission_locked": true,
+        "daily_list_rank": 7,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
-        "daily_list_batch_position": 2
+        "daily_list_batch_position": 7
       },
       "2106382900421959930": {
         "x_handle": "joragyyy",
@@ -8857,7 +9983,7 @@
             "post_id": "2106382900421959930",
             "role": "promo",
             "author_name": "Yiiceing",
-            "followers_count": 120802,
+            "followers_count": 120806,
             "followers_text": "12W",
             "followers_sources": [
               "status_v2",
@@ -8868,19 +9994,19 @@
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 120802
+                "count": 120806
               },
               {
                 "source": "status_legacy_i",
-                "count": 120802
+                "count": 120806
               },
               {
                 "source": "status_legacy",
-                "count": 120802
+                "count": 120806
               },
               {
                 "source": "profile_v2",
-                "count": 120802
+                "count": 120806
               }
             ],
             "tweet_text": "小小身材 大大屁股\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
@@ -8918,7 +10044,7 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
             "url": "https://x.com/joragyyy/status/2106382900421959930",
             "post_id": "2106382900421959930",
             "handle": "joragyyy",
@@ -8928,7 +10054,7 @@
         ],
         "x_name": "Yiiceing",
         "promo_name": "Yiiceing",
-        "followers_count": 120802,
+        "followers_count": 120806,
         "followers_text": "12W",
         "followers_sources": [
           "status_v2",
@@ -8939,22 +10065,22 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "status_legacy_i",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "status_legacy",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "profile_v2",
-            "count": 120802
+            "count": 120806
           }
         ],
-        "check_followers_count": 120802,
+        "check_followers_count": 120806,
         "check_followers_text": "12W",
         "check_followers_sources": [
           "status_v2",
@@ -8965,19 +10091,19 @@
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "status_legacy_i",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "status_legacy",
-            "count": 120802
+            "count": 120806
           },
           {
             "source": "profile_v2",
-            "count": 120802
+            "count": 120806
           }
         ],
         "tweet_text": "小小身材 大大屁股\n\n@ToBulaer \n@ToBuerma\n@KawasawaSen",
@@ -9024,7 +10150,7 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 120802,
+        "qualified_followers_count": 120806,
         "qualified_followers_text": "12W",
         "qualified_followers_sources": [
           "status_v2",
@@ -9035,6 +10161,1016 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-09 00:00:49",
+        "admission_locked": true,
+        "daily_list_rank": 6,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 6
+      },
+      "2101602852980318419": {
+        "x_handle": "aksaks99999",
+        "check_handle": "aksaks99999",
+        "dual_link": false,
+        "promo_handle": "aksaks99999",
+        "tg_username": "xgsyy88",
+        "tg_user_id": 5829845216,
+        "tg_name": "1",
+        "link": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+        "message_text": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+            "handle": "aksaks99999",
+            "post_id": "2101602852980318419",
+            "role": "promo",
+            "author_name": "AKs",
+            "followers_count": 213535,
+            "followers_text": "21.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 213535
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 213535
+              },
+              {
+                "source": "status_legacy",
+                "count": 213535
+              }
+            ],
+            "tweet_text": "#腿控 #白丝\n\n你们到底喜欢看腿、还是看脚？\n\n@ToBuerma @ToBulaer @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 57,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 57,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+            "post_id": "2101602852980318419",
+            "handle": "aksaks99999",
+            "source_time": "2026-10-09 00:02:21",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "AKs",
+        "promo_name": "AKs",
+        "followers_count": 213536,
+        "followers_text": "21.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 213535
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 213535
+          },
+          {
+            "source": "status_legacy",
+            "count": 213535
+          },
+          {
+            "source": "status_v2",
+            "count": 213536
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 213536
+          },
+          {
+            "source": "status_legacy",
+            "count": 213536
+          },
+          {
+            "source": "profile_v2",
+            "count": 213536
+          }
+        ],
+        "check_followers_count": 213535,
+        "check_followers_text": "21.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 213535
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 213535
+          },
+          {
+            "source": "status_legacy",
+            "count": 213535
+          }
+        ],
+        "tweet_text": "#腿控 #白丝\n\n你们到底喜欢看腿、还是看脚？\n\n@ToBuerma @ToBulaer @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 57,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 57,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+        "check_url": "https://x.com/aksaks99999/status/2101602852980318419?s=46",
+        "promo_post_id": "2101602852980318419",
+        "check_post_id": "2101602852980318419",
+        "chat_id": "-1003891628675",
+        "message_id": 9251,
+        "time": "2026-10-09 00:02:21",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 213536,
+        "qualified_followers_text": "21.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 00:02:21",
+        "admission_locked": false,
+        "daily_list_rank": 5,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 5
+      },
+      "2105813284494741542": {
+        "x_handle": "xye918",
+        "check_handle": "xye918",
+        "dual_link": false,
+        "promo_handle": "xye918",
+        "tg_username": "kau918",
+        "tg_user_id": 8565972608,
+        "tg_name": "Denise Welch",
+        "link": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+        "message_text": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+            "handle": "xye918",
+            "post_id": "2105813284494741542",
+            "role": "promo",
+            "author_name": "中文字幕av高清无码",
+            "followers_count": 358186,
+            "followers_text": "35.8W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 358186
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 358186
+              },
+              {
+                "source": "status_legacy",
+                "count": 358186
+              }
+            ],
+            "tweet_text": "河北彩花的真挚善意和关怀 关东巡演为粉丝门破处上门服务记录片\n【出演女优】：河北彩花\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 78,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+            "post_id": "2105813284494741542",
+            "handle": "xye918",
+            "source_time": "2026-10-09 00:02:34",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "中文字幕av高清无码",
+        "promo_name": "中文字幕av高清无码",
+        "followers_count": 358187,
+        "followers_text": "35.8W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 358186
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 358186
+          },
+          {
+            "source": "status_legacy",
+            "count": 358186
+          },
+          {
+            "source": "status_v2",
+            "count": 358187
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 358187
+          },
+          {
+            "source": "status_legacy",
+            "count": 358187
+          },
+          {
+            "source": "profile_v2",
+            "count": 358187
+          }
+        ],
+        "check_followers_count": 358186,
+        "check_followers_text": "35.8W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 358186
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 358186
+          },
+          {
+            "source": "status_legacy",
+            "count": 358186
+          }
+        ],
+        "tweet_text": "河北彩花的真挚善意和关怀 关东巡演为粉丝门破处上门服务记录片\n【出演女优】：河北彩花\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 78,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+        "check_url": "https://x.com/xye918/status/2105813284494741542?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
+        "promo_post_id": "2105813284494741542",
+        "check_post_id": "2105813284494741542",
+        "chat_id": "-1003891628675",
+        "message_id": 9252,
+        "time": "2026-10-09 00:02:34",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 358187,
+        "qualified_followers_text": "35.8W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 00:02:34",
+        "admission_locked": false,
+        "daily_list_rank": 4,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 4
+      },
+      "2108149178140626959": {
+        "x_handle": "youmeier",
+        "check_handle": "youmeier",
+        "dual_link": false,
+        "promo_handle": "youmeier",
+        "tg_username": "MYSY888",
+        "tg_user_id": 5997103908,
+        "tg_name": "蜜桔 摄影",
+        "link": "https://x.com/youmeier/status/2108149178140626959?s=46",
+        "message_text": "https://x.com/youmeier/status/2108149178140626959?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/youmeier/status/2108149178140626959?s=46",
+            "handle": "youmeier",
+            "post_id": "2108149178140626959",
+            "role": "promo",
+            "author_name": "蜜桔摄影",
+            "followers_count": 215120,
+            "followers_text": "21.5W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 215120
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 215120
+              },
+              {
+                "source": "status_legacy",
+                "count": 215120
+              },
+              {
+                "source": "profile_v2",
+                "count": 215120
+              }
+            ],
+            "tweet_text": "极品人妻小m\n真空波点上衣 小皮裙 透视内内 开裆黑丝\n超爽口活👅  指J🤟🏻入体震动棒强制GC💦 口舌舔穴吃🐻GC💦 入体AV棒抽插强制GC💦  不知道GC了多少次 请看VCR🎞️\n「敏感内容🔞」\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 137,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 137,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 137,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 137,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/youmeier/status/2108149178140626959?s=46",
+            "post_id": "2108149178140626959",
+            "handle": "youmeier",
+            "source_time": "2026-10-09 00:04:14",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "蜜桔摄影",
+        "promo_name": "蜜桔摄影",
+        "followers_count": 215120,
+        "followers_text": "21.5W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 215120
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 215120
+          },
+          {
+            "source": "status_legacy",
+            "count": 215120
+          },
+          {
+            "source": "profile_v2",
+            "count": 215120
+          }
+        ],
+        "check_followers_count": 215120,
+        "check_followers_text": "21.5W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 215120
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 215120
+          },
+          {
+            "source": "status_legacy",
+            "count": 215120
+          },
+          {
+            "source": "profile_v2",
+            "count": 215120
+          }
+        ],
+        "tweet_text": "极品人妻小m\n真空波点上衣 小皮裙 透视内内 开裆黑丝\n超爽口活👅  指J🤟🏻入体震动棒强制GC💦 口舌舔穴吃🐻GC💦 入体AV棒抽插强制GC💦  不知道GC了多少次 请看VCR🎞️\n「敏感内容🔞」\n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 137,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 137,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 137,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 137,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/youmeier/status/2108149178140626959?s=46",
+        "check_url": "https://x.com/youmeier/status/2108149178140626959?s=46",
+        "promo_post_id": "2108149178140626959",
+        "check_post_id": "2108149178140626959",
+        "chat_id": "-1003891628675",
+        "message_id": 9253,
+        "time": "2026-10-09 00:04:14",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 215120,
+        "qualified_followers_text": "21.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 00:04:14",
+        "admission_locked": false,
+        "daily_list_rank": 3,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 3
+      },
+      "2102709004120006767": {
+        "x_handle": "xye9518",
+        "check_handle": "xye9518",
+        "dual_link": false,
+        "promo_handle": "xye9518",
+        "tg_username": "xye918",
+        "tg_user_id": 1129654552,
+        "tg_name": "小鱼",
+        "link": "https://x.com/xye9518/status/2102709004120006767?s=46",
+        "message_text": "https://x.com/xye9518/status/2102709004120006767?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xye9518/status/2102709004120006767?s=46",
+            "handle": "xye9518",
+            "post_id": "2102709004120006767",
+            "role": "promo",
+            "author_name": "小鱼精品无码Av",
+            "followers_count": 389233,
+            "followers_text": "38.9W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 389233
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 389233
+              },
+              {
+                "source": "status_legacy",
+                "count": 389233
+              },
+              {
+                "source": "profile_v2",
+                "count": 389233
+              }
+            ],
+            "tweet_text": "被性骚扰上司强制舌吻交合 矜持女职员一步步堕落 沉溺于唾液接吻性交的快感当中\n【出演女优】：榊原萌\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 85,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 85,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xye9518/status/2102709004120006767?s=46",
+            "post_id": "2102709004120006767",
+            "handle": "xye9518",
+            "source_time": "2026-10-09 00:05:27",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小鱼精品无码Av",
+        "promo_name": "小鱼精品无码Av",
+        "followers_count": 389233,
+        "followers_text": "38.9W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 389233
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 389233
+          },
+          {
+            "source": "status_legacy",
+            "count": 389233
+          },
+          {
+            "source": "profile_v2",
+            "count": 389233
+          }
+        ],
+        "check_followers_count": 389233,
+        "check_followers_text": "38.9W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 389233
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 389233
+          },
+          {
+            "source": "status_legacy",
+            "count": 389233
+          },
+          {
+            "source": "profile_v2",
+            "count": 389233
+          }
+        ],
+        "tweet_text": "被性骚扰上司强制舌吻交合 矜持女职员一步步堕落 沉溺于唾液接吻性交的快感当中\n【出演女优】：榊原萌\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 85,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 85,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xye9518/status/2102709004120006767?s=46",
+        "check_url": "https://x.com/xye9518/status/2102709004120006767?s=46",
+        "promo_post_id": "2102709004120006767",
+        "check_post_id": "2102709004120006767",
+        "chat_id": "-1003891628675",
+        "message_id": 9254,
+        "time": "2026-10-09 00:05:27",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 389233,
+        "qualified_followers_text": "38.9W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 00:05:27",
+        "admission_locked": false,
+        "daily_list_rank": 2,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 2
+      },
+      "2106179278597501404": {
+        "x_handle": "lris_intj",
+        "check_handle": "lris_intj",
+        "dual_link": false,
+        "promo_handle": "lris_intj",
+        "tg_username": "IRIS19930421",
+        "tg_user_id": 2103607030,
+        "tg_name": "吉光片羽",
+        "link": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+        "message_text": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+            "handle": "lris_intj",
+            "post_id": "2106179278597501404",
+            "role": "promo",
+            "author_name": "♱₊Ms. Rin❄︎˚↝",
+            "followers_count": 365430,
+            "followers_text": "36.5W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 365430
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 365430
+              },
+              {
+                "source": "status_legacy",
+                "count": 365430
+              }
+            ],
+            "tweet_text": "🤍₍^˶- ˕ -˵^₎  #nsfw\n\n📬：@ToBulaer\n           @ToBuerma \n           @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 78,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 78,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+            "post_id": "2106179278597501404",
+            "handle": "lris_intj",
+            "source_time": "2026-10-09 00:08:58",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "♱₊Ms. Rin❄︎˚↝",
+        "promo_name": "♱₊Ms. Rin❄︎˚↝",
+        "followers_count": 365431,
+        "followers_text": "36.5W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 365430
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 365430
+          },
+          {
+            "source": "status_legacy",
+            "count": 365430
+          },
+          {
+            "source": "status_v2",
+            "count": 365431
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 365431
+          },
+          {
+            "source": "status_legacy",
+            "count": 365431
+          }
+        ],
+        "check_followers_count": 365430,
+        "check_followers_text": "36.5W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 365430
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 365430
+          },
+          {
+            "source": "status_legacy",
+            "count": 365430
+          }
+        ],
+        "tweet_text": "🤍₍^˶- ˕ -˵^₎  #nsfw\n\n📬：@ToBulaer\n           @ToBuerma \n           @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 78,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 78,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+        "check_url": "https://x.com/lris_intj/status/2106179278597501404?s=46",
+        "promo_post_id": "2106179278597501404",
+        "check_post_id": "2106179278597501404",
+        "chat_id": "-1003891628675",
+        "message_id": 9255,
+        "time": "2026-10-09 00:08:58",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 365431,
+        "qualified_followers_text": "36.5W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-09 00:08:58",
         "admission_locked": false,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
@@ -9063,12 +11199,87 @@
           "A": {
             "slots": [
               {
+                "handle": "lris_intj",
+                "post_id": "2106179278597501404",
+                "original_post_id": "2106179278597501404",
+                "url": "https://x.com/lris_intj/status/2106179278597501404",
+                "edited": false,
+                "position": 1,
+                "message_id": "9255",
+                "tg_user_id": "2103607030",
+                "time": "2026-10-09 00:08:58",
+                "admission_time": "2026-10-09 00:08:58",
+                "list_id": "A",
+                "display_name": "♱₊Ms. Rin❄︎˚↝",
+                "admitted_at": "2026-10-09 00:16:14"
+              },
+              {
+                "handle": "xye9518",
+                "post_id": "2102709004120006767",
+                "original_post_id": "2102709004120006767",
+                "url": "https://x.com/xye9518/status/2102709004120006767",
+                "edited": false,
+                "position": 2,
+                "message_id": "9254",
+                "tg_user_id": "1129654552",
+                "time": "2026-10-09 00:05:27",
+                "admission_time": "2026-10-09 00:05:27",
+                "list_id": "A",
+                "display_name": "小鱼精品无码Av",
+                "admitted_at": "2026-10-09 00:16:14"
+              },
+              {
+                "handle": "youmeier",
+                "post_id": "2108149178140626959",
+                "original_post_id": "2108149178140626959",
+                "url": "https://x.com/youmeier/status/2108149178140626959",
+                "edited": false,
+                "position": 3,
+                "message_id": "9253",
+                "tg_user_id": "5997103908",
+                "time": "2026-10-09 00:04:14",
+                "admission_time": "2026-10-09 00:04:14",
+                "list_id": "A",
+                "display_name": "蜜桔摄影",
+                "admitted_at": "2026-10-09 00:16:14"
+              },
+              {
+                "handle": "xye918",
+                "post_id": "2105813284494741542",
+                "original_post_id": "2105813284494741542",
+                "url": "https://x.com/xye918/status/2105813284494741542",
+                "edited": false,
+                "position": 4,
+                "message_id": "9252",
+                "tg_user_id": "8565972608",
+                "time": "2026-10-09 00:02:34",
+                "admission_time": "2026-10-09 00:02:34",
+                "list_id": "A",
+                "display_name": "中文字幕av高清无码",
+                "admitted_at": "2026-10-09 00:16:14"
+              },
+              {
+                "handle": "aksaks99999",
+                "post_id": "2101602852980318419",
+                "original_post_id": "2101602852980318419",
+                "url": "https://x.com/aksaks99999/status/2101602852980318419",
+                "edited": false,
+                "position": 5,
+                "message_id": "9251",
+                "tg_user_id": "5829845216",
+                "time": "2026-10-09 00:02:21",
+                "admission_time": "2026-10-09 00:02:21",
+                "list_id": "A",
+                "display_name": "AKs",
+                "admitted_at": "2026-10-09 00:16:14"
+              },
+              {
                 "handle": "joragyyy",
                 "post_id": "2106382900421959930",
                 "original_post_id": "2106382900421959930",
                 "url": "https://x.com/joragyyy/status/2106382900421959930",
                 "edited": false,
-                "position": 1,
+                "position": 6,
                 "message_id": "9250",
                 "tg_user_id": "7996721954",
                 "time": "2026-10-09 00:00:49",
@@ -9083,7 +11294,7 @@
                 "original_post_id": "2107774768237961599",
                 "url": "https://x.com/asecresm/status/2107774768237961599",
                 "edited": false,
-                "position": 2,
+                "position": 7,
                 "message_id": "9249",
                 "tg_user_id": "8548890215",
                 "time": "2026-10-09 00:00:42",
@@ -9098,7 +11309,7 @@
                 "original_post_id": "2106992726415974773",
                 "url": "https://x.com/xiaochen000007/status/2106992726415974773",
                 "edited": false,
-                "position": 3,
+                "position": 8,
                 "message_id": "9248",
                 "tg_user_id": "5718822279",
                 "time": "2026-10-09 00:00:36",
@@ -9113,7 +11324,7 @@
                 "original_post_id": "2106286909081481297",
                 "url": "https://x.com/uudajiejie/status/2106286909081481297",
                 "edited": false,
-                "position": 4,
+                "position": 9,
                 "message_id": "9246",
                 "tg_user_id": "8244388416",
                 "time": "2026-10-09 00:00:06",
@@ -9128,7 +11339,7 @@
                 "original_post_id": "2108041960422515008",
                 "url": "https://x.com/shixiaotaon/status/2108041960422515008",
                 "edited": false,
-                "position": 5,
+                "position": 10,
                 "message_id": "9247",
                 "tg_user_id": "5275613873",
                 "time": "2026-10-09 00:00:11",
@@ -9143,7 +11354,7 @@
                 "original_post_id": "2107004903411650628",
                 "url": "https://x.com/nancyyzp/status/2107004903411650628",
                 "edited": false,
-                "position": 6,
+                "position": 11,
                 "message_id": "9245",
                 "tg_user_id": "7928308252",
                 "time": "2026-10-09 00:00:05",
@@ -9158,7 +11369,7 @@
                 "original_post_id": "2078733588456165564",
                 "url": "https://x.com/chairlfen_cn/status/2078733588456165564",
                 "edited": false,
-                "position": 7,
+                "position": 12,
                 "message_id": "9244",
                 "tg_user_id": "1853744305",
                 "time": "2026-10-09 00:00:03",
@@ -9173,7 +11384,7 @@
                 "original_post_id": "2107826571797217361",
                 "url": "https://x.com/hanzuzong3/status/2107826571797217361",
                 "edited": false,
-                "position": 8,
+                "position": 13,
                 "message_id": "9242",
                 "tg_user_id": "8743564681",
                 "time": "2026-10-09 00:00:02",
@@ -9188,7 +11399,7 @@
                 "original_post_id": "2104488683504292257",
                 "url": "https://x.com/hong14868/status/2104488683504292257",
                 "edited": false,
-                "position": 9,
+                "position": 14,
                 "message_id": "9241",
                 "tg_user_id": "8412768331",
                 "time": "2026-10-09 00:00:02",
@@ -9203,7 +11414,7 @@
                 "original_post_id": "2106685052856005037",
                 "url": "https://x.com/clares5a/status/2106685052856005037",
                 "edited": false,
-                "position": 10,
+                "position": 15,
                 "message_id": "9240",
                 "tg_user_id": "7664740669",
                 "time": "2026-10-09 00:00:02",
@@ -9218,7 +11429,7 @@
                 "original_post_id": "2074342756693229627",
                 "url": "https://x.com/libalababy/status/2074342756693229627",
                 "edited": false,
-                "position": 11,
+                "position": 16,
                 "message_id": "9239",
                 "tg_user_id": "6556831747",
                 "time": "2026-10-09 00:00:01",
@@ -9233,7 +11444,7 @@
                 "original_post_id": "2107505956141855140",
                 "url": "https://x.com/qiobnxingcai/status/2107505956141855140",
                 "edited": false,
-                "position": 12,
+                "position": 17,
                 "message_id": "9238",
                 "tg_user_id": "6256006328",
                 "time": "2026-10-09 00:00:01",
@@ -9248,7 +11459,7 @@
                 "original_post_id": "2101158756575068282",
                 "url": "https://x.com/tiaotiaosheep/status/2101158756575068282",
                 "edited": false,
-                "position": 13,
+                "position": 18,
                 "message_id": "9237",
                 "tg_user_id": "8265355415",
                 "time": "2026-10-09 00:00:00",
@@ -9263,7 +11474,7 @@
                 "original_post_id": "2103847061430972920",
                 "url": "https://x.com/svj798ds/status/2103847061430972920",
                 "edited": false,
-                "position": 14,
+                "position": 19,
                 "message_id": "9236",
                 "tg_user_id": "5493105308",
                 "time": "2026-10-09 00:00:00",
@@ -9278,7 +11489,7 @@
                 "original_post_id": "2092121798523445696",
                 "url": "https://x.com/xiuchiluchu910/status/2092121798523445696",
                 "edited": false,
-                "position": 15,
+                "position": 20,
                 "message_id": "9235",
                 "tg_user_id": "6250828223",
                 "time": "2026-10-09 00:00:00",
@@ -9293,7 +11504,7 @@
                 "original_post_id": "2106678572702482551",
                 "url": "https://x.com/lazypiggy850/status/2106678572702482551",
                 "edited": false,
-                "position": 16,
+                "position": 21,
                 "message_id": "9234",
                 "tg_user_id": "7745875882",
                 "time": "2026-10-09 00:00:00",
@@ -9308,7 +11519,7 @@
                 "original_post_id": "2098041563175874999",
                 "url": "https://x.com/xiao16877/status/2098041563175874999",
                 "edited": false,
-                "position": 17,
+                "position": 22,
                 "message_id": "9233",
                 "tg_user_id": "5927788237",
                 "time": "2026-10-09 00:00:00",
@@ -9323,7 +11534,7 @@
                 "original_post_id": "2058578193712664778",
                 "url": "https://x.com/jxzeroc/status/2058578193712664778",
                 "edited": false,
-                "position": 18,
+                "position": 23,
                 "message_id": "9232",
                 "tg_user_id": "8482533988",
                 "time": "2026-10-09 00:00:00",
@@ -9338,7 +11549,7 @@
                 "original_post_id": "2087533026809180203",
                 "url": "https://x.com/qbln9999/status/2087533026809180203",
                 "edited": false,
-                "position": 19,
+                "position": 24,
                 "message_id": "9231",
                 "tg_user_id": "8514857368",
                 "time": "2026-10-09 00:00:00",
@@ -9353,7 +11564,7 @@
                 "original_post_id": "2107488732303831405",
                 "url": "https://x.com/bob7078/status/2107488732303831405",
                 "edited": false,
-                "position": 20,
+                "position": 25,
                 "message_id": "9230",
                 "tg_user_id": "1713467304",
                 "time": "2026-10-09 00:00:00",
@@ -9368,7 +11579,7 @@
                 "original_post_id": "2105630054701007159",
                 "url": "https://x.com/meehutaotv/status/2105630054701007159",
                 "edited": false,
-                "position": 21,
+                "position": 26,
                 "message_id": "9229",
                 "tg_user_id": "8569786982",
                 "time": "2026-10-09 00:00:00",
@@ -9383,7 +11594,7 @@
                 "original_post_id": "2108129279527842099",
                 "url": "https://x.com/snd99x/status/2108129279527842099",
                 "edited": false,
-                "position": 22,
+                "position": 27,
                 "message_id": "9228",
                 "tg_user_id": "8520118213",
                 "time": "2026-10-09 00:00:00",
@@ -9394,9 +11605,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 22,
-            "count": 22,
-            "roster_capacity": 22,
+            "capacity": 27,
+            "count": 27,
+            "roster_capacity": 27,
             "withdrawn_message_ids": []
           },
           "B": {
@@ -9409,38 +11620,123 @@
           }
         },
         "assigned_accounts": {
-          "snd99x": "A",
-          "meehutaotv": "A",
-          "bob7078": "A",
-          "qbln9999": "A",
-          "jxzeroc": "A",
-          "xiao16877": "A",
-          "lazypiggy850": "A",
-          "xiuchiluchu910": "A",
-          "svj798ds": "A",
-          "tiaotiaosheep": "A",
-          "qiobnxingcai": "A",
-          "libalababy": "A",
-          "clares5a": "A",
-          "hong14868": "A",
-          "hanzuzong3": "A",
-          "chairlfen_cn": "A",
-          "nancyyzp": "A",
-          "shixiaotaon": "A",
-          "uudajiejie": "A",
-          "xiaochen000007": "A",
+          "joragyyy": "A",
           "asecresm": "A",
-          "joragyyy": "A"
+          "xiaochen000007": "A",
+          "uudajiejie": "A",
+          "shixiaotaon": "A",
+          "nancyyzp": "A",
+          "chairlfen_cn": "A",
+          "hanzuzong3": "A",
+          "hong14868": "A",
+          "clares5a": "A",
+          "libalababy": "A",
+          "qiobnxingcai": "A",
+          "tiaotiaosheep": "A",
+          "svj798ds": "A",
+          "xiuchiluchu910": "A",
+          "lazypiggy850": "A",
+          "xiao16877": "A",
+          "jxzeroc": "A",
+          "qbln9999": "A",
+          "bob7078": "A",
+          "meehutaotv": "A",
+          "snd99x": "A",
+          "aksaks99999": "A",
+          "xye918": "A",
+          "youmeier": "A",
+          "xye9518": "A",
+          "lris_intj": "A"
         },
         "withdrawn_message_ids": [],
         "slots": [
+          {
+            "handle": "lris_intj",
+            "post_id": "2106179278597501404",
+            "original_post_id": "2106179278597501404",
+            "url": "https://x.com/lris_intj/status/2106179278597501404",
+            "edited": false,
+            "position": 1,
+            "message_id": "9255",
+            "tg_user_id": "2103607030",
+            "time": "2026-10-09 00:08:58",
+            "admission_time": "2026-10-09 00:08:58",
+            "list_id": "A",
+            "display_name": "♱₊Ms. Rin❄︎˚↝",
+            "admitted_at": "2026-10-09 00:16:14",
+            "list_position": 1
+          },
+          {
+            "handle": "xye9518",
+            "post_id": "2102709004120006767",
+            "original_post_id": "2102709004120006767",
+            "url": "https://x.com/xye9518/status/2102709004120006767",
+            "edited": false,
+            "position": 2,
+            "message_id": "9254",
+            "tg_user_id": "1129654552",
+            "time": "2026-10-09 00:05:27",
+            "admission_time": "2026-10-09 00:05:27",
+            "list_id": "A",
+            "display_name": "小鱼精品无码Av",
+            "admitted_at": "2026-10-09 00:16:14",
+            "list_position": 2
+          },
+          {
+            "handle": "youmeier",
+            "post_id": "2108149178140626959",
+            "original_post_id": "2108149178140626959",
+            "url": "https://x.com/youmeier/status/2108149178140626959",
+            "edited": false,
+            "position": 3,
+            "message_id": "9253",
+            "tg_user_id": "5997103908",
+            "time": "2026-10-09 00:04:14",
+            "admission_time": "2026-10-09 00:04:14",
+            "list_id": "A",
+            "display_name": "蜜桔摄影",
+            "admitted_at": "2026-10-09 00:16:14",
+            "list_position": 3
+          },
+          {
+            "handle": "xye918",
+            "post_id": "2105813284494741542",
+            "original_post_id": "2105813284494741542",
+            "url": "https://x.com/xye918/status/2105813284494741542",
+            "edited": false,
+            "position": 4,
+            "message_id": "9252",
+            "tg_user_id": "8565972608",
+            "time": "2026-10-09 00:02:34",
+            "admission_time": "2026-10-09 00:02:34",
+            "list_id": "A",
+            "display_name": "中文字幕av高清无码",
+            "admitted_at": "2026-10-09 00:16:14",
+            "list_position": 4
+          },
+          {
+            "handle": "aksaks99999",
+            "post_id": "2101602852980318419",
+            "original_post_id": "2101602852980318419",
+            "url": "https://x.com/aksaks99999/status/2101602852980318419",
+            "edited": false,
+            "position": 5,
+            "message_id": "9251",
+            "tg_user_id": "5829845216",
+            "time": "2026-10-09 00:02:21",
+            "admission_time": "2026-10-09 00:02:21",
+            "list_id": "A",
+            "display_name": "AKs",
+            "admitted_at": "2026-10-09 00:16:14",
+            "list_position": 5
+          },
           {
             "handle": "joragyyy",
             "post_id": "2106382900421959930",
             "original_post_id": "2106382900421959930",
             "url": "https://x.com/joragyyy/status/2106382900421959930",
             "edited": false,
-            "position": 1,
+            "position": 6,
             "message_id": "9250",
             "tg_user_id": "7996721954",
             "time": "2026-10-09 00:00:49",
@@ -9448,7 +11744,7 @@
             "list_id": "A",
             "display_name": "Yiiceing",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 1
+            "list_position": 6
           },
           {
             "handle": "asecresm",
@@ -9456,7 +11752,7 @@
             "original_post_id": "2107774768237961599",
             "url": "https://x.com/asecresm/status/2107774768237961599",
             "edited": false,
-            "position": 2,
+            "position": 7,
             "message_id": "9249",
             "tg_user_id": "8548890215",
             "time": "2026-10-09 00:00:42",
@@ -9464,7 +11760,7 @@
             "list_id": "A",
             "display_name": "云儿",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 2
+            "list_position": 7
           },
           {
             "handle": "xiaochen000007",
@@ -9472,7 +11768,7 @@
             "original_post_id": "2106992726415974773",
             "url": "https://x.com/xiaochen000007/status/2106992726415974773",
             "edited": false,
-            "position": 3,
+            "position": 8,
             "message_id": "9248",
             "tg_user_id": "5718822279",
             "time": "2026-10-09 00:00:36",
@@ -9480,7 +11776,7 @@
             "list_id": "A",
             "display_name": "小陈和小王的日常",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 3
+            "list_position": 8
           },
           {
             "handle": "uudajiejie",
@@ -9488,7 +11784,7 @@
             "original_post_id": "2106286909081481297",
             "url": "https://x.com/uudajiejie/status/2106286909081481297",
             "edited": false,
-            "position": 4,
+            "position": 9,
             "message_id": "9246",
             "tg_user_id": "8244388416",
             "time": "2026-10-09 00:00:06",
@@ -9496,7 +11792,7 @@
             "list_id": "A",
             "display_name": "UU大姐姐",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 4
+            "list_position": 9
           },
           {
             "handle": "shixiaotaon",
@@ -9504,7 +11800,7 @@
             "original_post_id": "2108041960422515008",
             "url": "https://x.com/shixiaotaon/status/2108041960422515008",
             "edited": false,
-            "position": 5,
+            "position": 10,
             "message_id": "9247",
             "tg_user_id": "5275613873",
             "time": "2026-10-09 00:00:11",
@@ -9512,7 +11808,7 @@
             "list_id": "A",
             "display_name": "小小桃",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 5
+            "list_position": 10
           },
           {
             "handle": "nancyyzp",
@@ -9520,7 +11816,7 @@
             "original_post_id": "2107004903411650628",
             "url": "https://x.com/nancyyzp/status/2107004903411650628",
             "edited": false,
-            "position": 6,
+            "position": 11,
             "message_id": "9245",
             "tg_user_id": "7928308252",
             "time": "2026-10-09 00:00:05",
@@ -9528,7 +11824,7 @@
             "list_id": "A",
             "display_name": "nancyyzp",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 6
+            "list_position": 11
           },
           {
             "handle": "chairlfen_cn",
@@ -9536,7 +11832,7 @@
             "original_post_id": "2078733588456165564",
             "url": "https://x.com/chairlfen_cn/status/2078733588456165564",
             "edited": false,
-            "position": 7,
+            "position": 12,
             "message_id": "9244",
             "tg_user_id": "1853744305",
             "time": "2026-10-09 00:00:03",
@@ -9544,7 +11840,7 @@
             "list_id": "A",
             "display_name": "周慕云（chairlfen）",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 7
+            "list_position": 12
           },
           {
             "handle": "hanzuzong3",
@@ -9552,7 +11848,7 @@
             "original_post_id": "2107826571797217361",
             "url": "https://x.com/hanzuzong3/status/2107826571797217361",
             "edited": false,
-            "position": 8,
+            "position": 13,
             "message_id": "9242",
             "tg_user_id": "8743564681",
             "time": "2026-10-09 00:00:02",
@@ -9560,7 +11856,7 @@
             "list_id": "A",
             "display_name": "hanzuzong",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 8
+            "list_position": 13
           },
           {
             "handle": "hong14868",
@@ -9568,7 +11864,7 @@
             "original_post_id": "2104488683504292257",
             "url": "https://x.com/hong14868/status/2104488683504292257",
             "edited": false,
-            "position": 9,
+            "position": 14,
             "message_id": "9241",
             "tg_user_id": "8412768331",
             "time": "2026-10-09 00:00:02",
@@ -9576,7 +11872,7 @@
             "list_id": "A",
             "display_name": "hong14868",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 9
+            "list_position": 14
           },
           {
             "handle": "clares5a",
@@ -9584,7 +11880,7 @@
             "original_post_id": "2106685052856005037",
             "url": "https://x.com/clares5a/status/2106685052856005037",
             "edited": false,
-            "position": 10,
+            "position": 15,
             "message_id": "9240",
             "tg_user_id": "7664740669",
             "time": "2026-10-09 00:00:02",
@@ -9592,7 +11888,7 @@
             "list_id": "A",
             "display_name": "Clare-S（杭州）",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 10
+            "list_position": 15
           },
           {
             "handle": "libalababy",
@@ -9600,7 +11896,7 @@
             "original_post_id": "2074342756693229627",
             "url": "https://x.com/libalababy/status/2074342756693229627",
             "edited": false,
-            "position": 11,
+            "position": 16,
             "message_id": "9239",
             "tg_user_id": "6556831747",
             "time": "2026-10-09 00:00:01",
@@ -9608,7 +11904,7 @@
             "list_id": "A",
             "display_name": "黎吧啦ෆ",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 11
+            "list_position": 16
           },
           {
             "handle": "qiobnxingcai",
@@ -9616,7 +11912,7 @@
             "original_post_id": "2107505956141855140",
             "url": "https://x.com/qiobnxingcai/status/2107505956141855140",
             "edited": false,
-            "position": 12,
+            "position": 17,
             "message_id": "9238",
             "tg_user_id": "6256006328",
             "time": "2026-10-09 00:00:01",
@@ -9624,7 +11920,7 @@
             "list_id": "A",
             "display_name": "桥本香菜",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 12
+            "list_position": 17
           },
           {
             "handle": "tiaotiaosheep",
@@ -9632,7 +11928,7 @@
             "original_post_id": "2101158756575068282",
             "url": "https://x.com/tiaotiaosheep/status/2101158756575068282",
             "edited": false,
-            "position": 13,
+            "position": 18,
             "message_id": "9237",
             "tg_user_id": "8265355415",
             "time": "2026-10-09 00:00:00",
@@ -9640,7 +11936,7 @@
             "list_id": "A",
             "display_name": "跳跳羊💃",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 13
+            "list_position": 18
           },
           {
             "handle": "svj798ds",
@@ -9648,7 +11944,7 @@
             "original_post_id": "2103847061430972920",
             "url": "https://x.com/svj798ds/status/2103847061430972920",
             "edited": false,
-            "position": 14,
+            "position": 19,
             "message_id": "9236",
             "tg_user_id": "5493105308",
             "time": "2026-10-09 00:00:00",
@@ -9656,7 +11952,7 @@
             "list_id": "A",
             "display_name": "svj798ds",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 14
+            "list_position": 19
           },
           {
             "handle": "xiuchiluchu910",
@@ -9664,7 +11960,7 @@
             "original_post_id": "2092121798523445696",
             "url": "https://x.com/xiuchiluchu910/status/2092121798523445696",
             "edited": false,
-            "position": 15,
+            "position": 20,
             "message_id": "9235",
             "tg_user_id": "6250828223",
             "time": "2026-10-09 00:00:00",
@@ -9672,7 +11968,7 @@
             "list_id": "A",
             "display_name": "露老师",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 15
+            "list_position": 20
           },
           {
             "handle": "lazypiggy850",
@@ -9680,7 +11976,7 @@
             "original_post_id": "2106678572702482551",
             "url": "https://x.com/lazypiggy850/status/2106678572702482551",
             "edited": false,
-            "position": 16,
+            "position": 21,
             "message_id": "9234",
             "tg_user_id": "7745875882",
             "time": "2026-10-09 00:00:00",
@@ -9688,7 +11984,7 @@
             "list_id": "A",
             "display_name": "lazypiggy懶懶豬",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 16
+            "list_position": 21
           },
           {
             "handle": "xiao16877",
@@ -9696,7 +11992,7 @@
             "original_post_id": "2098041563175874999",
             "url": "https://x.com/xiao16877/status/2098041563175874999",
             "edited": false,
-            "position": 17,
+            "position": 22,
             "message_id": "9233",
             "tg_user_id": "5927788237",
             "time": "2026-10-09 00:00:00",
@@ -9704,7 +12000,7 @@
             "list_id": "A",
             "display_name": "南京米娅",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 17
+            "list_position": 22
           },
           {
             "handle": "jxzeroc",
@@ -9712,7 +12008,7 @@
             "original_post_id": "2058578193712664778",
             "url": "https://x.com/jxzeroc/status/2058578193712664778",
             "edited": false,
-            "position": 18,
+            "position": 23,
             "message_id": "9232",
             "tg_user_id": "8482533988",
             "time": "2026-10-09 00:00:00",
@@ -9720,7 +12016,7 @@
             "list_id": "A",
             "display_name": "Jx",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 18
+            "list_position": 23
           },
           {
             "handle": "qbln9999",
@@ -9728,7 +12024,7 @@
             "original_post_id": "2087533026809180203",
             "url": "https://x.com/qbln9999/status/2087533026809180203",
             "edited": false,
-            "position": 19,
+            "position": 24,
             "message_id": "9231",
             "tg_user_id": "8514857368",
             "time": "2026-10-09 00:00:00",
@@ -9736,7 +12032,7 @@
             "list_id": "A",
             "display_name": "桥本玲奈",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 19
+            "list_position": 24
           },
           {
             "handle": "bob7078",
@@ -9744,7 +12040,7 @@
             "original_post_id": "2107488732303831405",
             "url": "https://x.com/bob7078/status/2107488732303831405",
             "edited": false,
-            "position": 20,
+            "position": 25,
             "message_id": "9230",
             "tg_user_id": "1713467304",
             "time": "2026-10-09 00:00:00",
@@ -9752,7 +12048,7 @@
             "list_id": "A",
             "display_name": "D先生和C小姐",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 20
+            "list_position": 25
           },
           {
             "handle": "meehutaotv",
@@ -9760,7 +12056,7 @@
             "original_post_id": "2105630054701007159",
             "url": "https://x.com/meehutaotv/status/2105630054701007159",
             "edited": false,
-            "position": 21,
+            "position": 26,
             "message_id": "9229",
             "tg_user_id": "8569786982",
             "time": "2026-10-09 00:00:00",
@@ -9768,7 +12064,7 @@
             "list_id": "A",
             "display_name": "米胡桃MeeHutao",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 21
+            "list_position": 26
           },
           {
             "handle": "snd99x",
@@ -9776,7 +12072,7 @@
             "original_post_id": "2108129279527842099",
             "url": "https://x.com/snd99x/status/2108129279527842099",
             "edited": false,
-            "position": 22,
+            "position": 27,
             "message_id": "9228",
             "tg_user_id": "8520118213",
             "time": "2026-10-09 00:00:00",
@@ -9784,11 +12080,11 @@
             "list_id": "A",
             "display_name": "九九橙🍊",
             "admitted_at": "2026-10-09 00:01:49",
-            "list_position": 22
+            "list_position": 27
           }
         ],
         "vacant_positions": {},
-        "count": 22,
+        "count": 27,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "offset": 364620095,
+  "offset": 364620099,
   "groups": {
     "-1003891628675": {
       "count": 35,
@@ -53,7 +53,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-08",
-    "run_at": "2026-10-08 17:15:35",
+    "run_at": "2026-10-08 17:30:35",
     "completed_groups": [
       "群一",
       "群二",
@@ -61,40 +61,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "37755354228:1",
-        "checked_at": "2026-10-08 17:15:36",
+        "run_key": "37757099826:1",
+        "checked_at": "2026-10-08 17:30:38",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "37755354228:1",
-        "checked_at": "2026-10-08 17:15:36",
+        "run_key": "37757099826:1",
+        "checked_at": "2026-10-08 17:30:38",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "37755354228:1",
-        "checked_at": "2026-10-08 17:15:36",
+        "run_key": "37757099826:1",
+        "checked_at": "2026-10-08 17:30:38",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "37755354228:1",
-        "checked_at": "2026-10-08 17:15:36",
+        "run_key": "37757099826:1",
+        "checked_at": "2026-10-08 17:30:38",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "37755354228:1",
-        "checked_at": "2026-10-08 17:15:36",
+        "run_key": "37757099826:1",
+        "checked_at": "2026-10-08 17:30:38",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "37755354228:1",
-        "checked_at": "2026-10-08 17:15:36",
+        "run_key": "37757099826:1",
+        "checked_at": "2026-10-08 17:30:38",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1141,12 +1141,27 @@
                 "admitted_at": "2026-10-08 15:15:38"
               },
               {
+                "handle": "thelol1pop99",
+                "post_id": "2108044463016681853",
+                "original_post_id": "2108044463016681853",
+                "url": "https://x.com/thelol1pop99/status/2108044463016681853",
+                "edited": false,
+                "position": 3,
+                "message_id": "9212",
+                "tg_user_id": "1770606411",
+                "time": "2026-10-08 14:06:38",
+                "admission_time": "2026-10-08 14:06:38",
+                "list_id": "B",
+                "display_name": "Loliiiiipop99💛棒棒糖🍭",
+                "admitted_at": "2026-10-08 17:30:40"
+              },
+              {
                 "handle": "lazypiggy850",
                 "post_id": "2106678572702482551",
                 "original_post_id": "2106678572702482551",
                 "url": "https://x.com/lazypiggy850/status/2106678572702482551",
                 "edited": false,
-                "position": 3,
+                "position": 4,
                 "message_id": "9209",
                 "tg_user_id": "7745875882",
                 "time": "2026-10-08 04:54:05",
@@ -1157,49 +1172,49 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 3,
-            "count": 3,
-            "roster_capacity": 3,
+            "capacity": 4,
+            "count": 4,
+            "roster_capacity": 4,
             "withdrawn_message_ids": [
               "9208"
             ]
           }
         },
         "assigned_accounts": {
-          "tiaotiaosheep": "A",
-          "snd99x": "A",
-          "xiuchiluchu910": "A",
-          "bob7078": "A",
-          "qbln9999": "A",
-          "hanzuzong3": "A",
-          "lovvy222": "A",
-          "sleepsbg": "A",
-          "meehutaotv": "A",
-          "uudajiejie": "A",
-          "xiao16877": "A",
-          "svj798ds": "A",
-          "laibeinaixiba": "A",
-          "jxzeroc": "A",
-          "clares5a": "A",
-          "hong14868": "A",
-          "nancyyzp": "A",
-          "shixiaotaon": "A",
-          "shixiaotaone": "A",
-          "xiaoqiaots": "A",
-          "abaodz1": "A",
-          "xiaochen000007": "A",
-          "xye918": "A",
-          "asecresm": "A",
-          "aksaks99999": "A",
-          "qiobnxingcai": "A",
-          "youmeier": "A",
-          "xye9518": "A",
-          "guilin010": "A",
           "lris_intj": "A",
-          "thelol1pop99": "B",
-          "lazypiggy850": "B",
+          "guilin010": "A",
+          "xye9518": "A",
+          "youmeier": "A",
+          "qiobnxingcai": "A",
+          "aksaks99999": "A",
+          "asecresm": "A",
+          "xye918": "A",
+          "xiaochen000007": "A",
+          "abaodz1": "A",
+          "xiaoqiaots": "A",
+          "shixiaotaone": "A",
+          "shixiaotaon": "A",
+          "nancyyzp": "A",
+          "hong14868": "A",
+          "clares5a": "A",
+          "jxzeroc": "A",
+          "laibeinaixiba": "A",
+          "svj798ds": "A",
+          "xiao16877": "A",
+          "uudajiejie": "A",
+          "meehutaotv": "A",
+          "sleepsbg": "A",
+          "lovvy222": "A",
+          "hanzuzong3": "A",
+          "qbln9999": "A",
+          "bob7078": "A",
+          "xiuchiluchu910": "A",
+          "snd99x": "A",
+          "tiaotiaosheep": "A",
+          "qinxian8023": "B",
           "wdqhc999": "B",
-          "qinxian8023": "B"
+          "lazypiggy850": "B",
+          "thelol1pop99": "B"
         },
         "withdrawn_message_ids": [
           "9208"
@@ -1720,12 +1735,28 @@
             "list_position": 2
           },
           {
+            "handle": "thelol1pop99",
+            "post_id": "2108044463016681853",
+            "original_post_id": "2108044463016681853",
+            "url": "https://x.com/thelol1pop99/status/2108044463016681853",
+            "edited": false,
+            "position": 33,
+            "message_id": "9212",
+            "tg_user_id": "1770606411",
+            "time": "2026-10-08 14:06:38",
+            "admission_time": "2026-10-08 14:06:38",
+            "list_id": "B",
+            "display_name": "Loliiiiipop99💛棒棒糖🍭",
+            "admitted_at": "2026-10-08 17:30:40",
+            "list_position": 3
+          },
+          {
             "handle": "lazypiggy850",
             "post_id": "2106678572702482551",
             "original_post_id": "2106678572702482551",
             "url": "https://x.com/lazypiggy850/status/2106678572702482551",
             "edited": false,
-            "position": 33,
+            "position": 34,
             "message_id": "9209",
             "tg_user_id": "7745875882",
             "time": "2026-10-08 04:54:05",
@@ -1733,11 +1764,11 @@
             "list_id": "B",
             "display_name": "lazypiggy懶懶豬",
             "admitted_at": "2026-10-08 05:00:53",
-            "list_position": 3
+            "list_position": 4
           }
         ],
         "vacant_positions": {},
-        "count": 33,
+        "count": 34,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1766,10 +1797,10 @@
     "date": "2026-10-08",
     "groups": {
       "群一": {
-        "digest": "b3c873e49f6ef6e96df091a025b63cb7f5e5f2df96c0b3f6b5863b66eed7260e",
-        "sourceRevision": 7,
+        "digest": "ca7ccacc4c4105b9f6c8117444409a4fe5c86d9042cb57598a04c2b5ceb99148",
+        "sourceRevision": 8,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-08T15:15:38.810257+08:00"
+        "acknowledged_at": "2026-10-08T17:30:41.337346+08:00"
       },
       "群二": {
         "digest": "40861654ea9b52ea78b551e85724eff7b6f2082ce4adfbafd43e524da1415f47",

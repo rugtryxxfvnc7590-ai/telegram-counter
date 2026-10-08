@@ -126,7 +126,7 @@ class FullTextRoutingTests(unittest.TestCase):
             return self.response({"status": {"id": "123", "is_note_tweet": False,
                 "author": {"screen_name": "member", "followers": 200000}, "text": partial}})
 
-        with patch.object(main.requests, "get", side_effect=get):
+        with patch.object(main.requests, "get", side_effect=get, create=True):
             meta = main.fetch_x_author_meta(handle=handle, post_id="123")
         return meta, complete, calls
 

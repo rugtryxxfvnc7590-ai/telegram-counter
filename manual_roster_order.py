@@ -2,16 +2,19 @@
 from copy import deepcopy
 import hashlib
 import os
+import re
 from urllib.parse import urlsplit
 
 import requests
 
-from batch_rosters import flatten_batches
+from batch_rosters import flatten_batches, batch_vacancies
+from daily_capacity import chat_ids_for_group
+from private_list_sync import freeze_links, post_identity
 from website_sync import DEFAULT_URL, encode_payload, signed_headers
 from withdrawal_sync import beijing_now
 
 
-def apply_order(record, order, day):
+def apply_order(record, order, day, registry=None):
     revision = order.get("revision")
     current = record.get("manual_order_revision", 0)
     if order.get("date") != day or type(revision) is not int or revision < 1:
@@ -20,6 +23,8 @@ def apply_order(record, order, day):
         return deepcopy(record)
     if current != order.get("baseRevision", 0) or not record.get("batches"):
         raise ValueError("order_base_changed")
+    if order.get("operation") == "add":
+        return apply_addition(record, order, day, registry or {})
     moves = order.get("moves")
     if not isinstance(moves, list) or not 2 <= len(moves) <= 300:
         raise ValueError("invalid_moves")
@@ -39,15 +44,18 @@ def apply_order(record, order, day):
     if origins != targets:
         raise ValueError("not_a_permutation")
     result = deepcopy(record)
-    size = result["batch_policy"]["size"]
     destination = {move["from"]: move["to"] for move in moves}
     for batch in result["batches"].values():
         batch["slots"] = []
     for origin, old in slots.items():
         slot = deepcopy(old)
         position = destination.get(origin, origin)
-        label = chr(65 + (position - 1) // size)
-        slot.update(position=(position - 1) % size + 1, list_id=label)
+        target_slot = slots[position]
+        label, local = target_slot["list_id"], target_slot["list_position"]
+        slot.pop("global_position", None)
+        if target_slot.get("global_position"):
+            slot["global_position"] = position
+        slot.update(position=local, list_id=label)
         slot.pop("list_position", None)
         if origin in destination:
             slot["manual_position"] = True
@@ -61,7 +69,41 @@ def apply_order(record, order, day):
     return result
 
 
-def sync_manual_roster_order(state, now=None, save_callback=None, secret=None, origin=None, post=None):
+def apply_addition(record, order, day, registry):
+    addition = order.get("addition") or {}
+    label, position, local = addition.get("listId"), addition.get("position"), addition.get("listPosition")
+    size, count = record["batch_policy"]["size"], record["batch_policy"]["max_batches"]
+    handle, post_id = post_identity(addition.get("url"))
+    if (label not in record["batches"] or not re.fullmatch(r"[a-z0-9_]{1,15}", handle)
+            or addition.get("account") != handle or addition.get("postId") != post_id
+            or type(position) is not int or not size * count < position <= 300
+            or type(local) is not int or not size < local <= 300):
+        raise ValueError("invalid_addition")
+    batch = record["batches"][label]
+    used_global = {s["position"] for s in record["slots"]} | set(map(int, record.get("vacant_positions", {})))
+    used_local = {s["position"] for s in batch["slots"]} | set(map(int, batch["vacant_positions"]))
+    if (position in used_global or local in used_local
+            or any(s["handle"].lower() == handle or s["post_id"] == post_id for s in record["slots"])):
+        raise ValueError("roster_changed")
+    result = deepcopy(record)
+    url = f"https://x.com/{handle}/status/{post_id}"
+    slot = freeze_links([url], registry, chat_ids_for_group("群一"), day)[0]
+    slot.update(position=local, global_position=position, list_id=label,
+                manual_addition=True, manual_position=True, admitted_at=order["requestedAt"],
+                display_name=str(addition.get("displayName") or ""))
+    batch = result["batches"][label]
+    batch.setdefault("manual_positions", {})[str(local)] = position
+    batch["slots"].append(slot)
+    batch["slots"].sort(key=lambda s: s["position"])
+    batch.update(count=len(batch["slots"]), capacity=max(batch["capacity"], len(batch["slots"])),
+                 roster_capacity=max(batch.get("roster_capacity", 0), len(batch["slots"])))
+    result["assigned_accounts"][handle] = label
+    result.update(slots=flatten_batches(result), vacant_positions=batch_vacancies(result),
+                  count=record["count"] + 1, manual_order_revision=order["revision"])
+    return result
+
+
+def sync_manual_roster_order(state, now=None, save_callback=None, secret=None, origin=None, post=None, registry=None):
     now = beijing_now(now)
     day = now.strftime("%Y-%m-%d")
     daily = state.get("daily_rosters") or {}
@@ -95,7 +137,7 @@ def sync_manual_roster_order(state, now=None, save_callback=None, secret=None, o
         if order.get("revision") == record.get("manual_order_revision", 0):
             return "unchanged"
         try:
-            result = apply_order(record, order, day)
+            result = apply_order(record, order, day, registry=registry)
         except (KeyError, TypeError, ValueError):
             request({"date": day, "revision": order.get("revision"), "status": "rejected"})
             return "roster_changed"

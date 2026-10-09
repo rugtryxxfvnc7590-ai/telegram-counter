@@ -98,6 +98,7 @@ def roster_items(record):
     items = [{"position": slot["position"], "url": slot["url"],
               "note": "已编辑" if slot.get("edited") else "",
               "isReplacement": bool(slot.get("is_replacement")),
+              **({"manualAddition": True} if slot.get("global_position") else {}),
               **({"listId": slot["list_id"], "listPosition": slot["list_position"],
                   "displayName": slot.get("display_name", "")} if slot.get("list_id") else {})}
              for slot in record.get("slots", [])]
@@ -105,7 +106,13 @@ def roster_items(record):
         item = {"position": int(position), "url": None, "note": "等待候补", "isReplacement": False}
         if record.get("batches"):
             size = record["batch_policy"]["size"]
-            item.update(listId=chr(65 + (int(position) - 1) // size), listPosition=(int(position) - 1) % size + 1)
+            extra = next(((label, int(local)) for label, batch in record["batches"].items()
+                          for local, global_pos in batch.get("manual_positions", {}).items()
+                          if global_pos == int(position)), None)
+            if extra:
+                item.update(listId=extra[0], listPosition=extra[1], manualAddition=True)
+            else:
+                item.update(listId=chr(65 + (int(position) - 1) // size), listPosition=(int(position) - 1) % size + 1)
         items.append(item)
     return sorted(items, key=lambda item: item["position"])
 

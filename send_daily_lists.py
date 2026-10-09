@@ -24,7 +24,7 @@ def main():
         stamp_admission(registry, limits)
         save_registry(registry)
     refresh_daily_rosters(registry, state, limits, save_callback=lambda: save_state(state))
-    order_result = sync_manual_roster_order(state, save_callback=lambda: save_state(state))
+    order_result = sync_manual_roster_order(state, save_callback=lambda: save_state(state), registry=registry)
     print(f"管理员名单调序：{order_result}。")
     results = send_daily_lists_to_owner(
         registry,

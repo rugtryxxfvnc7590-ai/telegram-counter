@@ -40,8 +40,15 @@ def flatten_batches(record):
     for index, (label, batch) in enumerate(sorted(record["batches"].items())):
         for slot in batch["slots"]:
             result.append(dict(slot, list_id=label, list_position=slot["position"],
-                               position=index * size + slot["position"]))
+                               position=slot.get("global_position", index * size + slot["position"])))
     return result
+
+
+def batch_vacancies(record):
+    size = record["batch_policy"]["size"]
+    return {str(batch.get("manual_positions", {}).get(str(pos), index * size + int(pos))): mid
+            for index, batch in enumerate(record["batches"].values())
+            for pos, mid in batch["vacant_positions"].items()}
 
 
 def refresh_batch_roster(previous, registry, group, day, now_text, policy):
@@ -94,7 +101,8 @@ def refresh_batch_roster(previous, registry, group, day, now_text, policy):
                 same_owner = bool(slot.get("tg_user_id")) and str(entry.get("tg_user_id") or "") == str(slot["tg_user_id"])
                 newer_message = row and (str(entry.get("time") or ""), int(row["message_id"])) > (
                     str(slot.get("time") or ""), int(slot.get("message_id") or 0))
-                if row and same_owner and newer_message and str(row["message_id"]) != str(slot.get("message_id")):
+                if (not slot.get("manual_addition") and row and same_owner and newer_message
+                        and str(row["message_id"]) != str(slot.get("message_id"))):
                     mid, position = str(slot["message_id"]), str(slot["position"])
                     batch["vacant_positions"][position] = mid
                     batch.setdefault("vacant_accounts", {})[position] = slot["handle"]
@@ -117,10 +125,11 @@ def refresh_batch_roster(previous, registry, group, day, now_text, policy):
                 continue
             available = None
             for label, batch in sorted(result["batches"].items()):
-                if len(batch["slots"]) >= size:
+                # Administrator-only overflow positions never enlarge the bot's quota.
+                if sum(slot["position"] <= size for slot in batch["slots"]) >= size:
                     continue
                 vacancies = [int(pos) for pos in batch["vacant_positions"]
-                             if batch.get("vacant_accounts", {}).get(pos) != handle]
+                             if int(pos) <= size and batch.get("vacant_accounts", {}).get(pos) != handle]
                 occupied = {int(slot["position"]) for slot in batch["slots"]} | set(map(int, batch["vacant_positions"]))
                 position = min(vacancies, default=0) or next((pos for pos in range(1, size + 1) if pos not in occupied), 0)
                 if position:
@@ -153,8 +162,7 @@ def refresh_batch_roster(previous, registry, group, day, now_text, policy):
     if requeued:
         result["requeued_message_ids"] = sorted(requeued)
     result["slots"] = flatten_batches(result)
-    result["vacant_positions"] = {str(index * size + int(pos)): mid
-        for index, batch in enumerate(result["batches"].values()) for pos, mid in batch["vacant_positions"].items()}
+    result["vacant_positions"] = batch_vacancies(result)
     result.update(count=len(result["slots"]), capacity=size * count, roster_capacity=size * count,
                   admission_limit=size * count)
     return result

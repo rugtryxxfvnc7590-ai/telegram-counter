@@ -1,9 +1,9 @@
 {
   "date": "2026-10-10",
-  "offset": 364620299,
+  "offset": 364620301,
   "groups": {
     "-1003891628675": {
-      "count": 33,
+      "count": 34,
       "message_ids": [
         "9278",
         "9279",
@@ -37,7 +37,8 @@
         "9308",
         "9310",
         "9313",
-        "9314"
+        "9314",
+        "9315"
       ]
     },
     "-1003218974409": {
@@ -51,7 +52,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-10",
-    "run_at": "2026-10-10 13:45:27",
+    "run_at": "2026-10-10 14:00:43",
     "completed_groups": [
       "群一",
       "群二",
@@ -59,40 +60,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "38028570030:1",
-        "checked_at": "2026-10-10 13:45:28",
+        "run_key": "38029431151:1",
+        "checked_at": "2026-10-10 14:00:44",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "38028570030:1",
-        "checked_at": "2026-10-10 13:45:28",
+        "run_key": "38029431151:1",
+        "checked_at": "2026-10-10 14:00:45",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "38028570030:1",
-        "checked_at": "2026-10-10 13:45:28",
+        "run_key": "38029431151:1",
+        "checked_at": "2026-10-10 14:00:45",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "38028570030:1",
-        "checked_at": "2026-10-10 13:45:28",
+        "run_key": "38029431151:1",
+        "checked_at": "2026-10-10 14:00:44",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "38028570030:1",
-        "checked_at": "2026-10-10 13:45:28",
+        "run_key": "38029431151:1",
+        "checked_at": "2026-10-10 14:00:45",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "38028570030:1",
-        "checked_at": "2026-10-10 13:45:28",
+        "run_key": "38029431151:1",
+        "checked_at": "2026-10-10 14:00:45",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1117,12 +1118,27 @@
           "B": {
             "slots": [
               {
+                "handle": "qinxian8023",
+                "post_id": "1843994899403976912",
+                "original_post_id": "1843994899403976912",
+                "url": "https://x.com/qinxian8023/status/1843994899403976912",
+                "edited": false,
+                "position": 1,
+                "message_id": "9315",
+                "tg_user_id": "1264616126",
+                "time": "2026-10-10 13:50:05",
+                "admission_time": "2026-10-10 13:50:05",
+                "list_id": "B",
+                "display_name": "宇宙的琴弦",
+                "admitted_at": "2026-10-10 14:00:46"
+              },
+              {
                 "handle": "si_xiao47754",
                 "post_id": "2074880148785299927",
                 "original_post_id": "2074880148785299927",
                 "url": "https://x.com/si_xiao47754/status/2074880148785299927",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9314",
                 "tg_user_id": "8345041924",
                 "time": "2026-10-10 12:26:53",
@@ -1137,7 +1153,7 @@
                 "original_post_id": "2102363645208572193",
                 "url": "https://x.com/joragyyy/status/2102363645208572193",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9313",
                 "tg_user_id": "7996721954",
                 "time": "2026-10-10 01:14:56",
@@ -1152,7 +1168,7 @@
                 "original_post_id": "2105178335533834660",
                 "url": "https://x.com/cattyllo023/status/2105178335533834660",
                 "edited": false,
-                "position": 3,
+                "position": 4,
                 "message_id": "9310",
                 "tg_user_id": "7847834068",
                 "time": "2026-10-10 00:49:28",
@@ -1163,9 +1179,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 3,
-            "count": 3,
-            "roster_capacity": 3,
+            "capacity": 4,
+            "count": 4,
+            "roster_capacity": 4,
             "withdrawn_message_ids": []
           }
         },
@@ -1200,9 +1216,10 @@
           "sleepsbg": "A",
           "snd99x": "A",
           "meehutaotv": "A",
+          "si_xiao47754": "B",
           "joragyyy": "B",
           "cattyllo023": "B",
-          "si_xiao47754": "B"
+          "qinxian8023": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -1688,12 +1705,28 @@
             "list_position": 30
           },
           {
+            "handle": "qinxian8023",
+            "post_id": "1843994899403976912",
+            "original_post_id": "1843994899403976912",
+            "url": "https://x.com/qinxian8023/status/1843994899403976912",
+            "edited": false,
+            "position": 31,
+            "message_id": "9315",
+            "tg_user_id": "1264616126",
+            "time": "2026-10-10 13:50:05",
+            "admission_time": "2026-10-10 13:50:05",
+            "list_id": "B",
+            "display_name": "宇宙的琴弦",
+            "admitted_at": "2026-10-10 14:00:46",
+            "list_position": 1
+          },
+          {
             "handle": "si_xiao47754",
             "post_id": "2074880148785299927",
             "original_post_id": "2074880148785299927",
             "url": "https://x.com/si_xiao47754/status/2074880148785299927",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9314",
             "tg_user_id": "8345041924",
             "time": "2026-10-10 12:26:53",
@@ -1701,7 +1734,7 @@
             "list_id": "B",
             "display_name": "丝袜小淫妻",
             "admitted_at": "2026-10-10 12:30:42",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "joragyyy",
@@ -1709,7 +1742,7 @@
             "original_post_id": "2102363645208572193",
             "url": "https://x.com/joragyyy/status/2102363645208572193",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9313",
             "tg_user_id": "7996721954",
             "time": "2026-10-10 01:14:56",
@@ -1717,7 +1750,7 @@
             "list_id": "B",
             "display_name": "Yiiceing",
             "admitted_at": "2026-10-10 01:15:36",
-            "list_position": 2
+            "list_position": 3
           },
           {
             "handle": "cattyllo023",
@@ -1725,7 +1758,7 @@
             "original_post_id": "2105178335533834660",
             "url": "https://x.com/cattyllo023/status/2105178335533834660",
             "edited": false,
-            "position": 33,
+            "position": 34,
             "message_id": "9310",
             "tg_user_id": "7847834068",
             "time": "2026-10-10 00:49:28",
@@ -1733,11 +1766,11 @@
             "list_id": "B",
             "display_name": "奶酪",
             "admitted_at": "2026-10-10 01:00:56",
-            "list_position": 3
+            "list_position": 4
           }
         ],
         "vacant_positions": {},
-        "count": 33,
+        "count": 34,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1766,10 +1799,22 @@
     "date": "2026-10-10",
     "groups": {
       "群一": {
-        "digest": "74b210d6f7422e07efd5a2c6e774e887d81f8a85a3eb3210dcdde3c384ecbfc7",
-        "sourceRevision": 5,
+        "digest": "15fd4a4fc0f171b80b50e074d0620e5d0719d0b89f7c02249cde36a51f9616c1",
+        "sourceRevision": 6,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-10T12:30:42.490130+08:00"
+        "acknowledged_at": "2026-10-10T14:00:47.565743+08:00"
+      },
+      "群二": {
+        "digest": "c81e68d5740cbc2a24330df5c5fec35bbc4abe8c308523ad23c5a49bcc9e4793",
+        "sourceRevision": 1,
+        "acknowledged": true,
+        "acknowledged_at": "2026-10-10T14:00:47.791661+08:00"
+      },
+      "群三": {
+        "digest": "9c49dd24cde6401d979a2d1389eef72bfb8eacf333759e48b4ab4af472c5d7e6",
+        "sourceRevision": 1,
+        "acknowledged": true,
+        "acknowledged_at": "2026-10-10T14:00:47.986479+08:00"
       }
     }
   },

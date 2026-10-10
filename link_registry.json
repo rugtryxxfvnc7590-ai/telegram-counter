@@ -618,43 +618,38 @@
         "tg_username": "hong14868_03",
         "tg_user_id": 8412768331,
         "tg_name": "不闲聊 hong14868",
-        "link": "https://x.com/hong14868/status/2101570905025527809?s=46",
-        "message_text": "https://x.com/hong14868/status/2101570905025527809?s=46",
+        "link": "https://x.com/hong14868/status/2108832975387300281?s=46",
+        "message_text": "https://x.com/hong14868/status/2108832975387300281?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/hong14868/status/2101570905025527809?s=46",
+            "url": "https://x.com/hong14868/status/2108832975387300281?s=46",
             "handle": "hong14868",
-            "post_id": "2101570905025527809",
+            "post_id": "2108832975387300281",
             "role": "promo",
             "author_name": "hong14868",
-            "followers_count": 497227,
+            "followers_count": 497684,
             "followers_text": "49.7W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
+              "status_legacy"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 497227
+                "count": 497684
               },
               {
                 "source": "status_legacy_i",
-                "count": 497227
+                "count": 497684
               },
               {
                 "source": "status_legacy",
-                "count": 497227
-              },
-              {
-                "source": "profile_v2",
-                "count": 497227
+                "count": 497684
               }
             ],
-            "tweet_text": "尴尬的抠出三室一厅，\n更多精彩🚪后更新~\n@ToBulaer @ToBuerma\n@KawasawaSen",
+            "tweet_text": "只是在认真找东西\n更多精彩🚪后更新~\n@ToBulaer @ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -664,22 +659,22 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 53,
+                "length": 51,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 53,
+                "length": 51,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_author",
-                "length": 53,
+                "length": 51,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 53,
+                "length": 51,
                 "required_mentions_count": 3
               }
             ],
@@ -689,7 +684,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/hong14868/status/2108832975387300281?s=46",
+            "post_id": "2108832975387300281",
+            "handle": "hong14868",
+            "source_time": "2026-10-10 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/hong14868/status/2101570905025527809?s=46",
             "post_id": "2101570905025527809",
             "handle": "hong14868",
@@ -699,7 +702,7 @@
         ],
         "x_name": "hong14868",
         "promo_name": "hong14868",
-        "followers_count": 497227,
+        "followers_count": 497684,
         "followers_text": "49.7W",
         "followers_sources": [
           "status_v2",
@@ -710,48 +713,43 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 497227
+            "count": 497684
           },
           {
             "source": "status_legacy_i",
-            "count": 497227
+            "count": 497684
           },
           {
             "source": "status_legacy",
-            "count": 497227
+            "count": 497684
           },
           {
             "source": "profile_v2",
-            "count": 497227
+            "count": 497684
           }
         ],
-        "check_followers_count": 497227,
+        "check_followers_count": 497684,
         "check_followers_text": "49.7W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
+          "status_legacy"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 497227
+            "count": 497684
           },
           {
             "source": "status_legacy_i",
-            "count": 497227
+            "count": 497684
           },
           {
             "source": "status_legacy",
-            "count": 497227
-          },
-          {
-            "source": "profile_v2",
-            "count": 497227
+            "count": 497684
           }
         ],
-        "tweet_text": "尴尬的抠出三室一厅，\n更多精彩🚪后更新~\n@ToBulaer @ToBuerma\n@KawasawaSen",
+        "tweet_text": "只是在认真找东西\n更多精彩🚪后更新~\n@ToBulaer @ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -761,41 +759,41 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 53,
+            "length": 51,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 53,
+            "length": 51,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_author",
-            "length": 53,
+            "length": 51,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 53,
+            "length": 51,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/hong14868/status/2101570905025527809?s=46",
-        "check_url": "https://x.com/hong14868/status/2101570905025527809?s=46",
-        "promo_post_id": "2101570905025527809",
-        "check_post_id": "2101570905025527809",
+        "promo_url": "https://x.com/hong14868/status/2108832975387300281?s=46",
+        "check_url": "https://x.com/hong14868/status/2108832975387300281?s=46",
+        "promo_post_id": "2108832975387300281",
+        "check_post_id": "2108832975387300281",
         "chat_id": "-1003891628675",
         "message_id": 9281,
         "time": "2026-10-10 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-10 16:17:50",
         "followers_min": 100000,
-        "qualified_followers_count": 497227,
+        "qualified_followers_count": 497684,
         "qualified_followers_text": "49.7W",
         "qualified_followers_sources": [
           "status_v2",
@@ -8058,7 +8056,7 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 28
       },
-      "2101570905025527809": {
+      "2108832975387300281": {
         "x_handle": "hong14868",
         "check_handle": "hong14868",
         "dual_link": false,
@@ -8066,43 +8064,38 @@
         "tg_username": "hong14868_03",
         "tg_user_id": 8412768331,
         "tg_name": "不闲聊 hong14868",
-        "link": "https://x.com/hong14868/status/2101570905025527809?s=46",
-        "message_text": "https://x.com/hong14868/status/2101570905025527809?s=46",
+        "link": "https://x.com/hong14868/status/2108832975387300281?s=46",
+        "message_text": "https://x.com/hong14868/status/2108832975387300281?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/hong14868/status/2101570905025527809?s=46",
+            "url": "https://x.com/hong14868/status/2108832975387300281?s=46",
             "handle": "hong14868",
-            "post_id": "2101570905025527809",
+            "post_id": "2108832975387300281",
             "role": "promo",
             "author_name": "hong14868",
-            "followers_count": 497227,
+            "followers_count": 497684,
             "followers_text": "49.7W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
+              "status_legacy"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 497227
+                "count": 497684
               },
               {
                 "source": "status_legacy_i",
-                "count": 497227
+                "count": 497684
               },
               {
                 "source": "status_legacy",
-                "count": 497227
-              },
-              {
-                "source": "profile_v2",
-                "count": 497227
+                "count": 497684
               }
             ],
-            "tweet_text": "尴尬的抠出三室一厅，\n更多精彩🚪后更新~\n@ToBulaer @ToBuerma\n@KawasawaSen",
+            "tweet_text": "只是在认真找东西\n更多精彩🚪后更新~\n@ToBulaer @ToBuerma\n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -8112,22 +8105,22 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 53,
+                "length": 51,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy_i",
-                "length": 53,
+                "length": 51,
                 "required_mentions_count": 3
               },
               {
                 "source": "vx_status_author",
-                "length": 53,
+                "length": 51,
                 "required_mentions_count": 3
               },
               {
                 "source": "status_legacy",
-                "length": 53,
+                "length": 51,
                 "required_mentions_count": 3
               }
             ],
@@ -8137,7 +8130,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/hong14868/status/2108832975387300281?s=46",
+            "post_id": "2108832975387300281",
+            "handle": "hong14868",
+            "source_time": "2026-10-10 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/hong14868/status/2101570905025527809?s=46",
             "post_id": "2101570905025527809",
             "handle": "hong14868",
@@ -8147,7 +8148,7 @@
         ],
         "x_name": "hong14868",
         "promo_name": "hong14868",
-        "followers_count": 497227,
+        "followers_count": 497684,
         "followers_text": "49.7W",
         "followers_sources": [
           "status_v2",
@@ -8158,48 +8159,43 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 497227
+            "count": 497684
           },
           {
             "source": "status_legacy_i",
-            "count": 497227
+            "count": 497684
           },
           {
             "source": "status_legacy",
-            "count": 497227
+            "count": 497684
           },
           {
             "source": "profile_v2",
-            "count": 497227
+            "count": 497684
           }
         ],
-        "check_followers_count": 497227,
+        "check_followers_count": 497684,
         "check_followers_text": "49.7W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
+          "status_legacy"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 497227
+            "count": 497684
           },
           {
             "source": "status_legacy_i",
-            "count": 497227
+            "count": 497684
           },
           {
             "source": "status_legacy",
-            "count": 497227
-          },
-          {
-            "source": "profile_v2",
-            "count": 497227
+            "count": 497684
           }
         ],
-        "tweet_text": "尴尬的抠出三室一厅，\n更多精彩🚪后更新~\n@ToBulaer @ToBuerma\n@KawasawaSen",
+        "tweet_text": "只是在认真找东西\n更多精彩🚪后更新~\n@ToBulaer @ToBuerma\n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -8209,41 +8205,41 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 53,
+            "length": 51,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy_i",
-            "length": 53,
+            "length": 51,
             "required_mentions_count": 3
           },
           {
             "source": "vx_status_author",
-            "length": 53,
+            "length": 51,
             "required_mentions_count": 3
           },
           {
             "source": "status_legacy",
-            "length": 53,
+            "length": 51,
             "required_mentions_count": 3
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 3,
         "content_eligible": true,
-        "promo_url": "https://x.com/hong14868/status/2101570905025527809?s=46",
-        "check_url": "https://x.com/hong14868/status/2101570905025527809?s=46",
-        "promo_post_id": "2101570905025527809",
-        "check_post_id": "2101570905025527809",
+        "promo_url": "https://x.com/hong14868/status/2108832975387300281?s=46",
+        "check_url": "https://x.com/hong14868/status/2108832975387300281?s=46",
+        "promo_post_id": "2108832975387300281",
+        "check_post_id": "2108832975387300281",
         "chat_id": "-1003891628675",
         "message_id": 9281,
         "time": "2026-10-10 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-10 16:17:50",
         "followers_min": 100000,
-        "qualified_followers_count": 497227,
+        "qualified_followers_count": 497684,
         "qualified_followers_text": "49.7W",
         "qualified_followers_sources": [
           "status_v2",
@@ -15325,10 +15321,10 @@
               },
               {
                 "handle": "hong14868",
-                "post_id": "2101570905025527809",
+                "post_id": "2108832975387300281",
                 "original_post_id": "2101570905025527809",
-                "url": "https://x.com/hong14868/status/2101570905025527809",
-                "edited": false,
+                "url": "https://x.com/hong14868/status/2108832975387300281",
+                "edited": true,
                 "position": 27,
                 "message_id": "9281",
                 "tg_user_id": "8412768331",
@@ -15336,7 +15332,8 @@
                 "admission_time": "2026-10-10 00:00:00",
                 "list_id": "A",
                 "display_name": "hong14868",
-                "admitted_at": "2026-10-10 00:01:40"
+                "admitted_at": "2026-10-10 00:01:40",
+                "edit_time": "2026-10-10 16:17:50"
               },
               {
                 "handle": "sleepsbg",
@@ -15536,13 +15533,13 @@
           "sleepsbg": "A",
           "snd99x": "A",
           "meehutaotv": "A",
+          "shoojeenn": "B",
+          "thelol1pop99": "B",
           "uudajiejie": "B",
           "qinxian8023": "B",
           "si_xiao47754": "B",
           "joragyyy": "B",
-          "cattyllo023": "B",
-          "thelol1pop99": "B",
-          "shoojeenn": "B"
+          "cattyllo023": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -15965,10 +15962,10 @@
           },
           {
             "handle": "hong14868",
-            "post_id": "2101570905025527809",
+            "post_id": "2108832975387300281",
             "original_post_id": "2101570905025527809",
-            "url": "https://x.com/hong14868/status/2101570905025527809",
-            "edited": false,
+            "url": "https://x.com/hong14868/status/2108832975387300281",
+            "edited": true,
             "position": 27,
             "message_id": "9281",
             "tg_user_id": "8412768331",
@@ -15977,6 +15974,7 @@
             "list_id": "A",
             "display_name": "hong14868",
             "admitted_at": "2026-10-10 00:01:40",
+            "edit_time": "2026-10-10 16:17:50",
             "list_position": 27
           },
           {

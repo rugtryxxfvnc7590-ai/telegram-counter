@@ -1,9 +1,9 @@
 {
   "date": "2026-10-11",
-  "offset": 364620504,
+  "offset": 364620508,
   "groups": {
     "-1003891628675": {
-      "count": 33,
+      "count": 34,
       "message_ids": [
         "9324",
         "9325",
@@ -12,6 +12,7 @@
         "9328",
         "9329",
         "9330",
+        "9331",
         "9332",
         "9333",
         "9334",
@@ -51,7 +52,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-11",
-    "run_at": "2026-10-11 00:45:23",
+    "run_at": "2026-10-11 01:00:46",
     "completed_groups": [
       "群一",
       "群二",
@@ -59,40 +60,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "38068929089:1",
-        "checked_at": "2026-10-11 00:45:24",
+        "run_key": "38069960959:1",
+        "checked_at": "2026-10-11 01:00:47",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "38068929089:1",
-        "checked_at": "2026-10-11 00:45:24",
+        "run_key": "38069960959:1",
+        "checked_at": "2026-10-11 01:00:47",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "38068929089:1",
-        "checked_at": "2026-10-11 00:45:25",
+        "run_key": "38069960959:1",
+        "checked_at": "2026-10-11 01:00:48",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "38068929089:1",
-        "checked_at": "2026-10-11 00:45:24",
+        "run_key": "38069960959:1",
+        "checked_at": "2026-10-11 01:00:47",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "38068929089:1",
-        "checked_at": "2026-10-11 00:45:24",
+        "run_key": "38069960959:1",
+        "checked_at": "2026-10-11 01:00:47",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "38068929089:1",
-        "checked_at": "2026-10-11 00:45:25",
+        "run_key": "38069960959:1",
+        "checked_at": "2026-10-11 01:00:48",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1107,12 +1108,27 @@
           "B": {
             "slots": [
               {
+                "handle": "wdqhc999",
+                "post_id": "2108962032313946423",
+                "original_post_id": "2108962032313946423",
+                "url": "https://x.com/wdqhc999/status/2108962032313946423",
+                "edited": false,
+                "position": 1,
+                "message_id": "9331",
+                "tg_user_id": "874072822",
+                "time": "2026-10-11 00:00:00",
+                "admission_time": "2026-10-11 00:45:43",
+                "list_id": "B",
+                "display_name": "我的枪好长啊",
+                "admitted_at": "2026-10-11 01:00:49"
+              },
+              {
                 "handle": "guilin010",
                 "post_id": "2104930975256059995",
                 "original_post_id": "2104930975256059995",
                 "url": "https://x.com/guilin010/status/2104930975256059995",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9357",
                 "tg_user_id": "7182472764",
                 "time": "2026-10-11 00:05:10",
@@ -1127,7 +1143,7 @@
                 "original_post_id": "2101602852980318419",
                 "url": "https://x.com/aksaks99999/status/2101602852980318419",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9356",
                 "tg_user_id": "5829845216",
                 "time": "2026-10-11 00:04:48",
@@ -1142,7 +1158,7 @@
                 "original_post_id": "2108383244769230986",
                 "url": "https://x.com/gangs66/status/2108383244769230986",
                 "edited": false,
-                "position": 3,
+                "position": 4,
                 "message_id": "9355",
                 "tg_user_id": "8735723228",
                 "time": "2026-10-11 00:04:14",
@@ -1153,13 +1169,19 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 3,
-            "count": 3,
-            "roster_capacity": 3,
+            "capacity": 4,
+            "count": 4,
+            "roster_capacity": 4,
             "withdrawn_message_ids": []
           }
         },
         "assigned_accounts": {
+          "jingyeshiwu": "A",
+          "sluttytatia404": "A",
+          "xye918": "A",
+          "youmeier": "A",
+          "qiobnxingcai": "A",
+          "asecresm": "A",
           "sleepsbg": "A",
           "xye9518": "A",
           "jxzeroc": "A",
@@ -1184,15 +1206,10 @@
           "meehutaotv": "A",
           "snd99x": "A",
           "tiaotiaosheep": "A",
-          "asecresm": "A",
-          "qiobnxingcai": "A",
-          "youmeier": "A",
-          "xye918": "A",
-          "sluttytatia404": "A",
-          "jingyeshiwu": "A",
-          "gangs66": "B",
+          "guilin010": "B",
           "aksaks99999": "B",
-          "guilin010": "B"
+          "gangs66": "B",
+          "wdqhc999": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -1677,12 +1694,28 @@
             "list_position": 30
           },
           {
+            "handle": "wdqhc999",
+            "post_id": "2108962032313946423",
+            "original_post_id": "2108962032313946423",
+            "url": "https://x.com/wdqhc999/status/2108962032313946423",
+            "edited": false,
+            "position": 31,
+            "message_id": "9331",
+            "tg_user_id": "874072822",
+            "time": "2026-10-11 00:00:00",
+            "admission_time": "2026-10-11 00:45:43",
+            "list_id": "B",
+            "display_name": "我的枪好长啊",
+            "admitted_at": "2026-10-11 01:00:49",
+            "list_position": 1
+          },
+          {
             "handle": "guilin010",
             "post_id": "2104930975256059995",
             "original_post_id": "2104930975256059995",
             "url": "https://x.com/guilin010/status/2104930975256059995",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9357",
             "tg_user_id": "7182472764",
             "time": "2026-10-11 00:05:10",
@@ -1690,7 +1723,7 @@
             "list_id": "B",
             "display_name": "小林的涩涩日常",
             "admitted_at": "2026-10-11 00:12:55",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "aksaks99999",
@@ -1698,7 +1731,7 @@
             "original_post_id": "2101602852980318419",
             "url": "https://x.com/aksaks99999/status/2101602852980318419",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9356",
             "tg_user_id": "5829845216",
             "time": "2026-10-11 00:04:48",
@@ -1706,7 +1739,7 @@
             "list_id": "B",
             "display_name": "AKs",
             "admitted_at": "2026-10-11 00:12:55",
-            "list_position": 2
+            "list_position": 3
           },
           {
             "handle": "gangs66",
@@ -1714,7 +1747,7 @@
             "original_post_id": "2108383244769230986",
             "url": "https://x.com/gangs66/status/2108383244769230986",
             "edited": false,
-            "position": 33,
+            "position": 34,
             "message_id": "9355",
             "tg_user_id": "8735723228",
             "time": "2026-10-11 00:04:14",
@@ -1722,11 +1755,11 @@
             "list_id": "B",
             "display_name": "千手綱",
             "admitted_at": "2026-10-11 00:12:55",
-            "list_position": 3
+            "list_position": 4
           }
         ],
         "vacant_positions": {},
-        "count": 33,
+        "count": 34,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1755,10 +1788,10 @@
     "date": "2026-10-11",
     "groups": {
       "群一": {
-        "digest": "0b46440d16d34ae947c275f7b2454149abd35665448ab00e3ea9b70544df400c",
-        "sourceRevision": 2,
+        "digest": "194b05cc45d28db2e30db3a30fa3e0a143d71ca1e55dd05325cce583f569389a",
+        "sourceRevision": 3,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-11T00:12:55.826243+08:00"
+        "acknowledged_at": "2026-10-11T01:00:49.703212+08:00"
       }
     }
   },

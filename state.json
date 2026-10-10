@@ -1,9 +1,9 @@
 {
   "date": "2026-10-10",
-  "offset": 364620310,
+  "offset": 364620317,
   "groups": {
     "-1003891628675": {
-      "count": 35,
+      "count": 37,
       "message_ids": [
         "9278",
         "9279",
@@ -39,7 +39,9 @@
         "9313",
         "9314",
         "9315",
-        "9316"
+        "9316",
+        "9317",
+        "9318"
       ]
     },
     "-1003218974409": {
@@ -53,7 +55,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-10",
-    "run_at": "2026-10-10 15:45:27",
+    "run_at": "2026-10-10 16:00:45",
     "completed_groups": [
       "群一",
       "群二",
@@ -61,40 +63,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "38035498998:1",
-        "checked_at": "2026-10-10 15:45:29",
+        "run_key": "38036373733:1",
+        "checked_at": "2026-10-10 16:00:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "38035498998:1",
-        "checked_at": "2026-10-10 15:45:29",
+        "run_key": "38036373733:1",
+        "checked_at": "2026-10-10 16:00:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "38035498998:1",
-        "checked_at": "2026-10-10 15:45:29",
+        "run_key": "38036373733:1",
+        "checked_at": "2026-10-10 16:00:46",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "38035498998:1",
-        "checked_at": "2026-10-10 15:45:29",
+        "run_key": "38036373733:1",
+        "checked_at": "2026-10-10 16:00:46",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "38035498998:1",
-        "checked_at": "2026-10-10 15:45:29",
+        "run_key": "38036373733:1",
+        "checked_at": "2026-10-10 16:00:46",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "38035498998:1",
-        "checked_at": "2026-10-10 15:45:29",
+        "run_key": "38036373733:1",
+        "checked_at": "2026-10-10 16:00:46",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1119,12 +1121,42 @@
           "B": {
             "slots": [
               {
+                "handle": "shoojeenn",
+                "post_id": "2108802368951533674",
+                "original_post_id": "2108802368951533674",
+                "url": "https://x.com/shoojeenn/status/2108802368951533674",
+                "edited": false,
+                "position": 1,
+                "message_id": "9318",
+                "tg_user_id": "7633123845",
+                "time": "2026-10-10 15:59:15",
+                "admission_time": "2026-10-10 15:59:15",
+                "list_id": "B",
+                "display_name": "姝姬娘娘Shoo Jee🌟",
+                "admitted_at": "2026-10-10 16:00:47"
+              },
+              {
+                "handle": "thelol1pop99",
+                "post_id": "2108044463016681853",
+                "original_post_id": "2108044463016681853",
+                "url": "https://x.com/thelol1pop99/status/2108044463016681853",
+                "edited": false,
+                "position": 2,
+                "message_id": "9317",
+                "tg_user_id": "1770606411",
+                "time": "2026-10-10 15:56:50",
+                "admission_time": "2026-10-10 15:56:50",
+                "list_id": "B",
+                "display_name": "Loliiiiipop99💛棒棒糖🍭",
+                "admitted_at": "2026-10-10 16:00:47"
+              },
+              {
                 "handle": "uudajiejie",
                 "post_id": "2108471312901664783",
                 "original_post_id": "2108471312901664783",
                 "url": "https://x.com/uudajiejie/status/2108471312901664783",
                 "edited": false,
-                "position": 1,
+                "position": 3,
                 "message_id": "9316",
                 "tg_user_id": "8244388416",
                 "time": "2026-10-10 14:42:48",
@@ -1139,7 +1171,7 @@
                 "original_post_id": "1843994899403976912",
                 "url": "https://x.com/qinxian8023/status/1843994899403976912",
                 "edited": false,
-                "position": 2,
+                "position": 4,
                 "message_id": "9315",
                 "tg_user_id": "1264616126",
                 "time": "2026-10-10 13:50:05",
@@ -1154,7 +1186,7 @@
                 "original_post_id": "2074880148785299927",
                 "url": "https://x.com/si_xiao47754/status/2074880148785299927",
                 "edited": false,
-                "position": 3,
+                "position": 5,
                 "message_id": "9314",
                 "tg_user_id": "8345041924",
                 "time": "2026-10-10 12:26:53",
@@ -1169,7 +1201,7 @@
                 "original_post_id": "2102363645208572193",
                 "url": "https://x.com/joragyyy/status/2102363645208572193",
                 "edited": false,
-                "position": 4,
+                "position": 6,
                 "message_id": "9313",
                 "tg_user_id": "7996721954",
                 "time": "2026-10-10 01:14:56",
@@ -1184,7 +1216,7 @@
                 "original_post_id": "2105178335533834660",
                 "url": "https://x.com/cattyllo023/status/2105178335533834660",
                 "edited": false,
-                "position": 5,
+                "position": 7,
                 "message_id": "9310",
                 "tg_user_id": "7847834068",
                 "time": "2026-10-10 00:49:28",
@@ -1195,9 +1227,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 5,
-            "count": 5,
-            "roster_capacity": 5,
+            "capacity": 7,
+            "count": 7,
+            "roster_capacity": 7,
             "withdrawn_message_ids": []
           }
         },
@@ -1232,11 +1264,13 @@
           "sleepsbg": "A",
           "snd99x": "A",
           "meehutaotv": "A",
+          "uudajiejie": "B",
           "qinxian8023": "B",
           "si_xiao47754": "B",
           "joragyyy": "B",
           "cattyllo023": "B",
-          "uudajiejie": "B"
+          "thelol1pop99": "B",
+          "shoojeenn": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -1722,12 +1756,44 @@
             "list_position": 30
           },
           {
+            "handle": "shoojeenn",
+            "post_id": "2108802368951533674",
+            "original_post_id": "2108802368951533674",
+            "url": "https://x.com/shoojeenn/status/2108802368951533674",
+            "edited": false,
+            "position": 31,
+            "message_id": "9318",
+            "tg_user_id": "7633123845",
+            "time": "2026-10-10 15:59:15",
+            "admission_time": "2026-10-10 15:59:15",
+            "list_id": "B",
+            "display_name": "姝姬娘娘Shoo Jee🌟",
+            "admitted_at": "2026-10-10 16:00:47",
+            "list_position": 1
+          },
+          {
+            "handle": "thelol1pop99",
+            "post_id": "2108044463016681853",
+            "original_post_id": "2108044463016681853",
+            "url": "https://x.com/thelol1pop99/status/2108044463016681853",
+            "edited": false,
+            "position": 32,
+            "message_id": "9317",
+            "tg_user_id": "1770606411",
+            "time": "2026-10-10 15:56:50",
+            "admission_time": "2026-10-10 15:56:50",
+            "list_id": "B",
+            "display_name": "Loliiiiipop99💛棒棒糖🍭",
+            "admitted_at": "2026-10-10 16:00:47",
+            "list_position": 2
+          },
+          {
             "handle": "uudajiejie",
             "post_id": "2108471312901664783",
             "original_post_id": "2108471312901664783",
             "url": "https://x.com/uudajiejie/status/2108471312901664783",
             "edited": false,
-            "position": 31,
+            "position": 33,
             "message_id": "9316",
             "tg_user_id": "8244388416",
             "time": "2026-10-10 14:42:48",
@@ -1735,7 +1801,7 @@
             "list_id": "B",
             "display_name": "UU大姐姐",
             "admitted_at": "2026-10-10 14:45:33",
-            "list_position": 1
+            "list_position": 3
           },
           {
             "handle": "qinxian8023",
@@ -1743,7 +1809,7 @@
             "original_post_id": "1843994899403976912",
             "url": "https://x.com/qinxian8023/status/1843994899403976912",
             "edited": false,
-            "position": 32,
+            "position": 34,
             "message_id": "9315",
             "tg_user_id": "1264616126",
             "time": "2026-10-10 13:50:05",
@@ -1751,7 +1817,7 @@
             "list_id": "B",
             "display_name": "宇宙的琴弦",
             "admitted_at": "2026-10-10 14:00:46",
-            "list_position": 2
+            "list_position": 4
           },
           {
             "handle": "si_xiao47754",
@@ -1759,7 +1825,7 @@
             "original_post_id": "2074880148785299927",
             "url": "https://x.com/si_xiao47754/status/2074880148785299927",
             "edited": false,
-            "position": 33,
+            "position": 35,
             "message_id": "9314",
             "tg_user_id": "8345041924",
             "time": "2026-10-10 12:26:53",
@@ -1767,7 +1833,7 @@
             "list_id": "B",
             "display_name": "丝袜小淫妻",
             "admitted_at": "2026-10-10 12:30:42",
-            "list_position": 3
+            "list_position": 5
           },
           {
             "handle": "joragyyy",
@@ -1775,7 +1841,7 @@
             "original_post_id": "2102363645208572193",
             "url": "https://x.com/joragyyy/status/2102363645208572193",
             "edited": false,
-            "position": 34,
+            "position": 36,
             "message_id": "9313",
             "tg_user_id": "7996721954",
             "time": "2026-10-10 01:14:56",
@@ -1783,7 +1849,7 @@
             "list_id": "B",
             "display_name": "Yiiceing",
             "admitted_at": "2026-10-10 01:15:36",
-            "list_position": 4
+            "list_position": 6
           },
           {
             "handle": "cattyllo023",
@@ -1791,7 +1857,7 @@
             "original_post_id": "2105178335533834660",
             "url": "https://x.com/cattyllo023/status/2105178335533834660",
             "edited": false,
-            "position": 35,
+            "position": 37,
             "message_id": "9310",
             "tg_user_id": "7847834068",
             "time": "2026-10-10 00:49:28",
@@ -1799,11 +1865,11 @@
             "list_id": "B",
             "display_name": "奶酪",
             "admitted_at": "2026-10-10 01:00:56",
-            "list_position": 5
+            "list_position": 7
           }
         ],
         "vacant_positions": {},
-        "count": 35,
+        "count": 37,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1832,10 +1898,10 @@
     "date": "2026-10-10",
     "groups": {
       "群一": {
-        "digest": "e29f7dc93d06237acbc55ac4e9e1300e002a07f2ab8e97df11cd8772f932a90f",
-        "sourceRevision": 7,
+        "digest": "ef9077c2ae6e5d2373cf05861ea073924acbdc42f070bc47bf41dd0aeb414591",
+        "sourceRevision": 8,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-10T14:45:33.820266+08:00"
+        "acknowledged_at": "2026-10-10T16:00:48.231297+08:00"
       },
       "群二": {
         "digest": "c81e68d5740cbc2a24330df5c5fec35bbc4abe8c308523ad23c5a49bcc9e4793",

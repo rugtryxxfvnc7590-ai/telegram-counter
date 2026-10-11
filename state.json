@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "offset": 364621013,
+  "offset": 364621018,
   "groups": {
     "-1003891628675": {
       "count": 40,
@@ -58,7 +58,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-11",
-    "run_at": "2026-10-11 19:00:47",
+    "run_at": "2026-10-11 19:15:23",
     "completed_groups": [
       "群一",
       "群二",
@@ -66,40 +66,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "38133983835:1",
-        "checked_at": "2026-10-11 19:00:48",
+        "run_key": "38134874951:1",
+        "checked_at": "2026-10-11 19:15:25",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "38133983835:1",
-        "checked_at": "2026-10-11 19:00:48",
+        "run_key": "38134874951:1",
+        "checked_at": "2026-10-11 19:15:25",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "38133983835:1",
-        "checked_at": "2026-10-11 19:00:49",
+        "run_key": "38134874951:1",
+        "checked_at": "2026-10-11 19:15:25",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "38133983835:1",
-        "checked_at": "2026-10-11 19:00:48",
+        "run_key": "38134874951:1",
+        "checked_at": "2026-10-11 19:15:25",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       },
       "群二": {
-        "run_key": "38133983835:1",
-        "checked_at": "2026-10-11 19:00:48",
+        "run_key": "38134874951:1",
+        "checked_at": "2026-10-11 19:15:25",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "38133983835:1",
-        "checked_at": "2026-10-11 19:00:49",
+        "run_key": "38134874951:1",
+        "checked_at": "2026-10-11 19:15:25",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -2267,7 +2267,9 @@
         "attempts": 1,
         "attempted_at": "2026-10-11 19:00:53",
         "sent_at": "2026-10-11 19:00:53",
-        "message_id": 9367
+        "message_id": 9367,
+        "confirmation": "telegram_history",
+        "reply_to_message_id": null
       }
     }
   },

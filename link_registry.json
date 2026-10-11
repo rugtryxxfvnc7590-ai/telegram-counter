@@ -7754,12 +7754,13 @@
         ],
         "x_name": "甜妻派对（原创）",
         "promo_name": "甜妻派对（原创）",
-        "followers_count": 127057,
+        "followers_count": 127058,
         "followers_text": "12.7W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -7773,6 +7774,22 @@
           {
             "source": "status_legacy",
             "count": 127057
+          },
+          {
+            "source": "status_v2",
+            "count": 127058
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 127058
+          },
+          {
+            "source": "status_legacy",
+            "count": 127058
+          },
+          {
+            "source": "profile_v2",
+            "count": 127058
           }
         ],
         "check_followers_count": 127057,
@@ -7840,17 +7857,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 127057,
+        "qualified_followers_count": 127058,
         "qualified_followers_text": "12.7W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-11 14:12:17",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -15614,12 +15632,13 @@
         ],
         "x_name": "甜妻派对（原创）",
         "promo_name": "甜妻派对（原创）",
-        "followers_count": 127057,
+        "followers_count": 127058,
         "followers_text": "12.7W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -15633,6 +15652,22 @@
           {
             "source": "status_legacy",
             "count": 127057
+          },
+          {
+            "source": "status_v2",
+            "count": 127058
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 127058
+          },
+          {
+            "source": "status_legacy",
+            "count": 127058
+          },
+          {
+            "source": "profile_v2",
+            "count": 127058
           }
         ],
         "check_followers_count": 127057,
@@ -15700,17 +15735,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 127057,
+        "qualified_followers_count": 127058,
         "qualified_followers_text": "12.7W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-11 14:12:17",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",

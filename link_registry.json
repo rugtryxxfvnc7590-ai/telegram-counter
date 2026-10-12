@@ -14973,13 +14973,13 @@
           "tiaotiaosheep": "A",
           "wdqhc999": "A",
           "hanzuzong3": "A",
+          "qinxian8023": "A",
           "tianqipaidui": "B",
           "sleepsbg": "B",
           "jiojioyishujia1": "B",
           "sluttytatia404": "B",
           "bob7078": "B",
-          "aksaks99999": "B",
-          "qinxian8023": "A"
+          "aksaks99999": "B"
         },
         "withdrawn_message_ids": [
           "9406"
@@ -15585,7 +15585,8 @@
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60,
-        "manual_order_revision": 1
+        "manual_order_revision": 1,
+        "cutoff_finalized": true
       }
     }
   }

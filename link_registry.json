@@ -14809,13 +14809,30 @@
                 "list_id": "A",
                 "display_name": "hanzuzong",
                 "admitted_at": "2026-10-12 00:01:15"
+              },
+              {
+                "handle": "qinxian8023",
+                "post_id": "1843994899403976912",
+                "original_post_id": "1843994899403976912",
+                "url": "https://x.com/qinxian8023/status/1843994899403976912",
+                "edited": false,
+                "position": 31,
+                "global_position": 61,
+                "list_id": "A",
+                "manual_addition": true,
+                "manual_position": true,
+                "admitted_at": "2026-10-12T07:05:18.504Z",
+                "display_name": ""
               }
             ],
             "vacant_positions": {},
-            "capacity": 30,
-            "count": 30,
-            "roster_capacity": 30,
-            "withdrawn_message_ids": []
+            "capacity": 31,
+            "count": 31,
+            "roster_capacity": 31,
+            "withdrawn_message_ids": [],
+            "manual_positions": {
+              "31": 61
+            }
           },
           "B": {
             "slots": [
@@ -14961,7 +14978,8 @@
           "jiojioyishujia1": "B",
           "sluttytatia404": "B",
           "bob7078": "B",
-          "aksaks99999": "B"
+          "aksaks99999": "B",
+          "qinxian8023": "A"
         },
         "withdrawn_message_ids": [
           "9406"
@@ -15448,6 +15466,21 @@
             "list_position": 30
           },
           {
+            "handle": "qinxian8023",
+            "post_id": "1843994899403976912",
+            "original_post_id": "1843994899403976912",
+            "url": "https://x.com/qinxian8023/status/1843994899403976912",
+            "edited": false,
+            "position": 61,
+            "global_position": 61,
+            "list_id": "A",
+            "manual_addition": true,
+            "manual_position": true,
+            "admitted_at": "2026-10-12T07:05:18.504Z",
+            "display_name": "",
+            "list_position": 31
+          },
+          {
             "handle": "tianqipaidui",
             "post_id": "2039292911632962015",
             "original_post_id": "2039292911632962015",
@@ -15548,10 +15581,11 @@
         "vacant_positions": {
           "32": "9406"
         },
-        "count": 36,
+        "count": 37,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60
+        "admission_limit": 60,
+        "manual_order_revision": 1
       }
     }
   }

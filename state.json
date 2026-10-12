@@ -44,10 +44,8 @@
       ]
     },
     "-1003218974409": {
-      "count": 1,
-      "message_ids": [
-        "74491"
-      ]
+      "count": 0,
+      "message_ids": []
     },
     "-1003739822194": {
       "count": 0,
@@ -56,7 +54,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-12",
-    "run_at": "2026-10-12 12:30:47",
+    "run_at": "2026-10-12 12:45:34",
     "completed_groups": [
       "群一",
       "群二",
@@ -64,40 +62,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "38204050504:1",
-        "checked_at": "2026-10-12 12:30:48",
+        "run_key": "38205061191:1",
+        "checked_at": "2026-10-12 12:45:35",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "38204050504:1",
-        "checked_at": "2026-10-12 12:30:48",
+        "run_key": "38205061191:1",
+        "checked_at": "2026-10-12 12:45:35",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "38204050504:1",
-        "checked_at": "2026-10-12 12:30:48",
+        "run_key": "38205061191:1",
+        "checked_at": "2026-10-12 12:45:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "38204050504:1",
-        "checked_at": "2026-10-12 12:30:48",
+        "run_key": "38205061191:1",
+        "checked_at": "2026-10-12 12:45:35",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "38204050504:1",
-        "checked_at": "2026-10-12 12:30:48",
+        "run_key": "38205061191:1",
+        "checked_at": "2026-10-12 12:45:35",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "38204050504:1",
-        "checked_at": "2026-10-12 12:30:48",
+        "run_key": "38205061191:1",
+        "checked_at": "2026-10-12 12:45:36",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1835,25 +1833,16 @@
         "admission_limit": 60
       },
       "群二": {
-        "slots": [
-          {
-            "handle": "meilan68",
-            "post_id": "2109307985445130421",
-            "original_post_id": "2109307985445130421",
-            "url": "https://x.com/meilan68/status/2109307985445130421",
-            "edited": false,
-            "position": 1,
-            "message_id": "74491",
-            "tg_user_id": "7778102847",
-            "time": "2026-10-12 01:35:54",
-            "admission_time": "2026-10-12 01:35:54"
-          }
-        ],
+        "slots": [],
         "capacity": 1,
-        "withdrawn_message_ids": [],
-        "vacant_positions": {},
+        "withdrawn_message_ids": [
+          "74491"
+        ],
+        "vacant_positions": {
+          "1": "74491"
+        },
         "roster_capacity": 1,
-        "count": 1,
+        "count": 0,
         "admission_limit": 30
       },
       "群三": {
@@ -1875,6 +1864,11 @@
         "sourceRevision": 8,
         "acknowledged": true,
         "acknowledged_at": "2026-10-12T12:00:48.473564+08:00"
+      },
+      "群二": {
+        "digest": "130ce5e60c4c05fd9d090e351f8463df9725ebaaef650762cda40108e21294f4",
+        "sourceRevision": 1,
+        "last_error": "http_409"
       }
     }
   },
@@ -1884,7 +1878,16 @@
   },
   "website_deletions": {
     "date": "2026-10-12",
-    "groups": {}
+    "groups": {
+      "群二": {
+        "74491": {
+          "position": 1,
+          "account": "meilan68",
+          "postId": "2109307985445130421",
+          "confirmed_at": "2026-10-12 12:45:35"
+        }
+      }
+    }
   },
   "batch_notices": {
     "date": "2026-10-12",

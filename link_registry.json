@@ -7522,7 +7522,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-13 00:34:30",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 32,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -7724,7 +7724,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-13 00:44:38",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -9099,7 +9099,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-13 00:31:00",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted"
       },
@@ -9283,7 +9283,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-13 00:38:03",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted"
       }
@@ -16811,7 +16811,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-13 00:34:30",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 32,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -17013,7 +17013,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-13 00:44:38",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -18179,7 +18179,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-13 00:31:00",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted"
       },
@@ -18363,7 +18363,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-13 00:38:03",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted"
       }

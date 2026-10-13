@@ -9335,8 +9335,826 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:35:05",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
+        "daily_list_status": "accepted"
+      },
+      "maojio513": {
+        "x_handle": "maojio513",
+        "check_handle": "maojio513",
+        "dual_link": false,
+        "promo_handle": "maojio513",
+        "tg_username": "caiyi778",
+        "tg_user_id": 6711450768,
+        "tg_name": "颐 🚪168",
+        "link": "https://x.com/maojio513/status/2108753331607003344?s=20",
+        "message_text": "https://x.com/maojio513/status/2108753331607003344?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/maojio513/status/2108753331607003344?s=20",
+            "handle": "maojio513",
+            "post_id": "2108753331607003344",
+            "role": "promo",
+            "author_name": "小鬼精咕咕",
+            "followers_count": 41340,
+            "followers_text": "4.1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 41340
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 41340
+              },
+              {
+                "source": "status_legacy",
+                "count": 41340
+              },
+              {
+                "source": "profile_v2",
+                "count": 41340
+              }
+            ],
+            "tweet_text": "今晚来吗？\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 38,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 38,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 38,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 38,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/maojio513/status/2108753331607003344?s=20",
+            "post_id": "2108753331607003344",
+            "handle": "maojio513",
+            "source_time": "2026-10-14 00:46:29",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小鬼精咕咕",
+        "promo_name": "小鬼精咕咕",
+        "followers_count": 41340,
+        "followers_text": "4.1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 41340
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 41340
+          },
+          {
+            "source": "status_legacy",
+            "count": 41340
+          },
+          {
+            "source": "profile_v2",
+            "count": 41340
+          }
+        ],
+        "check_followers_count": 41340,
+        "check_followers_text": "4.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 41340
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 41340
+          },
+          {
+            "source": "status_legacy",
+            "count": 41340
+          },
+          {
+            "source": "profile_v2",
+            "count": 41340
+          }
+        ],
+        "tweet_text": "今晚来吗？\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 38,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 38,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 38,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 38,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/maojio513/status/2108753331607003344?s=20",
+        "check_url": "https://x.com/maojio513/status/2108753331607003344?s=20",
+        "promo_post_id": "2108753331607003344",
+        "check_post_id": "2108753331607003344",
+        "chat_id": "-1003739822194",
+        "message_id": 6681,
+        "time": "2026-10-14 00:46:29",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 41340,
+        "qualified_followers_text": "4.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-14 00:46:29",
+        "admission_locked": false,
+        "daily_list_rank": 10,
+        "daily_list_status": "accepted"
+      },
+      "yishiyu7788": {
+        "x_handle": "yishiyu7788",
+        "check_handle": "xiaosongmimi",
+        "dual_link": true,
+        "promo_handle": "yishiyu7788",
+        "tg_username": "yubb_yu",
+        "tg_user_id": 5404758777,
+        "tg_name": "Destiny",
+        "link": "https://x.com/yishiyu7788/status/2106395884703617166?s=20\n推上面☝️\n回推👉 https://x.com/xiaosongmimi?s=20",
+        "message_text": "https://x.com/yishiyu7788/status/2106395884703617166?s=20\n推上面☝️\n回推👉 https://x.com/xiaosongmimi?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/yishiyu7788/status/2106395884703617166?s=20",
+            "handle": "yishiyu7788",
+            "post_id": "2106395884703617166",
+            "role": "promo",
+            "author_name": "一时雨",
+            "followers_count": 7989,
+            "followers_text": "7.9K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 7989
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 7989
+              },
+              {
+                "source": "status_legacy",
+                "count": 7989
+              },
+              {
+                "source": "profile_v2",
+                "count": 7989
+              }
+            ],
+            "tweet_text": "倒车入库了 请注意一下车技不好\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 51,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/xiaosongmimi?s=20",
+            "handle": "xiaosongmimi",
+            "post_id": "",
+            "role": "check",
+            "author_name": "七UU",
+            "followers_count": 9026,
+            "followers_text": "9K",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 9026
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/yishiyu7788/status/2106395884703617166?s=20",
+            "post_id": "2106395884703617166",
+            "handle": "yishiyu7788",
+            "source_time": "2026-10-14 00:51:36",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "一时雨",
+        "promo_name": "一时雨",
+        "followers_count": 7989,
+        "followers_text": "7.9K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7989
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7989
+          },
+          {
+            "source": "status_legacy",
+            "count": 7989
+          },
+          {
+            "source": "profile_v2",
+            "count": 7989
+          }
+        ],
+        "check_followers_count": 9026,
+        "check_followers_text": "9K",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 9026
+          }
+        ],
+        "tweet_text": "倒车入库了 请注意一下车技不好\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 51,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/yishiyu7788/status/2106395884703617166?s=20",
+        "check_url": "https://x.com/xiaosongmimi?s=20",
+        "promo_post_id": "2106395884703617166",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 6682,
+        "time": "2026-10-14 00:51:36",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 9026,
+        "qualified_followers_text": "9K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-14 00:51:36",
+        "admission_locked": false,
+        "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "xiaosongmimi": {
+        "x_handle": "xiaosongmimi",
+        "check_handle": "xiaosongmimi",
+        "dual_link": true,
+        "promo_handle": "yishiyu7788",
+        "tg_username": "yubb_yu",
+        "tg_user_id": 5404758777,
+        "tg_name": "Destiny",
+        "link": "https://x.com/yishiyu7788/status/2106395884703617166?s=20\n推上面☝️\n回推👉 https://x.com/xiaosongmimi?s=20",
+        "message_text": "https://x.com/yishiyu7788/status/2106395884703617166?s=20\n推上面☝️\n回推👉 https://x.com/xiaosongmimi?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/yishiyu7788/status/2106395884703617166?s=20",
+            "handle": "yishiyu7788",
+            "post_id": "2106395884703617166",
+            "role": "promo",
+            "author_name": "一时雨",
+            "followers_count": 7989,
+            "followers_text": "7.9K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 7989
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 7989
+              },
+              {
+                "source": "status_legacy",
+                "count": 7989
+              },
+              {
+                "source": "profile_v2",
+                "count": 7989
+              }
+            ],
+            "tweet_text": "倒车入库了 请注意一下车技不好\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 51,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/xiaosongmimi?s=20",
+            "handle": "xiaosongmimi",
+            "post_id": "",
+            "role": "check",
+            "author_name": "七UU",
+            "followers_count": 9026,
+            "followers_text": "9K",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 9026
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/yishiyu7788/status/2106395884703617166?s=20",
+            "post_id": "2106395884703617166",
+            "handle": "yishiyu7788",
+            "source_time": "2026-10-14 00:51:36",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "一时雨",
+        "promo_name": "一时雨",
+        "followers_count": 7989,
+        "followers_text": "7.9K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7989
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7989
+          },
+          {
+            "source": "status_legacy",
+            "count": 7989
+          },
+          {
+            "source": "profile_v2",
+            "count": 7989
+          }
+        ],
+        "check_followers_count": 9026,
+        "check_followers_text": "9K",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 9026
+          }
+        ],
+        "tweet_text": "倒车入库了 请注意一下车技不好\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 51,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/yishiyu7788/status/2106395884703617166?s=20",
+        "check_url": "https://x.com/xiaosongmimi?s=20",
+        "promo_post_id": "2106395884703617166",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 6682,
+        "time": "2026-10-14 00:51:36",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 9026,
+        "qualified_followers_text": "9K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-14 00:51:36",
+        "admission_locked": false,
+        "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "tutu_kirar2wer": {
+        "x_handle": "tutu_kirar2wer",
+        "check_handle": "tutu_kirar2wer",
+        "dual_link": false,
+        "promo_handle": "tutu_kirar2wer",
+        "tg_username": "TTRean",
+        "tg_user_id": 5999016712,
+        "tg_name": "突突Rean",
+        "link": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+        "message_text": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+            "handle": "tutu_kirar2wer",
+            "post_id": "2109952257831981222",
+            "role": "promo",
+            "author_name": "突突Rean",
+            "followers_count": 16395,
+            "followers_text": "1.6W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 16395
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 16395
+              },
+              {
+                "source": "status_legacy",
+                "count": 16395
+              },
+              {
+                "source": "profile_v2",
+                "count": 16395
+              }
+            ],
+            "tweet_text": "不愧是brat，故意穿着包臀裙在车座后排还不老实，暴力按头罚她吃了满嘴白色粘稠液体🙈\n回家后对着落地窗我掀起她的短裙，楼下行人来来往往，我摁趴她跪地后入开始了紧张刺激的二次责罚…\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 124,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 124,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 124,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 124,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+            "post_id": "2109952257831981222",
+            "handle": "tutu_kirar2wer",
+            "source_time": "2026-10-14 00:56:52",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "突突Rean",
+        "promo_name": "突突Rean",
+        "followers_count": 16395,
+        "followers_text": "1.6W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 16395
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 16395
+          },
+          {
+            "source": "status_legacy",
+            "count": 16395
+          },
+          {
+            "source": "profile_v2",
+            "count": 16395
+          }
+        ],
+        "check_followers_count": 16395,
+        "check_followers_text": "1.6W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 16395
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 16395
+          },
+          {
+            "source": "status_legacy",
+            "count": 16395
+          },
+          {
+            "source": "profile_v2",
+            "count": 16395
+          }
+        ],
+        "tweet_text": "不愧是brat，故意穿着包臀裙在车座后排还不老实，暴力按头罚她吃了满嘴白色粘稠液体🙈\n回家后对着落地窗我掀起她的短裙，楼下行人来来往往，我摁趴她跪地后入开始了紧张刺激的二次责罚…\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 124,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 124,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 124,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 124,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+        "check_url": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+        "promo_post_id": "2109952257831981222",
+        "check_post_id": "2109952257831981222",
+        "chat_id": "-1003739822194",
+        "message_id": 6683,
+        "time": "2026-10-14 00:56:52",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 16395,
+        "qualified_followers_text": "1.6W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-14 00:56:52",
+        "admission_locked": false,
+        "daily_list_rank": 12,
         "daily_list_status": "accepted"
       }
     }
@@ -18676,8 +19494,617 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:35:05",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
+        "daily_list_status": "accepted"
+      },
+      "2108753331607003344": {
+        "x_handle": "maojio513",
+        "check_handle": "maojio513",
+        "dual_link": false,
+        "promo_handle": "maojio513",
+        "tg_username": "caiyi778",
+        "tg_user_id": 6711450768,
+        "tg_name": "颐 🚪168",
+        "link": "https://x.com/maojio513/status/2108753331607003344?s=20",
+        "message_text": "https://x.com/maojio513/status/2108753331607003344?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/maojio513/status/2108753331607003344?s=20",
+            "handle": "maojio513",
+            "post_id": "2108753331607003344",
+            "role": "promo",
+            "author_name": "小鬼精咕咕",
+            "followers_count": 41340,
+            "followers_text": "4.1W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 41340
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 41340
+              },
+              {
+                "source": "status_legacy",
+                "count": 41340
+              },
+              {
+                "source": "profile_v2",
+                "count": 41340
+              }
+            ],
+            "tweet_text": "今晚来吗？\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 38,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 38,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 38,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 38,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/maojio513/status/2108753331607003344?s=20",
+            "post_id": "2108753331607003344",
+            "handle": "maojio513",
+            "source_time": "2026-10-14 00:46:29",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小鬼精咕咕",
+        "promo_name": "小鬼精咕咕",
+        "followers_count": 41340,
+        "followers_text": "4.1W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 41340
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 41340
+          },
+          {
+            "source": "status_legacy",
+            "count": 41340
+          },
+          {
+            "source": "profile_v2",
+            "count": 41340
+          }
+        ],
+        "check_followers_count": 41340,
+        "check_followers_text": "4.1W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 41340
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 41340
+          },
+          {
+            "source": "status_legacy",
+            "count": 41340
+          },
+          {
+            "source": "profile_v2",
+            "count": 41340
+          }
+        ],
+        "tweet_text": "今晚来吗？\n@ToBulaer\n@ToBuerma\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 38,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 38,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 38,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 38,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/maojio513/status/2108753331607003344?s=20",
+        "check_url": "https://x.com/maojio513/status/2108753331607003344?s=20",
+        "promo_post_id": "2108753331607003344",
+        "check_post_id": "2108753331607003344",
+        "chat_id": "-1003739822194",
+        "message_id": 6681,
+        "time": "2026-10-14 00:46:29",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 41340,
+        "qualified_followers_text": "4.1W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-14 00:46:29",
+        "admission_locked": false,
+        "daily_list_rank": 10,
+        "daily_list_status": "accepted"
+      },
+      "2106395884703617166": {
+        "x_handle": "yishiyu7788",
+        "check_handle": "xiaosongmimi",
+        "dual_link": true,
+        "promo_handle": "yishiyu7788",
+        "tg_username": "yubb_yu",
+        "tg_user_id": 5404758777,
+        "tg_name": "Destiny",
+        "link": "https://x.com/yishiyu7788/status/2106395884703617166?s=20\n推上面☝️\n回推👉 https://x.com/xiaosongmimi?s=20",
+        "message_text": "https://x.com/yishiyu7788/status/2106395884703617166?s=20\n推上面☝️\n回推👉 https://x.com/xiaosongmimi?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/yishiyu7788/status/2106395884703617166?s=20",
+            "handle": "yishiyu7788",
+            "post_id": "2106395884703617166",
+            "role": "promo",
+            "author_name": "一时雨",
+            "followers_count": 7989,
+            "followers_text": "7.9K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 7989
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 7989
+              },
+              {
+                "source": "status_legacy",
+                "count": 7989
+              },
+              {
+                "source": "profile_v2",
+                "count": 7989
+              }
+            ],
+            "tweet_text": "倒车入库了 请注意一下车技不好\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 51,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          },
+          {
+            "order": 2,
+            "url": "https://x.com/xiaosongmimi?s=20",
+            "handle": "xiaosongmimi",
+            "post_id": "",
+            "role": "check",
+            "author_name": "七UU",
+            "followers_count": 9026,
+            "followers_text": "9K",
+            "followers_sources": [
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "profile_v2",
+                "count": 9026
+              }
+            ],
+            "tweet_text": "",
+            "tweet_text_sources": [],
+            "tweet_text_observations": [],
+            "tweet_text_primary_source": "",
+            "required_mentions_count": 0
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/yishiyu7788/status/2106395884703617166?s=20",
+            "post_id": "2106395884703617166",
+            "handle": "yishiyu7788",
+            "source_time": "2026-10-14 00:51:36",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "一时雨",
+        "promo_name": "一时雨",
+        "followers_count": 7989,
+        "followers_text": "7.9K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 7989
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 7989
+          },
+          {
+            "source": "status_legacy",
+            "count": 7989
+          },
+          {
+            "source": "profile_v2",
+            "count": 7989
+          }
+        ],
+        "check_followers_count": 9026,
+        "check_followers_text": "9K",
+        "check_followers_sources": [
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "profile_v2",
+            "count": 9026
+          }
+        ],
+        "tweet_text": "倒车入库了 请注意一下车技不好\n\n@ToBulaer \n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 51,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/yishiyu7788/status/2106395884703617166?s=20",
+        "check_url": "https://x.com/xiaosongmimi?s=20",
+        "promo_post_id": "2106395884703617166",
+        "check_post_id": "",
+        "chat_id": "-1003739822194",
+        "message_id": 6682,
+        "time": "2026-10-14 00:51:36",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 9026,
+        "qualified_followers_text": "9K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-14 00:51:36",
+        "admission_locked": false,
+        "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "2109952257831981222": {
+        "x_handle": "tutu_kirar2wer",
+        "check_handle": "tutu_kirar2wer",
+        "dual_link": false,
+        "promo_handle": "tutu_kirar2wer",
+        "tg_username": "TTRean",
+        "tg_user_id": 5999016712,
+        "tg_name": "突突Rean",
+        "link": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+        "message_text": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+            "handle": "tutu_kirar2wer",
+            "post_id": "2109952257831981222",
+            "role": "promo",
+            "author_name": "突突Rean",
+            "followers_count": 16395,
+            "followers_text": "1.6W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 16395
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 16395
+              },
+              {
+                "source": "status_legacy",
+                "count": 16395
+              },
+              {
+                "source": "profile_v2",
+                "count": 16395
+              }
+            ],
+            "tweet_text": "不愧是brat，故意穿着包臀裙在车座后排还不老实，暴力按头罚她吃了满嘴白色粘稠液体🙈\n回家后对着落地窗我掀起她的短裙，楼下行人来来往往，我摁趴她跪地后入开始了紧张刺激的二次责罚…\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 124,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 124,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 124,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 124,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+            "post_id": "2109952257831981222",
+            "handle": "tutu_kirar2wer",
+            "source_time": "2026-10-14 00:56:52",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "突突Rean",
+        "promo_name": "突突Rean",
+        "followers_count": 16395,
+        "followers_text": "1.6W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 16395
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 16395
+          },
+          {
+            "source": "status_legacy",
+            "count": 16395
+          },
+          {
+            "source": "profile_v2",
+            "count": 16395
+          }
+        ],
+        "check_followers_count": 16395,
+        "check_followers_text": "1.6W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 16395
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 16395
+          },
+          {
+            "source": "status_legacy",
+            "count": 16395
+          },
+          {
+            "source": "profile_v2",
+            "count": 16395
+          }
+        ],
+        "tweet_text": "不愧是brat，故意穿着包臀裙在车座后排还不老实，暴力按头罚她吃了满嘴白色粘稠液体🙈\n回家后对着落地窗我掀起她的短裙，楼下行人来来往往，我摁趴她跪地后入开始了紧张刺激的二次责罚…\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 124,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 124,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 124,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 124,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+        "check_url": "https://x.com/tutu_kirar2wer/status/2109952257831981222?s=46",
+        "promo_post_id": "2109952257831981222",
+        "check_post_id": "2109952257831981222",
+        "chat_id": "-1003739822194",
+        "message_id": 6683,
+        "time": "2026-10-14 00:56:52",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 16395,
+        "qualified_followers_text": "1.6W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-14 00:56:52",
+        "admission_locked": false,
+        "daily_list_rank": 12,
         "daily_list_status": "accepted"
       }
     }

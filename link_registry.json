@@ -10288,6 +10288,206 @@
         "admission_locked": true,
         "daily_list_rank": 11,
         "daily_list_status": "accepted"
+      },
+      "puppycatovo": {
+        "x_handle": "puppycatovo",
+        "check_handle": "puppycatovo",
+        "dual_link": false,
+        "promo_handle": "puppycatovo",
+        "tg_username": "puppycatovo",
+        "tg_user_id": 8918172056,
+        "tg_name": "哭哭",
+        "link": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+        "message_text": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+            "handle": "puppycatovo",
+            "post_id": "2042199336340295971",
+            "role": "promo",
+            "author_name": "龙牙缪斯",
+            "followers_count": 1583,
+            "followers_text": "1.5K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1583
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1583
+              },
+              {
+                "source": "status_legacy",
+                "count": 1583
+              },
+              {
+                "source": "profile_v2",
+                "count": 1583
+              }
+            ],
+            "tweet_text": "驼背矫正器\n@KawasawaSen\n@ToBuerma \n@ToBulaer\n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_author",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+            "post_id": "2042199336340295971",
+            "handle": "puppycatovo",
+            "source_time": "2026-10-13 09:07:32",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "龙牙缪斯",
+        "promo_name": "龙牙缪斯",
+        "followers_count": 1583,
+        "followers_text": "1.5K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1583
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1583
+          },
+          {
+            "source": "status_legacy",
+            "count": 1583
+          },
+          {
+            "source": "profile_v2",
+            "count": 1583
+          }
+        ],
+        "check_followers_count": 1583,
+        "check_followers_text": "1.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1583
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1583
+          },
+          {
+            "source": "status_legacy",
+            "count": 1583
+          },
+          {
+            "source": "profile_v2",
+            "count": 1583
+          }
+        ],
+        "tweet_text": "驼背矫正器\n@KawasawaSen\n@ToBuerma \n@ToBulaer\n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_author",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+        "check_url": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+        "promo_post_id": "2042199336340295971",
+        "check_post_id": "2042199336340295971",
+        "chat_id": "-1003739822194",
+        "message_id": 6637,
+        "time": "2026-10-13 09:07:32",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1583,
+        "qualified_followers_text": "1.5K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 09:07:32",
+        "admission_locked": false,
+        "daily_list_rank": 12,
+        "daily_list_status": "accepted"
       }
     }
   },
@@ -20160,6 +20360,206 @@
         "admission_time": "2026-10-13 08:35:09",
         "admission_locked": true,
         "daily_list_rank": 11,
+        "daily_list_status": "accepted"
+      },
+      "2042199336340295971": {
+        "x_handle": "puppycatovo",
+        "check_handle": "puppycatovo",
+        "dual_link": false,
+        "promo_handle": "puppycatovo",
+        "tg_username": "puppycatovo",
+        "tg_user_id": 8918172056,
+        "tg_name": "哭哭",
+        "link": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+        "message_text": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+            "handle": "puppycatovo",
+            "post_id": "2042199336340295971",
+            "role": "promo",
+            "author_name": "龙牙缪斯",
+            "followers_count": 1583,
+            "followers_text": "1.5K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1583
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1583
+              },
+              {
+                "source": "status_legacy",
+                "count": 1583
+              },
+              {
+                "source": "profile_v2",
+                "count": 1583
+              }
+            ],
+            "tweet_text": "驼背矫正器\n@KawasawaSen\n@ToBuerma \n@ToBulaer\n@BulmaList",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "vx_status_author",
+                "length": 50,
+                "required_mentions_count": 4
+              },
+              {
+                "source": "status_legacy",
+                "length": 50,
+                "required_mentions_count": 4
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 4
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+            "post_id": "2042199336340295971",
+            "handle": "puppycatovo",
+            "source_time": "2026-10-13 09:07:32",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "龙牙缪斯",
+        "promo_name": "龙牙缪斯",
+        "followers_count": 1583,
+        "followers_text": "1.5K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1583
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1583
+          },
+          {
+            "source": "status_legacy",
+            "count": 1583
+          },
+          {
+            "source": "profile_v2",
+            "count": 1583
+          }
+        ],
+        "check_followers_count": 1583,
+        "check_followers_text": "1.5K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1583
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1583
+          },
+          {
+            "source": "status_legacy",
+            "count": 1583
+          },
+          {
+            "source": "profile_v2",
+            "count": 1583
+          }
+        ],
+        "tweet_text": "驼背矫正器\n@KawasawaSen\n@ToBuerma \n@ToBulaer\n@BulmaList",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "vx_status_author",
+            "length": 50,
+            "required_mentions_count": 4
+          },
+          {
+            "source": "status_legacy",
+            "length": 50,
+            "required_mentions_count": 4
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 4,
+        "content_eligible": true,
+        "promo_url": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+        "check_url": "https://x.com/puppycatovo/status/2042199336340295971?s=46",
+        "promo_post_id": "2042199336340295971",
+        "check_post_id": "2042199336340295971",
+        "chat_id": "-1003739822194",
+        "message_id": 6637,
+        "time": "2026-10-13 09:07:32",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1583,
+        "qualified_followers_text": "1.5K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 09:07:32",
+        "admission_locked": false,
+        "daily_list_rank": 12,
         "daily_list_status": "accepted"
       }
     }

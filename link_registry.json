@@ -2486,38 +2486,43 @@
         "tg_username": "nancyyzp",
         "tg_user_id": 7928308252,
         "tg_name": "Nancy",
-        "link": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
-        "message_text": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
+        "link": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
+        "message_text": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
+            "url": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
             "handle": "nancyyzp",
-            "post_id": "2108454234375303334",
+            "post_id": "2109923157302014327",
             "role": "promo",
             "author_name": "nancyyzp",
-            "followers_count": 307189,
+            "followers_count": 307623,
             "followers_text": "30.7W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 307189
+                "count": 307623
               },
               {
                 "source": "status_legacy_i",
-                "count": 307186
+                "count": 307623
               },
               {
                 "source": "status_legacy",
-                "count": 307186
+                "count": 307623
+              },
+              {
+                "source": "profile_v2",
+                "count": 307623
               }
             ],
-            "tweet_text": "倒计时开始…\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
+            "tweet_text": "公园vlog 都是老头老太太\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -2527,22 +2532,22 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 48,
+                "length": 56,
                 "required_mentions_count": 2
               },
               {
                 "source": "status_legacy_i",
-                "length": 48,
+                "length": 56,
                 "required_mentions_count": 2
               },
               {
                 "source": "vx_status_author",
-                "length": 48,
+                "length": 56,
                 "required_mentions_count": 2
               },
               {
                 "source": "status_legacy",
-                "length": 48,
+                "length": 56,
                 "required_mentions_count": 2
               }
             ],
@@ -2552,7 +2557,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
+            "post_id": "2109923157302014327",
+            "handle": "nancyyzp",
+            "source_time": "2026-10-13 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
             "post_id": "2108454234375303334",
             "handle": "nancyyzp",
@@ -2562,7 +2575,7 @@
         ],
         "x_name": "nancyyzp",
         "promo_name": "nancyyzp",
-        "followers_count": 307189,
+        "followers_count": 307623,
         "followers_text": "30.7W",
         "followers_sources": [
           "status_v2",
@@ -2573,47 +2586,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 307189
+            "count": 307623
           },
           {
             "source": "status_legacy_i",
-            "count": 307186
+            "count": 307623
           },
           {
             "source": "status_legacy",
-            "count": 307186
-          },
-          {
-            "source": "status_v2",
-            "count": 307186
+            "count": 307623
           },
           {
             "source": "profile_v2",
-            "count": 307186
+            "count": 307623
           }
         ],
-        "check_followers_count": 307189,
+        "check_followers_count": 307623,
         "check_followers_text": "30.7W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 307189
+            "count": 307623
           },
           {
             "source": "status_legacy_i",
-            "count": 307186
+            "count": 307623
           },
           {
             "source": "status_legacy",
-            "count": 307186
+            "count": 307623
+          },
+          {
+            "source": "profile_v2",
+            "count": 307623
           }
         ],
-        "tweet_text": "倒计时开始…\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
+        "tweet_text": "公园vlog 都是老头老太太\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -2623,41 +2637,41 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 48,
+            "length": 56,
             "required_mentions_count": 2
           },
           {
             "source": "status_legacy_i",
-            "length": 48,
+            "length": 56,
             "required_mentions_count": 2
           },
           {
             "source": "vx_status_author",
-            "length": 48,
+            "length": 56,
             "required_mentions_count": 2
           },
           {
             "source": "status_legacy",
-            "length": 48,
+            "length": 56,
             "required_mentions_count": 2
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 2,
         "content_eligible": true,
-        "promo_url": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
-        "check_url": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
-        "promo_post_id": "2108454234375303334",
-        "check_post_id": "2108454234375303334",
+        "promo_url": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
+        "check_url": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
+        "promo_post_id": "2109923157302014327",
+        "check_post_id": "2109923157302014327",
         "chat_id": "-1003891628675",
         "message_id": 9427,
         "time": "2026-10-13 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-13 16:25:35",
         "followers_min": 100000,
-        "qualified_followers_count": 307189,
+        "qualified_followers_count": 307623,
         "qualified_followers_text": "30.7W",
         "qualified_followers_sources": [
           "status_v2",
@@ -11698,6 +11712,390 @@
         "admission_locked": true,
         "daily_list_rank": 18,
         "daily_list_status": "accepted"
+      },
+      "cocohklu888": {
+        "x_handle": "cocohklu888",
+        "check_handle": "cocohklu888",
+        "dual_link": false,
+        "promo_handle": "cocohklu888",
+        "tg_username": "HKcocoLU",
+        "tg_user_id": 5820965161,
+        "tg_name": "coco",
+        "link": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+        "message_text": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+            "handle": "cocohklu888",
+            "post_id": "2109609721800053170",
+            "role": "promo",
+            "author_name": "翘臀人妻",
+            "followers_count": 1,
+            "followers_text": "1",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1
+              },
+              {
+                "source": "status_legacy",
+                "count": 1
+              },
+              {
+                "source": "profile_v2",
+                "count": 1
+              }
+            ],
+            "tweet_text": "知道老公要出差后，我的安排是这样的\n\n@ToBuerma @ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 52,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 52,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 52,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 52,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+            "post_id": "2109609721800053170",
+            "handle": "cocohklu888",
+            "source_time": "2026-10-13 16:18:30",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "翘臀人妻",
+        "promo_name": "翘臀人妻",
+        "followers_count": 1,
+        "followers_text": "1",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
+          }
+        ],
+        "check_followers_count": 1,
+        "check_followers_text": "1",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
+          }
+        ],
+        "tweet_text": "知道老公要出差后，我的安排是这样的\n\n@ToBuerma @ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 52,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 52,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 52,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 52,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+        "check_url": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+        "promo_post_id": "2109609721800053170",
+        "check_post_id": "2109609721800053170",
+        "chat_id": "-1003739822194",
+        "message_id": 6653,
+        "time": "2026-10-13 16:18:30",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1,
+        "qualified_followers_text": "1",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 16:18:30",
+        "admission_locked": false,
+        "daily_list_rank": 19,
+        "daily_list_status": "accepted"
+      },
+      "ktanagere": {
+        "x_handle": "ktanagere",
+        "check_handle": "ktanagere",
+        "dual_link": false,
+        "promo_handle": "ktanagere",
+        "tg_username": "Mumuqq01",
+        "tg_user_id": 8228762729,
+        "tg_name": "Mu",
+        "link": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+        "message_text": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+            "handle": "ktanagere",
+            "post_id": "2109921983421121019",
+            "role": "promo",
+            "author_name": "1V1-在线视频",
+            "followers_count": 240,
+            "followers_text": "240",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 240
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 240
+              },
+              {
+                "source": "status_legacy",
+                "count": 240
+              }
+            ],
+            "tweet_text": "- jie-11。\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 44,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+            "post_id": "2109921983421121019",
+            "handle": "ktanagere",
+            "source_time": "2026-10-13 16:22:21",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "1V1-在线视频",
+        "promo_name": "1V1-在线视频",
+        "followers_count": 240,
+        "followers_text": "240",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 240
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 240
+          },
+          {
+            "source": "status_legacy",
+            "count": 240
+          }
+        ],
+        "check_followers_count": 240,
+        "check_followers_text": "240",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 240
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 240
+          },
+          {
+            "source": "status_legacy",
+            "count": 240
+          }
+        ],
+        "tweet_text": "- jie-11。\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 44,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+        "check_url": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+        "promo_post_id": "2109921983421121019",
+        "check_post_id": "2109921983421121019",
+        "chat_id": "-1003739822194",
+        "message_id": 6655,
+        "time": "2026-10-13 16:22:21",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 240,
+        "qualified_followers_text": "240",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 16:22:21",
+        "admission_locked": false,
+        "daily_list_rank": 20,
+        "daily_list_status": "accepted"
       }
     }
   },
@@ -14179,7 +14577,7 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 19
       },
-      "2108454234375303334": {
+      "2109923157302014327": {
         "x_handle": "nancyyzp",
         "check_handle": "nancyyzp",
         "dual_link": false,
@@ -14187,38 +14585,43 @@
         "tg_username": "nancyyzp",
         "tg_user_id": 7928308252,
         "tg_name": "Nancy",
-        "link": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
-        "message_text": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
+        "link": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
+        "message_text": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
         "links": [
           {
             "order": 1,
-            "url": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
+            "url": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
             "handle": "nancyyzp",
-            "post_id": "2108454234375303334",
+            "post_id": "2109923157302014327",
             "role": "promo",
             "author_name": "nancyyzp",
-            "followers_count": 307189,
+            "followers_count": 307623,
             "followers_text": "30.7W",
             "followers_sources": [
               "status_v2",
               "status_legacy_i",
-              "status_legacy"
+              "status_legacy",
+              "profile_v2"
             ],
             "followers_observations": [
               {
                 "source": "status_v2",
-                "count": 307189
+                "count": 307623
               },
               {
                 "source": "status_legacy_i",
-                "count": 307186
+                "count": 307623
               },
               {
                 "source": "status_legacy",
-                "count": 307186
+                "count": 307623
+              },
+              {
+                "source": "profile_v2",
+                "count": 307623
               }
             ],
-            "tweet_text": "倒计时开始…\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
+            "tweet_text": "公园vlog 都是老头老太太\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
             "tweet_text_sources": [
               "status_v2",
               "status_legacy_i",
@@ -14228,22 +14631,22 @@
             "tweet_text_observations": [
               {
                 "source": "status_v2",
-                "length": 48,
+                "length": 56,
                 "required_mentions_count": 2
               },
               {
                 "source": "status_legacy_i",
-                "length": 48,
+                "length": 56,
                 "required_mentions_count": 2
               },
               {
                 "source": "vx_status_author",
-                "length": 48,
+                "length": 56,
                 "required_mentions_count": 2
               },
               {
                 "source": "status_legacy",
-                "length": 48,
+                "length": 56,
                 "required_mentions_count": 2
               }
             ],
@@ -14253,7 +14656,15 @@
         ],
         "link_options": [
           {
-            "label": "当前",
+            "label": "编辑后",
+            "url": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
+            "post_id": "2109923157302014327",
+            "handle": "nancyyzp",
+            "source_time": "2026-10-13 00:00:00",
+            "edit_time": ""
+          },
+          {
+            "label": "编辑前",
             "url": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
             "post_id": "2108454234375303334",
             "handle": "nancyyzp",
@@ -14263,7 +14674,7 @@
         ],
         "x_name": "nancyyzp",
         "promo_name": "nancyyzp",
-        "followers_count": 307189,
+        "followers_count": 307623,
         "followers_text": "30.7W",
         "followers_sources": [
           "status_v2",
@@ -14274,47 +14685,48 @@
         "followers_observations": [
           {
             "source": "status_v2",
-            "count": 307189
+            "count": 307623
           },
           {
             "source": "status_legacy_i",
-            "count": 307186
+            "count": 307623
           },
           {
             "source": "status_legacy",
-            "count": 307186
-          },
-          {
-            "source": "status_v2",
-            "count": 307186
+            "count": 307623
           },
           {
             "source": "profile_v2",
-            "count": 307186
+            "count": 307623
           }
         ],
-        "check_followers_count": 307189,
+        "check_followers_count": 307623,
         "check_followers_text": "30.7W",
         "check_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "check_followers_observations": [
           {
             "source": "status_v2",
-            "count": 307189
+            "count": 307623
           },
           {
             "source": "status_legacy_i",
-            "count": 307186
+            "count": 307623
           },
           {
             "source": "status_legacy",
-            "count": 307186
+            "count": 307623
+          },
+          {
+            "source": "profile_v2",
+            "count": 307623
           }
         ],
-        "tweet_text": "倒计时开始…\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
+        "tweet_text": "公园vlog 都是老头老太太\n\n完整内容🚪后更\n@ToBulma @ToBulaer \n@KawasawaSen",
         "tweet_text_sources": [
           "status_v2",
           "status_legacy_i",
@@ -14324,41 +14736,41 @@
         "tweet_text_observations": [
           {
             "source": "status_v2",
-            "length": 48,
+            "length": 56,
             "required_mentions_count": 2
           },
           {
             "source": "status_legacy_i",
-            "length": 48,
+            "length": 56,
             "required_mentions_count": 2
           },
           {
             "source": "vx_status_author",
-            "length": 48,
+            "length": 56,
             "required_mentions_count": 2
           },
           {
             "source": "status_legacy",
-            "length": 48,
+            "length": 56,
             "required_mentions_count": 2
           }
         ],
         "tweet_text_primary_source": "status_v2",
         "required_mentions_count": 2,
         "content_eligible": true,
-        "promo_url": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
-        "check_url": "https://x.com/nancyyzp/status/2108454234375303334?s=46",
-        "promo_post_id": "2108454234375303334",
-        "check_post_id": "2108454234375303334",
+        "promo_url": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
+        "check_url": "https://x.com/nancyyzp/status/2109923157302014327?s=46",
+        "promo_post_id": "2109923157302014327",
+        "check_post_id": "2109923157302014327",
         "chat_id": "-1003891628675",
         "message_id": 9427,
         "time": "2026-10-13 00:00:00",
         "after_cutoff": false,
         "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
+        "edited": true,
+        "edit_time": "2026-10-13 16:25:35",
         "followers_min": 100000,
-        "qualified_followers_count": 307189,
+        "qualified_followers_count": 307623,
         "qualified_followers_text": "30.7W",
         "qualified_followers_sources": [
           "status_v2",
@@ -22981,6 +23393,390 @@
         "admission_locked": true,
         "daily_list_rank": 18,
         "daily_list_status": "accepted"
+      },
+      "2109609721800053170": {
+        "x_handle": "cocohklu888",
+        "check_handle": "cocohklu888",
+        "dual_link": false,
+        "promo_handle": "cocohklu888",
+        "tg_username": "HKcocoLU",
+        "tg_user_id": 5820965161,
+        "tg_name": "coco",
+        "link": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+        "message_text": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+            "handle": "cocohklu888",
+            "post_id": "2109609721800053170",
+            "role": "promo",
+            "author_name": "翘臀人妻",
+            "followers_count": 1,
+            "followers_text": "1",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 1
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 1
+              },
+              {
+                "source": "status_legacy",
+                "count": 1
+              },
+              {
+                "source": "profile_v2",
+                "count": 1
+              }
+            ],
+            "tweet_text": "知道老公要出差后，我的安排是这样的\n\n@ToBuerma @ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 52,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 52,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 52,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 52,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+            "post_id": "2109609721800053170",
+            "handle": "cocohklu888",
+            "source_time": "2026-10-13 16:18:30",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "翘臀人妻",
+        "promo_name": "翘臀人妻",
+        "followers_count": 1,
+        "followers_text": "1",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
+          }
+        ],
+        "check_followers_count": 1,
+        "check_followers_text": "1",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 1
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 1
+          },
+          {
+            "source": "status_legacy",
+            "count": 1
+          },
+          {
+            "source": "profile_v2",
+            "count": 1
+          }
+        ],
+        "tweet_text": "知道老公要出差后，我的安排是这样的\n\n@ToBuerma @ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 52,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 52,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 52,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 52,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+        "check_url": "https://x.com/cocohklu888/status/2109609721800053170?s=46&t=RzpB_onN-Z7n3jCTTCpCpA",
+        "promo_post_id": "2109609721800053170",
+        "check_post_id": "2109609721800053170",
+        "chat_id": "-1003739822194",
+        "message_id": 6653,
+        "time": "2026-10-13 16:18:30",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 1,
+        "qualified_followers_text": "1",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 16:18:30",
+        "admission_locked": false,
+        "daily_list_rank": 19,
+        "daily_list_status": "accepted"
+      },
+      "2109921983421121019": {
+        "x_handle": "ktanagere",
+        "check_handle": "ktanagere",
+        "dual_link": false,
+        "promo_handle": "ktanagere",
+        "tg_username": "Mumuqq01",
+        "tg_user_id": 8228762729,
+        "tg_name": "Mu",
+        "link": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+        "message_text": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+            "handle": "ktanagere",
+            "post_id": "2109921983421121019",
+            "role": "promo",
+            "author_name": "1V1-在线视频",
+            "followers_count": 240,
+            "followers_text": "240",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 240
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 240
+              },
+              {
+                "source": "status_legacy",
+                "count": 240
+              }
+            ],
+            "tweet_text": "- jie-11。\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 44,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 44,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+            "post_id": "2109921983421121019",
+            "handle": "ktanagere",
+            "source_time": "2026-10-13 16:22:21",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "1V1-在线视频",
+        "promo_name": "1V1-在线视频",
+        "followers_count": 240,
+        "followers_text": "240",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 240
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 240
+          },
+          {
+            "source": "status_legacy",
+            "count": 240
+          }
+        ],
+        "check_followers_count": 240,
+        "check_followers_text": "240",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 240
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 240
+          },
+          {
+            "source": "status_legacy",
+            "count": 240
+          }
+        ],
+        "tweet_text": "- jie-11。\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 44,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 44,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+        "check_url": "https://x.com/ktanagere/status/2109921983421121019?s=46",
+        "promo_post_id": "2109921983421121019",
+        "check_post_id": "2109921983421121019",
+        "chat_id": "-1003739822194",
+        "message_id": 6655,
+        "time": "2026-10-13 16:22:21",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 240,
+        "qualified_followers_text": "240",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 16:22:21",
+        "admission_locked": false,
+        "daily_list_rank": 20,
+        "daily_list_status": "accepted"
       }
     }
   },
@@ -23260,10 +24056,10 @@
               },
               {
                 "handle": "nancyyzp",
-                "post_id": "2108454234375303334",
+                "post_id": "2109923157302014327",
                 "original_post_id": "2108454234375303334",
-                "url": "https://x.com/nancyyzp/status/2108454234375303334",
-                "edited": false,
+                "url": "https://x.com/nancyyzp/status/2109923157302014327",
+                "edited": true,
                 "position": 18,
                 "message_id": "9427",
                 "tg_user_id": "7928308252",
@@ -23271,7 +24067,8 @@
                 "admission_time": "2026-10-13 00:00:00",
                 "list_id": "A",
                 "display_name": "nancyyzp",
-                "admitted_at": "2026-10-13 00:01:51"
+                "admitted_at": "2026-10-13 00:01:51",
+                "edit_time": "2026-10-13 16:25:35"
               },
               {
                 "handle": "qbln9999",
@@ -23911,10 +24708,10 @@
           },
           {
             "handle": "nancyyzp",
-            "post_id": "2108454234375303334",
+            "post_id": "2109923157302014327",
             "original_post_id": "2108454234375303334",
-            "url": "https://x.com/nancyyzp/status/2108454234375303334",
-            "edited": false,
+            "url": "https://x.com/nancyyzp/status/2109923157302014327",
+            "edited": true,
             "position": 18,
             "message_id": "9427",
             "tg_user_id": "7928308252",
@@ -23923,6 +24720,7 @@
             "list_id": "A",
             "display_name": "nancyyzp",
             "admitted_at": "2026-10-13 00:01:51",
+            "edit_time": "2026-10-13 16:25:35",
             "list_position": 18
           },
           {

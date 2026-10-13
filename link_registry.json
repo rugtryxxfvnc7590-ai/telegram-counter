@@ -5368,12 +5368,13 @@
         ],
         "x_name": "Jx",
         "promo_name": "Jx",
-        "followers_count": 455325,
+        "followers_count": 455348,
         "followers_text": "45.5W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -5387,6 +5388,30 @@
           {
             "source": "status_legacy",
             "count": 455325
+          },
+          {
+            "source": "status_v2",
+            "count": 455345
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 455345
+          },
+          {
+            "source": "status_legacy",
+            "count": 455345
+          },
+          {
+            "source": "status_v2",
+            "count": 455348
+          },
+          {
+            "source": "status_legacy",
+            "count": 455348
+          },
+          {
+            "source": "profile_v2",
+            "count": 455345
           }
         ],
         "check_followers_count": 455325,
@@ -5454,12 +5479,13 @@
         "edited": true,
         "edit_time": "2026-10-14 00:26:47",
         "followers_min": 100000,
-        "qualified_followers_count": 455325,
+        "qualified_followers_count": 455348,
         "qualified_followers_text": "45.5W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -7190,12 +7216,13 @@
         ],
         "x_name": "乔乔",
         "promo_name": "乔乔",
-        "followers_count": 598176,
+        "followers_count": 598213,
         "followers_text": "59.8W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -7221,6 +7248,22 @@
           {
             "source": "status_legacy",
             "count": 598176
+          },
+          {
+            "source": "status_v2",
+            "count": 598213
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 598213
+          },
+          {
+            "source": "status_legacy",
+            "count": 598213
+          },
+          {
+            "source": "profile_v2",
+            "count": 598213
           }
         ],
         "check_followers_count": 598172,
@@ -7288,12 +7331,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 598176,
+        "qualified_followers_count": 598213,
         "qualified_followers_text": "59.8W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -7502,7 +7546,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:21:59",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -8307,7 +8351,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:17:01",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted"
       },
@@ -8507,7 +8551,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:22:09",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted"
       },
@@ -8691,7 +8735,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:23:24",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted"
       },
@@ -8891,7 +8935,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:28:38",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted"
       },
@@ -9091,8 +9135,208 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:28:40",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
+        "daily_list_status": "accepted"
+      },
+      "wakuku000": {
+        "x_handle": "wakuku000",
+        "check_handle": "wakuku000",
+        "dual_link": false,
+        "promo_handle": "wakuku000",
+        "tg_username": "catdog851",
+        "tg_user_id": 5452100710,
+        "tg_name": "葡萄 吃不饱",
+        "link": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+        "message_text": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+            "handle": "wakuku000",
+            "post_id": "2104888668746125818",
+            "role": "promo",
+            "author_name": "欧尼欧尼",
+            "followers_count": 2872,
+            "followers_text": "2.8K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 2871
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 2872
+              },
+              {
+                "source": "status_legacy",
+                "count": 2871
+              },
+              {
+                "source": "profile_v2",
+                "count": 2871
+              }
+            ],
+            "tweet_text": "穿靴子丝袜脚被捂着酸臭！\n\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 46,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+            "post_id": "2104888668746125818",
+            "handle": "wakuku000",
+            "source_time": "2026-10-14 00:35:05",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "欧尼欧尼",
+        "promo_name": "欧尼欧尼",
+        "followers_count": 2872,
+        "followers_text": "2.8K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 2871
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 2872
+          },
+          {
+            "source": "status_legacy",
+            "count": 2871
+          },
+          {
+            "source": "profile_v2",
+            "count": 2871
+          }
+        ],
+        "check_followers_count": 2872,
+        "check_followers_text": "2.8K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 2871
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 2872
+          },
+          {
+            "source": "status_legacy",
+            "count": 2871
+          },
+          {
+            "source": "profile_v2",
+            "count": 2871
+          }
+        ],
+        "tweet_text": "穿靴子丝袜脚被捂着酸臭！\n\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 46,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+        "check_url": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+        "promo_post_id": "2104888668746125818",
+        "check_post_id": "2104888668746125818",
+        "chat_id": "-1003739822194",
+        "message_id": 6680,
+        "time": "2026-10-14 00:35:05",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 2872,
+        "qualified_followers_text": "2.8K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-14 00:35:05",
+        "admission_locked": false,
+        "daily_list_rank": 9,
         "daily_list_status": "accepted"
       }
     }
@@ -14465,12 +14709,13 @@
         ],
         "x_name": "Jx",
         "promo_name": "Jx",
-        "followers_count": 455325,
+        "followers_count": 455348,
         "followers_text": "45.5W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -14484,6 +14729,30 @@
           {
             "source": "status_legacy",
             "count": 455325
+          },
+          {
+            "source": "status_v2",
+            "count": 455345
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 455345
+          },
+          {
+            "source": "status_legacy",
+            "count": 455345
+          },
+          {
+            "source": "status_v2",
+            "count": 455348
+          },
+          {
+            "source": "status_legacy",
+            "count": 455348
+          },
+          {
+            "source": "profile_v2",
+            "count": 455345
           }
         ],
         "check_followers_count": 455325,
@@ -14551,12 +14820,13 @@
         "edited": true,
         "edit_time": "2026-10-14 00:26:47",
         "followers_min": 100000,
-        "qualified_followers_count": 455325,
+        "qualified_followers_count": 455348,
         "qualified_followers_text": "45.5W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -16287,12 +16557,13 @@
         ],
         "x_name": "乔乔",
         "promo_name": "乔乔",
-        "followers_count": 598176,
+        "followers_count": 598213,
         "followers_text": "59.8W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -16318,6 +16589,22 @@
           {
             "source": "status_legacy",
             "count": 598176
+          },
+          {
+            "source": "status_v2",
+            "count": 598213
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 598213
+          },
+          {
+            "source": "status_legacy",
+            "count": 598213
+          },
+          {
+            "source": "profile_v2",
+            "count": 598213
           }
         ],
         "check_followers_count": 598172,
@@ -16385,12 +16672,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 598176,
+        "qualified_followers_count": 598213,
         "qualified_followers_text": "59.8W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -16599,7 +16887,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:21:59",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -17404,7 +17692,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:17:01",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted"
       },
@@ -17604,7 +17892,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:22:09",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted"
       },
@@ -17788,7 +18076,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:23:24",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted"
       },
@@ -17988,7 +18276,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:28:38",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted"
       },
@@ -18188,8 +18476,208 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 00:28:40",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
+        "daily_list_status": "accepted"
+      },
+      "2104888668746125818": {
+        "x_handle": "wakuku000",
+        "check_handle": "wakuku000",
+        "dual_link": false,
+        "promo_handle": "wakuku000",
+        "tg_username": "catdog851",
+        "tg_user_id": 5452100710,
+        "tg_name": "葡萄 吃不饱",
+        "link": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+        "message_text": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+            "handle": "wakuku000",
+            "post_id": "2104888668746125818",
+            "role": "promo",
+            "author_name": "欧尼欧尼",
+            "followers_count": 2872,
+            "followers_text": "2.8K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 2871
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 2872
+              },
+              {
+                "source": "status_legacy",
+                "count": 2871
+              },
+              {
+                "source": "profile_v2",
+                "count": 2871
+              }
+            ],
+            "tweet_text": "穿靴子丝袜脚被捂着酸臭！\n\n@ToBulaer @ToBuerma @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 46,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+            "post_id": "2104888668746125818",
+            "handle": "wakuku000",
+            "source_time": "2026-10-14 00:35:05",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "欧尼欧尼",
+        "promo_name": "欧尼欧尼",
+        "followers_count": 2872,
+        "followers_text": "2.8K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 2871
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 2872
+          },
+          {
+            "source": "status_legacy",
+            "count": 2871
+          },
+          {
+            "source": "profile_v2",
+            "count": 2871
+          }
+        ],
+        "check_followers_count": 2872,
+        "check_followers_text": "2.8K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 2871
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 2872
+          },
+          {
+            "source": "status_legacy",
+            "count": 2871
+          },
+          {
+            "source": "profile_v2",
+            "count": 2871
+          }
+        ],
+        "tweet_text": "穿靴子丝袜脚被捂着酸臭！\n\n@ToBulaer @ToBuerma @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 46,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+        "check_url": "https://x.com/wakuku000/status/2104888668746125818?s=46",
+        "promo_post_id": "2104888668746125818",
+        "check_post_id": "2104888668746125818",
+        "chat_id": "-1003739822194",
+        "message_id": 6680,
+        "time": "2026-10-14 00:35:05",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 2872,
+        "qualified_followers_text": "2.8K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-14 00:35:05",
+        "admission_locked": false,
+        "daily_list_rank": 9,
         "daily_list_status": "accepted"
       }
     }

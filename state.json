@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "offset": 364621621,
+  "offset": 364621625,
   "groups": {
     "-1003891628675": {
       "count": 38,
@@ -75,7 +75,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-13",
-    "run_at": "2026-10-13 16:00:44",
+    "run_at": "2026-10-13 16:15:29",
     "completed_groups": [
       "群一",
       "群二",
@@ -83,40 +83,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "38366350862:1",
-        "checked_at": "2026-10-13 16:00:46",
+        "run_key": "38367990214:1",
+        "checked_at": "2026-10-13 16:15:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "38366350862:1",
-        "checked_at": "2026-10-13 16:00:47",
+        "run_key": "38367990214:1",
+        "checked_at": "2026-10-13 16:15:31",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "38366350862:1",
-        "checked_at": "2026-10-13 16:00:47",
+        "run_key": "38367990214:1",
+        "checked_at": "2026-10-13 16:15:31",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "38366350862:1",
-        "checked_at": "2026-10-13 16:00:46",
+        "run_key": "38367990214:1",
+        "checked_at": "2026-10-13 16:15:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "38366350862:1",
-        "checked_at": "2026-10-13 16:00:47",
+        "run_key": "38367990214:1",
+        "checked_at": "2026-10-13 16:15:31",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "38366350862:1",
-        "checked_at": "2026-10-13 16:00:47",
+        "run_key": "38367990214:1",
+        "checked_at": "2026-10-13 16:15:31",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1214,10 +1214,10 @@
               },
               {
                 "handle": "shixiaotaon",
-                "post_id": "2108466884018647196",
+                "post_id": "2109916409522507882",
                 "original_post_id": "2108466884018647196",
-                "url": "https://x.com/shixiaotaon/status/2108466884018647196",
-                "edited": false,
+                "url": "https://x.com/shixiaotaon/status/2109916409522507882",
+                "edited": true,
                 "position": 4,
                 "message_id": "9451",
                 "tg_user_id": "5275613873",
@@ -1225,7 +1225,8 @@
                 "admission_time": "2026-10-13 00:28:30",
                 "list_id": "B",
                 "display_name": "小小桃",
-                "admitted_at": "2026-10-13 00:30:47"
+                "admitted_at": "2026-10-13 00:30:47",
+                "edit_time": "2026-10-13 16:05:28"
               },
               {
                 "handle": "qinxian8023",
@@ -1871,10 +1872,10 @@
           },
           {
             "handle": "shixiaotaon",
-            "post_id": "2108466884018647196",
+            "post_id": "2109916409522507882",
             "original_post_id": "2108466884018647196",
-            "url": "https://x.com/shixiaotaon/status/2108466884018647196",
-            "edited": false,
+            "url": "https://x.com/shixiaotaon/status/2109916409522507882",
+            "edited": true,
             "position": 34,
             "message_id": "9451",
             "tg_user_id": "5275613873",
@@ -1883,6 +1884,7 @@
             "list_id": "B",
             "display_name": "小小桃",
             "admitted_at": "2026-10-13 00:30:47",
+            "edit_time": "2026-10-13 16:05:28",
             "list_position": 4
           },
           {
@@ -2197,10 +2199,10 @@
     "date": "2026-10-13",
     "groups": {
       "群一": {
-        "digest": "dc8093b079c4dada34b080cba955775588b135b24482062acffa8f512ae69fdf",
-        "sourceRevision": 8,
+        "digest": "c0e287322fbe346a0c3484ca6a8373b6530053bf2ca888692df34414d37b9989",
+        "sourceRevision": 9,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-13T15:30:40.015977+08:00"
+        "acknowledged_at": "2026-10-13T16:15:34.343508+08:00"
       },
       "群二": {
         "digest": "e41b1596c1094651a161aaca14d53a408916dc56adeef548a1f13f6911e866ac",

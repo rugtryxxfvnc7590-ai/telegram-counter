@@ -10669,8 +10669,608 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-13 09:55:54",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 13,
+        "daily_list_status": "accepted"
+      },
+      "milktuant": {
+        "x_handle": "milktuant",
+        "check_handle": "milktuant",
+        "dual_link": false,
+        "promo_handle": "milktuant",
+        "tg_username": "Milktuant",
+        "tg_user_id": 8941347555,
+        "tg_name": "奶团团",
+        "link": "https://x.com/milktuant/status/2109822417342452099?s=46",
+        "message_text": "https://x.com/milktuant/status/2109822417342452099?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/milktuant/status/2109822417342452099?s=46",
+            "handle": "milktuant",
+            "post_id": "2109822417342452099",
+            "role": "promo",
+            "author_name": "奶油团团",
+            "followers_count": 30267,
+            "followers_text": "3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 30267
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 30267
+              },
+              {
+                "source": "status_legacy",
+                "count": 30267
+              },
+              {
+                "source": "profile_v2",
+                "count": 30267
+              }
+            ],
+            "tweet_text": "加钱小哥提出来再次加码，其实正合我意…说起来，小哥确实是小白袜重度患者，盯着我的白丝jiojio有各种想法…\n下一段就是给我亲上头，我给他口了…\n（完整版在vip群，看置顶导航可入✈️\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 126,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 126,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 126,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 126,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/milktuant/status/2109822417342452099?s=46",
+            "post_id": "2109822417342452099",
+            "handle": "milktuant",
+            "source_time": "2026-10-13 10:03:43",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "奶油团团",
+        "promo_name": "奶油团团",
+        "followers_count": 30267,
+        "followers_text": "3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 30267
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 30267
+          },
+          {
+            "source": "status_legacy",
+            "count": 30267
+          },
+          {
+            "source": "profile_v2",
+            "count": 30267
+          }
+        ],
+        "check_followers_count": 30267,
+        "check_followers_text": "3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 30267
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 30267
+          },
+          {
+            "source": "status_legacy",
+            "count": 30267
+          },
+          {
+            "source": "profile_v2",
+            "count": 30267
+          }
+        ],
+        "tweet_text": "加钱小哥提出来再次加码，其实正合我意…说起来，小哥确实是小白袜重度患者，盯着我的白丝jiojio有各种想法…\n下一段就是给我亲上头，我给他口了…\n（完整版在vip群，看置顶导航可入✈️\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 126,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 126,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 126,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 126,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/milktuant/status/2109822417342452099?s=46",
+        "check_url": "https://x.com/milktuant/status/2109822417342452099?s=46",
+        "promo_post_id": "2109822417342452099",
+        "check_post_id": "2109822417342452099",
+        "chat_id": "-1003739822194",
+        "message_id": 6639,
+        "time": "2026-10-13 10:03:43",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 30267,
+        "qualified_followers_text": "3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 10:03:43",
+        "admission_locked": false,
+        "daily_list_rank": 14,
+        "daily_list_status": "accepted"
+      },
+      "08twintails": {
+        "x_handle": "08twintails",
+        "check_handle": "08twintails",
+        "dual_link": false,
+        "promo_handle": "08twintails",
+        "tg_username": "xiaoxuegao",
+        "tg_user_id": 8423825418,
+        "tg_name": "小雪糕",
+        "link": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+        "message_text": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+            "handle": "08twintails",
+            "post_id": "2109512470490681607",
+            "role": "promo",
+            "author_name": "Twintails",
+            "followers_count": 59,
+            "followers_text": "59",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 59
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 59
+              },
+              {
+                "source": "status_legacy",
+                "count": 59
+              },
+              {
+                "source": "profile_v2",
+                "count": 59
+              }
+            ],
+            "tweet_text": "我的老粉呢 我请问呢\n\n📫\n@ToBuerma @ToBulaer @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 46,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+            "post_id": "2109512470490681607",
+            "handle": "08twintails",
+            "source_time": "2026-10-13 10:09:46",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Twintails",
+        "promo_name": "Twintails",
+        "followers_count": 59,
+        "followers_text": "59",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 59
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 59
+          },
+          {
+            "source": "status_legacy",
+            "count": 59
+          },
+          {
+            "source": "profile_v2",
+            "count": 59
+          }
+        ],
+        "check_followers_count": 59,
+        "check_followers_text": "59",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 59
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 59
+          },
+          {
+            "source": "status_legacy",
+            "count": 59
+          },
+          {
+            "source": "profile_v2",
+            "count": 59
+          }
+        ],
+        "tweet_text": "我的老粉呢 我请问呢\n\n📫\n@ToBuerma @ToBulaer @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 46,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+        "check_url": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+        "promo_post_id": "2109512470490681607",
+        "check_post_id": "2109512470490681607",
+        "chat_id": "-1003739822194",
+        "message_id": 6640,
+        "time": "2026-10-13 10:09:46",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 59,
+        "qualified_followers_text": "59",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 10:09:46",
+        "admission_locked": false,
+        "daily_list_rank": 15,
+        "daily_list_status": "accepted"
+      },
+      "jk13753": {
+        "x_handle": "jk13753",
+        "check_handle": "jk13753",
+        "dual_link": false,
+        "promo_handle": "jk13753",
+        "tg_username": "kaia6252",
+        "tg_user_id": 7628179593,
+        "tg_name": "诸葛不打野",
+        "link": "https://x.com/jk13753/status/2109434617313022200?s=46",
+        "message_text": "https://x.com/jk13753/status/2109434617313022200?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/jk13753/status/2109434617313022200?s=46",
+            "handle": "jk13753",
+            "post_id": "2109434617313022200",
+            "role": "promo",
+            "author_name": "波波",
+            "followers_count": 20042,
+            "followers_text": "2W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 20042
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 20042
+              },
+              {
+                "source": "status_legacy",
+                "count": 20042
+              },
+              {
+                "source": "profile_v2",
+                "count": 20042
+              }
+            ],
+            "tweet_text": "勒的好疼 🥲                                                                      @ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 109,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 109,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 109,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 109,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/jk13753/status/2109434617313022200?s=46",
+            "post_id": "2109434617313022200",
+            "handle": "jk13753",
+            "source_time": "2026-10-13 10:10:45",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "波波",
+        "promo_name": "波波",
+        "followers_count": 20042,
+        "followers_text": "2W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 20042
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 20042
+          },
+          {
+            "source": "status_legacy",
+            "count": 20042
+          },
+          {
+            "source": "profile_v2",
+            "count": 20042
+          }
+        ],
+        "check_followers_count": 20042,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 20042
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 20042
+          },
+          {
+            "source": "status_legacy",
+            "count": 20042
+          },
+          {
+            "source": "profile_v2",
+            "count": 20042
+          }
+        ],
+        "tweet_text": "勒的好疼 🥲                                                                      @ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 109,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 109,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 109,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 109,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/jk13753/status/2109434617313022200?s=46",
+        "check_url": "https://x.com/jk13753/status/2109434617313022200?s=46",
+        "promo_post_id": "2109434617313022200",
+        "check_post_id": "2109434617313022200",
+        "chat_id": "-1003739822194",
+        "message_id": 6641,
+        "time": "2026-10-13 10:10:45",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 20042,
+        "qualified_followers_text": "2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 10:10:45",
+        "admission_locked": false,
+        "daily_list_rank": 16,
         "daily_list_status": "accepted"
       }
     }
@@ -20926,8 +21526,608 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-13 09:55:54",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 13,
+        "daily_list_status": "accepted"
+      },
+      "2109822417342452099": {
+        "x_handle": "milktuant",
+        "check_handle": "milktuant",
+        "dual_link": false,
+        "promo_handle": "milktuant",
+        "tg_username": "Milktuant",
+        "tg_user_id": 8941347555,
+        "tg_name": "奶团团",
+        "link": "https://x.com/milktuant/status/2109822417342452099?s=46",
+        "message_text": "https://x.com/milktuant/status/2109822417342452099?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/milktuant/status/2109822417342452099?s=46",
+            "handle": "milktuant",
+            "post_id": "2109822417342452099",
+            "role": "promo",
+            "author_name": "奶油团团",
+            "followers_count": 30267,
+            "followers_text": "3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 30267
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 30267
+              },
+              {
+                "source": "status_legacy",
+                "count": 30267
+              },
+              {
+                "source": "profile_v2",
+                "count": 30267
+              }
+            ],
+            "tweet_text": "加钱小哥提出来再次加码，其实正合我意…说起来，小哥确实是小白袜重度患者，盯着我的白丝jiojio有各种想法…\n下一段就是给我亲上头，我给他口了…\n（完整版在vip群，看置顶导航可入✈️\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 126,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 126,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 126,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 126,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/milktuant/status/2109822417342452099?s=46",
+            "post_id": "2109822417342452099",
+            "handle": "milktuant",
+            "source_time": "2026-10-13 10:03:43",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "奶油团团",
+        "promo_name": "奶油团团",
+        "followers_count": 30267,
+        "followers_text": "3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 30267
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 30267
+          },
+          {
+            "source": "status_legacy",
+            "count": 30267
+          },
+          {
+            "source": "profile_v2",
+            "count": 30267
+          }
+        ],
+        "check_followers_count": 30267,
+        "check_followers_text": "3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 30267
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 30267
+          },
+          {
+            "source": "status_legacy",
+            "count": 30267
+          },
+          {
+            "source": "profile_v2",
+            "count": 30267
+          }
+        ],
+        "tweet_text": "加钱小哥提出来再次加码，其实正合我意…说起来，小哥确实是小白袜重度患者，盯着我的白丝jiojio有各种想法…\n下一段就是给我亲上头，我给他口了…\n（完整版在vip群，看置顶导航可入✈️\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 126,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 126,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 126,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 126,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/milktuant/status/2109822417342452099?s=46",
+        "check_url": "https://x.com/milktuant/status/2109822417342452099?s=46",
+        "promo_post_id": "2109822417342452099",
+        "check_post_id": "2109822417342452099",
+        "chat_id": "-1003739822194",
+        "message_id": 6639,
+        "time": "2026-10-13 10:03:43",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 30267,
+        "qualified_followers_text": "3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 10:03:43",
+        "admission_locked": false,
+        "daily_list_rank": 14,
+        "daily_list_status": "accepted"
+      },
+      "2109512470490681607": {
+        "x_handle": "08twintails",
+        "check_handle": "08twintails",
+        "dual_link": false,
+        "promo_handle": "08twintails",
+        "tg_username": "xiaoxuegao",
+        "tg_user_id": 8423825418,
+        "tg_name": "小雪糕",
+        "link": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+        "message_text": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+            "handle": "08twintails",
+            "post_id": "2109512470490681607",
+            "role": "promo",
+            "author_name": "Twintails",
+            "followers_count": 59,
+            "followers_text": "59",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 59
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 59
+              },
+              {
+                "source": "status_legacy",
+                "count": 59
+              },
+              {
+                "source": "profile_v2",
+                "count": 59
+              }
+            ],
+            "tweet_text": "我的老粉呢 我请问呢\n\n📫\n@ToBuerma @ToBulaer @KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 46,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 46,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+            "post_id": "2109512470490681607",
+            "handle": "08twintails",
+            "source_time": "2026-10-13 10:09:46",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "Twintails",
+        "promo_name": "Twintails",
+        "followers_count": 59,
+        "followers_text": "59",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 59
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 59
+          },
+          {
+            "source": "status_legacy",
+            "count": 59
+          },
+          {
+            "source": "profile_v2",
+            "count": 59
+          }
+        ],
+        "check_followers_count": 59,
+        "check_followers_text": "59",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 59
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 59
+          },
+          {
+            "source": "status_legacy",
+            "count": 59
+          },
+          {
+            "source": "profile_v2",
+            "count": 59
+          }
+        ],
+        "tweet_text": "我的老粉呢 我请问呢\n\n📫\n@ToBuerma @ToBulaer @KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 46,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 46,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+        "check_url": "https://x.com/08Twintails/status/2109512470490681607?s=20",
+        "promo_post_id": "2109512470490681607",
+        "check_post_id": "2109512470490681607",
+        "chat_id": "-1003739822194",
+        "message_id": 6640,
+        "time": "2026-10-13 10:09:46",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 59,
+        "qualified_followers_text": "59",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 10:09:46",
+        "admission_locked": false,
+        "daily_list_rank": 15,
+        "daily_list_status": "accepted"
+      },
+      "2109434617313022200": {
+        "x_handle": "jk13753",
+        "check_handle": "jk13753",
+        "dual_link": false,
+        "promo_handle": "jk13753",
+        "tg_username": "kaia6252",
+        "tg_user_id": 7628179593,
+        "tg_name": "诸葛不打野",
+        "link": "https://x.com/jk13753/status/2109434617313022200?s=46",
+        "message_text": "https://x.com/jk13753/status/2109434617313022200?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/jk13753/status/2109434617313022200?s=46",
+            "handle": "jk13753",
+            "post_id": "2109434617313022200",
+            "role": "promo",
+            "author_name": "波波",
+            "followers_count": 20042,
+            "followers_text": "2W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 20042
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 20042
+              },
+              {
+                "source": "status_legacy",
+                "count": 20042
+              },
+              {
+                "source": "profile_v2",
+                "count": 20042
+              }
+            ],
+            "tweet_text": "勒的好疼 🥲                                                                      @ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 109,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 109,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 109,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 109,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/jk13753/status/2109434617313022200?s=46",
+            "post_id": "2109434617313022200",
+            "handle": "jk13753",
+            "source_time": "2026-10-13 10:10:45",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "波波",
+        "promo_name": "波波",
+        "followers_count": 20042,
+        "followers_text": "2W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 20042
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 20042
+          },
+          {
+            "source": "status_legacy",
+            "count": 20042
+          },
+          {
+            "source": "profile_v2",
+            "count": 20042
+          }
+        ],
+        "check_followers_count": 20042,
+        "check_followers_text": "2W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 20042
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 20042
+          },
+          {
+            "source": "status_legacy",
+            "count": 20042
+          },
+          {
+            "source": "profile_v2",
+            "count": 20042
+          }
+        ],
+        "tweet_text": "勒的好疼 🥲                                                                      @ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 109,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 109,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 109,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 109,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/jk13753/status/2109434617313022200?s=46",
+        "check_url": "https://x.com/jk13753/status/2109434617313022200?s=46",
+        "promo_post_id": "2109434617313022200",
+        "check_post_id": "2109434617313022200",
+        "chat_id": "-1003739822194",
+        "message_id": 6641,
+        "time": "2026-10-13 10:10:45",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 20042,
+        "qualified_followers_text": "2W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-13 10:10:45",
+        "admission_locked": false,
+        "daily_list_rank": 16,
         "daily_list_status": "accepted"
       }
     }

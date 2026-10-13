@@ -7636,12 +7636,13 @@
         ],
         "x_name": "姝姬娘娘Shoo Jee🌟",
         "promo_name": "姝姬娘娘Shoo Jee🌟",
-        "followers_count": 207950,
+        "followers_count": 207953,
         "followers_text": "20.7W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -7655,6 +7656,22 @@
           {
             "source": "status_legacy",
             "count": 207950
+          },
+          {
+            "source": "status_v2",
+            "count": 207953
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 207953
+          },
+          {
+            "source": "status_legacy",
+            "count": 207953
+          },
+          {
+            "source": "profile_v2",
+            "count": 207953
           }
         ],
         "check_followers_count": 207950,
@@ -7722,17 +7739,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 207950,
+        "qualified_followers_count": 207953,
         "qualified_followers_text": "20.7W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 05:18:13",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -18181,12 +18199,13 @@
         ],
         "x_name": "姝姬娘娘Shoo Jee🌟",
         "promo_name": "姝姬娘娘Shoo Jee🌟",
-        "followers_count": 207950,
+        "followers_count": 207953,
         "followers_text": "20.7W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -18200,6 +18219,22 @@
           {
             "source": "status_legacy",
             "count": 207950
+          },
+          {
+            "source": "status_v2",
+            "count": 207953
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 207953
+          },
+          {
+            "source": "status_legacy",
+            "count": 207953
+          },
+          {
+            "source": "profile_v2",
+            "count": 207953
           }
         ],
         "check_followers_count": 207950,
@@ -18267,17 +18302,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 207950,
+        "qualified_followers_count": 207953,
         "qualified_followers_text": "20.7W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-14 05:18:13",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",

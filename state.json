@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "offset": 364621763,
+  "offset": 364621765,
   "groups": {
     "-1003891628675": {
       "count": 40,
@@ -52,7 +52,7 @@
       "message_ids": []
     },
     "-1003739822194": {
-      "count": 18,
+      "count": 19,
       "message_ids": [
         "6673",
         "6674",
@@ -71,13 +71,14 @@
         "6721",
         "6723",
         "6726",
-        "6727"
+        "6727",
+        "6729"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-10-14",
-    "run_at": "2026-10-14 18:15:38",
+    "run_at": "2026-10-14 18:30:41",
     "completed_groups": [
       "群一",
       "群二",
@@ -85,40 +86,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "38548251879:1",
-        "checked_at": "2026-10-14 18:15:40",
+        "run_key": "38550029413:1",
+        "checked_at": "2026-10-14 18:30:42",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "38548251879:1",
-        "checked_at": "2026-10-14 18:15:40",
+        "run_key": "38550029413:1",
+        "checked_at": "2026-10-14 18:30:42",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "38548251879:1",
-        "checked_at": "2026-10-14 18:15:40",
+        "run_key": "38550029413:1",
+        "checked_at": "2026-10-14 18:30:42",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "38548251879:1",
-        "checked_at": "2026-10-14 18:15:40",
+        "run_key": "38550029413:1",
+        "checked_at": "2026-10-14 18:30:42",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "38548251879:1",
-        "checked_at": "2026-10-14 18:15:40",
+        "run_key": "38550029413:1",
+        "checked_at": "2026-10-14 18:30:42",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "38548251879:1",
-        "checked_at": "2026-10-14 18:15:40",
+        "run_key": "38550029413:1",
+        "checked_at": "2026-10-14 18:30:42",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -2034,12 +2035,24 @@
       "群三": {
         "slots": [
           {
+            "handle": "kellymmll_ai",
+            "post_id": "2110314168675152033",
+            "original_post_id": "2110314168675152033",
+            "url": "https://x.com/kellymmll_ai/status/2110314168675152033",
+            "edited": false,
+            "position": 1,
+            "message_id": "6729",
+            "tg_user_id": "8243332573",
+            "time": "2026-10-14 18:21:11",
+            "admission_time": "2026-10-14 18:21:11"
+          },
+          {
             "handle": "ktanagere",
             "post_id": "2109921983421121019",
             "original_post_id": "2109921983421121019",
             "url": "https://x.com/ktanagere/status/2109921983421121019",
             "edited": false,
-            "position": 1,
+            "position": 2,
             "message_id": "6727",
             "tg_user_id": "8228762729",
             "time": "2026-10-14 17:50:41",
@@ -2051,7 +2064,7 @@
             "original_post_id": "2110241767975157781",
             "url": "https://x.com/rogue0791/status/2110241767975157781",
             "edited": false,
-            "position": 2,
+            "position": 3,
             "message_id": "6726",
             "tg_user_id": "8690119616",
             "time": "2026-10-14 17:04:58",
@@ -2063,7 +2076,7 @@
             "original_post_id": "2103757417150595417",
             "url": "https://x.com/kikyoulsg/status/2103757417150595417",
             "edited": false,
-            "position": 3,
+            "position": 4,
             "message_id": "6723",
             "tg_user_id": "8009486170",
             "time": "2026-10-14 15:24:43",
@@ -2075,7 +2088,7 @@
             "original_post_id": "2109434617313022200",
             "url": "https://x.com/jk13753/status/2109434617313022200",
             "edited": false,
-            "position": 4,
+            "position": 5,
             "message_id": "6721",
             "tg_user_id": "7628179593",
             "time": "2026-10-14 13:12:44",
@@ -2087,7 +2100,7 @@
             "original_post_id": "2108736745374454025",
             "url": "https://x.com/xing5131/status/2108736745374454025",
             "edited": false,
-            "position": 5,
+            "position": 6,
             "message_id": "6720",
             "tg_user_id": "7591046188",
             "time": "2026-10-14 12:57:54",
@@ -2099,7 +2112,7 @@
             "original_post_id": "2106688983602430110",
             "url": "https://x.com/xinxinjjj/status/2106688983602430110",
             "edited": false,
-            "position": 6,
+            "position": 7,
             "message_id": "6692",
             "tg_user_id": "1437992083",
             "time": "2026-10-14 11:08:24",
@@ -2114,7 +2127,7 @@
             "original_post_id": "2105165840341717088",
             "url": "https://x.com/cocohklu888/status/2105165840341717088",
             "edited": false,
-            "position": 7,
+            "position": 8,
             "message_id": "6687",
             "tg_user_id": "5820965161",
             "time": "2026-10-14 03:17:04",
@@ -2126,7 +2139,7 @@
             "original_post_id": "2109952257831981222",
             "url": "https://x.com/tutu_kirar2wer/status/2109952257831981222",
             "edited": false,
-            "position": 8,
+            "position": 9,
             "message_id": "6683",
             "tg_user_id": "5999016712",
             "time": "2026-10-14 00:56:52",
@@ -2138,7 +2151,7 @@
             "original_post_id": "2106395884703617166",
             "url": "https://x.com/yishiyu7788/status/2106395884703617166",
             "edited": false,
-            "position": 9,
+            "position": 10,
             "message_id": "6682",
             "tg_user_id": "5404758777",
             "time": "2026-10-14 00:51:36",
@@ -2150,7 +2163,7 @@
             "original_post_id": "2108753331607003344",
             "url": "https://x.com/maojio513/status/2108753331607003344",
             "edited": false,
-            "position": 10,
+            "position": 11,
             "message_id": "6681",
             "tg_user_id": "6711450768",
             "time": "2026-10-14 00:46:29",
@@ -2162,7 +2175,7 @@
             "original_post_id": "2104888668746125818",
             "url": "https://x.com/wakuku000/status/2104888668746125818",
             "edited": false,
-            "position": 11,
+            "position": 12,
             "message_id": "6680",
             "tg_user_id": "5452100710",
             "time": "2026-10-14 00:35:05",
@@ -2174,7 +2187,7 @@
             "original_post_id": "2105342770416394599",
             "url": "https://x.com/saza52771/status/2105342770416394599",
             "edited": false,
-            "position": 12,
+            "position": 13,
             "message_id": "6679",
             "tg_user_id": "5562980398",
             "time": "2026-10-14 00:28:40",
@@ -2186,7 +2199,7 @@
             "original_post_id": "2108975282514456723",
             "url": "https://x.com/jzu777/status/2108975282514456723",
             "edited": false,
-            "position": 13,
+            "position": 14,
             "message_id": "6678",
             "tg_user_id": "5340909281",
             "time": "2026-10-14 00:28:38",
@@ -2198,7 +2211,7 @@
             "original_post_id": "2099121765603836206",
             "url": "https://x.com/hentaoxi/status/2099121765603836206",
             "edited": false,
-            "position": 14,
+            "position": 15,
             "message_id": "6677",
             "tg_user_id": "7310352765",
             "time": "2026-10-14 00:23:24",
@@ -2210,7 +2223,7 @@
             "original_post_id": "2110005406261207163",
             "url": "https://x.com/obdiedie99/status/2110005406261207163",
             "edited": false,
-            "position": 15,
+            "position": 16,
             "message_id": "6676",
             "tg_user_id": "7446354632",
             "time": "2026-10-14 00:22:09",
@@ -2222,7 +2235,7 @@
             "original_post_id": "2109170224339775770",
             "url": "https://x.com/rogueyinqi888/status/2109170224339775770",
             "edited": false,
-            "position": 16,
+            "position": 17,
             "message_id": "6675",
             "tg_user_id": "8690119616",
             "time": "2026-10-14 00:17:01",
@@ -2234,7 +2247,7 @@
             "original_post_id": "2095062209911226677",
             "url": "https://x.com/1tbsvip/status/2095062209911226677",
             "edited": false,
-            "position": 17,
+            "position": 18,
             "message_id": "6674",
             "tg_user_id": "5493105308",
             "time": "2026-10-14 00:03:30",
@@ -2249,21 +2262,21 @@
             "original_post_id": "2109951780767293687",
             "url": "https://x.com/nnn7sa/status/2109951780767293687",
             "edited": false,
-            "position": 18,
+            "position": 19,
             "message_id": "6673",
             "tg_user_id": "8243332573",
             "time": "2026-10-14 00:01:24",
             "admission_time": "2026-10-14 00:01:24"
           }
         ],
-        "capacity": 18,
+        "capacity": 19,
         "withdrawn_message_ids": [
           "6671",
           "6672"
         ],
         "vacant_positions": {},
-        "roster_capacity": 18,
-        "count": 18,
+        "roster_capacity": 19,
+        "count": 19,
         "admission_limit": 30
       }
     }
@@ -2278,10 +2291,10 @@
         "acknowledged_at": "2026-10-14T18:00:55.150730+08:00"
       },
       "群三": {
-        "digest": "2367b814cc64fab581d700da46be9e3233e5b7b30afbb88ae3d801863759de20",
-        "sourceRevision": 6,
+        "digest": "a5df6224d4f4e7acd891867fe991e9f9119cd3b3499a8406662202e01460e1e8",
+        "sourceRevision": 7,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-14T18:00:55.441961+08:00"
+        "acknowledged_at": "2026-10-14T18:30:44.973214+08:00"
       },
       "群二": {
         "digest": "51bc6b0823102d3900046abea63c6c949f8ebbd330120b72acfcada5247f5722",

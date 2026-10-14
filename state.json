@@ -72,7 +72,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-14",
-    "run_at": "2026-10-14 13:45:35",
+    "run_at": "2026-10-14 14:00:57",
     "completed_groups": [
       "群一",
       "群二",
@@ -80,40 +80,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "38518316992:1",
-        "checked_at": "2026-10-14 13:45:36",
+        "run_key": "38519713552:1",
+        "checked_at": "2026-10-14 14:00:59",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "38518316992:1",
-        "checked_at": "2026-10-14 13:45:36",
+        "run_key": "38519713552:1",
+        "checked_at": "2026-10-14 14:00:59",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "38518316992:1",
-        "checked_at": "2026-10-14 13:45:37",
+        "run_key": "38519713552:1",
+        "checked_at": "2026-10-14 14:00:59",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "38518316992:1",
-        "checked_at": "2026-10-14 13:45:36",
+        "run_key": "38519713552:1",
+        "checked_at": "2026-10-14 14:00:59",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "38518316992:1",
-        "checked_at": "2026-10-14 13:45:36",
+        "run_key": "38519713552:1",
+        "checked_at": "2026-10-14 14:00:59",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "38518316992:1",
-        "checked_at": "2026-10-14 13:45:37",
+        "run_key": "38519713552:1",
+        "checked_at": "2026-10-14 14:00:59",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -2153,9 +2153,16 @@
         "acknowledged_at": "2026-10-14T05:30:44.385970+08:00"
       },
       "群三": {
-        "digest": "bf98a3801aa36b051d2c0cef20289d7db8489bac6b57b7b318403f4142ec90ef",
-        "sourceRevision": 2,
-        "last_error": "http_409"
+        "digest": "934baa2cd66d4ce862a47064d839545336cc3d5e27da0b55faa6c24eaa09a524",
+        "sourceRevision": 3,
+        "acknowledged": true,
+        "acknowledged_at": "2026-10-14T14:01:02.927323+08:00"
+      },
+      "群二": {
+        "digest": "51bc6b0823102d3900046abea63c6c949f8ebbd330120b72acfcada5247f5722",
+        "sourceRevision": 1,
+        "acknowledged": true,
+        "acknowledged_at": "2026-10-14T14:01:02.701658+08:00"
       }
     }
   },

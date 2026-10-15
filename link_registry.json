@@ -7706,6 +7706,190 @@
         "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted"
+      },
+      "kikyoulsg": {
+        "x_handle": "kikyoulsg",
+        "check_handle": "kikyoulsg",
+        "dual_link": false,
+        "promo_handle": "kikyoulsg",
+        "tg_username": "xiongxiong8989",
+        "tg_user_id": 8009486170,
+        "tg_name": "孤单的熊熊",
+        "link": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+        "message_text": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+            "handle": "kikyoulsg",
+            "post_id": "2109294559826210883",
+            "role": "promo",
+            "author_name": "栗子熊",
+            "followers_count": 3061,
+            "followers_text": "3K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 3061
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 3061
+              },
+              {
+                "source": "status_legacy",
+                "count": 3061
+              }
+            ],
+            "tweet_text": "菊花已经完全被打开\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+            "post_id": "2109294559826210883",
+            "handle": "kikyoulsg",
+            "source_time": "2026-10-16 00:50:44",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "栗子熊",
+        "promo_name": "栗子熊",
+        "followers_count": 3061,
+        "followers_text": "3K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3061
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3061
+          },
+          {
+            "source": "status_legacy",
+            "count": 3061
+          }
+        ],
+        "check_followers_count": 3061,
+        "check_followers_text": "3K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3061
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3061
+          },
+          {
+            "source": "status_legacy",
+            "count": 3061
+          }
+        ],
+        "tweet_text": "菊花已经完全被打开\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+        "check_url": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+        "promo_post_id": "2109294559826210883",
+        "check_post_id": "2109294559826210883",
+        "chat_id": "-1003739822194",
+        "message_id": 6923,
+        "time": "2026-10-16 00:50:44",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 3061,
+        "qualified_followers_text": "3K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-16 00:50:44",
+        "admission_locked": false,
+        "daily_list_rank": 3,
+        "daily_list_status": "accepted"
       }
     }
   },
@@ -15414,6 +15598,190 @@
         "admission_time": "2026-10-16 00:02:07",
         "admission_locked": true,
         "daily_list_rank": 2,
+        "daily_list_status": "accepted"
+      },
+      "2109294559826210883": {
+        "x_handle": "kikyoulsg",
+        "check_handle": "kikyoulsg",
+        "dual_link": false,
+        "promo_handle": "kikyoulsg",
+        "tg_username": "xiongxiong8989",
+        "tg_user_id": 8009486170,
+        "tg_name": "孤单的熊熊",
+        "link": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+        "message_text": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+            "handle": "kikyoulsg",
+            "post_id": "2109294559826210883",
+            "role": "promo",
+            "author_name": "栗子熊",
+            "followers_count": 3061,
+            "followers_text": "3K",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 3061
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 3061
+              },
+              {
+                "source": "status_legacy",
+                "count": 3061
+              }
+            ],
+            "tweet_text": "菊花已经完全被打开\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 45,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 45,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+            "post_id": "2109294559826210883",
+            "handle": "kikyoulsg",
+            "source_time": "2026-10-16 00:50:44",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "栗子熊",
+        "promo_name": "栗子熊",
+        "followers_count": 3061,
+        "followers_text": "3K",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3061
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3061
+          },
+          {
+            "source": "status_legacy",
+            "count": 3061
+          }
+        ],
+        "check_followers_count": 3061,
+        "check_followers_text": "3K",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 3061
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 3061
+          },
+          {
+            "source": "status_legacy",
+            "count": 3061
+          }
+        ],
+        "tweet_text": "菊花已经完全被打开\n\n@ToBuerma \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 45,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 45,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+        "check_url": "https://x.com/kikyoulsg/status/2109294559826210883?s=46",
+        "promo_post_id": "2109294559826210883",
+        "check_post_id": "2109294559826210883",
+        "chat_id": "-1003739822194",
+        "message_id": 6923,
+        "time": "2026-10-16 00:50:44",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 3061,
+        "qualified_followers_text": "3K",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-16 00:50:44",
+        "admission_locked": false,
+        "daily_list_rank": 3,
         "daily_list_status": "accepted"
       }
     }

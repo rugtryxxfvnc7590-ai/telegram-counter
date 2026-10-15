@@ -6,12 +6,71 @@ from unittest.mock import Mock
 
 from daily_roster import refresh_daily_rosters
 from test_website_roster import fixture, DAY, NOW, CID, LIMITS, withdraw
-from website_deletions import capture_website_deletions, deleted_entries, website_items
+from website_deletions import capture_website_deletions, deleted_entries, deletion_patches, website_items
 from website_sync import sync_website
 from withdrawal_sync import note_withdrawals
 
 
 class WebsiteDeletionTest(unittest.TestCase):
+    def resubmission(self, group="群三"):
+        return {"daily_rosters": {"date": DAY, "groups": {group: {"slots": [
+            {"position": 10, "message_id": "6682", "handle": "yishiyu7788",
+             "post_id": "2106395884703617166", "url": "https://x.com/yishiyu7788/status/2106395884703617166"}
+        ]}}}, "website_deletions": {"date": DAY, "groups": {group: {"6672": {
+            "position": 2, "account": "yishiyu7788", "postId": "2106395884703617166",
+            "confirmed_at": DAY + " 00:16:15"
+        }}}}}
+
+    def test_deleted_old_message_cannot_remove_same_post_readmitted_by_new_message(self):
+        for group in ("群一", "群二", "群三"):
+            with self.subTest(group=group):
+                state = self.resubmission(group)
+                record = state["daily_rosters"]["groups"][group]
+                deletions = deleted_entries(state, group, DAY)
+                self.assertEqual(website_items(record, deletions)[-1]["url"],
+                                 "https://x.com/yishiyu7788/status/2106395884703617166")
+                self.assertEqual(deletion_patches(record, deletions), [])
+                before = deepcopy(state)
+                post = Mock(return_value=SimpleNamespace(status_code=200, json=lambda: {"status": "updated"}))
+                for hour in (19, 23):
+                    sync_website(state, NOW.replace(hour=hour), secret="test-secret", post=post)
+                    payload = json.loads(post.call_args.kwargs["data"])
+                    self.assertEqual(payload["deletions"], [])
+                    self.assertNotIn("items", payload)
+                post.assert_called_once()
+                self.assertEqual(state["daily_rosters"], before["daily_rosters"])
+                self.assertEqual(state["website_deletions"], before["website_deletions"])
+
+    def test_new_message_also_deleted_still_removes_post_and_retries_are_idempotent(self):
+        state = self.resubmission()
+        post = Mock(return_value=SimpleNamespace(status_code=200, json=lambda: {"status": "updated"}))
+        sync_website(state, NOW.replace(hour=19), secret="test-secret", post=post)
+        state["website_deletions"]["groups"]["群三"]["6682"] = {
+            "position": 10, "account": "yishiyu7788", "postId": "2106395884703617166",
+            "confirmed_at": DAY + " 22:30:41"
+        }
+        sync_website(state, NOW.replace(hour=22, minute=30, second=43), secret="test-secret", post=post)
+        payload = json.loads(post.call_args.kwargs["data"])
+        self.assertEqual(len(payload["deletions"]), 2)
+        self.assertEqual(payload["sourceRevision"], 2)
+        self.assertIn({"position": 10, "account": "yishiyu7788", "postId": "2106395884703617166"}, payload["deletions"])
+        sync_website(state, NOW.replace(hour=23), secret="test-secret", post=post)
+        self.assertEqual(post.call_count, 2)
+
+    def test_protection_requires_same_group_account_post_and_live_slot(self):
+        state = self.resubmission()
+        record = state["daily_rosters"]["groups"]["群三"]
+        deletions = deleted_entries(state, "群三", DAY)
+        for changes in ({"handle": "different", "url": "https://x.com/different/status/2106395884703617166"},
+                        {"post_id": "999", "url": "https://x.com/yishiyu7788/status/999"}):
+            altered = deepcopy(record)
+            altered["slots"][0].update(changes)
+            self.assertEqual(len(deletion_patches(altered, deletions)), 1)
+        self.assertEqual(len(deletion_patches({"slots": []}, deletions)), 1)
+        other = {"42": {"position": 20, "account": "another", "postId": "123", "confirmed_at": DAY + " 18:00:00"}}
+        self.assertEqual(deletion_patches(record, {**deletions, **other}),
+                         [{"position": 20, "account": "another", "postId": "123"}])
+
     def test_before_cutoff_candidate_inherits_number_and_deleted_username(self):
         registry, state = fixture()
         withdraw(registry, state, 5)

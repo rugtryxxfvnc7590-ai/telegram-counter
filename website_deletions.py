@@ -3,6 +3,7 @@ from copy import deepcopy
 import re
 
 from withdrawal_sync import beijing_now
+from private_list_sync import post_identity
 
 
 def capture_website_deletions(registry, state, now=None):
@@ -46,6 +47,14 @@ def deleted_entries(state, group, day):
     if ledger.get("date") != day:
         return {}
     return (ledger.get("groups") or {}).get(group) or {}
+
+
+def deletion_patches(record, deletions):
+    # A deleted older message can point to a post re-admitted by a newer one.
+    live_posts = {post_identity(item["url"]) for item in website_items(record, deletions) if item.get("url")}
+    return [{key: entry[key] for key in ("position", "account", "postId")}
+            for _, entry in sorted(deletions.items())
+            if (str(entry["account"]).lstrip("@").lower(), str(entry["postId"])) not in live_posts]
 
 
 def website_items(record, deletions):

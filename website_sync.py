@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 
 import requests
 
-from website_deletions import deleted_entries, website_items
+from website_deletions import deleted_entries, deletion_patches, website_items
 from withdrawal_sync import beijing_now
 
 DEFAULT_URL = "https://daily-links.guerridodominique142615.workers.dev"
@@ -80,9 +80,7 @@ def sync_website(state, now=None, save_callback=None, secret=None, origin=None, 
                 continue
             # Frozen hours cannot introduce or replace a link, even if an
             # admission snapshot changed while a request was in flight.
-            payload.update(mode="deletions", deletions=[
-                {key: entry[key] for key in ("position", "account", "postId")}
-                for _, entry in sorted(deletions.items())])
+            payload.update(mode="deletions", deletions=deletion_patches(record, deletions))
         digest = hashlib.sha256(encode_payload(payload)).hexdigest()
         previous = ledger["groups"].get(group) or {}
         if previous.get("digest") != digest:

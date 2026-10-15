@@ -119,6 +119,24 @@ class ReturnProfileFollowersTest(unittest.TestCase):
         self.assertTrue(row["mutual_eligible"])
         self.assertEqual(row["check_handle"], "returner")
 
+    def test_group3_real_promo_and_return_profile_with_chinese_punctuation(self):
+        self.counts.update(yishiyu7788=7989, xiaosongmimi=9026)
+        self.texts["yishiyu7788"] = "@ToBulaer @ToBuerma @KawasawaSen"
+        group = main.GROUP_3_CHAT_ID_FALLBACK
+        msg = {"message_id": 6682, "date": int(NOW.replace(hour=10).timestamp()),
+               "text": "https://x.com/yishiyu7788/status/2106395884703617166?s=20\n"
+                       "推上面☝️\n回推👉 https://x.com/xiaosongmimi?s=20。",
+               "from": {"id": 1010, "username": "owner"}}
+        replace_group_snapshot(self.registry, self.state, group, [msg], DAY, now=NOW)
+        row = self.registry["post_entries"][group]["2106395884703617166"]
+        self.assertEqual(row["promo_handle"], "yishiyu7788")
+        self.assertEqual(row["check_handle"], "xiaosongmimi")
+        self.assertEqual(row["check_url"], "https://x.com/xiaosongmimi?s=20")
+        self.assertTrue(row["dual_link"])
+        self.assertTrue(row["mutual_eligible"])
+        self.assertEqual(main.daily_eligible_links(self.registry, group),
+                         ["https://x.com/yishiyu7788/status/2106395884703617166"])
+
     def test_missing_return_followers_is_not_assumed_to_meet_minimum(self):
         self.counts["returner"] = None
         row = self.sync()

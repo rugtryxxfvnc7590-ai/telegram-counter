@@ -21936,6 +21936,7 @@
           "meehutaotv": "A",
           "snd99x": "A",
           "tiaotiaosheep": "A",
+          "tianqipaidui": "B",
           "uudajiejie": "B",
           "lovvy222": "B",
           "luck67188": "B",
@@ -21947,8 +21948,7 @@
           "qiobnxingcai": "B",
           "sluttytatia404": "B",
           "aksaks99999": "B",
-          "jxzeroc": "B",
-          "tianqipaidui": "B"
+          "jxzeroc": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -22649,7 +22649,8 @@
         "count": 43,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60
+        "admission_limit": 60,
+        "cutoff_finalized": true
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "offset": 364622154,
+  "offset": 364622155,
   "groups": {
     "-1003891628675": {
       "count": 32,
@@ -44,17 +44,18 @@
       "message_ids": []
     },
     "-1003739822194": {
-      "count": 3,
+      "count": 4,
       "message_ids": [
         "6947",
         "6948",
-        "6949"
+        "6949",
+        "6950"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-10-17",
-    "run_at": "2026-10-17 04:45:37",
+    "run_at": "2026-10-17 05:00:50",
     "completed_groups": [
       "群一",
       "群二",
@@ -62,40 +63,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "38964498013:1",
-        "checked_at": "2026-10-17 04:45:38",
+        "run_key": "38966314734:1",
+        "checked_at": "2026-10-17 05:00:51",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "38964498013:1",
-        "checked_at": "2026-10-17 04:45:38",
+        "run_key": "38966314734:1",
+        "checked_at": "2026-10-17 05:00:51",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "38964498013:1",
-        "checked_at": "2026-10-17 04:45:38",
+        "run_key": "38966314734:1",
+        "checked_at": "2026-10-17 05:00:51",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "38964498013:1",
-        "checked_at": "2026-10-17 04:45:38",
+        "run_key": "38966314734:1",
+        "checked_at": "2026-10-17 05:00:51",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "38964498013:1",
-        "checked_at": "2026-10-17 04:45:38",
+        "run_key": "38966314734:1",
+        "checked_at": "2026-10-17 05:00:51",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "38964498013:1",
-        "checked_at": "2026-10-17 04:45:38",
+        "run_key": "38966314734:1",
+        "checked_at": "2026-10-17 05:00:51",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1714,12 +1715,24 @@
       "群三": {
         "slots": [
           {
+            "handle": "08twintails",
+            "post_id": "2111120451045031964",
+            "original_post_id": "2111120451045031964",
+            "url": "https://x.com/08twintails/status/2111120451045031964",
+            "edited": false,
+            "position": 1,
+            "message_id": "6950",
+            "tg_user_id": "8423825418",
+            "time": "2026-10-17 04:53:19",
+            "admission_time": "2026-10-17 04:53:19"
+          },
+          {
             "handle": "rourouow",
             "post_id": "2111186551879438800",
             "original_post_id": "2111186551879438800",
             "url": "https://x.com/rourouow/status/2111186551879438800",
             "edited": false,
-            "position": 1,
+            "position": 2,
             "message_id": "6949",
             "tg_user_id": "7722665588",
             "time": "2026-10-17 04:05:00",
@@ -1731,7 +1744,7 @@
             "original_post_id": "2109951780767293687",
             "url": "https://x.com/nnn7sa/status/2109951780767293687",
             "edited": false,
-            "position": 2,
+            "position": 3,
             "message_id": "6948",
             "tg_user_id": "8243332573",
             "time": "2026-10-17 00:24:29",
@@ -1743,18 +1756,18 @@
             "original_post_id": "2111048430105899418",
             "url": "https://x.com/xinxinjjj/status/2111048430105899418",
             "edited": false,
-            "position": 3,
+            "position": 4,
             "message_id": "6947",
             "tg_user_id": "1437992083",
             "time": "2026-10-17 00:23:55",
             "admission_time": "2026-10-17 00:23:55"
           }
         ],
-        "capacity": 3,
+        "capacity": 4,
         "withdrawn_message_ids": [],
         "vacant_positions": {},
-        "roster_capacity": 3,
-        "count": 3,
+        "roster_capacity": 4,
+        "count": 4,
         "admission_limit": 30
       }
     }

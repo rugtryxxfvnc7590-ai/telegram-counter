@@ -1300,12 +1300,13 @@
         ],
         "x_name": "lazypiggy懶懶豬",
         "promo_name": "lazypiggy懶懶豬",
-        "followers_count": 439745,
+        "followers_count": 439924,
         "followers_text": "43.9W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -1355,6 +1356,22 @@
           {
             "source": "status_legacy",
             "count": 439743
+          },
+          {
+            "source": "status_v2",
+            "count": 439924
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 439924
+          },
+          {
+            "source": "status_legacy",
+            "count": 439924
+          },
+          {
+            "source": "profile_v2",
+            "count": 439924
           }
         ],
         "check_followers_count": 439564,
@@ -1422,12 +1439,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 439745,
+        "qualified_followers_count": 439924,
         "qualified_followers_text": "43.9W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -2730,12 +2748,13 @@
         ],
         "x_name": "黎吧啦ෆ",
         "promo_name": "黎吧啦ෆ",
-        "followers_count": 169746,
+        "followers_count": 169764,
         "followers_text": "16.9W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -2773,6 +2792,22 @@
           {
             "source": "status_legacy",
             "count": 169746
+          },
+          {
+            "source": "status_v2",
+            "count": 169764
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 169764
+          },
+          {
+            "source": "status_legacy",
+            "count": 169764
+          },
+          {
+            "source": "profile_v2",
+            "count": 169764
           }
         ],
         "check_followers_count": 169723,
@@ -2840,12 +2875,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 169746,
+        "qualified_followers_count": 169764,
         "qualified_followers_text": "16.9W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -5890,7 +5926,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-17 00:01:51",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -6092,7 +6128,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-17 00:01:54",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -6294,7 +6330,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-17 00:11:44",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -6302,7 +6338,408 @@
       }
     },
     "-1003218974409": {},
-    "-1003739822194": {}
+    "-1003739822194": {
+      "xinxinjjj": {
+        "x_handle": "xinxinjjj",
+        "check_handle": "xinxinjjj",
+        "dual_link": false,
+        "promo_handle": "xinxinjjj",
+        "tg_username": "",
+        "tg_user_id": 1437992083,
+        "tg_name": "恋足巡视员 机器人",
+        "link": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+        "message_text": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+            "handle": "xinxinjjj",
+            "post_id": "2111048430105899418",
+            "role": "promo",
+            "author_name": "恋鞋巡视员",
+            "followers_count": 13485,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13485
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13485
+              },
+              {
+                "source": "status_legacy",
+                "count": 13485
+              },
+              {
+                "source": "profile_v2",
+                "count": 13485
+              }
+            ],
+            "tweet_text": "当女主慢悠悠的在门口脱下穿了一天的鞋我就知道今晚的“主角”登场了！\n\n鞋内竟然被穿成了这样…越闻越上头！\n\n#鞋控 #恋鞋 #平底鞋\n#完整版原创群（主页入） \n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 118,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 118,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 118,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 118,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+            "post_id": "2111048430105899418",
+            "handle": "xinxinjjj",
+            "source_time": "2026-10-17 00:23:55",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "恋鞋巡视员",
+        "promo_name": "恋鞋巡视员",
+        "followers_count": 13485,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13485
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13485
+          },
+          {
+            "source": "status_legacy",
+            "count": 13485
+          },
+          {
+            "source": "profile_v2",
+            "count": 13485
+          }
+        ],
+        "check_followers_count": 13485,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13485
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13485
+          },
+          {
+            "source": "status_legacy",
+            "count": 13485
+          },
+          {
+            "source": "profile_v2",
+            "count": 13485
+          }
+        ],
+        "tweet_text": "当女主慢悠悠的在门口脱下穿了一天的鞋我就知道今晚的“主角”登场了！\n\n鞋内竟然被穿成了这样…越闻越上头！\n\n#鞋控 #恋鞋 #平底鞋\n#完整版原创群（主页入） \n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 118,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 118,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 118,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 118,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+        "check_url": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+        "promo_post_id": "2111048430105899418",
+        "check_post_id": "2111048430105899418",
+        "chat_id": "-1003739822194",
+        "message_id": 6947,
+        "time": "2026-10-17 00:23:55",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 13485,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-17 00:23:55",
+        "admission_locked": false,
+        "daily_list_rank": 1,
+        "daily_list_status": "accepted"
+      },
+      "nnn7sa": {
+        "x_handle": "nnn7sa",
+        "check_handle": "nnn7sa",
+        "dual_link": false,
+        "promo_handle": "nnn7sa",
+        "tg_username": "Guoguoqq",
+        "tg_user_id": 8243332573,
+        "tg_name": "GuoGuo💞",
+        "link": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+        "message_text": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+            "handle": "nnn7sa",
+            "post_id": "2109951780767293687",
+            "role": "promo",
+            "author_name": "阿sa～",
+            "followers_count": 375,
+            "followers_text": "375",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 375
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 375
+              },
+              {
+                "source": "status_legacy",
+                "count": 375
+              },
+              {
+                "source": "profile_v2",
+                "count": 375
+              }
+            ],
+            "tweet_text": "小新新来啦～～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 42,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+            "post_id": "2109951780767293687",
+            "handle": "nnn7sa",
+            "source_time": "2026-10-17 00:24:29",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "阿sa～",
+        "promo_name": "阿sa～",
+        "followers_count": 375,
+        "followers_text": "375",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 375
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 375
+          },
+          {
+            "source": "status_legacy",
+            "count": 375
+          },
+          {
+            "source": "profile_v2",
+            "count": 375
+          }
+        ],
+        "check_followers_count": 375,
+        "check_followers_text": "375",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 375
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 375
+          },
+          {
+            "source": "status_legacy",
+            "count": 375
+          },
+          {
+            "source": "profile_v2",
+            "count": 375
+          }
+        ],
+        "tweet_text": "小新新来啦～～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 42,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+        "check_url": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+        "promo_post_id": "2109951780767293687",
+        "check_post_id": "2109951780767293687",
+        "chat_id": "-1003739822194",
+        "message_id": 6948,
+        "time": "2026-10-17 00:24:29",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 375,
+        "qualified_followers_text": "375",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-17 00:24:29",
+        "admission_locked": false,
+        "daily_list_rank": 2,
+        "daily_list_status": "accepted"
+      }
+    }
   },
   "post_entries": {
     "-1003891628675": {
@@ -7604,12 +8041,13 @@
         ],
         "x_name": "lazypiggy懶懶豬",
         "promo_name": "lazypiggy懶懶豬",
-        "followers_count": 439745,
+        "followers_count": 439924,
         "followers_text": "43.9W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -7659,6 +8097,22 @@
           {
             "source": "status_legacy",
             "count": 439743
+          },
+          {
+            "source": "status_v2",
+            "count": 439924
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 439924
+          },
+          {
+            "source": "status_legacy",
+            "count": 439924
+          },
+          {
+            "source": "profile_v2",
+            "count": 439924
           }
         ],
         "check_followers_count": 439564,
@@ -7726,12 +8180,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 439745,
+        "qualified_followers_count": 439924,
         "qualified_followers_text": "43.9W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -9034,12 +9489,13 @@
         ],
         "x_name": "黎吧啦ෆ",
         "promo_name": "黎吧啦ෆ",
-        "followers_count": 169746,
+        "followers_count": 169764,
         "followers_text": "16.9W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -9077,6 +9533,22 @@
           {
             "source": "status_legacy",
             "count": 169746
+          },
+          {
+            "source": "status_v2",
+            "count": 169764
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 169764
+          },
+          {
+            "source": "status_legacy",
+            "count": 169764
+          },
+          {
+            "source": "profile_v2",
+            "count": 169764
           }
         ],
         "check_followers_count": 169723,
@@ -9144,12 +9616,13 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 169746,
+        "qualified_followers_count": 169764,
         "qualified_followers_text": "16.9W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
@@ -12194,7 +12667,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-17 00:01:51",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12396,7 +12869,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-17 00:01:54",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12598,7 +13071,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-17 00:11:44",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 31,
         "daily_list_status": "accepted",
         "daily_list_batch": "B",
@@ -12606,7 +13079,408 @@
       }
     },
     "-1003218974409": {},
-    "-1003739822194": {}
+    "-1003739822194": {
+      "2111048430105899418": {
+        "x_handle": "xinxinjjj",
+        "check_handle": "xinxinjjj",
+        "dual_link": false,
+        "promo_handle": "xinxinjjj",
+        "tg_username": "",
+        "tg_user_id": 1437992083,
+        "tg_name": "恋足巡视员 机器人",
+        "link": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+        "message_text": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+            "handle": "xinxinjjj",
+            "post_id": "2111048430105899418",
+            "role": "promo",
+            "author_name": "恋鞋巡视员",
+            "followers_count": 13485,
+            "followers_text": "1.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 13485
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 13485
+              },
+              {
+                "source": "status_legacy",
+                "count": 13485
+              },
+              {
+                "source": "profile_v2",
+                "count": 13485
+              }
+            ],
+            "tweet_text": "当女主慢悠悠的在门口脱下穿了一天的鞋我就知道今晚的“主角”登场了！\n\n鞋内竟然被穿成了这样…越闻越上头！\n\n#鞋控 #恋鞋 #平底鞋\n#完整版原创群（主页入） \n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 118,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 118,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 118,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 118,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+            "post_id": "2111048430105899418",
+            "handle": "xinxinjjj",
+            "source_time": "2026-10-17 00:23:55",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "恋鞋巡视员",
+        "promo_name": "恋鞋巡视员",
+        "followers_count": 13485,
+        "followers_text": "1.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13485
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13485
+          },
+          {
+            "source": "status_legacy",
+            "count": 13485
+          },
+          {
+            "source": "profile_v2",
+            "count": 13485
+          }
+        ],
+        "check_followers_count": 13485,
+        "check_followers_text": "1.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 13485
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 13485
+          },
+          {
+            "source": "status_legacy",
+            "count": 13485
+          },
+          {
+            "source": "profile_v2",
+            "count": 13485
+          }
+        ],
+        "tweet_text": "当女主慢悠悠的在门口脱下穿了一天的鞋我就知道今晚的“主角”登场了！\n\n鞋内竟然被穿成了这样…越闻越上头！\n\n#鞋控 #恋鞋 #平底鞋\n#完整版原创群（主页入） \n\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 118,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 118,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 118,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 118,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+        "check_url": "https://x.com/xinxinjjj/status/2111048430105899418?s=46",
+        "promo_post_id": "2111048430105899418",
+        "check_post_id": "2111048430105899418",
+        "chat_id": "-1003739822194",
+        "message_id": 6947,
+        "time": "2026-10-17 00:23:55",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 13485,
+        "qualified_followers_text": "1.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-17 00:23:55",
+        "admission_locked": false,
+        "daily_list_rank": 1,
+        "daily_list_status": "accepted"
+      },
+      "2109951780767293687": {
+        "x_handle": "nnn7sa",
+        "check_handle": "nnn7sa",
+        "dual_link": false,
+        "promo_handle": "nnn7sa",
+        "tg_username": "Guoguoqq",
+        "tg_user_id": 8243332573,
+        "tg_name": "GuoGuo💞",
+        "link": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+        "message_text": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+            "handle": "nnn7sa",
+            "post_id": "2109951780767293687",
+            "role": "promo",
+            "author_name": "阿sa～",
+            "followers_count": 375,
+            "followers_text": "375",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 375
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 375
+              },
+              {
+                "source": "status_legacy",
+                "count": 375
+              },
+              {
+                "source": "profile_v2",
+                "count": 375
+              }
+            ],
+            "tweet_text": "小新新来啦～～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 42,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 42,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+            "post_id": "2109951780767293687",
+            "handle": "nnn7sa",
+            "source_time": "2026-10-17 00:24:29",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "阿sa～",
+        "promo_name": "阿sa～",
+        "followers_count": 375,
+        "followers_text": "375",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 375
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 375
+          },
+          {
+            "source": "status_legacy",
+            "count": 375
+          },
+          {
+            "source": "profile_v2",
+            "count": 375
+          }
+        ],
+        "check_followers_count": 375,
+        "check_followers_text": "375",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 375
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 375
+          },
+          {
+            "source": "status_legacy",
+            "count": 375
+          },
+          {
+            "source": "profile_v2",
+            "count": 375
+          }
+        ],
+        "tweet_text": "小新新来啦～～\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 42,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 42,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+        "check_url": "https://x.com/nnn7sa/status/2109951780767293687?s=46",
+        "promo_post_id": "2109951780767293687",
+        "check_post_id": "2109951780767293687",
+        "chat_id": "-1003739822194",
+        "message_id": 6948,
+        "time": "2026-10-17 00:24:29",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 375,
+        "qualified_followers_text": "375",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-17 00:24:29",
+        "admission_locked": false,
+        "daily_list_rank": 2,
+        "daily_list_status": "accepted"
+      }
+    }
   },
   "confirmed_withdrawals": {
     "date": "2026-10-17",

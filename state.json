@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "offset": 364622075,
+  "offset": 364622076,
   "groups": {
     "-1003891628675": {
       "count": 38,
@@ -50,20 +50,21 @@
       "message_ids": []
     },
     "-1003739822194": {
-      "count": 6,
+      "count": 7,
       "message_ids": [
         "6921",
         "6922",
         "6923",
         "6925",
         "6926",
-        "6927"
+        "6927",
+        "6929"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-10-16",
-    "run_at": "2026-10-16 08:00:56",
+    "run_at": "2026-10-16 08:15:29",
     "completed_groups": [
       "群一",
       "群二",
@@ -71,40 +72,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "38826949808:1",
-        "checked_at": "2026-10-16 08:00:57",
+        "run_key": "38828413702:1",
+        "checked_at": "2026-10-16 08:15:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "38826949808:1",
-        "checked_at": "2026-10-16 08:00:57",
+        "run_key": "38828413702:1",
+        "checked_at": "2026-10-16 08:15:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "38826949808:1",
-        "checked_at": "2026-10-16 08:00:57",
+        "run_key": "38828413702:1",
+        "checked_at": "2026-10-16 08:15:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "38826949808:1",
-        "checked_at": "2026-10-16 08:00:57",
+        "run_key": "38828413702:1",
+        "checked_at": "2026-10-16 08:15:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "38826949808:1",
-        "checked_at": "2026-10-16 08:00:57",
+        "run_key": "38828413702:1",
+        "checked_at": "2026-10-16 08:15:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "38826949808:1",
-        "checked_at": "2026-10-16 08:00:57",
+        "run_key": "38828413702:1",
+        "checked_at": "2026-10-16 08:15:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1915,12 +1916,27 @@
       "群三": {
         "slots": [
           {
+            "handle": "katrina13nk7",
+            "post_id": "2109295344685388015",
+            "original_post_id": "2109295344685388015",
+            "url": "https://x.com/katrina13nk7/status/2109295344685388015",
+            "edited": false,
+            "position": 1,
+            "message_id": "6929",
+            "tg_user_id": "1572413012",
+            "time": "2026-10-16 08:02:17",
+            "admission_time": "2026-10-16 08:02:17",
+            "is_replacement": false,
+            "replaced_message_id": "6924",
+            "admitted_at": "2026-10-16 08:15:31"
+          },
+          {
             "handle": "hentaoxi",
             "post_id": "2091080155980808543",
             "original_post_id": "2091080155980808543",
             "url": "https://x.com/hentaoxi/status/2091080155980808543",
             "edited": false,
-            "position": 1,
+            "position": 2,
             "message_id": "6927",
             "tg_user_id": "7310352765",
             "time": "2026-10-16 04:24:18",
@@ -1932,7 +1948,7 @@
             "original_post_id": "2110728292013621593",
             "url": "https://x.com/koi_tutuji/status/2110728292013621593",
             "edited": false,
-            "position": 2,
+            "position": 3,
             "message_id": "6926",
             "tg_user_id": "8256562106",
             "time": "2026-10-16 03:48:10",
@@ -1944,7 +1960,7 @@
             "original_post_id": "2108501726051631224",
             "url": "https://x.com/wakuku000/status/2108501726051631224",
             "edited": false,
-            "position": 3,
+            "position": 4,
             "message_id": "6925",
             "tg_user_id": "5452100710",
             "time": "2026-10-16 02:32:30",
@@ -1991,11 +2007,9 @@
         "withdrawn_message_ids": [
           "6924"
         ],
-        "vacant_positions": {
-          "4": "6924"
-        },
+        "vacant_positions": {},
         "roster_capacity": 7,
-        "count": 6,
+        "count": 7,
         "admission_limit": 30
       }
     }

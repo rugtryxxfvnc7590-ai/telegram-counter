@@ -1,9 +1,9 @@
 {
   "date": "2026-10-18",
-  "offset": 364622238,
+  "offset": 364622239,
   "groups": {
     "-1003891628675": {
-      "count": 33,
+      "count": 34,
       "message_ids": [
         "9677",
         "9678",
@@ -37,7 +37,8 @@
         "9709",
         "9710",
         "9712",
-        "9713"
+        "9713",
+        "9714"
       ],
       "reply_keys": [
         "9703:missing_mentions"
@@ -54,7 +55,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-18",
-    "run_at": "2026-10-18 02:15:38",
+    "run_at": "2026-10-18 02:30:36",
     "completed_groups": [
       "群一",
       "群二",
@@ -62,40 +63,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39057274049:1",
-        "checked_at": "2026-10-18 02:15:39",
+        "run_key": "39058380214:1",
+        "checked_at": "2026-10-18 02:30:37",
         "bot_user_id": 8755020155,
         "confirmed_replies": 1
       },
       "群二": {
-        "run_key": "39057274049:1",
-        "checked_at": "2026-10-18 02:15:39",
+        "run_key": "39058380214:1",
+        "checked_at": "2026-10-18 02:30:37",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39057274049:1",
-        "checked_at": "2026-10-18 02:15:39",
+        "run_key": "39058380214:1",
+        "checked_at": "2026-10-18 02:30:37",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39057274049:1",
-        "checked_at": "2026-10-18 02:15:39",
+        "run_key": "39058380214:1",
+        "checked_at": "2026-10-18 02:30:37",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "39057274049:1",
-        "checked_at": "2026-10-18 02:15:39",
+        "run_key": "39058380214:1",
+        "checked_at": "2026-10-18 02:30:37",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39057274049:1",
-        "checked_at": "2026-10-18 02:15:39",
+        "run_key": "39058380214:1",
+        "checked_at": "2026-10-18 02:30:37",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1143,12 +1144,27 @@
           "B": {
             "slots": [
               {
+                "handle": "dsang1874",
+                "post_id": "2065087228511203787",
+                "original_post_id": "2065087228511203787",
+                "url": "https://x.com/dsang1874/status/2065087228511203787",
+                "edited": false,
+                "position": 1,
+                "message_id": "9714",
+                "tg_user_id": "6978925122",
+                "time": "2026-10-18 02:17:07",
+                "admission_time": "2026-10-18 02:17:07",
+                "list_id": "B",
+                "display_name": "吊SANG📷",
+                "admitted_at": "2026-10-18 02:30:39"
+              },
+              {
                 "handle": "guilin010",
                 "post_id": "2077402293776069062",
                 "original_post_id": "2077402293776069062",
                 "url": "https://x.com/guilin010/status/2077402293776069062",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9713",
                 "tg_user_id": "7182472764",
                 "time": "2026-10-18 01:05:07",
@@ -1163,7 +1179,7 @@
                 "original_post_id": "2110401359166210547",
                 "url": "https://x.com/bob7078/status/2110401359166210547",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9712",
                 "tg_user_id": "1713467304",
                 "time": "2026-10-18 00:53:25",
@@ -1174,9 +1190,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 2,
-            "count": 2,
-            "roster_capacity": 2,
+            "capacity": 3,
+            "count": 3,
+            "roster_capacity": 3,
             "withdrawn_message_ids": []
           }
         },
@@ -1211,8 +1227,9 @@
           "meehutaotv": "A",
           "xiuchiluchu910": "A",
           "tiaotiaosheep": "A",
+          "guilin010": "B",
           "bob7078": "B",
-          "guilin010": "B"
+          "dsang1874": "B"
         },
         "withdrawn_message_ids": [
           "9707"
@@ -1702,12 +1719,28 @@
             "list_position": 30
           },
           {
+            "handle": "dsang1874",
+            "post_id": "2065087228511203787",
+            "original_post_id": "2065087228511203787",
+            "url": "https://x.com/dsang1874/status/2065087228511203787",
+            "edited": false,
+            "position": 31,
+            "message_id": "9714",
+            "tg_user_id": "6978925122",
+            "time": "2026-10-18 02:17:07",
+            "admission_time": "2026-10-18 02:17:07",
+            "list_id": "B",
+            "display_name": "吊SANG📷",
+            "admitted_at": "2026-10-18 02:30:39",
+            "list_position": 1
+          },
+          {
             "handle": "guilin010",
             "post_id": "2077402293776069062",
             "original_post_id": "2077402293776069062",
             "url": "https://x.com/guilin010/status/2077402293776069062",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9713",
             "tg_user_id": "7182472764",
             "time": "2026-10-18 01:05:07",
@@ -1715,7 +1748,7 @@
             "list_id": "B",
             "display_name": "小林的涩涩日常",
             "admitted_at": "2026-10-18 01:06:08",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "bob7078",
@@ -1723,7 +1756,7 @@
             "original_post_id": "2110401359166210547",
             "url": "https://x.com/bob7078/status/2110401359166210547",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9712",
             "tg_user_id": "1713467304",
             "time": "2026-10-18 00:53:25",
@@ -1731,11 +1764,11 @@
             "list_id": "B",
             "display_name": "D先生和C小姐",
             "admitted_at": "2026-10-18 01:00:50",
-            "list_position": 2
+            "list_position": 3
           }
         ],
         "vacant_positions": {},
-        "count": 32,
+        "count": 33,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1764,10 +1797,10 @@
     "date": "2026-10-18",
     "groups": {
       "群一": {
-        "digest": "f1f851e9f7b5b9c86fd4494dbb5842b6b7f07d8d6eb9b6935cbc70fc6756a15f",
-        "sourceRevision": 6,
+        "digest": "84330ff8a4f5a9b5050c201d1b6d95e29c305c860a7c56a1c40ff0d435101d01",
+        "sourceRevision": 7,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-18T01:06:09.018827+08:00"
+        "acknowledged_at": "2026-10-18T02:30:39.443247+08:00"
       }
     }
   },

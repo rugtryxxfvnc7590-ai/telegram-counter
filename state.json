@@ -65,7 +65,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-17",
-    "run_at": "2026-10-17 19:00:10",
+    "run_at": "2026-10-17 19:00:54",
     "completed_groups": [
       "群一",
       "群二",
@@ -73,42 +73,42 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39026990794:1",
-        "checked_at": "2026-10-17 19:00:11",
+        "run_key": "39027039641:1",
+        "checked_at": "2026-10-17 19:00:55",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "39026990794:1",
-        "checked_at": "2026-10-17 19:00:11",
+        "run_key": "39027039641:1",
+        "checked_at": "2026-10-17 19:00:55",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39026990794:1",
-        "checked_at": "2026-10-17 19:00:11",
+        "run_key": "39027039641:1",
+        "checked_at": "2026-10-17 19:00:56",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39026990794:1",
-        "checked_at": "2026-10-17 19:00:11",
+        "run_key": "39027039641:1",
+        "checked_at": "2026-10-17 19:00:55",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       },
       "群二": {
-        "run_key": "39026990794:1",
-        "checked_at": "2026-10-17 19:00:11",
+        "run_key": "39027039641:1",
+        "checked_at": "2026-10-17 19:00:55",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39026990794:1",
-        "checked_at": "2026-10-17 19:00:11",
+        "run_key": "39027039641:1",
+        "checked_at": "2026-10-17 19:00:56",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       }
     }
   },
@@ -2370,7 +2370,9 @@
         "attempts": 1,
         "attempted_at": "2026-10-17 19:00:15",
         "sent_at": "2026-10-17 19:00:15",
-        "message_id": 9672
+        "message_id": 9672,
+        "confirmation": "telegram_history",
+        "reply_to_message_id": null
       },
       "群三": {
         "status": "sent",
@@ -2382,8 +2384,9 @@
         "reply_to_message_id": 6955,
         "attempts": 1,
         "attempted_at": "2026-10-17 19:00:15",
-        "sent_at": "2026-10-17 19:00:15",
-        "message_id": 6956
+        "sent_at": "2026-10-17 19:00:16",
+        "message_id": 6956,
+        "confirmation": "telegram_history"
       }
     }
   },

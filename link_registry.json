@@ -19339,14 +19339,14 @@
           "meehutaotv": "A",
           "wdqhc999": "A",
           "tiaotiaosheep": "A",
+          "tianqipaidui": "B",
           "uudajiejie": "B",
           "clares5a": "B",
           "lovvy222": "B",
           "luck67188": "B",
           "joragyyy": "B",
           "guilin010": "B",
-          "sluttytatia404": "B",
-          "tianqipaidui": "B"
+          "sluttytatia404": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -19966,7 +19966,8 @@
         "count": 38,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60
+        "admission_limit": 60,
+        "cutoff_finalized": true
       }
     }
   }

@@ -65,7 +65,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-17",
-    "run_at": "2026-10-17 18:45:39",
+    "run_at": "2026-10-17 19:00:10",
     "completed_groups": [
       "群一",
       "群二",
@@ -73,40 +73,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39026092415:1",
-        "checked_at": "2026-10-17 18:45:40",
+        "run_key": "39026990794:1",
+        "checked_at": "2026-10-17 19:00:11",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "39026092415:1",
-        "checked_at": "2026-10-17 18:45:40",
+        "run_key": "39026990794:1",
+        "checked_at": "2026-10-17 19:00:11",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39026092415:1",
-        "checked_at": "2026-10-17 18:45:40",
+        "run_key": "39026990794:1",
+        "checked_at": "2026-10-17 19:00:11",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39026092415:1",
-        "checked_at": "2026-10-17 18:45:40",
+        "run_key": "39026990794:1",
+        "checked_at": "2026-10-17 19:00:11",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "39026092415:1",
-        "checked_at": "2026-10-17 18:45:40",
+        "run_key": "39026990794:1",
+        "checked_at": "2026-10-17 19:00:11",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39026092415:1",
-        "checked_at": "2026-10-17 18:45:40",
+        "run_key": "39026990794:1",
+        "checked_at": "2026-10-17 19:00:11",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -615,8 +615,288 @@
               "https://x.com/tiaotiaosheep/status/2110307083870765129"
             ],
             "updated_at": "2026-10-17 15:30:40"
+          },
+          "B": {
+            "slots": [
+              {
+                "handle": "tianqipaidui",
+                "post_id": "2064623281127448641",
+                "original_post_id": "2064623281127448641",
+                "url": "https://x.com/tianqipaidui/status/2064623281127448641",
+                "edited": false,
+                "position": 1,
+                "message_id": "9671",
+                "tg_user_id": "6295128065",
+                "time": "2026-10-17 17:55:26",
+                "admission_time": "2026-10-17 17:55:26",
+                "list_id": "B",
+                "display_name": "甜妻派对（原创）",
+                "admitted_at": "2026-10-17 18:00:52"
+              },
+              {
+                "handle": "uudajiejie",
+                "post_id": "2109904130785657116",
+                "original_post_id": "2109904130785657116",
+                "url": "https://x.com/uudajiejie/status/2109904130785657116",
+                "edited": false,
+                "position": 2,
+                "message_id": "9670",
+                "tg_user_id": "8244388416",
+                "time": "2026-10-17 17:01:17",
+                "admission_time": "2026-10-17 17:01:17",
+                "list_id": "B",
+                "display_name": "UU大姐姐",
+                "admitted_at": "2026-10-17 17:15:27"
+              },
+              {
+                "handle": "clares5a",
+                "post_id": "2110620308671737904",
+                "original_post_id": "2110620308671737904",
+                "url": "https://x.com/clares5a/status/2110620308671737904",
+                "edited": false,
+                "position": 3,
+                "message_id": "9669",
+                "tg_user_id": "7664740669",
+                "time": "2026-10-17 17:00:44",
+                "admission_time": "2026-10-17 17:00:44",
+                "list_id": "B",
+                "display_name": "Clare-S（16广州-18深圳-21北京）",
+                "admitted_at": "2026-10-17 17:00:49"
+              },
+              {
+                "handle": "lovvy222",
+                "post_id": "2090039904856342705",
+                "original_post_id": "2090039904856342705",
+                "url": "https://x.com/lovvy222/status/2090039904856342705",
+                "edited": false,
+                "position": 4,
+                "message_id": "9668",
+                "tg_user_id": "5509067363",
+                "time": "2026-10-17 16:29:09",
+                "admission_time": "2026-10-17 16:29:09",
+                "list_id": "B",
+                "display_name": "Lovvy",
+                "admitted_at": "2026-10-17 16:30:40"
+              },
+              {
+                "handle": "luck67188",
+                "post_id": "2099381900431528118",
+                "original_post_id": "2099381900431528118",
+                "url": "https://x.com/luck67188/status/2099381900431528118",
+                "edited": false,
+                "position": 5,
+                "message_id": "9664",
+                "tg_user_id": "7448828707",
+                "time": "2026-10-17 13:50:17",
+                "admission_time": "2026-10-17 13:50:17",
+                "list_id": "B",
+                "display_name": "小郑的恋丝笔记本",
+                "admitted_at": "2026-10-17 14:00:58"
+              },
+              {
+                "handle": "joragyyy",
+                "post_id": "2109614785872728277",
+                "original_post_id": "2109614785872728277",
+                "url": "https://x.com/joragyyy/status/2109614785872728277",
+                "edited": false,
+                "position": 6,
+                "message_id": "9663",
+                "tg_user_id": "7996721954",
+                "time": "2026-10-17 11:57:53",
+                "admission_time": "2026-10-17 11:57:53",
+                "list_id": "B",
+                "display_name": "Yiiceing",
+                "admitted_at": "2026-10-17 12:00:41"
+              },
+              {
+                "handle": "guilin010",
+                "post_id": "2111144478602076664",
+                "original_post_id": "2111144478602076664",
+                "url": "https://x.com/guilin010/status/2111144478602076664",
+                "edited": false,
+                "position": 7,
+                "message_id": "9662",
+                "tg_user_id": "7182472764",
+                "time": "2026-10-17 01:18:31",
+                "admission_time": "2026-10-17 01:18:31",
+                "list_id": "B",
+                "display_name": "小林的涩涩日常",
+                "admitted_at": "2026-10-17 01:30:39"
+              },
+              {
+                "handle": "sluttytatia404",
+                "post_id": "2098755170507297230",
+                "original_post_id": "2098755170507297230",
+                "url": "https://x.com/sluttytatia404/status/2098755170507297230",
+                "edited": false,
+                "position": 8,
+                "message_id": "9661",
+                "tg_user_id": "6253811123",
+                "time": "2026-10-17 00:11:44",
+                "admission_time": "2026-10-17 00:11:44",
+                "list_id": "B",
+                "display_name": "Tatia",
+                "admitted_at": "2026-10-17 00:15:53"
+              }
+            ],
+            "vacant_positions": {},
+            "capacity": 8,
+            "count": 8,
+            "roster_capacity": 8,
+            "withdrawn_message_ids": [],
+            "sent": true,
+            "message_id": 3491,
+            "owner_chat_id": "8614747348",
+            "text": "群一·B名单（10月17日）互推名单，共 8 条\n\n1 https://x.com/tianqipaidui/status/2064623281127448641\n\n2 https://x.com/uudajiejie/status/2109904130785657116\n\n3 https://x.com/clares5a/status/2110620308671737904\n\n4 https://x.com/lovvy222/status/2090039904856342705\n\n5 https://x.com/luck67188/status/2099381900431528118\n\n6 https://x.com/joragyyy/status/2109614785872728277\n\n7 https://x.com/guilin010/status/2111144478602076664\n\n8 https://x.com/sluttytatia404/status/2098755170507297230\n\n仅需互推B名单内其他成员，不需要转其他名单。\nhttps://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-10-17&list=B",
+            "links": [
+              "https://x.com/tianqipaidui/status/2064623281127448641",
+              "https://x.com/uudajiejie/status/2109904130785657116",
+              "https://x.com/clares5a/status/2110620308671737904",
+              "https://x.com/lovvy222/status/2090039904856342705",
+              "https://x.com/luck67188/status/2099381900431528118",
+              "https://x.com/joragyyy/status/2109614785872728277",
+              "https://x.com/guilin010/status/2111144478602076664",
+              "https://x.com/sluttytatia404/status/2098755170507297230"
+            ],
+            "updated_at": "2026-10-17 19:00:13"
           }
         }
+      },
+      "群二": {
+        "sent": true,
+        "sent_at": "2026-10-17 19:00:13",
+        "count": 0,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [],
+        "slots": [],
+        "message_id": 3492,
+        "owner_chat_id": "8614747348",
+        "text": "群二（10月17日）互推名单，共 0 条\n\n今日没有合格互推链接",
+        "roster_capacity": 0,
+        "vacant_positions": {},
+        "withdrawn_message_ids": []
+      },
+      "群三": {
+        "sent": true,
+        "sent_at": "2026-10-17 19:00:13",
+        "count": 8,
+        "trigger": "19:00",
+        "limit": 30,
+        "links": [
+          "https://x.com/xiaoyi3359/status/2108060336356048962",
+          "https://x.com/katrina13nk7/status/2101182151131877740",
+          "https://x.com/kikyoulsg/status/2111019364225060889",
+          "https://x.com/hentaoxi/status/2091080155980808543",
+          "https://x.com/08twintails/status/2111120451045031964",
+          "https://x.com/rourouow/status/2111186551879438800",
+          "https://x.com/nnn7sa/status/2109951780767293687",
+          "https://x.com/xinxinjjj/status/2111048430105899418"
+        ],
+        "slots": [
+          {
+            "handle": "xiaoyi3359",
+            "post_id": "2108060336356048962",
+            "original_post_id": "2108060336356048962",
+            "url": "https://x.com/xiaoyi3359/status/2108060336356048962",
+            "edited": false,
+            "position": 1,
+            "message_id": "6955",
+            "tg_user_id": "6711450768",
+            "time": "2026-10-17 17:26:28",
+            "admission_time": "2026-10-17 17:26:28"
+          },
+          {
+            "handle": "katrina13nk7",
+            "post_id": "2101182151131877740",
+            "original_post_id": "2101182151131877740",
+            "url": "https://x.com/katrina13nk7/status/2101182151131877740",
+            "edited": false,
+            "position": 2,
+            "message_id": "6954",
+            "tg_user_id": "1572413012",
+            "time": "2026-10-17 17:19:25",
+            "admission_time": "2026-10-17 17:19:25"
+          },
+          {
+            "handle": "kikyoulsg",
+            "post_id": "2111019364225060889",
+            "original_post_id": "2111019364225060889",
+            "url": "https://x.com/kikyoulsg/status/2111019364225060889",
+            "edited": false,
+            "position": 3,
+            "message_id": "6953",
+            "tg_user_id": "8009486170",
+            "time": "2026-10-17 16:15:38",
+            "admission_time": "2026-10-17 16:15:38"
+          },
+          {
+            "handle": "hentaoxi",
+            "post_id": "2091080155980808543",
+            "original_post_id": "2091080155980808543",
+            "url": "https://x.com/hentaoxi/status/2091080155980808543",
+            "edited": false,
+            "position": 4,
+            "message_id": "6951",
+            "tg_user_id": "7310352765",
+            "time": "2026-10-17 10:45:19",
+            "admission_time": "2026-10-17 10:45:19"
+          },
+          {
+            "handle": "08twintails",
+            "post_id": "2111120451045031964",
+            "original_post_id": "2111120451045031964",
+            "url": "https://x.com/08twintails/status/2111120451045031964",
+            "edited": false,
+            "position": 5,
+            "message_id": "6950",
+            "tg_user_id": "8423825418",
+            "time": "2026-10-17 04:53:19",
+            "admission_time": "2026-10-17 04:53:19"
+          },
+          {
+            "handle": "rourouow",
+            "post_id": "2111186551879438800",
+            "original_post_id": "2111186551879438800",
+            "url": "https://x.com/rourouow/status/2111186551879438800",
+            "edited": false,
+            "position": 6,
+            "message_id": "6949",
+            "tg_user_id": "7722665588",
+            "time": "2026-10-17 04:05:00",
+            "admission_time": "2026-10-17 04:05:00"
+          },
+          {
+            "handle": "nnn7sa",
+            "post_id": "2109951780767293687",
+            "original_post_id": "2109951780767293687",
+            "url": "https://x.com/nnn7sa/status/2109951780767293687",
+            "edited": false,
+            "position": 7,
+            "message_id": "6948",
+            "tg_user_id": "8243332573",
+            "time": "2026-10-17 00:24:29",
+            "admission_time": "2026-10-17 00:24:29"
+          },
+          {
+            "handle": "xinxinjjj",
+            "post_id": "2111048430105899418",
+            "original_post_id": "2111048430105899418",
+            "url": "https://x.com/xinxinjjj/status/2111048430105899418",
+            "edited": false,
+            "position": 8,
+            "message_id": "6947",
+            "tg_user_id": "1437992083",
+            "time": "2026-10-17 00:23:55",
+            "admission_time": "2026-10-17 00:23:55"
+          }
+        ],
+        "message_id": 3493,
+        "owner_chat_id": "8614747348",
+        "text": "群三（10月17日）互推名单，共 8 条\n\n1 https://x.com/xiaoyi3359/status/2108060336356048962\n\n2 https://x.com/katrina13nk7/status/2101182151131877740\n\n3 https://x.com/kikyoulsg/status/2111019364225060889\n\n4 https://x.com/hentaoxi/status/2091080155980808543\n\n5 https://x.com/08twintails/status/2111120451045031964\n\n6 https://x.com/rourouow/status/2111186551879438800\n\n7 https://x.com/nnn7sa/status/2109951780767293687\n\n8 https://x.com/xinxinjjj/status/2111048430105899418",
+        "roster_capacity": 8,
+        "vacant_positions": {},
+        "withdrawn_message_ids": []
       }
     }
   },
@@ -1307,14 +1587,14 @@
           "meehutaotv": "A",
           "wdqhc999": "A",
           "tiaotiaosheep": "A",
+          "tianqipaidui": "B",
           "uudajiejie": "B",
           "clares5a": "B",
           "lovvy222": "B",
           "luck67188": "B",
           "joragyyy": "B",
           "guilin010": "B",
-          "sluttytatia404": "B",
-          "tianqipaidui": "B"
+          "sluttytatia404": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -1934,7 +2214,8 @@
         "count": 38,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60
+        "admission_limit": 60,
+        "cutoff_finalized": true
       },
       "群二": {
         "slots": [],
@@ -2078,7 +2359,33 @@
   },
   "cutoff_announcements": {
     "date": "2026-10-17",
-    "groups": {}
+    "groups": {
+      "群一": {
+        "status": "sent",
+        "text": "群一（10月17日）今日互推收录已截止\r\n\r\n野推过的撤销， 再次刷新主页开始转，完毕后核对主页转发数量是否与截止数量 一致 \r\n\r\n✅[点击此主页转发互推 ](https://x.com/zukongjia88)\r\n\r\n请先打开主页内的网站，搜索自己的X用户名或昵称，确认属于A名单还是B名单。\r\n\r\n1️⃣分段时间转发、务必停留互推人主页（播放视频或浏览图片评论区）避免因刷屏转发机器人行为导致封号 \r\n2️⃣统一19：00转发根据个人时间安排可自行选择提前转）最迟于1：00必须转发完毕！ 截止时间后检查各位主页，欢迎监督举！\r\n3️⃣只需转发自己所属名单内其他成员的帖子，不同名单之间不要求互推。不要按群一主页全部转发，避免混推。",
+        "count": 38,
+        "count_basis": "admitted_roster",
+        "chat_id": "-1003891628675",
+        "delivery_mode": "standalone",
+        "attempts": 1,
+        "attempted_at": "2026-10-17 19:00:15",
+        "sent_at": "2026-10-17 19:00:15",
+        "message_id": 9672
+      },
+      "群三": {
+        "status": "sent",
+        "text": "群三（10月17日）截止此条为最后一条（含此条），共 8条\r\n\r\n 野推过的撤销， 再次刷新主页开始转，完毕后核对主页转发数量是否与截止数量 一致 \r\n\r\n✅[点击此主页转发互推](https://x.com/marseanin906771?s=21)\r\n\r\n 1️⃣分段时间转发、务必停留互推人主页（播放视频或浏览图片评论区）避免因刷屏转发机器人行为导致封号 \r\n2️⃣统一19：00转发（根据个人时间安排可自行选择提前转） 最迟于01：00必须转发完毕！ （每日01:00开始检查互推情况） 截止时间后检查各位主页，欢迎监督举！",
+        "count": 8,
+        "count_basis": "admitted_roster",
+        "chat_id": "-1003739822194",
+        "delivery_mode": "reply",
+        "reply_to_message_id": 6955,
+        "attempts": 1,
+        "attempted_at": "2026-10-17 19:00:15",
+        "sent_at": "2026-10-17 19:00:15",
+        "message_id": 6956
+      }
+    }
   },
   "website_deletions": {
     "date": "2026-10-17",

@@ -1,9 +1,9 @@
 {
   "date": "2026-10-17",
-  "offset": 364622177,
+  "offset": 364622179,
   "groups": {
     "-1003891628675": {
-      "count": 32,
+      "count": 33,
       "message_ids": [
         "9630",
         "9631",
@@ -36,7 +36,8 @@
         "9659",
         "9660",
         "9661",
-        "9662"
+        "9662",
+        "9663"
       ]
     },
     "-1003218974409": {
@@ -56,7 +57,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-17",
-    "run_at": "2026-10-17 11:45:35",
+    "run_at": "2026-10-17 12:00:38",
     "completed_groups": [
       "群一",
       "群二",
@@ -64,40 +65,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "38999976976:1",
-        "checked_at": "2026-10-17 11:45:36",
+        "run_key": "39000926207:1",
+        "checked_at": "2026-10-17 12:00:39",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "38999976976:1",
-        "checked_at": "2026-10-17 11:45:36",
+        "run_key": "39000926207:1",
+        "checked_at": "2026-10-17 12:00:40",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "38999976976:1",
-        "checked_at": "2026-10-17 11:45:36",
+        "run_key": "39000926207:1",
+        "checked_at": "2026-10-17 12:00:40",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "38999976976:1",
-        "checked_at": "2026-10-17 11:45:36",
+        "run_key": "39000926207:1",
+        "checked_at": "2026-10-17 12:00:39",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "38999976976:1",
-        "checked_at": "2026-10-17 11:45:36",
+        "run_key": "39000926207:1",
+        "checked_at": "2026-10-17 12:00:40",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "38999976976:1",
-        "checked_at": "2026-10-17 11:45:36",
+        "run_key": "39000926207:1",
+        "checked_at": "2026-10-17 12:00:40",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1112,12 +1113,27 @@
           "B": {
             "slots": [
               {
+                "handle": "joragyyy",
+                "post_id": "2109614785872728277",
+                "original_post_id": "2109614785872728277",
+                "url": "https://x.com/joragyyy/status/2109614785872728277",
+                "edited": false,
+                "position": 1,
+                "message_id": "9663",
+                "tg_user_id": "7996721954",
+                "time": "2026-10-17 11:57:53",
+                "admission_time": "2026-10-17 11:57:53",
+                "list_id": "B",
+                "display_name": "Yiiceing",
+                "admitted_at": "2026-10-17 12:00:41"
+              },
+              {
                 "handle": "guilin010",
                 "post_id": "2111144478602076664",
                 "original_post_id": "2111144478602076664",
                 "url": "https://x.com/guilin010/status/2111144478602076664",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9662",
                 "tg_user_id": "7182472764",
                 "time": "2026-10-17 01:18:31",
@@ -1132,7 +1148,7 @@
                 "original_post_id": "2098755170507297230",
                 "url": "https://x.com/sluttytatia404/status/2098755170507297230",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9661",
                 "tg_user_id": "6253811123",
                 "time": "2026-10-17 00:11:44",
@@ -1143,9 +1159,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 2,
-            "count": 2,
-            "roster_capacity": 2,
+            "capacity": 3,
+            "count": 3,
+            "roster_capacity": 3,
             "withdrawn_message_ids": []
           }
         },
@@ -1180,8 +1196,9 @@
           "meehutaotv": "A",
           "wdqhc999": "A",
           "tiaotiaosheep": "A",
+          "guilin010": "B",
           "sluttytatia404": "B",
-          "guilin010": "B"
+          "joragyyy": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -1666,12 +1683,28 @@
             "list_position": 30
           },
           {
+            "handle": "joragyyy",
+            "post_id": "2109614785872728277",
+            "original_post_id": "2109614785872728277",
+            "url": "https://x.com/joragyyy/status/2109614785872728277",
+            "edited": false,
+            "position": 31,
+            "message_id": "9663",
+            "tg_user_id": "7996721954",
+            "time": "2026-10-17 11:57:53",
+            "admission_time": "2026-10-17 11:57:53",
+            "list_id": "B",
+            "display_name": "Yiiceing",
+            "admitted_at": "2026-10-17 12:00:41",
+            "list_position": 1
+          },
+          {
             "handle": "guilin010",
             "post_id": "2111144478602076664",
             "original_post_id": "2111144478602076664",
             "url": "https://x.com/guilin010/status/2111144478602076664",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9662",
             "tg_user_id": "7182472764",
             "time": "2026-10-17 01:18:31",
@@ -1679,7 +1712,7 @@
             "list_id": "B",
             "display_name": "小林的涩涩日常",
             "admitted_at": "2026-10-17 01:30:39",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "sluttytatia404",
@@ -1687,7 +1720,7 @@
             "original_post_id": "2098755170507297230",
             "url": "https://x.com/sluttytatia404/status/2098755170507297230",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9661",
             "tg_user_id": "6253811123",
             "time": "2026-10-17 00:11:44",
@@ -1695,11 +1728,11 @@
             "list_id": "B",
             "display_name": "Tatia",
             "admitted_at": "2026-10-17 00:15:53",
-            "list_position": 2
+            "list_position": 3
           }
         ],
         "vacant_positions": {},
-        "count": 32,
+        "count": 33,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1789,10 +1822,10 @@
     "date": "2026-10-17",
     "groups": {
       "群一": {
-        "digest": "0053f3768aef30c206fed5557a6f5a813d7d0b70279b895332a8992cb3821226",
-        "sourceRevision": 3,
+        "digest": "ee61551513c601d5207ed3f91b151419798378f75742028639cd1520e542ee4b",
+        "sourceRevision": 4,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-17T01:30:40.198865+08:00"
+        "acknowledged_at": "2026-10-17T12:00:42.164162+08:00"
       }
     }
   },

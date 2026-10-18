@@ -16087,14 +16087,14 @@
           "meehutaotv": "A",
           "xiuchiluchu910": "A",
           "tiaotiaosheep": "A",
+          "tianqipaidui": "B",
           "april5566168": "B",
           "lovvy222": "B",
           "joragyyy": "B",
           "xye918": "B",
           "dsang1874": "B",
           "guilin010": "B",
-          "bob7078": "B",
-          "tianqipaidui": "B"
+          "bob7078": "B"
         },
         "withdrawn_message_ids": [
           "9707"
@@ -16718,7 +16718,8 @@
         "count": 38,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60
+        "admission_limit": 60,
+        "cutoff_finalized": true
       }
     }
   },

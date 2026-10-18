@@ -3648,7 +3648,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:01:28",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 13,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -3850,7 +3850,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:01:56",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 12,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4054,7 +4054,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:02:28",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4256,7 +4256,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:05:23",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4458,7 +4458,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:02:41",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 10,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4660,7 +4660,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:02:51",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -4862,7 +4862,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:03:07",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5265,7 +5265,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:03:22",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5467,7 +5467,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:03:53",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5669,7 +5669,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:04:07",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -5873,7 +5873,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:04:17",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -6075,7 +6075,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:05:23",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -6277,10 +6277,212 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:11:06",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
+        "daily_list_batch_position": 1
+      },
+      "xiaochen000007": {
+        "x_handle": "xiaochen000007",
+        "check_handle": "xiaochen000007",
+        "dual_link": false,
+        "promo_handle": "xiaochen000007",
+        "tg_username": "xiaochen000007",
+        "tg_user_id": 5718822279,
+        "tg_name": "小陈和小王的日常",
+        "link": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+        "message_text": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+            "handle": "xiaochen000007",
+            "post_id": "2106992726415974773",
+            "role": "promo",
+            "author_name": "小陈和小王的日常",
+            "followers_count": 270167,
+            "followers_text": "27W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 270166
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 270166
+              },
+              {
+                "source": "status_legacy",
+                "count": 270166
+              },
+              {
+                "source": "profile_v2",
+                "count": 270167
+              }
+            ],
+            "tweet_text": "小陈小王与粉丝单男的约会vlog：\n      本期单男为009号，此单男为我们的粉丝之一，本次是首次尝试以vlog形式分享我们约单男的日常。\n     粉丝从北方直接飞来找我们，不得不说北方朋友又客气又大方，还是小陈最爱的大屌桩机，疯狂打桩，小陈都给干痉挛了（第一次看到老婆被c成这样），又持久又大还猛，全程干了小陈几小时，这就是自己珍惜的老婆被别人爆蹬的感觉吗🥵\n\nps：后面小陈嫌弃我的丁丁大小了给我点了个飞机杯 自己在一边玩 羞耻感自卑感拉满\n\n完整版视频40分钟将在ntr之旅内群更新\n绿帽切片 各种视角拉满 \n\n这边建议大家把画质切到1080p食用更佳😋\n@ToBulaer \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 71,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 71,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "vx_status_author",
+                "length": 318,
+                "required_mentions_count": 2
+              },
+              {
+                "source": "status_legacy",
+                "length": 71,
+                "required_mentions_count": 0
+              }
+            ],
+            "tweet_text_primary_source": "vx_status_author",
+            "required_mentions_count": 2
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+            "post_id": "2106992726415974773",
+            "handle": "xiaochen000007",
+            "source_time": "2026-10-19 00:26:09",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小陈和小王的日常",
+        "promo_name": "小陈和小王的日常",
+        "followers_count": 270167,
+        "followers_text": "27W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 270166
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 270166
+          },
+          {
+            "source": "status_legacy",
+            "count": 270166
+          },
+          {
+            "source": "profile_v2",
+            "count": 270167
+          }
+        ],
+        "check_followers_count": 270167,
+        "check_followers_text": "27W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 270166
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 270166
+          },
+          {
+            "source": "status_legacy",
+            "count": 270166
+          },
+          {
+            "source": "profile_v2",
+            "count": 270167
+          }
+        ],
+        "tweet_text": "小陈小王与粉丝单男的约会vlog：\n      本期单男为009号，此单男为我们的粉丝之一，本次是首次尝试以vlog形式分享我们约单男的日常。\n     粉丝从北方直接飞来找我们，不得不说北方朋友又客气又大方，还是小陈最爱的大屌桩机，疯狂打桩，小陈都给干痉挛了（第一次看到老婆被c成这样），又持久又大还猛，全程干了小陈几小时，这就是自己珍惜的老婆被别人爆蹬的感觉吗🥵\n\nps：后面小陈嫌弃我的丁丁大小了给我点了个飞机杯 自己在一边玩 羞耻感自卑感拉满\n\n完整版视频40分钟将在ntr之旅内群更新\n绿帽切片 各种视角拉满 \n\n这边建议大家把画质切到1080p食用更佳😋\n@ToBulaer \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 71,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 71,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_author",
+            "length": 318,
+            "required_mentions_count": 2
+          },
+          {
+            "source": "status_legacy",
+            "length": 71,
+            "required_mentions_count": 0
+          }
+        ],
+        "tweet_text_primary_source": "vx_status_author",
+        "required_mentions_count": 2,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+        "check_url": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+        "promo_post_id": "2106992726415974773",
+        "check_post_id": "2106992726415974773",
+        "chat_id": "-1003891628675",
+        "message_id": 9763,
+        "time": "2026-10-19 00:26:09",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 270167,
+        "qualified_followers_text": "27W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-19 00:26:09",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
         "daily_list_batch_position": 1
       }
     },
@@ -9935,7 +10137,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:01:28",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 13,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10137,7 +10339,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:01:56",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 12,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10341,7 +10543,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:02:28",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 11,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10543,7 +10745,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:05:23",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10745,7 +10947,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:02:41",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 10,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -10947,7 +11149,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:02:51",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 9,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11149,7 +11351,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:03:07",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 8,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11552,7 +11754,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:03:22",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 7,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11754,7 +11956,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:03:53",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 6,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -11956,7 +12158,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:04:07",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12160,7 +12362,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:04:17",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 4,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12362,7 +12564,7 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:05:23",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 2,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -12564,10 +12766,212 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-19 00:11:06",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
+        "daily_list_batch_position": 1
+      },
+      "2106992726415974773": {
+        "x_handle": "xiaochen000007",
+        "check_handle": "xiaochen000007",
+        "dual_link": false,
+        "promo_handle": "xiaochen000007",
+        "tg_username": "xiaochen000007",
+        "tg_user_id": 5718822279,
+        "tg_name": "小陈和小王的日常",
+        "link": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+        "message_text": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+            "handle": "xiaochen000007",
+            "post_id": "2106992726415974773",
+            "role": "promo",
+            "author_name": "小陈和小王的日常",
+            "followers_count": 270167,
+            "followers_text": "27W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 270166
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 270166
+              },
+              {
+                "source": "status_legacy",
+                "count": 270166
+              },
+              {
+                "source": "profile_v2",
+                "count": 270167
+              }
+            ],
+            "tweet_text": "小陈小王与粉丝单男的约会vlog：\n      本期单男为009号，此单男为我们的粉丝之一，本次是首次尝试以vlog形式分享我们约单男的日常。\n     粉丝从北方直接飞来找我们，不得不说北方朋友又客气又大方，还是小陈最爱的大屌桩机，疯狂打桩，小陈都给干痉挛了（第一次看到老婆被c成这样），又持久又大还猛，全程干了小陈几小时，这就是自己珍惜的老婆被别人爆蹬的感觉吗🥵\n\nps：后面小陈嫌弃我的丁丁大小了给我点了个飞机杯 自己在一边玩 羞耻感自卑感拉满\n\n完整版视频40分钟将在ntr之旅内群更新\n绿帽切片 各种视角拉满 \n\n这边建议大家把画质切到1080p食用更佳😋\n@ToBulaer \n@ToBulaer \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 71,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 71,
+                "required_mentions_count": 0
+              },
+              {
+                "source": "vx_status_author",
+                "length": 318,
+                "required_mentions_count": 2
+              },
+              {
+                "source": "status_legacy",
+                "length": 71,
+                "required_mentions_count": 0
+              }
+            ],
+            "tweet_text_primary_source": "vx_status_author",
+            "required_mentions_count": 2
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+            "post_id": "2106992726415974773",
+            "handle": "xiaochen000007",
+            "source_time": "2026-10-19 00:26:09",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "小陈和小王的日常",
+        "promo_name": "小陈和小王的日常",
+        "followers_count": 270167,
+        "followers_text": "27W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 270166
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 270166
+          },
+          {
+            "source": "status_legacy",
+            "count": 270166
+          },
+          {
+            "source": "profile_v2",
+            "count": 270167
+          }
+        ],
+        "check_followers_count": 270167,
+        "check_followers_text": "27W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 270166
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 270166
+          },
+          {
+            "source": "status_legacy",
+            "count": 270166
+          },
+          {
+            "source": "profile_v2",
+            "count": 270167
+          }
+        ],
+        "tweet_text": "小陈小王与粉丝单男的约会vlog：\n      本期单男为009号，此单男为我们的粉丝之一，本次是首次尝试以vlog形式分享我们约单男的日常。\n     粉丝从北方直接飞来找我们，不得不说北方朋友又客气又大方，还是小陈最爱的大屌桩机，疯狂打桩，小陈都给干痉挛了（第一次看到老婆被c成这样），又持久又大还猛，全程干了小陈几小时，这就是自己珍惜的老婆被别人爆蹬的感觉吗🥵\n\nps：后面小陈嫌弃我的丁丁大小了给我点了个飞机杯 自己在一边玩 羞耻感自卑感拉满\n\n完整版视频40分钟将在ntr之旅内群更新\n绿帽切片 各种视角拉满 \n\n这边建议大家把画质切到1080p食用更佳😋\n@ToBulaer \n@ToBulaer \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 71,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 71,
+            "required_mentions_count": 0
+          },
+          {
+            "source": "vx_status_author",
+            "length": 318,
+            "required_mentions_count": 2
+          },
+          {
+            "source": "status_legacy",
+            "length": 71,
+            "required_mentions_count": 0
+          }
+        ],
+        "tweet_text_primary_source": "vx_status_author",
+        "required_mentions_count": 2,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+        "check_url": "https://x.com/xiaochen000007/status/2106992726415974773?s=46",
+        "promo_post_id": "2106992726415974773",
+        "check_post_id": "2106992726415974773",
+        "chat_id": "-1003891628675",
+        "message_id": 9763,
+        "time": "2026-10-19 00:26:09",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 270167,
+        "qualified_followers_text": "27W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-19 00:26:09",
+        "admission_locked": false,
+        "daily_list_rank": 31,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "B",
         "daily_list_batch_position": 1
       }
     },
@@ -13049,15 +13453,44 @@
             "withdrawn_message_ids": []
           },
           "B": {
-            "slots": [],
+            "slots": [
+              {
+                "handle": "xiaochen000007",
+                "post_id": "2106992726415974773",
+                "original_post_id": "2106992726415974773",
+                "url": "https://x.com/xiaochen000007/status/2106992726415974773",
+                "edited": false,
+                "position": 1,
+                "message_id": "9763",
+                "tg_user_id": "5718822279",
+                "time": "2026-10-19 00:26:09",
+                "admission_time": "2026-10-19 00:26:09",
+                "list_id": "B",
+                "display_name": "小陈和小王的日常",
+                "admitted_at": "2026-10-19 00:30:42"
+              }
+            ],
             "vacant_positions": {},
-            "capacity": 0,
-            "count": 0,
-            "roster_capacity": 0,
+            "capacity": 1,
+            "count": 1,
+            "roster_capacity": 1,
             "withdrawn_message_ids": []
           }
         },
         "assigned_accounts": {
+          "sluttytatia404": "A",
+          "qiaobenx1angcai": "A",
+          "clares5a": "A",
+          "aksaks99999": "A",
+          "xiaoqiaots": "A",
+          "youmeier": "A",
+          "xye9518": "A",
+          "qiobnxingcai": "A",
+          "xye918": "A",
+          "guilin010": "A",
+          "jxzeroc": "A",
+          "xiao16877": "A",
+          "qbln9999": "A",
           "shixiaotaone": "A",
           "tiaotiaosheep": "A",
           "hanzuzong3": "A",
@@ -13075,19 +13508,7 @@
           "wdqhc999": "A",
           "tianqipaidui": "A",
           "snd99x": "A",
-          "qbln9999": "A",
-          "xiao16877": "A",
-          "jxzeroc": "A",
-          "guilin010": "A",
-          "xye918": "A",
-          "qiobnxingcai": "A",
-          "xye9518": "A",
-          "youmeier": "A",
-          "xiaoqiaots": "A",
-          "aksaks99999": "A",
-          "clares5a": "A",
-          "qiaobenx1angcai": "A",
-          "sluttytatia404": "A"
+          "xiaochen000007": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -13570,10 +13991,26 @@
             "display_name": "九九橙🍊",
             "admitted_at": "2026-10-19 00:01:18",
             "list_position": 30
+          },
+          {
+            "handle": "xiaochen000007",
+            "post_id": "2106992726415974773",
+            "original_post_id": "2106992726415974773",
+            "url": "https://x.com/xiaochen000007/status/2106992726415974773",
+            "edited": false,
+            "position": 31,
+            "message_id": "9763",
+            "tg_user_id": "5718822279",
+            "time": "2026-10-19 00:26:09",
+            "admission_time": "2026-10-19 00:26:09",
+            "list_id": "B",
+            "display_name": "小陈和小王的日常",
+            "admitted_at": "2026-10-19 00:30:42",
+            "list_position": 1
           }
         ],
         "vacant_positions": {},
-        "count": 30,
+        "count": 31,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

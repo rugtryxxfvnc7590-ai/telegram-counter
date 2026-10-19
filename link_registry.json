@@ -15280,13 +15280,30 @@
                 "list_id": "A",
                 "display_name": "九九橙🍊",
                 "admitted_at": "2026-10-19 00:01:18"
+              },
+              {
+                "handle": "qinxian8023",
+                "post_id": "1843994899403976912",
+                "original_post_id": "1843994899403976912",
+                "url": "https://x.com/qinxian8023/status/1843994899403976912",
+                "edited": false,
+                "position": 31,
+                "global_position": 61,
+                "list_id": "A",
+                "manual_addition": true,
+                "manual_position": true,
+                "admitted_at": "2026-10-19T05:28:43.083Z",
+                "display_name": ""
               }
             ],
             "vacant_positions": {},
-            "capacity": 30,
-            "count": 30,
-            "roster_capacity": 30,
-            "withdrawn_message_ids": []
+            "capacity": 31,
+            "count": 31,
+            "roster_capacity": 31,
+            "withdrawn_message_ids": [],
+            "manual_positions": {
+              "31": 61
+            }
           },
           "B": {
             "slots": [
@@ -15424,7 +15441,8 @@
           "thelol1pop99": "B",
           "jiojioyishujia1": "B",
           "dsang1874": "B",
-          "xiaochen000007": "B"
+          "xiaochen000007": "B",
+          "qinxian8023": "A"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -15910,6 +15928,21 @@
             "list_position": 30
           },
           {
+            "handle": "qinxian8023",
+            "post_id": "1843994899403976912",
+            "original_post_id": "1843994899403976912",
+            "url": "https://x.com/qinxian8023/status/1843994899403976912",
+            "edited": false,
+            "position": 61,
+            "global_position": 61,
+            "list_id": "A",
+            "manual_addition": true,
+            "manual_position": true,
+            "admitted_at": "2026-10-19T05:28:43.083Z",
+            "display_name": "",
+            "list_position": 31
+          },
+          {
             "handle": "asecresm",
             "post_id": "2111385007218651144",
             "original_post_id": "2111385007218651144",
@@ -16007,10 +16040,11 @@
           }
         ],
         "vacant_positions": {},
-        "count": 36,
+        "count": 37,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60
+        "admission_limit": 60,
+        "manual_order_revision": 1
       }
     }
   }

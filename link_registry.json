@@ -8332,6 +8332,206 @@
         "admission_locked": true,
         "daily_list_rank": 5,
         "daily_list_status": "accepted"
+      },
+      "koi_tutuji": {
+        "x_handle": "koi_tutuji",
+        "check_handle": "koi_tutuji",
+        "dual_link": false,
+        "promo_handle": "koi_tutuji",
+        "tg_username": "KOI_tutuji",
+        "tg_user_id": 8256562106,
+        "tg_name": "koi 江浙沪",
+        "link": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+        "message_text": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+            "handle": "koi_tutuji",
+            "post_id": "2111783081413898362",
+            "role": "promo",
+            "author_name": "KOI",
+            "followers_count": 637,
+            "followers_text": "637",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 637
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 637
+              },
+              {
+                "source": "status_legacy",
+                "count": 637
+              },
+              {
+                "source": "profile_v2",
+                "count": 637
+              }
+            ],
+            "tweet_text": "一脚踩死你 #nsfw #杭州 \n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 51,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+            "post_id": "2111783081413898362",
+            "handle": "koi_tutuji",
+            "source_time": "2026-10-20 06:45:54",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "KOI",
+        "promo_name": "KOI",
+        "followers_count": 637,
+        "followers_text": "637",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 637
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 637
+          },
+          {
+            "source": "status_legacy",
+            "count": 637
+          },
+          {
+            "source": "profile_v2",
+            "count": 637
+          }
+        ],
+        "check_followers_count": 637,
+        "check_followers_text": "637",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 637
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 637
+          },
+          {
+            "source": "status_legacy",
+            "count": 637
+          },
+          {
+            "source": "profile_v2",
+            "count": 637
+          }
+        ],
+        "tweet_text": "一脚踩死你 #nsfw #杭州 \n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 51,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+        "check_url": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+        "promo_post_id": "2111783081413898362",
+        "check_post_id": "2111783081413898362",
+        "chat_id": "-1003739822194",
+        "message_id": 7050,
+        "time": "2026-10-20 06:45:54",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 637,
+        "qualified_followers_text": "637",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-20 06:45:54",
+        "admission_locked": false,
+        "daily_list_rank": 6,
+        "daily_list_status": "accepted"
       }
     }
   },
@@ -16666,6 +16866,206 @@
         "admission_time": "2026-10-20 01:25:53",
         "admission_locked": true,
         "daily_list_rank": 5,
+        "daily_list_status": "accepted"
+      },
+      "2111783081413898362": {
+        "x_handle": "koi_tutuji",
+        "check_handle": "koi_tutuji",
+        "dual_link": false,
+        "promo_handle": "koi_tutuji",
+        "tg_username": "KOI_tutuji",
+        "tg_user_id": 8256562106,
+        "tg_name": "koi 江浙沪",
+        "link": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+        "message_text": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+            "handle": "koi_tutuji",
+            "post_id": "2111783081413898362",
+            "role": "promo",
+            "author_name": "KOI",
+            "followers_count": 637,
+            "followers_text": "637",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 637
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 637
+              },
+              {
+                "source": "status_legacy",
+                "count": 637
+              },
+              {
+                "source": "profile_v2",
+                "count": 637
+              }
+            ],
+            "tweet_text": "一脚踩死你 #nsfw #杭州 \n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 51,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 51,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+            "post_id": "2111783081413898362",
+            "handle": "koi_tutuji",
+            "source_time": "2026-10-20 06:45:54",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "KOI",
+        "promo_name": "KOI",
+        "followers_count": 637,
+        "followers_text": "637",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 637
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 637
+          },
+          {
+            "source": "status_legacy",
+            "count": 637
+          },
+          {
+            "source": "profile_v2",
+            "count": 637
+          }
+        ],
+        "check_followers_count": 637,
+        "check_followers_text": "637",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 637
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 637
+          },
+          {
+            "source": "status_legacy",
+            "count": 637
+          },
+          {
+            "source": "profile_v2",
+            "count": 637
+          }
+        ],
+        "tweet_text": "一脚踩死你 #nsfw #杭州 \n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 51,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 51,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+        "check_url": "https://x.com/koi_tutuji/status/2111783081413898362?s=46",
+        "promo_post_id": "2111783081413898362",
+        "check_post_id": "2111783081413898362",
+        "chat_id": "-1003739822194",
+        "message_id": 7050,
+        "time": "2026-10-20 06:45:54",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 637,
+        "qualified_followers_text": "637",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-20 06:45:54",
+        "admission_locked": false,
+        "daily_list_rank": 6,
         "daily_list_status": "accepted"
       }
     }

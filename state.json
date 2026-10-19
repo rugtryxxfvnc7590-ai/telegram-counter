@@ -1,9 +1,9 @@
 {
   "date": "2026-10-20",
-  "offset": 364622430,
+  "offset": 364622431,
   "groups": {
     "-1003891628675": {
-      "count": 35,
+      "count": 36,
       "message_ids": [
         "9785",
         "9786",
@@ -39,7 +39,8 @@
         "9816",
         "9817",
         "9818",
-        "9819"
+        "9819",
+        "9821"
       ]
     },
     "-1003218974409": {
@@ -59,7 +60,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-20",
-    "run_at": "2026-10-20 04:30:46",
+    "run_at": "2026-10-20 04:45:29",
     "completed_groups": [
       "群一",
       "群二",
@@ -67,40 +68,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39319855464:1",
-        "checked_at": "2026-10-20 04:30:48",
+        "run_key": "39321934001:1",
+        "checked_at": "2026-10-20 04:45:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "39319855464:1",
-        "checked_at": "2026-10-20 04:30:49",
+        "run_key": "39321934001:1",
+        "checked_at": "2026-10-20 04:45:30",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39319855464:1",
-        "checked_at": "2026-10-20 04:30:49",
+        "run_key": "39321934001:1",
+        "checked_at": "2026-10-20 04:45:31",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39319855464:1",
-        "checked_at": "2026-10-20 04:30:48",
+        "run_key": "39321934001:1",
+        "checked_at": "2026-10-20 04:45:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "39319855464:1",
-        "checked_at": "2026-10-20 04:30:49",
+        "run_key": "39321934001:1",
+        "checked_at": "2026-10-20 04:45:30",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39319855464:1",
-        "checked_at": "2026-10-20 04:30:49",
+        "run_key": "39321934001:1",
+        "checked_at": "2026-10-20 04:45:31",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1125,12 +1126,27 @@
           "B": {
             "slots": [
               {
+                "handle": "si_xiao47754",
+                "post_id": "2110711412205244892",
+                "original_post_id": "2110711412205244892",
+                "url": "https://x.com/si_xiao47754/status/2110711412205244892",
+                "edited": false,
+                "position": 1,
+                "message_id": "9821",
+                "tg_user_id": "8345041924",
+                "time": "2026-10-20 04:36:35",
+                "admission_time": "2026-10-20 04:36:35",
+                "list_id": "B",
+                "display_name": "丝袜小淫妻",
+                "admitted_at": "2026-10-20 04:45:32"
+              },
+              {
                 "handle": "youmeier",
                 "post_id": "2111429978156126278",
                 "original_post_id": "2111429978156126278",
                 "url": "https://x.com/youmeier/status/2111429978156126278",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9819",
                 "tg_user_id": "5997103908",
                 "time": "2026-10-20 00:09:03",
@@ -1145,7 +1161,7 @@
                 "original_post_id": "2111983879208968377",
                 "url": "https://x.com/xye918/status/2111983879208968377",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9818",
                 "tg_user_id": "8565972608",
                 "time": "2026-10-20 00:05:15",
@@ -1160,7 +1176,7 @@
                 "original_post_id": "2111051141375226196",
                 "url": "https://x.com/xiao16877/status/2111051141375226196",
                 "edited": false,
-                "position": 3,
+                "position": 4,
                 "message_id": "9817",
                 "tg_user_id": "5927788237",
                 "time": "2026-10-20 00:04:40",
@@ -1175,7 +1191,7 @@
                 "original_post_id": "2111979920046092371",
                 "url": "https://x.com/xye9518/status/2111979920046092371",
                 "edited": false,
-                "position": 4,
+                "position": 5,
                 "message_id": "9816",
                 "tg_user_id": "1129654552",
                 "time": "2026-10-20 00:03:39",
@@ -1190,7 +1206,7 @@
                 "original_post_id": "2099713234018369767",
                 "url": "https://x.com/asecresm/status/2099713234018369767",
                 "edited": false,
-                "position": 5,
+                "position": 6,
                 "message_id": "9815",
                 "tg_user_id": "8548890215",
                 "time": "2026-10-20 00:03:09",
@@ -1201,9 +1217,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 5,
-            "count": 5,
-            "roster_capacity": 5,
+            "capacity": 6,
+            "count": 6,
+            "roster_capacity": 6,
             "withdrawn_message_ids": []
           }
         },
@@ -1242,7 +1258,8 @@
           "xye918": "B",
           "xiao16877": "B",
           "xye9518": "B",
-          "asecresm": "B"
+          "asecresm": "B",
+          "si_xiao47754": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -1728,12 +1745,28 @@
             "list_position": 30
           },
           {
+            "handle": "si_xiao47754",
+            "post_id": "2110711412205244892",
+            "original_post_id": "2110711412205244892",
+            "url": "https://x.com/si_xiao47754/status/2110711412205244892",
+            "edited": false,
+            "position": 31,
+            "message_id": "9821",
+            "tg_user_id": "8345041924",
+            "time": "2026-10-20 04:36:35",
+            "admission_time": "2026-10-20 04:36:35",
+            "list_id": "B",
+            "display_name": "丝袜小淫妻",
+            "admitted_at": "2026-10-20 04:45:32",
+            "list_position": 1
+          },
+          {
             "handle": "youmeier",
             "post_id": "2111429978156126278",
             "original_post_id": "2111429978156126278",
             "url": "https://x.com/youmeier/status/2111429978156126278",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9819",
             "tg_user_id": "5997103908",
             "time": "2026-10-20 00:09:03",
@@ -1741,7 +1774,7 @@
             "list_id": "B",
             "display_name": "蜜桔摄影",
             "admitted_at": "2026-10-20 00:15:52",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "xye918",
@@ -1749,7 +1782,7 @@
             "original_post_id": "2111983879208968377",
             "url": "https://x.com/xye918/status/2111983879208968377",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9818",
             "tg_user_id": "8565972608",
             "time": "2026-10-20 00:05:15",
@@ -1757,7 +1790,7 @@
             "list_id": "B",
             "display_name": "中文字幕av高清无码",
             "admitted_at": "2026-10-20 00:15:52",
-            "list_position": 2
+            "list_position": 3
           },
           {
             "handle": "xiao16877",
@@ -1765,7 +1798,7 @@
             "original_post_id": "2111051141375226196",
             "url": "https://x.com/xiao16877/status/2111051141375226196",
             "edited": false,
-            "position": 33,
+            "position": 34,
             "message_id": "9817",
             "tg_user_id": "5927788237",
             "time": "2026-10-20 00:04:40",
@@ -1773,7 +1806,7 @@
             "list_id": "B",
             "display_name": "南京米娅",
             "admitted_at": "2026-10-20 00:15:52",
-            "list_position": 3
+            "list_position": 4
           },
           {
             "handle": "xye9518",
@@ -1781,7 +1814,7 @@
             "original_post_id": "2111979920046092371",
             "url": "https://x.com/xye9518/status/2111979920046092371",
             "edited": false,
-            "position": 34,
+            "position": 35,
             "message_id": "9816",
             "tg_user_id": "1129654552",
             "time": "2026-10-20 00:03:39",
@@ -1789,7 +1822,7 @@
             "list_id": "B",
             "display_name": "小鱼精品无码Av",
             "admitted_at": "2026-10-20 00:15:52",
-            "list_position": 4
+            "list_position": 5
           },
           {
             "handle": "asecresm",
@@ -1797,7 +1830,7 @@
             "original_post_id": "2099713234018369767",
             "url": "https://x.com/asecresm/status/2099713234018369767",
             "edited": false,
-            "position": 35,
+            "position": 36,
             "message_id": "9815",
             "tg_user_id": "8548890215",
             "time": "2026-10-20 00:03:09",
@@ -1805,11 +1838,11 @@
             "list_id": "B",
             "display_name": "云儿",
             "admitted_at": "2026-10-20 00:15:52",
-            "list_position": 5
+            "list_position": 6
           }
         ],
         "vacant_positions": {},
-        "count": 35,
+        "count": 36,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1899,10 +1932,10 @@
     "date": "2026-10-20",
     "groups": {
       "群一": {
-        "digest": "e809f30570ef99465f2a8d5fea31e90969aee3c98b3738f0adf39eca33d930cf",
-        "sourceRevision": 3,
+        "digest": "f02a7fb3b5acaf4f6869014aa027da4f71d7e6095b52a30167bfb45d8d8d8734",
+        "sourceRevision": 4,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-20T01:15:37.864939+08:00"
+        "acknowledged_at": "2026-10-20T04:45:33.311398+08:00"
       }
     }
   },

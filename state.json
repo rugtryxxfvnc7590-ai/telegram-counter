@@ -1,9 +1,9 @@
 {
   "date": "2026-10-19",
-  "offset": 364622342,
+  "offset": 364622343,
   "groups": {
     "-1003891628675": {
-      "count": 36,
+      "count": 37,
       "message_ids": [
         "9727",
         "9728",
@@ -40,7 +40,8 @@
         "9763",
         "9764",
         "9765",
-        "9766"
+        "9766",
+        "9767"
       ],
       "reply_keys": [
         "9752:missing_mentions"
@@ -57,7 +58,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-19",
-    "run_at": "2026-10-19 07:45:35",
+    "run_at": "2026-10-19 08:00:45",
     "completed_groups": [
       "群一",
       "群二",
@@ -65,40 +66,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39177820179:1",
-        "checked_at": "2026-10-19 07:45:37",
+        "run_key": "39178829085:1",
+        "checked_at": "2026-10-19 08:00:48",
         "bot_user_id": 8755020155,
         "confirmed_replies": 1
       },
       "群二": {
-        "run_key": "39177820179:1",
-        "checked_at": "2026-10-19 07:45:37",
+        "run_key": "39178829085:1",
+        "checked_at": "2026-10-19 08:00:48",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39177820179:1",
-        "checked_at": "2026-10-19 07:45:37",
+        "run_key": "39178829085:1",
+        "checked_at": "2026-10-19 08:00:49",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39177820179:1",
-        "checked_at": "2026-10-19 07:45:37",
+        "run_key": "39178829085:1",
+        "checked_at": "2026-10-19 08:00:48",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "39177820179:1",
-        "checked_at": "2026-10-19 07:45:37",
+        "run_key": "39178829085:1",
+        "checked_at": "2026-10-19 08:00:48",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39177820179:1",
-        "checked_at": "2026-10-19 07:45:37",
+        "run_key": "39178829085:1",
+        "checked_at": "2026-10-19 08:00:49",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1126,12 +1127,27 @@
           "B": {
             "slots": [
               {
+                "handle": "meehutaotv",
+                "post_id": "2111065872853082431",
+                "original_post_id": "2111065872853082431",
+                "url": "https://x.com/meehutaotv/status/2111065872853082431",
+                "edited": false,
+                "position": 1,
+                "message_id": "9767",
+                "tg_user_id": "8569786982",
+                "time": "2026-10-19 07:48:59",
+                "admission_time": "2026-10-19 07:48:59",
+                "list_id": "B",
+                "display_name": "米胡桃MeeHutao",
+                "admitted_at": "2026-10-19 08:00:50"
+              },
+              {
                 "handle": "thelol1pop99",
                 "post_id": "2097890060808909041",
                 "original_post_id": "2097890060808909041",
                 "url": "https://x.com/thelol1pop99/status/2097890060808909041",
                 "edited": false,
-                "position": 1,
+                "position": 2,
                 "message_id": "9766",
                 "tg_user_id": "1770606411",
                 "time": "2026-10-19 02:04:52",
@@ -1146,7 +1162,7 @@
                 "original_post_id": "2111707392522240487",
                 "url": "https://x.com/jiojioyishujia1/status/2111707392522240487",
                 "edited": false,
-                "position": 2,
+                "position": 3,
                 "message_id": "9765",
                 "tg_user_id": "5121380330",
                 "time": "2026-10-19 01:21:58",
@@ -1161,7 +1177,7 @@
                 "original_post_id": "2043986162390585563",
                 "url": "https://x.com/dsang1874/status/2043986162390585563",
                 "edited": false,
-                "position": 3,
+                "position": 4,
                 "message_id": "9764",
                 "tg_user_id": "6978925122",
                 "time": "2026-10-19 00:37:22",
@@ -1176,7 +1192,7 @@
                 "original_post_id": "2106992726415974773",
                 "url": "https://x.com/xiaochen000007/status/2106992726415974773",
                 "edited": false,
-                "position": 4,
+                "position": 5,
                 "message_id": "9763",
                 "tg_user_id": "5718822279",
                 "time": "2026-10-19 00:26:09",
@@ -1187,9 +1203,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 4,
-            "count": 4,
-            "roster_capacity": 4,
+            "capacity": 5,
+            "count": 5,
+            "roster_capacity": 5,
             "withdrawn_message_ids": []
           }
         },
@@ -1224,10 +1240,11 @@
           "wdqhc999": "A",
           "tianqipaidui": "A",
           "snd99x": "A",
+          "thelol1pop99": "B",
           "jiojioyishujia1": "B",
           "dsang1874": "B",
           "xiaochen000007": "B",
-          "thelol1pop99": "B"
+          "meehutaotv": "B"
         },
         "withdrawn_message_ids": [],
         "slots": [
@@ -1712,12 +1729,28 @@
             "list_position": 30
           },
           {
+            "handle": "meehutaotv",
+            "post_id": "2111065872853082431",
+            "original_post_id": "2111065872853082431",
+            "url": "https://x.com/meehutaotv/status/2111065872853082431",
+            "edited": false,
+            "position": 31,
+            "message_id": "9767",
+            "tg_user_id": "8569786982",
+            "time": "2026-10-19 07:48:59",
+            "admission_time": "2026-10-19 07:48:59",
+            "list_id": "B",
+            "display_name": "米胡桃MeeHutao",
+            "admitted_at": "2026-10-19 08:00:50",
+            "list_position": 1
+          },
+          {
             "handle": "thelol1pop99",
             "post_id": "2097890060808909041",
             "original_post_id": "2097890060808909041",
             "url": "https://x.com/thelol1pop99/status/2097890060808909041",
             "edited": false,
-            "position": 31,
+            "position": 32,
             "message_id": "9766",
             "tg_user_id": "1770606411",
             "time": "2026-10-19 02:04:52",
@@ -1725,7 +1758,7 @@
             "list_id": "B",
             "display_name": "Loliiiiipop99💛棒棒糖🍭",
             "admitted_at": "2026-10-19 02:15:32",
-            "list_position": 1
+            "list_position": 2
           },
           {
             "handle": "jiojioyishujia1",
@@ -1733,7 +1766,7 @@
             "original_post_id": "2111707392522240487",
             "url": "https://x.com/jiojioyishujia1/status/2111707392522240487",
             "edited": false,
-            "position": 32,
+            "position": 33,
             "message_id": "9765",
             "tg_user_id": "5121380330",
             "time": "2026-10-19 01:21:58",
@@ -1741,7 +1774,7 @@
             "list_id": "B",
             "display_name": "足控艺术家（视频版）",
             "admitted_at": "2026-10-19 01:30:43",
-            "list_position": 2
+            "list_position": 3
           },
           {
             "handle": "dsang1874",
@@ -1749,7 +1782,7 @@
             "original_post_id": "2043986162390585563",
             "url": "https://x.com/dsang1874/status/2043986162390585563",
             "edited": false,
-            "position": 33,
+            "position": 34,
             "message_id": "9764",
             "tg_user_id": "6978925122",
             "time": "2026-10-19 00:37:22",
@@ -1757,7 +1790,7 @@
             "list_id": "B",
             "display_name": "吊SANG📷",
             "admitted_at": "2026-10-19 00:45:29",
-            "list_position": 3
+            "list_position": 4
           },
           {
             "handle": "xiaochen000007",
@@ -1765,7 +1798,7 @@
             "original_post_id": "2106992726415974773",
             "url": "https://x.com/xiaochen000007/status/2106992726415974773",
             "edited": false,
-            "position": 34,
+            "position": 35,
             "message_id": "9763",
             "tg_user_id": "5718822279",
             "time": "2026-10-19 00:26:09",
@@ -1773,11 +1806,11 @@
             "list_id": "B",
             "display_name": "小陈和小王的日常",
             "admitted_at": "2026-10-19 00:30:42",
-            "list_position": 4
+            "list_position": 5
           }
         ],
         "vacant_positions": {},
-        "count": 34,
+        "count": 35,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1806,10 +1839,10 @@
     "date": "2026-10-19",
     "groups": {
       "群一": {
-        "digest": "17d264d719c45757aafd38a4dad4b318b073d2d8c7bceb79beddd6e49952051a",
-        "sourceRevision": 6,
+        "digest": "f7f5c95cba5c520cea1c5619669869eaa8be4d4c73aef57b2e58c7b4f8fdad38",
+        "sourceRevision": 7,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-19T02:15:33.502730+08:00"
+        "acknowledged_at": "2026-10-19T08:00:51.260584+08:00"
       }
     }
   },

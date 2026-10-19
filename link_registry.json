@@ -7333,8 +7333,208 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-20 00:37:15",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
+        "daily_list_status": "accepted"
+      },
+      "xinxinjjj": {
+        "x_handle": "xinxinjjj",
+        "check_handle": "xinxinjjj",
+        "dual_link": false,
+        "promo_handle": "xinxinjjj",
+        "tg_username": "",
+        "tg_user_id": 1437992083,
+        "tg_name": "恋足巡视员 机器人",
+        "link": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+        "message_text": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+            "handle": "xinxinjjj",
+            "post_id": "2100179146450362440",
+            "role": "promo",
+            "author_name": "恋鞋巡视员",
+            "followers_count": 14495,
+            "followers_text": "1.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 14495
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 14495
+              },
+              {
+                "source": "status_legacy",
+                "count": 14495
+              },
+              {
+                "source": "profile_v2",
+                "count": 14495
+              }
+            ],
+            "tweet_text": "作为鞋控爱好者👠\n最让人刺激的 就是能亲眼目睹女主换下鞋的整合过程…\n\n潜台词就是玩热乎的鞋袜！\n最让人欲罢不能，这味道太上头了！\n\n#扫楼 #更衣室 #高跟鞋 #销售 \n\n#完整版原创群 🔗主页简介入\n\n@KawasawaSen @ToBuerma \n@ToBulaer",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 136,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+            "post_id": "2100179146450362440",
+            "handle": "xinxinjjj",
+            "source_time": "2026-10-20 00:50:24",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "恋鞋巡视员",
+        "promo_name": "恋鞋巡视员",
+        "followers_count": 14495,
+        "followers_text": "1.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 14495
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14495
+          },
+          {
+            "source": "status_legacy",
+            "count": 14495
+          },
+          {
+            "source": "profile_v2",
+            "count": 14495
+          }
+        ],
+        "check_followers_count": 14495,
+        "check_followers_text": "1.4W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 14495
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14495
+          },
+          {
+            "source": "status_legacy",
+            "count": 14495
+          },
+          {
+            "source": "profile_v2",
+            "count": 14495
+          }
+        ],
+        "tweet_text": "作为鞋控爱好者👠\n最让人刺激的 就是能亲眼目睹女主换下鞋的整合过程…\n\n潜台词就是玩热乎的鞋袜！\n最让人欲罢不能，这味道太上头了！\n\n#扫楼 #更衣室 #高跟鞋 #销售 \n\n#完整版原创群 🔗主页简介入\n\n@KawasawaSen @ToBuerma \n@ToBulaer",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 136,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+        "check_url": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+        "promo_post_id": "2100179146450362440",
+        "check_post_id": "2100179146450362440",
+        "chat_id": "-1003739822194",
+        "message_id": 7044,
+        "time": "2026-10-20 00:50:24",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 14495,
+        "qualified_followers_text": "1.4W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-20 00:50:24",
+        "admission_locked": false,
+        "daily_list_rank": 2,
         "daily_list_status": "accepted"
       }
     }
@@ -14672,8 +14872,208 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-20 00:37:15",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 1,
+        "daily_list_status": "accepted"
+      },
+      "2100179146450362440": {
+        "x_handle": "xinxinjjj",
+        "check_handle": "xinxinjjj",
+        "dual_link": false,
+        "promo_handle": "xinxinjjj",
+        "tg_username": "",
+        "tg_user_id": 1437992083,
+        "tg_name": "恋足巡视员 机器人",
+        "link": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+        "message_text": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+            "handle": "xinxinjjj",
+            "post_id": "2100179146450362440",
+            "role": "promo",
+            "author_name": "恋鞋巡视员",
+            "followers_count": 14495,
+            "followers_text": "1.4W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 14495
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 14495
+              },
+              {
+                "source": "status_legacy",
+                "count": 14495
+              },
+              {
+                "source": "profile_v2",
+                "count": 14495
+              }
+            ],
+            "tweet_text": "作为鞋控爱好者👠\n最让人刺激的 就是能亲眼目睹女主换下鞋的整合过程…\n\n潜台词就是玩热乎的鞋袜！\n最让人欲罢不能，这味道太上头了！\n\n#扫楼 #更衣室 #高跟鞋 #销售 \n\n#完整版原创群 🔗主页简介入\n\n@KawasawaSen @ToBuerma \n@ToBulaer",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 136,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 136,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+            "post_id": "2100179146450362440",
+            "handle": "xinxinjjj",
+            "source_time": "2026-10-20 00:50:24",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "恋鞋巡视员",
+        "promo_name": "恋鞋巡视员",
+        "followers_count": 14495,
+        "followers_text": "1.4W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 14495
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14495
+          },
+          {
+            "source": "status_legacy",
+            "count": 14495
+          },
+          {
+            "source": "profile_v2",
+            "count": 14495
+          }
+        ],
+        "check_followers_count": 14495,
+        "check_followers_text": "1.4W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 14495
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 14495
+          },
+          {
+            "source": "status_legacy",
+            "count": 14495
+          },
+          {
+            "source": "profile_v2",
+            "count": 14495
+          }
+        ],
+        "tweet_text": "作为鞋控爱好者👠\n最让人刺激的 就是能亲眼目睹女主换下鞋的整合过程…\n\n潜台词就是玩热乎的鞋袜！\n最让人欲罢不能，这味道太上头了！\n\n#扫楼 #更衣室 #高跟鞋 #销售 \n\n#完整版原创群 🔗主页简介入\n\n@KawasawaSen @ToBuerma \n@ToBulaer",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 136,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 136,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+        "check_url": "https://x.com/xinxinjjj/status/2100179146450362440?s=46",
+        "promo_post_id": "2100179146450362440",
+        "check_post_id": "2100179146450362440",
+        "chat_id": "-1003739822194",
+        "message_id": 7044,
+        "time": "2026-10-20 00:50:24",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 0,
+        "qualified_followers_count": 14495,
+        "qualified_followers_text": "1.4W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-20 00:50:24",
+        "admission_locked": false,
+        "daily_list_rank": 2,
         "daily_list_status": "accepted"
       }
     }

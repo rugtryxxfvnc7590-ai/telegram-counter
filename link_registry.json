@@ -6522,208 +6522,6 @@
         "daily_list_batch": "B",
         "daily_list_batch_position": 5
       },
-      "xiao16877": {
-        "x_handle": "xiao16877",
-        "check_handle": "xiao16877",
-        "dual_link": false,
-        "promo_handle": "xiao16877",
-        "tg_username": "Jcit001",
-        "tg_user_id": 5927788237,
-        "tg_name": "感情大师",
-        "link": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-        "message_text": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-            "handle": "xiao16877",
-            "post_id": "2111051141375226196",
-            "role": "promo",
-            "author_name": "南京米娅",
-            "followers_count": 168643,
-            "followers_text": "16.8W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 168643
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 168637
-              },
-              {
-                "source": "status_legacy",
-                "count": 168637
-              },
-              {
-                "source": "profile_v2",
-                "count": 168637
-              }
-            ],
-            "tweet_text": "你们说我手厉害还是脚厉害\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_author",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 49,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-            "post_id": "2111051141375226196",
-            "handle": "xiao16877",
-            "source_time": "2026-10-20 00:04:40",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "南京米娅",
-        "promo_name": "南京米娅",
-        "followers_count": 168643,
-        "followers_text": "16.8W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 168643
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 168637
-          },
-          {
-            "source": "status_legacy",
-            "count": 168637
-          },
-          {
-            "source": "profile_v2",
-            "count": 168637
-          }
-        ],
-        "check_followers_count": 168643,
-        "check_followers_text": "16.8W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 168643
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 168637
-          },
-          {
-            "source": "status_legacy",
-            "count": 168637
-          },
-          {
-            "source": "profile_v2",
-            "count": 168637
-          }
-        ],
-        "tweet_text": "你们说我手厉害还是脚厉害\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_author",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 49,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-        "check_url": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-        "promo_post_id": "2111051141375226196",
-        "check_post_id": "2111051141375226196",
-        "chat_id": "-1003891628675",
-        "message_id": 9817,
-        "time": "2026-10-20 00:04:40",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 168643,
-        "qualified_followers_text": "16.8W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-20 00:04:40",
-        "admission_locked": true,
-        "daily_list_rank": 34,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "B",
-        "daily_list_batch_position": 4
-      },
       "xye918": {
         "x_handle": "xye918",
         "check_handle": "xye918",
@@ -15057,208 +14855,6 @@
         "daily_list_batch": "B",
         "daily_list_batch_position": 5
       },
-      "2111051141375226196": {
-        "x_handle": "xiao16877",
-        "check_handle": "xiao16877",
-        "dual_link": false,
-        "promo_handle": "xiao16877",
-        "tg_username": "Jcit001",
-        "tg_user_id": 5927788237,
-        "tg_name": "感情大师",
-        "link": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-        "message_text": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-            "handle": "xiao16877",
-            "post_id": "2111051141375226196",
-            "role": "promo",
-            "author_name": "南京米娅",
-            "followers_count": 168643,
-            "followers_text": "16.8W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 168643
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 168637
-              },
-              {
-                "source": "status_legacy",
-                "count": 168637
-              },
-              {
-                "source": "profile_v2",
-                "count": 168637
-              }
-            ],
-            "tweet_text": "你们说我手厉害还是脚厉害\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_author",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 49,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-            "post_id": "2111051141375226196",
-            "handle": "xiao16877",
-            "source_time": "2026-10-20 00:04:40",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "南京米娅",
-        "promo_name": "南京米娅",
-        "followers_count": 168643,
-        "followers_text": "16.8W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 168643
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 168637
-          },
-          {
-            "source": "status_legacy",
-            "count": 168637
-          },
-          {
-            "source": "profile_v2",
-            "count": 168637
-          }
-        ],
-        "check_followers_count": 168643,
-        "check_followers_text": "16.8W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 168643
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 168637
-          },
-          {
-            "source": "status_legacy",
-            "count": 168637
-          },
-          {
-            "source": "profile_v2",
-            "count": 168637
-          }
-        ],
-        "tweet_text": "你们说我手厉害还是脚厉害\n📮：\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_author",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 49,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-        "check_url": "https://x.com/xiao16877/status/2111051141375226196?s=46",
-        "promo_post_id": "2111051141375226196",
-        "check_post_id": "2111051141375226196",
-        "chat_id": "-1003891628675",
-        "message_id": 9817,
-        "time": "2026-10-20 00:04:40",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 168643,
-        "qualified_followers_text": "16.8W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-20 00:04:40",
-        "admission_locked": true,
-        "daily_list_rank": 34,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "B",
-        "daily_list_batch_position": 4
-      },
       "2111983879208968377": {
         "x_handle": "xye918",
         "check_handle": "xye918",
@@ -17593,21 +17189,6 @@
                 "admitted_at": "2026-10-20 00:15:52"
               },
               {
-                "handle": "xiao16877",
-                "post_id": "2111051141375226196",
-                "original_post_id": "2111051141375226196",
-                "url": "https://x.com/xiao16877/status/2111051141375226196",
-                "edited": false,
-                "position": 4,
-                "message_id": "9817",
-                "tg_user_id": "5927788237",
-                "time": "2026-10-20 00:04:40",
-                "admission_time": "2026-10-20 00:04:40",
-                "list_id": "B",
-                "display_name": "南京米娅",
-                "admitted_at": "2026-10-20 00:15:52"
-              },
-              {
                 "handle": "xye9518",
                 "post_id": "2111979920046092371",
                 "original_post_id": "2111979920046092371",
@@ -17638,11 +17219,18 @@
                 "admitted_at": "2026-10-20 00:15:52"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "4": "9817"
+            },
             "capacity": 6,
-            "count": 6,
+            "count": 5,
             "roster_capacity": 6,
-            "withdrawn_message_ids": []
+            "withdrawn_message_ids": [
+              "9817"
+            ],
+            "vacant_accounts": {
+              "4": "xiao16877"
+            }
           }
         },
         "assigned_accounts": {
@@ -17676,14 +17264,15 @@
           "tiaotiaosheep": "A",
           "abaodz1": "A",
           "jiojioyishujia1": "A",
+          "si_xiao47754": "B",
           "youmeier": "B",
           "xye918": "B",
-          "xiao16877": "B",
           "xye9518": "B",
-          "asecresm": "B",
-          "si_xiao47754": "B"
+          "asecresm": "B"
         },
-        "withdrawn_message_ids": [],
+        "withdrawn_message_ids": [
+          "9817"
+        ],
         "slots": [
           {
             "handle": "aksaks99999",
@@ -18215,22 +17804,6 @@
             "list_position": 3
           },
           {
-            "handle": "xiao16877",
-            "post_id": "2111051141375226196",
-            "original_post_id": "2111051141375226196",
-            "url": "https://x.com/xiao16877/status/2111051141375226196",
-            "edited": false,
-            "position": 34,
-            "message_id": "9817",
-            "tg_user_id": "5927788237",
-            "time": "2026-10-20 00:04:40",
-            "admission_time": "2026-10-20 00:04:40",
-            "list_id": "B",
-            "display_name": "南京米娅",
-            "admitted_at": "2026-10-20 00:15:52",
-            "list_position": 4
-          },
-          {
             "handle": "xye9518",
             "post_id": "2111979920046092371",
             "original_post_id": "2111979920046092371",
@@ -18263,11 +17836,24 @@
             "list_position": 6
           }
         ],
-        "vacant_positions": {},
-        "count": 36,
+        "vacant_positions": {
+          "34": "9817"
+        },
+        "count": 35,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
+      }
+    }
+  },
+  "confirmed_withdrawals": {
+    "date": "2026-10-20",
+    "groups": {
+      "群一": {
+        "9817": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-10-20 08:01:00"
+        }
       }
     }
   }

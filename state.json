@@ -3,7 +3,7 @@
   "offset": 364622432,
   "groups": {
     "-1003891628675": {
-      "count": 36,
+      "count": 35,
       "message_ids": [
         "9785",
         "9786",
@@ -37,7 +37,6 @@
         "9814",
         "9815",
         "9816",
-        "9817",
         "9818",
         "9819",
         "9821"
@@ -61,7 +60,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-20",
-    "run_at": "2026-10-20 07:45:37",
+    "run_at": "2026-10-20 08:00:59",
     "completed_groups": [
       "群一",
       "群二",
@@ -69,40 +68,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39343496618:1",
-        "checked_at": "2026-10-20 07:45:39",
+        "run_key": "39345022726:1",
+        "checked_at": "2026-10-20 08:01:00",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "39343496618:1",
-        "checked_at": "2026-10-20 07:45:39",
+        "run_key": "39345022726:1",
+        "checked_at": "2026-10-20 08:01:00",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39343496618:1",
-        "checked_at": "2026-10-20 07:45:39",
+        "run_key": "39345022726:1",
+        "checked_at": "2026-10-20 08:01:00",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39343496618:1",
-        "checked_at": "2026-10-20 07:45:39",
+        "run_key": "39345022726:1",
+        "checked_at": "2026-10-20 08:01:00",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "39343496618:1",
-        "checked_at": "2026-10-20 07:45:39",
+        "run_key": "39345022726:1",
+        "checked_at": "2026-10-20 08:01:00",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39343496618:1",
-        "checked_at": "2026-10-20 07:45:39",
+        "run_key": "39345022726:1",
+        "checked_at": "2026-10-20 08:01:00",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -1172,21 +1171,6 @@
                 "admitted_at": "2026-10-20 00:15:52"
               },
               {
-                "handle": "xiao16877",
-                "post_id": "2111051141375226196",
-                "original_post_id": "2111051141375226196",
-                "url": "https://x.com/xiao16877/status/2111051141375226196",
-                "edited": false,
-                "position": 4,
-                "message_id": "9817",
-                "tg_user_id": "5927788237",
-                "time": "2026-10-20 00:04:40",
-                "admission_time": "2026-10-20 00:04:40",
-                "list_id": "B",
-                "display_name": "南京米娅",
-                "admitted_at": "2026-10-20 00:15:52"
-              },
-              {
                 "handle": "xye9518",
                 "post_id": "2111979920046092371",
                 "original_post_id": "2111979920046092371",
@@ -1217,11 +1201,18 @@
                 "admitted_at": "2026-10-20 00:15:52"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "4": "9817"
+            },
             "capacity": 6,
-            "count": 6,
+            "count": 5,
             "roster_capacity": 6,
-            "withdrawn_message_ids": []
+            "withdrawn_message_ids": [
+              "9817"
+            ],
+            "vacant_accounts": {
+              "4": "xiao16877"
+            }
           }
         },
         "assigned_accounts": {
@@ -1255,14 +1246,15 @@
           "tiaotiaosheep": "A",
           "abaodz1": "A",
           "jiojioyishujia1": "A",
+          "si_xiao47754": "B",
           "youmeier": "B",
           "xye918": "B",
-          "xiao16877": "B",
           "xye9518": "B",
-          "asecresm": "B",
-          "si_xiao47754": "B"
+          "asecresm": "B"
         },
-        "withdrawn_message_ids": [],
+        "withdrawn_message_ids": [
+          "9817"
+        ],
         "slots": [
           {
             "handle": "aksaks99999",
@@ -1794,22 +1786,6 @@
             "list_position": 3
           },
           {
-            "handle": "xiao16877",
-            "post_id": "2111051141375226196",
-            "original_post_id": "2111051141375226196",
-            "url": "https://x.com/xiao16877/status/2111051141375226196",
-            "edited": false,
-            "position": 34,
-            "message_id": "9817",
-            "tg_user_id": "5927788237",
-            "time": "2026-10-20 00:04:40",
-            "admission_time": "2026-10-20 00:04:40",
-            "list_id": "B",
-            "display_name": "南京米娅",
-            "admitted_at": "2026-10-20 00:15:52",
-            "list_position": 4
-          },
-          {
             "handle": "xye9518",
             "post_id": "2111979920046092371",
             "original_post_id": "2111979920046092371",
@@ -1842,8 +1818,10 @@
             "list_position": 6
           }
         ],
-        "vacant_positions": {},
-        "count": 36,
+        "vacant_positions": {
+          "34": "9817"
+        },
+        "count": 35,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -1945,10 +1923,10 @@
     "date": "2026-10-20",
     "groups": {
       "群一": {
-        "digest": "f02a7fb3b5acaf4f6869014aa027da4f71d7e6095b52a30167bfb45d8d8d8734",
-        "sourceRevision": 4,
+        "digest": "759114b6f51eda05d893b9405e01023a204e1d5240818923953efd39a6caace3",
+        "sourceRevision": 5,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-20T04:45:33.311398+08:00"
+        "acknowledged_at": "2026-10-20T08:01:02.489908+08:00"
       }
     }
   },
@@ -1957,14 +1935,14 @@
     "groups": {}
   },
   "website_deletions": {
-    "date": "2026-10-18",
+    "date": "2026-10-20",
     "groups": {
       "群一": {
-        "9707": {
-          "position": 1,
-          "account": "aksaks99999",
-          "postId": "2086898920311943178",
-          "confirmed_at": "2026-10-18 00:30:35"
+        "9817": {
+          "position": 34,
+          "account": "xiao16877",
+          "postId": "2111051141375226196",
+          "confirmed_at": "2026-10-20 08:01:00"
         }
       }
     }

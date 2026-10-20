@@ -1,9 +1,9 @@
 {
   "date": "2026-10-20",
-  "offset": 364622468,
+  "offset": 364622470,
   "groups": {
     "-1003891628675": {
-      "count": 39,
+      "count": 38,
       "message_ids": [
         "9785",
         "9786",
@@ -19,7 +19,6 @@
         "9796",
         "9797",
         "9798",
-        "9799",
         "9800",
         "9801",
         "9802",
@@ -71,7 +70,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-20",
-    "run_at": "2026-10-20 19:01:00",
+    "run_at": "2026-10-20 19:15:24",
     "completed_groups": [
       "群一",
       "群二",
@@ -79,42 +78,42 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39411901567:1",
-        "checked_at": "2026-10-20 19:01:01",
+        "run_key": "39413620434:1",
+        "checked_at": "2026-10-20 19:15:25",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "39411901567:1",
-        "checked_at": "2026-10-20 19:01:02",
+        "run_key": "39413620434:1",
+        "checked_at": "2026-10-20 19:15:26",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39411901567:1",
-        "checked_at": "2026-10-20 19:01:02",
+        "run_key": "39413620434:1",
+        "checked_at": "2026-10-20 19:15:26",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39411901567:1",
-        "checked_at": "2026-10-20 19:01:01",
+        "run_key": "39413620434:1",
+        "checked_at": "2026-10-20 19:15:25",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       },
       "群二": {
-        "run_key": "39411901567:1",
-        "checked_at": "2026-10-20 19:01:02",
+        "run_key": "39413620434:1",
+        "checked_at": "2026-10-20 19:15:26",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39411901567:1",
-        "checked_at": "2026-10-20 19:01:02",
+        "run_key": "39413620434:1",
+        "checked_at": "2026-10-20 19:15:26",
         "bot_user_id": 8755020155,
-        "confirmed": 0
+        "confirmed": 1
       }
     }
   },
@@ -363,21 +362,6 @@
                 "admitted_at": "2026-10-20 00:01:40"
               },
               {
-                "handle": "uudajiejie",
-                "post_id": "2112003555922178307",
-                "original_post_id": "2112003555922178307",
-                "url": "https://x.com/uudajiejie/status/2112003555922178307",
-                "edited": false,
-                "position": 16,
-                "message_id": "9799",
-                "tg_user_id": "8244388416",
-                "time": "2026-10-20 00:00:00",
-                "admission_time": "2026-10-20 00:00:00",
-                "list_id": "A",
-                "display_name": "UU大姐姐",
-                "admitted_at": "2026-10-20 00:01:40"
-              },
-              {
                 "handle": "dsang1874",
                 "post_id": "2040719728407347663",
                 "original_post_id": "2040719728407347663",
@@ -589,20 +573,25 @@
                 "admitted_at": "2026-10-20 00:01:40"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "16": "9799"
+            },
             "capacity": 30,
-            "count": 30,
+            "count": 29,
             "roster_capacity": 30,
             "withdrawn_message_ids": [
+              "9799",
               "9807",
               "9810",
               "9812"
             ],
-            "vacant_accounts": {},
+            "vacant_accounts": {
+              "16": "uudajiejie"
+            },
             "sent": true,
             "message_id": 3567,
             "owner_chat_id": "8614747348",
-            "text": "群一·A名单（10月20日）互推名单，共 30 条\n\n已编辑 1 https://x.com/aksaks99999/status/2101602852980318419\n\n2 https://x.com/guilin010/status/2048039009252004274\n\n候补3 https://x.com/april5566168/status/2112464547575726391\n\n已编辑 4 https://x.com/clares5a/status/2112458330367262939\n\n候补5 https://x.com/pty0808/status/2112448887449690189\n\n6 https://x.com/qiaobenx1angcai/status/2110920896580075690\n\n7 https://x.com/qiobnxingcai/status/2111108652493103230\n\n候补8 https://x.com/sleepsbg/status/2108578066868085104\n\n已编辑 9 https://x.com/hanzuzong3/status/2112227719253795185\n\n10 https://x.com/shixiaotaone/status/2106627587212796200\n\n11 https://x.com/lris_intj/status/2111334092553724319\n\n已编辑 12 https://x.com/xiaochen000007/status/2112451683016122820\n\n已编辑 13 https://x.com/shixiaotaon/status/2112451390895501613\n\n已编辑 14 https://x.com/xiuchiluchu910/status/2112447745273344125\n\n15 https://x.com/tianqipaidui/status/2058472566315163799\n\n16 https://x.com/uudajiejie/status/2112003555922178307\n\n17 https://x.com/dsang1874/status/2040719728407347663\n\n18 https://x.com/qbln9999/status/2112158602354176006\n\n19 https://x.com/wdqhc999/status/2111480622799823137\n\n20 https://x.com/nancyyzp/status/2111354564654035400\n\n21 https://x.com/hong14868/status/2112078952177029145\n\n22 https://x.com/bob7078/status/2112182365485465866\n\n已编辑 23 https://x.com/lazypiggy850/status/2112474205547864335\n\n24 https://x.com/xiaoqiaots/status/2101998057848201702\n\n25 https://x.com/libalababy/status/2087101739258511870\n\n26 https://x.com/laibeinaixiba/status/2110924276429947170\n\n27 https://x.com/meehutaotv/status/2111065872853082431\n\n28 https://x.com/tiaotiaosheep/status/2098611456942243983\n\n29 https://x.com/abaodz1/status/2091190847517921539\n\n30 https://x.com/jiojioyishujia1/status/2112060090593489341\n\n仅需互推A名单内其他成员，不需要转其他名单。\nhttps://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-10-20&list=A",
+            "text": "群一·A名单（10月20日）互推名单，共 29 条\n\n已编辑 1 https://x.com/aksaks99999/status/2101602852980318419\n\n2 https://x.com/guilin010/status/2048039009252004274\n\n候补3 https://x.com/april5566168/status/2112464547575726391\n\n已编辑 4 https://x.com/clares5a/status/2112458330367262939\n\n候补5 https://x.com/pty0808/status/2112448887449690189\n\n6 https://x.com/qiaobenx1angcai/status/2110920896580075690\n\n7 https://x.com/qiobnxingcai/status/2111108652493103230\n\n候补8 https://x.com/sleepsbg/status/2108578066868085104\n\n已编辑 9 https://x.com/hanzuzong3/status/2112227719253795185\n\n10 https://x.com/shixiaotaone/status/2106627587212796200\n\n11 https://x.com/lris_intj/status/2111334092553724319\n\n已编辑 12 https://x.com/xiaochen000007/status/2112451683016122820\n\n已编辑 13 https://x.com/shixiaotaon/status/2112451390895501613\n\n已编辑 14 https://x.com/xiuchiluchu910/status/2112447745273344125\n\n15 https://x.com/tianqipaidui/status/2058472566315163799\n\n17 https://x.com/dsang1874/status/2040719728407347663\n\n18 https://x.com/qbln9999/status/2112158602354176006\n\n19 https://x.com/wdqhc999/status/2111480622799823137\n\n20 https://x.com/nancyyzp/status/2111354564654035400\n\n21 https://x.com/hong14868/status/2112078952177029145\n\n22 https://x.com/bob7078/status/2112182365485465866\n\n已编辑 23 https://x.com/lazypiggy850/status/2112474205547864335\n\n24 https://x.com/xiaoqiaots/status/2101998057848201702\n\n25 https://x.com/libalababy/status/2087101739258511870\n\n26 https://x.com/laibeinaixiba/status/2110924276429947170\n\n27 https://x.com/meehutaotv/status/2111065872853082431\n\n28 https://x.com/tiaotiaosheep/status/2098611456942243983\n\n29 https://x.com/abaodz1/status/2091190847517921539\n\n30 https://x.com/jiojioyishujia1/status/2112060090593489341\n\n仅需互推A名单内其他成员，不需要转其他名单。\nhttps://daily-links.guerridodominique142615.workers.dev/g/group-1?date=2026-10-20&list=A",
             "links": [
               "https://x.com/aksaks99999/status/2101602852980318419",
               "https://x.com/guilin010/status/2048039009252004274",
@@ -619,7 +608,6 @@
               "https://x.com/shixiaotaon/status/2112451390895501613",
               "https://x.com/xiuchiluchu910/status/2112447745273344125",
               "https://x.com/tianqipaidui/status/2058472566315163799",
-              "https://x.com/uudajiejie/status/2112003555922178307",
               "https://x.com/dsang1874/status/2040719728407347663",
               "https://x.com/qbln9999/status/2112158602354176006",
               "https://x.com/wdqhc999/status/2111480622799823137",
@@ -635,7 +623,7 @@
               "https://x.com/abaodz1/status/2091190847517921539",
               "https://x.com/jiojioyishujia1/status/2112060090593489341"
             ],
-            "updated_at": "2026-10-20 17:30:52"
+            "updated_at": "2026-10-20 19:15:28"
           },
           "B": {
             "slots": [
@@ -1314,21 +1302,6 @@
                 "admitted_at": "2026-10-20 00:01:40"
               },
               {
-                "handle": "uudajiejie",
-                "post_id": "2112003555922178307",
-                "original_post_id": "2112003555922178307",
-                "url": "https://x.com/uudajiejie/status/2112003555922178307",
-                "edited": false,
-                "position": 16,
-                "message_id": "9799",
-                "tg_user_id": "8244388416",
-                "time": "2026-10-20 00:00:00",
-                "admission_time": "2026-10-20 00:00:00",
-                "list_id": "A",
-                "display_name": "UU大姐姐",
-                "admitted_at": "2026-10-20 00:01:40"
-              },
-              {
                 "handle": "dsang1874",
                 "post_id": "2040719728407347663",
                 "original_post_id": "2040719728407347663",
@@ -1540,16 +1513,21 @@
                 "admitted_at": "2026-10-20 00:01:40"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "16": "9799"
+            },
             "capacity": 30,
-            "count": 30,
+            "count": 29,
             "roster_capacity": 30,
             "withdrawn_message_ids": [
+              "9799",
               "9807",
               "9810",
               "9812"
             ],
-            "vacant_accounts": {}
+            "vacant_accounts": {
+              "16": "uudajiejie"
+            }
           },
           "B": {
             "slots": [
@@ -1722,7 +1700,6 @@
           "shixiaotaon": "A",
           "xiuchiluchu910": "A",
           "tianqipaidui": "A",
-          "uudajiejie": "A",
           "dsang1874": "A",
           "qbln9999": "A",
           "wdqhc999": "A",
@@ -1748,6 +1725,7 @@
           "asecresm": "B"
         },
         "withdrawn_message_ids": [
+          "9799",
           "9807",
           "9810",
           "9812",
@@ -2006,22 +1984,6 @@
             "display_name": "甜妻派对（原创）",
             "admitted_at": "2026-10-20 00:01:40",
             "list_position": 15
-          },
-          {
-            "handle": "uudajiejie",
-            "post_id": "2112003555922178307",
-            "original_post_id": "2112003555922178307",
-            "url": "https://x.com/uudajiejie/status/2112003555922178307",
-            "edited": false,
-            "position": 16,
-            "message_id": "9799",
-            "tg_user_id": "8244388416",
-            "time": "2026-10-20 00:00:00",
-            "admission_time": "2026-10-20 00:00:00",
-            "list_id": "A",
-            "display_name": "UU大姐姐",
-            "admitted_at": "2026-10-20 00:01:40",
-            "list_position": 16
           },
           {
             "handle": "dsang1874",
@@ -2396,9 +2358,10 @@
           }
         ],
         "vacant_positions": {
+          "16": "9799",
           "35": "9823"
         },
-        "count": 39,
+        "count": 38,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60,
@@ -2549,10 +2512,10 @@
     "date": "2026-10-20",
     "groups": {
       "群一": {
-        "digest": "d6e97a92944111604efc5f8bf55806fca0386f9daa62577e1ac64240879d5255",
-        "sourceRevision": 18,
+        "digest": "cb2c4a9f746e23eb9d95678dc06b7e5b2c40d48f862cb8d19b85380d2f92b77b",
+        "sourceRevision": 19,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-20T19:01:08.736851+08:00"
+        "acknowledged_at": "2026-10-20T19:15:28.691763+08:00"
       },
       "群二": {
         "digest": "cffc33017c9ae04839d9b98a1863be2366b3aa020286a40deb420cecabc365d4",
@@ -2581,7 +2544,9 @@
         "attempts": 1,
         "attempted_at": "2026-10-20 19:01:06",
         "sent_at": "2026-10-20 19:01:06",
-        "message_id": 9848
+        "message_id": 9848,
+        "confirmation": "telegram_history",
+        "reply_to_message_id": null
       },
       "群三": {
         "status": "sent",
@@ -2593,8 +2558,9 @@
         "reply_to_message_id": 7060,
         "attempts": 1,
         "attempted_at": "2026-10-20 19:01:07",
-        "sent_at": "2026-10-20 19:01:07",
-        "message_id": 7062
+        "sent_at": "2026-10-20 19:01:08",
+        "message_id": 7062,
+        "confirmation": "telegram_history"
       }
     }
   },
@@ -2631,6 +2597,12 @@
           "account": "dasamjhd",
           "postId": "2112393387257307176",
           "confirmed_at": "2026-10-20 19:01:01"
+        },
+        "9799": {
+          "position": 16,
+          "account": "uudajiejie",
+          "postId": "2112003555922178307",
+          "confirmed_at": "2026-10-20 19:15:25"
         }
       }
     }

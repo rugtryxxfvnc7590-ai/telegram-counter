@@ -4488,222 +4488,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 9
       },
-      "snd99x": {
-        "x_handle": "snd99x",
-        "check_handle": "snd99x",
-        "dual_link": false,
-        "promo_handle": "snd99x",
-        "tg_username": "SND99X",
-        "tg_user_id": 8520118213,
-        "tg_name": "九九🍊【认准ID错一个字母都是假号】",
-        "link": "https://x.com/snd99x/status/2109217639721783342?s=46",
-        "message_text": "https://x.com/snd99x/status/2109217639721783342?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/snd99x/status/2109217639721783342?s=46",
-            "handle": "snd99x",
-            "post_id": "2109217639721783342",
-            "role": "promo",
-            "author_name": "九九橙🍊",
-            "followers_count": 293567,
-            "followers_text": "29.3W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 293567
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 293567
-              },
-              {
-                "source": "status_legacy",
-                "count": 293567
-              }
-            ],
-            "tweet_text": "才发现瑜伽裤居然还有拉链款…\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_author",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 49,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/snd99x/status/2109217639721783342?s=46",
-            "post_id": "2109217639721783342",
-            "handle": "snd99x",
-            "source_time": "2026-10-20 00:00:11",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "九九橙🍊",
-        "promo_name": "九九橙🍊",
-        "followers_count": 293624,
-        "followers_text": "29.3W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 293567
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 293567
-          },
-          {
-            "source": "status_legacy",
-            "count": 293567
-          },
-          {
-            "source": "status_v2",
-            "count": 293571
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 293571
-          },
-          {
-            "source": "status_legacy",
-            "count": 293571
-          },
-          {
-            "source": "status_v2",
-            "count": 293624
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 293624
-          },
-          {
-            "source": "status_legacy",
-            "count": 293624
-          },
-          {
-            "source": "profile_v2",
-            "count": 293624
-          }
-        ],
-        "check_followers_count": 293567,
-        "check_followers_text": "29.3W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 293567
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 293567
-          },
-          {
-            "source": "status_legacy",
-            "count": 293567
-          }
-        ],
-        "tweet_text": "才发现瑜伽裤居然还有拉链款…\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_author",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 49,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/snd99x/status/2109217639721783342?s=46",
-        "check_url": "https://x.com/snd99x/status/2109217639721783342?s=46",
-        "promo_post_id": "2109217639721783342",
-        "check_post_id": "2109217639721783342",
-        "chat_id": "-1003891628675",
-        "message_id": 9807,
-        "time": "2026-10-20 00:00:11",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 293624,
-        "qualified_followers_text": "29.3W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-20 00:00:11",
-        "admission_locked": true,
-        "daily_list_rank": 8,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 8
-      },
       "qiobnxingcai": {
         "x_handle": "qiobnxingcai",
         "check_handle": "qiobnxingcai",
@@ -13993,222 +13777,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 9
       },
-      "2109217639721783342": {
-        "x_handle": "snd99x",
-        "check_handle": "snd99x",
-        "dual_link": false,
-        "promo_handle": "snd99x",
-        "tg_username": "SND99X",
-        "tg_user_id": 8520118213,
-        "tg_name": "九九🍊【认准ID错一个字母都是假号】",
-        "link": "https://x.com/snd99x/status/2109217639721783342?s=46",
-        "message_text": "https://x.com/snd99x/status/2109217639721783342?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/snd99x/status/2109217639721783342?s=46",
-            "handle": "snd99x",
-            "post_id": "2109217639721783342",
-            "role": "promo",
-            "author_name": "九九橙🍊",
-            "followers_count": 293567,
-            "followers_text": "29.3W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 293567
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 293567
-              },
-              {
-                "source": "status_legacy",
-                "count": 293567
-              }
-            ],
-            "tweet_text": "才发现瑜伽裤居然还有拉链款…\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_author",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 49,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/snd99x/status/2109217639721783342?s=46",
-            "post_id": "2109217639721783342",
-            "handle": "snd99x",
-            "source_time": "2026-10-20 00:00:11",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "九九橙🍊",
-        "promo_name": "九九橙🍊",
-        "followers_count": 293624,
-        "followers_text": "29.3W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 293567
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 293567
-          },
-          {
-            "source": "status_legacy",
-            "count": 293567
-          },
-          {
-            "source": "status_v2",
-            "count": 293571
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 293571
-          },
-          {
-            "source": "status_legacy",
-            "count": 293571
-          },
-          {
-            "source": "status_v2",
-            "count": 293624
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 293624
-          },
-          {
-            "source": "status_legacy",
-            "count": 293624
-          },
-          {
-            "source": "profile_v2",
-            "count": 293624
-          }
-        ],
-        "check_followers_count": 293567,
-        "check_followers_text": "29.3W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 293567
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 293567
-          },
-          {
-            "source": "status_legacy",
-            "count": 293567
-          }
-        ],
-        "tweet_text": "才发现瑜伽裤居然还有拉链款…\n\n@ToBulaer\n@ToBuerma \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_author",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 49,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/snd99x/status/2109217639721783342?s=46",
-        "check_url": "https://x.com/snd99x/status/2109217639721783342?s=46",
-        "promo_post_id": "2109217639721783342",
-        "check_post_id": "2109217639721783342",
-        "chat_id": "-1003891628675",
-        "message_id": 9807,
-        "time": "2026-10-20 00:00:11",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 293624,
-        "qualified_followers_text": "29.3W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-20 00:00:11",
-        "admission_locked": true,
-        "daily_list_rank": 8,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 8
-      },
       "2111108652493103230": {
         "x_handle": "qiobnxingcai",
         "check_handle": "qiobnxingcai",
@@ -19119,21 +18687,6 @@
                 "admitted_at": "2026-10-20 00:01:40"
               },
               {
-                "handle": "snd99x",
-                "post_id": "2109217639721783342",
-                "original_post_id": "2109217639721783342",
-                "url": "https://x.com/snd99x/status/2109217639721783342",
-                "edited": false,
-                "position": 8,
-                "message_id": "9807",
-                "tg_user_id": "8520118213",
-                "time": "2026-10-20 00:00:11",
-                "admission_time": "2026-10-20 00:00:11",
-                "list_id": "A",
-                "display_name": "九九橙🍊",
-                "admitted_at": "2026-10-20 00:01:40"
-              },
-              {
                 "handle": "hanzuzong3",
                 "post_id": "2112227719253795185",
                 "original_post_id": "2111810380943278168",
@@ -19466,16 +19019,19 @@
               }
             ],
             "vacant_positions": {
-              "5": "9810"
+              "5": "9810",
+              "8": "9807"
             },
             "capacity": 30,
-            "count": 29,
+            "count": 28,
             "roster_capacity": 30,
             "withdrawn_message_ids": [
+              "9807",
               "9810"
             ],
             "vacant_accounts": {
-              "5": "jxzeroc"
+              "5": "jxzeroc",
+              "8": "snd99x"
             }
           },
           "B": {
@@ -19635,7 +19191,6 @@
           "clares5a": "A",
           "qiaobenx1angcai": "A",
           "qiobnxingcai": "A",
-          "snd99x": "A",
           "hanzuzong3": "A",
           "shixiaotaone": "A",
           "lris_intj": "A",
@@ -19669,6 +19224,7 @@
           "asecresm": "B"
         },
         "withdrawn_message_ids": [
+          "9807",
           "9810",
           "9817"
         ],
@@ -19769,22 +19325,6 @@
             "display_name": "桥本香菜",
             "admitted_at": "2026-10-20 00:01:40",
             "list_position": 7
-          },
-          {
-            "handle": "snd99x",
-            "post_id": "2109217639721783342",
-            "original_post_id": "2109217639721783342",
-            "url": "https://x.com/snd99x/status/2109217639721783342",
-            "edited": false,
-            "position": 8,
-            "message_id": "9807",
-            "tg_user_id": "8520118213",
-            "time": "2026-10-20 00:00:11",
-            "admission_time": "2026-10-20 00:00:11",
-            "list_id": "A",
-            "display_name": "九九橙🍊",
-            "admitted_at": "2026-10-20 00:01:40",
-            "list_position": 8
           },
           {
             "handle": "hanzuzong3",
@@ -20287,9 +19827,10 @@
           }
         ],
         "vacant_positions": {
-          "5": "9810"
+          "5": "9810",
+          "8": "9807"
         },
-        "count": 38,
+        "count": 37,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -20307,6 +19848,10 @@
         "9810": {
           "reason": "message_deleted_in_complete_snapshot",
           "confirmed_at": "2026-10-20 14:45:46"
+        },
+        "9807": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-10-20 15:30:48"
         }
       }
     }

@@ -7614,12 +7614,13 @@
         ],
         "x_name": "人妻小红杏",
         "promo_name": "人妻小红杏",
-        "followers_count": 391121,
+        "followers_count": 391122,
         "followers_text": "39.1W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -7633,6 +7634,22 @@
           {
             "source": "status_legacy",
             "count": 391121
+          },
+          {
+            "source": "status_v2",
+            "count": 391122
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 391122
+          },
+          {
+            "source": "status_legacy",
+            "count": 391122
+          },
+          {
+            "source": "profile_v2",
+            "count": 391122
           }
         ],
         "check_followers_count": 391121,
@@ -7700,17 +7717,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 391121,
+        "qualified_followers_count": 391122,
         "qualified_followers_text": "39.1W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-20 16:43:13",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
@@ -17103,12 +17121,13 @@
         ],
         "x_name": "人妻小红杏",
         "promo_name": "人妻小红杏",
-        "followers_count": 391121,
+        "followers_count": 391122,
         "followers_text": "39.1W",
         "followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "followers_observations": [
           {
@@ -17122,6 +17141,22 @@
           {
             "source": "status_legacy",
             "count": 391121
+          },
+          {
+            "source": "status_v2",
+            "count": 391122
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 391122
+          },
+          {
+            "source": "status_legacy",
+            "count": 391122
+          },
+          {
+            "source": "profile_v2",
+            "count": 391122
           }
         ],
         "check_followers_count": 391121,
@@ -17189,17 +17224,18 @@
         "edited": false,
         "edit_time": "",
         "followers_min": 100000,
-        "qualified_followers_count": 391121,
+        "qualified_followers_count": 391122,
         "qualified_followers_text": "39.1W",
         "qualified_followers_sources": [
           "status_v2",
           "status_legacy_i",
-          "status_legacy"
+          "status_legacy",
+          "profile_v2"
         ],
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-20 16:43:13",
-        "admission_locked": false,
+        "admission_locked": true,
         "daily_list_rank": 3,
         "daily_list_status": "accepted",
         "daily_list_batch": "A",

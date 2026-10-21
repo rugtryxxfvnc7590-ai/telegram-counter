@@ -3644,198 +3644,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 13
       },
-      "asecresm": {
-        "x_handle": "asecresm",
-        "check_handle": "asecresm",
-        "dual_link": false,
-        "promo_handle": "asecresm",
-        "tg_username": "yuner118",
-        "tg_user_id": 8548890215,
-        "tg_name": "云儿",
-        "link": "https://x.com/asecresm/status/2112427258250133878?s=46",
-        "message_text": "https://x.com/asecresm/status/2112427258250133878?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/asecresm/status/2112427258250133878?s=46",
-            "handle": "asecresm",
-            "post_id": "2112427258250133878",
-            "role": "promo",
-            "author_name": "云儿",
-            "followers_count": 273581,
-            "followers_text": "27.3W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 273581
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 273581
-              },
-              {
-                "source": "status_legacy",
-                "count": 273581
-              }
-            ],
-            "tweet_text": "一条听话的小母狗你想拥有吗？\n\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 51,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 51,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_author",
-                "length": 51,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 51,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "编辑后",
-            "url": "https://x.com/asecresm/status/2112427258250133878?s=46",
-            "post_id": "2112427258250133878",
-            "handle": "asecresm",
-            "source_time": "2026-10-21 00:01:01",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "云儿",
-        "promo_name": "云儿",
-        "followers_count": 273581,
-        "followers_text": "27.3W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 273581
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 273581
-          },
-          {
-            "source": "status_legacy",
-            "count": 273581
-          },
-          {
-            "source": "profile_v2",
-            "count": 273581
-          }
-        ],
-        "check_followers_count": 273581,
-        "check_followers_text": "27.3W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 273581
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 273581
-          },
-          {
-            "source": "status_legacy",
-            "count": 273581
-          }
-        ],
-        "tweet_text": "一条听话的小母狗你想拥有吗？\n\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 51,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 51,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_author",
-            "length": 51,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 51,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/asecresm/status/2112427258250133878?s=46",
-        "check_url": "https://x.com/asecresm/status/2112427258250133878?s=46",
-        "promo_post_id": "2112427258250133878",
-        "check_post_id": "2112427258250133878",
-        "chat_id": "-1003891628675",
-        "message_id": 9908,
-        "time": "2026-10-21 00:01:01",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 273581,
-        "qualified_followers_text": "27.3W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-21 00:01:01",
-        "admission_locked": true,
-        "daily_list_rank": 11,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 11
-      },
       "pty0808": {
         "x_handle": "pty0808",
         "check_handle": "pty0808",
@@ -4141,208 +3949,6 @@
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
         "daily_list_batch_position": 8
-      },
-      "xye918": {
-        "x_handle": "xye918",
-        "check_handle": "xye918",
-        "dual_link": false,
-        "promo_handle": "xye918",
-        "tg_username": "kau918",
-        "tg_user_id": 8565972608,
-        "tg_name": "Denise Welch",
-        "link": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-        "message_text": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-            "handle": "xye918",
-            "post_id": "2111983879208968377",
-            "role": "promo",
-            "author_name": "中文字幕av高清无码",
-            "followers_count": 413073,
-            "followers_text": "41.3W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 413073
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 413073
-              },
-              {
-                "source": "status_legacy",
-                "count": 413073
-              },
-              {
-                "source": "profile_v2",
-                "count": 413073
-              }
-            ],
-            "tweet_text": "S1×TAMEIKE 20周年纪念合作作品 妻子怀上第二胎回娘家待产期间 我在家里和长子的托儿所老师疯狂做爱\n【出演女优】： miru\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 103,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 103,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_author",
-                "length": 103,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 103,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-            "post_id": "2111983879208968377",
-            "handle": "xye918",
-            "source_time": "2026-10-21 00:03:22",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "中文字幕av高清无码",
-        "promo_name": "中文字幕av高清无码",
-        "followers_count": 413073,
-        "followers_text": "41.3W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 413073
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 413073
-          },
-          {
-            "source": "status_legacy",
-            "count": 413073
-          },
-          {
-            "source": "profile_v2",
-            "count": 413073
-          }
-        ],
-        "check_followers_count": 413073,
-        "check_followers_text": "41.3W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 413073
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 413073
-          },
-          {
-            "source": "status_legacy",
-            "count": 413073
-          },
-          {
-            "source": "profile_v2",
-            "count": 413073
-          }
-        ],
-        "tweet_text": "S1×TAMEIKE 20周年纪念合作作品 妻子怀上第二胎回娘家待产期间 我在家里和长子的托儿所老师疯狂做爱\n【出演女优】： miru\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 103,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 103,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_author",
-            "length": 103,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 103,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-        "check_url": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-        "promo_post_id": "2111983879208968377",
-        "check_post_id": "2111983879208968377",
-        "chat_id": "-1003891628675",
-        "message_id": 9914,
-        "time": "2026-10-21 00:03:22",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 413073,
-        "qualified_followers_text": "41.3W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-21 00:03:22",
-        "admission_locked": true,
-        "daily_list_rank": 5,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 5
       },
       "youmeier": {
         "x_handle": "youmeier",
@@ -9913,198 +9519,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 13
       },
-      "2112427258250133878": {
-        "x_handle": "asecresm",
-        "check_handle": "asecresm",
-        "dual_link": false,
-        "promo_handle": "asecresm",
-        "tg_username": "yuner118",
-        "tg_user_id": 8548890215,
-        "tg_name": "云儿",
-        "link": "https://x.com/asecresm/status/2112427258250133878?s=46",
-        "message_text": "https://x.com/asecresm/status/2112427258250133878?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/asecresm/status/2112427258250133878?s=46",
-            "handle": "asecresm",
-            "post_id": "2112427258250133878",
-            "role": "promo",
-            "author_name": "云儿",
-            "followers_count": 273581,
-            "followers_text": "27.3W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 273581
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 273581
-              },
-              {
-                "source": "status_legacy",
-                "count": 273581
-              }
-            ],
-            "tweet_text": "一条听话的小母狗你想拥有吗？\n\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 51,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 51,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_author",
-                "length": 51,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 51,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "编辑后",
-            "url": "https://x.com/asecresm/status/2112427258250133878?s=46",
-            "post_id": "2112427258250133878",
-            "handle": "asecresm",
-            "source_time": "2026-10-21 00:01:01",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "云儿",
-        "promo_name": "云儿",
-        "followers_count": 273581,
-        "followers_text": "27.3W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 273581
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 273581
-          },
-          {
-            "source": "status_legacy",
-            "count": 273581
-          },
-          {
-            "source": "profile_v2",
-            "count": 273581
-          }
-        ],
-        "check_followers_count": 273581,
-        "check_followers_text": "27.3W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 273581
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 273581
-          },
-          {
-            "source": "status_legacy",
-            "count": 273581
-          }
-        ],
-        "tweet_text": "一条听话的小母狗你想拥有吗？\n\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 51,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 51,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_author",
-            "length": 51,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 51,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/asecresm/status/2112427258250133878?s=46",
-        "check_url": "https://x.com/asecresm/status/2112427258250133878?s=46",
-        "promo_post_id": "2112427258250133878",
-        "check_post_id": "2112427258250133878",
-        "chat_id": "-1003891628675",
-        "message_id": 9908,
-        "time": "2026-10-21 00:01:01",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 273581,
-        "qualified_followers_text": "27.3W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-21 00:01:01",
-        "admission_locked": true,
-        "daily_list_rank": 11,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 11
-      },
       "2112448887449690189": {
         "x_handle": "pty0808",
         "check_handle": "pty0808",
@@ -10410,208 +9824,6 @@
         "daily_list_status": "accepted",
         "daily_list_batch": "A",
         "daily_list_batch_position": 8
-      },
-      "2111983879208968377": {
-        "x_handle": "xye918",
-        "check_handle": "xye918",
-        "dual_link": false,
-        "promo_handle": "xye918",
-        "tg_username": "kau918",
-        "tg_user_id": 8565972608,
-        "tg_name": "Denise Welch",
-        "link": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-        "message_text": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-            "handle": "xye918",
-            "post_id": "2111983879208968377",
-            "role": "promo",
-            "author_name": "中文字幕av高清无码",
-            "followers_count": 413073,
-            "followers_text": "41.3W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 413073
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 413073
-              },
-              {
-                "source": "status_legacy",
-                "count": 413073
-              },
-              {
-                "source": "profile_v2",
-                "count": 413073
-              }
-            ],
-            "tweet_text": "S1×TAMEIKE 20周年纪念合作作品 妻子怀上第二胎回娘家待产期间 我在家里和长子的托儿所老师疯狂做爱\n【出演女优】： miru\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 103,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 103,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_author",
-                "length": 103,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 103,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-            "post_id": "2111983879208968377",
-            "handle": "xye918",
-            "source_time": "2026-10-21 00:03:22",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "中文字幕av高清无码",
-        "promo_name": "中文字幕av高清无码",
-        "followers_count": 413073,
-        "followers_text": "41.3W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 413073
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 413073
-          },
-          {
-            "source": "status_legacy",
-            "count": 413073
-          },
-          {
-            "source": "profile_v2",
-            "count": 413073
-          }
-        ],
-        "check_followers_count": 413073,
-        "check_followers_text": "41.3W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 413073
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 413073
-          },
-          {
-            "source": "status_legacy",
-            "count": 413073
-          },
-          {
-            "source": "profile_v2",
-            "count": 413073
-          }
-        ],
-        "tweet_text": "S1×TAMEIKE 20周年纪念合作作品 妻子怀上第二胎回娘家待产期间 我在家里和长子的托儿所老师疯狂做爱\n【出演女优】： miru\n@ToBulaer\n\n@ToBuerma\n \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 103,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 103,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_author",
-            "length": 103,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 103,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-        "check_url": "https://x.com/xye918/status/2111983879208968377?s=46&t=BSKeoUJPs02g2lHjtBTG6g",
-        "promo_post_id": "2111983879208968377",
-        "check_post_id": "2111983879208968377",
-        "chat_id": "-1003891628675",
-        "message_id": 9914,
-        "time": "2026-10-21 00:03:22",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 413073,
-        "qualified_followers_text": "41.3W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-21 00:03:22",
-        "admission_locked": true,
-        "daily_list_rank": 5,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 5
       },
       "2111429978156126278": {
         "x_handle": "youmeier",
@@ -12569,6 +11781,14 @@
         "9890": {
           "reason": "message_deleted_in_complete_snapshot",
           "confirmed_at": "2026-10-21 10:45:25"
+        },
+        "9908": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-10-21 11:01:01"
+        },
+        "9914": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-10-21 11:01:01"
         }
       }
     }
@@ -12651,21 +11871,6 @@
                 "admitted_at": "2026-10-21 00:15:59"
               },
               {
-                "handle": "xye918",
-                "post_id": "2111983879208968377",
-                "original_post_id": "2111983879208968377",
-                "url": "https://x.com/xye918/status/2111983879208968377",
-                "edited": false,
-                "position": 5,
-                "message_id": "9914",
-                "tg_user_id": "8565972608",
-                "time": "2026-10-21 00:03:22",
-                "admission_time": "2026-10-21 00:03:22",
-                "list_id": "A",
-                "display_name": "中文字幕av高清无码",
-                "admitted_at": "2026-10-21 00:15:59"
-              },
-              {
                 "handle": "sluttytatia404",
                 "post_id": "2109116812671750570",
                 "original_post_id": "2109116812671750570",
@@ -12694,21 +11899,6 @@
                 "list_id": "A",
                 "display_name": "胖头鱼(视频号)",
                 "admitted_at": "2026-10-21 00:15:59"
-              },
-              {
-                "handle": "asecresm",
-                "post_id": "2112427258250133878",
-                "original_post_id": "2112427258250133878",
-                "url": "https://x.com/asecresm/status/2112427258250133878",
-                "edited": false,
-                "position": 11,
-                "message_id": "9908",
-                "tg_user_id": "8548890215",
-                "time": "2026-10-21 00:01:01",
-                "admission_time": "2026-10-21 00:01:01",
-                "list_id": "A",
-                "display_name": "云儿",
-                "admitted_at": "2026-10-21 00:01:50"
               },
               {
                 "handle": "tiaotiaosheep",
@@ -12971,24 +12161,30 @@
               "22": "9894",
               "6": "9913",
               "7": "9912",
-              "26": "9890"
+              "26": "9890",
+              "5": "9914",
+              "11": "9908"
             },
             "capacity": 30,
-            "count": 25,
+            "count": 23,
             "roster_capacity": 30,
             "withdrawn_message_ids": [
               "9890",
               "9894",
+              "9908",
               "9909",
               "9912",
-              "9913"
+              "9913",
+              "9914"
             ],
             "vacant_accounts": {
               "10": "dsang1874",
               "22": "xiao16877",
               "6": "clares5a",
               "7": "xye9518",
-              "26": "laibeinaixiba"
+              "26": "laibeinaixiba",
+              "5": "xye918",
+              "11": "asecresm"
             }
           },
           "B": {
@@ -13081,10 +12277,8 @@
           "aksaks99999": "A",
           "wdqhc999": "A",
           "youmeier": "A",
-          "xye918": "A",
           "sluttytatia404": "A",
           "pty0808": "A",
-          "asecresm": "A",
           "tiaotiaosheep": "A",
           "cattyllo023": "A",
           "chairlfen_cn": "A",
@@ -13111,9 +12305,11 @@
         "withdrawn_message_ids": [
           "9890",
           "9894",
+          "9908",
           "9909",
           "9912",
-          "9913"
+          "9913",
+          "9914"
         ],
         "slots": [
           {
@@ -13181,22 +12377,6 @@
             "list_position": 4
           },
           {
-            "handle": "xye918",
-            "post_id": "2111983879208968377",
-            "original_post_id": "2111983879208968377",
-            "url": "https://x.com/xye918/status/2111983879208968377",
-            "edited": false,
-            "position": 5,
-            "message_id": "9914",
-            "tg_user_id": "8565972608",
-            "time": "2026-10-21 00:03:22",
-            "admission_time": "2026-10-21 00:03:22",
-            "list_id": "A",
-            "display_name": "中文字幕av高清无码",
-            "admitted_at": "2026-10-21 00:15:59",
-            "list_position": 5
-          },
-          {
             "handle": "sluttytatia404",
             "post_id": "2109116812671750570",
             "original_post_id": "2109116812671750570",
@@ -13227,22 +12407,6 @@
             "display_name": "胖头鱼(视频号)",
             "admitted_at": "2026-10-21 00:15:59",
             "list_position": 9
-          },
-          {
-            "handle": "asecresm",
-            "post_id": "2112427258250133878",
-            "original_post_id": "2112427258250133878",
-            "url": "https://x.com/asecresm/status/2112427258250133878",
-            "edited": false,
-            "position": 11,
-            "message_id": "9908",
-            "tg_user_id": "8548890215",
-            "time": "2026-10-21 00:01:01",
-            "admission_time": "2026-10-21 00:01:01",
-            "list_id": "A",
-            "display_name": "云儿",
-            "admitted_at": "2026-10-21 00:01:50",
-            "list_position": 11
           },
           {
             "handle": "tiaotiaosheep",
@@ -13602,9 +12766,11 @@
           "22": "9894",
           "6": "9913",
           "7": "9912",
-          "26": "9890"
+          "26": "9890",
+          "5": "9914",
+          "11": "9908"
         },
-        "count": 30,
+        "count": 28,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

@@ -2846,208 +2846,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 15
       },
-      "chairlfen_cn": {
-        "x_handle": "chairlfen_cn",
-        "check_handle": "chairlfen_cn",
-        "dual_link": false,
-        "promo_handle": "chairlfen_cn",
-        "tg_username": "chairlfen",
-        "tg_user_id": 1853744305,
-        "tg_name": "chairlfen",
-        "link": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-        "message_text": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-            "handle": "chairlfen_cn",
-            "post_id": "2083502337692414132",
-            "role": "promo",
-            "author_name": "周慕云（chairlfen）",
-            "followers_count": 115834,
-            "followers_text": "11.5W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 115834
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 115834
-              },
-              {
-                "source": "status_legacy",
-                "count": 115834
-              },
-              {
-                "source": "profile_v2",
-                "count": 115834
-              }
-            ],
-            "tweet_text": "脆皮水专秒脆皮🥵💦💦 \n脆皮水➕大坐！你受得了吗？\n我一下就被秒了 我是脆皮😫\n\n🔥\n@KawasawaSen\n@BulmaList\n@ToBulaer\n@ToBuerma",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 86,
-                "required_mentions_count": 4
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 86,
-                "required_mentions_count": 4
-              },
-              {
-                "source": "vx_status_author",
-                "length": 86,
-                "required_mentions_count": 4
-              },
-              {
-                "source": "status_legacy",
-                "length": 86,
-                "required_mentions_count": 4
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 4
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-            "post_id": "2083502337692414132",
-            "handle": "chairlfen_cn",
-            "source_time": "2026-10-21 00:00:32",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "周慕云（chairlfen）",
-        "promo_name": "周慕云（chairlfen）",
-        "followers_count": 115834,
-        "followers_text": "11.5W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 115834
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 115834
-          },
-          {
-            "source": "status_legacy",
-            "count": 115834
-          },
-          {
-            "source": "profile_v2",
-            "count": 115834
-          }
-        ],
-        "check_followers_count": 115834,
-        "check_followers_text": "11.5W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 115834
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 115834
-          },
-          {
-            "source": "status_legacy",
-            "count": 115834
-          },
-          {
-            "source": "profile_v2",
-            "count": 115834
-          }
-        ],
-        "tweet_text": "脆皮水专秒脆皮🥵💦💦 \n脆皮水➕大坐！你受得了吗？\n我一下就被秒了 我是脆皮😫\n\n🔥\n@KawasawaSen\n@BulmaList\n@ToBulaer\n@ToBuerma",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 86,
-            "required_mentions_count": 4
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 86,
-            "required_mentions_count": 4
-          },
-          {
-            "source": "vx_status_author",
-            "length": 86,
-            "required_mentions_count": 4
-          },
-          {
-            "source": "status_legacy",
-            "length": 86,
-            "required_mentions_count": 4
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 4,
-        "content_eligible": true,
-        "promo_url": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-        "check_url": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-        "promo_post_id": "2083502337692414132",
-        "check_post_id": "2083502337692414132",
-        "chat_id": "-1003891628675",
-        "message_id": 9906,
-        "time": "2026-10-21 00:00:32",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 115834,
-        "qualified_followers_text": "11.5W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-21 00:00:32",
-        "admission_locked": true,
-        "daily_list_rank": 14,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 14
-      },
       "cattyllo023": {
         "x_handle": "cattyllo023",
         "check_handle": "cattyllo023",
@@ -4761,7 +4559,8 @@
         "daily_list_rank": 1,
         "daily_list_status": "accepted"
       }
-    }
+    },
+    "-3891628675": {}
   },
   "post_entries": {
     "-1003891628675": {
@@ -7609,208 +7408,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 15
       },
-      "2083502337692414132": {
-        "x_handle": "chairlfen_cn",
-        "check_handle": "chairlfen_cn",
-        "dual_link": false,
-        "promo_handle": "chairlfen_cn",
-        "tg_username": "chairlfen",
-        "tg_user_id": 1853744305,
-        "tg_name": "chairlfen",
-        "link": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-        "message_text": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-            "handle": "chairlfen_cn",
-            "post_id": "2083502337692414132",
-            "role": "promo",
-            "author_name": "周慕云（chairlfen）",
-            "followers_count": 115834,
-            "followers_text": "11.5W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy",
-              "profile_v2"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 115834
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 115834
-              },
-              {
-                "source": "status_legacy",
-                "count": 115834
-              },
-              {
-                "source": "profile_v2",
-                "count": 115834
-              }
-            ],
-            "tweet_text": "脆皮水专秒脆皮🥵💦💦 \n脆皮水➕大坐！你受得了吗？\n我一下就被秒了 我是脆皮😫\n\n🔥\n@KawasawaSen\n@BulmaList\n@ToBulaer\n@ToBuerma",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 86,
-                "required_mentions_count": 4
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 86,
-                "required_mentions_count": 4
-              },
-              {
-                "source": "vx_status_author",
-                "length": 86,
-                "required_mentions_count": 4
-              },
-              {
-                "source": "status_legacy",
-                "length": 86,
-                "required_mentions_count": 4
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 4
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-            "post_id": "2083502337692414132",
-            "handle": "chairlfen_cn",
-            "source_time": "2026-10-21 00:00:32",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "周慕云（chairlfen）",
-        "promo_name": "周慕云（chairlfen）",
-        "followers_count": 115834,
-        "followers_text": "11.5W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 115834
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 115834
-          },
-          {
-            "source": "status_legacy",
-            "count": 115834
-          },
-          {
-            "source": "profile_v2",
-            "count": 115834
-          }
-        ],
-        "check_followers_count": 115834,
-        "check_followers_text": "11.5W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 115834
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 115834
-          },
-          {
-            "source": "status_legacy",
-            "count": 115834
-          },
-          {
-            "source": "profile_v2",
-            "count": 115834
-          }
-        ],
-        "tweet_text": "脆皮水专秒脆皮🥵💦💦 \n脆皮水➕大坐！你受得了吗？\n我一下就被秒了 我是脆皮😫\n\n🔥\n@KawasawaSen\n@BulmaList\n@ToBulaer\n@ToBuerma",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 86,
-            "required_mentions_count": 4
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 86,
-            "required_mentions_count": 4
-          },
-          {
-            "source": "vx_status_author",
-            "length": 86,
-            "required_mentions_count": 4
-          },
-          {
-            "source": "status_legacy",
-            "length": 86,
-            "required_mentions_count": 4
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 4,
-        "content_eligible": true,
-        "promo_url": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-        "check_url": "https://x.com/chairlfen_cn/status/2083502337692414132?s=46",
-        "promo_post_id": "2083502337692414132",
-        "check_post_id": "2083502337692414132",
-        "chat_id": "-1003891628675",
-        "message_id": 9906,
-        "time": "2026-10-21 00:00:32",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 115834,
-        "qualified_followers_text": "11.5W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-21 00:00:32",
-        "admission_locked": true,
-        "daily_list_rank": 14,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 14
-      },
       "2112082558749913186": {
         "x_handle": "cattyllo023",
         "check_handle": "cattyllo023",
@@ -9524,7 +9121,8 @@
         "daily_list_rank": 1,
         "daily_list_status": "accepted"
       }
-    }
+    },
+    "-3891628675": {}
   },
   "confirmed_withdrawals": {
     "date": "2026-10-21",
@@ -9585,6 +9183,10 @@
         "9911": {
           "reason": "message_deleted_in_complete_snapshot",
           "confirmed_at": "2026-10-21 15:30:34"
+        },
+        "9906": {
+          "reason": "message_deleted_by_id",
+          "confirmed_at": "2026-10-21 18:15:35"
         }
       },
       "群三": {
@@ -9704,21 +9306,6 @@
                 "admission_time": "2026-10-21 00:00:34",
                 "list_id": "A",
                 "display_name": "奶酪",
-                "admitted_at": "2026-10-21 00:01:50"
-              },
-              {
-                "handle": "chairlfen_cn",
-                "post_id": "2083502337692414132",
-                "original_post_id": "2083502337692414132",
-                "url": "https://x.com/chairlfen_cn/status/2083502337692414132",
-                "edited": false,
-                "position": 14,
-                "message_id": "9906",
-                "tg_user_id": "1853744305",
-                "time": "2026-10-21 00:00:32",
-                "admission_time": "2026-10-21 00:00:32",
-                "list_id": "A",
-                "display_name": "周慕云（chairlfen）",
                 "admitted_at": "2026-10-21 00:01:50"
               },
               {
@@ -9927,15 +9514,17 @@
               "11": "9908",
               "9": "9910",
               "20": "9896",
-              "8": "9911"
+              "8": "9911",
+              "14": "9906"
             },
             "capacity": 30,
-            "count": 20,
+            "count": 19,
             "roster_capacity": 30,
             "withdrawn_message_ids": [
               "9890",
               "9894",
               "9896",
+              "9906",
               "9908",
               "9909",
               "9910",
@@ -9954,7 +9543,8 @@
               "11": "asecresm",
               "9": "pty0808",
               "20": "libalababy",
-              "8": "sluttytatia404"
+              "8": "sluttytatia404",
+              "14": "chairlfen_cn"
             }
           },
           "B": {
@@ -10029,7 +9619,6 @@
           "youmeier": "A",
           "tiaotiaosheep": "A",
           "cattyllo023": "A",
-          "chairlfen_cn": "A",
           "shixiaotaone": "A",
           "shixiaotaon": "A",
           "sleepsbg": "A",
@@ -10052,6 +9641,7 @@
           "9894",
           "9896",
           "9897",
+          "9906",
           "9908",
           "9909",
           "9910",
@@ -10157,22 +9747,6 @@
             "display_name": "奶酪",
             "admitted_at": "2026-10-21 00:01:50",
             "list_position": 13
-          },
-          {
-            "handle": "chairlfen_cn",
-            "post_id": "2083502337692414132",
-            "original_post_id": "2083502337692414132",
-            "url": "https://x.com/chairlfen_cn/status/2083502337692414132",
-            "edited": false,
-            "position": 14,
-            "message_id": "9906",
-            "tg_user_id": "1853744305",
-            "time": "2026-10-21 00:00:32",
-            "admission_time": "2026-10-21 00:00:32",
-            "list_id": "A",
-            "display_name": "周慕云（chairlfen）",
-            "admitted_at": "2026-10-21 00:01:50",
-            "list_position": 14
           },
           {
             "handle": "shixiaotaone",
@@ -10442,10 +10016,11 @@
           "9": "9910",
           "20": "9896",
           "8": "9911",
+          "14": "9906",
           "33": "9897",
           "34": "9920"
         },
-        "count": 23,
+        "count": 22,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

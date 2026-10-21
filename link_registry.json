@@ -824,198 +824,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 27
       },
-      "laibeinaixiba": {
-        "x_handle": "laibeinaixiba",
-        "check_handle": "laibeinaixiba",
-        "dual_link": false,
-        "promo_handle": "laibeinaixiba",
-        "tg_username": "yixiaoming123",
-        "tg_user_id": 8442106479,
-        "tg_name": "易 小鸣",
-        "link": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-        "message_text": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-            "handle": "laibeinaixiba",
-            "post_id": "2110924276429947170",
-            "role": "promo",
-            "author_name": "易鸣",
-            "followers_count": 429149,
-            "followers_text": "42.9W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 429149
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 429149
-              },
-              {
-                "source": "status_legacy",
-                "count": 429149
-              }
-            ],
-            "tweet_text": "带大家一起观赏最美天际线🏙️\n\n@ToBuerma\n@ToBulaer \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_author",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 49,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-            "post_id": "2110924276429947170",
-            "handle": "laibeinaixiba",
-            "source_time": "2026-10-21 00:00:00",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "易鸣",
-        "promo_name": "易鸣",
-        "followers_count": 429149,
-        "followers_text": "42.9W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 429149
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 429149
-          },
-          {
-            "source": "status_legacy",
-            "count": 429149
-          },
-          {
-            "source": "profile_v2",
-            "count": 429149
-          }
-        ],
-        "check_followers_count": 429149,
-        "check_followers_text": "42.9W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 429149
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 429149
-          },
-          {
-            "source": "status_legacy",
-            "count": 429149
-          }
-        ],
-        "tweet_text": "带大家一起观赏最美天际线🏙️\n\n@ToBuerma\n@ToBulaer \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_author",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 49,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-        "check_url": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-        "promo_post_id": "2110924276429947170",
-        "check_post_id": "2110924276429947170",
-        "chat_id": "-1003891628675",
-        "message_id": 9890,
-        "time": "2026-10-21 00:00:00",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 429149,
-        "qualified_followers_text": "42.9W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-21 00:00:00",
-        "admission_locked": true,
-        "daily_list_rank": 26,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 26
-      },
       "qbln9999": {
         "x_handle": "qbln9999",
         "check_handle": "qbln9999",
@@ -7285,198 +7093,6 @@
         "daily_list_batch": "A",
         "daily_list_batch_position": 27
       },
-      "2110924276429947170": {
-        "x_handle": "laibeinaixiba",
-        "check_handle": "laibeinaixiba",
-        "dual_link": false,
-        "promo_handle": "laibeinaixiba",
-        "tg_username": "yixiaoming123",
-        "tg_user_id": 8442106479,
-        "tg_name": "易 小鸣",
-        "link": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-        "message_text": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-        "links": [
-          {
-            "order": 1,
-            "url": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-            "handle": "laibeinaixiba",
-            "post_id": "2110924276429947170",
-            "role": "promo",
-            "author_name": "易鸣",
-            "followers_count": 429149,
-            "followers_text": "42.9W",
-            "followers_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "status_legacy"
-            ],
-            "followers_observations": [
-              {
-                "source": "status_v2",
-                "count": 429149
-              },
-              {
-                "source": "status_legacy_i",
-                "count": 429149
-              },
-              {
-                "source": "status_legacy",
-                "count": 429149
-              }
-            ],
-            "tweet_text": "带大家一起观赏最美天际线🏙️\n\n@ToBuerma\n@ToBulaer \n@KawasawaSen",
-            "tweet_text_sources": [
-              "status_v2",
-              "status_legacy_i",
-              "vx_status_author",
-              "status_legacy"
-            ],
-            "tweet_text_observations": [
-              {
-                "source": "status_v2",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy_i",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "vx_status_author",
-                "length": 49,
-                "required_mentions_count": 3
-              },
-              {
-                "source": "status_legacy",
-                "length": 49,
-                "required_mentions_count": 3
-              }
-            ],
-            "tweet_text_primary_source": "status_v2",
-            "required_mentions_count": 3
-          }
-        ],
-        "link_options": [
-          {
-            "label": "当前",
-            "url": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-            "post_id": "2110924276429947170",
-            "handle": "laibeinaixiba",
-            "source_time": "2026-10-21 00:00:00",
-            "edit_time": ""
-          }
-        ],
-        "x_name": "易鸣",
-        "promo_name": "易鸣",
-        "followers_count": 429149,
-        "followers_text": "42.9W",
-        "followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 429149
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 429149
-          },
-          {
-            "source": "status_legacy",
-            "count": 429149
-          },
-          {
-            "source": "profile_v2",
-            "count": 429149
-          }
-        ],
-        "check_followers_count": 429149,
-        "check_followers_text": "42.9W",
-        "check_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy"
-        ],
-        "check_followers_observations": [
-          {
-            "source": "status_v2",
-            "count": 429149
-          },
-          {
-            "source": "status_legacy_i",
-            "count": 429149
-          },
-          {
-            "source": "status_legacy",
-            "count": 429149
-          }
-        ],
-        "tweet_text": "带大家一起观赏最美天际线🏙️\n\n@ToBuerma\n@ToBulaer \n@KawasawaSen",
-        "tweet_text_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "vx_status_author",
-          "status_legacy"
-        ],
-        "tweet_text_observations": [
-          {
-            "source": "status_v2",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy_i",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "vx_status_author",
-            "length": 49,
-            "required_mentions_count": 3
-          },
-          {
-            "source": "status_legacy",
-            "length": 49,
-            "required_mentions_count": 3
-          }
-        ],
-        "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
-        "promo_url": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-        "check_url": "https://x.com/laibeinaixiba/status/2110924276429947170?s=46",
-        "promo_post_id": "2110924276429947170",
-        "check_post_id": "2110924276429947170",
-        "chat_id": "-1003891628675",
-        "message_id": 9890,
-        "time": "2026-10-21 00:00:00",
-        "after_cutoff": false,
-        "cutoff_time": "",
-        "edited": false,
-        "edit_time": "",
-        "followers_min": 100000,
-        "qualified_followers_count": 429149,
-        "qualified_followers_text": "42.9W",
-        "qualified_followers_sources": [
-          "status_v2",
-          "status_legacy_i",
-          "status_legacy",
-          "profile_v2"
-        ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
-        "admission_time": "2026-10-21 00:00:00",
-        "admission_locked": true,
-        "daily_list_rank": 26,
-        "daily_list_status": "accepted",
-        "daily_list_batch": "A",
-        "daily_list_batch_position": 26
-      },
       "2087533026809180203": {
         "x_handle": "qbln9999",
         "check_handle": "qbln9999",
@@ -12949,6 +12565,10 @@
         "9912": {
           "reason": "message_deleted_in_complete_snapshot",
           "confirmed_at": "2026-10-21 08:45:34"
+        },
+        "9890": {
+          "reason": "message_deleted_in_complete_snapshot",
+          "confirmed_at": "2026-10-21 10:45:25"
         }
       }
     }
@@ -13286,21 +12906,6 @@
                 "admitted_at": "2026-10-21 00:01:50"
               },
               {
-                "handle": "laibeinaixiba",
-                "post_id": "2110924276429947170",
-                "original_post_id": "2110924276429947170",
-                "url": "https://x.com/laibeinaixiba/status/2110924276429947170",
-                "edited": false,
-                "position": 26,
-                "message_id": "9890",
-                "tg_user_id": "8442106479",
-                "time": "2026-10-21 00:00:00",
-                "admission_time": "2026-10-21 00:00:00",
-                "list_id": "A",
-                "display_name": "易鸣",
-                "admitted_at": "2026-10-21 00:01:50"
-              },
-              {
                 "handle": "hanzuzong3",
                 "post_id": "2112227719253795185",
                 "original_post_id": "2112227719253795185",
@@ -13365,12 +12970,14 @@
               "10": "9909",
               "22": "9894",
               "6": "9913",
-              "7": "9912"
+              "7": "9912",
+              "26": "9890"
             },
             "capacity": 30,
-            "count": 26,
+            "count": 25,
             "roster_capacity": 30,
             "withdrawn_message_ids": [
+              "9890",
               "9894",
               "9909",
               "9912",
@@ -13380,7 +12987,8 @@
               "10": "dsang1874",
               "22": "xiao16877",
               "6": "clares5a",
-              "7": "xye9518"
+              "7": "xye9518",
+              "26": "laibeinaixiba"
             }
           },
           "B": {
@@ -13490,7 +13098,6 @@
           "nancyyzp": "A",
           "bob7078": "A",
           "qbln9999": "A",
-          "laibeinaixiba": "A",
           "hanzuzong3": "A",
           "hong14868": "A",
           "snd99x": "A",
@@ -13502,6 +13109,7 @@
           "abaodz1": "B"
         },
         "withdrawn_message_ids": [
+          "9890",
           "9894",
           "9909",
           "9912",
@@ -13845,22 +13453,6 @@
             "list_position": 25
           },
           {
-            "handle": "laibeinaixiba",
-            "post_id": "2110924276429947170",
-            "original_post_id": "2110924276429947170",
-            "url": "https://x.com/laibeinaixiba/status/2110924276429947170",
-            "edited": false,
-            "position": 26,
-            "message_id": "9890",
-            "tg_user_id": "8442106479",
-            "time": "2026-10-21 00:00:00",
-            "admission_time": "2026-10-21 00:00:00",
-            "list_id": "A",
-            "display_name": "易鸣",
-            "admitted_at": "2026-10-21 00:01:50",
-            "list_position": 26
-          },
-          {
             "handle": "hanzuzong3",
             "post_id": "2112227719253795185",
             "original_post_id": "2112227719253795185",
@@ -14009,9 +13601,10 @@
           "10": "9909",
           "22": "9894",
           "6": "9913",
-          "7": "9912"
+          "7": "9912",
+          "26": "9890"
         },
-        "count": 31,
+        "count": 30,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

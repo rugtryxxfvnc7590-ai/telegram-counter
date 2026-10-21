@@ -1,11 +1,13 @@
 {
   "date": "2026-10-22",
-  "offset": 364623508,
+  "offset": 364623514,
   "groups": {
     "-1003891628675": {
-      "count": 1,
+      "count": 3,
       "message_ids": [
-        "10548"
+        "10548",
+        "10549",
+        "10550"
       ]
     },
     "-1003218974409": {
@@ -19,7 +21,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-22",
-    "run_at": "2026-10-22 00:00:51",
+    "run_at": "2026-10-22 00:15:36",
     "completed_groups": [
       "群一",
       "群二",
@@ -27,40 +29,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39630844818:1",
-        "checked_at": "2026-10-22 00:00:52",
+        "run_key": "39633095378:1",
+        "checked_at": "2026-10-22 00:15:39",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "39630844818:1",
-        "checked_at": "2026-10-22 00:00:52",
+        "run_key": "39633095378:1",
+        "checked_at": "2026-10-22 00:15:39",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39630844818:1",
-        "checked_at": "2026-10-22 00:00:53",
+        "run_key": "39633095378:1",
+        "checked_at": "2026-10-22 00:15:40",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39630844818:1",
-        "checked_at": "2026-10-22 00:00:52",
+        "run_key": "39633095378:1",
+        "checked_at": "2026-10-22 00:15:39",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "39630844818:1",
-        "checked_at": "2026-10-22 00:00:52",
+        "run_key": "39633095378:1",
+        "checked_at": "2026-10-22 00:15:39",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39630844818:1",
-        "checked_at": "2026-10-22 00:00:53",
+        "run_key": "39633095378:1",
+        "checked_at": "2026-10-22 00:15:40",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -119,12 +121,42 @@
           "A": {
             "slots": [
               {
+                "handle": "qiaobenx1angcai",
+                "post_id": "2112540911678931400",
+                "original_post_id": "2112540911678931400",
+                "url": "https://x.com/qiaobenx1angcai/status/2112540911678931400",
+                "edited": false,
+                "position": 1,
+                "message_id": "10550",
+                "tg_user_id": "6577991785",
+                "time": "2026-10-22 00:04:36",
+                "admission_time": "2026-10-22 00:04:36",
+                "list_id": "A",
+                "display_name": "香菜菜qiaobenxiangcai",
+                "admitted_at": "2026-10-22 00:15:41"
+              },
+              {
+                "handle": "qiobnxingcai",
+                "post_id": "2112541510063567329",
+                "original_post_id": "2112541510063567329",
+                "url": "https://x.com/qiobnxingcai/status/2112541510063567329",
+                "edited": false,
+                "position": 2,
+                "message_id": "10549",
+                "tg_user_id": "6256006328",
+                "time": "2026-10-22 00:01:53",
+                "admission_time": "2026-10-22 00:01:53",
+                "list_id": "A",
+                "display_name": "桥本香菜",
+                "admitted_at": "2026-10-22 00:15:41"
+              },
+              {
                 "handle": "bob7078",
                 "post_id": "2112182365485465866",
                 "original_post_id": "2112182365485465866",
                 "url": "https://x.com/bob7078/status/2112182365485465866",
                 "edited": false,
-                "position": 1,
+                "position": 3,
                 "message_id": "10548",
                 "tg_user_id": "1713467304",
                 "time": "2026-10-22 00:00:00",
@@ -135,9 +167,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 1,
-            "count": 1,
-            "roster_capacity": 1,
+            "capacity": 3,
+            "count": 3,
+            "roster_capacity": 3,
             "withdrawn_message_ids": []
           },
           "B": {
@@ -150,17 +182,51 @@
           }
         },
         "assigned_accounts": {
-          "bob7078": "A"
+          "bob7078": "A",
+          "qiobnxingcai": "A",
+          "qiaobenx1angcai": "A"
         },
         "withdrawn_message_ids": [],
         "slots": [
+          {
+            "handle": "qiaobenx1angcai",
+            "post_id": "2112540911678931400",
+            "original_post_id": "2112540911678931400",
+            "url": "https://x.com/qiaobenx1angcai/status/2112540911678931400",
+            "edited": false,
+            "position": 1,
+            "message_id": "10550",
+            "tg_user_id": "6577991785",
+            "time": "2026-10-22 00:04:36",
+            "admission_time": "2026-10-22 00:04:36",
+            "list_id": "A",
+            "display_name": "香菜菜qiaobenxiangcai",
+            "admitted_at": "2026-10-22 00:15:41",
+            "list_position": 1
+          },
+          {
+            "handle": "qiobnxingcai",
+            "post_id": "2112541510063567329",
+            "original_post_id": "2112541510063567329",
+            "url": "https://x.com/qiobnxingcai/status/2112541510063567329",
+            "edited": false,
+            "position": 2,
+            "message_id": "10549",
+            "tg_user_id": "6256006328",
+            "time": "2026-10-22 00:01:53",
+            "admission_time": "2026-10-22 00:01:53",
+            "list_id": "A",
+            "display_name": "桥本香菜",
+            "admitted_at": "2026-10-22 00:15:41",
+            "list_position": 2
+          },
           {
             "handle": "bob7078",
             "post_id": "2112182365485465866",
             "original_post_id": "2112182365485465866",
             "url": "https://x.com/bob7078/status/2112182365485465866",
             "edited": false,
-            "position": 1,
+            "position": 3,
             "message_id": "10548",
             "tg_user_id": "1713467304",
             "time": "2026-10-22 00:00:00",
@@ -168,11 +234,11 @@
             "list_id": "A",
             "display_name": "D先生和C小姐",
             "admitted_at": "2026-10-22 00:00:54",
-            "list_position": 1
+            "list_position": 3
           }
         ],
         "vacant_positions": {},
-        "count": 1,
+        "count": 3,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -201,10 +267,10 @@
     "date": "2026-10-22",
     "groups": {
       "群一": {
-        "digest": "55a694870e3ba82ef33265257a2da94a4cbff954f62158e5ab23baea5e194056",
-        "sourceRevision": 1,
+        "digest": "dd2df67b929fef81d8df2b158c7b691323171ef3dde69ab7bf661d171321b55d",
+        "sourceRevision": 2,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-22T00:00:54.840839+08:00"
+        "acknowledged_at": "2026-10-22T00:15:41.764302+08:00"
       }
     }
   },

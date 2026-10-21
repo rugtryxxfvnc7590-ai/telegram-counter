@@ -198,6 +198,410 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-22 00:00:00",
+        "admission_locked": true,
+        "daily_list_rank": 3,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 3
+      },
+      "qiobnxingcai": {
+        "x_handle": "qiobnxingcai",
+        "check_handle": "qiobnxingcai",
+        "dual_link": false,
+        "promo_handle": "qiobnxingcai",
+        "tg_username": "qiobnxingcaicai",
+        "tg_user_id": 6256006328,
+        "tg_name": "菜菜",
+        "link": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+        "message_text": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+            "handle": "qiobnxingcai",
+            "post_id": "2112541510063567329",
+            "role": "promo",
+            "author_name": "桥本香菜",
+            "followers_count": 663453,
+            "followers_text": "66.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 663452
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 663452
+              },
+              {
+                "source": "status_legacy",
+                "count": 663453
+              },
+              {
+                "source": "profile_v2",
+                "count": 663453
+              }
+            ],
+            "tweet_text": "被按在床上爆炒 ...腿已经软了 好多💦顺着大腿留下来\n@ToBulaer\n\n@ToBuerma\n\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 62,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+            "post_id": "2112541510063567329",
+            "handle": "qiobnxingcai",
+            "source_time": "2026-10-22 00:01:53",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "桥本香菜",
+        "promo_name": "桥本香菜",
+        "followers_count": 663453,
+        "followers_text": "66.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 663452
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 663452
+          },
+          {
+            "source": "status_legacy",
+            "count": 663453
+          },
+          {
+            "source": "profile_v2",
+            "count": 663453
+          }
+        ],
+        "check_followers_count": 663453,
+        "check_followers_text": "66.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 663452
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 663452
+          },
+          {
+            "source": "status_legacy",
+            "count": 663453
+          },
+          {
+            "source": "profile_v2",
+            "count": 663453
+          }
+        ],
+        "tweet_text": "被按在床上爆炒 ...腿已经软了 好多💦顺着大腿留下来\n@ToBulaer\n\n@ToBuerma\n\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 62,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+        "check_url": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+        "promo_post_id": "2112541510063567329",
+        "check_post_id": "2112541510063567329",
+        "chat_id": "-1003891628675",
+        "message_id": 10549,
+        "time": "2026-10-22 00:01:53",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 663453,
+        "qualified_followers_text": "66.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-22 00:01:53",
+        "admission_locked": false,
+        "daily_list_rank": 2,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 2
+      },
+      "qiaobenx1angcai": {
+        "x_handle": "qiaobenx1angcai",
+        "check_handle": "qiaobenx1angcai",
+        "dual_link": false,
+        "promo_handle": "qiaobenx1angcai",
+        "tg_username": "caicaitail",
+        "tg_user_id": 6577991785,
+        "tg_name": "菜 菜的小尾巴",
+        "link": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+        "message_text": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+            "handle": "qiaobenx1angcai",
+            "post_id": "2112540911678931400",
+            "role": "promo",
+            "author_name": "香菜菜qiaobenxiangcai",
+            "followers_count": 119246,
+            "followers_text": "11.9W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 119246
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 119246
+              },
+              {
+                "source": "status_legacy",
+                "count": 119246
+              },
+              {
+                "source": "profile_v2",
+                "count": 119246
+              }
+            ],
+            "tweet_text": "足交店服务的客人居然是认识的人\n可以只插入我的足穴吗?求求你了...不要插进来 老公会发现的...\n@ToBulaer\n\n@ToBuerma\n\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 84,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 84,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 84,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 84,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+            "post_id": "2112540911678931400",
+            "handle": "qiaobenx1angcai",
+            "source_time": "2026-10-22 00:04:36",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "香菜菜qiaobenxiangcai",
+        "promo_name": "香菜菜qiaobenxiangcai",
+        "followers_count": 119246,
+        "followers_text": "11.9W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 119246
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 119246
+          },
+          {
+            "source": "status_legacy",
+            "count": 119246
+          },
+          {
+            "source": "profile_v2",
+            "count": 119246
+          }
+        ],
+        "check_followers_count": 119246,
+        "check_followers_text": "11.9W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 119246
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 119246
+          },
+          {
+            "source": "status_legacy",
+            "count": 119246
+          },
+          {
+            "source": "profile_v2",
+            "count": 119246
+          }
+        ],
+        "tweet_text": "足交店服务的客人居然是认识的人\n可以只插入我的足穴吗?求求你了...不要插进来 老公会发现的...\n@ToBulaer\n\n@ToBuerma\n\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 84,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 84,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 84,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 84,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+        "check_url": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+        "promo_post_id": "2112540911678931400",
+        "check_post_id": "2112540911678931400",
+        "chat_id": "-1003891628675",
+        "message_id": 10550,
+        "time": "2026-10-22 00:04:36",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 119246,
+        "qualified_followers_text": "11.9W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-22 00:04:36",
         "admission_locked": false,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
@@ -406,6 +810,410 @@
         "mutual_eligible": true,
         "eligibility_text": "✅合格",
         "admission_time": "2026-10-22 00:00:00",
+        "admission_locked": true,
+        "daily_list_rank": 3,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 3
+      },
+      "2112541510063567329": {
+        "x_handle": "qiobnxingcai",
+        "check_handle": "qiobnxingcai",
+        "dual_link": false,
+        "promo_handle": "qiobnxingcai",
+        "tg_username": "qiobnxingcaicai",
+        "tg_user_id": 6256006328,
+        "tg_name": "菜菜",
+        "link": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+        "message_text": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+            "handle": "qiobnxingcai",
+            "post_id": "2112541510063567329",
+            "role": "promo",
+            "author_name": "桥本香菜",
+            "followers_count": 663453,
+            "followers_text": "66.3W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 663452
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 663452
+              },
+              {
+                "source": "status_legacy",
+                "count": 663453
+              },
+              {
+                "source": "profile_v2",
+                "count": 663453
+              }
+            ],
+            "tweet_text": "被按在床上爆炒 ...腿已经软了 好多💦顺着大腿留下来\n@ToBulaer\n\n@ToBuerma\n\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 62,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 62,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+            "post_id": "2112541510063567329",
+            "handle": "qiobnxingcai",
+            "source_time": "2026-10-22 00:01:53",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "桥本香菜",
+        "promo_name": "桥本香菜",
+        "followers_count": 663453,
+        "followers_text": "66.3W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 663452
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 663452
+          },
+          {
+            "source": "status_legacy",
+            "count": 663453
+          },
+          {
+            "source": "profile_v2",
+            "count": 663453
+          }
+        ],
+        "check_followers_count": 663453,
+        "check_followers_text": "66.3W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 663452
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 663452
+          },
+          {
+            "source": "status_legacy",
+            "count": 663453
+          },
+          {
+            "source": "profile_v2",
+            "count": 663453
+          }
+        ],
+        "tweet_text": "被按在床上爆炒 ...腿已经软了 好多💦顺着大腿留下来\n@ToBulaer\n\n@ToBuerma\n\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 62,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 62,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+        "check_url": "https://x.com/qiobnxingcai/status/2112541510063567329?s=20",
+        "promo_post_id": "2112541510063567329",
+        "check_post_id": "2112541510063567329",
+        "chat_id": "-1003891628675",
+        "message_id": 10549,
+        "time": "2026-10-22 00:01:53",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 663453,
+        "qualified_followers_text": "66.3W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-22 00:01:53",
+        "admission_locked": false,
+        "daily_list_rank": 2,
+        "daily_list_status": "accepted",
+        "daily_list_batch": "A",
+        "daily_list_batch_position": 2
+      },
+      "2112540911678931400": {
+        "x_handle": "qiaobenx1angcai",
+        "check_handle": "qiaobenx1angcai",
+        "dual_link": false,
+        "promo_handle": "qiaobenx1angcai",
+        "tg_username": "caicaitail",
+        "tg_user_id": 6577991785,
+        "tg_name": "菜 菜的小尾巴",
+        "link": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+        "message_text": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+        "links": [
+          {
+            "order": 1,
+            "url": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+            "handle": "qiaobenx1angcai",
+            "post_id": "2112540911678931400",
+            "role": "promo",
+            "author_name": "香菜菜qiaobenxiangcai",
+            "followers_count": 119246,
+            "followers_text": "11.9W",
+            "followers_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "status_legacy",
+              "profile_v2"
+            ],
+            "followers_observations": [
+              {
+                "source": "status_v2",
+                "count": 119246
+              },
+              {
+                "source": "status_legacy_i",
+                "count": 119246
+              },
+              {
+                "source": "status_legacy",
+                "count": 119246
+              },
+              {
+                "source": "profile_v2",
+                "count": 119246
+              }
+            ],
+            "tweet_text": "足交店服务的客人居然是认识的人\n可以只插入我的足穴吗?求求你了...不要插进来 老公会发现的...\n@ToBulaer\n\n@ToBuerma\n\n@KawasawaSen",
+            "tweet_text_sources": [
+              "status_v2",
+              "status_legacy_i",
+              "vx_status_author",
+              "status_legacy"
+            ],
+            "tweet_text_observations": [
+              {
+                "source": "status_v2",
+                "length": 84,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy_i",
+                "length": 84,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "vx_status_author",
+                "length": 84,
+                "required_mentions_count": 3
+              },
+              {
+                "source": "status_legacy",
+                "length": 84,
+                "required_mentions_count": 3
+              }
+            ],
+            "tweet_text_primary_source": "status_v2",
+            "required_mentions_count": 3
+          }
+        ],
+        "link_options": [
+          {
+            "label": "当前",
+            "url": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+            "post_id": "2112540911678931400",
+            "handle": "qiaobenx1angcai",
+            "source_time": "2026-10-22 00:04:36",
+            "edit_time": ""
+          }
+        ],
+        "x_name": "香菜菜qiaobenxiangcai",
+        "promo_name": "香菜菜qiaobenxiangcai",
+        "followers_count": 119246,
+        "followers_text": "11.9W",
+        "followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 119246
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 119246
+          },
+          {
+            "source": "status_legacy",
+            "count": 119246
+          },
+          {
+            "source": "profile_v2",
+            "count": 119246
+          }
+        ],
+        "check_followers_count": 119246,
+        "check_followers_text": "11.9W",
+        "check_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "check_followers_observations": [
+          {
+            "source": "status_v2",
+            "count": 119246
+          },
+          {
+            "source": "status_legacy_i",
+            "count": 119246
+          },
+          {
+            "source": "status_legacy",
+            "count": 119246
+          },
+          {
+            "source": "profile_v2",
+            "count": 119246
+          }
+        ],
+        "tweet_text": "足交店服务的客人居然是认识的人\n可以只插入我的足穴吗?求求你了...不要插进来 老公会发现的...\n@ToBulaer\n\n@ToBuerma\n\n@KawasawaSen",
+        "tweet_text_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "vx_status_author",
+          "status_legacy"
+        ],
+        "tweet_text_observations": [
+          {
+            "source": "status_v2",
+            "length": 84,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy_i",
+            "length": 84,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "vx_status_author",
+            "length": 84,
+            "required_mentions_count": 3
+          },
+          {
+            "source": "status_legacy",
+            "length": 84,
+            "required_mentions_count": 3
+          }
+        ],
+        "tweet_text_primary_source": "status_v2",
+        "required_mentions_count": 3,
+        "content_eligible": true,
+        "promo_url": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+        "check_url": "https://x.com/qiaobenx1angcai/status/2112540911678931400?s=20",
+        "promo_post_id": "2112540911678931400",
+        "check_post_id": "2112540911678931400",
+        "chat_id": "-1003891628675",
+        "message_id": 10550,
+        "time": "2026-10-22 00:04:36",
+        "after_cutoff": false,
+        "cutoff_time": "",
+        "edited": false,
+        "edit_time": "",
+        "followers_min": 100000,
+        "qualified_followers_count": 119246,
+        "qualified_followers_text": "11.9W",
+        "qualified_followers_sources": [
+          "status_v2",
+          "status_legacy_i",
+          "status_legacy",
+          "profile_v2"
+        ],
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
+        "admission_time": "2026-10-22 00:04:36",
         "admission_locked": false,
         "daily_list_rank": 1,
         "daily_list_status": "accepted",
@@ -434,12 +1242,42 @@
           "A": {
             "slots": [
               {
+                "handle": "qiaobenx1angcai",
+                "post_id": "2112540911678931400",
+                "original_post_id": "2112540911678931400",
+                "url": "https://x.com/qiaobenx1angcai/status/2112540911678931400",
+                "edited": false,
+                "position": 1,
+                "message_id": "10550",
+                "tg_user_id": "6577991785",
+                "time": "2026-10-22 00:04:36",
+                "admission_time": "2026-10-22 00:04:36",
+                "list_id": "A",
+                "display_name": "香菜菜qiaobenxiangcai",
+                "admitted_at": "2026-10-22 00:15:41"
+              },
+              {
+                "handle": "qiobnxingcai",
+                "post_id": "2112541510063567329",
+                "original_post_id": "2112541510063567329",
+                "url": "https://x.com/qiobnxingcai/status/2112541510063567329",
+                "edited": false,
+                "position": 2,
+                "message_id": "10549",
+                "tg_user_id": "6256006328",
+                "time": "2026-10-22 00:01:53",
+                "admission_time": "2026-10-22 00:01:53",
+                "list_id": "A",
+                "display_name": "桥本香菜",
+                "admitted_at": "2026-10-22 00:15:41"
+              },
+              {
                 "handle": "bob7078",
                 "post_id": "2112182365485465866",
                 "original_post_id": "2112182365485465866",
                 "url": "https://x.com/bob7078/status/2112182365485465866",
                 "edited": false,
-                "position": 1,
+                "position": 3,
                 "message_id": "10548",
                 "tg_user_id": "1713467304",
                 "time": "2026-10-22 00:00:00",
@@ -450,9 +1288,9 @@
               }
             ],
             "vacant_positions": {},
-            "capacity": 1,
-            "count": 1,
-            "roster_capacity": 1,
+            "capacity": 3,
+            "count": 3,
+            "roster_capacity": 3,
             "withdrawn_message_ids": []
           },
           "B": {
@@ -465,17 +1303,51 @@
           }
         },
         "assigned_accounts": {
-          "bob7078": "A"
+          "bob7078": "A",
+          "qiobnxingcai": "A",
+          "qiaobenx1angcai": "A"
         },
         "withdrawn_message_ids": [],
         "slots": [
+          {
+            "handle": "qiaobenx1angcai",
+            "post_id": "2112540911678931400",
+            "original_post_id": "2112540911678931400",
+            "url": "https://x.com/qiaobenx1angcai/status/2112540911678931400",
+            "edited": false,
+            "position": 1,
+            "message_id": "10550",
+            "tg_user_id": "6577991785",
+            "time": "2026-10-22 00:04:36",
+            "admission_time": "2026-10-22 00:04:36",
+            "list_id": "A",
+            "display_name": "香菜菜qiaobenxiangcai",
+            "admitted_at": "2026-10-22 00:15:41",
+            "list_position": 1
+          },
+          {
+            "handle": "qiobnxingcai",
+            "post_id": "2112541510063567329",
+            "original_post_id": "2112541510063567329",
+            "url": "https://x.com/qiobnxingcai/status/2112541510063567329",
+            "edited": false,
+            "position": 2,
+            "message_id": "10549",
+            "tg_user_id": "6256006328",
+            "time": "2026-10-22 00:01:53",
+            "admission_time": "2026-10-22 00:01:53",
+            "list_id": "A",
+            "display_name": "桥本香菜",
+            "admitted_at": "2026-10-22 00:15:41",
+            "list_position": 2
+          },
           {
             "handle": "bob7078",
             "post_id": "2112182365485465866",
             "original_post_id": "2112182365485465866",
             "url": "https://x.com/bob7078/status/2112182365485465866",
             "edited": false,
-            "position": 1,
+            "position": 3,
             "message_id": "10548",
             "tg_user_id": "1713467304",
             "time": "2026-10-22 00:00:00",
@@ -483,11 +1355,11 @@
             "list_id": "A",
             "display_name": "D先生和C小姐",
             "admitted_at": "2026-10-22 00:00:54",
-            "list_position": 1
+            "list_position": 3
           }
         ],
         "vacant_positions": {},
-        "count": 1,
+        "count": 3,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60

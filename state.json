@@ -1,13 +1,11 @@
 {
   "date": "2026-10-22",
-  "offset": 364623514,
+  "offset": 364623540,
   "groups": {
     "-1003891628675": {
-      "count": 3,
+      "count": 1,
       "message_ids": [
-        "10548",
-        "10549",
-        "10550"
+        "10548"
       ]
     },
     "-1003218974409": {
@@ -21,7 +19,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-22",
-    "run_at": "2026-10-22 00:15:36",
+    "run_at": "2026-10-22 00:30:42",
     "completed_groups": [
       "群一",
       "群二",
@@ -29,40 +27,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39633095378:1",
-        "checked_at": "2026-10-22 00:15:39",
+        "run_key": "39635357993:1",
+        "checked_at": "2026-10-22 00:30:43",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "39633095378:1",
-        "checked_at": "2026-10-22 00:15:39",
+        "run_key": "39635357993:1",
+        "checked_at": "2026-10-22 00:30:44",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39633095378:1",
-        "checked_at": "2026-10-22 00:15:40",
+        "run_key": "39635357993:1",
+        "checked_at": "2026-10-22 00:30:44",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39633095378:1",
-        "checked_at": "2026-10-22 00:15:39",
+        "run_key": "39635357993:1",
+        "checked_at": "2026-10-22 00:30:43",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "39633095378:1",
-        "checked_at": "2026-10-22 00:15:39",
+        "run_key": "39635357993:1",
+        "checked_at": "2026-10-22 00:30:44",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39633095378:1",
-        "checked_at": "2026-10-22 00:15:40",
+        "run_key": "39635357993:1",
+        "checked_at": "2026-10-22 00:30:44",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -121,36 +119,6 @@
           "A": {
             "slots": [
               {
-                "handle": "qiaobenx1angcai",
-                "post_id": "2112540911678931400",
-                "original_post_id": "2112540911678931400",
-                "url": "https://x.com/qiaobenx1angcai/status/2112540911678931400",
-                "edited": false,
-                "position": 1,
-                "message_id": "10550",
-                "tg_user_id": "6577991785",
-                "time": "2026-10-22 00:04:36",
-                "admission_time": "2026-10-22 00:04:36",
-                "list_id": "A",
-                "display_name": "香菜菜qiaobenxiangcai",
-                "admitted_at": "2026-10-22 00:15:41"
-              },
-              {
-                "handle": "qiobnxingcai",
-                "post_id": "2112541510063567329",
-                "original_post_id": "2112541510063567329",
-                "url": "https://x.com/qiobnxingcai/status/2112541510063567329",
-                "edited": false,
-                "position": 2,
-                "message_id": "10549",
-                "tg_user_id": "6256006328",
-                "time": "2026-10-22 00:01:53",
-                "admission_time": "2026-10-22 00:01:53",
-                "list_id": "A",
-                "display_name": "桥本香菜",
-                "admitted_at": "2026-10-22 00:15:41"
-              },
-              {
                 "handle": "bob7078",
                 "post_id": "2112182365485465866",
                 "original_post_id": "2112182365485465866",
@@ -166,11 +134,21 @@
                 "admitted_at": "2026-10-22 00:00:54"
               }
             ],
-            "vacant_positions": {},
+            "vacant_positions": {
+              "1": "10550",
+              "2": "10549"
+            },
             "capacity": 3,
-            "count": 3,
+            "count": 1,
             "roster_capacity": 3,
-            "withdrawn_message_ids": []
+            "withdrawn_message_ids": [
+              "10549",
+              "10550"
+            ],
+            "vacant_accounts": {
+              "1": "qiaobenx1angcai",
+              "2": "qiobnxingcai"
+            }
           },
           "B": {
             "slots": [],
@@ -182,44 +160,13 @@
           }
         },
         "assigned_accounts": {
-          "bob7078": "A",
-          "qiobnxingcai": "A",
-          "qiaobenx1angcai": "A"
+          "bob7078": "A"
         },
-        "withdrawn_message_ids": [],
+        "withdrawn_message_ids": [
+          "10549",
+          "10550"
+        ],
         "slots": [
-          {
-            "handle": "qiaobenx1angcai",
-            "post_id": "2112540911678931400",
-            "original_post_id": "2112540911678931400",
-            "url": "https://x.com/qiaobenx1angcai/status/2112540911678931400",
-            "edited": false,
-            "position": 1,
-            "message_id": "10550",
-            "tg_user_id": "6577991785",
-            "time": "2026-10-22 00:04:36",
-            "admission_time": "2026-10-22 00:04:36",
-            "list_id": "A",
-            "display_name": "香菜菜qiaobenxiangcai",
-            "admitted_at": "2026-10-22 00:15:41",
-            "list_position": 1
-          },
-          {
-            "handle": "qiobnxingcai",
-            "post_id": "2112541510063567329",
-            "original_post_id": "2112541510063567329",
-            "url": "https://x.com/qiobnxingcai/status/2112541510063567329",
-            "edited": false,
-            "position": 2,
-            "message_id": "10549",
-            "tg_user_id": "6256006328",
-            "time": "2026-10-22 00:01:53",
-            "admission_time": "2026-10-22 00:01:53",
-            "list_id": "A",
-            "display_name": "桥本香菜",
-            "admitted_at": "2026-10-22 00:15:41",
-            "list_position": 2
-          },
           {
             "handle": "bob7078",
             "post_id": "2112182365485465866",
@@ -237,8 +184,11 @@
             "list_position": 3
           }
         ],
-        "vacant_positions": {},
-        "count": 3,
+        "vacant_positions": {
+          "1": "10550",
+          "2": "10549"
+        },
+        "count": 1,
         "capacity": 60,
         "roster_capacity": 60,
         "admission_limit": 60
@@ -267,10 +217,10 @@
     "date": "2026-10-22",
     "groups": {
       "群一": {
-        "digest": "dd2df67b929fef81d8df2b158c7b691323171ef3dde69ab7bf661d171321b55d",
-        "sourceRevision": 2,
+        "digest": "fa678b8e06514cc3913d5799c90dcb8113d99df093cd30bed950196939373ab6",
+        "sourceRevision": 3,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-22T00:15:41.764302+08:00"
+        "acknowledged_at": "2026-10-22T00:30:45.624151+08:00"
       }
     }
   },
@@ -279,124 +229,20 @@
     "groups": {}
   },
   "website_deletions": {
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "groups": {
       "群一": {
-        "9909": {
-          "position": 10,
-          "account": "dsang1874",
-          "postId": "2104248244742353230",
-          "confirmed_at": "2026-10-21 02:45:29"
-        },
-        "9894": {
-          "position": 22,
-          "account": "xiao16877",
-          "postId": "2112443030125088944",
-          "confirmed_at": "2026-10-21 04:43:51"
-        },
-        "9913": {
-          "position": 6,
-          "account": "clares5a",
-          "postId": "2112458330367262939",
-          "confirmed_at": "2026-10-21 05:15:35"
-        },
-        "9912": {
-          "position": 7,
-          "account": "xye9518",
-          "postId": "2104743254730457162",
-          "confirmed_at": "2026-10-21 08:45:34"
-        },
-        "9890": {
-          "position": 26,
-          "account": "laibeinaixiba",
-          "postId": "2110924276429947170",
-          "confirmed_at": "2026-10-21 10:45:25"
-        },
-        "9914": {
-          "position": 5,
-          "account": "xye918",
-          "postId": "2111983879208968377",
-          "confirmed_at": "2026-10-21 11:01:01"
-        },
-        "9908": {
-          "position": 11,
-          "account": "asecresm",
-          "postId": "2112427258250133878",
-          "confirmed_at": "2026-10-21 11:01:01"
-        },
-        "9910": {
-          "position": 9,
-          "account": "pty0808",
-          "postId": "2112448887449690189",
-          "confirmed_at": "2026-10-21 11:15:30"
-        },
-        "9897": {
-          "position": 33,
-          "account": "xiaoqiaots",
-          "postId": "2062923128792326385",
-          "confirmed_at": "2026-10-21 11:45:34"
-        },
-        "9920": {
-          "position": 34,
-          "account": "joragyyy",
-          "postId": "2106382900421959930",
-          "confirmed_at": "2026-10-21 12:45:26"
-        },
-        "9896": {
-          "position": 20,
-          "account": "libalababy",
-          "postId": "2088566401787408615",
-          "confirmed_at": "2026-10-21 14:15:34"
-        },
-        "9911": {
-          "position": 8,
-          "account": "sluttytatia404",
-          "postId": "2109116812671750570",
-          "confirmed_at": "2026-10-21 15:30:34"
-        },
-        "9906": {
-          "position": 14,
-          "account": "chairlfen_cn",
-          "postId": "2083502337692414132",
-          "confirmed_at": "2026-10-21 18:15:35"
-        },
-        "9891": {
-          "position": 25,
-          "account": "qbln9999",
-          "postId": "2087533026809180203",
-          "confirmed_at": "2026-10-21 20:45:32"
-        },
-        "9905": {
-          "position": 15,
-          "account": "shixiaotaone",
-          "postId": "2101913206080061927",
-          "confirmed_at": "2026-10-21 23:15:43"
-        },
-        "9904": {
-          "position": 16,
-          "account": "shixiaotaon",
-          "postId": "2112451390895501613",
-          "confirmed_at": "2026-10-21 23:15:43"
-        },
-        "9900": {
-          "position": 12,
-          "account": "tiaotiaosheep",
-          "postId": "2101158756575068282",
-          "confirmed_at": "2026-10-21 23:30:38"
-        }
-      },
-      "群三": {
-        "7069": {
+        "10550": {
           "position": 1,
-          "account": "violentdesir",
-          "postId": "2112540291018502454",
-          "confirmed_at": "2026-10-21 13:30:37"
+          "account": "qiaobenx1angcai",
+          "postId": "2112540911678931400",
+          "confirmed_at": "2026-10-22 00:30:43"
         },
-        "7068": {
+        "10549": {
           "position": 2,
-          "account": "nnn7sa",
-          "postId": "2110676556641349959",
-          "confirmed_at": "2026-10-21 15:00:47"
+          "account": "qiobnxingcai",
+          "postId": "2112541510063567329",
+          "confirmed_at": "2026-10-22 00:30:43"
         }
       }
     }

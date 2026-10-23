@@ -14,14 +14,15 @@ DEFAULT_HANDLES = ("ToBulaer", "ToBuerma", "KawasawaSen", "BulmaList")
 DEFAULT_ORIGIN = "https://daily-links.guerridodominique142615.workers.dev"
 POLICY_PATH_ENV = "COMMUNITY_MENTIONS_FILE"
 SYNC_PATH = "/api/sync/community-mentions"
+MIN_REQUIRED_MENTIONS = 1
 
 
 def validate_policy(value):
     if not isinstance(value, dict):
         raise ValueError("社区账号设置格式无效")
     handles = value.get("handles")
-    if not isinstance(handles, list) or not 2 <= len(handles) <= 20:
-        raise ValueError("社区账号必须有2–20个")
+    if not isinstance(handles, list) or not 1 <= len(handles) <= 20:
+        raise ValueError("社区账号必须有1–20个")
     normalized = []
     for handle in handles:
         if not isinstance(handle, str) or not re.fullmatch(r"[A-Za-z0-9_]{1,15}", handle):
@@ -30,9 +31,10 @@ def validate_policy(value):
             raise ValueError("社区账号不能重复")
         normalized.append(handle.lower())
     revision = value.get("revision")
-    if type(revision) is not int or revision < 0 or type(value.get("minimum")) is not int or value["minimum"] != 2:
-        raise ValueError("社区账号版本或至少2个账号的规则无效")
-    return {"handles": normalized, "minimum": 2, "revision": revision,
+    # Accept the previous wire format during rollout; matching always uses the new any-one rule.
+    if type(revision) is not int or revision < 0 or type(value.get("minimum")) is not int or value["minimum"] not in (1, 2):
+        raise ValueError("社区账号版本或匹配规则无效")
+    return {"handles": normalized, "minimum": MIN_REQUIRED_MENTIONS, "revision": revision,
             "updatedAt": value.get("updatedAt")}
 
 
@@ -94,7 +96,7 @@ def main():
         # Do not echo request exceptions: they may contain headers or credentials.
         print("社区账号设置同步失败：本轮不收录、不发回复；不会退回旧账号规则。")
         return 1
-    print(f"社区账号设置已读取：版本{policy['revision']}，{len(policy['handles'])}个账号，主推帖至少匹配2个。")
+    print(f"社区账号设置已读取：版本{policy['revision']}，{len(policy['handles'])}个账号，主推帖匹配任意1个即可。")
     return 0
 
 

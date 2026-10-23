@@ -17,7 +17,7 @@ from daily_capacity import GROUP_CHAT_IDS
 
 
 def policy(handles=None, revision=1):
-    return {"handles": handles or ["newone", "newtwo"], "minimum": 2, "revision": revision, "updatedAt": None}
+    return {"handles": handles if handles is not None else ["newone", "newtwo"], "minimum": 1, "revision": revision, "updatedAt": None}
 
 
 class CommunityMentionsTest(unittest.TestCase):
@@ -27,12 +27,17 @@ class CommunityMentionsTest(unittest.TestCase):
 
     def test_validation_rejects_invalid_or_duplicate_policy(self):
         self.assertEqual(validate_policy(policy(["NewOne", "NewTwo"]))["handles"], ["newone", "newtwo"])
-        for value in [None, [], {}, policy(["one"]), policy(["one", "ONE"]), policy(["@one", "two"]),
+        self.assertEqual(validate_policy(policy(["One"]))["handles"], ["one"])
+        for value in [None, [], {}, policy([]), policy(["one", "ONE"]), policy(["@one", "two"]),
                       policy(["bad-name", "two"]), policy(revision=True), policy(revision=-1),
-                      dict(policy(), minimum=1), dict(policy(), minimum=True),
+                      dict(policy(), minimum=0), dict(policy(), minimum=3), dict(policy(), minimum=True),
                       policy(["account"+str(i) for i in range(21)])]:
             with self.subTest(value=value), self.assertRaises(ValueError):
                 validate_policy(value)
+
+    def test_previous_snapshot_keeps_accounts_but_uses_any_one_rule(self):
+        saved = dict(policy(["CustomOne", "CustomTwo"], revision=7), minimum=2)
+        self.assertEqual(validate_policy(saved), dict(saved, handles=["customone", "customtwo"], minimum=1))
 
     def test_signed_fetch_and_atomic_snapshot_used_by_separate_steps(self):
         secret = "test-community-sync-secret-more-than-32"
@@ -71,7 +76,8 @@ class CommunityMentionsTest(unittest.TestCase):
         with patch.object(main, "TARGET_MENTIONS", ("newone", "newtwo")):
             for chat_id in GROUP_CHAT_IDS.values():
                 for text, stale, expected in [("@NEWONE @newtwo", 0, True), ("@ToBulaer @ToBuerma", 4, False),
-                                              ("@newone @newone", 4, False), ("@newone_more @newtwo", 4, False)]:
+                                              ("@newone @newone", 4, True), ("@newone_more @newtwo", 4, True),
+                                              ("@newone_more", 4, False)]:
                     with self.subTest(chat_id=chat_id, text=text):
                         links = [{"role": "promo", "tweet_text": text, "required_mentions_count": stale},
                                  {"role": "check", "tweet_text": "@newone @newtwo", "required_mentions_count": 2}]
@@ -91,7 +97,28 @@ class CommunityMentionsTest(unittest.TestCase):
                 links = [{"role": "promo", "tweet_text": text, "required_mentions_count": 2}]
                 self.assertFalse(main.promo_link_missing_required_mentions(links))
                 self.assertIsNone(main.promo_link_content_eligible(links))
-            self.assertTrue(main.promo_link_content_eligible([{"role": "promo", "tweet_text": "正文"*100+" @newone @newtwo"}]))
+            self.assertTrue(main.promo_link_content_eligible([{"role": "promo", "tweet_text": "正文"*100+" @newone"}]))
+
+    def test_one_to_four_configured_accounts_accept_any_nonempty_subset_in_all_groups(self):
+        for size in range(1, 5):
+            handles = tuple("community"+str(i) for i in range(size))
+            with patch.object(main, "TARGET_MENTIONS", handles):
+                for matched in range(size+1):
+                    for cid in GROUP_CHAT_IDS.values():
+                        text = "正文 " + " ".join("@"+handle.upper() for handle in handles[:matched])
+                        expected = matched > 0
+                        with self.subTest(size=size, matched=matched, group=cid):
+                            links = [{"role": "promo", "tweet_text": text, "required_mentions_count": 0},
+                                     {"role": "check", "tweet_text": "@"+handles[0]}]
+                            self.assertEqual(main.promo_link_content_eligible(links), expected)
+                            self.assertEqual(main.promo_link_missing_required_mentions(links), not expected)
+                            entry = {"chat_id": cid, "tweet_text": text, "x_name": "Member", "followers_count": 200000,
+                                     "followers_sources": ["profile_v2"], "required_mentions_count": 0}
+                            with patch("main.fetch_x_author_meta", return_value={}):
+                                main.enrich_entry_metadata(entry)
+                            self.assertEqual(entry["content_eligible"], expected)
+                            self.assertEqual(entry["mutual_eligible"], expected)
+                            self.assertEqual(entry["required_mentions_count"], matched)
 
     def test_workflow_fetches_policy_before_any_telegram_steps_without_changing_schedule(self):
         workflow = Path(__file__).with_name(".github").joinpath("workflows/run.yml").read_text()

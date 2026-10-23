@@ -717,8 +717,8 @@ class LinkParsingTest(unittest.TestCase):
             "post_id": "111",
             "followers_count": 30000,
             "followers_text": "3W",
-            "tweet_text": "hello @ToBulaer",
-            "required_mentions_count": 1,
+            "tweet_text": "hello @unlisted",
+            "required_mentions_count": 0,
         }]
         msg = {"message_id": 456, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
         registry = {"date": "2026-08-09", "entries": {}, "post_entries": {}}
@@ -778,8 +778,8 @@ class LinkParsingTest(unittest.TestCase):
             "followers_count": 19999,
             "followers_text": "1.9W",
             "followers_sources": ["profile_v2"],
-            "tweet_text": "hello @ToBulaer",
-            "required_mentions_count": 1,
+            "tweet_text": "hello @unlisted",
+            "required_mentions_count": 0,
         }]
         msg = {"message_id": 790, "from": {"id": 123, "username": "tg_user", "first_name": "小王"}}
         registry = {"date": "2026-08-16", "entries": {}, "post_entries": {}}

@@ -15,7 +15,7 @@ from edited_link_receipts import defer_edited_link_reply, _published_slots
 from admission_order import set_admission_time
 from withdrawal_sync import plan_roster
 from daily_roster import admission_slots
-from community_mentions import load_target_mentions
+from community_mentions import MIN_REQUIRED_MENTIONS, load_target_mentions
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
 STATE_FILE = "state.json"
@@ -1145,11 +1145,11 @@ def promo_link_missing_required_mentions(links):
     if not tweet_text:
         return False
     count = count_required_mentions(tweet_text)
-    if count >= 2:
+    if count >= MIN_REQUIRED_MENTIONS:
         return False
     if tweet_text_may_be_truncated(tweet_text, promo_link.get("tweet_text_sources")):
         return False
-    return count < 2
+    return count < MIN_REQUIRED_MENTIONS
 
 
 def promo_link_content_eligible(links):
@@ -1158,7 +1158,7 @@ def promo_link_content_eligible(links):
     if not tweet_text:
         return None
     count = count_required_mentions(tweet_text)
-    if count < 2 and tweet_text_may_be_truncated(tweet_text, promo_link.get("tweet_text_sources")):
+    if count < MIN_REQUIRED_MENTIONS and tweet_text_may_be_truncated(tweet_text, promo_link.get("tweet_text_sources")):
         return None
     return not promo_link_missing_required_mentions(links)
 
@@ -1396,7 +1396,7 @@ def _entry_needs_tweet_verify(entry):
     tweet_text = str((entry or {}).get("tweet_text") or "")
     if not tweet_text:
         return True
-    if count_required_mentions(tweet_text) >= 2:
+    if count_required_mentions(tweet_text) >= MIN_REQUIRED_MENTIONS:
         return False
     return tweet_text_may_be_truncated(tweet_text, (entry or {}).get("tweet_text_sources"))
 
@@ -1499,8 +1499,8 @@ def enrich_entry_metadata(entry):
             changed = True
         content_eligible = (
             None
-            if mention_count < 2 and tweet_text_may_be_truncated(tweet_text, entry.get("tweet_text_sources"))
-            else mention_count >= 2
+            if mention_count < MIN_REQUIRED_MENTIONS and tweet_text_may_be_truncated(tweet_text, entry.get("tweet_text_sources"))
+            else mention_count >= MIN_REQUIRED_MENTIONS
         )
         if entry.get("content_eligible") is not content_eligible:
             entry["content_eligible"] = content_eligible

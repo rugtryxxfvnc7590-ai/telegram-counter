@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "offset": 364623812,
+  "offset": 364623813,
   "groups": {
     "-1003891628675": {
       "count": 0,
@@ -23,7 +23,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-10-23",
-    "run_at": "2026-10-23 14:39:11",
+    "run_at": "2026-10-23 14:45:28",
     "completed_groups": [
       "群一",
       "群二",
@@ -31,40 +31,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39912771264:1",
-        "checked_at": "2026-10-23 14:39:12",
+        "run_key": "39913423776:1",
+        "checked_at": "2026-10-23 14:45:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "39912771264:1",
-        "checked_at": "2026-10-23 14:39:12",
+        "run_key": "39913423776:1",
+        "checked_at": "2026-10-23 14:45:29",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39912771264:1",
-        "checked_at": "2026-10-23 14:39:12",
+        "run_key": "39913423776:1",
+        "checked_at": "2026-10-23 14:45:29",
         "bot_user_id": 8755020155,
-        "confirmed_replies": 0
+        "confirmed_replies": 1
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39912771264:1",
-        "checked_at": "2026-10-23 14:39:12",
+        "run_key": "39913423776:1",
+        "checked_at": "2026-10-23 14:45:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "39912771264:1",
-        "checked_at": "2026-10-23 14:39:12",
+        "run_key": "39913423776:1",
+        "checked_at": "2026-10-23 14:45:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39912771264:1",
-        "checked_at": "2026-10-23 14:39:12",
+        "run_key": "39913423776:1",
+        "checked_at": "2026-10-23 14:45:29",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -106,7 +106,11 @@
           "rule": "missing_mentions",
           "attempts": 1,
           "attempted_at": "2026-10-23 14:39:13",
-          "text": "该链接违规，未@社区账号，不予互推"
+          "text": "该链接违规，未@社区账号，不予互推",
+          "confirmation": "telegram_history",
+          "bot_user_id": 8755020155,
+          "telegram_reply_message_id": 7456,
+          "sent_at": "2026-10-23 14:39:13"
         }
       }
     }

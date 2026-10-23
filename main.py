@@ -15,6 +15,7 @@ from edited_link_receipts import defer_edited_link_reply, _published_slots
 from admission_order import set_admission_time
 from withdrawal_sync import plan_roster
 from daily_roster import admission_slots
+from community_mentions import load_target_mentions
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN").strip() if os.getenv("TELEGRAM_BOT_TOKEN") else None
 STATE_FILE = "state.json"
@@ -29,7 +30,7 @@ GROUP_1_CHAT_ID_FALLBACK = "-1003891628675"
 GROUP_2_CHAT_ID_FALLBACK = "-1003218974409"
 GROUP_3_CHAT_ID_FALLBACK = "-1003739822194"
 LOW_FOLLOWER_REPLY_TEXT = "粉丝数量低于最低互推标准，该链接不予互推！"
-TARGET_MENTIONS = ("ToBulaer", "ToBuerma", "KawasawaSen", "BulmaList")
+TARGET_MENTIONS = load_target_mentions()
 INVALID_MENTIONS_REPLY_TEXT = "该链接违规，未@社区账号，不予互推"
 FULL_TWEET_TEXT_SOURCES = frozenset({"vx_status_v2", "vx_status_i", "vx_status_author"})
 LONG_TEXT_UNCERTAIN_LENGTH = 120
@@ -1143,10 +1144,7 @@ def promo_link_missing_required_mentions(links):
     tweet_text = promo_link.get("tweet_text") or ""
     if not tweet_text:
         return False
-    try:
-        count = int(promo_link.get("required_mentions_count"))
-    except Exception:
-        count = count_required_mentions(tweet_text)
+    count = count_required_mentions(tweet_text)
     if count >= 2:
         return False
     if tweet_text_may_be_truncated(tweet_text, promo_link.get("tweet_text_sources")):
@@ -1159,10 +1157,7 @@ def promo_link_content_eligible(links):
     tweet_text = promo_link.get("tweet_text") or ""
     if not tweet_text:
         return None
-    try:
-        count = int(promo_link.get("required_mentions_count"))
-    except Exception:
-        count = count_required_mentions(tweet_text)
+    count = count_required_mentions(tweet_text)
     if count < 2 and tweet_text_may_be_truncated(tweet_text, promo_link.get("tweet_text_sources")):
         return None
     return not promo_link_missing_required_mentions(links)

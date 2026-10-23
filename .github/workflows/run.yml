@@ -46,6 +46,14 @@ jobs:
       - name: 验证北京时间跨日边界
         run: python -m unittest -v
 
+      - name: 读取网站指定社区账号
+        env:
+          WEBSITE_SYNC_SECRET: ${{ secrets.WEBSITE_SYNC_SECRET }}
+          WEBSITE_SYNC_URL: ${{ vars.WEBSITE_SYNC_URL }}
+        run: |
+          python community_mentions.py --output "$RUNNER_TEMP/community-mentions.json"
+          echo "COMMUNITY_MENTIONS_FILE=$RUNNER_TEMP/community-mentions.json" >> "$GITHUB_ENV"
+
       - name: 运行机器人
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

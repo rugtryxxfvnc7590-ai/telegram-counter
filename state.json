@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-23",
-  "offset": 364623981,
+  "date": "2026-10-24",
+  "offset": 364623982,
   "groups": {
     "-1003891628675": {
       "count": 0,
@@ -11,20 +11,13 @@
       "message_ids": []
     },
     "-1003739822194": {
-      "count": 2,
-      "message_ids": [
-        "7442",
-        "7455"
-      ],
-      "reply_keys": [
-        "7455:missing_mentions",
-        "7442:missing_mentions"
-      ]
+      "count": 0,
+      "message_ids": []
     }
   },
   "group_snapshot_sync": {
-    "date": "2026-10-23",
-    "run_at": "2026-10-23 23:45:41",
+    "date": "2026-10-24",
+    "run_at": "2026-10-24 00:00:52",
     "completed_groups": [
       "群一",
       "群二",
@@ -32,113 +25,55 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39980969010:1",
-        "checked_at": "2026-10-23 23:45:43",
+        "run_key": "39983133092:1",
+        "checked_at": "2026-10-24 00:00:53",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "39980969010:1",
-        "checked_at": "2026-10-23 23:45:43",
+        "run_key": "39983133092:1",
+        "checked_at": "2026-10-24 00:00:53",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39980969010:1",
-        "checked_at": "2026-10-23 23:45:44",
+        "run_key": "39983133092:1",
+        "checked_at": "2026-10-24 00:00:53",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39980969010:1",
-        "checked_at": "2026-10-23 23:45:43",
+        "run_key": "39983133092:1",
+        "checked_at": "2026-10-24 00:00:53",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "39980969010:1",
-        "checked_at": "2026-10-23 23:45:43",
+        "run_key": "39983133092:1",
+        "checked_at": "2026-10-24 00:00:53",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39980969010:1",
-        "checked_at": "2026-10-23 23:45:44",
+        "run_key": "39983133092:1",
+        "checked_at": "2026-10-24 00:00:53",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
     }
   },
   "owner_daily_lists": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "groups": {
       "群一": {
         "batches": {}
-      },
-      "群二": {
-        "sent": true,
-        "sent_at": "2026-10-23 19:00:53",
-        "count": 0,
-        "trigger": "19:00",
-        "limit": 30,
-        "links": [],
-        "slots": [],
-        "message_id": 3625,
-        "owner_chat_id": "8614747348",
-        "text": "群二（10月23日）互推名单，共 0 条\n\n今日没有合格互推链接",
-        "roster_capacity": 0,
-        "vacant_positions": {},
-        "withdrawn_message_ids": []
-      },
-      "群三": {
-        "sent": true,
-        "sent_at": "2026-10-23 19:00:53",
-        "count": 2,
-        "trigger": "19:00",
-        "limit": 30,
-        "links": [
-          "https://x.com/xinxinjjj/status/2112861090828956147",
-          "https://x.com/rourouow/status/2111186551879438800"
-        ],
-        "slots": [
-          {
-            "handle": "xinxinjjj",
-            "post_id": "2112861090828956147",
-            "original_post_id": "2112861090828956147",
-            "url": "https://x.com/xinxinjjj/status/2112861090828956147",
-            "edited": false,
-            "position": 1,
-            "message_id": "7455",
-            "tg_user_id": "1437992083",
-            "time": "2026-10-23 14:36:34",
-            "admission_time": "2026-10-23 14:36:34"
-          },
-          {
-            "handle": "rourouow",
-            "post_id": "2111186551879438800",
-            "original_post_id": "2111186551879438800",
-            "url": "https://x.com/rourouow/status/2111186551879438800",
-            "edited": false,
-            "position": 2,
-            "message_id": "7442",
-            "tg_user_id": "7722665588",
-            "time": "2026-10-23 12:05:59",
-            "admission_time": "2026-10-23 12:05:59"
-          }
-        ],
-        "message_id": 3626,
-        "owner_chat_id": "8614747348",
-        "text": "群三（10月23日）互推名单，共 2 条\n\n1 https://x.com/xinxinjjj/status/2112861090828956147\n\n2 https://x.com/rourouow/status/2111186551879438800",
-        "roster_capacity": 2,
-        "vacant_positions": {},
-        "withdrawn_message_ids": []
       }
     }
   },
   "capacity_replies": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "groups": {
       "群一": {},
       "群二": {},
@@ -146,7 +81,7 @@
     }
   },
   "edited_link_receipts": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "groups": {
       "群一": {},
       "群二": {},
@@ -154,36 +89,15 @@
     }
   },
   "violation_replies": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "groups": {
       "群一": {},
       "群二": {},
-      "群三": {
-        "7455:missing_mentions": {
-          "status": "sent",
-          "message_id": 7455,
-          "rule": "missing_mentions",
-          "attempts": 1,
-          "attempted_at": "2026-10-23 14:39:13",
-          "text": "该链接违规，未@社区账号，不予互推",
-          "confirmation": "telegram_history",
-          "bot_user_id": 8755020155,
-          "telegram_reply_message_id": 7456,
-          "sent_at": "2026-10-23 14:39:13"
-        },
-        "7442:missing_mentions": {
-          "status": "sent",
-          "message_id": 7442,
-          "rule": "missing_mentions",
-          "attempts": 1,
-          "attempted_at": "2026-10-23 16:15:37",
-          "text": "该链接违规，未@社区账号，不予互推"
-        }
-      }
+      "群三": {}
     }
   },
   "replacement_replies": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "groups": {
       "群一": {},
       "群二": {},
@@ -191,7 +105,7 @@
     }
   },
   "daily_rosters": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "groups": {
       "群一": {
         "batch_policy": {
@@ -224,8 +138,7 @@
         "count": 0,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60,
-        "cutoff_finalized": true
+        "admission_limit": 60
       },
       "群二": {
         "slots": [],
@@ -237,80 +150,30 @@
         "admission_limit": 30
       },
       "群三": {
-        "slots": [
-          {
-            "handle": "xinxinjjj",
-            "post_id": "2112861090828956147",
-            "original_post_id": "2112861090828956147",
-            "url": "https://x.com/xinxinjjj/status/2112861090828956147",
-            "edited": false,
-            "position": 1,
-            "message_id": "7455",
-            "tg_user_id": "1437992083",
-            "time": "2026-10-23 14:36:34",
-            "admission_time": "2026-10-23 14:36:34"
-          },
-          {
-            "handle": "rourouow",
-            "post_id": "2111186551879438800",
-            "original_post_id": "2111186551879438800",
-            "url": "https://x.com/rourouow/status/2111186551879438800",
-            "edited": false,
-            "position": 2,
-            "message_id": "7442",
-            "tg_user_id": "7722665588",
-            "time": "2026-10-23 12:05:59",
-            "admission_time": "2026-10-23 12:05:59"
-          }
-        ],
-        "capacity": 2,
+        "slots": [],
+        "capacity": 0,
         "withdrawn_message_ids": [],
         "vacant_positions": {},
-        "roster_capacity": 2,
-        "count": 2,
+        "roster_capacity": 0,
+        "count": 0,
         "admission_limit": 30
       }
     }
   },
   "website_sync": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "groups": {
       "群一": {
-        "digest": "d34a24f2b59e9983b1a7db072bcc149c963fecf6b1a75b4bc2961b2dbd220f68",
+        "digest": "9bc7f34c4c5006582ff0d3d7ceda24ae88b78804ecff22e6efcb27cfdb6d74a8",
         "sourceRevision": 1,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-23T00:00:52.292774+08:00"
-      },
-      "群二": {
-        "digest": "30d5235abe5bab2fefd4aca98f49f86819edb8f68aeeb10de4cbf48ce43ef874",
-        "sourceRevision": 1,
-        "acknowledged": true,
-        "acknowledged_at": "2026-10-23T14:00:49.221733+08:00"
-      },
-      "群三": {
-        "digest": "fcf132cf615c60f48e4c57f6126d4c992ece30642782a4f55b52b6d164a7d958",
-        "sourceRevision": 2,
-        "acknowledged": true,
-        "acknowledged_at": "2026-10-23T16:15:37.532359+08:00"
+        "acknowledged_at": "2026-10-24T00:00:55.099365+08:00"
       }
     }
   },
   "cutoff_announcements": {
-    "date": "2026-10-23",
-    "groups": {
-      "群三": {
-        "status": "failed",
-        "text": "群三（10月23日）截止此条为最后一条（含此条），共 2条\r\n\r\n 野推过的撤销， 再次刷新主页开始转，完毕后核对主页转发数量是否与截止数量 一致 \r\n\r\n✅[点击此主页转发互推](https://x.com/marseanin906771?s=21)\r\n\r\n 1️⃣分段时间转发、务必停留互推人主页（播放视频或浏览图片评论区）避免因刷屏转发机器人行为导致封号 \r\n2️⃣统一19：00转发（根据个人时间安排可自行选择提前转） 最迟于01：00必须转发完毕！ （每日01:00开始检查互推情况） 截止时间后检查各位主页，欢迎监督举！",
-        "count": 2,
-        "count_basis": "admitted_roster",
-        "chat_id": "-1003739822194",
-        "delivery_mode": "reply",
-        "reply_to_message_id": 7455,
-        "attempts": 22,
-        "attempted_at": "2026-10-23 23:45:45",
-        "error": "telegram_400"
-      }
-    }
+    "date": "2026-10-24",
+    "groups": {}
   },
   "website_deletions": {
     "date": "2026-10-22",
@@ -332,7 +195,7 @@
     }
   },
   "batch_notices": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "groups": {
       "群一": {}
     }

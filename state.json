@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "offset": 364623814,
+  "offset": 364623818,
   "groups": {
     "-1003891628675": {
       "count": 0,
@@ -17,13 +17,14 @@
         "7455"
       ],
       "reply_keys": [
-        "7455:missing_mentions"
+        "7455:missing_mentions",
+        "7442:missing_mentions"
       ]
     }
   },
   "group_snapshot_sync": {
     "date": "2026-10-23",
-    "run_at": "2026-10-23 16:00:54",
+    "run_at": "2026-10-23 16:15:34",
     "completed_groups": [
       "群一",
       "群二",
@@ -31,40 +32,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "39921611457:1",
-        "checked_at": "2026-10-23 16:00:55",
+        "run_key": "39923345455:1",
+        "checked_at": "2026-10-23 16:15:35",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "39921611457:1",
-        "checked_at": "2026-10-23 16:00:55",
+        "run_key": "39923345455:1",
+        "checked_at": "2026-10-23 16:15:35",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "39921611457:1",
-        "checked_at": "2026-10-23 16:00:56",
+        "run_key": "39923345455:1",
+        "checked_at": "2026-10-23 16:15:36",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "39921611457:1",
-        "checked_at": "2026-10-23 16:00:55",
+        "run_key": "39923345455:1",
+        "checked_at": "2026-10-23 16:15:35",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "39921611457:1",
-        "checked_at": "2026-10-23 16:00:55",
+        "run_key": "39923345455:1",
+        "checked_at": "2026-10-23 16:15:35",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "39921611457:1",
-        "checked_at": "2026-10-23 16:00:56",
+        "run_key": "39923345455:1",
+        "checked_at": "2026-10-23 16:15:36",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -111,6 +112,14 @@
           "bot_user_id": 8755020155,
           "telegram_reply_message_id": 7456,
           "sent_at": "2026-10-23 14:39:13"
+        },
+        "7442:missing_mentions": {
+          "status": "sent",
+          "message_id": 7442,
+          "rule": "missing_mentions",
+          "attempts": 1,
+          "attempted_at": "2026-10-23 16:15:37",
+          "text": "该链接违规，未@社区账号，不予互推"
         }
       }
     }
@@ -171,23 +180,35 @@
       "群三": {
         "slots": [
           {
+            "handle": "xinxinjjj",
+            "post_id": "2112861090828956147",
+            "original_post_id": "2112861090828956147",
+            "url": "https://x.com/xinxinjjj/status/2112861090828956147",
+            "edited": false,
+            "position": 1,
+            "message_id": "7455",
+            "tg_user_id": "1437992083",
+            "time": "2026-10-23 14:36:34",
+            "admission_time": "2026-10-23 14:36:34"
+          },
+          {
             "handle": "rourouow",
             "post_id": "2111186551879438800",
             "original_post_id": "2111186551879438800",
             "url": "https://x.com/rourouow/status/2111186551879438800",
             "edited": false,
-            "position": 1,
+            "position": 2,
             "message_id": "7442",
             "tg_user_id": "7722665588",
             "time": "2026-10-23 12:05:59",
             "admission_time": "2026-10-23 12:05:59"
           }
         ],
-        "capacity": 1,
+        "capacity": 2,
         "withdrawn_message_ids": [],
         "vacant_positions": {},
-        "roster_capacity": 1,
-        "count": 1,
+        "roster_capacity": 2,
+        "count": 2,
         "admission_limit": 30
       }
     }
@@ -208,10 +229,10 @@
         "acknowledged_at": "2026-10-23T14:00:49.221733+08:00"
       },
       "群三": {
-        "digest": "30e7f3d0d544a7547164f40630872bfc84fa356c7c851b2829396b740d63d4b6",
-        "sourceRevision": 1,
+        "digest": "fcf132cf615c60f48e4c57f6126d4c992ece30642782a4f55b52b6d164a7d958",
+        "sourceRevision": 2,
         "acknowledged": true,
-        "acknowledged_at": "2026-10-23T14:00:49.471691+08:00"
+        "acknowledged_at": "2026-10-23T16:15:37.532359+08:00"
       }
     }
   },

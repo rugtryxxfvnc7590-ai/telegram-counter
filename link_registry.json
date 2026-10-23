@@ -175,8 +175,8 @@
           }
         ],
         "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
+        "required_mentions_count": 0,
+        "content_eligible": false,
         "promo_url": "https://x.com/rourouow/status/2111186551879438800?s=46",
         "check_url": "https://x.com/rourouow/status/2111186551879438800?s=46",
         "promo_post_id": "2111186551879438800",
@@ -197,12 +197,13 @@
           "status_legacy",
           "profile_v2"
         ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
+        "mutual_eligible": false,
+        "eligibility_text": "❌缺少指定@",
         "admission_time": "2026-10-23 12:05:59",
         "admission_locked": true,
-        "daily_list_rank": 1,
-        "daily_list_status": "accepted"
+        "daily_list_rank": 0,
+        "daily_list_status": "ineligible",
+        "ineligible_reason": "missing_required_mentions"
       },
       "xinxinjjj": {
         "x_handle": "xinxinjjj",
@@ -360,8 +361,8 @@
           }
         ],
         "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 0,
-        "content_eligible": false,
+        "required_mentions_count": 1,
+        "content_eligible": true,
         "promo_url": "https://x.com/xinxinjjj/status/2112861090828956147?s=46",
         "check_url": "https://x.com/xinxinjjj/status/2112861090828956147?s=46",
         "promo_post_id": "2112861090828956147",
@@ -381,13 +382,12 @@
           "status_legacy_i",
           "status_legacy"
         ],
-        "mutual_eligible": false,
-        "eligibility_text": "❌缺少指定@",
-        "ineligible_reason": "missing_required_mentions",
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
         "admission_time": "2026-10-23 14:36:34",
         "admission_locked": false,
-        "daily_list_rank": 0,
-        "daily_list_status": "ineligible"
+        "daily_list_rank": 1,
+        "daily_list_status": "accepted"
       }
     }
   },
@@ -566,8 +566,8 @@
           }
         ],
         "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 3,
-        "content_eligible": true,
+        "required_mentions_count": 0,
+        "content_eligible": false,
         "promo_url": "https://x.com/rourouow/status/2111186551879438800?s=46",
         "check_url": "https://x.com/rourouow/status/2111186551879438800?s=46",
         "promo_post_id": "2111186551879438800",
@@ -588,12 +588,13 @@
           "status_legacy",
           "profile_v2"
         ],
-        "mutual_eligible": true,
-        "eligibility_text": "✅合格",
+        "mutual_eligible": false,
+        "eligibility_text": "❌缺少指定@",
         "admission_time": "2026-10-23 12:05:59",
         "admission_locked": true,
-        "daily_list_rank": 1,
-        "daily_list_status": "accepted"
+        "daily_list_rank": 0,
+        "daily_list_status": "ineligible",
+        "ineligible_reason": "missing_required_mentions"
       },
       "2112861090828956147": {
         "x_handle": "xinxinjjj",
@@ -751,8 +752,8 @@
           }
         ],
         "tweet_text_primary_source": "status_v2",
-        "required_mentions_count": 0,
-        "content_eligible": false,
+        "required_mentions_count": 1,
+        "content_eligible": true,
         "promo_url": "https://x.com/xinxinjjj/status/2112861090828956147?s=46",
         "check_url": "https://x.com/xinxinjjj/status/2112861090828956147?s=46",
         "promo_post_id": "2112861090828956147",
@@ -772,13 +773,12 @@
           "status_legacy_i",
           "status_legacy"
         ],
-        "mutual_eligible": false,
-        "eligibility_text": "❌缺少指定@",
-        "ineligible_reason": "missing_required_mentions",
+        "mutual_eligible": true,
+        "eligibility_text": "✅合格",
         "admission_time": "2026-10-23 14:36:34",
         "admission_locked": false,
-        "daily_list_rank": 0,
-        "daily_list_status": "ineligible"
+        "daily_list_rank": 1,
+        "daily_list_status": "accepted"
       }
     }
   },

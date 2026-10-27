@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "entries": {
     "-1003891628675": {},
     "-1003218974409": {},
@@ -16,7 +16,7 @@
     "群三": 30
   },
   "batch_rosters": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "groups": {
       "群一": {
         "batch_policy": {
@@ -49,8 +49,7 @@
         "count": 0,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60,
-        "cutoff_finalized": true
+        "admission_limit": 60
       }
     }
   }

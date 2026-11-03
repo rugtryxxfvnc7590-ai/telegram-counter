@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "offset": 364624864,
   "groups": {
     "-1003891628675": {
@@ -16,8 +16,8 @@
     }
   },
   "group_snapshot_sync": {
-    "date": "2026-11-03",
-    "run_at": "2026-11-03 23:45:42",
+    "date": "2026-11-04",
+    "run_at": "2026-11-04 00:01:02",
     "completed_groups": [
       "群一",
       "群二",
@@ -25,85 +25,55 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "41667132590:1",
-        "checked_at": "2026-11-03 23:45:43",
+        "run_key": "41669694253:1",
+        "checked_at": "2026-11-04 00:01:03",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "41667132590:1",
-        "checked_at": "2026-11-03 23:45:43",
+        "run_key": "41669694253:1",
+        "checked_at": "2026-11-04 00:01:03",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "41667132590:1",
-        "checked_at": "2026-11-03 23:45:43",
+        "run_key": "41669694253:1",
+        "checked_at": "2026-11-04 00:01:03",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "41667132590:1",
-        "checked_at": "2026-11-03 23:45:43",
+        "run_key": "41669694253:1",
+        "checked_at": "2026-11-04 00:01:03",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "41667132590:1",
-        "checked_at": "2026-11-03 23:45:43",
+        "run_key": "41669694253:1",
+        "checked_at": "2026-11-04 00:01:03",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "41667132590:1",
-        "checked_at": "2026-11-03 23:45:43",
+        "run_key": "41669694253:1",
+        "checked_at": "2026-11-04 00:01:03",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
     }
   },
   "owner_daily_lists": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "groups": {
       "群一": {
         "batches": {}
-      },
-      "群二": {
-        "sent": true,
-        "sent_at": "2026-11-03 19:01:07",
-        "count": 0,
-        "trigger": "19:00",
-        "limit": 30,
-        "links": [],
-        "slots": [],
-        "message_id": 3650,
-        "owner_chat_id": "8614747348",
-        "text": "群二（11月3日）互推名单，共 0 条\n\n今日没有合格互推链接",
-        "roster_capacity": 0,
-        "vacant_positions": {},
-        "withdrawn_message_ids": []
-      },
-      "群三": {
-        "sent": true,
-        "sent_at": "2026-11-03 19:01:07",
-        "count": 0,
-        "trigger": "19:00",
-        "limit": 30,
-        "links": [],
-        "slots": [],
-        "message_id": 3651,
-        "owner_chat_id": "8614747348",
-        "text": "群三（11月3日）互推名单，共 0 条\n\n今日没有合格互推链接",
-        "roster_capacity": 0,
-        "vacant_positions": {},
-        "withdrawn_message_ids": []
       }
     }
   },
   "capacity_replies": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "groups": {
       "群一": {},
       "群二": {},
@@ -111,7 +81,7 @@
     }
   },
   "edited_link_receipts": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "groups": {
       "群一": {},
       "群二": {},
@@ -119,7 +89,7 @@
     }
   },
   "violation_replies": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "groups": {
       "群一": {},
       "群二": {},
@@ -127,7 +97,7 @@
     }
   },
   "replacement_replies": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "groups": {
       "群一": {},
       "群二": {},
@@ -135,7 +105,7 @@
     }
   },
   "daily_rosters": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "groups": {
       "群一": {
         "batch_policy": {
@@ -168,8 +138,7 @@
         "count": 0,
         "capacity": 60,
         "roster_capacity": 60,
-        "admission_limit": 60,
-        "cutoff_finalized": true
+        "admission_limit": 60
       },
       "群二": {
         "slots": [],
@@ -192,30 +161,18 @@
     }
   },
   "website_sync": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "groups": {
       "群一": {
-        "digest": "bb13423486f7c03ee3019180e18dbf0f24e35a4d48ea0e3d65f45a86a6b4a2bb",
+        "digest": "6bc6b458d53b4f9f0410934c27cbde174b0d2949b14a0d3a18021bef67d021f4",
         "sourceRevision": 1,
         "acknowledged": true,
-        "acknowledged_at": "2026-11-03T00:01:01.972308+08:00"
-      },
-      "群二": {
-        "digest": "d0b5a7ce8b096051e17e89b0f5c17db3749009103446377b83e39915c156d510",
-        "sourceRevision": 1,
-        "acknowledged": true,
-        "acknowledged_at": "2026-11-03T14:01:08.102129+08:00"
-      },
-      "群三": {
-        "digest": "bd764e0298ad3733d4eeb45066a7ff89a3c1d60786e1b3fed1193ec17dcef4a8",
-        "sourceRevision": 1,
-        "acknowledged": true,
-        "acknowledged_at": "2026-11-03T14:01:08.358469+08:00"
+        "acknowledged_at": "2026-11-04T00:01:04.689050+08:00"
       }
     }
   },
   "cutoff_announcements": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "groups": {}
   },
   "website_deletions": {
@@ -238,7 +195,7 @@
     }
   },
   "batch_notices": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "groups": {
       "群一": {}
     }

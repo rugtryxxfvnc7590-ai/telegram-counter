@@ -17,7 +17,7 @@
   },
   "group_snapshot_sync": {
     "date": "2026-11-14",
-    "run_at": "2026-11-14 13:45:38",
+    "run_at": "2026-11-14 14:00:55",
     "completed_groups": [
       "群一",
       "群二",
@@ -25,40 +25,40 @@
     ],
     "violation_receipt_groups": {
       "群一": {
-        "run_key": "43563033134:1",
-        "checked_at": "2026-11-14 13:45:39",
+        "run_key": "43564198930:1",
+        "checked_at": "2026-11-14 14:00:56",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群二": {
-        "run_key": "43563033134:1",
-        "checked_at": "2026-11-14 13:45:39",
+        "run_key": "43564198930:1",
+        "checked_at": "2026-11-14 14:00:56",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "43563033134:1",
-        "checked_at": "2026-11-14 13:45:39",
+        "run_key": "43564198930:1",
+        "checked_at": "2026-11-14 14:00:56",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群一": {
-        "run_key": "43563033134:1",
-        "checked_at": "2026-11-14 13:45:39",
+        "run_key": "43564198930:1",
+        "checked_at": "2026-11-14 14:00:56",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群二": {
-        "run_key": "43563033134:1",
-        "checked_at": "2026-11-14 13:45:39",
+        "run_key": "43564198930:1",
+        "checked_at": "2026-11-14 14:00:56",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "43563033134:1",
-        "checked_at": "2026-11-14 13:45:39",
+        "run_key": "43564198930:1",
+        "checked_at": "2026-11-14 14:00:56",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -168,6 +168,18 @@
         "sourceRevision": 1,
         "acknowledged": true,
         "acknowledged_at": "2026-11-14T00:01:05.699740+08:00"
+      },
+      "群二": {
+        "digest": "94395fabfa35b4c89c46bf8ad8e703f5cf20ea68d6a2a6f2a350e4af4f49191e",
+        "sourceRevision": 1,
+        "acknowledged": true,
+        "acknowledged_at": "2026-11-14T14:00:57.924883+08:00"
+      },
+      "群三": {
+        "digest": "f64a1ba5280af12f23295457590973de2a0491d776576e3a85b9ad4bfc6daa64",
+        "sourceRevision": 1,
+        "acknowledged": true,
+        "acknowledged_at": "2026-11-14T14:00:58.193899+08:00"
       }
     }
   },

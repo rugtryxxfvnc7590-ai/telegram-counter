@@ -1,12 +1,10 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "entries": {
-    "-1003891628675": {},
     "-1003218974409": {},
     "-1003739822194": {}
   },
   "post_entries": {
-    "-1003891628675": {},
     "-1003218974409": {},
     "-1003739822194": {}
   },
@@ -14,44 +12,5 @@
     "群一": 30,
     "群二": 30,
     "群三": 30
-  },
-  "batch_rosters": {
-    "date": "2026-11-14",
-    "groups": {
-      "群一": {
-        "batch_policy": {
-          "size": 30,
-          "max_batches": 2,
-          "effective_from": "2026-09-28"
-        },
-        "batches": {
-          "A": {
-            "slots": [],
-            "vacant_positions": {},
-            "capacity": 0,
-            "count": 0,
-            "roster_capacity": 0,
-            "withdrawn_message_ids": []
-          },
-          "B": {
-            "slots": [],
-            "vacant_positions": {},
-            "capacity": 0,
-            "count": 0,
-            "roster_capacity": 0,
-            "withdrawn_message_ids": []
-          }
-        },
-        "assigned_accounts": {},
-        "withdrawn_message_ids": [],
-        "slots": [],
-        "vacant_positions": {},
-        "count": 0,
-        "capacity": 60,
-        "roster_capacity": 60,
-        "admission_limit": 60,
-        "cutoff_finalized": true
-      }
-    }
   }
 }

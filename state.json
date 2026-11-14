@@ -1,11 +1,7 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "offset": 364626562,
   "groups": {
-    "-1003891628675": {
-      "count": 0,
-      "message_ids": []
-    },
     "-1003218974409": {
       "count": 0,
       "message_ids": []
@@ -16,148 +12,76 @@
     }
   },
   "group_snapshot_sync": {
-    "date": "2026-11-14",
-    "run_at": "2026-11-14 23:45:38",
+    "date": "2026-11-15",
+    "run_at": "2026-11-15 00:00:52",
     "completed_groups": [
       "群二",
       "群三"
     ],
     "violation_receipt_groups": {
       "群二": {
-        "run_key": "43611855092:1",
-        "checked_at": "2026-11-14 23:45:40",
+        "run_key": "43613203580:1",
+        "checked_at": "2026-11-15 00:00:52",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "43611855092:1",
-        "checked_at": "2026-11-14 23:45:40",
+        "run_key": "43613203580:1",
+        "checked_at": "2026-11-15 00:00:52",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群二": {
-        "run_key": "43611855092:1",
-        "checked_at": "2026-11-14 23:45:40",
+        "run_key": "43613203580:1",
+        "checked_at": "2026-11-15 00:00:52",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "43611855092:1",
-        "checked_at": "2026-11-14 23:45:40",
+        "run_key": "43613203580:1",
+        "checked_at": "2026-11-15 00:00:52",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
     }
   },
   "owner_daily_lists": {
-    "date": "2026-11-14",
-    "groups": {
-      "群一": {
-        "batches": {}
-      },
-      "群二": {
-        "sent": true,
-        "sent_at": "2026-11-14 19:00:52",
-        "count": 0,
-        "trigger": "19:00",
-        "limit": 30,
-        "links": [],
-        "slots": [],
-        "message_id": 3672,
-        "owner_chat_id": "8614747348",
-        "text": "群二（11月14日）互推名单，共 0 条\n\n今日没有合格互推链接",
-        "roster_capacity": 0,
-        "vacant_positions": {},
-        "withdrawn_message_ids": []
-      },
-      "群三": {
-        "sent": true,
-        "sent_at": "2026-11-14 19:00:52",
-        "count": 0,
-        "trigger": "19:00",
-        "limit": 30,
-        "links": [],
-        "slots": [],
-        "message_id": 3673,
-        "owner_chat_id": "8614747348",
-        "text": "群三（11月14日）互推名单，共 0 条\n\n今日没有合格互推链接",
-        "roster_capacity": 0,
-        "vacant_positions": {},
-        "withdrawn_message_ids": []
-      }
-    }
+    "date": "2026-11-15",
+    "groups": {}
   },
   "capacity_replies": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "groups": {
-      "群一": {},
       "群二": {},
       "群三": {}
     }
   },
   "edited_link_receipts": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "groups": {
-      "群一": {},
       "群二": {},
       "群三": {}
     }
   },
   "violation_replies": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "groups": {
-      "群一": {},
       "群二": {},
       "群三": {}
     }
   },
   "replacement_replies": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "groups": {
-      "群一": {},
       "群二": {},
       "群三": {}
     }
   },
   "daily_rosters": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "groups": {
-      "群一": {
-        "batch_policy": {
-          "size": 30,
-          "max_batches": 2,
-          "effective_from": "2026-09-28"
-        },
-        "batches": {
-          "A": {
-            "slots": [],
-            "vacant_positions": {},
-            "capacity": 0,
-            "count": 0,
-            "roster_capacity": 0,
-            "withdrawn_message_ids": []
-          },
-          "B": {
-            "slots": [],
-            "vacant_positions": {},
-            "capacity": 0,
-            "count": 0,
-            "roster_capacity": 0,
-            "withdrawn_message_ids": []
-          }
-        },
-        "assigned_accounts": {},
-        "withdrawn_message_ids": [],
-        "slots": [],
-        "vacant_positions": {},
-        "count": 0,
-        "capacity": 60,
-        "roster_capacity": 60,
-        "admission_limit": 60,
-        "cutoff_finalized": true
-      },
       "群二": {
         "slots": [],
         "capacity": 0,
@@ -202,7 +126,7 @@
     }
   },
   "cutoff_announcements": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "groups": {}
   },
   "website_deletions": {

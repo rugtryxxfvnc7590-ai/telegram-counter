@@ -12,6 +12,7 @@ import unittest
 from unittest.mock import patch
 
 import main
+import community_mentions
 from community_mentions import DEFAULT_HANDLES, POLICY_PATH_ENV, SYNC_PATH, fetch_policy, load_target_mentions, save_policy, validate_policy
 from daily_capacity import GROUP_CHAT_IDS
 
@@ -129,6 +130,20 @@ class CommunityMentionsTest(unittest.TestCase):
             self.assertLess(fetch_at, workflow.index(command))
         self.assertIn('COMMUNITY_MENTIONS_FILE=$RUNNER_TEMP/community-mentions.json', workflow)
         self.assertIn('>> "$GITHUB_ENV"', workflow)
+        self.assertEqual(workflow.count("if: steps.website-policy.outputs.website_only == 'false'"), 5)
+
+    def test_website_only_switch_is_boolean_and_old_website_keeps_collection(self):
+        for payload, expected in [(policy(), "false"), (dict(policy(), websiteOnly=False), "false"),
+                                  (dict(policy(), websiteOnly=True), "true")]:
+            with self.subTest(expected=expected), tempfile.TemporaryDirectory() as directory:
+                snapshot, output = Path(directory)/"policy.json", Path(directory)/"outputs"
+                with patch.object(sys, "argv", ["community_mentions.py", "--output", str(snapshot), "--github-output", str(output)]), \
+                        patch.object(community_mentions, "fetch_policy", return_value=validate_policy(payload)):
+                    self.assertEqual(community_mentions.main(), 0)
+                self.assertEqual(output.read_text(), "website_only=" + expected + "\n")
+                self.assertEqual(json.loads(snapshot.read_text()).get("websiteOnly", False), expected == "true")
+        with self.assertRaises(ValueError):
+            validate_policy(dict(policy(), websiteOnly="false"))
 
 
 if __name__ == "__main__":

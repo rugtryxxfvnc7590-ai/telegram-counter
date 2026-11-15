@@ -34,8 +34,11 @@ def validate_policy(value):
     # Accept the previous wire format during rollout; matching always uses the new any-one rule.
     if type(revision) is not int or revision < 0 or type(value.get("minimum")) is not int or value["minimum"] not in (1, 2):
         raise ValueError("社区账号版本或匹配规则无效")
+    if "websiteOnly" in value and type(value["websiteOnly"]) is not bool:
+        raise ValueError("网站收录模式无效")
     return {"handles": normalized, "minimum": MIN_REQUIRED_MENTIONS, "revision": revision,
-            "updatedAt": value.get("updatedAt")}
+            "updatedAt": value.get("updatedAt"),
+            **({"websiteOnly": value["websiteOnly"]} if "websiteOnly" in value else {})}
 
 
 def load_target_mentions():
@@ -88,15 +91,21 @@ def save_policy(path, policy):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--github-output", type=Path)
     args = parser.parse_args()
     try:
         policy = fetch_policy(os.getenv("WEBSITE_SYNC_SECRET", ""), os.getenv("WEBSITE_SYNC_URL") or DEFAULT_ORIGIN)
         save_policy(args.output, policy)
+        if args.github_output:
+            with args.github_output.open("a", encoding="utf-8") as stream:
+                stream.write("website_only=" + str(policy.get("websiteOnly", False)).lower() + "\n")
     except Exception:
         # Do not echo request exceptions: they may contain headers or credentials.
         print("社区账号设置同步失败：本轮不收录、不发回复；不会退回旧账号规则。")
         return 1
     print(f"社区账号设置已读取：版本{policy['revision']}，{len(policy['handles'])}个账号，主推帖匹配任意1个即可。")
+    if policy.get("websiteOnly"):
+        print("网站投稿已正式启用，本轮不执行旧 Telegram 群收录、名单同步或群通知。")
     return 0
 
 

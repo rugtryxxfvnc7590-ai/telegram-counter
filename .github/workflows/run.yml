@@ -47,14 +47,16 @@ jobs:
         run: python -m unittest -v
 
       - name: 读取网站指定社区账号
+        id: website-policy
         env:
           WEBSITE_SYNC_SECRET: ${{ secrets.WEBSITE_SYNC_SECRET }}
           WEBSITE_SYNC_URL: ${{ vars.WEBSITE_SYNC_URL }}
         run: |
-          python community_mentions.py --output "$RUNNER_TEMP/community-mentions.json"
+          python community_mentions.py --output "$RUNNER_TEMP/community-mentions.json" --github-output "$GITHUB_OUTPUT"
           echo "COMMUNITY_MENTIONS_FILE=$RUNNER_TEMP/community-mentions.json" >> "$GITHUB_ENV"
 
       - name: 运行机器人
+        if: steps.website-policy.outputs.website_only == 'false'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -63,6 +65,7 @@ jobs:
         run: python main.py
 
       - name: 用 Telegram 用户会话补齐今日群消息
+        if: steps.website-policy.outputs.website_only == 'false'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
@@ -71,6 +74,7 @@ jobs:
         run: python sync_group_messages.py
 
       - name: 同步已删除的群消息
+        if: steps.website-policy.outputs.website_only == 'false'
         env:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
@@ -78,6 +82,7 @@ jobs:
         run: python sync_deleted_messages.py
 
       - name: 处理人数上限回复、私信名单与19点群内截止公告
+        if: steps.website-policy.outputs.website_only == 'false'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
@@ -88,6 +93,7 @@ jobs:
         run: python send_daily_lists.py
 
       - name: 提交状态更新
+        if: steps.website-policy.outputs.website_only == 'false'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

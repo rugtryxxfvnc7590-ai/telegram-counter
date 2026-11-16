@@ -1597,11 +1597,10 @@ def main():
             if not data.get("ok"):
                 if inbox is not None and getattr(resp, "status_code", None) == 409:
                     print("即时通知模式：网站中转没有待处理的旧群消息。")
-                    if state.pop("telegram_bridge_ack", None):
-                        save_state(state)
+                    data = {"result": []}
                 else:
                     print("Telegram 轮询不可用，保留现有状态。")
-                return
+                    return
             updates = [(None, update) for update in data.get("result", [])]
             print(f"本次获取到 {len(updates)} 条 Telegram 轮询更新")
 

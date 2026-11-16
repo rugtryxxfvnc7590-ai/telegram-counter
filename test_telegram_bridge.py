@@ -65,3 +65,18 @@ class TelegramBridgeTest(unittest.TestCase):
         self.assertEqual(get_updates.call_args.kwargs["params"]["offset"], 12)
         self.assertEqual(state["offset"], 12)
         self.assertEqual(state["telegram_polled_group_keys"], [polled_group_key(data["result"][0], [CHAT])])
+
+    def test_empty_active_inbox_keeps_legacy_metadata_backfill(self):
+        state = {"offset": 11, "telegram_bridge_ack": ["0000000000000009:1794780000"]}
+        registry = {"entries": {}}
+        with (patch("community_mentions.local_policy", return_value={"telegramInbox": True}),
+              patch.object(main, "BOT_TOKEN", TOKEN), patch.object(main, "load_chat_ids", return_value=[CHAT]),
+              patch.object(main, "load_state", return_value=state), patch.object(main, "load_registry", return_value=registry),
+              patch.object(main, "load_reply_rules", return_value={}),
+              patch.object(main, "backfill_registry_metadata", return_value=0) as backfill,
+              patch("telegram_bridge.pull_group_inbox", return_value=[]),
+              patch.object(main.requests, "get", return_value=Mock(status_code=409, json=lambda: {"ok": False}), create=True),
+              patch.object(main, "save_state"), patch.object(main, "save_registry")):
+            main.main()
+        backfill.assert_called_once_with(registry)
+        self.assertEqual(state, {"offset": 11})

@@ -56,12 +56,14 @@ jobs:
           echo "COMMUNITY_MENTIONS_FILE=$RUNNER_TEMP/community-mentions.json" >> "$GITHUB_ENV"
 
       - name: 运行机器人
-        if: steps.website-policy.outputs.website_only == 'false'
+        if: steps.website-policy.outputs.website_only == 'false' || steps.website-policy.outputs.private_intake == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_CHAT_ID_GROUP1: ${{ secrets.TELEGRAM_CHAT_ID_GROUP1 }}
           TELEGRAM_CHAT_ID_GROUP3: ${{ secrets.TELEGRAM_CHAT_ID_GROUP3 }}
+          WEBSITE_SYNC_SECRET: ${{ secrets.WEBSITE_SYNC_SECRET }}
+          WEBSITE_SYNC_URL: ${{ vars.WEBSITE_SYNC_URL }}
         run: python main.py
 
       - name: 用 Telegram 用户会话补齐今日群消息
@@ -93,7 +95,7 @@ jobs:
         run: python send_daily_lists.py
 
       - name: 提交状态更新
-        if: steps.website-policy.outputs.website_only == 'false'
+        if: steps.website-policy.outputs.website_only == 'false' || steps.website-policy.outputs.private_intake == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

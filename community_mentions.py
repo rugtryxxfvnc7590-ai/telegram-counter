@@ -34,20 +34,24 @@ def validate_policy(value):
     # Accept the previous wire format during rollout; matching always uses the new any-one rule.
     if type(revision) is not int or revision < 0 or type(value.get("minimum")) is not int or value["minimum"] not in (1, 2):
         raise ValueError("社区账号版本或匹配规则无效")
-    if "websiteOnly" in value and type(value["websiteOnly"]) is not bool:
+    switches = ("websiteOnly", "privateIntake")
+    if any(key in value and type(value[key]) is not bool for key in switches):
         raise ValueError("网站收录模式无效")
     return {"handles": normalized, "minimum": MIN_REQUIRED_MENTIONS, "revision": revision,
             "updatedAt": value.get("updatedAt"),
-            **({"websiteOnly": value["websiteOnly"]} if "websiteOnly" in value else {})}
+            **{key: value[key] for key in switches if key in value}}
 
 
-def load_target_mentions():
+def local_policy():
     path = os.getenv(POLICY_PATH_ENV, "")
     if not path:
         # Offline tests and legacy standalone callers retain the original policy.
-        return DEFAULT_HANDLES
-    policy = validate_policy(json.loads(Path(path).read_text(encoding="utf-8")))
-    return tuple(policy["handles"])
+        return {"handles": DEFAULT_HANDLES}
+    return validate_policy(json.loads(Path(path).read_text(encoding="utf-8")))
+
+
+def load_target_mentions():
+    return tuple(local_policy()["handles"])
 
 
 def fetch_policy(secret, origin=DEFAULT_ORIGIN, post=None, timestamp=None, request_id=None):
@@ -99,6 +103,7 @@ def main():
         if args.github_output:
             with args.github_output.open("a", encoding="utf-8") as stream:
                 stream.write("website_only=" + str(policy.get("websiteOnly", False)).lower() + "\n")
+                stream.write("private_intake=" + str(policy.get("privateIntake", False)).lower() + "\n")
     except Exception:
         # Do not echo request exceptions: they may contain headers or credentials.
         print("社区账号设置同步失败：本轮不收录、不发回复；不会退回旧账号规则。")

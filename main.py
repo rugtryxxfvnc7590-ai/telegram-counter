@@ -1557,23 +1557,29 @@ def reply_to_message_once(group_state, chat_id, message_id, reason, text, save_c
 
 
 def main():
+    from community_mentions import local_policy
+    from private_intake import private_envelope, relay_private
     from violation_delivery import deliver_violation_reply
 
-    chat_ids = load_chat_ids()
-    if not chat_ids:
+    policy = local_policy()
+    private_intake = policy.get("privateIntake", False)
+    legacy_enabled = not policy.get("websiteOnly", False)
+    chat_ids = load_chat_ids() if legacy_enabled else []
+    if not chat_ids and not private_intake:
         print("❌ 没读到任何群 ID，请检查 TELEGRAM_CHAT_ID Secret")
         return
 
     print(
         f"监听群: {chat_ids}（群一=TELEGRAM_CHAT_ID_GROUP1，"
-        "群二=TELEGRAM_CHAT_ID，群三=TELEGRAM_CHAT_ID_GROUP3；仅收录，不私信）"
+        "群二=TELEGRAM_CHAT_ID，群三=TELEGRAM_CHAT_ID_GROUP3）"
     )
     state = load_state()
     registry = load_registry()
     reply_rules = load_reply_rules()
 
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
-    params = {"offset": state.get("offset", 0) + 1, "timeout": 10, "allowed_updates": ["message", "edited_message"]}
+    params = {"offset": state.get("offset", 0) + 1, "timeout": 10,
+              "allowed_updates": json.dumps(["message", "edited_message"])}
 
     try:
         resp = requests.get(url, params=params, timeout=15)
@@ -1586,7 +1592,14 @@ def main():
         print(f"本次获取到 {len(updates)} 条更新")
         matched = 0
         for update in updates:
+            private = private_envelope(update, BOT_TOKEN) if private_intake else None
+            if private and not relay_private(private):
+                # The next getUpdates offset must not acknowledge an undelivered DM.
+                print("网站私聊同步暂不可用；未确认的消息保留到下一轮。")
+                break
             state["offset"] = update["update_id"]
+            if private or not legacy_enabled:
+                continue
             msg = update.get("message") or update.get("edited_message")
             is_edited_message = "edited_message" in update
             if not msg or "text" not in msg:
@@ -1705,11 +1718,12 @@ def main():
             ):
                 deliver_violation_reply(state, actual_chat_id, message_id, "missing_mentions", reply_rules, save_callback=lambda: save_state(state))
 
-        enriched = backfill_registry_metadata(registry)
+        enriched = backfill_registry_metadata(registry) if legacy_enabled else 0
         if enriched:
             print(f"✅ 已补齐 X 昵称/粉丝字段: {enriched} 条")
         save_state(state)
-        save_registry(registry)
+        if legacy_enabled:
+            save_registry(registry)
         total = sum(g.get("count", 0) for g in state.get("groups", {}).values())
         reg_n = sum(len(v) for v in registry.get("entries", {}).values())
         print(

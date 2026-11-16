@@ -140,7 +140,7 @@ class CommunityMentionsTest(unittest.TestCase):
                 with patch.object(sys, "argv", ["community_mentions.py", "--output", str(snapshot), "--github-output", str(output)]), \
                         patch.object(community_mentions, "fetch_policy", return_value=validate_policy(payload)):
                     self.assertEqual(community_mentions.main(), 0)
-                self.assertEqual(output.read_text(), "website_only=" + expected + "\n")
+                self.assertEqual(output.read_text(), "website_only=" + expected + "\nprivate_intake=false\n")
                 self.assertEqual(json.loads(snapshot.read_text()).get("websiteOnly", False), expected == "true")
         with self.assertRaises(ValueError):
             validate_policy(dict(policy(), websiteOnly="false"))

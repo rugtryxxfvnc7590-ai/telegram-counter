@@ -1559,6 +1559,7 @@ def reply_to_message_once(group_state, chat_id, message_id, reason, text, save_c
 def main():
     from community_mentions import local_policy
     from private_intake import private_envelope, relay_private
+    from telegram_bridge import polled_group_key, pull_group_inbox
     from violation_delivery import deliver_violation_reply
 
     policy = local_policy()
@@ -1582,22 +1583,48 @@ def main():
               "allowed_updates": json.dumps(["message", "edited_message"])}
 
     try:
-        resp = requests.get(url, params=params, timeout=15)
-        data = resp.json()
-        if not data.get("ok"):
-            print(f"❌ Telegram API 返回错误(getUpdates): {data}")
-            return
+        inbox = None
+        if policy.get("telegramInbox"):
+            inbox = pull_group_inbox(chat_ids, state.get("telegram_bridge_ack", []), BOT_TOKEN)
+            if inbox is None:
+                print("暂未读到网站中转，尝试原 Telegram 轮询。")
+        if inbox:
+            updates = inbox
+            print(f"本次从网站中转获取到 {len(updates)} 条旧群更新")
+        else:
+            resp = requests.get(url, params=params, timeout=15)
+            data = resp.json()
+            if not data.get("ok"):
+                if inbox is not None and getattr(resp, "status_code", None) == 409:
+                    print("即时通知模式：网站中转没有待处理的旧群消息。")
+                    if state.pop("telegram_bridge_ack", None):
+                        save_state(state)
+                else:
+                    print("Telegram 轮询不可用，保留现有状态。")
+                return
+            updates = [(None, update) for update in data.get("result", [])]
+            print(f"本次获取到 {len(updates)} 条 Telegram 轮询更新")
 
-        updates = data.get("result", [])
-        print(f"本次获取到 {len(updates)} 条更新")
+        handled_bridge_keys = []
+        polled_keys = list(state.get("telegram_polled_group_keys", []))
         matched = 0
-        for update in updates:
+        for bridge_key, update in updates:
+            if bridge_key and bridge_key in polled_keys:
+                handled_bridge_keys.append(bridge_key)
+                continue
             private = private_envelope(update, BOT_TOKEN) if private_intake else None
             if private and not relay_private(private):
                 # The next getUpdates offset must not acknowledge an undelivered DM.
                 print("网站私聊同步暂不可用；未确认的消息保留到下一轮。")
                 break
-            state["offset"] = update["update_id"]
+            if bridge_key:
+                handled_bridge_keys.append(bridge_key)
+            else:
+                state["offset"] = update["update_id"]
+                if policy.get("telegramInbox"):
+                    key = polled_group_key(update, chat_ids)
+                    if key and key not in polled_keys:
+                        polled_keys.append(key)
             if private or not legacy_enabled:
                 continue
             msg = update.get("message") or update.get("edited_message")
@@ -1718,6 +1745,13 @@ def main():
             ):
                 deliver_violation_reply(state, actual_chat_id, message_id, "missing_mentions", reply_rules, save_callback=lambda: save_state(state))
 
+        if inbox is not None:
+            if handled_bridge_keys:
+                state["telegram_bridge_ack"] = handled_bridge_keys
+            else:
+                state.pop("telegram_bridge_ack", None)
+        if polled_keys:
+            state["telegram_polled_group_keys"] = polled_keys[-200:]
         enriched = backfill_registry_metadata(registry) if legacy_enabled else 0
         if enriched:
             print(f"✅ 已补齐 X 昵称/粉丝字段: {enriched} 条")

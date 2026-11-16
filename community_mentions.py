@@ -34,7 +34,7 @@ def validate_policy(value):
     # Accept the previous wire format during rollout; matching always uses the new any-one rule.
     if type(revision) is not int or revision < 0 or type(value.get("minimum")) is not int or value["minimum"] not in (1, 2):
         raise ValueError("社区账号版本或匹配规则无效")
-    switches = ("websiteOnly", "privateIntake")
+    switches = ("websiteOnly", "privateIntake", "telegramInbox")
     if any(key in value and type(value[key]) is not bool for key in switches):
         raise ValueError("网站收录模式无效")
     return {"handles": normalized, "minimum": MIN_REQUIRED_MENTIONS, "revision": revision,

@@ -21,7 +21,7 @@ class IntakeDeletionTests(unittest.IsolatedAsyncioTestCase):
             get_permissions=AsyncMock(return_value=SimpleNamespace(has_left=False)),
             get_messages=AsyncMock(return_value=[
                 SimpleNamespace(id=101, message="https://x.com/person/status/1234"),
-                None, SimpleNamespace(id=103, message="https://x.com/return/status/5678", edit_date=1),
+                None, SimpleNamespace(id=103, message="original post link removed", edit_date=1),
             ]))
         call = Mock(return_value={"enabled": True, "chatId": CHAT, "removed": 2})
         result = await module.sync_intake_with_client(client, snapshot(), call)
@@ -35,14 +35,18 @@ class IntakeDeletionTests(unittest.IsolatedAsyncioTestCase):
             get_dialogs=AsyncMock(), get_permissions=AsyncMock(return_value=SimpleNamespace(has_left=False)),
             get_messages=AsyncMock(return_value=[
                 SimpleNamespace(id=101, message="see: https://mobile.x.com/i/status/1234?s=46.", edit_date=1),
-                SimpleNamespace(id=102, message="embedded link", edit_date=1,
-                                entities=[SimpleNamespace(url="https://twitter.com/i/web/status/1235")]),
+                SimpleNamespace(id=102, message="embedded replacement link", edit_date=1,
+                                entities=[SimpleNamespace(url="https://twitter.com/i/web/status/9876")]),
                 SimpleNamespace(id=103, message=None, edit_date=1),
             ]))
         call = Mock()
         self.assertEqual(await module.sync_intake_with_client(client, snapshot(), call), {"checked": 3, "removed": 0})
         call.assert_not_called()
         client.get_dialogs.assert_awaited_once()
+
+    def test_profile_link_alone_is_not_proof_of_withdrawal(self):
+        self.assertTrue(module.has_visible_x_link(SimpleNamespace(message="https://x.com/person?s=46")))
+        self.assertFalse(module.has_visible_x_link(SimpleNamespace(message="https://not-x.example/person")))
 
     async def test_network_error_incomplete_data_or_lost_membership_never_deletes(self):
         for messages, has_left in [(None, False), ([], False), ([None, None], False),

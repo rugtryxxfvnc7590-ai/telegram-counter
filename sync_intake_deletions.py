@@ -13,29 +13,25 @@ from website_sync import DEFAULT_URL, encode_payload, signed_headers
 
 PATH = "/api/sync/intake-group"
 MAX_REFS = 1800  # Two days, three tiers, up to 300 active entries per tier.
+PATCH_SIZE = 20
 X_URL = re.compile(r"https?://[^\s<>\"「」]+", re.IGNORECASE)
-X_POST_PATH = re.compile(r"/(?:[A-Za-z0-9_]{1,15}/status|i/web/status)/([1-9][0-9]{0,24})(?:/(?:photo|video)/[1-4])?/?")
 
 
-def visible_post_ids(message):
+def has_visible_x_link(message):
     text = getattr(message, "message", None)
     if not isinstance(text, str):
         return None
     urls = X_URL.findall(text)
     urls.extend(url for entity in (getattr(message, "entities", None) or [])
                 if isinstance(url := getattr(entity, "url", None), str))
-    ids = set()
     for url in urls:
         try:
             parsed = urlsplit(url.rstrip("]),.，。；！、"))
         except ValueError:
             continue
-        if not re.fullmatch(r"(?:(?:www|mobile)\.)?(?:x|twitter)\.com", parsed.netloc, re.IGNORECASE):
-            continue
-        post = X_POST_PATH.fullmatch(parsed.path)
-        if post:
-            ids.add(post[1])
-    return ids
+        if re.fullmatch(r"(?:(?:www|mobile)\.)?(?:x|twitter)\.com", parsed.netloc, re.IGNORECASE):
+            return True
+    return False
 
 
 def website_call(payload, post=None):
@@ -75,7 +71,7 @@ async def sync_intake_with_client(client, snapshot, call=website_call):
     if not refs:
         return {"checked": 0, "removed": 0}
     ids = sorted({ref["messageId"] for ref in refs})
-    missing, edited = set(), {}
+    removed_messages = set()
     for start in range(0, len(ids), 100):
         batch = ids[start:start + 100]
         messages = await client.get_messages(entity, ids=batch)
@@ -83,18 +79,17 @@ async def sync_intake_with_client(client, snapshot, call=website_call):
             raise RuntimeError("Incomplete message lookup; no deletion sent")
         for mid, message in zip(batch, messages):
             if message is None:
-                missing.add(mid)
+                removed_messages.add(mid)
             elif getattr(message, "id", None) != mid:
                 raise RuntimeError("Message lookup mismatch; no deletion sent")
             elif getattr(message, "edit_date", None) is not None:
-                post_ids = visible_post_ids(message)
-                if post_ids is not None:
-                    edited[mid] = post_ids
-    deleted = [ref for ref in refs if ref["messageId"] in missing or
-               (ref["messageId"] in edited and ref["postId"] not in edited[ref["messageId"]])]
+                # An X link may be a replacement awaiting review, even if it is not a valid post.
+                if has_visible_x_link(message) is False:
+                    removed_messages.add(mid)
+    deleted = [ref for ref in refs if ref["messageId"] in removed_messages]
     removed = 0
-    for start in range(0, len(deleted), 300):
-        patch = deleted[start:start + 300]
+    for start in range(0, len(deleted), PATCH_SIZE):
+        patch = deleted[start:start + PATCH_SIZE]
         response = call({"action": "deleted", "chatId": chat_id, "refs": patch})
         count = response.get("removed")
         if (response.get("enabled") is not True or response.get("chatId") != chat_id

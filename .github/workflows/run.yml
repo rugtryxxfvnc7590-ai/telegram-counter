@@ -116,6 +116,7 @@ jobs:
             done
             echo "::error::状态上传失败，下次运行必须先核对群内已发回复再发送。"
             exit 1
+          fi
 
       - name: 核查新互推群已删除的投稿
         if: ${{ !cancelled() }}
@@ -128,4 +129,3 @@ jobs:
           WEBSITE_SYNC_SECRET: ${{ secrets.WEBSITE_SYNC_SECRET }}
           WEBSITE_SYNC_URL: ${{ vars.WEBSITE_SYNC_URL }}
         run: python sync_intake_deletions.py
-          fi

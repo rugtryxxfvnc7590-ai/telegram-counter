@@ -116,4 +116,16 @@ jobs:
             done
             echo "::error::状态上传失败，下次运行必须先核对群内已发回复再发送。"
             exit 1
+
+      - name: 核查新互推群已删除的投稿
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        timeout-minutes: 2
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_STRING_SESSION: ${{ secrets.TELEGRAM_STRING_SESSION }}
+          WEBSITE_SYNC_SECRET: ${{ secrets.WEBSITE_SYNC_SECRET }}
+          WEBSITE_SYNC_URL: ${{ vars.WEBSITE_SYNC_URL }}
+        run: python sync_intake_deletions.py
           fi

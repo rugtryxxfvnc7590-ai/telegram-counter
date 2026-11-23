@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "offset": 364626569,
   "groups": {
     "-1003218974409": {
@@ -12,106 +12,75 @@
     }
   },
   "group_snapshot_sync": {
-    "date": "2026-11-23",
-    "run_at": "2026-11-23 23:45:32",
+    "date": "2026-11-24",
+    "run_at": "2026-11-24 00:01:05",
     "completed_groups": [
       "群二",
       "群三"
     ],
     "violation_receipt_groups": {
       "群二": {
-        "run_key": "45208735235:1",
-        "checked_at": "2026-11-23 23:45:33",
+        "run_key": "45211562677:1",
+        "checked_at": "2026-11-24 00:01:07",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "45208735235:1",
-        "checked_at": "2026-11-23 23:45:34",
+        "run_key": "45211562677:1",
+        "checked_at": "2026-11-24 00:01:07",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群二": {
-        "run_key": "45208735235:1",
-        "checked_at": "2026-11-23 23:45:33",
+        "run_key": "45211562677:1",
+        "checked_at": "2026-11-24 00:01:07",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "45208735235:1",
-        "checked_at": "2026-11-23 23:45:34",
+        "run_key": "45211562677:1",
+        "checked_at": "2026-11-24 00:01:07",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
     }
   },
   "owner_daily_lists": {
-    "date": "2026-11-23",
-    "groups": {
-      "群二": {
-        "sent": true,
-        "sent_at": "2026-11-23 19:00:52",
-        "count": 0,
-        "trigger": "19:00",
-        "limit": 30,
-        "links": [],
-        "slots": [],
-        "message_id": 3896,
-        "owner_chat_id": "8614747348",
-        "text": "群二（11月23日）互推名单，共 0 条\n\n今日没有合格互推链接",
-        "roster_capacity": 0,
-        "vacant_positions": {},
-        "withdrawn_message_ids": []
-      },
-      "群三": {
-        "sent": true,
-        "sent_at": "2026-11-23 19:00:52",
-        "count": 0,
-        "trigger": "19:00",
-        "limit": 30,
-        "links": [],
-        "slots": [],
-        "message_id": 3897,
-        "owner_chat_id": "8614747348",
-        "text": "群三（11月23日）互推名单，共 0 条\n\n今日没有合格互推链接",
-        "roster_capacity": 0,
-        "vacant_positions": {},
-        "withdrawn_message_ids": []
-      }
-    }
+    "date": "2026-11-24",
+    "groups": {}
   },
   "capacity_replies": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "groups": {
       "群二": {},
       "群三": {}
     }
   },
   "edited_link_receipts": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "groups": {
       "群二": {},
       "群三": {}
     }
   },
   "violation_replies": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "groups": {
       "群二": {},
       "群三": {}
     }
   },
   "replacement_replies": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "groups": {
       "群二": {},
       "群三": {}
     }
   },
   "daily_rosters": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "groups": {
       "群二": {
         "slots": [],
@@ -151,7 +120,7 @@
     }
   },
   "cutoff_announcements": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "groups": {}
   },
   "website_deletions": {

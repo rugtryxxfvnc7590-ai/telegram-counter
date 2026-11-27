@@ -13,35 +13,35 @@
   },
   "group_snapshot_sync": {
     "date": "2026-11-27",
-    "run_at": "2026-11-27 22:45:31",
+    "run_at": "2026-11-27 23:00:53",
     "completed_groups": [
       "群二",
       "群三"
     ],
     "violation_receipt_groups": {
       "群二": {
-        "run_key": "46018737175:1",
-        "checked_at": "2026-11-27 22:45:32",
+        "run_key": "46020997707:1",
+        "checked_at": "2026-11-27 23:00:54",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "46018737175:1",
-        "checked_at": "2026-11-27 22:45:32",
+        "run_key": "46020997707:1",
+        "checked_at": "2026-11-27 23:00:54",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群二": {
-        "run_key": "46018737175:1",
-        "checked_at": "2026-11-27 22:45:32",
+        "run_key": "46020997707:1",
+        "checked_at": "2026-11-27 23:00:54",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "46018737175:1",
-        "checked_at": "2026-11-27 22:45:32",
+        "run_key": "46020997707:1",
+        "checked_at": "2026-11-27 23:00:54",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }

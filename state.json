@@ -13,35 +13,35 @@
   },
   "group_snapshot_sync": {
     "date": "2026-11-28",
-    "run_at": "2026-11-28 13:45:36",
+    "run_at": "2026-11-28 14:00:41",
     "completed_groups": [
       "群二",
       "群三"
     ],
     "violation_receipt_groups": {
       "群二": {
-        "run_key": "46113512594:1",
-        "checked_at": "2026-11-28 13:45:37",
+        "run_key": "46114609204:1",
+        "checked_at": "2026-11-28 14:00:42",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       },
       "群三": {
-        "run_key": "46113512594:1",
-        "checked_at": "2026-11-28 13:45:37",
+        "run_key": "46114609204:1",
+        "checked_at": "2026-11-28 14:00:42",
         "bot_user_id": 8755020155,
         "confirmed_replies": 0
       }
     },
     "cutoff_receipt_groups": {
       "群二": {
-        "run_key": "46113512594:1",
-        "checked_at": "2026-11-28 13:45:37",
+        "run_key": "46114609204:1",
+        "checked_at": "2026-11-28 14:00:42",
         "bot_user_id": 8755020155,
         "confirmed": 0
       },
       "群三": {
-        "run_key": "46113512594:1",
-        "checked_at": "2026-11-28 13:45:37",
+        "run_key": "46114609204:1",
+        "checked_at": "2026-11-28 14:00:42",
         "bot_user_id": 8755020155,
         "confirmed": 0
       }
@@ -103,19 +103,19 @@
     }
   },
   "website_sync": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "groups": {
       "群二": {
-        "digest": "2f1c2e233263a045d627914a72a696ad50da80776943f0dbcc59cfb4af4c4817",
+        "digest": "9064deffe98af103f69446e29910c5a6a48a9b031d78b2177d0a568544aa6bc9",
         "sourceRevision": 1,
         "acknowledged": true,
-        "acknowledged_at": "2026-11-27T14:00:47.049549+08:00"
+        "acknowledged_at": "2026-11-28T14:00:43.348318+08:00"
       },
       "群三": {
-        "digest": "f1317eed24ad5d9c3b7759688463f005078d5c58d37c350987eb9ce0a6be9fb2",
+        "digest": "b3bca91383557bade3eee78ad2667f26a5bdca696a516d96ff1646821daeb523",
         "sourceRevision": 1,
         "acknowledged": true,
-        "acknowledged_at": "2026-11-27T14:00:47.253824+08:00"
+        "acknowledged_at": "2026-11-28T14:00:43.573355+08:00"
       }
     }
   },
